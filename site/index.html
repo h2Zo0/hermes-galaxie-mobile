@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#050b17">
+<title>HERMES — Galaxie vivante</title>
+<link rel="stylesheet" href="./style.css">
+<script src="./app.js" defer></script>
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head>
+<body>
+<div class="shell" id="shell">
+ <canvas id="universe" role="img" aria-label="Galaxie animée de ressources et compétences Hermes"></canvas>
+ <div class="vignette" aria-hidden="true"></div>
+ <div class="topbar">
+  <div class="brand"><div class="brand-mark"><div class="coremark"></div></div>
+    <div><div class="eyebrow">HERMES · UNIVERS EN EXPANSION</div>
+      <h1>Galaxie vivante <span class="star">✦</span></h1></div></div>
+  <div class="live" id="connectionBadge"><span class="pulsedot"></span><span id="connectionText">Lecture des données…</span></div>
+ </div>
+ <section class="stats" aria-label="Mesures authentiques">
+  <div class="metric main-metric"><span class="metric-label">RESSOURCES DÉCOUVERTES</span>
+   <div class="metric-count" id="resourceCount">—</div>
+   <div class="tiny" id="resourceEvolution">Préparation de l'historique…</div>
+  </div>
+  <div class="secondary-metrics">
+   <div class="mini-metric"><div class="metric-label">CAPACITÉS VALIDÉES</div><div class="mini-number" id="verifiedCount">0</div></div>
+   <div class="mini-metric"><div class="metric-label">BÉNÉFICES NETS PROUVÉS</div><div class="mini-number" id="profitCount">0 €</div></div>
+  </div>
+ </section>
+ <div class="right-panel">
+  <div class="panel-title">CONSTELLATIONS <span>4 FAMILLES</span></div>
+  <div class="legend"><span class="orb gh"></span><span>GitHub</span><b id="countGitHub">—</b></div>
+  <div class="legend"><span class="orb mdl"></span><span>Modèles IA</span><b id="countModels">—</b></div>
+  <div class="legend"><span class="orb ds"></span><span>Datasets</span><b id="countDatasets">—</b></div>
+  <div class="legend"><span class="orb sp"></span><span>Spaces</span><b id="countSpaces">—</b></div>
+  <hr>
+  <div class="growth-label">CROISSANCE RÉELLE SUR 24H</div>
+  <div id="status24h" class="growth-value">Historique en cours</div>
+  <div class="faint" id="latestReleve">Mise à jour : attente</div>
+ </div>
+ <div class="crosshair" aria-hidden="true"><span>H</span></div>
+ <div class="bottom-left">
+  <div class="caption-overline">UN RÉSEAU QUI RESPIRE</div>
+  <p>Chaque étoile est une ressource <em>réellement répertoriée</em>. Le mouvement est permanent ; la croissance n'est comptée que lorsque de nouvelles ressources arrivent.</p>
+ </div>
+ <div class="controls" role="group" aria-label="Contrôles de la galaxie">
+  <button type="button" class="control" id="pauseButton" aria-pressed="false" title="Mettre en pause ou reprendre l'animation">Ⅱ <span>Pause</span></button>
+  <button type="button" class="control" id="modeButton" title="Changer de formation">◎ <span>Spirale</span></button>
+  <div class="speed-box"><label for="speedSlider">VITESSE</label><input type="range" id="speedSlider" min="1" max="10" step="1" value="4" aria-label="Vitesse des étoiles"></div>
+  <button type="button" class="control narrow" id="resetButton" title="Recentrer la galaxie">↺</button>
+ </div>
+ <div id="tooltip" class="tooltip" role="status" aria-live="polite" hidden>
+  <div class="tooltip-kind" id="tipType"></div><div class="tooltip-name" id="tipName"></div>
+  <div class="tooltip-small">Ressource référencée, pas encore une compétence validée.</div>
+ </div>
+ <div class="footer">MISSION CLOUD · SANS DÉPENDANCE AU MAC <span class="separator">•</span> ACTUALISATION DES DONNÉES CHAQUE HEURE <span class="separator">•</span> MOUVEMENT CONTINU</div>
+</div>
+</body>
+</html>
