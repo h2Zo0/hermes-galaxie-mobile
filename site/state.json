@@ -1,1 +1,1244 @@
-{"name":"HERMES — GALAXIE VIVANTE","asOf":"2026-10-26T23:15:29+00:00","polledAt":"2026-10-26T23:15:29+00:00","resourceCount":169,"categoryCounts":{"github":88,"models":27,"datasets":27,"spaces":27},"verifiedSkills":0,"netProfitEuro":0.0,"growth24h":null,"history":[{"date":"2026-10-26T22:30:41+01:00","resources":62,"verified":0,"profit":0.0},{"date":"2026-10-27T00:05:59+01:00","resources":62,"verified":0,"profit":0.0},{"date":"2026-10-26T23:15:29+00:00","resources":169,"verified":0,"profit":0.0}],"nodes":[{"id":"datasets:11-47/autonomous-ai-agents-multi-agent-swarms-2026","category":"datasets","name":"11-47/autonomous-ai-agents-multi-agent-swarms-2026","url":"https://huggingface.co/datasets/11-47/autonomous-ai-agents-multi-agent-swarms-2026","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"datasets:Agent-Ark/Toucan-1.5M","category":"datasets","name":"Agent-Ark/Toucan-1.5M","url":"https://huggingface.co/datasets/Agent-Ark/Toucan-1.5M","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"datasets:agentica-org/DeepScaleR-Preview-Dataset","category":"datasets","name":"agentica-org/DeepScaleR-Preview-Dataset","url":"https://huggingface.co/datasets/agentica-org/DeepScaleR-Preview-Dataset","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"datasets:Autonomous-Scientific-Agents/groundtruth","category":"datasets","name":"Autonomous-Scientific-Agents/groundtruth","url":"https://huggingface.co/datasets/Autonomous-Scientific-Agents/groundtruth","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"datasets:Autonomous-Scientific-Agents/results","category":"datasets","name":"Autonomous-Scientific-Agents/results","url":"https://huggingface.co/datasets/Autonomous-Scientific-Agents/results","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"datasets:beatsprom/autonomous-ai-agents-multi-agent-swarms-2026","category":"datasets","name":"beatsprom/autonomous-ai-agents-multi-agent-swarms-2026","url":"https://huggingface.co/datasets/beatsprom/autonomous-ai-agents-multi-agent-swarms-2026","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"datasets:BothBosu/multi-agent-scam-conversation","category":"datasets","name":"BothBosu/multi-agent-scam-conversation","url":"https://huggingface.co/datasets/BothBosu/multi-agent-scam-conversation","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"datasets:CCRss/agents-as-jds-llm-data","category":"datasets","name":"CCRss/agents-as-jds-llm-data","url":"https://huggingface.co/datasets/CCRss/agents-as-jds-llm-data","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"datasets:DeepNLP/embodied-ai-ai-agent","category":"datasets","name":"DeepNLP/embodied-ai-ai-agent","url":"https://huggingface.co/datasets/DeepNLP/embodied-ai-ai-agent","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"datasets:DeepNLP/trip-planning-ai-agent","category":"datasets","name":"DeepNLP/trip-planning-ai-agent","url":"https://huggingface.co/datasets/DeepNLP/trip-planning-ai-agent","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"datasets:hallucinations-leaderboard/results","category":"datasets","name":"hallucinations-leaderboard/results","url":"https://huggingface.co/datasets/hallucinations-leaderboard/results","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"datasets:hf-doc-build/doc-build-dev","category":"datasets","name":"hf-doc-build/doc-build-dev","url":"https://huggingface.co/datasets/hf-doc-build/doc-build-dev","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"datasets:huggingface/documentation-images","category":"datasets","name":"huggingface/documentation-images","url":"https://huggingface.co/datasets/huggingface/documentation-images","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"datasets:JayYz/multi_agent_handoff","category":"datasets","name":"JayYz/multi_agent_handoff","url":"https://huggingface.co/datasets/JayYz/multi_agent_handoff","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"datasets:Lakshan2003/customer_service_client_agent_conversations_40k_multi_task","category":"datasets","name":"Lakshan2003/customer_service_client_agent_conversations_40k_multi_task","url":"https://huggingface.co/datasets/Lakshan2003/customer_service_client_agent_conversations_40k_multi_task","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"datasets:m-a-p/FineFineWeb","category":"datasets","name":"m-a-p/FineFineWeb","url":"https://huggingface.co/datasets/m-a-p/FineFineWeb","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"datasets:nvidia/Nemotron-SFT-Agentic-Finance-v1","category":"datasets","name":"nvidia/Nemotron-SFT-Agentic-Finance-v1","url":"https://huggingface.co/datasets/nvidia/Nemotron-SFT-Agentic-Finance-v1","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"datasets:nvidia/Nemotron-SFT-Agentic-v4","category":"datasets","name":"nvidia/Nemotron-SFT-Agentic-v4","url":"https://huggingface.co/datasets/nvidia/Nemotron-SFT-Agentic-v4","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"datasets:open-llm-leaderboard-old/details_llm-agents__tora-70b-v1.0","category":"datasets","name":"open-llm-leaderboard-old/details_llm-agents__tora-70b-v1.0","url":"https://huggingface.co/datasets/open-llm-leaderboard-old/details_llm-agents__tora-70b-v1.0","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"datasets:open-llm-leaderboard-old/details_llm-agents__tora-code-34b-v1.0","category":"datasets","name":"open-llm-leaderboard-old/details_llm-agents__tora-code-34b-v1.0","url":"https://huggingface.co/datasets/open-llm-leaderboard-old/details_llm-agents__tora-code-34b-v1.0","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"datasets:open-llm-leaderboard-old/details_llm-agents__tora-code-7b-v1.0","category":"datasets","name":"open-llm-leaderboard-old/details_llm-agents__tora-code-7b-v1.0","url":"https://huggingface.co/datasets/open-llm-leaderboard-old/details_llm-agents__tora-code-7b-v1.0","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"datasets:openbmb/UltraData-SFT-Agent-2609","category":"datasets","name":"openbmb/UltraData-SFT-Agent-2609","url":"https://huggingface.co/datasets/openbmb/UltraData-SFT-Agent-2609","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"datasets:Salesforce/wikitext","category":"datasets","name":"Salesforce/wikitext","url":"https://huggingface.co/datasets/Salesforce/wikitext","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"datasets:srinivaspadmanabhuni/agentic-ai-test-checklist-110","category":"datasets","name":"srinivaspadmanabhuni/agentic-ai-test-checklist-110","url":"https://huggingface.co/datasets/srinivaspadmanabhuni/agentic-ai-test-checklist-110","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"datasets:transferable-samplers/many-peptides-md","category":"datasets","name":"transferable-samplers/many-peptides-md","url":"https://huggingface.co/datasets/transferable-samplers/many-peptides-md","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"datasets:ukisai/Qwen3.8-27B-multi-turn-agent-sft","category":"datasets","name":"ukisai/Qwen3.8-27B-multi-turn-agent-sft","url":"https://huggingface.co/datasets/ukisai/Qwen3.8-27B-multi-turn-agent-sft","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"datasets:wegrthj/e94fjt-qi9l-raw","category":"datasets","name":"wegrthj/e94fjt-qi9l-raw","url":"https://huggingface.co/datasets/wegrthj/e94fjt-qi9l-raw","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"github:0xMihirK/hercules-mcp","category":"github","name":"0xMihirK/hercules-mcp","url":"https://github.com/0xMihirK/hercules-mcp","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:255kb/stack-on-a-budget","category":"github","name":"255kb/stack-on-a-budget","url":"https://github.com/255kb/stack-on-a-budget","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"github:abpframework/abp","category":"github","name":"abpframework/abp","url":"https://github.com/abpframework/abp","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"github:activepieces/activepieces","category":"github","name":"activepieces/activepieces","url":"https://github.com/activepieces/activepieces","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:aditibhalla1983/Wayfair-n8n-AI-Agent-Engineering-Externship","category":"github","name":"aditibhalla1983/Wayfair-n8n-AI-Agent-Engineering-Externship","url":"https://github.com/aditibhalla1983/Wayfair-n8n-AI-Agent-Engineering-Externship","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:affaan-m/ECC","category":"github","name":"affaan-m/ECC","url":"https://github.com/affaan-m/ECC","firstSeen":"2026-10-26 21:54:58 CET"},{"id":"github:akaunting/akaunting","category":"github","name":"akaunting/akaunting","url":"https://github.com/akaunting/akaunting","firstSeen":"2026-10-26 21:24:51 CET"},{"id":"github:alpercodes/alms","category":"github","name":"alpercodes/alms","url":"https://github.com/alpercodes/alms","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:ArtemArzi/codex-agent-graphs","category":"github","name":"ArtemArzi/codex-agent-graphs","url":"https://github.com/ArtemArzi/codex-agent-graphs","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:bagisto/bagisto","category":"github","name":"bagisto/bagisto","url":"https://github.com/bagisto/bagisto","firstSeen":"2026-10-26 21:39:54 CET"},{"id":"github:bigcapitalhq/bigcapital","category":"github","name":"bigcapitalhq/bigcapital","url":"https://github.com/bigcapitalhq/bigcapital","firstSeen":"2026-10-26 21:39:26 CET"},{"id":"github:cc2lee/Reveila","category":"github","name":"cc2lee/Reveila","url":"https://github.com/cc2lee/Reveila","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:charawut112-coder/renovation-crm","category":"github","name":"charawut112-coder/renovation-crm","url":"https://github.com/charawut112-coder/renovation-crm","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:claudiom248/quorum","category":"github","name":"claudiom248/quorum","url":"https://github.com/claudiom248/quorum","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:coapis-ai/coapis-agent","category":"github","name":"coapis-ai/coapis-agent","url":"https://github.com/coapis-ai/coapis-agent","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:ComposioHQ/awesome-claude-skills","category":"github","name":"ComposioHQ/awesome-claude-skills","url":"https://github.com/ComposioHQ/awesome-claude-skills","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"github:crewAIInc/crewAI","category":"github","name":"crewAIInc/crewAI","url":"https://github.com/crewAIInc/crewAI","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:D4Vinci/Scrapling","category":"github","name":"D4Vinci/Scrapling","url":"https://github.com/D4Vinci/Scrapling","firstSeen":"2026-10-26 21:24:47 CET"},{"id":"github:dapr/dapr-agents","category":"github","name":"dapr/dapr-agents","url":"https://github.com/dapr/dapr-agents","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:deepseek-ai/deepseek-harness","category":"github","name":"deepseek-ai/deepseek-harness","url":"https://github.com/deepseek-ai/deepseek-harness","firstSeen":"2026-10-26 21:54:58 CET"},{"id":"github:DietrichGebert/ponytail","category":"github","name":"DietrichGebert/ponytail","url":"https://github.com/DietrichGebert/ponytail","firstSeen":"2026-10-26 21:54:58 CET"},{"id":"github:Dolibarr/dolibarr","category":"github","name":"Dolibarr/dolibarr","url":"https://github.com/Dolibarr/dolibarr","firstSeen":"2026-10-26 21:39:26 CET"},{"id":"github:ever-co/ever-gauzy","category":"github","name":"ever-co/ever-gauzy","url":"https://github.com/ever-co/ever-gauzy","firstSeen":"2026-10-26 21:39:26 CET"},{"id":"github:FastFix-SF/ai-agency-for-local-businesses-bay-area","category":"github","name":"FastFix-SF/ai-agency-for-local-businesses-bay-area","url":"https://github.com/FastFix-SF/ai-agency-for-local-businesses-bay-area","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:firecrawl/firecrawl","category":"github","name":"firecrawl/firecrawl","url":"https://github.com/firecrawl/firecrawl","firstSeen":"2026-10-26 21:54:58 CET"},{"id":"github:fr0ster/llm-agent","category":"github","name":"fr0ster/llm-agent","url":"https://github.com/fr0ster/llm-agent","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:frappe/erpnext","category":"github","name":"frappe/erpnext","url":"https://github.com/frappe/erpnext","firstSeen":"2026-10-26 21:24:51 CET"},{"id":"github:FreeSaaSProject/freesaas","category":"github","name":"FreeSaaSProject/freesaas","url":"https://github.com/FreeSaaSProject/freesaas","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:GhulamMustufa/agentic_crm","category":"github","name":"GhulamMustufa/agentic_crm","url":"https://github.com/GhulamMustufa/agentic_crm","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:global-news-platform/global-news-platform","category":"github","name":"global-news-platform/global-news-platform","url":"https://github.com/global-news-platform/global-news-platform","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:hcengineering/platform","category":"github","name":"hcengineering/platform","url":"https://github.com/hcengineering/platform","firstSeen":"2026-10-26 21:24:51 CET"},{"id":"github:idurar/idurar-erp-crm","category":"github","name":"idurar/idurar-erp-crm","url":"https://github.com/idurar/idurar-erp-crm","firstSeen":"2026-10-26 21:39:26 CET"},{"id":"github:IH-Arik/Mabdel","category":"github","name":"IH-Arik/Mabdel","url":"https://github.com/IH-Arik/Mabdel","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:imaqib101/agentic-tool-orchestrator","category":"github","name":"imaqib101/agentic-tool-orchestrator","url":"https://github.com/imaqib101/agentic-tool-orchestrator","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:InvoicePlane/InvoicePlane","category":"github","name":"InvoicePlane/InvoicePlane","url":"https://github.com/InvoicePlane/InvoicePlane","firstSeen":"2026-10-26 21:39:26 CET"},{"id":"github:kelos-dev/kelos","category":"github","name":"kelos-dev/kelos","url":"https://github.com/kelos-dev/kelos","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:kimai/kimai","category":"github","name":"kimai/kimai","url":"https://github.com/kimai/kimai","firstSeen":"2026-10-26 21:39:26 CET"},{"id":"github:krayin/laravel-crm","category":"github","name":"krayin/laravel-crm","url":"https://github.com/krayin/laravel-crm","firstSeen":"2026-10-26 21:24:51 CET"},{"id":"github:kriasoft/react-starter-kit","category":"github","name":"kriasoft/react-starter-kit","url":"https://github.com/kriasoft/react-starter-kit","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"github:KushagraBharti/MonopolyBench","category":"github","name":"KushagraBharti/MonopolyBench","url":"https://github.com/KushagraBharti/MonopolyBench","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:langchain-ai/langchain","category":"github","name":"langchain-ai/langchain","url":"https://github.com/langchain-ai/langchain","firstSeen":"2026-10-26 21:54:58 CET"},{"id":"github:langgenius/dify","category":"github","name":"langgenius/dify","url":"https://github.com/langgenius/dify","firstSeen":"2026-10-26 21:24:47 CET"},{"id":"github:lifeunsubscribe/Sharkrite","category":"github","name":"lifeunsubscribe/Sharkrite","url":"https://github.com/lifeunsubscribe/Sharkrite","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:magento/magento2","category":"github","name":"magento/magento2","url":"https://github.com/magento/magento2","firstSeen":"2026-10-26 21:39:54 CET"},{"id":"github:magnusfroste/flowwink","category":"github","name":"magnusfroste/flowwink","url":"https://github.com/magnusfroste/flowwink","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:medusajs/medusa","category":"github","name":"medusajs/medusa","url":"https://github.com/medusajs/medusa","firstSeen":"2026-10-26 21:39:54 CET"},{"id":"github:melgarafael/DeskcommCRM","category":"github","name":"melgarafael/DeskcommCRM","url":"https://github.com/melgarafael/DeskcommCRM","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:melvinmathew9991/multi-agent-food-concierge-mcp","category":"github","name":"melvinmathew9991/multi-agent-food-concierge-mcp","url":"https://github.com/melvinmathew9991/multi-agent-food-concierge-mcp","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:microsoft/playwright","category":"github","name":"microsoft/playwright","url":"https://github.com/microsoft/playwright","firstSeen":"2026-10-26 21:24:47 CET"},{"id":"github:monicahq/monica","category":"github","name":"monicahq/monica","url":"https://github.com/monicahq/monica","firstSeen":"2026-10-26 21:24:51 CET"},{"id":"github:monoes/mono-agent-src","category":"github","name":"monoes/mono-agent-src","url":"https://github.com/monoes/mono-agent-src","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:morluto/rea","category":"github","name":"morluto/rea","url":"https://github.com/morluto/rea","firstSeen":"2026-10-26 21:54:58 CET"},{"id":"github:MusadiqUrRahman/whaagent","category":"github","name":"MusadiqUrRahman/whaagent","url":"https://github.com/MusadiqUrRahman/whaagent","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:n8n-io/n8n","category":"github","name":"n8n-io/n8n","url":"https://github.com/n8n-io/n8n","firstSeen":"2026-10-26 21:24:47 CET"},{"id":"github:Nexussyn/ai-growth-platform","category":"github","name":"Nexussyn/ai-growth-platform","url":"https://github.com/Nexussyn/ai-growth-platform","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:nocobase/nocobase","category":"github","name":"nocobase/nocobase","url":"https://github.com/nocobase/nocobase","firstSeen":"2026-10-26 21:24:51 CET"},{"id":"github:NousResearch/hermes-agent","category":"github","name":"NousResearch/hermes-agent","url":"https://github.com/NousResearch/hermes-agent","firstSeen":"2026-10-26 21:54:58 CET"},{"id":"github:NVIDIA/NeMo-Relay","category":"github","name":"NVIDIA/NeMo-Relay","url":"https://github.com/NVIDIA/NeMo-Relay","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:OpenByteInc/QuantDinger","category":"github","name":"OpenByteInc/QuantDinger","url":"https://github.com/OpenByteInc/QuantDinger","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"github:Pablo-Cubides/Cubides_bots_public","category":"github","name":"Pablo-Cubides/Cubides_bots_public","url":"https://github.com/Pablo-Cubides/Cubides_bots_public","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:Panniantong/Agent-Reach","category":"github","name":"Panniantong/Agent-Reach","url":"https://github.com/Panniantong/Agent-Reach","firstSeen":"2026-10-26 21:24:47 CET"},{"id":"github:pulseforgeatmns-ops/pulseforge-leadgen","category":"github","name":"pulseforgeatmns-ops/pulseforge-leadgen","url":"https://github.com/pulseforgeatmns-ops/pulseforge-leadgen","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:puppeteer/puppeteer","category":"github","name":"puppeteer/puppeteer","url":"https://github.com/puppeteer/puppeteer","firstSeen":"2026-10-26 21:24:47 CET"},{"id":"github:rahuldhal800-a11y/Buddy-ai-partners-company","category":"github","name":"rahuldhal800-a11y/Buddy-ai-partners-company","url":"https://github.com/rahuldhal800-a11y/Buddy-ai-partners-company","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:reactioncommerce/reaction","category":"github","name":"reactioncommerce/reaction","url":"https://github.com/reactioncommerce/reaction","firstSeen":"2026-10-26 21:39:54 CET"},{"id":"github:richh-s/logi-agent-srs","category":"github","name":"richh-s/logi-agent-srs","url":"https://github.com/richh-s/logi-agent-srs","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:RunaCapital/awesome-oss-alternatives","category":"github","name":"RunaCapital/awesome-oss-alternatives","url":"https://github.com/RunaCapital/awesome-oss-alternatives","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"github:SadekAlSaabari/pr-review-agent","category":"github","name":"SadekAlSaabari/pr-review-agent","url":"https://github.com/SadekAlSaabari/pr-review-agent","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:saleor/saleor","category":"github","name":"saleor/saleor","url":"https://github.com/saleor/saleor","firstSeen":"2026-10-26 21:39:54 CET"},{"id":"github:SarthakRoy-1/FireDrill","category":"github","name":"SarthakRoy-1/FireDrill","url":"https://github.com/SarthakRoy-1/FireDrill","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:spree/spree","category":"github","name":"spree/spree","url":"https://github.com/spree/spree","firstSeen":"2026-10-26 21:39:54 CET"},{"id":"github:stablyai/orca","category":"github","name":"stablyai/orca","url":"https://github.com/stablyai/orca","firstSeen":"2026-10-26 21:24:47 CET"},{"id":"github:stormieperformance/stormie-app","category":"github","name":"stormieperformance/stormie-app","url":"https://github.com/stormieperformance/stormie-app","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:strikersam/autonomous-ai-agency","category":"github","name":"strikersam/autonomous-ai-agency","url":"https://github.com/strikersam/autonomous-ai-agency","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:SurinderTech/Operator_AI","category":"github","name":"SurinderTech/Operator_AI","url":"https://github.com/SurinderTech/Operator_AI","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:swnotmetal/langorder-ai","category":"github","name":"swnotmetal/langorder-ai","url":"https://github.com/swnotmetal/langorder-ai","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:tricodenetwork/ThePoet","category":"github","name":"tricodenetwork/ThePoet","url":"https://github.com/tricodenetwork/ThePoet","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:twentyhq/twenty","category":"github","name":"twentyhq/twenty","url":"https://github.com/twentyhq/twenty","firstSeen":"2026-10-26 21:24:51 CET"},{"id":"github:tyama-ds/agent-workbench","category":"github","name":"tyama-ds/agent-workbench","url":"https://github.com/tyama-ds/agent-workbench","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:UrsushoribilisMusic/agentic-fleet-hub","category":"github","name":"UrsushoribilisMusic/agentic-fleet-hub","url":"https://github.com/UrsushoribilisMusic/agentic-fleet-hub","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:vibhanshu-mishra/pyprocore","category":"github","name":"vibhanshu-mishra/pyprocore","url":"https://github.com/vibhanshu-mishra/pyprocore","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:votal-ai-hq/ai-red-teaming","category":"github","name":"votal-ai-hq/ai-red-teaming","url":"https://github.com/votal-ai-hq/ai-red-teaming","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:vuestorefront/vue-storefront","category":"github","name":"vuestorefront/vue-storefront","url":"https://github.com/vuestorefront/vue-storefront","firstSeen":"2026-10-26 21:39:54 CET"},{"id":"github:vventirozos/AgentGhost","category":"github","name":"vventirozos/AgentGhost","url":"https://github.com/vventirozos/AgentGhost","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:waleedgohar167-Data/AI-Document-Intelligence-Workflow-Automation-Platform","category":"github","name":"waleedgohar167-Data/AI-Document-Intelligence-Workflow-Automation-Platform","url":"https://github.com/waleedgohar167-Data/AI-Document-Intelligence-Workflow-Automation-Platform","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:wasp-lang/open-saas","category":"github","name":"wasp-lang/open-saas","url":"https://github.com/wasp-lang/open-saas","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"github:webspenser/sales-partner","category":"github","name":"webspenser/sales-partner","url":"https://github.com/webspenser/sales-partner","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"github:Zizwar/vibzcode","category":"github","name":"Zizwar/vibzcode","url":"https://github.com/Zizwar/vibzcode","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"models:agentionai/DeepSeek-V4.1-Flash-Skeleton-GGUF","category":"models","name":"agentionai/DeepSeek-V4.1-Flash-Skeleton-GGUF","url":"https://huggingface.co/agentionai/DeepSeek-V4.1-Flash-Skeleton-GGUF","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"models:agentionai/Qwen3.8-27B-AP-GGUF","category":"models","name":"agentionai/Qwen3.8-27B-AP-GGUF","url":"https://huggingface.co/agentionai/Qwen3.8-27B-AP-GGUF","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"models:agentionai/Qwen3.8-Flash-Next-Gyro-abliterated-Huihui-GGUF","category":"models","name":"agentionai/Qwen3.8-Flash-Next-Gyro-abliterated-Huihui-GGUF","url":"https://huggingface.co/agentionai/Qwen3.8-Flash-Next-Gyro-abliterated-Huihui-GGUF","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"models:agentionai/Qwen3.8-Flash-Next-Gyro-Coder-GGUF","category":"models","name":"agentionai/Qwen3.8-Flash-Next-Gyro-Coder-GGUF","url":"https://huggingface.co/agentionai/Qwen3.8-Flash-Next-Gyro-Coder-GGUF","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"models:agentionai/Qwen3.8-Flash-Next-Gyro-GGUF","category":"models","name":"agentionai/Qwen3.8-Flash-Next-Gyro-GGUF","url":"https://huggingface.co/agentionai/Qwen3.8-Flash-Next-Gyro-GGUF","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"models:agentlans/SmolLM2-135M-multilingual-base","category":"models","name":"agentlans/SmolLM2-135M-multilingual-base","url":"https://huggingface.co/agentlans/SmolLM2-135M-multilingual-base","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"models:agents-course/notebooks","category":"models","name":"agents-course/notebooks","url":"https://huggingface.co/agents-course/notebooks","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"models:BAAI/bge-m3","category":"models","name":"BAAI/bge-m3","url":"https://huggingface.co/BAAI/bge-m3","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"models:BAAI/bge-small-en-v1.5","category":"models","name":"BAAI/bge-small-en-v1.5","url":"https://huggingface.co/BAAI/bge-small-en-v1.5","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"models:cross-encoder/ms-marco-MiniLM-L6-v2","category":"models","name":"cross-encoder/ms-marco-MiniLM-L6-v2","url":"https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"models:cyjin-yl/Qwen3.8-27B-Uncensored-Cyber-agentic-imatrix-GGUF","category":"models","name":"cyjin-yl/Qwen3.8-27B-Uncensored-Cyber-agentic-imatrix-GGUF","url":"https://huggingface.co/cyjin-yl/Qwen3.8-27B-Uncensored-Cyber-agentic-imatrix-GGUF","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"models:deadbydawn101/RavenXAiLabs-Chaos-Agent-Qwen3.8-27B-Frontier-Intelligence-Injected-OBLITERATED-GGUF","category":"models","name":"deadbydawn101/RavenXAiLabs-Chaos-Agent-Qwen3.8-27B-Frontier-Intelligence-Injected-OBLITERATED-GGUF","url":"https://huggingface.co/deadbydawn101/RavenXAiLabs-Chaos-Agent-Qwen3.8-27B-Frontier-Intelligence-Injected-OBLITERATED-GGUF","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"models:google-bert/bert-base-uncased","category":"models","name":"google-bert/bert-base-uncased","url":"https://huggingface.co/google-bert/bert-base-uncased","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"models:google/electra-base-discriminator","category":"models","name":"google/electra-base-discriminator","url":"https://huggingface.co/google/electra-base-discriminator","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"models:InternScience/Agents-A1","category":"models","name":"InternScience/Agents-A1","url":"https://huggingface.co/InternScience/Agents-A1","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"models:kaushikvira/DeepSeek-V4.1-Flash-1017-GSQ-agentic-strata","category":"models","name":"kaushikvira/DeepSeek-V4.1-Flash-1017-GSQ-agentic-strata","url":"https://huggingface.co/kaushikvira/DeepSeek-V4.1-Flash-1017-GSQ-agentic-strata","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"models:llm-agents/tora-13b-v1.0","category":"models","name":"llm-agents/tora-13b-v1.0","url":"https://huggingface.co/llm-agents/tora-13b-v1.0","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"models:llm-agents/tora-code-13b-v1.0","category":"models","name":"llm-agents/tora-code-13b-v1.0","url":"https://huggingface.co/llm-agents/tora-code-13b-v1.0","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"models:llm-agents/tora-code-7b-v1.0","category":"models","name":"llm-agents/tora-code-7b-v1.0","url":"https://huggingface.co/llm-agents/tora-code-7b-v1.0","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"models:LLM-OS-Models/Fabliq-8B-Agent-Reasoning","category":"models","name":"LLM-OS-Models/Fabliq-8B-Agent-Reasoning","url":"https://huggingface.co/LLM-OS-Models/Fabliq-8B-Agent-Reasoning","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"models:S4MPL3BI4S/Coding_Decision_Agent","category":"models","name":"S4MPL3BI4S/Coding_Decision_Agent","url":"https://huggingface.co/S4MPL3BI4S/Coding_Decision_Agent","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"models:SaveDollars/autonomous-ai-agents-hub","category":"models","name":"SaveDollars/autonomous-ai-agents-hub","url":"https://huggingface.co/SaveDollars/autonomous-ai-agents-hub","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"models:sentence-transformers/all-MiniLM-L6-v2","category":"models","name":"sentence-transformers/all-MiniLM-L6-v2","url":"https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"models:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2","category":"models","name":"sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2","url":"https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"models:togethercomputer/HybridAgent-14B-Agentic","category":"models","name":"togethercomputer/HybridAgent-14B-Agentic","url":"https://huggingface.co/togethercomputer/HybridAgent-14B-Agentic","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"models:togethercomputer/HybridAgent-8B-Agentic","category":"models","name":"togethercomputer/HybridAgent-8B-Agentic","url":"https://huggingface.co/togethercomputer/HybridAgent-8B-Agentic","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"models:yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF","category":"models","name":"yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF","url":"https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"spaces:AceVikings/repro-learning-human-robot-collaboration-via-heterogeneous-agent-lyapunov-policy-optimizatio","category":"spaces","name":"AceVikings/repro-learning-human-robot-collaboration-via-heterogeneous-agent-lyapunov-policy-optimizatio","url":"https://huggingface.co/spaces/AceVikings/repro-learning-human-robot-collaboration-via-heterogeneous-agent-lyapunov-policy-optimizatio","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"spaces:agents-course/First_agent_template","category":"spaces","name":"agents-course/First_agent_template","url":"https://huggingface.co/spaces/agents-course/First_agent_template","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"spaces:agents-course/Unit_3_Agentic_RAG","category":"spaces","name":"agents-course/Unit_3_Agentic_RAG","url":"https://huggingface.co/spaces/agents-course/Unit_3_Agentic_RAG","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"spaces:Agents-MCP-Hackathon/LLM-GameMaster-MPC-Server","category":"spaces","name":"Agents-MCP-Hackathon/LLM-GameMaster-MPC-Server","url":"https://huggingface.co/spaces/Agents-MCP-Hackathon/LLM-GameMaster-MPC-Server","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"spaces:Annukul/travel-planning-agent","category":"spaces","name":"Annukul/travel-planning-agent","url":"https://huggingface.co/spaces/Annukul/travel-planning-agent","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"spaces:black-forest-labs/FLUX.1-dev","category":"spaces","name":"black-forest-labs/FLUX.1-dev","url":"https://huggingface.co/spaces/black-forest-labs/FLUX.1-dev","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"spaces:bstraehle/multi-agent-ai-autogen-coding","category":"spaces","name":"bstraehle/multi-agent-ai-autogen-coding","url":"https://huggingface.co/spaces/bstraehle/multi-agent-ai-autogen-coding","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"spaces:bstraehle/multi-agent-ai-crewai","category":"spaces","name":"bstraehle/multi-agent-ai-crewai","url":"https://huggingface.co/spaces/bstraehle/multi-agent-ai-crewai","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"spaces:bstraehle/multi-agent-ai-langgraph","category":"spaces","name":"bstraehle/multi-agent-ai-langgraph","url":"https://huggingface.co/spaces/bstraehle/multi-agent-ai-langgraph","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"spaces:dalle-mini/dalle-mini","category":"spaces","name":"dalle-mini/dalle-mini","url":"https://huggingface.co/spaces/dalle-mini/dalle-mini","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"spaces:daniel-kim/daniel-kim-agents-autonomous","category":"spaces","name":"daniel-kim/daniel-kim-agents-autonomous","url":"https://huggingface.co/spaces/daniel-kim/daniel-kim-agents-autonomous","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"spaces:enzostvs/deepsite","category":"spaces","name":"enzostvs/deepsite","url":"https://huggingface.co/spaces/enzostvs/deepsite","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"spaces:Feranmii/financial-planning-agent","category":"spaces","name":"Feranmii/financial-planning-agent","url":"https://huggingface.co/spaces/Feranmii/financial-planning-agent","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"spaces:Firemedic15/repro-ml-agent-reinforcing-llm-agents-for-autonomous-machine-learning-engineering","category":"spaces","name":"Firemedic15/repro-ml-agent-reinforcing-llm-agents-for-autonomous-machine-learning-engineering","url":"https://huggingface.co/spaces/Firemedic15/repro-ml-agent-reinforcing-llm-agents-for-autonomous-machine-learning-engineering","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"spaces:illesc/llm-agents-tora-70b-v1.0","category":"spaces","name":"illesc/llm-agents-tora-70b-v1.0","url":"https://huggingface.co/spaces/illesc/llm-agents-tora-70b-v1.0","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"spaces:jbilcke-hf/ai-comic-factory","category":"spaces","name":"jbilcke-hf/ai-comic-factory","url":"https://huggingface.co/spaces/jbilcke-hf/ai-comic-factory","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"spaces:Kwai-Kolors/Kolors-Virtual-Try-On","category":"spaces","name":"Kwai-Kolors/Kolors-Virtual-Try-On","url":"https://huggingface.co/spaces/Kwai-Kolors/Kolors-Virtual-Try-On","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"spaces:lvwerra/agent-manager-template","category":"spaces","name":"lvwerra/agent-manager-template","url":"https://huggingface.co/spaces/lvwerra/agent-manager-template","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"spaces:mteb/leaderboard","category":"spaces","name":"mteb/leaderboard","url":"https://huggingface.co/spaces/mteb/leaderboard","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"spaces:nep-0/llm-agents-tora-7b-v1.0","category":"spaces","name":"nep-0/llm-agents-tora-7b-v1.0","url":"https://huggingface.co/spaces/nep-0/llm-agents-tora-7b-v1.0","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"spaces:open-llm-leaderboard/open_llm_leaderboard","category":"spaces","name":"open-llm-leaderboard/open_llm_leaderboard","url":"https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard","firstSeen":"2026-10-26 21:23:13 CET"},{"id":"spaces:rajibbhtto/medical-imaging-ai-agent","category":"spaces","name":"rajibbhtto/medical-imaging-ai-agent","url":"https://huggingface.co/spaces/rajibbhtto/medical-imaging-ai-agent","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"spaces:sergiopaniego/train-the-agent-slides","category":"spaces","name":"sergiopaniego/train-the-agent-slides","url":"https://huggingface.co/spaces/sergiopaniego/train-the-agent-slides","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"spaces:smolagents/computer-agent","category":"spaces","name":"smolagents/computer-agent","url":"https://huggingface.co/spaces/smolagents/computer-agent","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"spaces:Srishti280992/repro-effgen-enabling-small-language-models-as-capable-autonomous-agents","category":"spaces","name":"Srishti280992/repro-effgen-enabling-small-language-models-as-capable-autonomous-agents","url":"https://huggingface.co/spaces/Srishti280992/repro-effgen-enabling-small-language-models-as-capable-autonomous-agents","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"spaces:typesdigital/llm-agents-tora-70b-v1.0","category":"spaces","name":"typesdigital/llm-agents-tora-70b-v1.0","url":"https://huggingface.co/spaces/typesdigital/llm-agents-tora-70b-v1.0","firstSeen":"2026-10-26T23:15:29+00:00"},{"id":"spaces:unity/ML-Agents-Pyramids","category":"spaces","name":"unity/ML-Agents-Pyramids","url":"https://huggingface.co/spaces/unity/ML-Agents-Pyramids","firstSeen":"2026-10-26T23:15:29+00:00"}],"disclaimer":"Ressources publiques réellement référencées. Aucun point ne prouve une compétence, un bénéfice ou une action commerciale.","cloud":{"agent":"Éclaireur HERMES","execution":"GitHub Actions","lastMissionAt":"2026-10-26T23:15:29+00:00","missionStatus":"succès","newResources":107,"errors":0,"nextScheduled":"Chaque heure, sous réserve de disponibilité GitHub Actions","machineIndependence":true}}
+{
+  "name": "HERMES — GALAXIE VIVANTE",
+  "asOf": "2026-10-26T23:24:26+00:00",
+  "polledAt": "2026-10-26T23:24:26+00:00",
+  "resourceCount": 170,
+  "categoryCounts": {
+    "github": 89,
+    "models": 27,
+    "datasets": 27,
+    "spaces": 27
+  },
+  "verifiedSkills": 0,
+  "netProfitEuro": 0.0,
+  "growth24h": null,
+  "history": [
+    {
+      "date": "2026-10-26T22:30:41+01:00",
+      "resources": 62,
+      "verified": 0,
+      "profit": 0.0
+    },
+    {
+      "date": "2026-10-27T00:05:59+01:00",
+      "resources": 62,
+      "verified": 0,
+      "profit": 0.0
+    },
+    {
+      "date": "2026-10-26T23:15:29+00:00",
+      "resources": 169,
+      "verified": 0,
+      "profit": 0.0
+    },
+    {
+      "date": "2026-10-26T23:24:26+00:00",
+      "resources": 170,
+      "verified": 0,
+      "profit": 0.0
+    }
+  ],
+  "nodes": [
+    {
+      "id": "datasets:11-47/autonomous-ai-agents-multi-agent-swarms-2026",
+      "category": "datasets",
+      "name": "11-47/autonomous-ai-agents-multi-agent-swarms-2026",
+      "url": "https://huggingface.co/datasets/11-47/autonomous-ai-agents-multi-agent-swarms-2026",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "datasets:Agent-Ark/Toucan-1.5M",
+      "category": "datasets",
+      "name": "Agent-Ark/Toucan-1.5M",
+      "url": "https://huggingface.co/datasets/Agent-Ark/Toucan-1.5M",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "datasets:agentica-org/DeepScaleR-Preview-Dataset",
+      "category": "datasets",
+      "name": "agentica-org/DeepScaleR-Preview-Dataset",
+      "url": "https://huggingface.co/datasets/agentica-org/DeepScaleR-Preview-Dataset",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "datasets:Autonomous-Scientific-Agents/groundtruth",
+      "category": "datasets",
+      "name": "Autonomous-Scientific-Agents/groundtruth",
+      "url": "https://huggingface.co/datasets/Autonomous-Scientific-Agents/groundtruth",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "datasets:Autonomous-Scientific-Agents/results",
+      "category": "datasets",
+      "name": "Autonomous-Scientific-Agents/results",
+      "url": "https://huggingface.co/datasets/Autonomous-Scientific-Agents/results",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "datasets:beatsprom/autonomous-ai-agents-multi-agent-swarms-2026",
+      "category": "datasets",
+      "name": "beatsprom/autonomous-ai-agents-multi-agent-swarms-2026",
+      "url": "https://huggingface.co/datasets/beatsprom/autonomous-ai-agents-multi-agent-swarms-2026",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "datasets:BothBosu/multi-agent-scam-conversation",
+      "category": "datasets",
+      "name": "BothBosu/multi-agent-scam-conversation",
+      "url": "https://huggingface.co/datasets/BothBosu/multi-agent-scam-conversation",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "datasets:CCRss/agents-as-jds-llm-data",
+      "category": "datasets",
+      "name": "CCRss/agents-as-jds-llm-data",
+      "url": "https://huggingface.co/datasets/CCRss/agents-as-jds-llm-data",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "datasets:DeepNLP/embodied-ai-ai-agent",
+      "category": "datasets",
+      "name": "DeepNLP/embodied-ai-ai-agent",
+      "url": "https://huggingface.co/datasets/DeepNLP/embodied-ai-ai-agent",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "datasets:DeepNLP/trip-planning-ai-agent",
+      "category": "datasets",
+      "name": "DeepNLP/trip-planning-ai-agent",
+      "url": "https://huggingface.co/datasets/DeepNLP/trip-planning-ai-agent",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "datasets:hallucinations-leaderboard/results",
+      "category": "datasets",
+      "name": "hallucinations-leaderboard/results",
+      "url": "https://huggingface.co/datasets/hallucinations-leaderboard/results",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "datasets:hf-doc-build/doc-build-dev",
+      "category": "datasets",
+      "name": "hf-doc-build/doc-build-dev",
+      "url": "https://huggingface.co/datasets/hf-doc-build/doc-build-dev",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "datasets:huggingface/documentation-images",
+      "category": "datasets",
+      "name": "huggingface/documentation-images",
+      "url": "https://huggingface.co/datasets/huggingface/documentation-images",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "datasets:JayYz/multi_agent_handoff",
+      "category": "datasets",
+      "name": "JayYz/multi_agent_handoff",
+      "url": "https://huggingface.co/datasets/JayYz/multi_agent_handoff",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "datasets:Lakshan2003/customer_service_client_agent_conversations_40k_multi_task",
+      "category": "datasets",
+      "name": "Lakshan2003/customer_service_client_agent_conversations_40k_multi_task",
+      "url": "https://huggingface.co/datasets/Lakshan2003/customer_service_client_agent_conversations_40k_multi_task",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "datasets:m-a-p/FineFineWeb",
+      "category": "datasets",
+      "name": "m-a-p/FineFineWeb",
+      "url": "https://huggingface.co/datasets/m-a-p/FineFineWeb",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "datasets:nvidia/Nemotron-SFT-Agentic-Finance-v1",
+      "category": "datasets",
+      "name": "nvidia/Nemotron-SFT-Agentic-Finance-v1",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-SFT-Agentic-Finance-v1",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "datasets:nvidia/Nemotron-SFT-Agentic-v4",
+      "category": "datasets",
+      "name": "nvidia/Nemotron-SFT-Agentic-v4",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-SFT-Agentic-v4",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "datasets:open-llm-leaderboard-old/details_llm-agents__tora-70b-v1.0",
+      "category": "datasets",
+      "name": "open-llm-leaderboard-old/details_llm-agents__tora-70b-v1.0",
+      "url": "https://huggingface.co/datasets/open-llm-leaderboard-old/details_llm-agents__tora-70b-v1.0",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "datasets:open-llm-leaderboard-old/details_llm-agents__tora-code-34b-v1.0",
+      "category": "datasets",
+      "name": "open-llm-leaderboard-old/details_llm-agents__tora-code-34b-v1.0",
+      "url": "https://huggingface.co/datasets/open-llm-leaderboard-old/details_llm-agents__tora-code-34b-v1.0",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "datasets:open-llm-leaderboard-old/details_llm-agents__tora-code-7b-v1.0",
+      "category": "datasets",
+      "name": "open-llm-leaderboard-old/details_llm-agents__tora-code-7b-v1.0",
+      "url": "https://huggingface.co/datasets/open-llm-leaderboard-old/details_llm-agents__tora-code-7b-v1.0",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "datasets:openbmb/UltraData-SFT-Agent-2609",
+      "category": "datasets",
+      "name": "openbmb/UltraData-SFT-Agent-2609",
+      "url": "https://huggingface.co/datasets/openbmb/UltraData-SFT-Agent-2609",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "datasets:Salesforce/wikitext",
+      "category": "datasets",
+      "name": "Salesforce/wikitext",
+      "url": "https://huggingface.co/datasets/Salesforce/wikitext",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "datasets:srinivaspadmanabhuni/agentic-ai-test-checklist-110",
+      "category": "datasets",
+      "name": "srinivaspadmanabhuni/agentic-ai-test-checklist-110",
+      "url": "https://huggingface.co/datasets/srinivaspadmanabhuni/agentic-ai-test-checklist-110",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "datasets:transferable-samplers/many-peptides-md",
+      "category": "datasets",
+      "name": "transferable-samplers/many-peptides-md",
+      "url": "https://huggingface.co/datasets/transferable-samplers/many-peptides-md",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "datasets:ukisai/Qwen3.8-27B-multi-turn-agent-sft",
+      "category": "datasets",
+      "name": "ukisai/Qwen3.8-27B-multi-turn-agent-sft",
+      "url": "https://huggingface.co/datasets/ukisai/Qwen3.8-27B-multi-turn-agent-sft",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "datasets:wegrthj/e94fjt-qi9l-raw",
+      "category": "datasets",
+      "name": "wegrthj/e94fjt-qi9l-raw",
+      "url": "https://huggingface.co/datasets/wegrthj/e94fjt-qi9l-raw",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "github:0xMihirK/hercules-mcp",
+      "category": "github",
+      "name": "0xMihirK/hercules-mcp",
+      "url": "https://github.com/0xMihirK/hercules-mcp",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:255kb/stack-on-a-budget",
+      "category": "github",
+      "name": "255kb/stack-on-a-budget",
+      "url": "https://github.com/255kb/stack-on-a-budget",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "github:abpframework/abp",
+      "category": "github",
+      "name": "abpframework/abp",
+      "url": "https://github.com/abpframework/abp",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "github:activepieces/activepieces",
+      "category": "github",
+      "name": "activepieces/activepieces",
+      "url": "https://github.com/activepieces/activepieces",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:aditibhalla1983/Wayfair-n8n-AI-Agent-Engineering-Externship",
+      "category": "github",
+      "name": "aditibhalla1983/Wayfair-n8n-AI-Agent-Engineering-Externship",
+      "url": "https://github.com/aditibhalla1983/Wayfair-n8n-AI-Agent-Engineering-Externship",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:affaan-m/ECC",
+      "category": "github",
+      "name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "firstSeen": "2026-10-26 21:54:58 CET"
+    },
+    {
+      "id": "github:akaunting/akaunting",
+      "category": "github",
+      "name": "akaunting/akaunting",
+      "url": "https://github.com/akaunting/akaunting",
+      "firstSeen": "2026-10-26 21:24:51 CET"
+    },
+    {
+      "id": "github:alpercodes/alms",
+      "category": "github",
+      "name": "alpercodes/alms",
+      "url": "https://github.com/alpercodes/alms",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:ArtemArzi/codex-agent-graphs",
+      "category": "github",
+      "name": "ArtemArzi/codex-agent-graphs",
+      "url": "https://github.com/ArtemArzi/codex-agent-graphs",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:bagisto/bagisto",
+      "category": "github",
+      "name": "bagisto/bagisto",
+      "url": "https://github.com/bagisto/bagisto",
+      "firstSeen": "2026-10-26 21:39:54 CET"
+    },
+    {
+      "id": "github:bigcapitalhq/bigcapital",
+      "category": "github",
+      "name": "bigcapitalhq/bigcapital",
+      "url": "https://github.com/bigcapitalhq/bigcapital",
+      "firstSeen": "2026-10-26 21:39:26 CET"
+    },
+    {
+      "id": "github:cc2lee/Reveila",
+      "category": "github",
+      "name": "cc2lee/Reveila",
+      "url": "https://github.com/cc2lee/Reveila",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:charawut112-coder/renovation-crm",
+      "category": "github",
+      "name": "charawut112-coder/renovation-crm",
+      "url": "https://github.com/charawut112-coder/renovation-crm",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:claudiom248/quorum",
+      "category": "github",
+      "name": "claudiom248/quorum",
+      "url": "https://github.com/claudiom248/quorum",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:coapis-ai/coapis-agent",
+      "category": "github",
+      "name": "coapis-ai/coapis-agent",
+      "url": "https://github.com/coapis-ai/coapis-agent",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:ComposioHQ/awesome-claude-skills",
+      "category": "github",
+      "name": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "github:crewAIInc/crewAI",
+      "category": "github",
+      "name": "crewAIInc/crewAI",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:D4Vinci/Scrapling",
+      "category": "github",
+      "name": "D4Vinci/Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "firstSeen": "2026-10-26 21:24:47 CET"
+    },
+    {
+      "id": "github:dapr/dapr-agents",
+      "category": "github",
+      "name": "dapr/dapr-agents",
+      "url": "https://github.com/dapr/dapr-agents",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:deepseek-ai/deepseek-harness",
+      "category": "github",
+      "name": "deepseek-ai/deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "firstSeen": "2026-10-26 21:54:58 CET"
+    },
+    {
+      "id": "github:DietrichGebert/ponytail",
+      "category": "github",
+      "name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "firstSeen": "2026-10-26 21:54:58 CET"
+    },
+    {
+      "id": "github:Dolibarr/dolibarr",
+      "category": "github",
+      "name": "Dolibarr/dolibarr",
+      "url": "https://github.com/Dolibarr/dolibarr",
+      "firstSeen": "2026-10-26 21:39:26 CET"
+    },
+    {
+      "id": "github:ever-co/ever-gauzy",
+      "category": "github",
+      "name": "ever-co/ever-gauzy",
+      "url": "https://github.com/ever-co/ever-gauzy",
+      "firstSeen": "2026-10-26 21:39:26 CET"
+    },
+    {
+      "id": "github:ExtraHop/agent-cli",
+      "category": "github",
+      "name": "ExtraHop/agent-cli",
+      "url": "https://github.com/ExtraHop/agent-cli",
+      "firstSeen": "2026-10-26T23:24:26+00:00"
+    },
+    {
+      "id": "github:FastFix-SF/ai-agency-for-local-businesses-bay-area",
+      "category": "github",
+      "name": "FastFix-SF/ai-agency-for-local-businesses-bay-area",
+      "url": "https://github.com/FastFix-SF/ai-agency-for-local-businesses-bay-area",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:firecrawl/firecrawl",
+      "category": "github",
+      "name": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "firstSeen": "2026-10-26 21:54:58 CET"
+    },
+    {
+      "id": "github:fr0ster/llm-agent",
+      "category": "github",
+      "name": "fr0ster/llm-agent",
+      "url": "https://github.com/fr0ster/llm-agent",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:frappe/erpnext",
+      "category": "github",
+      "name": "frappe/erpnext",
+      "url": "https://github.com/frappe/erpnext",
+      "firstSeen": "2026-10-26 21:24:51 CET"
+    },
+    {
+      "id": "github:FreeSaaSProject/freesaas",
+      "category": "github",
+      "name": "FreeSaaSProject/freesaas",
+      "url": "https://github.com/FreeSaaSProject/freesaas",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:GhulamMustufa/agentic_crm",
+      "category": "github",
+      "name": "GhulamMustufa/agentic_crm",
+      "url": "https://github.com/GhulamMustufa/agentic_crm",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:global-news-platform/global-news-platform",
+      "category": "github",
+      "name": "global-news-platform/global-news-platform",
+      "url": "https://github.com/global-news-platform/global-news-platform",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:hcengineering/platform",
+      "category": "github",
+      "name": "hcengineering/platform",
+      "url": "https://github.com/hcengineering/platform",
+      "firstSeen": "2026-10-26 21:24:51 CET"
+    },
+    {
+      "id": "github:idurar/idurar-erp-crm",
+      "category": "github",
+      "name": "idurar/idurar-erp-crm",
+      "url": "https://github.com/idurar/idurar-erp-crm",
+      "firstSeen": "2026-10-26 21:39:26 CET"
+    },
+    {
+      "id": "github:IH-Arik/Mabdel",
+      "category": "github",
+      "name": "IH-Arik/Mabdel",
+      "url": "https://github.com/IH-Arik/Mabdel",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:imaqib101/agentic-tool-orchestrator",
+      "category": "github",
+      "name": "imaqib101/agentic-tool-orchestrator",
+      "url": "https://github.com/imaqib101/agentic-tool-orchestrator",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:InvoicePlane/InvoicePlane",
+      "category": "github",
+      "name": "InvoicePlane/InvoicePlane",
+      "url": "https://github.com/InvoicePlane/InvoicePlane",
+      "firstSeen": "2026-10-26 21:39:26 CET"
+    },
+    {
+      "id": "github:kelos-dev/kelos",
+      "category": "github",
+      "name": "kelos-dev/kelos",
+      "url": "https://github.com/kelos-dev/kelos",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:kimai/kimai",
+      "category": "github",
+      "name": "kimai/kimai",
+      "url": "https://github.com/kimai/kimai",
+      "firstSeen": "2026-10-26 21:39:26 CET"
+    },
+    {
+      "id": "github:krayin/laravel-crm",
+      "category": "github",
+      "name": "krayin/laravel-crm",
+      "url": "https://github.com/krayin/laravel-crm",
+      "firstSeen": "2026-10-26 21:24:51 CET"
+    },
+    {
+      "id": "github:kriasoft/react-starter-kit",
+      "category": "github",
+      "name": "kriasoft/react-starter-kit",
+      "url": "https://github.com/kriasoft/react-starter-kit",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "github:KushagraBharti/MonopolyBench",
+      "category": "github",
+      "name": "KushagraBharti/MonopolyBench",
+      "url": "https://github.com/KushagraBharti/MonopolyBench",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:langchain-ai/langchain",
+      "category": "github",
+      "name": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "firstSeen": "2026-10-26 21:54:58 CET"
+    },
+    {
+      "id": "github:langgenius/dify",
+      "category": "github",
+      "name": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "firstSeen": "2026-10-26 21:24:47 CET"
+    },
+    {
+      "id": "github:lifeunsubscribe/Sharkrite",
+      "category": "github",
+      "name": "lifeunsubscribe/Sharkrite",
+      "url": "https://github.com/lifeunsubscribe/Sharkrite",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:magento/magento2",
+      "category": "github",
+      "name": "magento/magento2",
+      "url": "https://github.com/magento/magento2",
+      "firstSeen": "2026-10-26 21:39:54 CET"
+    },
+    {
+      "id": "github:magnusfroste/flowwink",
+      "category": "github",
+      "name": "magnusfroste/flowwink",
+      "url": "https://github.com/magnusfroste/flowwink",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:medusajs/medusa",
+      "category": "github",
+      "name": "medusajs/medusa",
+      "url": "https://github.com/medusajs/medusa",
+      "firstSeen": "2026-10-26 21:39:54 CET"
+    },
+    {
+      "id": "github:melgarafael/DeskcommCRM",
+      "category": "github",
+      "name": "melgarafael/DeskcommCRM",
+      "url": "https://github.com/melgarafael/DeskcommCRM",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:melvinmathew9991/multi-agent-food-concierge-mcp",
+      "category": "github",
+      "name": "melvinmathew9991/multi-agent-food-concierge-mcp",
+      "url": "https://github.com/melvinmathew9991/multi-agent-food-concierge-mcp",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:microsoft/playwright",
+      "category": "github",
+      "name": "microsoft/playwright",
+      "url": "https://github.com/microsoft/playwright",
+      "firstSeen": "2026-10-26 21:24:47 CET"
+    },
+    {
+      "id": "github:monicahq/monica",
+      "category": "github",
+      "name": "monicahq/monica",
+      "url": "https://github.com/monicahq/monica",
+      "firstSeen": "2026-10-26 21:24:51 CET"
+    },
+    {
+      "id": "github:monoes/mono-agent-src",
+      "category": "github",
+      "name": "monoes/mono-agent-src",
+      "url": "https://github.com/monoes/mono-agent-src",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:morluto/rea",
+      "category": "github",
+      "name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "firstSeen": "2026-10-26 21:54:58 CET"
+    },
+    {
+      "id": "github:MusadiqUrRahman/whaagent",
+      "category": "github",
+      "name": "MusadiqUrRahman/whaagent",
+      "url": "https://github.com/MusadiqUrRahman/whaagent",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:n8n-io/n8n",
+      "category": "github",
+      "name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "firstSeen": "2026-10-26 21:24:47 CET"
+    },
+    {
+      "id": "github:Nexussyn/ai-growth-platform",
+      "category": "github",
+      "name": "Nexussyn/ai-growth-platform",
+      "url": "https://github.com/Nexussyn/ai-growth-platform",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:nocobase/nocobase",
+      "category": "github",
+      "name": "nocobase/nocobase",
+      "url": "https://github.com/nocobase/nocobase",
+      "firstSeen": "2026-10-26 21:24:51 CET"
+    },
+    {
+      "id": "github:NousResearch/hermes-agent",
+      "category": "github",
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "firstSeen": "2026-10-26 21:54:58 CET"
+    },
+    {
+      "id": "github:NVIDIA/NeMo-Relay",
+      "category": "github",
+      "name": "NVIDIA/NeMo-Relay",
+      "url": "https://github.com/NVIDIA/NeMo-Relay",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:OpenByteInc/QuantDinger",
+      "category": "github",
+      "name": "OpenByteInc/QuantDinger",
+      "url": "https://github.com/OpenByteInc/QuantDinger",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "github:Pablo-Cubides/Cubides_bots_public",
+      "category": "github",
+      "name": "Pablo-Cubides/Cubides_bots_public",
+      "url": "https://github.com/Pablo-Cubides/Cubides_bots_public",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:Panniantong/Agent-Reach",
+      "category": "github",
+      "name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "firstSeen": "2026-10-26 21:24:47 CET"
+    },
+    {
+      "id": "github:pulseforgeatmns-ops/pulseforge-leadgen",
+      "category": "github",
+      "name": "pulseforgeatmns-ops/pulseforge-leadgen",
+      "url": "https://github.com/pulseforgeatmns-ops/pulseforge-leadgen",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:puppeteer/puppeteer",
+      "category": "github",
+      "name": "puppeteer/puppeteer",
+      "url": "https://github.com/puppeteer/puppeteer",
+      "firstSeen": "2026-10-26 21:24:47 CET"
+    },
+    {
+      "id": "github:rahuldhal800-a11y/Buddy-ai-partners-company",
+      "category": "github",
+      "name": "rahuldhal800-a11y/Buddy-ai-partners-company",
+      "url": "https://github.com/rahuldhal800-a11y/Buddy-ai-partners-company",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:reactioncommerce/reaction",
+      "category": "github",
+      "name": "reactioncommerce/reaction",
+      "url": "https://github.com/reactioncommerce/reaction",
+      "firstSeen": "2026-10-26 21:39:54 CET"
+    },
+    {
+      "id": "github:richh-s/logi-agent-srs",
+      "category": "github",
+      "name": "richh-s/logi-agent-srs",
+      "url": "https://github.com/richh-s/logi-agent-srs",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:RunaCapital/awesome-oss-alternatives",
+      "category": "github",
+      "name": "RunaCapital/awesome-oss-alternatives",
+      "url": "https://github.com/RunaCapital/awesome-oss-alternatives",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "github:SadekAlSaabari/pr-review-agent",
+      "category": "github",
+      "name": "SadekAlSaabari/pr-review-agent",
+      "url": "https://github.com/SadekAlSaabari/pr-review-agent",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:saleor/saleor",
+      "category": "github",
+      "name": "saleor/saleor",
+      "url": "https://github.com/saleor/saleor",
+      "firstSeen": "2026-10-26 21:39:54 CET"
+    },
+    {
+      "id": "github:SarthakRoy-1/FireDrill",
+      "category": "github",
+      "name": "SarthakRoy-1/FireDrill",
+      "url": "https://github.com/SarthakRoy-1/FireDrill",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:spree/spree",
+      "category": "github",
+      "name": "spree/spree",
+      "url": "https://github.com/spree/spree",
+      "firstSeen": "2026-10-26 21:39:54 CET"
+    },
+    {
+      "id": "github:stablyai/orca",
+      "category": "github",
+      "name": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "firstSeen": "2026-10-26 21:24:47 CET"
+    },
+    {
+      "id": "github:stormieperformance/stormie-app",
+      "category": "github",
+      "name": "stormieperformance/stormie-app",
+      "url": "https://github.com/stormieperformance/stormie-app",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:strikersam/autonomous-ai-agency",
+      "category": "github",
+      "name": "strikersam/autonomous-ai-agency",
+      "url": "https://github.com/strikersam/autonomous-ai-agency",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:SurinderTech/Operator_AI",
+      "category": "github",
+      "name": "SurinderTech/Operator_AI",
+      "url": "https://github.com/SurinderTech/Operator_AI",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:swnotmetal/langorder-ai",
+      "category": "github",
+      "name": "swnotmetal/langorder-ai",
+      "url": "https://github.com/swnotmetal/langorder-ai",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:tricodenetwork/ThePoet",
+      "category": "github",
+      "name": "tricodenetwork/ThePoet",
+      "url": "https://github.com/tricodenetwork/ThePoet",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:twentyhq/twenty",
+      "category": "github",
+      "name": "twentyhq/twenty",
+      "url": "https://github.com/twentyhq/twenty",
+      "firstSeen": "2026-10-26 21:24:51 CET"
+    },
+    {
+      "id": "github:tyama-ds/agent-workbench",
+      "category": "github",
+      "name": "tyama-ds/agent-workbench",
+      "url": "https://github.com/tyama-ds/agent-workbench",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:UrsushoribilisMusic/agentic-fleet-hub",
+      "category": "github",
+      "name": "UrsushoribilisMusic/agentic-fleet-hub",
+      "url": "https://github.com/UrsushoribilisMusic/agentic-fleet-hub",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:vibhanshu-mishra/pyprocore",
+      "category": "github",
+      "name": "vibhanshu-mishra/pyprocore",
+      "url": "https://github.com/vibhanshu-mishra/pyprocore",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:votal-ai-hq/ai-red-teaming",
+      "category": "github",
+      "name": "votal-ai-hq/ai-red-teaming",
+      "url": "https://github.com/votal-ai-hq/ai-red-teaming",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:vuestorefront/vue-storefront",
+      "category": "github",
+      "name": "vuestorefront/vue-storefront",
+      "url": "https://github.com/vuestorefront/vue-storefront",
+      "firstSeen": "2026-10-26 21:39:54 CET"
+    },
+    {
+      "id": "github:vventirozos/AgentGhost",
+      "category": "github",
+      "name": "vventirozos/AgentGhost",
+      "url": "https://github.com/vventirozos/AgentGhost",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:waleedgohar167-Data/AI-Document-Intelligence-Workflow-Automation-Platform",
+      "category": "github",
+      "name": "waleedgohar167-Data/AI-Document-Intelligence-Workflow-Automation-Platform",
+      "url": "https://github.com/waleedgohar167-Data/AI-Document-Intelligence-Workflow-Automation-Platform",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:wasp-lang/open-saas",
+      "category": "github",
+      "name": "wasp-lang/open-saas",
+      "url": "https://github.com/wasp-lang/open-saas",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "github:webspenser/sales-partner",
+      "category": "github",
+      "name": "webspenser/sales-partner",
+      "url": "https://github.com/webspenser/sales-partner",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:Zizwar/vibzcode",
+      "category": "github",
+      "name": "Zizwar/vibzcode",
+      "url": "https://github.com/Zizwar/vibzcode",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "models:agentionai/DeepSeek-V4.1-Flash-Skeleton-GGUF",
+      "category": "models",
+      "name": "agentionai/DeepSeek-V4.1-Flash-Skeleton-GGUF",
+      "url": "https://huggingface.co/agentionai/DeepSeek-V4.1-Flash-Skeleton-GGUF",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "models:agentionai/Qwen3.8-27B-AP-GGUF",
+      "category": "models",
+      "name": "agentionai/Qwen3.8-27B-AP-GGUF",
+      "url": "https://huggingface.co/agentionai/Qwen3.8-27B-AP-GGUF",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "models:agentionai/Qwen3.8-Flash-Next-Gyro-abliterated-Huihui-GGUF",
+      "category": "models",
+      "name": "agentionai/Qwen3.8-Flash-Next-Gyro-abliterated-Huihui-GGUF",
+      "url": "https://huggingface.co/agentionai/Qwen3.8-Flash-Next-Gyro-abliterated-Huihui-GGUF",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "models:agentionai/Qwen3.8-Flash-Next-Gyro-Coder-GGUF",
+      "category": "models",
+      "name": "agentionai/Qwen3.8-Flash-Next-Gyro-Coder-GGUF",
+      "url": "https://huggingface.co/agentionai/Qwen3.8-Flash-Next-Gyro-Coder-GGUF",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "models:agentionai/Qwen3.8-Flash-Next-Gyro-GGUF",
+      "category": "models",
+      "name": "agentionai/Qwen3.8-Flash-Next-Gyro-GGUF",
+      "url": "https://huggingface.co/agentionai/Qwen3.8-Flash-Next-Gyro-GGUF",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "models:agentlans/SmolLM2-135M-multilingual-base",
+      "category": "models",
+      "name": "agentlans/SmolLM2-135M-multilingual-base",
+      "url": "https://huggingface.co/agentlans/SmolLM2-135M-multilingual-base",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "models:agents-course/notebooks",
+      "category": "models",
+      "name": "agents-course/notebooks",
+      "url": "https://huggingface.co/agents-course/notebooks",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "models:BAAI/bge-m3",
+      "category": "models",
+      "name": "BAAI/bge-m3",
+      "url": "https://huggingface.co/BAAI/bge-m3",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "models:BAAI/bge-small-en-v1.5",
+      "category": "models",
+      "name": "BAAI/bge-small-en-v1.5",
+      "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "models:cross-encoder/ms-marco-MiniLM-L6-v2",
+      "category": "models",
+      "name": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "models:cyjin-yl/Qwen3.8-27B-Uncensored-Cyber-agentic-imatrix-GGUF",
+      "category": "models",
+      "name": "cyjin-yl/Qwen3.8-27B-Uncensored-Cyber-agentic-imatrix-GGUF",
+      "url": "https://huggingface.co/cyjin-yl/Qwen3.8-27B-Uncensored-Cyber-agentic-imatrix-GGUF",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "models:deadbydawn101/RavenXAiLabs-Chaos-Agent-Qwen3.8-27B-Frontier-Intelligence-Injected-OBLITERATED-GGUF",
+      "category": "models",
+      "name": "deadbydawn101/RavenXAiLabs-Chaos-Agent-Qwen3.8-27B-Frontier-Intelligence-Injected-OBLITERATED-GGUF",
+      "url": "https://huggingface.co/deadbydawn101/RavenXAiLabs-Chaos-Agent-Qwen3.8-27B-Frontier-Intelligence-Injected-OBLITERATED-GGUF",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "models:google-bert/bert-base-uncased",
+      "category": "models",
+      "name": "google-bert/bert-base-uncased",
+      "url": "https://huggingface.co/google-bert/bert-base-uncased",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "models:google/electra-base-discriminator",
+      "category": "models",
+      "name": "google/electra-base-discriminator",
+      "url": "https://huggingface.co/google/electra-base-discriminator",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "models:InternScience/Agents-A1",
+      "category": "models",
+      "name": "InternScience/Agents-A1",
+      "url": "https://huggingface.co/InternScience/Agents-A1",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "models:kaushikvira/DeepSeek-V4.1-Flash-1017-GSQ-agentic-strata",
+      "category": "models",
+      "name": "kaushikvira/DeepSeek-V4.1-Flash-1017-GSQ-agentic-strata",
+      "url": "https://huggingface.co/kaushikvira/DeepSeek-V4.1-Flash-1017-GSQ-agentic-strata",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "models:llm-agents/tora-13b-v1.0",
+      "category": "models",
+      "name": "llm-agents/tora-13b-v1.0",
+      "url": "https://huggingface.co/llm-agents/tora-13b-v1.0",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "models:llm-agents/tora-code-13b-v1.0",
+      "category": "models",
+      "name": "llm-agents/tora-code-13b-v1.0",
+      "url": "https://huggingface.co/llm-agents/tora-code-13b-v1.0",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "models:llm-agents/tora-code-7b-v1.0",
+      "category": "models",
+      "name": "llm-agents/tora-code-7b-v1.0",
+      "url": "https://huggingface.co/llm-agents/tora-code-7b-v1.0",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "models:LLM-OS-Models/Fabliq-8B-Agent-Reasoning",
+      "category": "models",
+      "name": "LLM-OS-Models/Fabliq-8B-Agent-Reasoning",
+      "url": "https://huggingface.co/LLM-OS-Models/Fabliq-8B-Agent-Reasoning",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "models:S4MPL3BI4S/Coding_Decision_Agent",
+      "category": "models",
+      "name": "S4MPL3BI4S/Coding_Decision_Agent",
+      "url": "https://huggingface.co/S4MPL3BI4S/Coding_Decision_Agent",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "models:SaveDollars/autonomous-ai-agents-hub",
+      "category": "models",
+      "name": "SaveDollars/autonomous-ai-agents-hub",
+      "url": "https://huggingface.co/SaveDollars/autonomous-ai-agents-hub",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "models:sentence-transformers/all-MiniLM-L6-v2",
+      "category": "models",
+      "name": "sentence-transformers/all-MiniLM-L6-v2",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "models:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "category": "models",
+      "name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "models:togethercomputer/HybridAgent-14B-Agentic",
+      "category": "models",
+      "name": "togethercomputer/HybridAgent-14B-Agentic",
+      "url": "https://huggingface.co/togethercomputer/HybridAgent-14B-Agentic",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "models:togethercomputer/HybridAgent-8B-Agentic",
+      "category": "models",
+      "name": "togethercomputer/HybridAgent-8B-Agentic",
+      "url": "https://huggingface.co/togethercomputer/HybridAgent-8B-Agentic",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "models:yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+      "category": "models",
+      "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+      "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:AceVikings/repro-learning-human-robot-collaboration-via-heterogeneous-agent-lyapunov-policy-optimizatio",
+      "category": "spaces",
+      "name": "AceVikings/repro-learning-human-robot-collaboration-via-heterogeneous-agent-lyapunov-policy-optimizatio",
+      "url": "https://huggingface.co/spaces/AceVikings/repro-learning-human-robot-collaboration-via-heterogeneous-agent-lyapunov-policy-optimizatio",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:agents-course/First_agent_template",
+      "category": "spaces",
+      "name": "agents-course/First_agent_template",
+      "url": "https://huggingface.co/spaces/agents-course/First_agent_template",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:agents-course/Unit_3_Agentic_RAG",
+      "category": "spaces",
+      "name": "agents-course/Unit_3_Agentic_RAG",
+      "url": "https://huggingface.co/spaces/agents-course/Unit_3_Agentic_RAG",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:Agents-MCP-Hackathon/LLM-GameMaster-MPC-Server",
+      "category": "spaces",
+      "name": "Agents-MCP-Hackathon/LLM-GameMaster-MPC-Server",
+      "url": "https://huggingface.co/spaces/Agents-MCP-Hackathon/LLM-GameMaster-MPC-Server",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:Annukul/travel-planning-agent",
+      "category": "spaces",
+      "name": "Annukul/travel-planning-agent",
+      "url": "https://huggingface.co/spaces/Annukul/travel-planning-agent",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:black-forest-labs/FLUX.1-dev",
+      "category": "spaces",
+      "name": "black-forest-labs/FLUX.1-dev",
+      "url": "https://huggingface.co/spaces/black-forest-labs/FLUX.1-dev",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "spaces:bstraehle/multi-agent-ai-autogen-coding",
+      "category": "spaces",
+      "name": "bstraehle/multi-agent-ai-autogen-coding",
+      "url": "https://huggingface.co/spaces/bstraehle/multi-agent-ai-autogen-coding",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:bstraehle/multi-agent-ai-crewai",
+      "category": "spaces",
+      "name": "bstraehle/multi-agent-ai-crewai",
+      "url": "https://huggingface.co/spaces/bstraehle/multi-agent-ai-crewai",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:bstraehle/multi-agent-ai-langgraph",
+      "category": "spaces",
+      "name": "bstraehle/multi-agent-ai-langgraph",
+      "url": "https://huggingface.co/spaces/bstraehle/multi-agent-ai-langgraph",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:dalle-mini/dalle-mini",
+      "category": "spaces",
+      "name": "dalle-mini/dalle-mini",
+      "url": "https://huggingface.co/spaces/dalle-mini/dalle-mini",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "spaces:daniel-kim/daniel-kim-agents-autonomous",
+      "category": "spaces",
+      "name": "daniel-kim/daniel-kim-agents-autonomous",
+      "url": "https://huggingface.co/spaces/daniel-kim/daniel-kim-agents-autonomous",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:enzostvs/deepsite",
+      "category": "spaces",
+      "name": "enzostvs/deepsite",
+      "url": "https://huggingface.co/spaces/enzostvs/deepsite",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "spaces:Feranmii/financial-planning-agent",
+      "category": "spaces",
+      "name": "Feranmii/financial-planning-agent",
+      "url": "https://huggingface.co/spaces/Feranmii/financial-planning-agent",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:Firemedic15/repro-ml-agent-reinforcing-llm-agents-for-autonomous-machine-learning-engineering",
+      "category": "spaces",
+      "name": "Firemedic15/repro-ml-agent-reinforcing-llm-agents-for-autonomous-machine-learning-engineering",
+      "url": "https://huggingface.co/spaces/Firemedic15/repro-ml-agent-reinforcing-llm-agents-for-autonomous-machine-learning-engineering",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:illesc/llm-agents-tora-70b-v1.0",
+      "category": "spaces",
+      "name": "illesc/llm-agents-tora-70b-v1.0",
+      "url": "https://huggingface.co/spaces/illesc/llm-agents-tora-70b-v1.0",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:jbilcke-hf/ai-comic-factory",
+      "category": "spaces",
+      "name": "jbilcke-hf/ai-comic-factory",
+      "url": "https://huggingface.co/spaces/jbilcke-hf/ai-comic-factory",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "spaces:Kwai-Kolors/Kolors-Virtual-Try-On",
+      "category": "spaces",
+      "name": "Kwai-Kolors/Kolors-Virtual-Try-On",
+      "url": "https://huggingface.co/spaces/Kwai-Kolors/Kolors-Virtual-Try-On",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "spaces:lvwerra/agent-manager-template",
+      "category": "spaces",
+      "name": "lvwerra/agent-manager-template",
+      "url": "https://huggingface.co/spaces/lvwerra/agent-manager-template",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:mteb/leaderboard",
+      "category": "spaces",
+      "name": "mteb/leaderboard",
+      "url": "https://huggingface.co/spaces/mteb/leaderboard",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "spaces:nep-0/llm-agents-tora-7b-v1.0",
+      "category": "spaces",
+      "name": "nep-0/llm-agents-tora-7b-v1.0",
+      "url": "https://huggingface.co/spaces/nep-0/llm-agents-tora-7b-v1.0",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:open-llm-leaderboard/open_llm_leaderboard",
+      "category": "spaces",
+      "name": "open-llm-leaderboard/open_llm_leaderboard",
+      "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+      "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "spaces:rajibbhtto/medical-imaging-ai-agent",
+      "category": "spaces",
+      "name": "rajibbhtto/medical-imaging-ai-agent",
+      "url": "https://huggingface.co/spaces/rajibbhtto/medical-imaging-ai-agent",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:sergiopaniego/train-the-agent-slides",
+      "category": "spaces",
+      "name": "sergiopaniego/train-the-agent-slides",
+      "url": "https://huggingface.co/spaces/sergiopaniego/train-the-agent-slides",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:smolagents/computer-agent",
+      "category": "spaces",
+      "name": "smolagents/computer-agent",
+      "url": "https://huggingface.co/spaces/smolagents/computer-agent",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:Srishti280992/repro-effgen-enabling-small-language-models-as-capable-autonomous-agents",
+      "category": "spaces",
+      "name": "Srishti280992/repro-effgen-enabling-small-language-models-as-capable-autonomous-agents",
+      "url": "https://huggingface.co/spaces/Srishti280992/repro-effgen-enabling-small-language-models-as-capable-autonomous-agents",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:typesdigital/llm-agents-tora-70b-v1.0",
+      "category": "spaces",
+      "name": "typesdigital/llm-agents-tora-70b-v1.0",
+      "url": "https://huggingface.co/spaces/typesdigital/llm-agents-tora-70b-v1.0",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:unity/ML-Agents-Pyramids",
+      "category": "spaces",
+      "name": "unity/ML-Agents-Pyramids",
+      "url": "https://huggingface.co/spaces/unity/ML-Agents-Pyramids",
+      "firstSeen": "2026-10-26T23:15:29+00:00"
+    }
+  ],
+  "disclaimer": "Ressources publiques réellement référencées. Aucun point ne prouve une compétence, un bénéfice ou une action commerciale.",
+  "cloud": {
+    "agent": "Éclaireur HERMES",
+    "execution": "GitHub Actions",
+    "lastMissionAt": "2026-10-26T23:24:26+00:00",
+    "missionStatus": "succès",
+    "newResources": 1,
+    "errors": 0,
+    "nextScheduled": "Chaque heure, sous réserve de disponibilité GitHub Actions",
+    "machineIndependence": true
+  }
+}
