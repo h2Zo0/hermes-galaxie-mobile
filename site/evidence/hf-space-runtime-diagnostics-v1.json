@@ -3,7 +3,7 @@
   "title": "Diagnostiquer le runtime de démonstrations IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-27T18:42:15+00:00",
+  "lastPracticedAt": "2026-10-27T19:03:07+00:00",
   "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
   "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
   "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
@@ -256,6 +256,24 @@
       "id": "Novas/impira-layoutlm-document-qa",
       "source": "https://huggingface.co/spaces/Novas/impira-layoutlm-document-qa",
       "observedAt": "2026-10-27T18:42:15+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNTIME_ERROR",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "pierreguillou/document-layout-detection-dit-image-instances",
+      "source": "https://huggingface.co/spaces/pierreguillou/document-layout-detection-dit-image-instances",
+      "observedAt": "2026-10-27T19:03:07+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNTIME_ERROR",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "pierreguillou/Inference-APP-Document-Understanding-at-linelevel-LiLT-base-LayoutXLM-base-v1",
+      "source": "https://huggingface.co/spaces/pierreguillou/Inference-APP-Document-Understanding-at-linelevel-LiLT-base-LayoutXLM-base-v1",
+      "observedAt": "2026-10-27T19:03:07+00:00",
       "sdk": "gradio",
       "runtimeStage": "RUNTIME_ERROR",
       "availableNow": false,

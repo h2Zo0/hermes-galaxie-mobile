@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-27T18:42:12+00:00",
+  "lastPracticedAt": "2026-10-27T19:03:05+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -557,6 +557,39 @@
       "archived": false,
       "starsAtTest": 20,
       "pushedAt": "2026-10-27T17:20:35Z"
+    },
+    {
+      "repository": "AnubhavDataSci25/LLM-EvalHub",
+      "url": "https://github.com/AnubhavDataSci25/LLM-EvalHub",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 65.99,
+      "languageBytes": {
+        "Python": 705669,
+        "JavaScript": 356049,
+        "CSS": 5371,
+        "HTML": 1381,
+        "Shell": 445,
+        "Dockerfile": 430
+      },
+      "totalLanguageBytes": 1069345,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-26T10:20:47Z"
+    },
+    {
+      "repository": "anupmurali05/loan_processing",
+      "url": "https://github.com/anupmurali05/loan_processing",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 532
+      },
+      "totalLanguageBytes": 532,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-26T04:53:37Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
