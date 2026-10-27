@@ -12,8 +12,9 @@
     models: [169,136,255],
     datasets: [255,192,119],
     spaces: [99,237,187],
+    skill: [255,228,130],
   };
-  const labels = { github:"GitHub", models:"Modèles IA", datasets:"Datasets", spaces:"Spaces" };
+  const labels = { github:"GitHub", models:"Modèles IA", datasets:"Datasets", spaces:"Spaces", skill:"Capacité prouvée" };
   const white = [205,245,255];
   let w = 1, h = 1, ratio = 1;
   let backgroundStars = [], dustCloud = [];
@@ -70,7 +71,7 @@
       arm,spread:rand(s2),shiver:rand(hash("sh:"+item.id)),
       radius:.13+Math.sqrt(rand(hash("dist:"+item.id)))*.87,
       phase:rand(hash("phi:"+item.id))*Math.PI*2,
-      size:1.6+rand(hash("sz:"+item.id))*2.1,
+      size:item.category==="skill"?6:1.6+rand(hash("sz:"+item.id))*2.1,
       born:performance.now()-(hasLoaded?0:1300+index*19),
       x:0,y:0,opacity:0
     };
@@ -79,14 +80,26 @@
     if(!data || !Array.isArray(data.nodes)) return;
     lastSnapshot=data;
     let old=new Map(particles.map(x=>[x.id,x]));
-    let incoming=data.nodes;
+    const validSkills=(Array.isArray(data.skills)?data.skills:[]).filter(item=>
+      item && item.status==="validated" && typeof item.id==="string" &&
+      typeof item.title==="string" && /^evidence\/[a-z0-9-]+\.json$/.test(item.proofPath || ""));
+    let incoming=data.nodes.concat(validSkills.map(item=>({
+      id:"skill:"+item.id,category:"skill",name:item.title,url:"./"+item.proofPath
+    })));
     particles=incoming.map((item,index)=>{
       const prev=old.get(item.id);
       return prev || construct(item,index);
     });
     const count=Number(data.resourceCount || particles.length);
     $("resourceCount").textContent=count.toLocaleString("fr-FR");
-    $("verifiedCount").textContent=Number(data.verifiedSkills || 0).toLocaleString("fr-FR");
+    $("verifiedCount").textContent=validSkills.length.toLocaleString("fr-FR");
+    const proofLink=$("capabilityProof");
+    proofLink.hidden=validSkills.length===0;
+    if(validSkills.length) {
+      proofLink.href="./"+validSkills[0].proofPath;
+      proofLink.textContent="✓ Voir la preuve";
+      proofLink.title=validSkills[0].title;
+    }
     $("profitCount").textContent=money(data.netProfitEuro);
     $("countGitHub").textContent=data.categoryCounts.github ?? 0;
     $("countModels").textContent=data.categoryCounts.models ?? 0;
@@ -257,6 +270,9 @@
     tip.hidden=false;
     $("tipType").textContent=labels[nearest.category]||nearest.category;
     $("tipName").textContent=nearest.name;
+    $("tipStatus").textContent=nearest.category==="skill"
+      ? "Compétence testée et validée · double-cliquer pour consulter la preuve."
+      : "Ressource référencée, pas encore une compétence validée.";
     const maxX=w-285,maxY=h-160;
     tip.style.left=clamp(pointer.x+20,8,Math.max(8,maxX))+"px";
     tip.style.top=clamp(pointer.y+18,8,Math.max(8,maxY))+"px";
