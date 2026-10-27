@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Agent HERMES cloud: collecte vérifiable de ressources publiques; aucune fausse compétence ni revenu."""
+"""Agent NOVENS CORE cloud: collecte vérifiable de ressources publiques; aucune fausse compétence ni revenu."""
 from __future__ import annotations
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -25,7 +25,7 @@ SEARCHES = [
 ]
 
 def get_json(url, authenticated=False):
-    headers = {"User-Agent":"Hermes-Galaxie-Cloud/1.0 (+public discovery)",
+    headers = {"User-Agent":"NOVENS CORE-Galaxie-Cloud/1.0 (+public discovery)",
                "Accept":"application/vnd.github+json" if authenticated else "application/json"}
     if authenticated and TOKEN:
         headers["Authorization"] = "Bearer " + TOKEN
@@ -93,12 +93,12 @@ def main():
         except (ValueError,TypeError):pass
     delta=max(0,len(all_nodes)-int(latest_prior["resources"])) if latest_prior else None
     old.update({
-        "name":"HERMES — GALAXIE VIVANTE",
+        "name":"NOVENS CORE — GALAXIE VIVANTE",
         "asOf":NOW.isoformat(timespec="seconds"),"polledAt":NOW.isoformat(timespec="seconds"),
         "resourceCount":len(all_nodes),"categoryCounts":catcounts,
         "nodes":all_nodes,"history":history[-400:],"growth24h":delta,
         "disclaimer":"Ressources publiques réellement référencées. Aucun point ne prouve une compétence, un bénéfice ou une action commerciale.",
-        "cloud":{"agent":"Éclaireur HERMES","execution":"GitHub Actions","lastMissionAt":NOW.isoformat(timespec="seconds"),
+        "cloud":{"agent":"Éclaireur NOVENS CORE","execution":"GitHub Actions","lastMissionAt":NOW.isoformat(timespec="seconds"),
                  "missionStatus":"succès" if not failures else "partiel",
                  "newResources":len(all_nodes)-base_count,"errors":len(failures),
                  "nextScheduled":"Chaque heure, sous réserve de disponibilité GitHub Actions",
