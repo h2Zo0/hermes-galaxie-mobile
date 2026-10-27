@@ -24,6 +24,9 @@ h1{font-size:clamp(24px,2.6vw,36px);line-height:1.03;font-weight:650;letter-spac
 .tiny{color:#6ddfcb;font-size:12px;font-weight:520;margin-top:2px}
 .secondary-metrics{margin-top:32px;display:flex;flex-direction:column;gap:23px}
 .mini-metric{border-left:2px solid rgba(63,195,184,.45);padding-left:12px}
+.secondary-metrics{pointer-events:auto}
+.capability-link{display:block;color:#ffe8a0;font-size:11px;margin-top:5px;text-decoration:underline;text-underline-offset:2px;max-width:170px}
+.capability-link[hidden]{display:none}
 .mini-number{font-size:28px;letter-spacing:-1px;font-weight:400;padding-top:6px;white-space:nowrap}
 .right-panel{position:absolute;right:41px;top:153px;width:217px;z-index:3;padding:18px 20px 17px;border:1px solid var(--border);border-radius:16px;background:linear-gradient(150deg,rgba(20,38,61,.58),rgba(8,14,28,.5));backdrop-filter:blur(14px);box-shadow:0 12px 45px rgba(0,0,0,.09)}
 .panel-title{display:flex;align-items:center;justify-content:space-between;color:#d4e7f5;font-size:10px;margin-bottom:16px;letter-spacing:1.7px}
