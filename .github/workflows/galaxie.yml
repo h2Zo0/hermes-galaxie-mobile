@@ -40,6 +40,8 @@ jobs:
         run: python -m cloud.qualify_resources
       - name: Expérimenter la lecture réelle des datasets et n'approuver que les usages prouvés
         run: python -m cloud.try_dataset_samples
+      - name: Éprouver et enregistrer les micro-capacités opérationnelles
+        run: python -m cloud.operational_tools
       - name: Historiser les mesures réelles
         run: |
           git config user.name "hermes-cloud[bot]"
