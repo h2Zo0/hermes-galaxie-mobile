@@ -109,7 +109,7 @@ def run(state, fetch=get_api):
         try:
             reports.append(pilot(slug, fetch))
         except (HTTPError, URLError, TimeoutError, ValueError, TypeError, KeyError, OSError) as error:
-            failed.append({"id": slug, "error": type(error).__name__})
+            failed.append({"id": slug, "error": type(error).__name__, "detail": str(error)[:110]})
     combined = prior_reports + reports
     status = "failed" if not previous else "no-new-evidence"
     if len(combined) >= 2 and reports and len({r["id"] for r in combined}) == len(combined):
