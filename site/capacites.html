@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#050b17">
+  <title>NOVENS CORE — Journal des capacités</title>
+  <style>
+    *{box-sizing:border-box}
+    :root{color-scheme:dark}
+    body{background:radial-gradient(ellipse at top,#102846,#050b17 74%);color:#e2f5ff;
+      font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;margin:0;min-height:100vh}
+    main{max-width:940px;margin:auto;padding:24px 18px 66px}
+    a{color:#a5fff0}
+    .back{display:inline-block;text-decoration:none;margin:4px 0 22px}
+    h1{font-size:clamp(27px,5vw,44px);letter-spacing:-1px;line-height:1.13;margin:8px 0}
+    h2{font-size:20px;margin:32px 0 12px}
+    .eyebrow{letter-spacing:2px;color:#6be6d7;font-size:11px;font-weight:700}
+    .intro,.muted{color:#a1b4ce}
+    .counters{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:23px 0}
+    .counter,.item{background:rgba(13,30,49,.84);border:1px solid #29465e;border-radius:16px;padding:18px}
+    .counter strong{display:block;font-size:30px;font-weight:500;color:#a3f9e6}
+    .counter span{font-size:12px;color:#acc1d6}
+    .item{margin-bottom:12px}
+    .item h3{font-size:16px;margin:2px 0 7px}
+    .item p{margin:5px 0;font-size:13px;color:#b2c6d9}
+    .status{color:#8ef5d3;font-weight:700;font-size:11px;letter-spacing:1px}
+    .trial{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;border-bottom:1px solid #244056;padding:10px 0}
+    .trial span{color:#b2c6d9;font-size:12px}
+    .warning{color:#ffbe8b}
+    .small{font-size:12px;color:#8299b3;margin-top:26px}
+  </style>
+</head>
+<body>
+<main>
+  <a class="back" href="./index.html">← Retour à la galaxie</a>
+  <div class="eyebrow">NOVENS CORE · PREUVES REPRODUCTIBLES</div>
+  <h1>Journal des capacités</h1>
+  <p class="intro">Une étoile dorée représente une tâche réussie et vérifiée sur au moins 2 ressources distinctes.
+    Les ressources simplement découvertes ne sont jamais des compétences.</p>
+  <section class="counters" aria-label="Tableau de bord des preuves">
+    <div class="counter"><strong id="validated">—</strong><span>Capacités validées</span></div>
+    <div class="counter"><strong id="attempted">—</strong><span>Essais enregistrés</span></div>
+    <div class="counter"><strong id="resources">—</strong><span>Ressources référencées</span></div>
+  </section>
+  <p id="updated" class="muted" aria-live="polite">Lecture des preuves…</p>
+  <h2>Compétences acquises</h2>
+  <section id="skills" aria-live="polite"><p class="muted">Chargement…</p></section>
+  <h2>Dernières missions de validation</h2>
+  <section id="trials" aria-live="polite"><p class="muted">Chargement…</p></section>
+  <p class="small">Les informations sur les licences, runtimes et modèles sont des observations de métadonnées publiques, et non une preuve d'exécution d'un modèle ou de disponibilité permanente d'une application. Actualisation automatique toutes les 30 secondes.</p>
+</main>
+<script>
+"use strict";
+const $ = id => document.getElementById(id);
+function line(parent,tag,text,klass) {
+  const node=document.createElement(tag);
+  node.textContent=String(text ?? "");
+  if(klass)node.className=klass;
+  parent.append(node);
+  return node;
+}
+async function update(){
+  try{
+    const response=await fetch("./state.json?now="+Date.now(),{cache:"no-store"});
+    if(!response.ok)throw new Error("HTTP "+response.status);
+    const s=await response.json();
+    const skills=(Array.isArray(s.skills)?s.skills:[]).filter(v =>
+      v && v.status==="validated" && typeof v.id==="string" &&
+      /^evidence\/[a-z0-9-]+\.json$/.test(v.proofPath || ""));
+    const attempts=(Array.isArray(s.capabilityTrials)?s.capabilityTrials:[]);
+    $("validated").textContent=skills.length.toLocaleString("fr-FR");
+    $("attempted").textContent=attempts.length.toLocaleString("fr-FR");
+    $("resources").textContent=Number(s.resourceCount||0).toLocaleString("fr-FR");
+    $("updated").textContent="Dernier relevé du catalogue : "+(s.asOf || "indisponible");
+    $("skills").replaceChildren();
+    for(const v of skills){
+      const article=document.createElement("article"); article.className="item";
+      line(article,"div","● VALIDÉ · PREUVE ARCHIVÉE","status");
+      line(article,"h3",v.title);
+      line(article,"p","Testé le : "+v.validatedAt);
+      line(article,"p",(v.resourcesTested||[]).length+" ressources vérifiées");
+      const link=line(article,"a","Ouvrir le rapport de preuve");
+      link.href="./"+v.proofPath;link.rel="noopener noreferrer";link.target="_blank";
+      $("skills").append(article);
+    }
+    if(!skills.length)line($("skills"),"p","Aucune tâche ne satisfait encore les critères de validation.","muted");
+    $("trials").replaceChildren();
+    const last=attempts.slice(-12).reverse();
+    for(const v of last){
+      const row=document.createElement("div");row.className="trial";
+      line(row,"span",(v.skillId||"Mission")+" · "+(v.date||""));
+      line(row,"span",(v.result==="validated"?"✓ Validé":v.result==="failed"?"Essai non validé":v.result)+" · "+(v.reportsPassed??0)+"/"+(v.reportsRequired??2),v.result==="failed"?"warning":"status");
+      $("trials").append(row);
+    }
+    if(!last.length)line($("trials"),"p","Aucun essai enregistré.","muted");
+  }catch(e){
+    $("updated").textContent="Données momentanément indisponibles : "+e.message;
+  }
+}
+update();setInterval(update,30000);
+</script>
+</body></html>
