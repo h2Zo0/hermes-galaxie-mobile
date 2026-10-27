@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-27T16:16:51+00:00",
+  "lastPracticedAt": "2026-10-27T16:37:13+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -286,6 +286,37 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-27T10:48:59Z"
+    },
+    {
+      "repository": "amarelishay/predictive-maintenance-bus-fleet",
+      "url": "https://github.com/amarelishay/predictive-maintenance-bus-fleet",
+      "defaultBranch": "master",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 23826
+      },
+      "totalLanguageBytes": 23826,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2025-12-08T07:51:01Z"
+    },
+    {
+      "repository": "ambroseonyanga/Software-engineering-QA-agent-GroupO",
+      "url": "https://github.com/ambroseonyanga/Software-engineering-QA-agent-GroupO",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 83.22,
+      "languageBytes": {
+        "Python": 266962,
+        "HTML": 44813,
+        "JavaScript": 8531,
+        "Dockerfile": 476
+      },
+      "totalLanguageBytes": 320782,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-26T18:36:36Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

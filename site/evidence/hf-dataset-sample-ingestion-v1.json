@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-27T16:16:55+00:00",
+  "lastPracticedAt": "2026-10-27T16:37:16+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -219,6 +219,47 @@
       "rowCount": 3,
       "sampleSha256": "56df4c3bbed25b8cfa4a379d899ee6fd223898a4cba2c329885c1c56476886d1",
       "observedAt": "2026-10-27T16:16:55+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "infinite-dataset-hub/VehicleHealthMonitoring",
+      "source": "https://huggingface.co/datasets/infinite-dataset-hub/VehicleHealthMonitoring",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "acceleration",
+        "brake_force",
+        "component_label",
+        "engine_speed",
+        "idx",
+        "pressure",
+        "rpm",
+        "sensor_id",
+        "sensor_reading",
+        "sensor_type",
+        "temperature",
+        "timestamp",
+        "vehicle_id"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "4f3af7168b015c6ece5e384408c29cfe4015d579229ed0af0e6b891d68de8dd5",
+      "observedAt": "2026-10-27T16:37:16+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "ItsMayur/Vehicle_Complaints_NHSTA",
+      "source": "https://huggingface.co/datasets/ItsMayur/Vehicle_Complaints_NHSTA",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        " summary",
+        "complaint"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "6255c92699775e43b2fcd515927d5c194ce2eeef1160490ecf813ffb1ac66657",
+      "observedAt": "2026-10-27T16:37:16+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
