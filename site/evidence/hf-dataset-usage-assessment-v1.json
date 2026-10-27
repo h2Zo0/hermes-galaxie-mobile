@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-27T21:44:26+00:00",
+  "lastPracticedAt": "2026-10-27T22:07:38+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -523,6 +523,28 @@
         "parquet"
       ],
       "listedFiles": 6,
+      "access": "public"
+    },
+    {
+      "id": "AltaySec/altayduel-transcripts",
+      "source": "https://huggingface.co/datasets/AltaySec/altayduel-transcripts",
+      "observedAt": "2026-10-27T22:07:38+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "jsonl"
+      ],
+      "listedFiles": 6,
+      "access": "public"
+    },
+    {
+      "id": "anderslee2020/us-vehicle-sales-tax-registration-fees",
+      "source": "https://huggingface.co/datasets/anderslee2020/us-vehicle-sales-tax-registration-fees",
+      "observedAt": "2026-10-27T22:07:38+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "csv"
+      ],
+      "listedFiles": 8,
       "access": "public"
     }
   ]

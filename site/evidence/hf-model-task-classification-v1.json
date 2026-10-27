@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-27T21:44:26+00:00",
+  "lastPracticedAt": "2026-10-27T22:07:38+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -422,6 +422,24 @@
       "declaredLicense": "apache-2.0",
       "access": "public",
       "modelFiles": 13
+    },
+    {
+      "id": "vincentkaufmann/gpt-oss-20b-vision-preview",
+      "source": "https://huggingface.co/vincentkaufmann/gpt-oss-20b-vision-preview",
+      "observedAt": "2026-10-27T22:07:38+00:00",
+      "task": "image-text-to-text",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 21
+    },
+    {
+      "id": "VivekMalipatel23/mDeBERTa-v3-base-text-emotion-classification",
+      "source": "https://huggingface.co/VivekMalipatel23/mDeBERTa-v3-base-text-emotion-classification",
+      "observedAt": "2026-10-27T22:07:38+00:00",
+      "task": "zero-shot-classification",
+      "declaredLicense": "mit",
+      "access": "public",
+      "modelFiles": 10
     }
   ]
 }

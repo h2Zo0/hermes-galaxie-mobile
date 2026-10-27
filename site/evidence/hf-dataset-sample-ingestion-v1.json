@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-27T21:44:27+00:00",
+  "lastPracticedAt": "2026-10-27T22:07:41+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -943,6 +943,52 @@
       "rowCount": 3,
       "sampleSha256": "dede601e7c1ea792ca15fa8a4cab38908be0a4fab9c89f1afaec38f7f6b20881",
       "observedAt": "2026-10-27T21:44:27+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "CATIE-AQ/frenchQA",
+      "source": "https://huggingface.co/datasets/CATIE-AQ/frenchQA",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "answers",
+        "context",
+        "id",
+        "question",
+        "title"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "11a9d44f0942a8144c1fd59440aa1ca9119e635dd16f7f4de4e82abe42cf5530",
+      "observedAt": "2026-10-27T22:07:41+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "ClarusC64/ai-tool-use-boundary-coherence-risk-v0.1",
+      "source": "https://huggingface.co/datasets/ClarusC64/ai-tool-use-boundary-coherence-risk-v0.1",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "dataset_id",
+        "ground_truth_label",
+        "ground_truth_rationale",
+        "impact_level",
+        "ops_summary",
+        "outcome_signal",
+        "question",
+        "scenario",
+        "source_citation",
+        "tool_authorized",
+        "tool_available",
+        "tool_use_executed_without_permission",
+        "tool_use_requested",
+        "uid",
+        "year"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "d0a1d4ad01f0068418ae448101490b58accc9705ba613766a76cf15a3871adc2",
+      "observedAt": "2026-10-27T22:07:41+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
