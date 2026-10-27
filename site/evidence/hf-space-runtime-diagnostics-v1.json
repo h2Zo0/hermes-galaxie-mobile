@@ -1,0 +1,31 @@
+{
+  "skillId": "hf-space-runtime-diagnostics-v1",
+  "title": "Diagnostiquer le runtime de démonstrations IA",
+  "status": "validated",
+  "testedAt": "2026-10-27T13:09:45+00:00",
+  "lastPracticedAt": "2026-10-27T13:09:45+00:00",
+  "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
+  "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
+  "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
+  "checksPassed": true,
+  "reports": [
+    {
+      "id": "Aarya003/Financial-Analyst-Agent",
+      "source": "https://huggingface.co/spaces/Aarya003/Financial-Analyst-Agent",
+      "observedAt": "2026-10-27T13:09:45+00:00",
+      "sdk": "docker",
+      "runtimeStage": "RUNNING",
+      "availableNow": true,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "AceVikings/repro-learning-human-robot-collaboration-via-heterogeneous-agent-lyapunov-policy-optimizatio",
+      "source": "https://huggingface.co/spaces/AceVikings/repro-learning-human-robot-collaboration-via-heterogeneous-agent-lyapunov-policy-optimizatio",
+      "observedAt": "2026-10-27T13:09:45+00:00",
+      "sdk": "static",
+      "runtimeStage": "RUNNING",
+      "availableNow": true,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    }
+  ]
+}

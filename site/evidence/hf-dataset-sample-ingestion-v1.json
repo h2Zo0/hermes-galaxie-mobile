@@ -1,0 +1,54 @@
+{
+  "skillId": "hf-dataset-sample-ingestion-v1",
+  "title": "Lire et contrôler des échantillons de datasets publics",
+  "status": "validated",
+  "testedAt": "2026-10-27T13:09:46+00:00",
+  "lastPracticedAt": "2026-10-27T13:09:46+00:00",
+  "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
+  "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
+  "checksPassed": true,
+  "reports": [
+    {
+      "id": "AdityaaXD/Multi-Agent_Reinforcement_Learning_Trading_System_Data",
+      "source": "https://huggingface.co/datasets/AdityaaXD/Multi-Agent_Reinforcement_Learning_Trading_System_Data",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "Close",
+        "Date",
+        "High",
+        "Low",
+        "Open",
+        "Volume"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "353c691f759001c481679345ddbe3882e158b05a31b0c401bc83c04fda057c32",
+      "observedAt": "2026-10-27T13:09:46+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "Agent-Ark/Toucan-1.5M",
+      "source": "https://huggingface.co/datasets/Agent-Ark/Toucan-1.5M",
+      "config": "Kimi-K2",
+      "split": "train",
+      "columns": [
+        "available_tools",
+        "messages",
+        "metadata",
+        "question",
+        "question_quality_assessment",
+        "response_quality_assessment",
+        "subset_name",
+        "target_tools",
+        "uuid"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "021e03e0229e8d876d6603cce3e46cc7cbc5edfd4b7195a9b028ec57df68d4ad",
+      "observedAt": "2026-10-27T13:09:46+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    }
+  ],
+  "scope": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+}
