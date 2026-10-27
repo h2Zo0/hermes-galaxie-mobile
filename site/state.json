@@ -1,12 +1,12 @@
 {
   "name": "NOVENS CORE — GALAXIE VIVANTE",
-  "asOf": "2026-10-27T19:02:57+00:00",
-  "polledAt": "2026-10-27T19:02:57+00:00",
-  "resourceCount": 3324,
+  "asOf": "2026-10-27T19:23:13+00:00",
+  "polledAt": "2026-10-27T19:23:13+00:00",
+  "resourceCount": 3325,
   "categoryCounts": {
     "github": 2049,
     "models": 459,
-    "datasets": 405,
+    "datasets": 406,
     "spaces": 411
   },
   "verifiedSkills": 5,
@@ -148,6 +148,12 @@
     {
       "date": "2026-10-27T19:02:57+00:00",
       "resources": 3324,
+      "verified": 5,
+      "profit": 0.0
+    },
+    {
+      "date": "2026-10-27T19:23:13+00:00",
+      "resources": 3325,
       "verified": 5,
       "profit": 0.0
     }
@@ -1216,6 +1222,13 @@
       "name": "hirundo-io/document-injection-answered",
       "url": "https://huggingface.co/datasets/hirundo-io/document-injection-answered",
       "firstSeen": "2026-10-27T13:28:19+00:00"
+    },
+    {
+      "id": "datasets:hkust-nlp/Toolathlon",
+      "category": "datasets",
+      "name": "hkust-nlp/Toolathlon",
+      "url": "https://huggingface.co/datasets/hkust-nlp/Toolathlon",
+      "firstSeen": "2026-10-27T19:23:13+00:00"
     },
     {
       "id": "datasets:honlzl/invoice",
@@ -23426,9 +23439,9 @@
   "cloud": {
     "agent": "Éclaireur NOVENS CORE",
     "execution": "GitHub Actions",
-    "lastMissionAt": "2026-10-27T19:02:57+00:00",
+    "lastMissionAt": "2026-10-27T19:23:13+00:00",
     "missionStatus": "succès",
-    "newResources": 102,
+    "newResources": 1,
     "errors": 0,
     "nextScheduled": "Toutes les 10 minutes si GitHub Actions disponible",
     "machineIndependence": true
@@ -23439,10 +23452,10 @@
       "title": "Classer des modèles IA par tâche et licence déclarée",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-10-27T19:03:07+00:00",
-      "practiceCount": 30,
+      "lastPracticedAt": "2026-10-27T19:23:19+00:00",
+      "practiceCount": 32,
       "proofPath": "evidence/hf-model-task-classification-v1.json",
-      "proofSha256": "80764b6437a793cc8dd7d04bb504b2800ce28a096918805633a6882142426d19",
+      "proofSha256": "48488cd871f7570d1fb438a2481ecffbc7d3cc02ddb8111d414059a84cef4bba",
       "resourcesTested": [
         "https://huggingface.co/agentionai/Qwen3.8-27B-AP-GGUF",
         "https://huggingface.co/agentionai/Signal-3.8-27B",
@@ -23473,7 +23486,9 @@
         "https://huggingface.co/mlx-community/embeddinggemma-2-bf16",
         "https://huggingface.co/mlx-community/Qwen3-Embedding-4B-4bit-DWQ",
         "https://huggingface.co/nansari0134/jina-reranker-v2-goodreads",
-        "https://huggingface.co/nateraw/codecarbon-text-classification"
+        "https://huggingface.co/nateraw/codecarbon-text-classification",
+        "https://huggingface.co/NYTK/text-generation-news-gpt2-small-hungarian",
+        "https://huggingface.co/NYTK/text-generation-poem-petofi-gpt2-small-hungarian"
       ]
     },
     {
@@ -23481,10 +23496,10 @@
       "title": "Qualifier licence et format de jeux de données IA",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-10-27T19:03:07+00:00",
-      "practiceCount": 30,
+      "lastPracticedAt": "2026-10-27T19:23:19+00:00",
+      "practiceCount": 32,
       "proofPath": "evidence/hf-dataset-usage-assessment-v1.json",
-      "proofSha256": "e69427917ed452fe4a11704356e54bbdf9d45091e43f6a1b3053944a4e3c53be",
+      "proofSha256": "4f25b5693dd06605c48c95bade2586bc449fa9728824fa1132619dea2c4b6c0f",
       "resourcesTested": [
         "https://huggingface.co/datasets/11-47/autonomous-ai-agents-multi-agent-swarms-2026",
         "https://huggingface.co/datasets/AdityaaXD/Multi-Agent_Reinforcement_Learning_Trading_System_Data",
@@ -23515,7 +23530,9 @@
         "https://huggingface.co/datasets/meetara-lab/vectorstore-accounting",
         "https://huggingface.co/datasets/mercor/apex-accounting-harbor",
         "https://huggingface.co/datasets/Nanbeige/ToolMind",
-        "https://huggingface.co/datasets/nebius/SWE-agent-trajectories"
+        "https://huggingface.co/datasets/nebius/SWE-agent-trajectories",
+        "https://huggingface.co/datasets/nvidia/Nemotron-SFT-Agentic-v4",
+        "https://huggingface.co/datasets/nvidia/Nemotron-SFT-Finance-Document-Grounded-Reasoning-v1"
       ]
     },
     {
@@ -23523,10 +23540,10 @@
       "title": "Diagnostiquer le runtime de démonstrations IA",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-10-27T19:03:07+00:00",
-      "practiceCount": 30,
+      "lastPracticedAt": "2026-10-27T19:23:19+00:00",
+      "practiceCount": 32,
       "proofPath": "evidence/hf-space-runtime-diagnostics-v1.json",
-      "proofSha256": "b5183c758739daabb641086ccacc219a15d7514d8739671b0243c542c32f0afb",
+      "proofSha256": "0cef36d4eace3626c06881756365a0ce4810da9c71f1994409d5b03870b8e942",
       "resourcesTested": [
         "https://huggingface.co/spaces/Aarya003/Financial-Analyst-Agent",
         "https://huggingface.co/spaces/AceVikings/repro-learning-human-robot-collaboration-via-heterogeneous-agent-lyapunov-policy-optimizatio",
@@ -23557,7 +23574,9 @@
         "https://huggingface.co/spaces/not-lain/RAG-Chatbot",
         "https://huggingface.co/spaces/Novas/impira-layoutlm-document-qa",
         "https://huggingface.co/spaces/pierreguillou/document-layout-detection-dit-image-instances",
-        "https://huggingface.co/spaces/pierreguillou/Inference-APP-Document-Understanding-at-linelevel-LiLT-base-LayoutXLM-base-v1"
+        "https://huggingface.co/spaces/pierreguillou/Inference-APP-Document-Understanding-at-linelevel-LiLT-base-LayoutXLM-base-v1",
+        "https://huggingface.co/spaces/ragha108/aiyogi_dosha",
+        "https://huggingface.co/spaces/ragha108/aiyogi_meditation"
       ]
     },
     {
@@ -23565,10 +23584,10 @@
       "title": "Lire et contrôler des échantillons de datasets publics",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:46+00:00",
-      "lastPracticedAt": "2026-10-27T19:03:09+00:00",
-      "practiceCount": 30,
+      "lastPracticedAt": "2026-10-27T19:23:19+00:00",
+      "practiceCount": 32,
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "d1c009ed34b848595b1d0f7a691dc0e4e8a673c05637aad251351cb0159e880e",
+      "proofSha256": "c2db32796b6454c1a3a8aee1dd85ad0d4d97b964e11ba1a17f0e0136a44efd28",
       "resourcesTested": [
         "https://huggingface.co/datasets/AdityaaXD/Multi-Agent_Reinforcement_Learning_Trading_System_Data",
         "https://huggingface.co/datasets/Agent-Ark/Toucan-1.5M",
@@ -23599,7 +23618,9 @@
         "https://huggingface.co/datasets/nvidia/Nemotron-RL-Agentic-Conversational-Tool-Use-Pivot-v1",
         "https://huggingface.co/datasets/nvidia/Nemotron-SFT-Agentic-Finance-v1",
         "https://huggingface.co/datasets/open-source-metrics/document-question-answering-checkpoint-downloads",
-        "https://huggingface.co/datasets/open-thoughts/AgentTrove"
+        "https://huggingface.co/datasets/open-thoughts/AgentTrove",
+        "https://huggingface.co/datasets/procit005/vehicles1",
+        "https://huggingface.co/datasets/procit005/vehicles11"
       ]
     },
     {
@@ -23607,10 +23628,10 @@
       "title": "Analyser techniquement un dépôt GitHub public",
       "status": "validated",
       "validatedAt": "2026-10-27T12:30:54+00:00",
-      "lastPracticedAt": "2026-10-27T19:03:05+00:00",
-      "practiceCount": 32,
+      "lastPracticedAt": "2026-10-27T19:23:16+00:00",
+      "practiceCount": 34,
       "proofPath": "evidence/github-repository-audit.json",
-      "proofSha256": "2d6cf29f9e620255fb4829c1b0dccdc4f5366c0df92f8ac211221ddfe24b304a",
+      "proofSha256": "bc053da426fad265f7101516f83901fc1e7fe6aa05ba308406d8823f038c3118",
       "resourcesTested": [
         "https://github.com/0jre/runne",
         "https://github.com/0xMihirK/hercules-mcp",
@@ -23643,7 +23664,9 @@
         "https://github.com/Anjub004/dot-lab",
         "https://github.com/Anton-Barinov/TropaTT",
         "https://github.com/AnubhavDataSci25/LLM-EvalHub",
-        "https://github.com/anupmurali05/loan_processing"
+        "https://github.com/anupmurali05/loan_processing",
+        "https://github.com/apache/ofbiz-plugins",
+        "https://github.com/api-evangelist/ai-automation"
       ]
     }
   ],
@@ -24966,25 +24989,79 @@
         }
       ],
       "totalVerifiedExercises": 30
+    },
+    {
+      "date": "2026-10-27T19:23:16+00:00",
+      "skillId": "github-repository-technical-audit-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 34,
+      "failures": [
+        {
+          "repository": "api-evangelist/activiti",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "api-evangelist/agents-md",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27T19:23:19+00:00",
+      "skillId": "hf-model-task-classification-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 32,
+      "failures": []
+    },
+    {
+      "date": "2026-10-27T19:23:19+00:00",
+      "skillId": "hf-dataset-usage-assessment-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 32,
+      "failures": []
+    },
+    {
+      "date": "2026-10-27T19:23:19+00:00",
+      "skillId": "hf-space-runtime-diagnostics-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 32,
+      "failures": []
+    },
+    {
+      "date": "2026-10-27T19:23:19+00:00",
+      "skillId": "hf-dataset-sample-ingestion-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "failedResources": [],
+      "totalVerifiedExercises": 32
     }
   ],
   "lastCapabilityVerification": {
-    "date": "2026-10-27T19:03:09+00:00",
+    "date": "2026-10-27T19:23:19+00:00",
     "skillId": "hf-dataset-sample-ingestion-v1",
     "result": "reinforced"
   },
   "discovery": {
-    "cursor": 15,
+    "cursor": 16,
     "capacity": 20000,
-    "lastBatch": 102,
+    "lastBatch": 1,
     "newByCategory": {
-      "github": 100,
-      "models": 1,
-      "datasets": 0,
-      "spaces": 1
+      "github": 0,
+      "models": 0,
+      "datasets": 1,
+      "spaces": 0
     },
     "queriesLastRun": 7,
-    "totalSearchCycles": 15,
+    "totalSearchCycles": 16,
     "lastErrors": []
   },
   "approvedResources": [
@@ -25197,7 +25274,21 @@
       "approvedFor": "read-only-dataset-sampling",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
       "testedAt": "2026-10-27T19:03:09+00:00"
+    },
+    {
+      "id": "procit005/vehicles1",
+      "source": "https://huggingface.co/datasets/procit005/vehicles1",
+      "approvedFor": "read-only-dataset-sampling",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "testedAt": "2026-10-27T19:23:19+00:00"
+    },
+    {
+      "id": "procit005/vehicles11",
+      "source": "https://huggingface.co/datasets/procit005/vehicles11",
+      "approvedFor": "read-only-dataset-sampling",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "testedAt": "2026-10-27T19:23:19+00:00"
     }
   ],
-  "approvedResourceCount": 30
+  "approvedResourceCount": 32
 }

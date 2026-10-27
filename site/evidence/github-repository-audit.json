@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-27T19:03:05+00:00",
+  "lastPracticedAt": "2026-10-27T19:23:16+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -590,6 +590,43 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-26T04:53:37Z"
+    },
+    {
+      "repository": "apache/ofbiz-plugins",
+      "url": "https://github.com/apache/ofbiz-plugins",
+      "defaultBranch": "trunk",
+      "primaryLanguage": "FreeMarker",
+      "primaryLanguageSharePercent": 39.56,
+      "languageBytes": {
+        "FreeMarker": 1145130,
+        "Java": 973489,
+        "Groovy": 527507,
+        "CSS": 156346,
+        "JavaScript": 59217,
+        "Python": 10856,
+        "Shell": 7887,
+        "TypeScript": 7481,
+        "HTML": 7097
+      },
+      "totalLanguageBytes": 2895010,
+      "archived": false,
+      "starsAtTest": 178,
+      "pushedAt": "2026-10-27T12:50:31Z"
+    },
+    {
+      "repository": "api-evangelist/ai-automation",
+      "url": "https://github.com/api-evangelist/ai-automation",
+      "defaultBranch": "main",
+      "primaryLanguage": "HTML",
+      "primaryLanguageSharePercent": 99.55,
+      "languageBytes": {
+        "HTML": 15984,
+        "Ruby": 73
+      },
+      "totalLanguageBytes": 16057,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-24T14:05:47Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

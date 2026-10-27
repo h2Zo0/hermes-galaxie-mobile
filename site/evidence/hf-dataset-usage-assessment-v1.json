@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-27T19:03:07+00:00",
+  "lastPracticedAt": "2026-10-27T19:23:19+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -346,6 +346,28 @@
         "parquet"
       ],
       "listedFiles": 14,
+      "access": "public"
+    },
+    {
+      "id": "nvidia/Nemotron-SFT-Agentic-v4",
+      "source": "https://huggingface.co/datasets/nvidia/Nemotron-SFT-Agentic-v4",
+      "observedAt": "2026-10-27T19:23:19+00:00",
+      "declaredLicense": "openmdw-1.1",
+      "formats": [
+        "jsonl"
+      ],
+      "listedFiles": 4,
+      "access": "public"
+    },
+    {
+      "id": "nvidia/Nemotron-SFT-Finance-Document-Grounded-Reasoning-v1",
+      "source": "https://huggingface.co/datasets/nvidia/Nemotron-SFT-Finance-Document-Grounded-Reasoning-v1",
+      "observedAt": "2026-10-27T19:23:19+00:00",
+      "declaredLicense": "openmdw-1.1",
+      "formats": [
+        "jsonl"
+      ],
+      "listedFiles": 3,
       "access": "public"
     }
   ]
