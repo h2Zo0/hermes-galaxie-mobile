@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-27T15:21:43+00:00",
+  "lastPracticedAt": "2026-10-27T15:37:12+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -62,6 +62,24 @@
       "declaredLicense": "mit",
       "access": "public",
       "modelFiles": 26
+    },
+    {
+      "id": "hotchpotch/bekko-embedding-v1-a8m",
+      "source": "https://huggingface.co/hotchpotch/bekko-embedding-v1-a8m",
+      "observedAt": "2026-10-27T15:37:12+00:00",
+      "task": "sentence-similarity",
+      "declaredLicense": "mit",
+      "access": "public",
+      "modelFiles": 30
+    },
+    {
+      "id": "hotchpotch/bekko-static-embedding-v1",
+      "source": "https://huggingface.co/hotchpotch/bekko-static-embedding-v1",
+      "observedAt": "2026-10-27T15:37:12+00:00",
+      "task": "sentence-similarity",
+      "declaredLicense": "mit",
+      "access": "public",
+      "modelFiles": 51
     }
   ]
 }

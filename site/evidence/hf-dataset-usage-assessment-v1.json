@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-27T15:21:43+00:00",
+  "lastPracticedAt": "2026-10-27T15:37:12+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -74,6 +74,28 @@
       "formats": [
         "json",
         "jsonl"
+      ],
+      "listedFiles": 4,
+      "access": "public"
+    },
+    {
+      "id": "hf-doc-build/doc-build-dev",
+      "source": "https://huggingface.co/datasets/hf-doc-build/doc-build-dev",
+      "observedAt": "2026-10-27T15:37:12+00:00",
+      "declaredLicense": "mit",
+      "formats": [
+        "zip"
+      ],
+      "listedFiles": 19702,
+      "access": "public"
+    },
+    {
+      "id": "hirundo-io/document-injection-answered",
+      "source": "https://huggingface.co/datasets/hirundo-io/document-injection-answered",
+      "observedAt": "2026-10-27T15:37:12+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "parquet"
       ],
       "listedFiles": 4,
       "access": "public"

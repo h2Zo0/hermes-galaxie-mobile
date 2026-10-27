@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-27T15:21:47+00:00",
+  "lastPracticedAt": "2026-10-27T15:37:14+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -125,6 +125,34 @@
       "rowCount": 3,
       "sampleSha256": "486860f39152d44ce935fe8520e942523d207ba5f4180be17ac69f7603485f9d",
       "observedAt": "2026-10-27T15:21:47+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "huggingface/documentation-images",
+      "source": "https://huggingface.co/datasets/huggingface/documentation-images",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "image"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "8e64a055c389da65cb20717ff01bc4f688636e021892e006bdcc97b6646749af",
+      "observedAt": "2026-10-27T15:37:14+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "HumynLabs/Brazilian_Bills_and_Invoices_Dataset",
+      "source": "https://huggingface.co/datasets/HumynLabs/Brazilian_Bills_and_Invoices_Dataset",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "image"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "313860196b50c909ddf7787c23cb34999e69b28578c8fc005a26fcee217612fc",
+      "observedAt": "2026-10-27T15:37:14+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

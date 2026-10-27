@@ -1,13 +1,13 @@
 {
   "name": "NOVENS CORE — GALAXIE VIVANTE",
-  "asOf": "2026-10-27T15:21:32+00:00",
-  "polledAt": "2026-10-27T15:21:32+00:00",
-  "resourceCount": 1101,
+  "asOf": "2026-10-27T15:37:05+00:00",
+  "polledAt": "2026-10-27T15:37:05+00:00",
+  "resourceCount": 1309,
   "categoryCounts": {
-    "github": 631,
-    "models": 157,
-    "datasets": 155,
-    "spaces": 158
+    "github": 691,
+    "models": 205,
+    "datasets": 205,
+    "spaces": 208
   },
   "verifiedSkills": 5,
   "netProfitEuro": 0.0,
@@ -76,6 +76,12 @@
     {
       "date": "2026-10-27T15:21:32+00:00",
       "resources": 1101,
+      "verified": 5,
+      "profit": 0.0
+    },
+    {
+      "date": "2026-10-27T15:37:05+00:00",
+      "resources": 1309,
       "verified": 5,
       "profit": 0.0
     }
@@ -159,6 +165,13 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "datasets:AIghr/Accounting-Books-Translate",
+      "category": "datasets",
+      "name": "AIghr/Accounting-Books-Translate",
+      "url": "https://huggingface.co/datasets/AIghr/Accounting-Books-Translate",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "datasets:alaeddinehamroun/invoices-custom-data-processed",
       "category": "datasets",
       "name": "alaeddinehamroun/invoices-custom-data-processed",
@@ -178,6 +191,13 @@
       "name": "alaeddinehamroun/invoices-donut-data-v1",
       "url": "https://huggingface.co/datasets/alaeddinehamroun/invoices-donut-data-v1",
       "firstSeen": "2026-10-27T15:21:32+00:00"
+    },
+    {
+      "id": "datasets:algohype/accounting",
+      "category": "datasets",
+      "name": "algohype/accounting",
+      "url": "https://huggingface.co/datasets/algohype/accounting",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "datasets:Am0MuK/md_invoices",
@@ -334,6 +354,13 @@
       "firstSeen": "2026-10-26T23:15:29+00:00"
     },
     {
+      "id": "datasets:brucewlee1/mmlu-professional-accounting",
+      "category": "datasets",
+      "name": "brucewlee1/mmlu-professional-accounting",
+      "url": "https://huggingface.co/datasets/brucewlee1/mmlu-professional-accounting",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "datasets:CCRss/agents-as-jds-llm-data",
       "category": "datasets",
       "name": "CCRss/agents-as-jds-llm-data",
@@ -369,6 +396,13 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "datasets:darisdzakwanhoesien/arabic-accounting-mcq_train",
+      "category": "datasets",
+      "name": "darisdzakwanhoesien/arabic-accounting-mcq_train",
+      "url": "https://huggingface.co/datasets/darisdzakwanhoesien/arabic-accounting-mcq_train",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "datasets:daviddudas/invoices_v2",
       "category": "datasets",
       "name": "daviddudas/invoices_v2",
@@ -402,6 +436,20 @@
       "name": "deeptools-ai/test-document-invoice",
       "url": "https://huggingface.co/datasets/deeptools-ai/test-document-invoice",
       "firstSeen": "2026-10-27T13:28:19+00:00"
+    },
+    {
+      "id": "datasets:electricsheepasia/asia-owid-countries-using-the-system-of-environmental-economic-accounting",
+      "category": "datasets",
+      "name": "electricsheepasia/asia-owid-countries-using-the-system-of-environmental-economic-accounting",
+      "url": "https://huggingface.co/datasets/electricsheepasia/asia-owid-countries-using-the-system-of-environmental-economic-accounting",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:electricsheepeurope/europe-owid-countries-using-the-system-of-environmental-economic-accounting",
+      "category": "datasets",
+      "name": "electricsheepeurope/europe-owid-countries-using-the-system-of-environmental-economic-accounting",
+      "url": "https://huggingface.co/datasets/electricsheepeurope/europe-owid-countries-using-the-system-of-environmental-economic-accounting",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "datasets:EleutherAI/wikitext_document_level",
@@ -705,6 +753,13 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "datasets:jacobwelsh/accounting",
+      "category": "datasets",
+      "name": "jacobwelsh/accounting",
+      "url": "https://huggingface.co/datasets/jacobwelsh/accounting",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "datasets:JayYz/multi_agent_handoff",
       "category": "datasets",
       "name": "JayYz/multi_agent_handoff",
@@ -717,6 +772,90 @@
       "name": "joelniklaus/legal_case_document_summarization",
       "url": "https://huggingface.co/datasets/joelniklaus/legal_case_document_summarization",
       "firstSeen": "2026-10-27T13:28:19+00:00"
+    },
+    {
+      "id": "datasets:joey234/mmlu-professional_accounting",
+      "category": "datasets",
+      "name": "joey234/mmlu-professional_accounting",
+      "url": "https://huggingface.co/datasets/joey234/mmlu-professional_accounting",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:joey234/mmlu-professional_accounting-dev",
+      "category": "datasets",
+      "name": "joey234/mmlu-professional_accounting-dev",
+      "url": "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-dev",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:joey234/mmlu-professional_accounting-neg",
+      "category": "datasets",
+      "name": "joey234/mmlu-professional_accounting-neg",
+      "url": "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-neg",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:joey234/mmlu-professional_accounting-neg-answer",
+      "category": "datasets",
+      "name": "joey234/mmlu-professional_accounting-neg-answer",
+      "url": "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-neg-answer",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:joey234/mmlu-professional_accounting-neg-prepend",
+      "category": "datasets",
+      "name": "joey234/mmlu-professional_accounting-neg-prepend",
+      "url": "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-neg-prepend",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:joey234/mmlu-professional_accounting-neg-prepend-fix",
+      "category": "datasets",
+      "name": "joey234/mmlu-professional_accounting-neg-prepend-fix",
+      "url": "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-neg-prepend-fix",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:joey234/mmlu-professional_accounting-neg-prepend-verbal",
+      "category": "datasets",
+      "name": "joey234/mmlu-professional_accounting-neg-prepend-verbal",
+      "url": "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-neg-prepend-verbal",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:joey234/mmlu-professional_accounting-original-neg",
+      "category": "datasets",
+      "name": "joey234/mmlu-professional_accounting-original-neg",
+      "url": "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-original-neg",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:joey234/mmlu-professional_accounting-original-neg-prepend",
+      "category": "datasets",
+      "name": "joey234/mmlu-professional_accounting-original-neg-prepend",
+      "url": "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-original-neg-prepend",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:joey234/mmlu-professional_accounting-rule-neg",
+      "category": "datasets",
+      "name": "joey234/mmlu-professional_accounting-rule-neg",
+      "url": "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-rule-neg",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:joey234/mmlu-professional_accounting-rule-neg-prepend",
+      "category": "datasets",
+      "name": "joey234/mmlu-professional_accounting-rule-neg-prepend",
+      "url": "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-rule-neg-prepend",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:joey234/mmlu-professional_accounting-verbal-neg-prepend",
+      "category": "datasets",
+      "name": "joey234/mmlu-professional_accounting-verbal-neg-prepend",
+      "url": "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-verbal-neg-prepend",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "datasets:joshuajano/donut-invoices",
@@ -761,6 +900,27 @@
       "firstSeen": "2026-10-27T10:31:28+00:00"
     },
     {
+      "id": "datasets:K-University-AIED/LearningChat_accounting_ai_questions",
+      "category": "datasets",
+      "name": "K-University-AIED/LearningChat_accounting_ai_questions",
+      "url": "https://huggingface.co/datasets/K-University-AIED/LearningChat_accounting_ai_questions",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:KadamParth/NCERT_Accounting_11th",
+      "category": "datasets",
+      "name": "KadamParth/NCERT_Accounting_11th",
+      "url": "https://huggingface.co/datasets/KadamParth/NCERT_Accounting_11th",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:KadamParth/NCERT_Accounting_12th",
+      "category": "datasets",
+      "name": "KadamParth/NCERT_Accounting_12th",
+      "url": "https://huggingface.co/datasets/KadamParth/NCERT_Accounting_12th",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "datasets:kaniam/invoice",
       "category": "datasets",
       "name": "kaniam/invoice",
@@ -796,6 +956,34 @@
       "firstSeen": "2026-10-27T13:28:19+00:00"
     },
     {
+      "id": "datasets:kothasuhas/accounting-kieso",
+      "category": "datasets",
+      "name": "kothasuhas/accounting-kieso",
+      "url": "https://huggingface.co/datasets/kothasuhas/accounting-kieso",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:kothasuhas/accounting-textbooks-15",
+      "category": "datasets",
+      "name": "kothasuhas/accounting-textbooks-15",
+      "url": "https://huggingface.co/datasets/kothasuhas/accounting-textbooks-15",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:kothasuhas/accounting-textbooks-16",
+      "category": "datasets",
+      "name": "kothasuhas/accounting-textbooks-16",
+      "url": "https://huggingface.co/datasets/kothasuhas/accounting-textbooks-16",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:kothasuhas/accounting-textbooks-6",
+      "category": "datasets",
+      "name": "kothasuhas/accounting-textbooks-6",
+      "url": "https://huggingface.co/datasets/kothasuhas/accounting-textbooks-6",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "datasets:Lakshan2003/customer_service_client_agent_conversations_40k_multi_task",
       "category": "datasets",
       "name": "Lakshan2003/customer_service_client_agent_conversations_40k_multi_task",
@@ -808,6 +996,27 @@
       "name": "lambda/hermes-agent-reasoning-traces",
       "url": "https://huggingface.co/datasets/lambda/hermes-agent-reasoning-traces",
       "firstSeen": "2026-10-27T13:09:33+00:00"
+    },
+    {
+      "id": "datasets:leeroy-jankins/FASAB-Handbook-of-Federal-Accounting-Standards",
+      "category": "datasets",
+      "name": "leeroy-jankins/FASAB-Handbook-of-Federal-Accounting-Standards",
+      "url": "https://huggingface.co/datasets/leeroy-jankins/FASAB-Handbook-of-Federal-Accounting-Standards",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:leeroy-jankins/Federal-Trust-Fund-Accounting-Guide",
+      "category": "datasets",
+      "name": "leeroy-jankins/Federal-Trust-Fund-Accounting-Guide",
+      "url": "https://huggingface.co/datasets/leeroy-jankins/Federal-Trust-Fund-Accounting-Guide",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:Lots-of-LoRAs/task728_mmmlu_answer_generation_professional_accounting",
+      "category": "datasets",
+      "name": "Lots-of-LoRAs/task728_mmmlu_answer_generation_professional_accounting",
+      "url": "https://huggingface.co/datasets/Lots-of-LoRAs/task728_mmmlu_answer_generation_professional_accounting",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "datasets:LouisDang/invoice_data",
@@ -845,6 +1054,27 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "datasets:mdahba/noor_professional_accounting",
+      "category": "datasets",
+      "name": "mdahba/noor_professional_accounting",
+      "url": "https://huggingface.co/datasets/mdahba/noor_professional_accounting",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:meetara-lab/vectorstore-accounting",
+      "category": "datasets",
+      "name": "meetara-lab/vectorstore-accounting",
+      "url": "https://huggingface.co/datasets/meetara-lab/vectorstore-accounting",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:mercor/apex-accounting-harbor",
+      "category": "datasets",
+      "name": "mercor/apex-accounting-harbor",
+      "url": "https://huggingface.co/datasets/mercor/apex-accounting-harbor",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "datasets:mercor/apex-agents",
       "category": "datasets",
       "name": "mercor/apex-agents",
@@ -857,6 +1087,27 @@
       "name": "microsoft/orca-agentinstruct-1M-v1",
       "url": "https://huggingface.co/datasets/microsoft/orca-agentinstruct-1M-v1",
       "firstSeen": "2026-10-27T08:28:40+00:00"
+    },
+    {
+      "id": "datasets:mindweave/accounting-ledger-au",
+      "category": "datasets",
+      "name": "mindweave/accounting-ledger-au",
+      "url": "https://huggingface.co/datasets/mindweave/accounting-ledger-au",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:mindweave/accounting-ledger-uk",
+      "category": "datasets",
+      "name": "mindweave/accounting-ledger-uk",
+      "url": "https://huggingface.co/datasets/mindweave/accounting-ledger-uk",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:mindweave/accounting-ledger-us",
+      "category": "datasets",
+      "name": "mindweave/accounting-ledger-us",
+      "url": "https://huggingface.co/datasets/mindweave/accounting-ledger-us",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "datasets:moganai/turkish-synthetic-documents",
@@ -906,6 +1157,13 @@
       "name": "nebius/SWE-agent-trajectories",
       "url": "https://huggingface.co/datasets/nebius/SWE-agent-trajectories",
       "firstSeen": "2026-10-27T13:09:33+00:00"
+    },
+    {
+      "id": "datasets:nicolas-devatine/qa-accounting-edits",
+      "category": "datasets",
+      "name": "nicolas-devatine/qa-accounting-edits",
+      "url": "https://huggingface.co/datasets/nicolas-devatine/qa-accounting-edits",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "datasets:nitesh-sawadia/invoice_layoutlmv3",
@@ -1048,6 +1306,13 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "datasets:PranjayK/AI-in-Accounting",
+      "category": "datasets",
+      "name": "PranjayK/AI-in-Accounting",
+      "url": "https://huggingface.co/datasets/PranjayK/AI-in-Accounting",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "datasets:quccili/invoice",
       "category": "datasets",
       "name": "quccili/invoice",
@@ -1055,11 +1320,39 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "datasets:RachidAb02/Finance-Accounting",
+      "category": "datasets",
+      "name": "RachidAb02/Finance-Accounting",
+      "url": "https://huggingface.co/datasets/RachidAb02/Finance-Accounting",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "datasets:RKB109/multimodal-document-retrieval-20261021-dataset",
       "category": "datasets",
       "name": "RKB109/multimodal-document-retrieval-20261021-dataset",
       "url": "https://huggingface.co/datasets/RKB109/multimodal-document-retrieval-20261021-dataset",
       "firstSeen": "2026-10-27T13:28:19+00:00"
+    },
+    {
+      "id": "datasets:s4um1l/accounting_grounding_v1",
+      "category": "datasets",
+      "name": "s4um1l/accounting_grounding_v1",
+      "url": "https://huggingface.co/datasets/s4um1l/accounting_grounding_v1",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:SahmBenchmark/arabic-accounting-mcq_eval",
+      "category": "datasets",
+      "name": "SahmBenchmark/arabic-accounting-mcq_eval",
+      "url": "https://huggingface.co/datasets/SahmBenchmark/arabic-accounting-mcq_eval",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:SahmBenchmark/arabic-accounting-mcq_train",
+      "category": "datasets",
+      "name": "SahmBenchmark/arabic-accounting-mcq_train",
+      "url": "https://huggingface.co/datasets/SahmBenchmark/arabic-accounting-mcq_train",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "datasets:Salesforce/wikitext",
@@ -1097,11 +1390,46 @@
       "firstSeen": "2026-10-26T23:15:29+00:00"
     },
     {
+      "id": "datasets:SunnyDaycg/VAT_Accounting_Law",
+      "category": "datasets",
+      "name": "SunnyDaycg/VAT_Accounting_Law",
+      "url": "https://huggingface.co/datasets/SunnyDaycg/VAT_Accounting_Law",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:SwiftLiu/accounting",
+      "category": "datasets",
+      "name": "SwiftLiu/accounting",
+      "url": "https://huggingface.co/datasets/SwiftLiu/accounting",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "datasets:tanishaiwozo/high-quality-invoice-images-for-ocr",
       "category": "datasets",
       "name": "tanishaiwozo/high-quality-invoice-images-for-ocr",
       "url": "https://huggingface.co/datasets/tanishaiwozo/high-quality-invoice-images-for-ocr",
       "firstSeen": "2026-10-27T15:21:32+00:00"
+    },
+    {
+      "id": "datasets:thegr8abdessamad/accounting",
+      "category": "datasets",
+      "name": "thegr8abdessamad/accounting",
+      "url": "https://huggingface.co/datasets/thegr8abdessamad/accounting",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:thegr8abdessamad/accounting02",
+      "category": "datasets",
+      "name": "thegr8abdessamad/accounting02",
+      "url": "https://huggingface.co/datasets/thegr8abdessamad/accounting02",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:Tiime/fr-qa-accounting-edits",
+      "category": "datasets",
+      "name": "Tiime/fr-qa-accounting-edits",
+      "url": "https://huggingface.co/datasets/Tiime/fr-qa-accounting-edits",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "datasets:tmfi/japanese-invoice-dqa",
@@ -1139,6 +1467,13 @@
       "firstSeen": "2026-10-26 21:23:13 CET"
     },
     {
+      "id": "datasets:XIANGFENGLI/ACCOUNTING_DATABASES",
+      "category": "datasets",
+      "name": "XIANGFENGLI/ACCOUNTING_DATABASES",
+      "url": "https://huggingface.co/datasets/XIANGFENGLI/ACCOUNTING_DATABASES",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "datasets:xlangai/AgentNet",
       "category": "datasets",
       "name": "xlangai/AgentNet",
@@ -1165,6 +1500,27 @@
       "name": "zai-org/AgentInstruct",
       "url": "https://huggingface.co/datasets/zai-org/AgentInstruct",
       "firstSeen": "2026-10-27T10:31:28+00:00"
+    },
+    {
+      "id": "datasets:ZixuanKe/accounting_fineweb_phi3.5_unsup",
+      "category": "datasets",
+      "name": "ZixuanKe/accounting_fineweb_phi3.5_unsup",
+      "url": "https://huggingface.co/datasets/ZixuanKe/accounting_fineweb_phi3.5_unsup",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:ZixuanKe/accounting_rule_phi3.5_unsup",
+      "category": "datasets",
+      "name": "ZixuanKe/accounting_rule_phi3.5_unsup",
+      "url": "https://huggingface.co/datasets/ZixuanKe/accounting_rule_phi3.5_unsup",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "datasets:ZixuanKe/accounting_unsup",
+      "category": "datasets",
+      "name": "ZixuanKe/accounting_unsup",
+      "url": "https://huggingface.co/datasets/ZixuanKe/accounting_unsup",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:0jre/runne",
@@ -1242,6 +1598,13 @@
       "name": "a2rp/accounting-invoicing",
       "url": "https://github.com/a2rp/accounting-invoicing",
       "firstSeen": "2026-10-27T15:21:32+00:00"
+    },
+    {
+      "id": "github:aaryasaraf0907-lgtm/ai-ml-based-pothole-detection",
+      "category": "github",
+      "name": "aaryasaraf0907-lgtm/ai-ml-based-pothole-detection",
+      "url": "https://github.com/aaryasaraf0907-lgtm/ai-ml-based-pothole-detection",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:Abhishek-1135/RedFlag-Fraud-Detection",
@@ -1326,6 +1689,13 @@
       "name": "aditibhalla1983/Wayfair-n8n-AI-Agent-Engineering-Externship",
       "url": "https://github.com/aditibhalla1983/Wayfair-n8n-AI-Agent-Engineering-Externship",
       "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:Aegisub-Subtitle/.github",
+      "category": "github",
+      "name": "Aegisub-Subtitle/.github",
+      "url": "https://github.com/Aegisub-Subtitle/.github",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:aerune1/Black-Box",
@@ -1433,6 +1803,13 @@
       "firstSeen": "2026-10-27T08:28:40+00:00"
     },
     {
+      "id": "github:alidanishsolangi88-maker/EDITS-WITH-ANMOL",
+      "category": "github",
+      "name": "alidanishsolangi88-maker/EDITS-WITH-ANMOL",
+      "url": "https://github.com/alidanishsolangi88-maker/EDITS-WITH-ANMOL",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:alpercodes/alms",
       "category": "github",
       "name": "alpercodes/alms",
@@ -1454,11 +1831,25 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "github:Amaan-Mujawar/chassisync",
+      "category": "github",
+      "name": "Amaan-Mujawar/chassisync",
+      "url": "https://github.com/Amaan-Mujawar/chassisync",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:AmalSKumar0/noir",
       "category": "github",
       "name": "AmalSKumar0/noir",
       "url": "https://github.com/AmalSKumar0/noir",
       "firstSeen": "2026-10-27T13:28:19+00:00"
+    },
+    {
+      "id": "github:amarelishay/predictive-maintenance-bus-fleet",
+      "category": "github",
+      "name": "amarelishay/predictive-maintenance-bus-fleet",
+      "url": "https://github.com/amarelishay/predictive-maintenance-bus-fleet",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:ambroseonyanga/Software-engineering-QA-agent-GroupO",
@@ -1776,6 +2167,13 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "github:api-evangelist/preteckt",
+      "category": "github",
+      "name": "api-evangelist/preteckt",
+      "url": "https://github.com/api-evangelist/preteckt",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:api-evangelist/qingflow",
       "category": "github",
       "name": "api-evangelist/qingflow",
@@ -1853,6 +2251,20 @@
       "firstSeen": "2026-10-26T23:15:29+00:00"
     },
     {
+      "id": "github:Ashok8072014509/bus-management-system",
+      "category": "github",
+      "name": "Ashok8072014509/bus-management-system",
+      "url": "https://github.com/Ashok8072014509/bus-management-system",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "github:Attsgroup/heavy-vehicle-maintenance-resources",
+      "category": "github",
+      "name": "Attsgroup/heavy-vehicle-maintenance-resources",
+      "url": "https://github.com/Attsgroup/heavy-vehicle-maintenance-resources",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:aurict/aurict",
       "category": "github",
       "name": "aurict/aurict",
@@ -1888,6 +2300,13 @@
       "firstSeen": "2026-10-27T13:28:19+00:00"
     },
     {
+      "id": "github:Bakeneko/open-niscat",
+      "category": "github",
+      "name": "Bakeneko/open-niscat",
+      "url": "https://github.com/Bakeneko/open-niscat",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:Barca0412/Introduction-to-Quantitative-Finance",
       "category": "github",
       "name": "Barca0412/Introduction-to-Quantitative-Finance",
@@ -1900,6 +2319,13 @@
       "name": "barry-ran/QuickDesk",
       "url": "https://github.com/barry-ran/QuickDesk",
       "firstSeen": "2026-10-27T13:09:33+00:00"
+    },
+    {
+      "id": "github:Bash-Magaji/Fleet-Maintenance-Management-and-Reliability-Analysis",
+      "category": "github",
+      "name": "Bash-Magaji/Fleet-Maintenance-Management-and-Reliability-Analysis",
+      "url": "https://github.com/Bash-Magaji/Fleet-Maintenance-Management-and-Reliability-Analysis",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:BasutkarSony/MemoryFlow-AI",
@@ -1937,6 +2363,13 @@
       "firstSeen": "2026-10-27T08:28:40+00:00"
     },
     {
+      "id": "github:bh-glitch/DepotIQ-EMR-system",
+      "category": "github",
+      "name": "bh-glitch/DepotIQ-EMR-system",
+      "url": "https://github.com/bh-glitch/DepotIQ-EMR-system",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:bhuwanbkt/governed-coding-agent",
       "category": "github",
       "name": "bhuwanbkt/governed-coding-agent",
@@ -1949,6 +2382,13 @@
       "name": "bigcapitalhq/bigcapital",
       "url": "https://github.com/bigcapitalhq/bigcapital",
       "firstSeen": "2026-10-26 21:39:26 CET"
+    },
+    {
+      "id": "github:BIKKYDTU/livesensor",
+      "category": "github",
+      "name": "BIKKYDTU/livesensor",
+      "url": "https://github.com/BIKKYDTU/livesensor",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:bishoku/vmcp",
@@ -1993,6 +2433,13 @@
       "firstSeen": "2026-10-27T08:28:40+00:00"
     },
     {
+      "id": "github:BramastaDP/ai-video-editor-automation",
+      "category": "github",
+      "name": "BramastaDP/ai-video-editor-automation",
+      "url": "https://github.com/BramastaDP/ai-video-editor-automation",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:BrightGold70/skills",
       "category": "github",
       "name": "BrightGold70/skills",
@@ -2000,11 +2447,25 @@
       "firstSeen": "2026-10-27T05:00:26+00:00"
     },
     {
+      "id": "github:bruteai/Smart-Fleet-Optimization",
+      "category": "github",
+      "name": "bruteai/Smart-Fleet-Optimization",
+      "url": "https://github.com/bruteai/Smart-Fleet-Optimization",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:bytechefhq/bytechef",
       "category": "github",
       "name": "bytechefhq/bytechef",
       "url": "https://github.com/bytechefhq/bytechef",
       "firstSeen": "2026-10-27T13:09:33+00:00"
+    },
+    {
+      "id": "github:c-annabel/PublicTransitFleetManagementSystem",
+      "category": "github",
+      "name": "c-annabel/PublicTransitFleetManagementSystem",
+      "url": "https://github.com/c-annabel/PublicTransitFleetManagementSystem",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:calmrocks/ai-engineer-notebooks",
@@ -2035,11 +2496,25 @@
       "firstSeen": "2026-10-26T23:15:29+00:00"
     },
     {
+      "id": "github:Cespanacol/predictive-maintenance-bus-fleet",
+      "category": "github",
+      "name": "Cespanacol/predictive-maintenance-bus-fleet",
+      "url": "https://github.com/Cespanacol/predictive-maintenance-bus-fleet",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:charawut112-coder/renovation-crm",
       "category": "github",
       "name": "charawut112-coder/renovation-crm",
       "url": "https://github.com/charawut112-coder/renovation-crm",
       "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:CharlesFlood/bus_barn",
+      "category": "github",
+      "name": "CharlesFlood/bus_barn",
+      "url": "https://github.com/CharlesFlood/bus_barn",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:chippingway/chipping-orchestrator",
@@ -2075,6 +2550,13 @@
       "name": "ChristopherJoshy/Orito",
       "url": "https://github.com/ChristopherJoshy/Orito",
       "firstSeen": "2026-10-27T13:28:19+00:00"
+    },
+    {
+      "id": "github:chumachukwujr/agentic-ops-template",
+      "category": "github",
+      "name": "chumachukwujr/agentic-ops-template",
+      "url": "https://github.com/chumachukwujr/agentic-ops-template",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:claudiom248/quorum",
@@ -2371,6 +2853,13 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "github:drknatarajan17/Taxi-Business-Profit-Management-System",
+      "category": "github",
+      "name": "drknatarajan17/Taxi-Business-Profit-Management-System",
+      "url": "https://github.com/drknatarajan17/Taxi-Business-Profit-Management-System",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:dunwaresolutions-oss/bookkeeping-tool",
       "category": "github",
       "name": "dunwaresolutions-oss/bookkeeping-tool",
@@ -2600,6 +3089,13 @@
       "name": "Flobi67/smc-mcp-engine",
       "url": "https://github.com/Flobi67/smc-mcp-engine",
       "firstSeen": "2026-10-27T13:09:33+00:00"
+    },
+    {
+      "id": "github:Fouzia286/Predictive-Maintenance-for-Public-Transport-Buses-Using-Deep-Learning-on-Sensor-Logs",
+      "category": "github",
+      "name": "Fouzia286/Predictive-Maintenance-for-Public-Transport-Buses-Using-Deep-Learning-on-Sensor-Logs",
+      "url": "https://github.com/Fouzia286/Predictive-Maintenance-for-Public-Transport-Buses-Using-Deep-Learning-on-Sensor-Logs",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:fr0ster/llm-agent",
@@ -2868,6 +3364,13 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "github:iancoder11/Bus-Vehicles-Management-System-in-php",
+      "category": "github",
+      "name": "iancoder11/Bus-Vehicles-Management-System-in-php",
+      "url": "https://github.com/iancoder11/Bus-Vehicles-Management-System-in-php",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:IBM/cloud-pak-deployer",
       "category": "github",
       "name": "IBM/cloud-pak-deployer",
@@ -2936,6 +3439,13 @@
       "name": "indada/repopilot",
       "url": "https://github.com/indada/repopilot",
       "firstSeen": "2026-10-27T13:28:19+00:00"
+    },
+    {
+      "id": "github:indeevar1803-ai/Data-Analytics-for-Business",
+      "category": "github",
+      "name": "indeevar1803-ai/Data-Analytics-for-Business",
+      "url": "https://github.com/indeevar1803-ai/Data-Analytics-for-Business",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:Indicaza/archivist",
@@ -3020,6 +3530,13 @@
       "name": "Jacky97s/qstack",
       "url": "https://github.com/Jacky97s/qstack",
       "firstSeen": "2026-10-27T13:28:19+00:00"
+    },
+    {
+      "id": "github:jahnavi-sh/Database_Design_Car_Rental_Business",
+      "category": "github",
+      "name": "jahnavi-sh/Database_Design_Car_Rental_Business",
+      "url": "https://github.com/jahnavi-sh/Database_Design_Car_Rental_Business",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:janinelurenana/banking-fraud-detection-analytics",
@@ -3141,6 +3658,13 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "github:joeljenkinsekisa/Logistics_Business_Intelligence_Project",
+      "category": "github",
+      "name": "joeljenkinsekisa/Logistics_Business_Intelligence_Project",
+      "url": "https://github.com/joeljenkinsekisa/Logistics_Business_Intelligence_Project",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:Johnaverse/chains-api",
       "category": "github",
       "name": "Johnaverse/chains-api",
@@ -3176,6 +3700,13 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "github:jpark290/FleetZero_PredictiveMaintenance",
+      "category": "github",
+      "name": "jpark290/FleetZero_PredictiveMaintenance",
+      "url": "https://github.com/jpark290/FleetZero_PredictiveMaintenance",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:js-lee-AI/awesome-llm-agent-papers",
       "category": "github",
       "name": "js-lee-AI/awesome-llm-agent-papers",
@@ -3209,6 +3740,13 @@
       "name": "Jyosthna24/hcs-lab-agent",
       "url": "https://github.com/Jyosthna24/hcs-lab-agent",
       "firstSeen": "2026-10-27T13:28:19+00:00"
+    },
+    {
+      "id": "github:Kaif987/Automatic-Video-Generation-Pipeline",
+      "category": "github",
+      "name": "Kaif987/Automatic-Video-Generation-Pipeline",
+      "url": "https://github.com/Kaif987/Automatic-Video-Generation-Pipeline",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:Kappratham/Agentic-bookkeeping",
@@ -3251,6 +3789,13 @@
       "name": "kelos-dev/kelos",
       "url": "https://github.com/kelos-dev/kelos",
       "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:kenkanekiken/LRTSmartRailTech",
+      "category": "github",
+      "name": "kenkanekiken/LRTSmartRailTech",
+      "url": "https://github.com/kenkanekiken/LRTSmartRailTech",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:kennethvg72/executable-enterprise-architecture",
@@ -3351,6 +3896,13 @@
       "firstSeen": "2026-10-27T12:30:49+00:00"
     },
     {
+      "id": "github:Kpraveenkummarrr/Vehicle-Fleet-Maintenance",
+      "category": "github",
+      "name": "Kpraveenkummarrr/Vehicle-Fleet-Maintenance",
+      "url": "https://github.com/Kpraveenkummarrr/Vehicle-Fleet-Maintenance",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:krayin/laravel-crm",
       "category": "github",
       "name": "krayin/laravel-crm",
@@ -3393,6 +3945,13 @@
       "firstSeen": "2026-10-26T23:15:29+00:00"
     },
     {
+      "id": "github:kushpatel2601/TransitOps",
+      "category": "github",
+      "name": "kushpatel2601/TransitOps",
+      "url": "https://github.com/kushpatel2601/TransitOps",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:labsai/EDDI",
       "category": "github",
       "name": "labsai/EDDI",
@@ -3405,6 +3964,20 @@
       "name": "laconic-mercenary/defense-evaluation-suite",
       "url": "https://github.com/laconic-mercenary/defense-evaluation-suite",
       "firstSeen": "2026-10-27T13:28:19+00:00"
+    },
+    {
+      "id": "github:laksh-2106/NCR-transport",
+      "category": "github",
+      "name": "laksh-2106/NCR-transport",
+      "url": "https://github.com/laksh-2106/NCR-transport",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "github:LakshanPerera11/ITP_School_Bus_VehicleHealth_Y2S2",
+      "category": "github",
+      "name": "LakshanPerera11/ITP_School_Bus_VehicleHealth_Y2S2",
+      "url": "https://github.com/LakshanPerera11/ITP_School_Bus_VehicleHealth_Y2S2",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:lamhotsiagian/agentic-ai-reasoning-model",
@@ -3568,6 +4141,13 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "github:madfortech/Ai-Assistant-Openshot",
+      "category": "github",
+      "name": "madfortech/Ai-Assistant-Openshot",
+      "url": "https://github.com/madfortech/Ai-Assistant-Openshot",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:madhurlak0810/PersonalOS",
       "category": "github",
       "name": "madhurlak0810/PersonalOS",
@@ -3615,6 +4195,13 @@
       "name": "MajaLu/high-frequency-trading-anomaly-detection",
       "url": "https://github.com/MajaLu/high-frequency-trading-anomaly-detection",
       "firstSeen": "2026-10-27T15:21:32+00:00"
+    },
+    {
+      "id": "github:manishnaik69/Bus-Transit-Pro",
+      "category": "github",
+      "name": "manishnaik69/Bus-Transit-Pro",
+      "url": "https://github.com/manishnaik69/Bus-Transit-Pro",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:mansikanchan2003/G-Map-Data-Scraper",
@@ -3827,11 +4414,25 @@
       "firstSeen": "2026-10-27T13:28:19+00:00"
     },
     {
+      "id": "github:mounir-eng/Bus-Safety-Maintenance-Dashboard",
+      "category": "github",
+      "name": "mounir-eng/Bus-Safety-Maintenance-Dashboard",
+      "url": "https://github.com/mounir-eng/Bus-Safety-Maintenance-Dashboard",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:moxxy-ai/moxxy",
       "category": "github",
       "name": "moxxy-ai/moxxy",
       "url": "https://github.com/moxxy-ai/moxxy",
       "firstSeen": "2026-10-27T13:09:33+00:00"
+    },
+    {
+      "id": "github:MrHR-tech/Bus-Fleet-Maintenance-Tracker-",
+      "category": "github",
+      "name": "MrHR-tech/Bus-Fleet-Maintenance-Tracker-",
+      "url": "https://github.com/MrHR-tech/Bus-Fleet-Maintenance-Tracker-",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:mrzroot/flowpilot",
@@ -3918,6 +4519,13 @@
       "firstSeen": "2026-10-27T05:00:26+00:00"
     },
     {
+      "id": "github:ncreighton/4bc6d10e-aviation-aerospace-business",
+      "category": "github",
+      "name": "ncreighton/4bc6d10e-aviation-aerospace-business",
+      "url": "https://github.com/ncreighton/4bc6d10e-aviation-aerospace-business",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:neohsiung/AI-Investment-Advisor",
       "category": "github",
       "name": "neohsiung/AI-Investment-Advisor",
@@ -3995,6 +4603,13 @@
       "firstSeen": "2026-10-27T13:28:19+00:00"
     },
     {
+      "id": "github:njuguna199/Fleet-management_system",
+      "category": "github",
+      "name": "njuguna199/Fleet-management_system",
+      "url": "https://github.com/njuguna199/Fleet-management_system",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:nlink-jp/shell-agent-v2",
       "category": "github",
       "name": "nlink-jp/shell-agent-v2",
@@ -4007,6 +4622,13 @@
       "name": "nocobase/nocobase",
       "url": "https://github.com/nocobase/nocobase",
       "firstSeen": "2026-10-26 21:24:51 CET"
+    },
+    {
+      "id": "github:nordmanasseh234/bus-fleet-maintenance-scheduling",
+      "category": "github",
+      "name": "nordmanasseh234/bus-fleet-maintenance-scheduling",
+      "url": "https://github.com/nordmanasseh234/bus-fleet-maintenance-scheduling",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:NousResearch/hermes-agent",
@@ -4093,6 +4715,13 @@
       "firstSeen": "2026-10-27T13:28:19+00:00"
     },
     {
+      "id": "github:omd16/ai-video-automation",
+      "category": "github",
+      "name": "omd16/ai-video-automation",
+      "url": "https://github.com/omd16/ai-video-automation",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:oomol-lab/open-flow",
       "category": "github",
       "name": "oomol-lab/open-flow",
@@ -4119,6 +4748,13 @@
       "name": "oussamaaxkos/The-20-AI-Agents-Challenge",
       "url": "https://github.com/oussamaaxkos/The-20-AI-Agents-Challenge",
       "firstSeen": "2026-10-27T13:28:19+00:00"
+    },
+    {
+      "id": "github:ovkent01/AI-Subtitle-Pro",
+      "category": "github",
+      "name": "ovkent01/AI-Subtitle-Pro",
+      "url": "https://github.com/ovkent01/AI-Subtitle-Pro",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:Pablo-Cubides/Cubides_bots_public",
@@ -4212,6 +4848,13 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "github:pcmdk369/ccos_V1.000",
+      "category": "github",
+      "name": "pcmdk369/ccos_V1.000",
+      "url": "https://github.com/pcmdk369/ccos_V1.000",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:perfecxion-ai/secure-mcp",
       "category": "github",
       "name": "perfecxion-ai/secure-mcp",
@@ -4259,6 +4902,13 @@
       "name": "portyu9/ai-qa-automation",
       "url": "https://github.com/portyu9/ai-qa-automation",
       "firstSeen": "2026-10-27T13:09:33+00:00"
+    },
+    {
+      "id": "github:PowerBIFox/SQLTravels",
+      "category": "github",
+      "name": "PowerBIFox/SQLTravels",
+      "url": "https://github.com/PowerBIFox/SQLTravels",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:PQBlocks/pqblocks-mcp",
@@ -4492,6 +5142,13 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "github:Rockingrushi/youtube_automation-free",
+      "category": "github",
+      "name": "Rockingrushi/youtube_automation-free",
+      "url": "https://github.com/Rockingrushi/youtube_automation-free",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:rodaddy/open-brain",
       "category": "github",
       "name": "rodaddy/open-brain",
@@ -4604,6 +5261,13 @@
       "firstSeen": "2026-10-27T08:28:40+00:00"
     },
     {
+      "id": "github:saiuppalapati011/ResolveSubs",
+      "category": "github",
+      "name": "saiuppalapati011/ResolveSubs",
+      "url": "https://github.com/saiuppalapati011/ResolveSubs",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:saleor/saleor",
       "category": "github",
       "name": "saleor/saleor",
@@ -4616,6 +5280,13 @@
       "name": "salimfk619-jpg/open-ai-ecosystem",
       "url": "https://github.com/salimfk619-jpg/open-ai-ecosystem",
       "firstSeen": "2026-10-27T13:09:33+00:00"
+    },
+    {
+      "id": "github:SallieuBah/headway-bus-ops",
+      "category": "github",
+      "name": "SallieuBah/headway-bus-ops",
+      "url": "https://github.com/SallieuBah/headway-bus-ops",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:samaalnakhyfi/AI-Software-Testing-Agent",
@@ -4639,6 +5310,13 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "github:sandeshsannu/vehicle-telemetry-analysis",
+      "category": "github",
+      "name": "sandeshsannu/vehicle-telemetry-analysis",
+      "url": "https://github.com/sandeshsannu/vehicle-telemetry-analysis",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:SandipGiri-Developer/KODRA",
       "category": "github",
       "name": "SandipGiri-Developer/KODRA",
@@ -4658,6 +5336,13 @@
       "name": "sankarshanmukhopadhyay/sankarshanmukhopadhyay",
       "url": "https://github.com/sankarshanmukhopadhyay/sankarshanmukhopadhyay",
       "firstSeen": "2026-10-27T13:28:19+00:00"
+    },
+    {
+      "id": "github:SarasiNishala/SRMSS-Smart-Route-Management-and-Scheduling-System",
+      "category": "github",
+      "name": "SarasiNishala/SRMSS-Smart-Route-Management-and-Scheduling-System",
+      "url": "https://github.com/SarasiNishala/SRMSS-Smart-Route-Management-and-Scheduling-System",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:saratihq/sarati",
@@ -4716,6 +5401,13 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "github:Severian0/Bachero",
+      "category": "github",
+      "name": "Severian0/Bachero",
+      "url": "https://github.com/Severian0/Bachero",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:sfu-rsl/rust-mizan",
       "category": "github",
       "name": "sfu-rsl/rust-mizan",
@@ -4737,11 +5429,25 @@
       "firstSeen": "2026-10-27T13:28:19+00:00"
     },
     {
+      "id": "github:shaunakmirajgaonkar/school-bus-maintenance-risk-forecaster",
+      "category": "github",
+      "name": "shaunakmirajgaonkar/school-bus-maintenance-risk-forecaster",
+      "url": "https://github.com/shaunakmirajgaonkar/school-bus-maintenance-risk-forecaster",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:shawnt1790/prism",
       "category": "github",
       "name": "shawnt1790/prism",
       "url": "https://github.com/shawnt1790/prism",
       "firstSeen": "2026-10-27T13:09:33+00:00"
+    },
+    {
+      "id": "github:Shayan-Shome/Bus-Fleet-Maintenance-Tracker",
+      "category": "github",
+      "name": "Shayan-Shome/Bus-Fleet-Maintenance-Tracker",
+      "url": "https://github.com/Shayan-Shome/Bus-Fleet-Maintenance-Tracker",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:Shelton-burg/openbooks",
@@ -4770,6 +5476,13 @@
       "name": "SHIVAM73566/VentureX-ERP-CRM",
       "url": "https://github.com/SHIVAM73566/VentureX-ERP-CRM",
       "firstSeen": "2026-10-27T15:21:32+00:00"
+    },
+    {
+      "id": "github:shoheimustgoon/bus-fleet-reliability-analysis",
+      "category": "github",
+      "name": "shoheimustgoon/bus-fleet-reliability-analysis",
+      "url": "https://github.com/shoheimustgoon/bus-fleet-reliability-analysis",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:shubh9119/multi-agent-mcp-orchestrator",
@@ -4842,6 +5555,13 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "github:spark-369/BusMS",
+      "category": "github",
+      "name": "spark-369/BusMS",
+      "url": "https://github.com/spark-369/BusMS",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:spree/spree",
       "category": "github",
       "name": "spree/spree",
@@ -4868,6 +5588,13 @@
       "name": "stacklok/toolhive",
       "url": "https://github.com/stacklok/toolhive",
       "firstSeen": "2026-10-27T13:09:33+00:00"
+    },
+    {
+      "id": "github:stellarscoope/youtube_automation_bot",
+      "category": "github",
+      "name": "stellarscoope/youtube_automation_bot",
+      "url": "https://github.com/stellarscoope/youtube_automation_bot",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:Steven-Robinson/touchlinewire-mcp",
@@ -5234,6 +5961,13 @@
       "firstSeen": "2026-10-27T13:28:19+00:00"
     },
     {
+      "id": "github:udithsandaruwan2/short-generator",
+      "category": "github",
+      "name": "udithsandaruwan2/short-generator",
+      "url": "https://github.com/udithsandaruwan2/short-generator",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:Uluops/-uluops-core",
       "category": "github",
       "name": "Uluops/-uluops-core",
@@ -5276,11 +6010,25 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "github:vchowdhury/MTA-nyc-bus-fleet-reliability-dashboard",
+      "category": "github",
+      "name": "vchowdhury/MTA-nyc-bus-fleet-reliability-dashboard",
+      "url": "https://github.com/vchowdhury/MTA-nyc-bus-fleet-reliability-dashboard",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "github:veera77-maker/accounting-workflow-automation",
       "category": "github",
       "name": "veera77-maker/accounting-workflow-automation",
       "url": "https://github.com/veera77-maker/accounting-workflow-automation",
       "firstSeen": "2026-10-27T15:21:32+00:00"
+    },
+    {
+      "id": "github:venkatraman0400-blip/vehicle_maintenance-Dashboard",
+      "category": "github",
+      "name": "venkatraman0400-blip/vehicle_maintenance-Dashboard",
+      "url": "https://github.com/venkatraman0400-blip/vehicle_maintenance-Dashboard",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:vessel-api/vesselapi-mcp",
@@ -5302,6 +6050,13 @@
       "name": "vibhanshu-mishra/pyprocore",
       "url": "https://github.com/vibhanshu-mishra/pyprocore",
       "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:VidhiMittal29/busy-fleet-maintenance",
+      "category": "github",
+      "name": "VidhiMittal29/busy-fleet-maintenance",
+      "url": "https://github.com/VidhiMittal29/busy-fleet-maintenance",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:vikaskilaniya02-creator/SentinelPass-AI",
@@ -5344,6 +6099,13 @@
       "name": "vishnuanjali2006-ctrl/Nexus-AI-Platform",
       "url": "https://github.com/vishnuanjali2006-ctrl/Nexus-AI-Platform",
       "firstSeen": "2026-10-27T08:28:40+00:00"
+    },
+    {
+      "id": "github:VisVegetal/Smart-Urban-Transport-System",
+      "category": "github",
+      "name": "VisVegetal/Smart-Urban-Transport-System",
+      "url": "https://github.com/VisVegetal/Smart-Urban-Transport-System",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:vito-ctrl/Banking-Transaction-Analysis-and-Anomaly-Detection",
@@ -5400,6 +6162,13 @@
       "name": "w6403/aml-memory-adapter",
       "url": "https://github.com/w6403/aml-memory-adapter",
       "firstSeen": "2026-10-27T13:28:19+00:00"
+    },
+    {
+      "id": "github:wai1496/GPM",
+      "category": "github",
+      "name": "wai1496/GPM",
+      "url": "https://github.com/wai1496/GPM",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:waleedgohar167-Data/AI-Document-Intelligence-Workflow-Automation-Platform",
@@ -5512,6 +6281,13 @@
       "name": "zahidhasann88/mcpprobe",
       "url": "https://github.com/zahidhasann88/mcpprobe",
       "firstSeen": "2026-10-27T13:09:33+00:00"
+    },
+    {
+      "id": "github:zapscript/vag-etka-complete-sql",
+      "category": "github",
+      "name": "zapscript/vag-etka-complete-sql",
+      "url": "https://github.com/zapscript/vag-etka-complete-sql",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "github:zararmrwt/Sample-QuickBooks-work-and-reports",
@@ -5668,6 +6444,13 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "models:ahmad123/distilbert-base-uncased-finetuned-text_classification",
+      "category": "models",
+      "name": "ahmad123/distilbert-base-uncased-finetuned-text_classification",
+      "url": "https://huggingface.co/ahmad123/distilbert-base-uncased-finetuned-text_classification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "models:ai-sage/Giga-Embeddings-instruct",
       "category": "models",
       "name": "ai-sage/Giga-Embeddings-instruct",
@@ -5680,6 +6463,20 @@
       "name": "ai-sage/Giga-Embeddings-instruct-3B-0826",
       "url": "https://huggingface.co/ai-sage/Giga-Embeddings-instruct-3B-0826",
       "firstSeen": "2026-10-27T13:28:19+00:00"
+    },
+    {
+      "id": "models:akdeniz27/bert-turkish-text-classification",
+      "category": "models",
+      "name": "akdeniz27/bert-turkish-text-classification",
+      "url": "https://huggingface.co/akdeniz27/bert-turkish-text-classification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "models:akilesh96/autonlp-mrcooper_text_classification-529614927",
+      "category": "models",
+      "name": "akilesh96/autonlp-mrcooper_text_classification-529614927",
+      "url": "https://huggingface.co/akilesh96/autonlp-mrcooper_text_classification-529614927",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "models:Alibaba-DAMO-Academy/RynnUnify-Agentic-Reasoner",
@@ -5696,6 +6493,13 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "models:anantjoshicz/bert-text-classification-news",
+      "category": "models",
+      "name": "anantjoshicz/bert-text-classification-news",
+      "url": "https://huggingface.co/anantjoshicz/bert-text-classification-news",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "models:AnnaWegmann/Style-Embedding",
       "category": "models",
       "name": "AnnaWegmann/Style-Embedding",
@@ -5710,11 +6514,46 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "models:aomar85/finetuned-arabert-textclassificationv01",
+      "category": "models",
+      "name": "aomar85/finetuned-arabert-textclassificationv01",
+      "url": "https://huggingface.co/aomar85/finetuned-arabert-textclassificationv01",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "models:ArtemisAI/ai-agents-course-multi-tool-agent",
       "category": "models",
       "name": "ArtemisAI/ai-agents-course-multi-tool-agent",
       "url": "https://huggingface.co/ArtemisAI/ai-agents-course-multi-tool-agent",
       "firstSeen": "2026-10-27T13:09:33+00:00"
+    },
+    {
+      "id": "models:asdc/bert-base-spanish-wwm-cased-finetuned-text_classification",
+      "category": "models",
+      "name": "asdc/bert-base-spanish-wwm-cased-finetuned-text_classification",
+      "url": "https://huggingface.co/asdc/bert-base-spanish-wwm-cased-finetuned-text_classification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "models:asdc/roberta-base-biomedical-clinical-es-finetuned-text_classification",
+      "category": "models",
+      "name": "asdc/roberta-base-biomedical-clinical-es-finetuned-text_classification",
+      "url": "https://huggingface.co/asdc/roberta-base-biomedical-clinical-es-finetuned-text_classification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "models:asdc/roberta-base-finetuned-text_classification",
+      "category": "models",
+      "name": "asdc/roberta-base-finetuned-text_classification",
+      "url": "https://huggingface.co/asdc/roberta-base-finetuned-text_classification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "models:assayw119/koelectra-wellnesee-text-classification.pth",
+      "category": "models",
+      "name": "assayw119/koelectra-wellnesee-text-classification.pth",
+      "url": "https://huggingface.co/assayw119/koelectra-wellnesee-text-classification.pth",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "models:ATH-MaaS/Ovis-VL-Embedding-9B",
@@ -5766,6 +6605,20 @@
       "firstSeen": "2026-10-26 21:23:13 CET"
     },
     {
+      "id": "models:badalsahani/text-classification-multi",
+      "category": "models",
+      "name": "badalsahani/text-classification-multi",
+      "url": "https://huggingface.co/badalsahani/text-classification-multi",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "models:BraveOni/2ch-text-classification",
+      "category": "models",
+      "name": "BraveOni/2ch-text-classification",
+      "url": "https://huggingface.co/BraveOni/2ch-text-classification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "models:caskcsg/cotmae_base_msmarco_reranker",
       "category": "models",
       "name": "caskcsg/cotmae_base_msmarco_reranker",
@@ -5813,6 +6666,13 @@
       "name": "cyjin-yl/Qwen3.8-27B-Uncensored-Cyber-agentic-imatrix-GGUF",
       "url": "https://huggingface.co/cyjin-yl/Qwen3.8-27B-Uncensored-Cyber-agentic-imatrix-GGUF",
       "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "models:danielferreira/emotion-text-classification",
+      "category": "models",
+      "name": "danielferreira/emotion-text-classification",
+      "url": "https://huggingface.co/danielferreira/emotion-text-classification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "models:deadbydawn101/RavenXAiLabs-Chaos-Agent-Qwen3.8-27B-Frontier-Intelligence-Injected-OBLITERATED-GGUF",
@@ -5871,6 +6731,13 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "models:EricPeter/comments-text-classification-model",
+      "category": "models",
+      "name": "EricPeter/comments-text-classification-model",
+      "url": "https://huggingface.co/EricPeter/comments-text-classification-model",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "models:EverMind-AI/skillrep-reranker-0.6b",
       "category": "models",
       "name": "EverMind-AI/skillrep-reranker-0.6b",
@@ -5904,6 +6771,20 @@
       "name": "ewin-reg/MiniCPM5-1B-Agentic-Tooluse-GGUF",
       "url": "https://huggingface.co/ewin-reg/MiniCPM5-1B-Agentic-Tooluse-GGUF",
       "firstSeen": "2026-10-27T13:09:33+00:00"
+    },
+    {
+      "id": "models:fawrama/suicidal_text_classification_",
+      "category": "models",
+      "name": "fawrama/suicidal_text_classification_",
+      "url": "https://huggingface.co/fawrama/suicidal_text_classification_",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "models:Franzi/text-classification_meltome_cluster_splits_prot_bert_meltome_model",
+      "category": "models",
+      "name": "Franzi/text-classification_meltome_cluster_splits_prot_bert_meltome_model",
+      "url": "https://huggingface.co/Franzi/text-classification_meltome_cluster_splits_prot_bert_meltome_model",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "models:gatilin/Qwen3.8-0.8B-Agentic-distill",
@@ -5953,6 +6834,13 @@
       "name": "google/embeddinggemma-300m",
       "url": "https://huggingface.co/google/embeddinggemma-300m",
       "firstSeen": "2026-10-27T13:28:19+00:00"
+    },
+    {
+      "id": "models:gurkan08/bert-turkish-text-classification",
+      "category": "models",
+      "name": "gurkan08/bert-turkish-text-classification",
+      "url": "https://huggingface.co/gurkan08/bert-turkish-text-classification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "models:heydariAI/persian-embeddings",
@@ -6144,6 +7032,13 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "models:jxuhf/Fine-tuning-text-classification-model-Habana-Gaudi",
+      "category": "models",
+      "name": "jxuhf/Fine-tuning-text-classification-model-Habana-Gaudi",
+      "url": "https://huggingface.co/jxuhf/Fine-tuning-text-classification-model-Habana-Gaudi",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "models:kajix75/granularity-legal-reranker-cross-encoder-indobert-base-p2",
       "category": "models",
       "name": "kajix75/granularity-legal-reranker-cross-encoder-indobert-base-p2",
@@ -6165,11 +7060,32 @@
       "firstSeen": "2026-10-26T23:15:29+00:00"
     },
     {
+      "id": "models:keras-io/multi_label_text_classification",
+      "category": "models",
+      "name": "keras-io/multi_label_text_classification",
+      "url": "https://huggingface.co/keras-io/multi_label_text_classification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "models:keras-io/text-classification-with-transformer",
+      "category": "models",
+      "name": "keras-io/text-classification-with-transformer",
+      "url": "https://huggingface.co/keras-io/text-classification-with-transformer",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "models:krishanusinha20/multi-agentic-sql-generator-model",
       "category": "models",
       "name": "krishanusinha20/multi-agentic-sql-generator-model",
       "url": "https://huggingface.co/krishanusinha20/multi-agentic-sql-generator-model",
       "firstSeen": "2026-10-27T13:09:33+00:00"
+    },
+    {
+      "id": "models:krupper/text-complexity-classification",
+      "category": "models",
+      "name": "krupper/text-complexity-classification",
+      "url": "https://huggingface.co/krupper/text-complexity-classification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "models:lightonai/colgrep-agent-2B-GGUF",
@@ -6347,6 +7263,13 @@
       "firstSeen": "2026-10-27T13:28:19+00:00"
     },
     {
+      "id": "models:mmoradi/Robust-Biomed-RoBERTa-TextClassification",
+      "category": "models",
+      "name": "mmoradi/Robust-Biomed-RoBERTa-TextClassification",
+      "url": "https://huggingface.co/mmoradi/Robust-Biomed-RoBERTa-TextClassification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "models:mradermacher/intel-optimized-model-for-embeddings-v1-GGUF",
       "category": "models",
       "name": "mradermacher/intel-optimized-model-for-embeddings-v1-GGUF",
@@ -6389,6 +7312,20 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "models:nateraw/codecarbon-text-classification",
+      "category": "models",
+      "name": "nateraw/codecarbon-text-classification",
+      "url": "https://huggingface.co/nateraw/codecarbon-text-classification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "models:nateraw/text-classification-flash-demo-2",
+      "category": "models",
+      "name": "nateraw/text-classification-flash-demo-2",
+      "url": "https://huggingface.co/nateraw/text-classification-flash-demo-2",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "models:naver/provence-reranker-debertav3-v1",
       "category": "models",
       "name": "naver/provence-reranker-debertav3-v1",
@@ -6403,6 +7340,20 @@
       "firstSeen": "2026-10-27T13:28:19+00:00"
     },
     {
+      "id": "models:nickmuchi/deberta-v3-base-finetuned-finance-text-classification",
+      "category": "models",
+      "name": "nickmuchi/deberta-v3-base-finetuned-finance-text-classification",
+      "url": "https://huggingface.co/nickmuchi/deberta-v3-base-finetuned-finance-text-classification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "models:nickmuchi/distilroberta-finetuned-financial-text-classification",
+      "category": "models",
+      "name": "nickmuchi/distilroberta-finetuned-financial-text-classification",
+      "url": "https://huggingface.co/nickmuchi/distilroberta-finetuned-financial-text-classification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "models:nlpai-lab/KURE-Reranker-base",
       "category": "models",
       "name": "nlpai-lab/KURE-Reranker-base",
@@ -6415,6 +7366,13 @@
       "name": "nlpai-lab/KURE-Reranker-nano",
       "url": "https://huggingface.co/nlpai-lab/KURE-Reranker-nano",
       "firstSeen": "2026-10-27T15:21:32+00:00"
+    },
+    {
+      "id": "models:nqcccccc/phobert-textclassification",
+      "category": "models",
+      "name": "nqcccccc/phobert-textclassification",
+      "url": "https://huggingface.co/nqcccccc/phobert-textclassification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "models:Nurymanau/EmbeddingGemma-2-MLX-Swift",
@@ -6438,11 +7396,53 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "models:palakagl/bert_MultiClass_TextClassification",
+      "category": "models",
+      "name": "palakagl/bert_MultiClass_TextClassification",
+      "url": "https://huggingface.co/palakagl/bert_MultiClass_TextClassification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "models:palakagl/bert_TextClassification",
+      "category": "models",
+      "name": "palakagl/bert_TextClassification",
+      "url": "https://huggingface.co/palakagl/bert_TextClassification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "models:palakagl/distilbert_MultiClass_TextClassification",
+      "category": "models",
+      "name": "palakagl/distilbert_MultiClass_TextClassification",
+      "url": "https://huggingface.co/palakagl/distilbert_MultiClass_TextClassification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "models:palakagl/Roberta_Multiclass_TextClassification",
+      "category": "models",
+      "name": "palakagl/Roberta_Multiclass_TextClassification",
+      "url": "https://huggingface.co/palakagl/Roberta_Multiclass_TextClassification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "models:philschmid/custom-pipeline-text-classification",
+      "category": "models",
+      "name": "philschmid/custom-pipeline-text-classification",
+      "url": "https://huggingface.co/philschmid/custom-pipeline-text-classification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "models:pragmaticcs/Qwen3.8-KAT-AgentWorld-35B-A3B-Coder-GGUF",
       "category": "models",
       "name": "pragmaticcs/Qwen3.8-KAT-AgentWorld-35B-A3B-Coder-GGUF",
       "url": "https://huggingface.co/pragmaticcs/Qwen3.8-KAT-AgentWorld-35B-A3B-Coder-GGUF",
       "firstSeen": "2026-10-27T05:00:26+00:00"
+    },
+    {
+      "id": "models:prathap-reddy/autotrain-climate-text-classification-1437253674",
+      "category": "models",
+      "name": "prathap-reddy/autotrain-climate-text-classification-1437253674",
+      "url": "https://huggingface.co/prathap-reddy/autotrain-climate-text-classification-1437253674",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "models:pyannote/embedding",
@@ -6557,6 +7557,20 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "models:rayschwartz/new-text-classifications",
+      "category": "models",
+      "name": "rayschwartz/new-text-classifications",
+      "url": "https://huggingface.co/rayschwartz/new-text-classifications",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "models:rayschwartz/text-classification",
+      "category": "models",
+      "name": "rayschwartz/text-classification",
+      "url": "https://huggingface.co/rayschwartz/text-classification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "models:S4MPL3BI4S/Coding_Decision_Agent",
       "category": "models",
       "name": "S4MPL3BI4S/Coding_Decision_Agent",
@@ -6569,6 +7583,27 @@
       "name": "sabafallah/bge-reranker-v2-m3-Q4_K_M-GGUF",
       "url": "https://huggingface.co/sabafallah/bge-reranker-v2-m3-Q4_K_M-GGUF",
       "firstSeen": "2026-10-27T15:21:32+00:00"
+    },
+    {
+      "id": "models:saidhr20/pubmed-biobert-text-classification",
+      "category": "models",
+      "name": "saidhr20/pubmed-biobert-text-classification",
+      "url": "https://huggingface.co/saidhr20/pubmed-biobert-text-classification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "models:sanjeetnaik/binary_text_classification",
+      "category": "models",
+      "name": "sanjeetnaik/binary_text_classification",
+      "url": "https://huggingface.co/sanjeetnaik/binary_text_classification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "models:savasy/bert-turkish-text-classification",
+      "category": "models",
+      "name": "savasy/bert-turkish-text-classification",
+      "url": "https://huggingface.co/savasy/bert-turkish-text-classification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "models:SaveDollars/autonomous-ai-agents-hub",
@@ -6599,6 +7634,13 @@
       "firstSeen": "2026-10-26 21:23:13 CET"
     },
     {
+      "id": "models:sfurkan/LexBERT-textclassification-turkish-uncased",
+      "category": "models",
+      "name": "sfurkan/LexBERT-textclassification-turkish-uncased",
+      "url": "https://huggingface.co/sfurkan/LexBERT-textclassification-turkish-uncased",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "models:SINAI/ALIA-MrBERT-es-legal-administrative-reranker",
       "category": "models",
       "name": "SINAI/ALIA-MrBERT-es-legal-administrative-reranker",
@@ -6613,11 +7655,32 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "models:staceythompson/autonlp-new-text-classification-38319698",
+      "category": "models",
+      "name": "staceythompson/autonlp-new-text-classification-38319698",
+      "url": "https://huggingface.co/staceythompson/autonlp-new-text-classification-38319698",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "models:Starlinghq/bge-reranker-v2-m3-onnx",
       "category": "models",
       "name": "Starlinghq/bge-reranker-v2-m3-onnx",
       "url": "https://huggingface.co/Starlinghq/bge-reranker-v2-m3-onnx",
       "firstSeen": "2026-10-27T15:21:32+00:00"
+    },
+    {
+      "id": "models:SvyatoslavA/model_awara_text_classification",
+      "category": "models",
+      "name": "SvyatoslavA/model_awara_text_classification",
+      "url": "https://huggingface.co/SvyatoslavA/model_awara_text_classification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "models:templates/text-classification",
+      "category": "models",
+      "name": "templates/text-classification",
+      "url": "https://huggingface.co/templates/text-classification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "models:togethercomputer/HybridAgent-14B-Agentic",
@@ -6641,6 +7704,13 @@
       "firstSeen": "2026-10-27T13:28:19+00:00"
     },
     {
+      "id": "models:twhitehurst3/autotrain-blaze_text_classification-1004733283",
+      "category": "models",
+      "name": "twhitehurst3/autotrain-blaze_text_classification-1004733283",
+      "url": "https://huggingface.co/twhitehurst3/autotrain-blaze_text_classification-1004733283",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "models:umass/roberta-base-mimics-facet-reranker",
       "category": "models",
       "name": "umass/roberta-base-mimics-facet-reranker",
@@ -6653,6 +7723,41 @@
       "name": "unsloth/embeddinggemma-2-GGUF",
       "url": "https://huggingface.co/unsloth/embeddinggemma-2-GGUF",
       "firstSeen": "2026-10-27T13:28:19+00:00"
+    },
+    {
+      "id": "models:VivekMalipatel23/mDeBERTa-v3-base-text-emotion-classification",
+      "category": "models",
+      "name": "VivekMalipatel23/mDeBERTa-v3-base-text-emotion-classification",
+      "url": "https://huggingface.co/VivekMalipatel23/mDeBERTa-v3-base-text-emotion-classification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "models:vlsb/autotrain-security-text-classification-albert-688320769",
+      "category": "models",
+      "name": "vlsb/autotrain-security-text-classification-albert-688320769",
+      "url": "https://huggingface.co/vlsb/autotrain-security-text-classification-albert-688320769",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "models:vlsb/autotrain-security-texts-classification-distilroberta-688220764",
+      "category": "models",
+      "name": "vlsb/autotrain-security-texts-classification-distilroberta-688220764",
+      "url": "https://huggingface.co/vlsb/autotrain-security-texts-classification-distilroberta-688220764",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "models:vlsb/autotrain-security-texts-classification-roberta-688020754",
+      "category": "models",
+      "name": "vlsb/autotrain-security-texts-classification-roberta-688020754",
+      "url": "https://huggingface.co/vlsb/autotrain-security-texts-classification-roberta-688020754",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "models:wanghao2023/uganda-labor-market-interview-text-classification",
+      "category": "models",
+      "name": "wanghao2023/uganda-labor-market-interview-text-classification",
+      "url": "https://huggingface.co/wanghao2023/uganda-labor-market-interview-text-classification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "models:Watheq/verified_claim_reranker_1",
@@ -6676,6 +7781,13 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "models:yuoggu/led-base-16384-finetuned-text-classification",
+      "category": "models",
+      "name": "yuoggu/led-base-16384-finetuned-text-classification",
+      "url": "https://huggingface.co/yuoggu/led-base-16384-finetuned-text-classification",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "models:yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
       "category": "models",
       "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
@@ -6695,6 +7807,20 @@
       "name": "Aarya003/Financial-Analyst-Agent",
       "url": "https://huggingface.co/spaces/Aarya003/Financial-Analyst-Agent",
       "firstSeen": "2026-10-27T13:09:33+00:00"
+    },
+    {
+      "id": "spaces:Aashir01/Live_Transcription",
+      "category": "spaces",
+      "name": "Aashir01/Live_Transcription",
+      "url": "https://huggingface.co/spaces/Aashir01/Live_Transcription",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "spaces:Aashir01/Live_Transcription_AI",
+      "category": "spaces",
+      "name": "Aashir01/Live_Transcription_AI",
+      "url": "https://huggingface.co/spaces/Aashir01/Live_Transcription_AI",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "spaces:abaliyan/Dashboard_Automation_Aangan",
@@ -6723,6 +7849,13 @@
       "name": "adamrida/accounting-micro-automation",
       "url": "https://huggingface.co/spaces/adamrida/accounting-micro-automation",
       "firstSeen": "2026-10-27T13:28:19+00:00"
+    },
+    {
+      "id": "spaces:Aditya02/Speech-Transcription-Diarization",
+      "category": "spaces",
+      "name": "Aditya02/Speech-Transcription-Diarization",
+      "url": "https://huggingface.co/spaces/Aditya02/Speech-Transcription-Diarization",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "spaces:agent-memory-leaderboard/leaderboard",
@@ -6816,6 +7949,20 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "spaces:aleger/transcription_space",
+      "category": "spaces",
+      "name": "aleger/transcription_space",
+      "url": "https://huggingface.co/spaces/aleger/transcription_space",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "spaces:alexiserodriguez/whisper-transcription-app",
+      "category": "spaces",
+      "name": "alexiserodriguez/whisper-transcription-app",
+      "url": "https://huggingface.co/spaces/alexiserodriguez/whisper-transcription-app",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "spaces:Align-production-systems/release_automation",
       "category": "spaces",
       "name": "Align-production-systems/release_automation",
@@ -6844,6 +7991,13 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "spaces:Amr453/Transcription",
+      "category": "spaces",
+      "name": "Amr453/Transcription",
+      "url": "https://huggingface.co/spaces/Amr453/Transcription",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "spaces:Amrin/Exploratory_Automation",
       "category": "spaces",
       "name": "Amrin/Exploratory_Automation",
@@ -6870,6 +8024,13 @@
       "name": "Annukul/travel-planning-agent",
       "url": "https://huggingface.co/spaces/Annukul/travel-planning-agent",
       "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:aseifert/ffpub-transcription",
+      "category": "spaces",
+      "name": "aseifert/ffpub-transcription",
+      "url": "https://huggingface.co/spaces/aseifert/ffpub-transcription",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "spaces:autodidacte228/time-series-automation",
@@ -7019,6 +8180,13 @@
       "firstSeen": "2026-10-27T13:28:19+00:00"
     },
     {
+      "id": "spaces:buildingai/youtube-video-transcription-with-whisper",
+      "category": "spaces",
+      "name": "buildingai/youtube-video-transcription-with-whisper",
+      "url": "https://huggingface.co/spaces/buildingai/youtube-video-transcription-with-whisper",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "spaces:cap99/ocr",
       "category": "spaces",
       "name": "cap99/ocr",
@@ -7038,6 +8206,13 @@
       "name": "chenjg/muggle_ocr",
       "url": "https://huggingface.co/spaces/chenjg/muggle_ocr",
       "firstSeen": "2026-10-27T15:21:32+00:00"
+    },
+    {
+      "id": "spaces:comodoro/Coqui-STT-transcription",
+      "category": "spaces",
+      "name": "comodoro/Coqui-STT-transcription",
+      "url": "https://huggingface.co/spaces/comodoro/Coqui-STT-transcription",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "spaces:dalle-mini/dalle-mini",
@@ -7068,6 +8243,34 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "spaces:datasciencedojo/Transcription",
+      "category": "spaces",
+      "name": "datasciencedojo/Transcription",
+      "url": "https://huggingface.co/spaces/datasciencedojo/Transcription",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "spaces:DAVID316GARCIA/Transcription_Demo",
+      "category": "spaces",
+      "name": "DAVID316GARCIA/Transcription_Demo",
+      "url": "https://huggingface.co/spaces/DAVID316GARCIA/Transcription_Demo",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "spaces:davidanthony-ai/digitalixsa_transcription",
+      "category": "spaces",
+      "name": "davidanthony-ai/digitalixsa_transcription",
+      "url": "https://huggingface.co/spaces/davidanthony-ai/digitalixsa_transcription",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "spaces:davidanthony-ai/transcription_audio_whisper",
+      "category": "spaces",
+      "name": "davidanthony-ai/transcription_audio_whisper",
+      "url": "https://huggingface.co/spaces/davidanthony-ai/transcription_audio_whisper",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "spaces:destiratnakomala/automation",
       "category": "spaces",
       "name": "destiratnakomala/automation",
@@ -7089,11 +8292,25 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "spaces:dmatekenya/Chichewa-Automatic-Transcription",
+      "category": "spaces",
+      "name": "dmatekenya/Chichewa-Automatic-Transcription",
+      "url": "https://huggingface.co/spaces/dmatekenya/Chichewa-Automatic-Transcription",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "spaces:ECCV2022/PARSeq-OCR",
       "category": "spaces",
       "name": "ECCV2022/PARSeq-OCR",
       "url": "https://huggingface.co/spaces/ECCV2022/PARSeq-OCR",
       "firstSeen": "2026-10-27T15:21:32+00:00"
+    },
+    {
+      "id": "spaces:EmreAkgul/Turkish-transcription-leaderboard",
+      "category": "spaces",
+      "name": "EmreAkgul/Turkish-transcription-leaderboard",
+      "url": "https://huggingface.co/spaces/EmreAkgul/Turkish-transcription-leaderboard",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "spaces:enzostvs/deepsite",
@@ -7103,11 +8320,25 @@
       "firstSeen": "2026-10-26 21:23:13 CET"
     },
     {
+      "id": "spaces:EugenioRoma/Transcription_demo",
+      "category": "spaces",
+      "name": "EugenioRoma/Transcription_demo",
+      "url": "https://huggingface.co/spaces/EugenioRoma/Transcription_demo",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "spaces:EuroPython2022/OCR-Translate",
       "category": "spaces",
       "name": "EuroPython2022/OCR-Translate",
       "url": "https://huggingface.co/spaces/EuroPython2022/OCR-Translate",
       "firstSeen": "2026-10-27T15:21:32+00:00"
+    },
+    {
+      "id": "spaces:facebook/omniasr-transcriptions",
+      "category": "spaces",
+      "name": "facebook/omniasr-transcriptions",
+      "url": "https://huggingface.co/spaces/facebook/omniasr-transcriptions",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "spaces:Feranmii/financial-planning-agent",
@@ -7145,6 +8376,13 @@
       "firstSeen": "2026-10-27T13:28:19+00:00"
     },
     {
+      "id": "spaces:framajawa/Chichewa-Automatic-Transcription",
+      "category": "spaces",
+      "name": "framajawa/Chichewa-Automatic-Transcription",
+      "url": "https://huggingface.co/spaces/framajawa/Chichewa-Automatic-Transcription",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "spaces:galileo-ai/agent-leaderboard",
       "category": "spaces",
       "name": "galileo-ai/agent-leaderboard",
@@ -7157,6 +8395,13 @@
       "name": "gathnex/Linkedin_Automation",
       "url": "https://huggingface.co/spaces/gathnex/Linkedin_Automation",
       "firstSeen": "2026-10-27T13:28:19+00:00"
+    },
+    {
+      "id": "spaces:Gladiaio/Audio-Transcription",
+      "category": "spaces",
+      "name": "Gladiaio/Audio-Transcription",
+      "url": "https://huggingface.co/spaces/Gladiaio/Audio-Transcription",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "spaces:gryan-galario/manga-ocr-demo",
@@ -7194,6 +8439,13 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "spaces:hersia/youtube-video-transcription-with-whisper",
+      "category": "spaces",
+      "name": "hersia/youtube-video-transcription-with-whisper",
+      "url": "https://huggingface.co/spaces/hersia/youtube-video-transcription-with-whisper",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "spaces:hugging-apps/agenticasr",
       "category": "spaces",
       "name": "hugging-apps/agenticasr",
@@ -7206,6 +8458,13 @@
       "name": "hugging-apps/asternet-vietnamese-ocr",
       "url": "https://huggingface.co/spaces/hugging-apps/asternet-vietnamese-ocr",
       "firstSeen": "2026-10-27T15:21:32+00:00"
+    },
+    {
+      "id": "spaces:hugging-apps/muscriptor-music-transcription",
+      "category": "spaces",
+      "name": "hugging-apps/muscriptor-music-transcription",
+      "url": "https://huggingface.co/spaces/hugging-apps/muscriptor-music-transcription",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "spaces:hysts/Manga-OCR",
@@ -7313,6 +8572,13 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "spaces:kipfriend/transcription_translation",
+      "category": "spaces",
+      "name": "kipfriend/transcription_translation",
+      "url": "https://huggingface.co/spaces/kipfriend/transcription_translation",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "spaces:kishorefafa/AutomationBot",
       "category": "spaces",
       "name": "kishorefafa/AutomationBot",
@@ -7353,6 +8619,13 @@
       "name": "loongwayX/Xiaomi-OCR-0-demo",
       "url": "https://huggingface.co/spaces/loongwayX/Xiaomi-OCR-0-demo",
       "firstSeen": "2026-10-27T15:21:32+00:00"
+    },
+    {
+      "id": "spaces:LRascon/demo_transcriptionist",
+      "category": "spaces",
+      "name": "LRascon/demo_transcriptionist",
+      "url": "https://huggingface.co/spaces/LRascon/demo_transcriptionist",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "spaces:lukbl/LaTeX-OCR",
@@ -7418,6 +8691,13 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "spaces:Mohabedalgani/arabic-audio-transcription-dup",
+      "category": "spaces",
+      "name": "Mohabedalgani/arabic-audio-transcription-dup",
+      "url": "https://huggingface.co/spaces/Mohabedalgani/arabic-audio-transcription-dup",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "spaces:mrfakename/indra-ocr",
       "category": "spaces",
       "name": "mrfakename/indra-ocr",
@@ -7432,11 +8712,25 @@
       "firstSeen": "2026-10-27T13:28:19+00:00"
     },
     {
+      "id": "spaces:msibertman/speech_transcription",
+      "category": "spaces",
+      "name": "msibertman/speech_transcription",
+      "url": "https://huggingface.co/spaces/msibertman/speech_transcription",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "spaces:mteb/leaderboard",
       "category": "spaces",
       "name": "mteb/leaderboard",
       "url": "https://huggingface.co/spaces/mteb/leaderboard",
       "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "spaces:Muellermw/DNA_Transcription_Translation",
+      "category": "spaces",
+      "name": "Muellermw/DNA_Transcription_Translation",
+      "url": "https://huggingface.co/spaces/Muellermw/DNA_Transcription_Translation",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "spaces:Naruto9/SAAS-Automation.demo",
@@ -7453,6 +8747,27 @@
       "firstSeen": "2026-10-26T23:15:29+00:00"
     },
     {
+      "id": "spaces:neuralworm/audio_record_or_upload_and_transcription",
+      "category": "spaces",
+      "name": "neuralworm/audio_record_or_upload_and_transcription",
+      "url": "https://huggingface.co/spaces/neuralworm/audio_record_or_upload_and_transcription",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "spaces:neuralworm/voice_note_transcription",
+      "category": "spaces",
+      "name": "neuralworm/voice_note_transcription",
+      "url": "https://huggingface.co/spaces/neuralworm/voice_note_transcription",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "spaces:nnethery/ByteDance-Piano-Transcription",
+      "category": "spaces",
+      "name": "nnethery/ByteDance-Piano-Transcription",
+      "url": "https://huggingface.co/spaces/nnethery/ByteDance-Piano-Transcription",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "spaces:oddadmix/Arabic-OCR-Models-Demos",
       "category": "spaces",
       "name": "oddadmix/Arabic-OCR-Models-Demos",
@@ -7467,6 +8782,13 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "spaces:ojohnson1/TranscriptionTranslation",
+      "category": "spaces",
+      "name": "ojohnson1/TranscriptionTranslation",
+      "url": "https://huggingface.co/spaces/ojohnson1/TranscriptionTranslation",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "spaces:omkamath/automation",
       "category": "spaces",
       "name": "omkamath/automation",
@@ -7479,6 +8801,13 @@
       "name": "open-llm-leaderboard/open_llm_leaderboard",
       "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
       "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "spaces:opportunity027/Transcription_with_WhisperGPT",
+      "category": "spaces",
+      "name": "opportunity027/Transcription_with_WhisperGPT",
+      "url": "https://huggingface.co/spaces/opportunity027/Transcription_with_WhisperGPT",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "spaces:ovrathi1/release_automation",
@@ -7523,6 +8852,13 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "spaces:rajesh1729/youtube-video-transcription-with-whisper",
+      "category": "spaces",
+      "name": "rajesh1729/youtube-video-transcription-with-whisper",
+      "url": "https://huggingface.co/spaces/rajesh1729/youtube-video-transcription-with-whisper",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "spaces:RajeswariKakarlapudi/automation",
       "category": "spaces",
       "name": "RajeswariKakarlapudi/automation",
@@ -7535,6 +8871,48 @@
       "name": "rajibbhtto/medical-imaging-ai-agent",
       "url": "https://huggingface.co/spaces/rajibbhtto/medical-imaging-ai-agent",
       "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:rakso/transcription-whisper",
+      "category": "spaces",
+      "name": "rakso/transcription-whisper",
+      "url": "https://huggingface.co/spaces/rakso/transcription-whisper",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "spaces:raphaelmerx/MMS-transcription",
+      "category": "spaces",
+      "name": "raphaelmerx/MMS-transcription",
+      "url": "https://huggingface.co/spaces/raphaelmerx/MMS-transcription",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "spaces:RASMUS/Youtube-videos-with-crosslingual-transcriptions",
+      "category": "spaces",
+      "name": "RASMUS/Youtube-videos-with-crosslingual-transcriptions",
+      "url": "https://huggingface.co/spaces/RASMUS/Youtube-videos-with-crosslingual-transcriptions",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "spaces:rheatony/video_audio_transcription",
+      "category": "spaces",
+      "name": "rheatony/video_audio_transcription",
+      "url": "https://huggingface.co/spaces/rheatony/video_audio_transcription",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "spaces:rires-kasai/whisper-transcription",
+      "category": "spaces",
+      "name": "rires-kasai/whisper-transcription",
+      "url": "https://huggingface.co/spaces/rires-kasai/whisper-transcription",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "spaces:Robooze/transcription_loud",
+      "category": "spaces",
+      "name": "Robooze/transcription_loud",
+      "url": "https://huggingface.co/spaces/Robooze/transcription_loud",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "spaces:saim2481/automation_api",
@@ -7558,11 +8936,32 @@
       "firstSeen": "2026-10-27T13:28:19+00:00"
     },
     {
+      "id": "spaces:Sandiago21/speech-to-speech-translation-greek-with-transcription",
+      "category": "spaces",
+      "name": "Sandiago21/speech-to-speech-translation-greek-with-transcription",
+      "url": "https://huggingface.co/spaces/Sandiago21/speech-to-speech-translation-greek-with-transcription",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "spaces:Saptarshi2000/Automation",
       "category": "spaces",
       "name": "Saptarshi2000/Automation",
       "url": "https://huggingface.co/spaces/Saptarshi2000/Automation",
       "firstSeen": "2026-10-27T13:28:19+00:00"
+    },
+    {
+      "id": "spaces:SebLih/SV-Transcription",
+      "category": "spaces",
+      "name": "SebLih/SV-Transcription",
+      "url": "https://huggingface.co/spaces/SebLih/SV-Transcription",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "spaces:SebLih/Transcription",
+      "category": "spaces",
+      "name": "SebLih/Transcription",
+      "url": "https://huggingface.co/spaces/SebLih/Transcription",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "spaces:SeerRay-Lab/Xiaomi-OCR-0",
@@ -7577,6 +8976,34 @@
       "name": "seotarek/LightGuard-Agent",
       "url": "https://huggingface.co/spaces/seotarek/LightGuard-Agent",
       "firstSeen": "2026-10-27T13:09:33+00:00"
+    },
+    {
+      "id": "spaces:sergiomar73/qc-nlp-002-transcription-classifier-with-gpt3",
+      "category": "spaces",
+      "name": "sergiomar73/qc-nlp-002-transcription-classifier-with-gpt3",
+      "url": "https://huggingface.co/spaces/sergiomar73/qc-nlp-002-transcription-classifier-with-gpt3",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "spaces:sergiomar73/qc-nlp-004-transcription-classifier-with-roberta",
+      "category": "spaces",
+      "name": "sergiomar73/qc-nlp-004-transcription-classifier-with-roberta",
+      "url": "https://huggingface.co/spaces/sergiomar73/qc-nlp-004-transcription-classifier-with-roberta",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "spaces:sergiomar73/qc-nlp-005-transcription-classifier-with-roberta",
+      "category": "spaces",
+      "name": "sergiomar73/qc-nlp-005-transcription-classifier-with-roberta",
+      "url": "https://huggingface.co/spaces/sergiomar73/qc-nlp-005-transcription-classifier-with-roberta",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "spaces:sergiomar73/qc-nlp-006-transcription-keyphrases",
+      "category": "spaces",
+      "name": "sergiomar73/qc-nlp-006-transcription-keyphrases",
+      "url": "https://huggingface.co/spaces/sergiomar73/qc-nlp-006-transcription-keyphrases",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "spaces:sergiopaniego/train-the-agent-slides",
@@ -7607,6 +9034,13 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "spaces:shripadbhat/poc_clinical_conversation_transcription",
+      "category": "spaces",
+      "name": "shripadbhat/poc_clinical_conversation_transcription",
+      "url": "https://huggingface.co/spaces/shripadbhat/poc_clinical_conversation_transcription",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "spaces:Singularity666/VisionGPT-Automation",
       "category": "spaces",
       "name": "Singularity666/VisionGPT-Automation",
@@ -7635,6 +9069,13 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "spaces:spark-ds549/Chinese-Label-Transcription",
+      "category": "spaces",
+      "name": "spark-ds549/Chinese-Label-Transcription",
+      "url": "https://huggingface.co/spaces/spark-ds549/Chinese-Label-Transcription",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
       "id": "spaces:SparkExpedition/Ticket_Automation_dolly_7b",
       "category": "spaces",
       "name": "SparkExpedition/Ticket_Automation_dolly_7b",
@@ -7654,6 +9095,20 @@
       "name": "Srishti280992/repro-effgen-enabling-small-language-models-as-capable-autonomous-agents",
       "url": "https://huggingface.co/spaces/Srishti280992/repro-effgen-enabling-small-language-models-as-capable-autonomous-agents",
       "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:sriyash421/Transcription_Alchemic",
+      "category": "spaces",
+      "name": "sriyash421/Transcription_Alchemic",
+      "url": "https://huggingface.co/spaces/sriyash421/Transcription_Alchemic",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "spaces:StanleySS/Real_time_AI_Audio_Transcription_v1.0",
+      "category": "spaces",
+      "name": "StanleySS/Real_time_AI_Audio_Transcription_v1.0",
+      "url": "https://huggingface.co/spaces/StanleySS/Real_time_AI_Audio_Transcription_v1.0",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
       "id": "spaces:testytest/cips_automation",
@@ -7787,15 +9242,22 @@
       "name": "Zengyf-CVer/ocr_translate",
       "url": "https://huggingface.co/spaces/Zengyf-CVer/ocr_translate",
       "firstSeen": "2026-10-27T15:21:32+00:00"
+    },
+    {
+      "id": "spaces:zeno-ml/audio-transcription",
+      "category": "spaces",
+      "name": "zeno-ml/audio-transcription",
+      "url": "https://huggingface.co/spaces/zeno-ml/audio-transcription",
+      "firstSeen": "2026-10-27T15:37:05+00:00"
     }
   ],
   "disclaimer": "Les découvertes ne sont pas des compétences. Chaque usage approuvé exige des tests indépendants.",
   "cloud": {
     "agent": "Éclaireur NOVENS CORE",
     "execution": "GitHub Actions",
-    "lastMissionAt": "2026-10-27T15:21:32+00:00",
+    "lastMissionAt": "2026-10-27T15:37:05+00:00",
     "missionStatus": "succès",
-    "newResources": 276,
+    "newResources": 208,
     "errors": 0,
     "nextScheduled": "Toutes les 10 minutes si GitHub Actions disponible",
     "machineIndependence": true
@@ -7806,17 +9268,19 @@
       "title": "Classer des modèles IA par tâche et licence déclarée",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-10-27T15:21:43+00:00",
-      "practiceCount": 6,
+      "lastPracticedAt": "2026-10-27T15:37:12+00:00",
+      "practiceCount": 8,
       "proofPath": "evidence/hf-model-task-classification-v1.json",
-      "proofSha256": "897f501ffd5f7a4da60e52281ec54bb6e1177cea35a332fceed40dce7bf67175",
+      "proofSha256": "4d57f4e54e0024ec615071520877fa8a0163f43f78c1e0229ae7e39a8794255a",
       "resourcesTested": [
         "https://huggingface.co/agentionai/Qwen3.8-27B-AP-GGUF",
         "https://huggingface.co/agentionai/Signal-3.8-27B",
         "https://huggingface.co/google/embeddinggemma-300m",
         "https://huggingface.co/heydariAI/persian-embeddings",
         "https://huggingface.co/Horizon-Labs/multilingual-reranker-base",
-        "https://huggingface.co/hotchpotch/bekko-embedding-v1-a25m"
+        "https://huggingface.co/hotchpotch/bekko-embedding-v1-a25m",
+        "https://huggingface.co/hotchpotch/bekko-embedding-v1-a8m",
+        "https://huggingface.co/hotchpotch/bekko-static-embedding-v1"
       ]
     },
     {
@@ -7824,17 +9288,19 @@
       "title": "Qualifier licence et format de jeux de données IA",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-10-27T15:21:43+00:00",
-      "practiceCount": 6,
+      "lastPracticedAt": "2026-10-27T15:37:12+00:00",
+      "practiceCount": 8,
       "proofPath": "evidence/hf-dataset-usage-assessment-v1.json",
-      "proofSha256": "91160dcdab9870bc8d765af22ebef141ab143adf6117517fedc787b1b1ef894e",
+      "proofSha256": "9b2815925215b859a824f4250138a64f56f4e11723a1aa0cefd4ccff8afa260b",
       "resourcesTested": [
         "https://huggingface.co/datasets/11-47/autonomous-ai-agents-multi-agent-swarms-2026",
         "https://huggingface.co/datasets/AdityaaXD/Multi-Agent_Reinforcement_Learning_Trading_System_Data",
         "https://huggingface.co/datasets/hallucinations-leaderboard/results",
         "https://huggingface.co/datasets/harvardMadsys/freeinference_agentic_trace",
         "https://huggingface.co/datasets/Gene829/gene-llm-agents-corpus",
-        "https://huggingface.co/datasets/Gene829/gene-llm-agents-instruct"
+        "https://huggingface.co/datasets/Gene829/gene-llm-agents-instruct",
+        "https://huggingface.co/datasets/hf-doc-build/doc-build-dev",
+        "https://huggingface.co/datasets/hirundo-io/document-injection-answered"
       ]
     },
     {
@@ -7842,17 +9308,19 @@
       "title": "Diagnostiquer le runtime de démonstrations IA",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-10-27T15:21:43+00:00",
-      "practiceCount": 6,
+      "lastPracticedAt": "2026-10-27T15:37:12+00:00",
+      "practiceCount": 8,
       "proofPath": "evidence/hf-space-runtime-diagnostics-v1.json",
-      "proofSha256": "6a0dfe4ae7d16b68cd18674352f68aaa2b220f6c51ba0cf4694df83911183783",
+      "proofSha256": "95f186233443c4fba3b0aee250173f546ecb49fb4e9736733b53d3ed689cfe38",
       "resourcesTested": [
         "https://huggingface.co/spaces/Aarya003/Financial-Analyst-Agent",
         "https://huggingface.co/spaces/AceVikings/repro-learning-human-robot-collaboration-via-heterogeneous-agent-lyapunov-policy-optimizatio",
         "https://huggingface.co/spaces/bug-man/HF_Shiny_Maxdiff_Calculation_Automation",
         "https://huggingface.co/spaces/bug-man/hf_shiny_web_automation",
         "https://huggingface.co/spaces/datalab-to/indra-ocr",
-        "https://huggingface.co/spaces/destiratnakomala/automation"
+        "https://huggingface.co/spaces/destiratnakomala/automation",
+        "https://huggingface.co/spaces/ECCV2022/PARSeq-OCR",
+        "https://huggingface.co/spaces/EmreAkgul/Turkish-transcription-leaderboard"
       ]
     },
     {
@@ -7860,17 +9328,19 @@
       "title": "Lire et contrôler des échantillons de datasets publics",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:46+00:00",
-      "lastPracticedAt": "2026-10-27T15:21:47+00:00",
-      "practiceCount": 6,
+      "lastPracticedAt": "2026-10-27T15:37:14+00:00",
+      "practiceCount": 8,
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "2c5078e1b41079cecceaed55be77ee5e41226abad9368204763d9bb4fa2287e0",
+      "proofSha256": "805391cf41e74cbdd3898bf9c5f82ad8557ef873f30f1905d11149726207015d",
       "resourcesTested": [
         "https://huggingface.co/datasets/AdityaaXD/Multi-Agent_Reinforcement_Learning_Trading_System_Data",
         "https://huggingface.co/datasets/Agent-Ark/Toucan-1.5M",
         "https://huggingface.co/datasets/hf-internal-testing/example-documents",
         "https://huggingface.co/datasets/hirundo-io/document-injection-answered",
         "https://huggingface.co/datasets/GalaktischeGurke/full_dataset_600_lines_invoice_contract_mail",
-        "https://huggingface.co/datasets/GalaktischeGurke/invoices_instruct_vf"
+        "https://huggingface.co/datasets/GalaktischeGurke/invoices_instruct_vf",
+        "https://huggingface.co/datasets/huggingface/documentation-images",
+        "https://huggingface.co/datasets/HumynLabs/Brazilian_Bills_and_Invoices_Dataset"
       ]
     },
     {
@@ -7878,10 +9348,10 @@
       "title": "Analyser techniquement un dépôt GitHub public",
       "status": "validated",
       "validatedAt": "2026-10-27T12:30:54+00:00",
-      "lastPracticedAt": "2026-10-27T15:21:42+00:00",
-      "practiceCount": 8,
+      "lastPracticedAt": "2026-10-27T15:37:10+00:00",
+      "practiceCount": 10,
       "proofPath": "evidence/github-repository-audit.json",
-      "proofSha256": "e95723e14e21f63dab321eaece2aaa10bfcc6857e3d43ee82a155927f67ecc4c",
+      "proofSha256": "ab5f479ecb07f4323cfad073fbe1dbc3e9e3a375542f2e629b063164ed60ddcf",
       "resourcesTested": [
         "https://github.com/0jre/runne",
         "https://github.com/0xMihirK/hercules-mcp",
@@ -7890,7 +9360,9 @@
         "https://github.com/AIjennings/aria-agent-blueprints",
         "https://github.com/aiqadam/qadam-flow",
         "https://github.com/AlfaIrawan/react-tectona",
-        "https://github.com/alfredang/AI-LMS-TMS"
+        "https://github.com/alfredang/AI-LMS-TMS",
+        "https://github.com/AMD-AGI/PrimusClaw",
+        "https://github.com/amjad-hanini/Macro-Sentiment-Agentic-Pipeline"
       ]
     }
   ],
@@ -8109,25 +9581,84 @@
       "reportsRequired": 1,
       "failedResources": [],
       "totalVerifiedExercises": 6
+    },
+    {
+      "date": "2026-10-27T15:37:10+00:00",
+      "skillId": "github-repository-technical-audit-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 10,
+      "failures": [
+        {
+          "repository": "aminsoli83/n8n-automation-projects",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27T15:37:12+00:00",
+      "skillId": "hf-model-task-classification-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 8,
+      "failures": []
+    },
+    {
+      "date": "2026-10-27T15:37:12+00:00",
+      "skillId": "hf-dataset-usage-assessment-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 8,
+      "failures": [
+        {
+          "id": "GEOcite/DocumentSegmentationDataset",
+          "reason": "ValueError"
+        },
+        {
+          "id": "hf-internal-testing/example-documents",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27T15:37:12+00:00",
+      "skillId": "hf-space-runtime-diagnostics-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 8,
+      "failures": []
+    },
+    {
+      "date": "2026-10-27T15:37:14+00:00",
+      "skillId": "hf-dataset-sample-ingestion-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "failedResources": [],
+      "totalVerifiedExercises": 8
     }
   ],
   "lastCapabilityVerification": {
-    "date": "2026-10-27T15:21:47+00:00",
+    "date": "2026-10-27T15:37:14+00:00",
     "skillId": "hf-dataset-sample-ingestion-v1",
     "result": "reinforced"
   },
   "discovery": {
-    "cursor": 3,
+    "cursor": 4,
     "capacity": 20000,
-    "lastBatch": 276,
+    "lastBatch": 208,
     "newByCategory": {
-      "github": 127,
-      "models": 50,
-      "datasets": 49,
+      "github": 60,
+      "models": 48,
+      "datasets": 50,
       "spaces": 50
     },
     "queriesLastRun": 7,
-    "totalSearchCycles": 3,
+    "totalSearchCycles": 4,
     "lastErrors": []
   },
   "approvedResources": [
@@ -8172,7 +9703,21 @@
       "approvedFor": "read-only-dataset-sampling",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
       "testedAt": "2026-10-27T15:21:47+00:00"
+    },
+    {
+      "id": "huggingface/documentation-images",
+      "source": "https://huggingface.co/datasets/huggingface/documentation-images",
+      "approvedFor": "read-only-dataset-sampling",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "testedAt": "2026-10-27T15:37:14+00:00"
+    },
+    {
+      "id": "HumynLabs/Brazilian_Bills_and_Invoices_Dataset",
+      "source": "https://huggingface.co/datasets/HumynLabs/Brazilian_Bills_and_Invoices_Dataset",
+      "approvedFor": "read-only-dataset-sampling",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "testedAt": "2026-10-27T15:37:14+00:00"
     }
   ],
-  "approvedResourceCount": 6
+  "approvedResourceCount": 8
 }

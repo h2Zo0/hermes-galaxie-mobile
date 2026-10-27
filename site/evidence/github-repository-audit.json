@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-27T15:21:42+00:00",
+  "lastPracticedAt": "2026-10-27T15:37:10+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -175,6 +175,44 @@
       "archived": false,
       "starsAtTest": 19,
       "pushedAt": "2026-10-27T10:15:43Z"
+    },
+    {
+      "repository": "AMD-AGI/PrimusClaw",
+      "url": "https://github.com/AMD-AGI/PrimusClaw",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 82.83,
+      "languageBytes": {
+        "TypeScript": 10837712,
+        "Go": 1217248,
+        "Shell": 645218,
+        "Python": 290503,
+        "JavaScript": 55821,
+        "Dockerfile": 14264,
+        "Makefile": 12948,
+        "PLpgSQL": 5105,
+        "Go Template": 4747
+      },
+      "totalLanguageBytes": 13083566,
+      "archived": false,
+      "starsAtTest": 5,
+      "pushedAt": "2026-10-27T15:06:58Z"
+    },
+    {
+      "repository": "amjad-hanini/Macro-Sentiment-Agentic-Pipeline",
+      "url": "https://github.com/amjad-hanini/Macro-Sentiment-Agentic-Pipeline",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 96.1,
+      "languageBytes": {
+        "Python": 22964,
+        "Dockerfile": 686,
+        "TeX": 245
+      },
+      "totalLanguageBytes": 23895,
+      "archived": false,
+      "starsAtTest": 2,
+      "pushedAt": "2026-10-27T04:34:23Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
