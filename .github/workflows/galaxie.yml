@@ -38,6 +38,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Qualifier modèles, datasets et Spaces par des défis prouvés
         run: python -m cloud.qualify_resources
+      - name: Expérimenter la lecture réelle des datasets et n'approuver que les usages prouvés
+        run: python -m cloud.try_dataset_samples
       - name: Historiser les mesures réelles
         run: |
           git config user.name "hermes-cloud[bot]"
