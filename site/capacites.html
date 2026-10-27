@@ -41,6 +41,7 @@
   <section class="counters" aria-label="Tableau de bord des preuves">
     <div class="counter"><strong id="validated">—</strong><span>Capacités validées</span></div>
     <div class="counter"><strong id="attempted">—</strong><span>Essais enregistrés</span></div>
+    <div class="counter"><strong id="demonstrations">—</strong><span>Exercices réussis et documentés</span></div>
     <div class="counter"><strong id="resources">—</strong><span>Ressources référencées</span></div>
   </section>
   <p id="updated" class="muted" aria-live="polite">Lecture des preuves…</p>
@@ -71,6 +72,7 @@ async function update(){
     const attempts=(Array.isArray(s.capabilityTrials)?s.capabilityTrials:[]);
     $("validated").textContent=skills.length.toLocaleString("fr-FR");
     $("attempted").textContent=attempts.length.toLocaleString("fr-FR");
+    $("demonstrations").textContent=skills.reduce((sum,v)=>sum+(v.resourcesTested||[]).length,0).toLocaleString("fr-FR");
     $("resources").textContent=Number(s.resourceCount||0).toLocaleString("fr-FR");
     $("updated").textContent="Dernier relevé du catalogue : "+(s.asOf || "indisponible");
     $("skills").replaceChildren();
@@ -79,7 +81,8 @@ async function update(){
       line(article,"div","● VALIDÉ · PREUVE ARCHIVÉE","status");
       line(article,"h3",v.title);
       line(article,"p","Testé le : "+v.validatedAt);
-      line(article,"p",(v.resourcesTested||[]).length+" ressources vérifiées");
+      line(article,"p",(v.resourcesTested||[]).length+" ressources vérifiées par exercices réussis");
+      if(v.lastPracticedAt)line(article,"p","Dernier exercice : "+v.lastPracticedAt);
       const link=line(article,"a","Ouvrir le rapport de preuve");
       link.href="./"+v.proofPath;link.rel="noopener noreferrer";link.target="_blank";
       $("skills").append(article);
@@ -90,7 +93,7 @@ async function update(){
     for(const v of last){
       const row=document.createElement("div");row.className="trial";
       line(row,"span",(v.skillId||"Mission")+" · "+(v.date||""));
-      line(row,"span",(v.result==="validated"?"✓ Validé":v.result==="failed"?"Essai non validé":v.result)+" · "+(v.reportsPassed??0)+"/"+(v.reportsRequired??2),v.result==="failed"?"warning":"status");
+      line(row,"span",(v.result==="validated"?"✓ Validé":v.result==="reinforced"?"✓ Entraînement prouvé":v.result==="failed"?"Essai non validé":v.result)+" · "+(v.reportsPassed??0)+"/"+(v.reportsRequired??2),v.result==="failed"?"warning":"status");
       $("trials").append(row);
     }
     if(!last.length)line($("trials"),"p","Aucun essai enregistré.","muted");
