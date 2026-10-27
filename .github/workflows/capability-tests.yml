@@ -30,7 +30,8 @@ jobs:
           state=json.loads(Path("site/state.json").read_text())
           assert state["verifiedSkills"] == 1, state.get("lastCapabilityVerification")
           proof=json.loads(Path("site/evidence/github-repository-audit.json").read_text())
-          assert proof["checksPassed"] and len(proof["reports"]) == 2
+          assert proof["checksPassed"] and len(proof["reports"]) >= 2
+          assert len({r["repository"] for r in proof["reports"]}) == len(proof["reports"])
           print("Audit réel attesté :", [r["repository"] for r in proof["reports"]])
           PY
       - name: Tester la qualification de ressources Hugging Face réelles sans publier
