@@ -59,9 +59,17 @@ class QualifierTests(unittest.TestCase):
             self.assertEqual(len({item["id"] for item in proof["reports"]}), 2)
             self.assertTrue(proof["checksPassed"])
             self.assertEqual(proof["skillId"], skill["id"])
-        self.assertTrue(all(value == "already-validated"
+        self.assertTrue(all(value == "no-new-evidence"
                             for value in q.run_all(state, self.fetch).values()))
         self.assertEqual(state["verifiedSkills"], 3)
+        state["nodes"].extend(candidate(cat, "demo/" + suffix)
+                              for cat in q.MISSIONS for suffix in ("three", "four"))
+        self.assertTrue(all(value == "reinforced"
+                            for value in q.run_all(state, self.fetch).values()))
+        self.assertEqual(state["verifiedSkills"], 3)
+        self.assertTrue(all(skill["practiceCount"] == 4 for skill in state["skills"]))
+        self.assertTrue(all(len(json.loads((self.root / "site" / skill["proofPath"]).read_text())["reports"]) == 4
+                            for skill in state["skills"]))
 
     def test_api_identity_mismatch_cannot_validate(self):
         state = {"nodes": [candidate("models", "demo/one"),
