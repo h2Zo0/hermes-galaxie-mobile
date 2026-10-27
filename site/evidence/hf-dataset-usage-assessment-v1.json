@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-27T18:18:45+00:00",
+  "lastPracticedAt": "2026-10-27T18:38:42+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -277,6 +277,29 @@
         "parquet"
       ],
       "listedFiles": 5,
+      "access": "public"
+    },
+    {
+      "id": "lambda/hermes-agent-reasoning-traces",
+      "source": "https://huggingface.co/datasets/lambda/hermes-agent-reasoning-traces",
+      "observedAt": "2026-10-27T18:38:42+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 6,
+      "access": "public"
+    },
+    {
+      "id": "leeroy-jankins/FASAB-Handbook-of-Federal-Accounting-Standards",
+      "source": "https://huggingface.co/datasets/leeroy-jankins/FASAB-Handbook-of-Federal-Accounting-Standards",
+      "observedAt": "2026-10-27T18:38:42+00:00",
+      "declaredLicense": "mit",
+      "formats": [
+        "csv",
+        "txt"
+      ],
+      "listedFiles": 8,
       "access": "public"
     }
   ]
