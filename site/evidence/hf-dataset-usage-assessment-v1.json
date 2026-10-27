@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-27T13:09:45+00:00",
+  "lastPracticedAt": "2026-10-27T13:28:31+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -29,6 +29,29 @@
         "csv"
       ],
       "listedFiles": 5,
+      "access": "public"
+    },
+    {
+      "id": "hallucinations-leaderboard/results",
+      "source": "https://huggingface.co/datasets/hallucinations-leaderboard/results",
+      "observedAt": "2026-10-27T13:28:31+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "json"
+      ],
+      "listedFiles": 3168,
+      "access": "public"
+    },
+    {
+      "id": "harvardMadsys/freeinference_agentic_trace",
+      "source": "https://huggingface.co/datasets/harvardMadsys/freeinference_agentic_trace",
+      "observedAt": "2026-10-27T13:28:31+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "json",
+        "parquet"
+      ],
+      "listedFiles": 217,
       "access": "public"
     }
   ]
