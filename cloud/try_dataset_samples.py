@@ -85,7 +85,7 @@ def candidates(state):
              and DATASET.fullmatch(n["name"])
              and n.get("url") == "https://huggingface.co/datasets/" + n["name"]]
     start = state.get("discovery", {}).get("cursor", 0)
-    shift = max(0, int(start)) if isinstance(start, int) else 0
+    shift = max(0, int(start)) * MAX_TRIES if isinstance(start, int) else 0
     if slugs:
         rotation = shift % len(slugs)
         return slugs[rotation:] + slugs[:rotation]
