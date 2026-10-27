@@ -9,7 +9,7 @@ permissions:
 jobs:
   tests:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 7
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -54,4 +54,18 @@ jobs:
               evidence=json.loads((Path("site")/proof["proofPath"]).read_text())
               assert len(evidence["reports"])==2 and evidence["checksPassed"]
           print("Preuves HF enregistrées :", len(proofs))
+          PY
+      - name: Pilote réel de réutilisation de datasets — vérifier les usages approuvés
+        run: |
+          python -m cloud.try_dataset_samples
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          state=json.loads(Path("site/state.json").read_text())
+          last=state.get("capabilityTrials", [])[-1]
+          print("Résultat du pilote :", last.get("result"))
+          print("Usages approuvés :", state.get("approvedResourceCount", 0))
+          print("Candidats refusés :", len(last.get("failedResources", [])))
+          for approved in state.get("approvedResources", []):
+              assert approved["approvedFor"] == "read-only-dataset-sampling"
           PY
