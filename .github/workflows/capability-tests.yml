@@ -18,7 +18,19 @@ jobs:
       - name: Tester le mécanisme de preuve sans accès réseau
         run: python -m unittest discover -s tests -v
       - name: Vérifier la syntaxe des scripts
-        run: python -m py_compile cloud/scout.py cloud/verify_capabilities.py cloud/qualify_resources.py cloud/try_dataset_samples.py
+        run: python -m py_compile cloud/scout.py cloud/verify_capabilities.py cloud/qualify_resources.py cloud/try_dataset_samples.py cloud/operational_tools.py cloud/skills_*.py
+      - name: Vérifier 100 outils Python indépendants
+        run: |
+          python -m cloud.operational_tools
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          s=json.loads(Path("site/state.json").read_text())
+          assert s["operationalToolkit"]["definedTools"] == 100
+          assert s["operationalToolkit"]["verifiedTools"] == 100, s["operationalToolkit"]["failures"]
+          assert s["verifiedSkills"] >= 105
+          print("CAPACITÉS : ",s["verifiedSkills"])
+          PY
       - name: Prouver une compétence sur deux dépôts réels sans publication
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
