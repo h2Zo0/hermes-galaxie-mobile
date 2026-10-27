@@ -98,10 +98,18 @@ def valid_existing_skills(items):
             continue
         path = ROOT / "site" / proof
         try:
-            evidence = json.loads(path.read_text(encoding="utf-8"))
-            if evidence.get("skillId") == item.get("id") and evidence.get("status") == "validated":
-                if len(evidence.get("reports", [])) >= 2 and evidence.get("checksPassed") is True:
-                    valid.append(item)
+            raw = path.read_bytes()
+            if hashlib.sha256(raw).hexdigest() != item.get("proofSha256"):
+                continue
+            evidence = json.loads(raw)
+            reports = evidence.get("reports")
+            identifiers = [r.get("repository") or r.get("id") for r in reports] if isinstance(reports, list) else []
+            if (evidence.get("skillId") == item.get("id") and evidence.get("status") == "validated"
+                    and evidence.get("checksPassed") is True and len(identifiers) >= 2
+                    and all(isinstance(identifier, str) and identifier for identifier in identifiers)
+                    and len(set(identifier.casefold() for identifier in identifiers)) == len(identifiers)
+                    and item["id"] not in {skill["id"] for skill in valid}):
+                valid.append(item)
         except (OSError, ValueError, AttributeError):
             continue
     return valid
