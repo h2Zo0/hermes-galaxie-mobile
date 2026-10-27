@@ -1,15 +1,15 @@
 {
   "name": "NOVENS CORE — GALAXIE VIVANTE",
-  "asOf": "2026-10-27T10:31:28+00:00",
-  "polledAt": "2026-10-27T10:31:28+00:00",
-  "resourceCount": 245,
+  "asOf": "2026-10-27T12:30:49+00:00",
+  "polledAt": "2026-10-27T12:30:49+00:00",
+  "resourceCount": 263,
   "categoryCounts": {
-    "github": 153,
+    "github": 171,
     "models": 28,
     "datasets": 34,
     "spaces": 30
   },
-  "verifiedSkills": 0,
+  "verifiedSkills": 1,
   "netProfitEuro": 0.0,
   "growth24h": null,
   "history": [
@@ -53,6 +53,12 @@
       "date": "2026-10-27T10:31:28+00:00",
       "resources": 245,
       "verified": 0,
+      "profit": 0.0
+    },
+    {
+      "date": "2026-10-27T12:30:49+00:00",
+      "resources": 263,
+      "verified": 1,
       "profit": 0.0
     }
   ],
@@ -317,6 +323,13 @@
       "firstSeen": "2026-10-26 21:23:13 CET"
     },
     {
+      "id": "github:7id0o/ruflo",
+      "category": "github",
+      "name": "7id0o/ruflo",
+      "url": "https://github.com/7id0o/ruflo",
+      "firstSeen": "2026-10-27T12:30:49+00:00"
+    },
+    {
       "id": "github:abpframework/abp",
       "category": "github",
       "name": "abpframework/abp",
@@ -357,6 +370,13 @@
       "name": "agentoom/agentoom",
       "url": "https://github.com/agentoom/agentoom",
       "firstSeen": "2026-10-27T10:31:28+00:00"
+    },
+    {
+      "id": "github:AiSecurityServices/open-code-review",
+      "category": "github",
+      "name": "AiSecurityServices/open-code-review",
+      "url": "https://github.com/AiSecurityServices/open-code-review",
+      "firstSeen": "2026-10-27T12:30:49+00:00"
     },
     {
       "id": "github:akaunting/akaunting",
@@ -429,6 +449,13 @@
       "firstSeen": "2026-10-26T23:15:29+00:00"
     },
     {
+      "id": "github:aurict/aurict",
+      "category": "github",
+      "name": "aurict/aurict",
+      "url": "https://github.com/aurict/aurict",
+      "firstSeen": "2026-10-27T12:30:49+00:00"
+    },
+    {
       "id": "github:Azaz-Gori07/SocialFlow",
       "category": "github",
       "name": "Azaz-Gori07/SocialFlow",
@@ -441,6 +468,13 @@
       "name": "bagisto/bagisto",
       "url": "https://github.com/bagisto/bagisto",
       "firstSeen": "2026-10-26 21:39:54 CET"
+    },
+    {
+      "id": "github:beggastrap-coder/workflow-automation-tool",
+      "category": "github",
+      "name": "beggastrap-coder/workflow-automation-tool",
+      "url": "https://github.com/beggastrap-coder/workflow-automation-tool",
+      "firstSeen": "2026-10-27T12:30:49+00:00"
     },
     {
       "id": "github:BenjaminEscobar/ghostflow-ai",
@@ -562,6 +596,13 @@
       "firstSeen": "2026-10-26 21:54:58 CET"
     },
     {
+      "id": "github:dfinke/dougfinke.dev",
+      "category": "github",
+      "name": "dfinke/dougfinke.dev",
+      "url": "https://github.com/dfinke/dougfinke.dev",
+      "firstSeen": "2026-10-27T12:30:49+00:00"
+    },
+    {
       "id": "github:DietrichGebert/ponytail",
       "category": "github",
       "name": "DietrichGebert/ponytail",
@@ -618,11 +659,25 @@
       "firstSeen": "2026-10-27T05:00:26+00:00"
     },
     {
+      "id": "github:finanzalive-jpg/agent-to-work",
+      "category": "github",
+      "name": "finanzalive-jpg/agent-to-work",
+      "url": "https://github.com/finanzalive-jpg/agent-to-work",
+      "firstSeen": "2026-10-27T12:30:49+00:00"
+    },
+    {
       "id": "github:firecrawl/firecrawl",
       "category": "github",
       "name": "firecrawl/firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
       "firstSeen": "2026-10-26 21:54:58 CET"
+    },
+    {
+      "id": "github:FiredMosquito831/my-claude-code",
+      "category": "github",
+      "name": "FiredMosquito831/my-claude-code",
+      "url": "https://github.com/FiredMosquito831/my-claude-code",
+      "firstSeen": "2026-10-27T12:30:49+00:00"
     },
     {
       "id": "github:flashmind-labs/flashmind",
@@ -651,6 +706,13 @@
       "name": "FreeSaaSProject/freesaas",
       "url": "https://github.com/FreeSaaSProject/freesaas",
       "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:g4-api/g4-vscode-extension",
+      "category": "github",
+      "name": "g4-api/g4-vscode-extension",
+      "url": "https://github.com/g4-api/g4-vscode-extension",
+      "firstSeen": "2026-10-27T12:30:49+00:00"
     },
     {
       "id": "github:GhulamMustufa/agentic_crm",
@@ -716,6 +778,13 @@
       "firstSeen": "2026-10-26T23:15:29+00:00"
     },
     {
+      "id": "github:ilielucianno/n8n-security-automation-lab",
+      "category": "github",
+      "name": "ilielucianno/n8n-security-automation-lab",
+      "url": "https://github.com/ilielucianno/n8n-security-automation-lab",
+      "firstSeen": "2026-10-27T12:30:49+00:00"
+    },
+    {
       "id": "github:imaqib101/agentic-tool-orchestrator",
       "category": "github",
       "name": "imaqib101/agentic-tool-orchestrator",
@@ -756,6 +825,20 @@
       "name": "kimai/kimai",
       "url": "https://github.com/kimai/kimai",
       "firstSeen": "2026-10-26 21:39:26 CET"
+    },
+    {
+      "id": "github:KIMISKI33/Juflo",
+      "category": "github",
+      "name": "KIMISKI33/Juflo",
+      "url": "https://github.com/KIMISKI33/Juflo",
+      "firstSeen": "2026-10-27T12:30:49+00:00"
+    },
+    {
+      "id": "github:KPO-Tech/seshat-runtime",
+      "category": "github",
+      "name": "KPO-Tech/seshat-runtime",
+      "url": "https://github.com/KPO-Tech/seshat-runtime",
+      "firstSeen": "2026-10-27T12:30:49+00:00"
     },
     {
       "id": "github:krayin/laravel-crm",
@@ -870,6 +953,13 @@
       "firstSeen": "2026-10-26 21:24:47 CET"
     },
     {
+      "id": "github:mii-llm/palingenesis",
+      "category": "github",
+      "name": "mii-llm/palingenesis",
+      "url": "https://github.com/mii-llm/palingenesis",
+      "firstSeen": "2026-10-27T12:30:49+00:00"
+    },
+    {
       "id": "github:monicahq/monica",
       "category": "github",
       "name": "monicahq/monica",
@@ -889,6 +979,13 @@
       "name": "morluto/rea",
       "url": "https://github.com/morluto/rea",
       "firstSeen": "2026-10-26 21:54:58 CET"
+    },
+    {
+      "id": "github:mshoaib40458/DataAnalyst-Agent",
+      "category": "github",
+      "name": "mshoaib40458/DataAnalyst-Agent",
+      "url": "https://github.com/mshoaib40458/DataAnalyst-Agent",
+      "firstSeen": "2026-10-27T12:30:49+00:00"
     },
     {
       "id": "github:muhanned-biz/n8n-AI-workflows",
@@ -1087,6 +1184,13 @@
       "firstSeen": "2026-10-27T10:31:28+00:00"
     },
     {
+      "id": "github:Rohan-nnnnnn/MailSentinel-AI",
+      "category": "github",
+      "name": "Rohan-nnnnnn/MailSentinel-AI",
+      "url": "https://github.com/Rohan-nnnnnn/MailSentinel-AI",
+      "firstSeen": "2026-10-27T12:30:49+00:00"
+    },
+    {
       "id": "github:Rohit-1480/DotNet-GenAI-RAG-Agent",
       "category": "github",
       "name": "Rohit-1480/DotNet-GenAI-RAG-Agent",
@@ -1099,6 +1203,13 @@
       "name": "RunaCapital/awesome-oss-alternatives",
       "url": "https://github.com/RunaCapital/awesome-oss-alternatives",
       "firstSeen": "2026-10-26 21:23:13 CET"
+    },
+    {
+      "id": "github:Saba1504/SmartSupport-AI",
+      "category": "github",
+      "name": "Saba1504/SmartSupport-AI",
+      "url": "https://github.com/Saba1504/SmartSupport-AI",
+      "firstSeen": "2026-10-27T12:30:49+00:00"
     },
     {
       "id": "github:SadekAlSaabari/pr-review-agent",
@@ -1141,6 +1252,13 @@
       "name": "sausheong/harness",
       "url": "https://github.com/sausheong/harness",
       "firstSeen": "2026-10-27T05:00:26+00:00"
+    },
+    {
+      "id": "github:shubh9119/multi-agent-mcp-orchestrator",
+      "category": "github",
+      "name": "shubh9119/multi-agent-mcp-orchestrator",
+      "url": "https://github.com/shubh9119/multi-agent-mcp-orchestrator",
+      "firstSeen": "2026-10-27T12:30:49+00:00"
     },
     {
       "id": "github:spree/spree",
@@ -1206,6 +1324,13 @@
       "firstSeen": "2026-10-26T23:15:29+00:00"
     },
     {
+      "id": "github:Talktodre-ops/ruflo",
+      "category": "github",
+      "name": "Talktodre-ops/ruflo",
+      "url": "https://github.com/Talktodre-ops/ruflo",
+      "firstSeen": "2026-10-27T12:30:49+00:00"
+    },
+    {
       "id": "github:techakash32/Agentic-ai",
       "category": "github",
       "name": "techakash32/Agentic-ai",
@@ -1267,6 +1392,13 @@
       "name": "vibhanshu-mishra/pyprocore",
       "url": "https://github.com/vibhanshu-mishra/pyprocore",
       "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:vinayku-09/vishwas-approval-system",
+      "category": "github",
+      "name": "vinayku-09/vishwas-approval-system",
+      "url": "https://github.com/vinayku-09/vishwas-approval-system",
+      "firstSeen": "2026-10-27T12:30:49+00:00"
     },
     {
       "id": "github:vishnuanjali2006-ctrl/Nexus-AI-Platform",
@@ -1777,11 +1909,40 @@
   "cloud": {
     "agent": "Éclaireur NOVENS CORE",
     "execution": "GitHub Actions",
-    "lastMissionAt": "2026-10-27T10:31:28+00:00",
+    "lastMissionAt": "2026-10-27T12:30:49+00:00",
     "missionStatus": "succès",
-    "newResources": 19,
+    "newResources": 18,
     "errors": 0,
     "nextScheduled": "Chaque heure, sous réserve de disponibilité GitHub Actions",
     "machineIndependence": true
+  },
+  "skills": [
+    {
+      "id": "github-repository-technical-audit-v1",
+      "title": "Analyser techniquement un dépôt GitHub public",
+      "status": "validated",
+      "validatedAt": "2026-10-27T12:30:54+00:00",
+      "proofPath": "evidence/github-repository-audit.json",
+      "proofSha256": "ff838d218c666f8545906b05b849cbfb1d197b13ac8f4824713b13e44b3d3772",
+      "resourcesTested": [
+        "https://github.com/0jre/runne",
+        "https://github.com/0xMihirK/hercules-mcp"
+      ]
+    }
+  ],
+  "capabilityTrials": [
+    {
+      "date": "2026-10-27T12:30:54+00:00",
+      "skillId": "github-repository-technical-audit-v1",
+      "result": "validated",
+      "reportsPassed": 2,
+      "reportsRequired": 2,
+      "failures": []
+    }
+  ],
+  "lastCapabilityVerification": {
+    "date": "2026-10-27T12:30:54+00:00",
+    "skillId": "github-repository-technical-audit-v1",
+    "result": "validated"
   }
 }

@@ -1,0 +1,68 @@
+{
+  "skillId": "github-repository-technical-audit-v1",
+  "title": "Analyser techniquement un dépôt GitHub public",
+  "status": "validated",
+  "testedAt": "2026-10-27T12:30:54+00:00",
+  "challenge": "Auditer indépendamment deux dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
+  "method": "GET /repos/{owner}/{repo} et GET /repos/{owner}/{repo}/languages via api.github.com; calcul local vérifié",
+  "checksPassed": true,
+  "reports": [
+    {
+      "repository": "0jre/runne",
+      "url": "https://github.com/0jre/runne",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 62.6,
+      "languageBytes": {
+        "TypeScript": 57596522,
+        "Python": 17168013,
+        "MDX": 5380787,
+        "Rust": 4999365,
+        "Go": 2937807,
+        "JavaScript": 1264305,
+        "Shell": 879440,
+        "HCL": 741920,
+        "SCSS": 440032,
+        "CSS": 123986,
+        "Swift": 107223,
+        "HTML": 88104,
+        "Lua": 74465,
+        "PLpgSQL": 66953,
+        "Jinja": 32249,
+        "Dockerfile": 29497,
+        "WGSL": 26696,
+        "Go Template": 11882,
+        "Makefile": 11634,
+        "Java": 8087,
+        "Nix": 4000,
+        "Kotlin": 3937,
+        "Starlark": 3301,
+        "C": 3006,
+        "Ruby": 2893,
+        "Objective-C": 2289
+      },
+      "totalLanguageBytes": 92008393,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-27T01:15:38Z"
+    },
+    {
+      "repository": "0xMihirK/hercules-mcp",
+      "url": "https://github.com/0xMihirK/hercules-mcp",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 97.99,
+      "languageBytes": {
+        "Python": 1158218,
+        "Dockerfile": 16132,
+        "Shell": 6005,
+        "PowerShell": 1636
+      },
+      "totalLanguageBytes": 1181991,
+      "archived": false,
+      "starsAtTest": 5,
+      "pushedAt": "2026-10-26T22:11:37Z"
+    }
+  ],
+  "scope": "Lecture et analyse de métadonnées GitHub; aucune installation ou exécution de code tiers."
+}
