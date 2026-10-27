@@ -18,7 +18,7 @@ jobs:
       - name: Tester le mécanisme de preuve sans accès réseau
         run: python -m unittest discover -s tests -v
       - name: Vérifier la syntaxe des scripts
-        run: python -m py_compile cloud/scout.py cloud/verify_capabilities.py cloud/qualify_resources.py
+        run: python -m py_compile cloud/scout.py cloud/verify_capabilities.py cloud/qualify_resources.py cloud/try_dataset_samples.py
       - name: Prouver une compétence sur deux dépôts réels sans publication
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
