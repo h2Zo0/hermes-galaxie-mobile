@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-27T21:04:50+00:00",
+  "lastPracticedAt": "2026-10-27T21:25:31+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -838,6 +838,41 @@
       "rowCount": 3,
       "sampleSha256": "3d3503fe12b78037b399fb6b7ed5e8058c10cbe338a348fd499b7798abdf8885",
       "observedAt": "2026-10-27T21:04:50+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "anonymoussubmissions/earnings21-gold-transcripts-normalized",
+      "source": "https://huggingface.co/datasets/anonymoussubmissions/earnings21-gold-transcripts-normalized",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "file_id",
+        "id",
+        "labels",
+        "labels_orig",
+        "sentence_no",
+        "tags",
+        "tokens"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "36f7c32815ee2f39d408e85133764a4462c30e07c6d6661759498591b9056474",
+      "observedAt": "2026-10-27T21:25:31+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "Aoschu/donut_model_data_for_german_invoice",
+      "source": "https://huggingface.co/datasets/Aoschu/donut_model_data_for_german_invoice",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "ground_truth",
+        "image"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "99fcd073a630c3666303dbad097334b4b421b3ee796cac9025bb8490f55f1944",
+      "observedAt": "2026-10-27T21:25:31+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-27T21:04:49+00:00",
+  "lastPracticedAt": "2026-10-27T21:25:28+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -478,6 +478,28 @@
         "csv"
       ],
       "listedFiles": 7,
+      "access": "public"
+    },
+    {
+      "id": "yzhuang/Agentic-Long-Context-Understanding-QA",
+      "source": "https://huggingface.co/datasets/yzhuang/Agentic-Long-Context-Understanding-QA",
+      "observedAt": "2026-10-27T21:25:28+00:00",
+      "declaredLicense": "mit",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 71,
+      "access": "public"
+    },
+    {
+      "id": "abross/youtube-transcriptions",
+      "source": "https://huggingface.co/datasets/abross/youtube-transcriptions",
+      "observedAt": "2026-10-27T21:25:28+00:00",
+      "declaredLicense": "afl-3.0",
+      "formats": [
+        "jsonl"
+      ],
+      "listedFiles": 3,
       "access": "public"
     }
   ]
