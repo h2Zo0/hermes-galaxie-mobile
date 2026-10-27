@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-27T22:26:36+00:00",
+  "lastPracticedAt": "2026-10-27T22:38:40+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -567,6 +567,28 @@
         "json"
       ],
       "listedFiles": 7,
+      "access": "public"
+    },
+    {
+      "id": "BothBosu/multi-agent-scam-conversation",
+      "source": "https://huggingface.co/datasets/BothBosu/multi-agent-scam-conversation",
+      "observedAt": "2026-10-27T22:38:40+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "csv"
+      ],
+      "listedFiles": 5,
+      "access": "public"
+    },
+    {
+      "id": "CATIE-AQ/frenchQA",
+      "source": "https://huggingface.co/datasets/CATIE-AQ/frenchQA",
+      "observedAt": "2026-10-27T22:38:40+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 5,
       "access": "public"
     }
   ]
