@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-27T15:56:28+00:00",
+  "lastPracticedAt": "2026-10-27T16:16:51+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -257,6 +257,35 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-03-06T23:47:01Z"
+    },
+    {
+      "repository": "Ankit15yadav/Quicko",
+      "url": "https://github.com/Ankit15yadav/Quicko",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 99.47,
+      "languageBytes": {
+        "TypeScript": 106508,
+        "JavaScript": 563
+      },
+      "totalLanguageBytes": 107071,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-07-19T18:02:26Z"
+    },
+    {
+      "repository": "Ann930-L/ai-automation-portfolio",
+      "url": "https://github.com/Ann930-L/ai-automation-portfolio",
+      "defaultBranch": "main",
+      "primaryLanguage": "HTML",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "HTML": 962372
+      },
+      "totalLanguageBytes": 962372,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-27T10:48:59Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

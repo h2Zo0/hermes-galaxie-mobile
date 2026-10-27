@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-27T15:56:29+00:00",
+  "lastPracticedAt": "2026-10-27T16:16:53+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -120,6 +120,28 @@
         "txt"
       ],
       "listedFiles": 5051,
+      "access": "public"
+    },
+    {
+      "id": "helloelwin/norm-enforcement-transcripts",
+      "source": "https://huggingface.co/datasets/helloelwin/norm-enforcement-transcripts",
+      "observedAt": "2026-10-27T16:16:53+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 23,
+      "access": "public"
+    },
+    {
+      "id": "IljaSamoilov/ERR-transcription-to-subtitles",
+      "source": "https://huggingface.co/datasets/IljaSamoilov/ERR-transcription-to-subtitles",
+      "observedAt": "2026-10-27T16:16:53+00:00",
+      "declaredLicense": "afl-3.0",
+      "formats": [
+        "tsv"
+      ],
+      "listedFiles": 5,
       "access": "public"
     }
   ]
