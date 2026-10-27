@@ -19,3 +19,17 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Vérifier la syntaxe des scripts
         run: python -m py_compile cloud/scout.py cloud/verify_capabilities.py
+      - name: Prouver une compétence sur deux dépôts réels sans publication
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python cloud/verify_capabilities.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          state=json.loads(Path("site/state.json").read_text())
+          assert state["verifiedSkills"] == 1, state.get("lastCapabilityVerification")
+          proof=json.loads(Path("site/evidence/github-repository-audit.json").read_text())
+          assert proof["checksPassed"] and len(proof["reports"]) == 2
+          print("Audit réel attesté :", [r["repository"] for r in proof["reports"]])
+          PY
