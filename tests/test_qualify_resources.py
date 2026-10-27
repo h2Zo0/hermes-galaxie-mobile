@@ -101,6 +101,19 @@ class QualifierTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             q.assess("spaces", "demo/test", record)
 
+    def test_round_robin_escapes_permanent_early_failures(self):
+        state = {"nodes": [candidate("models", "demo/bad"+str(i)) for i in range(23)]
+                 + [candidate("models", "demo/good23"), candidate("models", "demo/good24")],
+                 "discovery": {"cursor": 1}}
+        def fetch(cat, slug):
+            if slug.startswith("demo/bad"):
+                raise ValueError("fichier incomplet")
+            return fixture(cat, slug)
+        self.assertEqual(q.mission(state, "models", fetch), "validated")
+        self.assertEqual(state["verifiedSkills"], 1)
+        self.assertEqual(state["skills"][0]["resourcesTested"][-1],
+                         "https://huggingface.co/demo/good24")
+
     def test_url_mismatch_ignored(self):
         state = {"nodes": [{"category": "models", "name": "demo/one",
                             "url": "https://attacker.example/demo/one"},
