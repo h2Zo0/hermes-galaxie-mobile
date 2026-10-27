@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-27T20:24:25+00:00",
+  "lastPracticedAt": "2026-10-27T20:44:36+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -434,6 +434,28 @@
         "zip"
       ],
       "listedFiles": 4,
+      "access": "public"
+    },
+    {
+      "id": "tanishaiwozo/high-quality-invoice-images-for-ocr",
+      "source": "https://huggingface.co/datasets/tanishaiwozo/high-quality-invoice-images-for-ocr",
+      "observedAt": "2026-10-27T20:44:36+00:00",
+      "declaredLicense": "odbl",
+      "formats": [
+        "json"
+      ],
+      "listedFiles": 8111,
+      "access": "public"
+    },
+    {
+      "id": "Team-ACE/ToolACE",
+      "source": "https://huggingface.co/datasets/Team-ACE/ToolACE",
+      "observedAt": "2026-10-27T20:44:36+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "json"
+      ],
+      "listedFiles": 3,
       "access": "public"
     }
   ]

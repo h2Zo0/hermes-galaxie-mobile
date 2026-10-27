@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-27T19:23:16+00:00",
+  "lastPracticedAt": "2026-10-27T20:44:33+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -627,6 +627,39 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-24T14:05:47Z"
+    },
+    {
+      "repository": "Anudev-SD/GenAI-Codebase-Documentation-Generator",
+      "url": "https://github.com/Anudev-SD/GenAI-Codebase-Documentation-Generator",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 70.54,
+      "languageBytes": {
+        "TypeScript": 194889,
+        "Python": 77657,
+        "CSS": 2249,
+        "HTML": 1468
+      },
+      "totalLanguageBytes": 276263,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-22T10:11:18Z"
+    },
+    {
+      "repository": "AnvitDevadiga/MiniLM-Lab",
+      "url": "https://github.com/AnvitDevadiga/MiniLM-Lab",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 98.58,
+      "languageBytes": {
+        "Python": 311299,
+        "Shell": 4294,
+        "Makefile": 189
+      },
+      "totalLanguageBytes": 315782,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-22T12:15:37Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

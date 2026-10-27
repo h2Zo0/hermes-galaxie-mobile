@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-27T20:24:25+00:00",
+  "lastPracticedAt": "2026-10-27T20:44:36+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -350,6 +350,24 @@
       "declaredLicense": "apache-2.0",
       "access": "public",
       "modelFiles": 22
+    },
+    {
+      "id": "Sandiago21/speecht5_finetuned_mozilla_foundation_common_voice_13_german",
+      "source": "https://huggingface.co/Sandiago21/speecht5_finetuned_mozilla_foundation_common_voice_13_german",
+      "observedAt": "2026-10-27T20:44:36+00:00",
+      "task": "text-to-speech",
+      "declaredLicense": "mit",
+      "access": "public",
+      "modelFiles": 16
+    },
+    {
+      "id": "sdadas/polish-reranker-roberta-v3",
+      "source": "https://huggingface.co/sdadas/polish-reranker-roberta-v3",
+      "observedAt": "2026-10-27T20:44:36+00:00",
+      "task": "text-ranking",
+      "declaredLicense": "gemma",
+      "access": "public",
+      "modelFiles": 9
     }
   ]
 }
