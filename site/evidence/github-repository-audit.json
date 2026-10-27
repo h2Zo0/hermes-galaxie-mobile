@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-27T18:38:41+00:00",
+  "lastPracticedAt": "2026-10-27T18:42:12+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -522,6 +522,41 @@
       "archived": false,
       "starsAtTest": 95,
       "pushedAt": "2026-10-26T09:28:03Z"
+    },
+    {
+      "repository": "Anjub004/dot-lab",
+      "url": "https://github.com/Anjub004/dot-lab",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 88.56,
+      "languageBytes": {
+        "Python": 214712,
+        "JavaScript": 14125,
+        "CSS": 8300,
+        "HTML": 4510,
+        "Dockerfile": 793
+      },
+      "totalLanguageBytes": 242440,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-10-08T08:16:41Z"
+    },
+    {
+      "repository": "Anton-Barinov/TropaTT",
+      "url": "https://github.com/Anton-Barinov/TropaTT",
+      "defaultBranch": "main",
+      "primaryLanguage": "PHP",
+      "primaryLanguageSharePercent": 76.63,
+      "languageBytes": {
+        "PHP": 14306490,
+        "JavaScript": 3412034,
+        "CSS": 949333,
+        "Python": 1890
+      },
+      "totalLanguageBytes": 18669747,
+      "archived": false,
+      "starsAtTest": 20,
+      "pushedAt": "2026-10-27T17:20:35Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-27T18:38:42+00:00",
+  "lastPracticedAt": "2026-10-27T18:42:15+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -300,6 +300,30 @@
         "txt"
       ],
       "listedFiles": 8,
+      "access": "public"
+    },
+    {
+      "id": "meetara-lab/vectorstore-accounting",
+      "source": "https://huggingface.co/datasets/meetara-lab/vectorstore-accounting",
+      "observedAt": "2026-10-27T18:42:15+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "mercor/apex-accounting-harbor",
+      "source": "https://huggingface.co/datasets/mercor/apex-accounting-harbor",
+      "observedAt": "2026-10-27T18:42:15+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "csv",
+        "json",
+        "txt"
+      ],
+      "listedFiles": 232,
       "access": "public"
     }
   ]

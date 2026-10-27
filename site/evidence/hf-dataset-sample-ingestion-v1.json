@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-27T18:38:43+00:00",
+  "lastPracticedAt": "2026-10-27T18:42:16+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -465,6 +465,45 @@
       "rowCount": 3,
       "sampleSha256": "d00914f2dc316c4adc50212ea857c62705c3e01dcdadb0931ac0d095bb629aab",
       "observedAt": "2026-10-27T18:38:43+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "nvidia/Nemotron-RL-Agentic-Conversational-Tool-Use-Pivot-v1",
+      "source": "https://huggingface.co/datasets/nvidia/Nemotron-RL-Agentic-Conversational-Tool-Use-Pivot-v1",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "agent_ref",
+        "expected_action",
+        "meta_info",
+        "num_unique_actions",
+        "pass_rate",
+        "pass_rate_passed",
+        "pass_rate_total",
+        "qwen_235b_info",
+        "responses_create_params",
+        "scenario",
+        "trajectory_id"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "0f87b4768255bf05a36a3ea77053c4891078424aae7c4a3fd711dfdd46396047",
+      "observedAt": "2026-10-27T18:42:16+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "nvidia/Nemotron-SFT-Agentic-Finance-v1",
+      "source": "https://huggingface.co/datasets/nvidia/Nemotron-SFT-Agentic-Finance-v1",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "messages",
+        "metadata"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "bd758f26688ea1b673cb60f158cdcb3f418a407b9367569d5ff2b1cdb1018aee",
+      "observedAt": "2026-10-27T18:42:16+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
