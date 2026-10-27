@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-27T13:28:31+00:00",
+  "lastPracticedAt": "2026-10-27T15:21:43+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -52,6 +52,30 @@
         "parquet"
       ],
       "listedFiles": 217,
+      "access": "public"
+    },
+    {
+      "id": "Gene829/gene-llm-agents-corpus",
+      "source": "https://huggingface.co/datasets/Gene829/gene-llm-agents-corpus",
+      "observedAt": "2026-10-27T15:21:43+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "json",
+        "jsonl"
+      ],
+      "listedFiles": 4,
+      "access": "public"
+    },
+    {
+      "id": "Gene829/gene-llm-agents-instruct",
+      "source": "https://huggingface.co/datasets/Gene829/gene-llm-agents-instruct",
+      "observedAt": "2026-10-27T15:21:43+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "json",
+        "jsonl"
+      ],
+      "listedFiles": 4,
       "access": "public"
     }
   ]

@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-27T13:28:29+00:00",
+  "lastPracticedAt": "2026-10-27T15:21:42+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -135,6 +135,46 @@
       "archived": false,
       "starsAtTest": 5,
       "pushedAt": "2026-10-27T02:27:33Z"
+    },
+    {
+      "repository": "AlfaIrawan/react-tectona",
+      "url": "https://github.com/AlfaIrawan/react-tectona",
+      "defaultBranch": "master",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 97.94,
+      "languageBytes": {
+        "TypeScript": 13011445,
+        "JavaScript": 174926,
+        "CSS": 85408,
+        "Python": 10027,
+        "HTML": 3176
+      },
+      "totalLanguageBytes": 13284982,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-27T11:03:16Z"
+    },
+    {
+      "repository": "alfredang/AI-LMS-TMS",
+      "url": "https://github.com/alfredang/AI-LMS-TMS",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 96.39,
+      "languageBytes": {
+        "TypeScript": 14052178,
+        "PLpgSQL": 235958,
+        "JavaScript": 157586,
+        "Python": 79821,
+        "HTML": 27891,
+        "CSS": 9404,
+        "Batchfile": 5943,
+        "Dockerfile": 5486,
+        "Shell": 3489
+      },
+      "totalLanguageBytes": 14577756,
+      "archived": false,
+      "starsAtTest": 19,
+      "pushedAt": "2026-10-27T10:15:43Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

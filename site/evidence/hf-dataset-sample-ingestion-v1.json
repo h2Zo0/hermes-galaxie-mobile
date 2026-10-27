@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-27T13:28:32+00:00",
+  "lastPracticedAt": "2026-10-27T15:21:47+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -96,6 +96,35 @@
       "rowCount": 3,
       "sampleSha256": "ce2b21f0a6a01c8b793af37539c94266d501b1072c70123bb60de142c1d65d8f",
       "observedAt": "2026-10-27T13:28:32+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "GalaktischeGurke/full_dataset_600_lines_invoice_contract_mail",
+      "source": "https://huggingface.co/datasets/GalaktischeGurke/full_dataset_600_lines_invoice_contract_mail",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "ground_truth",
+        "text"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "a8962412ee28c0eaf566efff9068522f4df7344907432174a0501a7989207a2c",
+      "observedAt": "2026-10-27T15:21:47+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "GalaktischeGurke/invoices_instruct_vf",
+      "source": "https://huggingface.co/datasets/GalaktischeGurke/invoices_instruct_vf",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "ground_truth"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "486860f39152d44ce935fe8520e942523d207ba5f4180be17ac69f7603485f9d",
+      "observedAt": "2026-10-27T15:21:47+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
