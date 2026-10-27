@@ -1,0 +1,21 @@
+name: Vérification des capacités — tests
+on:
+  push:
+    branches: [main, "feature/**"]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Tester le mécanisme de preuve sans accès réseau
+        run: python -m unittest discover -s tests -v
+      - name: Vérifier la syntaxe des scripts
+        run: python -m py_compile cloud/scout.py cloud/verify_capabilities.py
