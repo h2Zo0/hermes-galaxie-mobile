@@ -3,7 +3,7 @@
   "title": "Diagnostiquer le runtime de démonstrations IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-27T22:58:36+00:00",
+  "lastPracticedAt": "2026-10-27T23:18:58+00:00",
   "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
   "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
   "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
@@ -491,6 +491,24 @@
       "source": "https://huggingface.co/spaces/bestoai/text-to-video",
       "observedAt": "2026-10-27T22:58:36+00:00",
       "sdk": "gradio",
+      "runtimeStage": "RUNTIME_ERROR",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "CumaSystem/Omni-videos-custom",
+      "source": "https://huggingface.co/spaces/CumaSystem/Omni-videos-custom",
+      "observedAt": "2026-10-27T23:18:58+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNNING",
+      "availableNow": true,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "curiousily/layoutlmv3-financial-document-classification",
+      "source": "https://huggingface.co/spaces/curiousily/layoutlmv3-financial-document-classification",
+      "observedAt": "2026-10-27T23:18:58+00:00",
+      "sdk": "streamlit",
       "runtimeStage": "RUNTIME_ERROR",
       "availableNow": false,
       "note": "La disponibilité est un instantané, pas une promesse de service"

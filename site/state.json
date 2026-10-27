@@ -1,17 +1,17 @@
 {
   "name": "NOVENS CORE — GALAXIE VIVANTE",
-  "asOf": "2026-10-27T22:58:24+00:00",
-  "polledAt": "2026-10-27T22:58:24+00:00",
-  "resourceCount": 4663,
+  "asOf": "2026-10-27T23:18:47+00:00",
+  "polledAt": "2026-10-27T23:18:47+00:00",
+  "resourceCount": 4664,
   "categoryCounts": {
     "github": 3382,
-    "models": 460,
+    "models": 461,
     "datasets": 409,
     "spaces": 412
   },
   "verifiedSkills": 5,
   "netProfitEuro": 0.0,
-  "growth24h": 4601,
+  "growth24h": 4495,
   "history": [
     {
       "date": "2026-10-26T22:30:41+01:00",
@@ -220,6 +220,12 @@
     {
       "date": "2026-10-27T22:58:24+00:00",
       "resources": 4663,
+      "verified": 5,
+      "profit": 0.0
+    },
+    {
+      "date": "2026-10-27T23:18:47+00:00",
+      "resources": 4664,
       "verified": 5,
       "profit": 0.0
     }
@@ -28282,6 +28288,13 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "models:luom2645/agent-workspace",
+      "category": "models",
+      "name": "luom2645/agent-workspace",
+      "url": "https://huggingface.co/luom2645/agent-workspace",
+      "firstSeen": "2026-10-27T23:18:47+00:00"
+    },
+    {
       "id": "models:lxyuan/LegalBenchRAG-Ettin-150M-Reranker",
       "category": "models",
       "name": "lxyuan/LegalBenchRAG-Ettin-150M-Reranker",
@@ -32871,9 +32884,9 @@
   "cloud": {
     "agent": "Éclaireur NOVENS CORE",
     "execution": "GitHub Actions",
-    "lastMissionAt": "2026-10-27T22:58:24+00:00",
+    "lastMissionAt": "2026-10-27T23:18:47+00:00",
     "missionStatus": "succès",
-    "newResources": 93,
+    "newResources": 1,
     "errors": 0,
     "nextScheduled": "Toutes les 10 minutes si GitHub Actions disponible",
     "machineIndependence": true
@@ -32884,10 +32897,10 @@
       "title": "Classer des modèles IA par tâche et licence déclarée",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-10-27T22:58:36+00:00",
-      "practiceCount": 54,
+      "lastPracticedAt": "2026-10-27T23:18:58+00:00",
+      "practiceCount": 56,
       "proofPath": "evidence/hf-model-task-classification-v1.json",
-      "proofSha256": "e99c5f01bf174cceff33a98a203ac789d0e7ed38bf2a8b4a7d7777290439e90e",
+      "proofSha256": "24ba42a9f2347d6b9ae757ec32994fe007f7cf020d75cf443c549a5ba023f4ea",
       "resourcesTested": [
         "https://huggingface.co/agentionai/Qwen3.8-27B-AP-GGUF",
         "https://huggingface.co/agentionai/Signal-3.8-27B",
@@ -32942,7 +32955,9 @@
         "https://huggingface.co/agentlans/Qwen2.5-1.5B-Instruct-Multiple-Choice-Maker",
         "https://huggingface.co/ai-sage/Giga-Embeddings-instruct",
         "https://huggingface.co/Alibaba-DAMO-Academy/RynnUnify-Agentic-Reasoner",
-        "https://huggingface.co/Alibaba-NLP/gte-reranker-modernbert-base"
+        "https://huggingface.co/Alibaba-NLP/gte-reranker-modernbert-base",
+        "https://huggingface.co/ATH-MaaS/Ovis-VL-Embedding-9B",
+        "https://huggingface.co/BAAI/bge-m3"
       ]
     },
     {
@@ -32950,10 +32965,10 @@
       "title": "Qualifier licence et format de jeux de données IA",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-10-27T22:58:36+00:00",
-      "practiceCount": 54,
+      "lastPracticedAt": "2026-10-27T23:18:58+00:00",
+      "practiceCount": 56,
       "proofPath": "evidence/hf-dataset-usage-assessment-v1.json",
-      "proofSha256": "42ab3d2e7e6a17445e42bf07fc82bf515f91a8ac29cfa2a52d1b6ca7aa5b5cbe",
+      "proofSha256": "d99d8f50aba742f65b64fe37b070a699de4d15e1a61f4c06edb282b151bb1bfc",
       "resourcesTested": [
         "https://huggingface.co/datasets/11-47/autonomous-ai-agents-multi-agent-swarms-2026",
         "https://huggingface.co/datasets/AdityaaXD/Multi-Agent_Reinforcement_Learning_Trading_System_Data",
@@ -33008,7 +33023,9 @@
         "https://huggingface.co/datasets/BothBosu/multi-agent-scam-conversation",
         "https://huggingface.co/datasets/CATIE-AQ/frenchQA",
         "https://huggingface.co/datasets/ClarusC64/ai-tool-use-boundary-coherence-risk-v0.1",
-        "https://huggingface.co/datasets/darisdzakwanhoesien/arabic-accounting-mcq_train"
+        "https://huggingface.co/datasets/darisdzakwanhoesien/arabic-accounting-mcq_train",
+        "https://huggingface.co/datasets/DenyTranDFW/BMW_Vehicle_Owner_Trust_2019_A_1784326",
+        "https://huggingface.co/datasets/DenyTranDFW/BMW_Vehicle_Owner_Trust_2020_A_1812807"
       ]
     },
     {
@@ -33016,10 +33033,10 @@
       "title": "Diagnostiquer le runtime de démonstrations IA",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-10-27T22:58:36+00:00",
-      "practiceCount": 54,
+      "lastPracticedAt": "2026-10-27T23:18:58+00:00",
+      "practiceCount": 56,
       "proofPath": "evidence/hf-space-runtime-diagnostics-v1.json",
-      "proofSha256": "3573cde1d725f6c50c139c8a4f5f44f1412d3fa157d5cee8a1bf99401d9a3be3",
+      "proofSha256": "c13efd1980b8bb5c29f7971d465df6319e0c1a40222a4f8143f8c3da8ee59f0f",
       "resourcesTested": [
         "https://huggingface.co/spaces/Aarya003/Financial-Analyst-Agent",
         "https://huggingface.co/spaces/AceVikings/repro-learning-human-robot-collaboration-via-heterogeneous-agent-lyapunov-policy-optimizatio",
@@ -33074,7 +33091,9 @@
         "https://huggingface.co/spaces/AutomationVR/Human-Voice-To-Text",
         "https://huggingface.co/spaces/AutomationVR/ImageDemo",
         "https://huggingface.co/spaces/bear222/SEBIS-code_trans_t5_large_code_documentation_generation_python_multitask_finetune",
-        "https://huggingface.co/spaces/bestoai/text-to-video"
+        "https://huggingface.co/spaces/bestoai/text-to-video",
+        "https://huggingface.co/spaces/CumaSystem/Omni-videos-custom",
+        "https://huggingface.co/spaces/curiousily/layoutlmv3-financial-document-classification"
       ]
     },
     {
@@ -33082,10 +33101,10 @@
       "title": "Lire et contrôler des échantillons de datasets publics",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:46+00:00",
-      "lastPracticedAt": "2026-10-27T22:58:38+00:00",
-      "practiceCount": 54,
+      "lastPracticedAt": "2026-10-27T23:18:59+00:00",
+      "practiceCount": 56,
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "63afd07b132673748d50e3707f41cd0b5f5549809512abd362b221bcd09ef2be",
+      "proofSha256": "df50a9ec72fa7db0d216d03cc38801fa1f46756a7c9ed72926d890b7e621172b",
       "resourcesTested": [
         "https://huggingface.co/datasets/AdityaaXD/Multi-Agent_Reinforcement_Learning_Trading_System_Data",
         "https://huggingface.co/datasets/Agent-Ark/Toucan-1.5M",
@@ -33140,7 +33159,9 @@
         "https://huggingface.co/datasets/erfanvaredi/zephyr-7b-beta-invoices",
         "https://huggingface.co/datasets/esoria3/french_simplified",
         "https://huggingface.co/datasets/GalaktischeGurke/invoices_instruct_vf_weird",
-        "https://huggingface.co/datasets/GalaktischeGurke/parameter_extraction_1500_mail_contract_invoice"
+        "https://huggingface.co/datasets/GalaktischeGurke/parameter_extraction_1500_mail_contract_invoice",
+        "https://huggingface.co/datasets/huggingartists/tool",
+        "https://huggingface.co/datasets/huggingface-course/documentation-images"
       ]
     },
     {
@@ -33196,113 +33217,6 @@
     }
   ],
   "capabilityTrials": [
-    {
-      "date": "2026-10-27T16:57:37+00:00",
-      "skillId": "github-repository-technical-audit-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 18,
-      "failures": []
-    },
-    {
-      "date": "2026-10-27T16:57:39+00:00",
-      "skillId": "hf-model-task-classification-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 16,
-      "failures": [
-        {
-          "id": "Jainam/tinybert-reranker",
-          "reason": "ValueError"
-        },
-        {
-          "id": "jinaai/jina-embeddings-v3",
-          "reason": "JSONDecodeError"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-27T16:57:39+00:00",
-      "skillId": "hf-dataset-usage-assessment-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 16,
-      "failures": [
-        {
-          "id": "Harsit/xnli2.0_french",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Harsit/xnli2.0_train_french",
-          "reason": "ValueError"
-        },
-        {
-          "id": "hf-internal-testing/example-documents",
-          "reason": "ValueError"
-        },
-        {
-          "id": "honlzl/invoice",
-          "reason": "ValueError"
-        },
-        {
-          "id": "huggingartists/tool",
-          "reason": "ValueError"
-        },
-        {
-          "id": "huggingface-tools/default-prompts",
-          "reason": "ValueError"
-        },
-        {
-          "id": "HumynLabs/Brazilian_Bills_and_Invoices_Dataset",
-          "reason": "ValueError"
-        },
-        {
-          "id": "hyacinthum/Vehicle_Dataset",
-          "reason": "ValueError"
-        },
-        {
-          "id": "HydraLM/GPTeacher_toolformer_alpaca",
-          "reason": "ValueError"
-        },
-        {
-          "id": "HydraLM/GPTeacher_toolformer_list_dict",
-          "reason": "ValueError"
-        },
-        {
-          "id": "HydraLM/GPTeacher_toolformer_standardized",
-          "reason": "ValueError"
-        },
-        {
-          "id": "ikuldeep1/vehicle-damage-fraud-image",
-          "reason": "ValueError"
-        },
-        {
-          "id": "ikuldeep1/vehicle-damage-fraud-image-balanced",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-27T16:57:39+00:00",
-      "skillId": "hf-space-runtime-diagnostics-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 16,
-      "failures": []
-    },
-    {
-      "date": "2026-10-27T16:57:42+00:00",
-      "skillId": "hf-dataset-sample-ingestion-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "failedResources": [],
-      "totalVerifiedExercises": 16
-    },
     {
       "date": "2026-10-27T17:17:48+00:00",
       "skillId": "github-repository-technical-audit-v1",
@@ -35412,25 +35326,155 @@
       "reportsRequired": 1,
       "failedResources": [],
       "totalVerifiedExercises": 54
+    },
+    {
+      "date": "2026-10-27T23:18:50+00:00",
+      "skillId": "github-repository-technical-audit-v1",
+      "result": "no-new-evidence",
+      "reportsPassed": 0,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 39,
+      "failures": [
+        {
+          "repository": "api-evangelist/cflow",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "api-evangelist/cloudpipes",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "api-evangelist/coasty",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "api-evangelist/conductor-oss",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "api-evangelist/creatio",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "api-evangelist/deepeval",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "api-evangelist/edra",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "api-evangelist/elementum",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "api-evangelist/evals",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "api-evangelist/expedock",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "api-evangelist/flowscope",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "api-evangelist/genspark",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27T23:18:58+00:00",
+      "skillId": "hf-model-task-classification-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 56,
+      "failures": [
+        {
+          "id": "asdc/bert-base-spanish-wwm-cased-finetuned-text_classification",
+          "reason": "ValueError"
+        },
+        {
+          "id": "asdc/roberta-base-biomedical-clinical-es-finetuned-text_classification",
+          "reason": "ValueError"
+        },
+        {
+          "id": "asdc/roberta-base-finetuned-text_classification",
+          "reason": "ValueError"
+        },
+        {
+          "id": "asigalov61/bytedance_piano_transcription",
+          "reason": "ValueError"
+        },
+        {
+          "id": "assayw119/koelectra-wellnesee-text-classification.pth",
+          "reason": "ValueError"
+        },
+        {
+          "id": "aybdee/Igbo-SpeechSynthesis",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27T23:18:58+00:00",
+      "skillId": "hf-dataset-usage-assessment-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 56,
+      "failures": []
+    },
+    {
+      "date": "2026-10-27T23:18:58+00:00",
+      "skillId": "hf-space-runtime-diagnostics-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 56,
+      "failures": []
+    },
+    {
+      "date": "2026-10-27T23:18:59+00:00",
+      "skillId": "hf-dataset-sample-ingestion-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "failedResources": [
+        {
+          "id": "hkust-nlp/Toolathlon",
+          "error": "HTTPError",
+          "detail": "HTTP Error 401: Unauthorized"
+        },
+        {
+          "id": "honlzl/invoice",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        }
+      ],
+      "totalVerifiedExercises": 56
     }
   ],
   "lastCapabilityVerification": {
-    "date": "2026-10-27T22:58:38+00:00",
+    "date": "2026-10-27T23:18:59+00:00",
     "skillId": "hf-dataset-sample-ingestion-v1",
     "result": "reinforced"
   },
   "discovery": {
-    "cursor": 27,
+    "cursor": 28,
     "capacity": 20000,
-    "lastBatch": 93,
+    "lastBatch": 1,
     "newByCategory": {
-      "github": 93,
-      "models": 0,
+      "github": 0,
+      "models": 1,
       "datasets": 0,
       "spaces": 0
     },
     "queriesLastRun": 7,
-    "totalSearchCycles": 27,
+    "totalSearchCycles": 28,
     "lastErrors": []
   },
   "approvedResources": [
@@ -35811,7 +35855,21 @@
       "approvedFor": "read-only-dataset-sampling",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
       "testedAt": "2026-10-27T22:58:38+00:00"
+    },
+    {
+      "id": "huggingartists/tool",
+      "source": "https://huggingface.co/datasets/huggingartists/tool",
+      "approvedFor": "read-only-dataset-sampling",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "testedAt": "2026-10-27T23:18:59+00:00"
+    },
+    {
+      "id": "huggingface-course/documentation-images",
+      "source": "https://huggingface.co/datasets/huggingface-course/documentation-images",
+      "approvedFor": "read-only-dataset-sampling",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "testedAt": "2026-10-27T23:18:59+00:00"
     }
   ],
-  "approvedResourceCount": 54
+  "approvedResourceCount": 56
 }
