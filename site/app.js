@@ -93,6 +93,8 @@
     const count=Number(data.resourceCount || particles.length);
     $("resourceCount").textContent=count.toLocaleString("fr-FR");
     $("verifiedCount").textContent=validSkills.length.toLocaleString("fr-FR");
+    const exercises=validSkills.reduce((total,item)=>total+(Array.isArray(item.resourcesTested)?item.resourcesTested.length:0),0);
+    $("practiceCount").textContent=exercises.toLocaleString("fr-FR")+" exercices prouvés";
     const proofLink=$("capabilityProof");
     proofLink.hidden=validSkills.length===0;
     if(validSkills.length) {
