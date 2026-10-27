@@ -116,60 +116,71 @@ def valid_existing_skills(items):
 
 
 def run(state, fetch=fetch_github):
+    """Tâche de validation, puis pratique continue sur de nouveaux dépôts."""
     existing = valid_existing_skills(state.get("skills", []))
+    previous = next((item for item in existing if item["id"] == SKILL_ID), None)
+    prior_reports = json.loads(EVIDENCE.read_text(encoding="utf-8"))["reports"] if previous else []
+    already_tested = {r["repository"].casefold() for r in prior_reports}
     trials = state.get("capabilityTrials", [])
     if not isinstance(trials, list):
         trials = []
-    previous = next((item for item in existing if item["id"] == SKILL_ID), None)
-    if previous is None:
-        audits, failures = [], []
-        for slug in github_candidates(state.get("nodes", [])):
-            if len(audits) >= 2 or len(failures) >= 8:
-                break
-            try:
-                encoded = "/".join(quote(part, safe="") for part in slug.split("/"))
-                metadata = fetch("repos/" + encoded)
-                languages = fetch("repos/" + encoded + "/languages")
-                report = analyze_repository(slug, metadata, languages)
-                audits.append(report)
-            except (HTTPError, URLError, TimeoutError, ValueError, TypeError, KeyError, OSError) as exc:
-                failures.append({"repository": slug, "reason": type(exc).__name__})
-        if len(audits) == 2:
-            proof = {
-                "skillId": SKILL_ID, "title": SKILL_TITLE,
-                "status": "validated", "testedAt": NOW,
-                "challenge": "Auditer indépendamment deux dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
-                "method": "GET /repos/{owner}/{repo} et GET /repos/{owner}/{repo}/languages via api.github.com; calcul local vérifié",
-                "checksPassed": True, "reports": audits,
-                "scope": "Lecture et analyse de métadonnées GitHub; aucune installation ou exécution de code tiers.",
-            }
-            EVIDENCE.parent.mkdir(parents=True, exist_ok=True)
-            serialized = json.dumps(proof, ensure_ascii=False, indent=2) + "\n"
-            EVIDENCE.write_text(serialized, encoding="utf-8")
-            existing.append({
-                "id": SKILL_ID, "title": SKILL_TITLE, "status": "validated",
-                "validatedAt": NOW, "proofPath": "evidence/github-repository-audit.json",
-                "proofSha256": hashlib.sha256(serialized.encode("utf-8")).hexdigest(),
-                "resourcesTested": [audit["url"] for audit in audits],
-            })
-            outcome = "validated"
-        else:
-            outcome = "failed"
-        trials.append({
-            "date": NOW, "skillId": SKILL_ID, "result": outcome,
-            "reportsPassed": len(audits), "reportsRequired": 2, "failures": failures,
-        })
+    audits, failures = [], []
+    attempted = 0
+    for slug in github_candidates(state.get("nodes", [])):
+        if len(audits) >= 2 or attempted >= 12:
+            break
+        if slug.casefold() in already_tested:
+            continue
+        attempted += 1
+        try:
+            encoded = "/".join(quote(part, safe="") for part in slug.split("/"))
+            metadata = fetch("repos/" + encoded)
+            languages = fetch("repos/" + encoded + "/languages")
+            audits.append(analyze_repository(slug, metadata, languages))
+        except (HTTPError, URLError, TimeoutError, ValueError, TypeError, KeyError, OSError) as exc:
+            failures.append({"repository": slug, "reason": type(exc).__name__})
+
+    combined = prior_reports + audits
+    if len(combined) >= 2 and audits:
+        proof = {
+            "skillId": SKILL_ID, "title": SKILL_TITLE, "status": "validated",
+            "testedAt": previous["validatedAt"] if previous else NOW,
+            "lastPracticedAt": NOW,
+            "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
+            "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
+            "checksPassed": True, "reports": combined,
+            "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers.",
+        }
+        EVIDENCE.parent.mkdir(parents=True, exist_ok=True)
+        serialized = json.dumps(proof, ensure_ascii=False, indent=2) + "\n"
+        EVIDENCE.write_text(serialized, encoding="utf-8")
+        updated = {
+            "id": SKILL_ID, "title": SKILL_TITLE, "status": "validated",
+            "validatedAt": previous["validatedAt"] if previous else NOW,
+            "lastPracticedAt": NOW, "practiceCount": len(combined),
+            "proofPath": "evidence/github-repository-audit.json",
+            "proofSha256": hashlib.sha256(serialized.encode("utf-8")).hexdigest(),
+            "resourcesTested": [audit["url"] for audit in combined],
+        }
+        existing = [item for item in existing if item["id"] != SKILL_ID]
+        existing.append(updated)
+        outcome = "reinforced" if previous else "validated"
     else:
-        outcome = "already-validated"
+        outcome = "no-new-evidence" if previous else "failed"
+    trials.append({
+        "date": NOW, "skillId": SKILL_ID, "result": outcome,
+        "reportsPassed": len(audits), "reportsRequired": 1 if previous else 2,
+        "totalVerifiedExercises": len(combined) if previous or (len(audits) == 2) else 0,
+        "failures": failures,
+    })
     state["skills"] = existing
     state["verifiedSkills"] = len(existing)
-    state["capabilityTrials"] = trials[-30:]
+    state["capabilityTrials"] = trials[-100:]
     state["lastCapabilityVerification"] = {"date": NOW, "skillId": SKILL_ID, "result": outcome}
     history = state.get("history")
     if isinstance(history, list) and history and isinstance(history[-1], dict):
         history[-1]["verified"] = len(existing)
     return outcome
-
 
 def main():
     state = json.loads(STATE.read_text(encoding="utf-8"))
