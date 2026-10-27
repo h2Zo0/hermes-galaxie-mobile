@@ -25,6 +25,7 @@ h1{font-size:clamp(24px,2.6vw,36px);line-height:1.03;font-weight:650;letter-spac
 .secondary-metrics{margin-top:32px;display:flex;flex-direction:column;gap:23px}
 .mini-metric{border-left:2px solid rgba(63,195,184,.45);padding-left:12px}
 .secondary-metrics{pointer-events:auto}
+.capability-practice{font-size:10px;color:#9fc2d0;margin-top:3px}
 .capability-link{display:block;color:#ffe8a0;font-size:11px;margin-top:5px;text-decoration:underline;text-underline-offset:2px;max-width:170px}
 .capability-link[hidden]{display:none}
 .mini-number{font-size:28px;letter-spacing:-1px;font-weight:400;padding-top:6px;white-space:nowrap}
@@ -36,6 +37,8 @@ h1{font-size:clamp(24px,2.6vw,36px);line-height:1.03;font-weight:650;letter-spac
 .orb{height:7px;width:7px;border-radius:100%;display:block;box-shadow:0 0 12px currentColor}
 .gh{background:#65ccff;color:#65ccff}.mdl{background:#a88aff;color:#a88aff}.ds{background:#ffc077;color:#ffc077}.sp{background:#63edbb;color:#63edbb}
 hr{border:none;border-top:1px solid var(--border);margin:17px 0 16px}
+.approval-row{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:10px;color:#b1cbd5;margin-top:12px}
+.approval-row b{color:#a3ffdc;font-size:16px}
 .growth-label{font-size:10px;letter-spacing:1.4px;color:#859cba}
 .growth-value{margin:10px 0 5px;color:#d9f9ed;font-size:14px;font-weight:550}
 .faint{font-size:10px;color:#6d859f;line-height:1.6}

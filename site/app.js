@@ -26,6 +26,7 @@
   let isPaused = false;
   let speed = 4, zoom = 1, turn = 0;
   let t = 0, lastFrame = performance.now();
+  let galaxyIntensity = 1;
   let drag = null;
   let formation = 0;
   let reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -83,7 +84,10 @@
     const validSkills=(Array.isArray(data.skills)?data.skills:[]).filter(item=>
       item && item.status==="validated" && typeof item.id==="string" &&
       typeof item.title==="string" && /^evidence\/[a-z0-9-]+\.json$/.test(item.proofPath || ""));
-    let incoming=data.nodes.concat(validSkills.map(item=>({
+    const sampleStep=Math.max(1,Math.ceil(data.nodes.length/1800));
+    const visibleResources=data.nodes.filter((item,index)=>index%sampleStep===0);
+    galaxyIntensity=1+Math.min(.27,Math.log2(Math.max(1,data.nodes.length/260))*.055);
+    let incoming=visibleResources.concat(validSkills.map(item=>({
       id:"skill:"+item.id,category:"skill",name:item.title,url:"./"+item.proofPath
     })));
     particles=incoming.map((item,index)=>{
@@ -93,21 +97,29 @@
     const count=Number(data.resourceCount || particles.length);
     $("resourceCount").textContent=count.toLocaleString("fr-FR");
     $("verifiedCount").textContent=validSkills.length.toLocaleString("fr-FR");
+    const exercises=validSkills.reduce((total,item)=>total+(Array.isArray(item.resourcesTested)?item.resourcesTested.length:0),0);
+    $("practiceCount").textContent=exercises.toLocaleString("fr-FR")+" exercices prouvés";
     const proofLink=$("capabilityProof");
     proofLink.hidden=validSkills.length===0;
     if(validSkills.length) {
-      proofLink.href="./"+validSkills[0].proofPath;
-      proofLink.textContent="✓ Voir la preuve";
-      proofLink.title=validSkills[0].title;
+      proofLink.href="./capacites.html";
+      proofLink.textContent="✓ Voir les preuves ("+validSkills.length+")";
+      proofLink.title="Consulter le journal des capacités et toutes les preuves";
     }
     $("profitCount").textContent=money(data.netProfitEuro);
+    $("approvedResources").textContent=Number(data.approvedResourceCount || 0).toLocaleString("fr-FR");
     $("countGitHub").textContent=data.categoryCounts.github ?? 0;
     $("countModels").textContent=data.categoryCounts.models ?? 0;
     $("countDatasets").textContent=data.categoryCounts.datasets ?? 0;
     $("countSpaces").textContent=data.categoryCounts.spaces ?? 0;
     if(data.growth24h === null || data.growth24h === undefined) {
-      $("status24h").textContent="Historique insuffisant";
-      $("resourceEvolution").textContent="Comparaison 24 h en construction";
+      const history=Array.isArray(data.history)?data.history:[];
+      const first=history[0]?.resources;
+      const previous=history.length>1?history[history.length-2]?.resources:null;
+      const since=Number.isFinite(first)?Math.max(0,count-Number(first)):0;
+      const recent=Number.isFinite(previous)?Math.max(0,count-Number(previous)):0;
+      $("status24h").textContent="+"+since.toLocaleString("fr-FR")+" depuis le premier relevé";
+      $("resourceEvolution").textContent="+"+recent.toLocaleString("fr-FR")+" découvertes au dernier cycle";
     } else {
       const delta=Number(data.growth24h);
       $("status24h").textContent=delta ? "+"+delta+" point"+(delta>1?"s":"")+" en 24 h" : "Stagnation sur 24 h";
@@ -154,7 +166,7 @@
     const c=worldCenter();
     const r=p.radius, start=turn+p.phase*.25;
     let a, xx, yy;
-    const scale=Math.min(w*.53,h*.70)*zoom;
+    const scale=Math.min(w*.53,h*.70)*zoom*galaxyIntensity;
     if(formation===0) {
       // 4 continuously rotating spiral arms.
       a=p.arm*Math.PI/2 + r*3.8 + (p.shiver-.5)*.94 + start + t*(.034/(.65+r));
@@ -318,5 +330,5 @@
   resize();
   requestAnimationFrame(drawFrame);
   refresh();
-  window.setInterval(refresh,15000);
+  window.setInterval(refresh,60000);
 })();
