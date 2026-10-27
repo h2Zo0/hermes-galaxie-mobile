@@ -1,5 +1,5 @@
 "use strict";
-/* Animated visualisation: identifiers come only from Hermes' real public catalog.
+/* Animated visualisation: identifiers come only from NOVENS CORE' real public catalog.
    Orbiting is aesthetic; only the ledger/history counts as real progress.
 */
 (() => {
@@ -113,7 +113,7 @@
     }catch(e){
       $("connectionText").textContent="Données non accessibles";
       $("connectionBadge").classList.add("offline");
-      if(!hasLoaded){$("resourceEvolution").textContent="En attente du moteur Hermes";}
+      if(!hasLoaded){$("resourceEvolution").textContent="En attente du moteur NOVENS CORE";}
     }
   }
   function background(){
