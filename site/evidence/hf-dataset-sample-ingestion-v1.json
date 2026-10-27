@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-27T17:17:52+00:00",
+  "lastPracticedAt": "2026-10-27T17:38:04+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -325,6 +325,49 @@
       "rowCount": 3,
       "sampleSha256": "31baed05e1a829669cc7ec2de53b4b8e362c0cc4e61fee1279f36058723d85c2",
       "observedAt": "2026-10-27T17:17:52+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "joey234/mmlu-professional_accounting-neg-prepend-fix",
+      "source": "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-neg-prepend-fix",
+      "config": "default",
+      "split": "dev",
+      "columns": [
+        "answer",
+        "choices",
+        "fewshot_context",
+        "neg_question",
+        "negate_openai_prompt",
+        "ori_prompt",
+        "question"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "81a3b8dc3023c1341eddcdc9f74bcd4810347c557e6be2bdd3bd4145582c86c4",
+      "observedAt": "2026-10-27T17:38:04+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "joey234/mmlu-professional_accounting-neg-prepend-verbal",
+      "source": "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-neg-prepend-verbal",
+      "config": "default",
+      "split": "dev",
+      "columns": [
+        "answer",
+        "choices",
+        "fewshot_context",
+        "fewshot_context_neg",
+        "fewshot_context_ori",
+        "neg_prompt",
+        "neg_question",
+        "negate_openai_prompt",
+        "ori_prompt",
+        "question"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "7739fe2f45ce9c167ba39b091bbeb2f1a506853bb7475aa001625afa55d5eebb",
+      "observedAt": "2026-10-27T17:38:04+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
