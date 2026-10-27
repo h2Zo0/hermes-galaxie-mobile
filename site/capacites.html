@@ -43,10 +43,13 @@
     <div class="counter"><strong id="attempted">—</strong><span>Essais enregistrés</span></div>
     <div class="counter"><strong id="demonstrations">—</strong><span>Exercices réussis et documentés</span></div>
     <div class="counter"><strong id="resources">—</strong><span>Ressources référencées</span></div>
+    <div class="counter"><strong id="approved">—</strong><span>Ressources avec usage limité approuvé</span></div>
   </section>
   <p id="updated" class="muted" aria-live="polite">Lecture des preuves…</p>
   <h2>Compétences acquises</h2>
   <section id="skills" aria-live="polite"><p class="muted">Chargement…</p></section>
+  <h2>Ressources effectivement expérimentées</h2>
+  <section id="approvedList" aria-live="polite"></section>
   <h2>Dernières missions de validation</h2>
   <section id="trials" aria-live="polite"><p class="muted">Chargement…</p></section>
   <p class="small">Les informations sur les licences, runtimes et modèles sont des observations de métadonnées publiques, et non une preuve d'exécution d'un modèle ou de disponibilité permanente d'une application. Actualisation automatique toutes les 30 secondes.</p>
@@ -74,6 +77,19 @@ async function update(){
     $("attempted").textContent=attempts.length.toLocaleString("fr-FR");
     $("demonstrations").textContent=skills.reduce((sum,v)=>sum+(v.resourcesTested||[]).length,0).toLocaleString("fr-FR");
     $("resources").textContent=Number(s.resourceCount||0).toLocaleString("fr-FR");
+    const approved=(Array.isArray(s.approvedResources)?s.approvedResources:[]);
+    $("approved").textContent=approved.length.toLocaleString("fr-FR");
+    $("approvedList").replaceChildren();
+    for(const resource of approved.slice(-50).reverse()) {
+      const article=document.createElement("article");article.className="item";
+      line(article,"div","✓ EXPÉRIENCE RÉUSSIE","status");
+      line(article,"h3",resource.id);
+      line(article,"p","Usage autorisé : "+resource.approvedFor+" — pas d’autre usage présumé");
+      const link=line(article,"a","Consulter la preuve de lecture");
+      link.href="./"+resource.proofPath;link.rel="noopener noreferrer";link.target="_blank";
+      $("approvedList").append(article);
+    }
+    if(!approved.length)line($("approvedList"),"p","Aucun usage réel approuvé à ce stade.","muted");
     $("updated").textContent="Dernier relevé du catalogue : "+(s.asOf || "indisponible");
     $("skills").replaceChildren();
     for(const v of skills){
