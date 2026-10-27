@@ -3,7 +3,7 @@
   "title": "Diagnostiquer le runtime de démonstrations IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-27T19:23:19+00:00",
+  "lastPracticedAt": "2026-10-27T19:43:48+00:00",
   "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
   "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
   "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
@@ -294,6 +294,24 @@
       "observedAt": "2026-10-27T19:23:19+00:00",
       "sdk": "gradio",
       "runtimeStage": "SLEEPING",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "raghuram13/image_segementation",
+      "source": "https://huggingface.co/spaces/raghuram13/image_segementation",
+      "observedAt": "2026-10-27T19:43:48+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNTIME_ERROR",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "raghuram13/imageclassficationnew",
+      "source": "https://huggingface.co/spaces/raghuram13/imageclassficationnew",
+      "observedAt": "2026-10-27T19:43:48+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNTIME_ERROR",
       "availableNow": false,
       "note": "La disponibilité est un instantané, pas une promesse de service"
     }

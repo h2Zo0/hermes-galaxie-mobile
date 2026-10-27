@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-27T19:23:19+00:00",
+  "lastPracticedAt": "2026-10-27T19:43:50+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -585,6 +585,34 @@
       "rowCount": 1,
       "sampleSha256": "078e0aeaef45cd58dd5b510b1a84313d27307caedc78c6f8ac0bc692a3e3ec4e",
       "observedAt": "2026-10-27T19:23:19+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "Salesforce/wikitext",
+      "source": "https://huggingface.co/datasets/Salesforce/wikitext",
+      "config": "wikitext-103-raw-v1",
+      "split": "test",
+      "columns": [
+        "text"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "b2131ad9428911e8ba662defa3bf85abdf951bdb48d639469fd507e4eff0d595",
+      "observedAt": "2026-10-27T19:43:50+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "sanchit-gandhi/whisper-ls-transcriptions",
+      "source": "https://huggingface.co/datasets/sanchit-gandhi/whisper-ls-transcriptions",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "text"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "4574d6ecccbeae5927d793b05fd59d08e8b71f0059fc47650194faa22b3f6798",
+      "observedAt": "2026-10-27T19:43:50+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
