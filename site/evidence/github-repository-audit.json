@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-27T15:37:10+00:00",
+  "lastPracticedAt": "2026-10-27T15:56:28+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -213,6 +213,50 @@
       "archived": false,
       "starsAtTest": 2,
       "pushedAt": "2026-10-27T04:34:23Z"
+    },
+    {
+      "repository": "andrkelemen/wmem",
+      "url": "https://github.com/andrkelemen/wmem",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "primaryLanguageSharePercent": 96.19,
+      "languageBytes": {
+        "JavaScript": 743026,
+        "Python": 19720,
+        "Shell": 9701
+      },
+      "totalLanguageBytes": 772447,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-27T08:19:02Z"
+    },
+    {
+      "repository": "andy-nfpstack/ofbiz-framework",
+      "url": "https://github.com/andy-nfpstack/ofbiz-framework",
+      "defaultBranch": "trunk",
+      "primaryLanguage": "Java",
+      "primaryLanguageSharePercent": 67.14,
+      "languageBytes": {
+        "Java": 15627198,
+        "FreeMarker": 3566172,
+        "Groovy": 2685097,
+        "JavaScript": 754908,
+        "CSS": 472981,
+        "Less": 92034,
+        "Shell": 27025,
+        "Makefile": 17830,
+        "HTML": 14126,
+        "Dockerfile": 5205,
+        "Batchfile": 4230,
+        "XSLT": 3054,
+        "Ruby": 2533,
+        "PowerShell": 2086,
+        "Clojure": 1965
+      },
+      "totalLanguageBytes": 23276444,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-03-06T23:47:01Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
