@@ -45,8 +45,19 @@ class CapabilityTests(unittest.TestCase):
         self.assertTrue(proof["checksPassed"])
         self.assertEqual(len(proof["reports"]), 2)
         self.assertEqual(proof["reports"][0]["primaryLanguageSharePercent"], 90)
-        self.assertEqual(verifier.run(state, lambda path: self.fail("Pas de répétition requise")), "already-validated")
+        self.assertEqual(verifier.run(state, lambda path: self.fail("Pas de répétition inutile")), "no-new-evidence")
         self.assertEqual(state["verifiedSkills"], 1)
+
+    def test_new_deposits_strengthen_same_skill_without_new_fake_skill(self):
+        state = {"nodes": [node("sample/alpha"), node("sample/beta")]}
+        self.assertEqual(verifier.run(state, mock_fetch), "validated")
+        state["nodes"].extend((node("sample/gamma"), node("sample/delta")))
+        self.assertEqual(verifier.run(state, mock_fetch), "reinforced")
+        self.assertEqual(state["verifiedSkills"], 1)
+        self.assertEqual(state["skills"][0]["practiceCount"], 4)
+        proof = json.loads(verifier.EVIDENCE.read_text())
+        self.assertEqual(len(proof["reports"]), 4)
+        self.assertEqual(len(set(r["repository"] for r in proof["reports"])), 4)
 
     def test_one_success_does_not_count(self):
         state = {"nodes": [node("sample/alpha")]}
