@@ -63,7 +63,7 @@ def fetch_hf(category, slug):
         return json.loads(response.read(1_000_000))
 
 
-def candidates(state, category, limit=MAX_CANDIDATES):
+def candidates(state, category, limit=None):
     prefixes = {
         "models": "https://huggingface.co/",
         "datasets": "https://huggingface.co/datasets/",
@@ -81,7 +81,7 @@ def candidates(state, category, limit=MAX_CANDIDATES):
             continue
         seen.add(slug.lower())
         yield slug
-        if len(seen) >= limit:
+        if limit is not None and len(seen) >= limit:
             return
 
 
@@ -161,56 +161,71 @@ def assess(category, slug, meta):
 
 
 def mission(state, category, fetch=fetch_hf):
+    """Chaque mission teste deux nouvelles ressources, même si le savoir-faire existe."""
     spec = MISSIONS[category]
     current = {s["id"]: s for s in valid_existing_skills(state.get("skills", []))}
+    previous = current.get(spec["id"])
+    prior_reports = []
+    if previous:
+        proof_path = ROOT / "site" / previous["proofPath"]
+        prior_proof = json.loads(proof_path.read_text(encoding="utf-8"))
+        prior_reports = prior_proof["reports"]
+    already_tested = {r["id"].casefold() for r in prior_reports}
     trials = state.get("capabilityTrials", [])
     if not isinstance(trials, list):
         trials = []
-    if spec["id"] in current:
-        result = "already-validated"
+    reports, failures = [], []
+    attempted = 0
+    for slug in candidates(state, category):
+        if len(reports) >= 2 or attempted >= MAX_CANDIDATES:
+            break
+        if slug.casefold() in already_tested:
+            continue
+        attempted += 1
+        try:
+            reports.append(assess(category, slug, fetch(category, slug)))
+        except (HTTPError, URLError, TimeoutError, ValueError, TypeError, KeyError, OSError) as exc:
+            failures.append({"id": slug, "reason": type(exc).__name__})
+
+    combined = prior_reports + reports
+    unique = len({r["id"].casefold() for r in combined}) == len(combined)
+    if unique and len(combined) >= 2 and reports:
+        proof = {
+            "skillId": spec["id"], "title": spec["title"], "status": "validated",
+            "testedAt": previous["validatedAt"] if previous else NOW,
+            "lastPracticedAt": NOW, "challenge": spec["challenge"],
+            "method": spec["method"], "scope": spec["scope"],
+            "checksPassed": True, "reports": combined,
+        }
+        path = ROOT / "site" / "evidence" / (spec["id"] + ".json")
+        path.parent.mkdir(parents=True, exist_ok=True)
+        serialized = json.dumps(proof, ensure_ascii=False, indent=2) + "\n"
+        path.write_text(serialized, encoding="utf-8")
+        current[spec["id"]] = {
+            "id": spec["id"], "title": spec["title"], "status": "validated",
+            "validatedAt": previous["validatedAt"] if previous else NOW,
+            "lastPracticedAt": NOW, "practiceCount": len(combined),
+            "proofPath": "evidence/" + path.name,
+            "proofSha256": sha256(serialized.encode("utf-8")).hexdigest(),
+            "resourcesTested": [r["source"] for r in combined],
+        }
+        result = "reinforced" if previous else "validated"
     else:
-        reports, failures = [], []
-        for slug in candidates(state, category):
-            if len(reports) >= 2:
-                break
-            try:
-                reports.append(assess(category, slug, fetch(category, slug)))
-            except (HTTPError, URLError, TimeoutError, ValueError, TypeError, KeyError, OSError) as exc:
-                failures.append({"id": slug, "reason": type(exc).__name__})
-        if len(reports) == 2 and len({r["id"].casefold() for r in reports}) == 2:
-            proof = {
-                "skillId": spec["id"], "title": spec["title"], "status": "validated",
-                "testedAt": NOW, "challenge": spec["challenge"],
-                "method": spec["method"], "scope": spec["scope"],
-                "checksPassed": True, "reports": reports,
-            }
-            path = ROOT / "site" / "evidence" / (spec["id"] + ".json")
-            path.parent.mkdir(parents=True, exist_ok=True)
-            serialized = json.dumps(proof, ensure_ascii=False, indent=2) + "\n"
-            path.write_text(serialized, encoding="utf-8")
-            current[spec["id"]] = {
-                "id": spec["id"], "title": spec["title"], "status": "validated",
-                "validatedAt": NOW, "proofPath": "evidence/" + path.name,
-                "proofSha256": sha256(serialized.encode("utf-8")).hexdigest(),
-                "resourcesTested": [r["source"] for r in reports],
-            }
-            result = "validated"
-        else:
-            result = "failed"
-        trials.append({
-            "date": NOW, "skillId": spec["id"], "result": result,
-            "reportsPassed": len(reports), "reportsRequired": 2,
-            "failures": failures[-MAX_CANDIDATES:],
-        })
+        result = "no-new-evidence" if previous else "failed"
+    trials.append({
+        "date": NOW, "skillId": spec["id"], "result": result,
+        "reportsPassed": len(reports), "reportsRequired": 2 if not previous else 1,
+        "totalVerifiedExercises": len(combined) if previous or (len(reports) == 2 and unique) else 0,
+        "failures": failures[-MAX_CANDIDATES:],
+    })
     state["skills"] = list(current.values())
     state["verifiedSkills"] = len(current)
-    state["capabilityTrials"] = trials[-60:]
+    state["capabilityTrials"] = trials[-100:]
     state["lastCapabilityVerification"] = {"date": NOW, "skillId": spec["id"], "result": result}
     history = state.get("history")
     if isinstance(history, list) and history and isinstance(history[-1], dict):
         history[-1]["verified"] = len(current)
     return result
-
 
 def run_all(state, fetch=fetch_hf):
     outcomes = {}
