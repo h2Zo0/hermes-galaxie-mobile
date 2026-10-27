@@ -1,122 +1,234 @@
 #!/usr/bin/env python3
-"""Agent NOVENS CORE cloud: collecte vérifiable de ressources publiques; aucune fausse compétence ni revenu."""
+"""NOVENS — éclaireur tournant et cumulatif, sans confondre découverte et savoir-faire."""
 from __future__ import annotations
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import quote, urlparse
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
-import json, os, time
+import json
+import os
+import time
 
 ROOT = Path(__file__).resolve().parents[1]
 STATE = ROOT / "site" / "state.json"
 JOURNAL = ROOT / "site" / "missions.json"
 NOW = datetime.now(timezone.utc)
 TOKEN = os.environ.get("GH_TOKEN", "")
-MAX_NODES = 1500
-SEARCHES = [
-    ("github", "autonomous ai agent orchestration in:name,description"),
-    ("github", "llm multi agent tools in:name,description"),
-    ("github", "ai automation workflow in:name,description"),
-    ("github", "business agents crm in:name,description"),
-    ("models", "agent"),
-    ("datasets", "agent"),
-    ("spaces", "agent"),
+MAX_NODES = 20000
+# Diversité volontaire : compétences transversales, mais aussi projets à potentiel réel.
+GITHUB_SEARCHES = [
+    "agent orchestration llm in:name,description",
+    "ai agent tools framework in:name,description",
+    "model context protocol mcp servers in:name,description",
+    "workflow automation self hosted in:name,description",
+    "multi agent planning tools in:name,description",
+    "agent memory vector retrieval in:name,description",
+    "llm evaluation benchmark in:name,description",
+    "ai software testing agents in:name,description",
+    "business process automation in:name,description",
+    "open source crm erp automation in:name,description",
+    "invoice reconciliation bookkeeping in:name,description",
+    "accounting anomaly detection in:name,description",
+    "commercial vehicle parts catalog in:name,description",
+    "vehicle fitment vin decoder in:name,description",
+    "bus fleet maintenance in:name,description",
+    "video editing automation subtitles in:name,description",
+    "short video clipping transcription in:name,description",
+    "social media scheduling automation in:name,description",
+    "lead generation b2b open source in:name,description",
+    "agent browser computer use in:name,description",
+    "python automation libraries in:name,description",
+    "open source payment integration in:name,description",
+    "retrieval augmented generation rag in:name,description",
+    "agent security sandbox evaluation in:name,description",
 ]
+HUGGINGFACE_SEARCHES = {
+    "models": ["agent", "embedding", "reranker", "text-classification", "translation", "speech", "transcription", "text-generation", "vision"],
+    "datasets": ["agent", "document", "invoice", "accounting", "vehicle", "transcript", "french", "tool"],
+    "spaces": ["agent", "automation", "ocr", "transcription", "video", "search", "rag", "document"],
+}
+SEARCH_BATCH = 4
+HF_LIMIT = 50
+GH_LIMIT = 50
+
 
 def get_json(url, authenticated=False):
-    headers = {"User-Agent":"NOVENS CORE-Galaxie-Cloud/1.0 (+public discovery)",
-               "Accept":"application/vnd.github+json" if authenticated else "application/json"}
+    headers = {
+        "User-Agent": "NOVENS-Explorer/3.0 (+continuous-discovery)",
+        "Accept": "application/vnd.github+json" if authenticated else "application/json",
+    }
     if authenticated and TOKEN:
         headers["Authorization"] = "Bearer " + TOKEN
         headers["X-GitHub-Api-Version"] = "2022-11-28"
-    req = Request(url, headers=headers)
-    with urlopen(req, timeout=18) as resp:
-        raw = resp.read(1_800_000)
-    return json.loads(raw)
+    request = Request(url, headers=headers)
+    with urlopen(request, timeout=13) as response:
+        return json.loads(response.read(3_000_000))
+
 
 def valid_url(url):
     try:
         parsed = urlparse(url)
-        return parsed.scheme=="https" and parsed.hostname in ("github.com","huggingface.co") and not parsed.username
-    except (ValueError,AttributeError):
+        return parsed.scheme == "https" and parsed.hostname in ("github.com", "huggingface.co") and not parsed.username
+    except (ValueError, AttributeError, TypeError):
         return False
 
-def clean(value, limit=140):
+
+def clean(value, limit=160):
     return " ".join(str(value or "").split())[:limit]
 
-def prepare_node(cat, name, url, old=None):
-    if not valid_url(url) or not name:
+
+def prepare_node(category, name, url, old=None):
+    if not valid_url(url) or not name or not isinstance(name, str):
         return None
-    return {"id":cat+":"+name, "category":cat, "name":clean(name),
-            "url":url, "firstSeen":old.get("firstSeen") if isinstance(old, dict) and old.get("firstSeen") else NOW.isoformat(timespec="seconds")}
+    return {
+        "id": category + ":" + name, "category": category,
+        "name": clean(name), "url": url,
+        "firstSeen": old.get("firstSeen") if isinstance(old, dict) and old.get("firstSeen")
+            else NOW.isoformat(timespec="seconds"),
+    }
+
+
+def plan(cursor):
+    """La recherche change à chaque mission ; pages 1 à 5 tournantes."""
+    index = int(cursor) if isinstance(cursor, int) and cursor >= 0 else 0
+    searches = []
+    for step in range(SEARCH_BATCH):
+        sequence = index * SEARCH_BATCH + step
+        term = GITHUB_SEARCHES[sequence % len(GITHUB_SEARCHES)]
+        page = 1 + (sequence // len(GITHUB_SEARCHES)) % 5
+        searches.append(("github", term, page))
+    for category, terms in HUGGINGFACE_SEARCHES.items():
+        searches.append((category, terms[index % len(terms)], 1))
+    return searches
+
+
+def collect(state, get=get_json):
+    nodes = state.get("nodes")
+    if not isinstance(nodes, list):
+        raise RuntimeError("Catalogue invalide")
+    records = {n["id"]: n for n in nodes
+               if isinstance(n, dict) and n.get("id") and valid_url(n.get("url"))}
+    start_count = len(records)
+    previous = state.get("discovery", {})
+    if not isinstance(previous, dict):
+        previous = {}
+    cursor = previous.get("cursor", 0)
+    searches = plan(cursor)
+    failures = []
+    additions = {k: 0 for k in ("github", "models", "datasets", "spaces")}
+    for category, term, page in searches:
+        if len(records) >= MAX_NODES:
+            break
+        try:
+            if category == "github":
+                url = ("https://api.github.com/search/repositories?q=" + quote(term)
+                       + "&sort=updated&order=desc&per_page=" + str(GH_LIMIT)
+                       + "&page=" + str(page))
+                response = get(url, True)
+                items = response.get("items", [])
+                pairs = ((entry.get("full_name"), entry.get("html_url")) for entry in items
+                         if isinstance(entry, dict) and not entry.get("private") and not entry.get("archived"))
+            else:
+                url = ("https://huggingface.co/api/" + category
+                       + "?search=" + quote(term) + "&limit=" + str(HF_LIMIT))
+                response = get(url)
+                prefix = {"models": "", "datasets": "datasets/", "spaces": "spaces/"}[category]
+                pairs = ((entry.get("id") or entry.get("modelId"),
+                          "https://huggingface.co/" + prefix + str(entry.get("id") or entry.get("modelId") or ""))
+                         for entry in response if isinstance(entry, dict))
+            for name, link in pairs:
+                if not isinstance(name, str) or "/" not in name or not isinstance(link, str):
+                    continue
+                node = prepare_node(category, name, link)
+                if node is None or node["id"] in records:
+                    continue
+                if len(records) >= MAX_NODES:
+                    break
+                records[node["id"]] = node
+                additions[category] += 1
+        except (HTTPError, URLError, TimeoutError, ValueError, KeyError, TypeError, OSError) as exc:
+            failures.append({"source": category, "term": term, "error": type(exc).__name__,
+                             "code": clean(getattr(exc, "code", ""), 12)})
+        time.sleep(.12)
+    all_nodes = sorted(records.values(), key=lambda item: (item["category"], item["name"].casefold()))
+    category_counts = {
+        category: sum(n["category"] == category for n in all_nodes)
+        for category in ("github", "models", "datasets", "spaces")
+    }
+    history = [x for x in state.get("history", []) if isinstance(x, dict) and "date" in x][-399:]
+    history.append({
+        "date": NOW.isoformat(timespec="seconds"),
+        "resources": len(all_nodes), "verified": int(state.get("verifiedSkills", 0)),
+        "profit": float(state.get("netProfitEuro", 0)),
+    })
+    prior = None
+    for measurement in history[:-1]:
+        try:
+            timestamp = datetime.fromisoformat(str(measurement["date"]).replace("Z", "+00:00"))
+            if timestamp.tzinfo is None:
+                timestamp = timestamp.replace(tzinfo=timezone.utc)
+            if timestamp <= NOW - timedelta(hours=24):
+                prior = measurement
+        except (ValueError, TypeError, KeyError):
+            pass
+    growth = max(0, len(all_nodes) - int(prior["resources"])) if prior else None
+    state.update({
+        "name": "NOVENS CORE — GALAXIE VIVANTE",
+        "asOf": NOW.isoformat(timespec="seconds"),
+        "polledAt": NOW.isoformat(timespec="seconds"),
+        "resourceCount": len(all_nodes),
+        "categoryCounts": category_counts,
+        "nodes": all_nodes,
+        "history": history,
+        "growth24h": growth,
+        "disclaimer": "Les découvertes ne sont pas des compétences. Chaque usage approuvé exige des tests indépendants.",
+        "discovery": {
+            "cursor": (int(cursor) if isinstance(cursor, int) and cursor >= 0 else 0) + 1,
+            "capacity": MAX_NODES, "lastBatch": len(all_nodes) - start_count,
+            "newByCategory": additions, "queriesLastRun": len(searches),
+            "totalSearchCycles": int(previous.get("totalSearchCycles", 0)) + 1,
+            "lastErrors": failures[-12:],
+        },
+        "cloud": {
+            "agent": "Éclaireur NOVENS CORE", "execution": "GitHub Actions",
+            "lastMissionAt": NOW.isoformat(timespec="seconds"),
+            "missionStatus": "succès" if not failures else "partiel",
+            "newResources": len(all_nodes) - start_count,
+            "errors": len(failures), "nextScheduled": "Toutes les 10 minutes si GitHub Actions disponible",
+            "machineIndependence": True,
+        },
+    })
+    return {
+        "at": NOW.isoformat(), "previous": start_count,
+        "current": len(all_nodes), "new": len(all_nodes) - start_count,
+        "byCategory": additions, "errors": failures, "queries": len(searches),
+    }
+
 
 def main():
-    old=json.loads(STATE.read_text(encoding="utf-8"))
-    if not isinstance(old.get("nodes"),list): raise RuntimeError("État invalide: nodes absents")
-    records={n["id"]:n for n in old["nodes"] if isinstance(n,dict) and n.get("id") and valid_url(n.get("url",""))}
-    base_count=len(records)
-    counts={cat:0 for cat in ("github","models","datasets","spaces")}
-    failures=[]
-    for category, term in SEARCHES:
-        try:
-            if category=="github":
-                url="https://api.github.com/search/repositories?q="+quote(term)+"&sort=updated&order=desc&per_page=12"
-                items=get_json(url,True).get("items",[])
-                pairs=((clean(x.get("full_name")),x.get("html_url")) for x in items if not x.get("private") and not x.get("archived"))
-            else:
-                endpoint={"models":"models","datasets":"datasets","spaces":"spaces"}[category]
-                url="https://huggingface.co/api/"+endpoint+"?search="+quote(term)+"&limit=20"
-                items=get_json(url)
-                pairs=((clean(x.get("id") or x.get("modelId")), "https://huggingface.co/"+ ("spaces/" if category=="spaces" else "datasets/" if category=="datasets" else "") + str(x.get("id") or x.get("modelId") or "")) for x in items if isinstance(x,dict))
-            for name,resource in pairs:
-                if not name or not resource: continue
-                key=category+":"+name
-                if key not in records and len(records)<MAX_NODES:
-                    n=prepare_node(category,name,resource)
-                    if n: records[key]=n; counts[category]+=1
-        except (HTTPError,URLError,TimeoutError,ValueError,KeyError,TypeError) as e:
-            failures.append(category+": "+type(e).__name__+" "+clean(getattr(e,"code",""),16))
-        time.sleep(.18)
-    all_nodes=sorted(records.values(),key=lambda n:(n["category"],n["name"].casefold()))
-    catcounts={cat:sum(n["category"]==cat for n in all_nodes) for cat in ("github","models","datasets","spaces")}
-    history=[x for x in old.get("history",[]) if isinstance(x,dict) and "date" in x][-400:]
-    measure={"date":NOW.isoformat(timespec="seconds"),"resources":len(all_nodes),
-             "verified":int(old.get("verifiedSkills",0)), "profit":float(old.get("netProfitEuro",0))}
-    history.append(measure)
-    latest_prior=None
-    for x in history[:-1]:
-        try:
-            stamp=datetime.fromisoformat(x["date"].replace("Z","+00:00"))
-            if stamp.tzinfo is None:stamp=stamp.replace(tzinfo=timezone.utc)
-            if stamp <= NOW-timedelta(hours=24):latest_prior=x
-        except (ValueError,TypeError):pass
-    delta=max(0,len(all_nodes)-int(latest_prior["resources"])) if latest_prior else None
-    old.update({
-        "name":"NOVENS CORE — GALAXIE VIVANTE",
-        "asOf":NOW.isoformat(timespec="seconds"),"polledAt":NOW.isoformat(timespec="seconds"),
-        "resourceCount":len(all_nodes),"categoryCounts":catcounts,
-        "nodes":all_nodes,"history":history[-400:],"growth24h":delta,
-        "disclaimer":"Ressources publiques réellement référencées. Aucun point ne prouve une compétence, un bénéfice ou une action commerciale.",
-        "cloud":{"agent":"Éclaireur NOVENS CORE","execution":"GitHub Actions","lastMissionAt":NOW.isoformat(timespec="seconds"),
-                 "missionStatus":"succès" if not failures else "partiel",
-                 "newResources":len(all_nodes)-base_count,"errors":len(failures),
-                 "nextScheduled":"Toutes les 20 minutes, sous réserve de disponibilité GitHub Actions",
-                 "machineIndependence":True}
-    })
-    STATE.write_text(json.dumps(old,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    log=[]
+    state = json.loads(STATE.read_text(encoding="utf-8"))
+    result = collect(state)
+    STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    old_runs = []
     if JOURNAL.exists():
-        try:log=json.loads(JOURNAL.read_text(encoding="utf-8")).get("runs",[])
-        except (json.JSONDecodeError,OSError):pass
-    log.append({"date":NOW.isoformat(timespec="seconds"),"mission":"Recherche et dédoublonnage de ressources publiques",
-                "sourcesSearched":len(SEARCHES),"newResources":len(all_nodes)-base_count,
-                "total":len(all_nodes),"errors":failures})
-    JOURNAL.write_text(json.dumps({"runs":log[-200:]},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    print(json.dumps({"at":NOW.isoformat(),"previous":base_count,"current":len(all_nodes),
-                      "new":len(all_nodes)-base_count,"failures":failures},ensure_ascii=False))
-    if failures and len(failures)==len(SEARCHES):
-        raise RuntimeError("Toutes les sources distantes ont échoué : données sauvegardées, mission en erreur")
+        try:
+            old_runs = json.loads(JOURNAL.read_text(encoding="utf-8")).get("runs", [])
+        except (json.JSONDecodeError, OSError, TypeError):
+            pass
+    old_runs.append({
+        "date": NOW.isoformat(timespec="seconds"),
+        "mission": "Éclaireur tournant multithématique",
+        "sourcesSearched": result["queries"],
+        "newResources": result["new"],
+        "total": result["current"],
+        "errors": result["errors"],
+    })
+    JOURNAL.write_text(json.dumps({"runs": old_runs[-300:]}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(json.dumps(result, ensure_ascii=False))
+    if len(result["errors"]) == result["queries"]:
+        raise RuntimeError("Toutes les recherches ont échoué")
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     main()
