@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-27T20:44:33+00:00",
+  "lastPracticedAt": "2026-10-27T21:04:47+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -660,6 +660,37 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-22T12:15:37Z"
+    },
+    {
+      "repository": "AnwarDebes/lucid",
+      "url": "https://github.com/AnwarDebes/lucid",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 70.62,
+      "languageBytes": {
+        "Python": 78549,
+        "TeX": 31847,
+        "Makefile": 829
+      },
+      "totalLanguageBytes": 111225,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-21T04:50:10Z"
+    },
+    {
+      "repository": "aosiguqq-prog/sdd-agent-harness",
+      "url": "https://github.com/aosiguqq-prog/sdd-agent-harness",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 92.99,
+      "languageBytes": {
+        "Python": 49761,
+        "Gherkin": 3751
+      },
+      "totalLanguageBytes": 53512,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-25T13:16:51Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

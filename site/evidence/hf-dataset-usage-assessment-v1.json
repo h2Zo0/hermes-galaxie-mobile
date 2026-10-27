@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-27T20:44:36+00:00",
+  "lastPracticedAt": "2026-10-27T21:04:49+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -456,6 +456,28 @@
         "json"
       ],
       "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "vekkt/french_CEFR",
+      "source": "https://huggingface.co/datasets/vekkt/french_CEFR",
+      "observedAt": "2026-10-27T21:04:49+00:00",
+      "declaredLicense": "mit",
+      "formats": [
+        "csv"
+      ],
+      "listedFiles": 5,
+      "access": "public"
+    },
+    {
+      "id": "verbarium/french-word-frequency-scrabble-validity",
+      "source": "https://huggingface.co/datasets/verbarium/french-word-frequency-scrabble-validity",
+      "observedAt": "2026-10-27T21:04:49+00:00",
+      "declaredLicense": "cc-by-sa-4.0",
+      "formats": [
+        "csv"
+      ],
+      "listedFiles": 7,
       "access": "public"
     }
   ]

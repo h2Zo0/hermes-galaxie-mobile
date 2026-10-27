@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-27T20:44:38+00:00",
+  "lastPracticedAt": "2026-10-27T21:04:50+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -808,6 +808,36 @@
       "rowCount": 3,
       "sampleSha256": "c1be51df829a97d185f854bcd3f52c0fe60bb0f35e37cac8c5c3dea7b6b594c9",
       "observedAt": "2026-10-27T20:44:38+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "agomberto/FrenchCensus-handwritten-texts",
+      "source": "https://huggingface.co/datasets/agomberto/FrenchCensus-handwritten-texts",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "image",
+        "text"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "844522aa2a540f3bf6a5be29fdbfe191fa1c28017896348e776f586907643c46",
+      "observedAt": "2026-10-27T21:04:50+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "AhmedBou/French_quotes",
+      "source": "https://huggingface.co/datasets/AhmedBou/French_quotes",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        " Mots clés",
+        "citation"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "3d3503fe12b78037b399fb6b7ed5e8058c10cbe338a348fd499b7798abdf8885",
+      "observedAt": "2026-10-27T21:04:50+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
