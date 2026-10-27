@@ -50,8 +50,7 @@ def pilot(slug, fetch=get_api):
     options = [x for x in splits["splits"]
                if isinstance(x, dict) and isinstance(x.get("config"), str)
                and isinstance(x.get("split"), str)
-               and x.get("num_examples", 0) is not None
-               and x.get("num_examples", 0) > 0]
+               and x.get("config") and x.get("split")]
     if not options:
         raise ValueError("Aucune partition accessible")
     item = options[0]
