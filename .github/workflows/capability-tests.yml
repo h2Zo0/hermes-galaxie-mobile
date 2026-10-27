@@ -53,7 +53,8 @@ jobs:
           assert proofs, "Aucun défi HF n'a été prouvé : vérifier API et critères avant publication"
           for proof in proofs:
               evidence=json.loads((Path("site")/proof["proofPath"]).read_text())
-              assert len(evidence["reports"])==2 and evidence["checksPassed"]
+              assert len(evidence["reports"])>=2 and evidence["checksPassed"]
+              assert len({r["id"] for r in evidence["reports"]}) == len(evidence["reports"])
           print("Preuves HF enregistrées :", len(proofs))
           PY
       - name: Pilote réel de réutilisation de datasets — vérifier les usages approuvés
