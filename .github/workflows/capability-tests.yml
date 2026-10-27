@@ -28,7 +28,8 @@ jobs:
           import json
           from pathlib import Path
           state=json.loads(Path("site/state.json").read_text())
-          assert state["verifiedSkills"] == 1, state.get("lastCapabilityVerification")
+          assert state["verifiedSkills"] >= 1, state.get("lastCapabilityVerification")
+          assert any(s["id"] == "github-repository-technical-audit-v1" for s in state["skills"])
           proof=json.loads(Path("site/evidence/github-repository-audit.json").read_text())
           assert proof["checksPassed"] and len(proof["reports"]) >= 2
           assert len({r["repository"] for r in proof["reports"]}) == len(proof["reports"])
