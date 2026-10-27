@@ -101,7 +101,7 @@ def main():
         "cloud":{"agent":"Éclaireur NOVENS CORE","execution":"GitHub Actions","lastMissionAt":NOW.isoformat(timespec="seconds"),
                  "missionStatus":"succès" if not failures else "partiel",
                  "newResources":len(all_nodes)-base_count,"errors":len(failures),
-                 "nextScheduled":"Chaque heure, sous réserve de disponibilité GitHub Actions",
+                 "nextScheduled":"Toutes les 20 minutes, sous réserve de disponibilité GitHub Actions",
                  "machineIndependence":True}
     })
     STATE.write_text(json.dumps(old,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
