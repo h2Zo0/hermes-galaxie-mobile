@@ -66,6 +66,7 @@ jobs:
           print("Résultat du pilote :", last.get("result"))
           print("Usages approuvés :", state.get("approvedResourceCount", 0))
           print("Candidats refusés :", len(last.get("failedResources", [])))
+          print("Diagnostic premier refus :", last.get("failedResources", [])[:4])
           for approved in state.get("approvedResources", []):
               assert approved["approvedFor"] == "read-only-dataset-sampling"
           PY
