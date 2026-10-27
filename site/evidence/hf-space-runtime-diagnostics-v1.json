@@ -3,7 +3,7 @@
   "title": "Diagnostiquer le runtime de démonstrations IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-27T23:18:58+00:00",
+  "lastPracticedAt": "2026-10-27T23:39:32+00:00",
   "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
   "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
   "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
@@ -511,6 +511,24 @@
       "sdk": "streamlit",
       "runtimeStage": "RUNTIME_ERROR",
       "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "dog/fastapi-document-qa",
+      "source": "https://huggingface.co/spaces/dog/fastapi-document-qa",
+      "observedAt": "2026-10-27T23:39:32+00:00",
+      "sdk": "docker",
+      "runtimeStage": "RUNTIME_ERROR",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "doyled-it/BUSTA-IFCE-Code-Search",
+      "source": "https://huggingface.co/spaces/doyled-it/BUSTA-IFCE-Code-Search",
+      "observedAt": "2026-10-27T23:39:32+00:00",
+      "sdk": "static",
+      "runtimeStage": "RUNNING",
+      "availableNow": true,
       "note": "La disponibilité est un instantané, pas une promesse de service"
     }
   ]
