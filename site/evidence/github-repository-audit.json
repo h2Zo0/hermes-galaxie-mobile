@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-27T17:38:01+00:00",
+  "lastPracticedAt": "2026-10-27T17:58:27+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -421,6 +421,42 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-14T06:20:16Z"
+    },
+    {
+      "repository": "annorak/parallax",
+      "url": "https://github.com/annorak/parallax",
+      "defaultBranch": "master",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 87.43,
+      "languageBytes": {
+        "Python": 61676,
+        "HTML": 8100,
+        "CSS": 769
+      },
+      "totalLanguageBytes": 70545,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-09-28T21:02:15Z"
+    },
+    {
+      "repository": "anshiiii-hub/ORQESTRA",
+      "url": "https://github.com/anshiiii-hub/ORQESTRA",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 81.44,
+      "languageBytes": {
+        "Python": 535039,
+        "TypeScript": 87127,
+        "JavaScript": 21444,
+        "Shell": 11438,
+        "Dockerfile": 1339,
+        "Mako": 358,
+        "HTML": 257
+      },
+      "totalLanguageBytes": 657002,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-27T13:03:26Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
