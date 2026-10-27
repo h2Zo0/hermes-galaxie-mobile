@@ -1,13 +1,13 @@
 {
   "name": "NOVENS CORE — GALAXIE VIVANTE",
-  "asOf": "2026-10-27T08:28:40+00:00",
-  "polledAt": "2026-10-27T08:28:40+00:00",
-  "resourceCount": 226,
+  "asOf": "2026-10-27T10:31:28+00:00",
+  "polledAt": "2026-10-27T10:31:28+00:00",
+  "resourceCount": 245,
   "categoryCounts": {
-    "github": 140,
+    "github": 153,
     "models": 28,
-    "datasets": 30,
-    "spaces": 28
+    "datasets": 34,
+    "spaces": 30
   },
   "verifiedSkills": 0,
   "netProfitEuro": 0.0,
@@ -48,6 +48,12 @@
       "resources": 226,
       "verified": 0,
       "profit": 0.0
+    },
+    {
+      "date": "2026-10-27T10:31:28+00:00",
+      "resources": 245,
+      "verified": 0,
+      "profit": 0.0
     }
   ],
   "nodes": [
@@ -78,6 +84,13 @@
       "name": "agentica-org/DeepScaleR-Preview-Dataset",
       "url": "https://huggingface.co/datasets/agentica-org/DeepScaleR-Preview-Dataset",
       "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "datasets:agents-last-exam/agents-last-exam",
+      "category": "datasets",
+      "name": "agents-last-exam/agents-last-exam",
+      "url": "https://huggingface.co/datasets/agents-last-exam/agents-last-exam",
+      "firstSeen": "2026-10-27T10:31:28+00:00"
     },
     {
       "id": "datasets:Autonomous-Scientific-Agents/groundtruth",
@@ -157,6 +170,13 @@
       "firstSeen": "2026-10-26T23:15:29+00:00"
     },
     {
+      "id": "datasets:jupyter-agent/jupyter-agent-dataset",
+      "category": "datasets",
+      "name": "jupyter-agent/jupyter-agent-dataset",
+      "url": "https://huggingface.co/datasets/jupyter-agent/jupyter-agent-dataset",
+      "firstSeen": "2026-10-27T10:31:28+00:00"
+    },
+    {
       "id": "datasets:Lakshan2003/customer_service_client_agent_conversations_40k_multi_task",
       "category": "datasets",
       "name": "Lakshan2003/customer_service_client_agent_conversations_40k_multi_task",
@@ -176,6 +196,13 @@
       "name": "microsoft/orca-agentinstruct-1M-v1",
       "url": "https://huggingface.co/datasets/microsoft/orca-agentinstruct-1M-v1",
       "firstSeen": "2026-10-27T08:28:40+00:00"
+    },
+    {
+      "id": "datasets:nvidia/Nemotron-Agentic-v1",
+      "category": "datasets",
+      "name": "nvidia/Nemotron-Agentic-v1",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-Agentic-v1",
+      "firstSeen": "2026-10-27T10:31:28+00:00"
     },
     {
       "id": "datasets:nvidia/Nemotron-SFT-Agentic-Finance-v1",
@@ -262,6 +289,13 @@
       "firstSeen": "2026-10-27T05:00:26+00:00"
     },
     {
+      "id": "datasets:zai-org/AgentInstruct",
+      "category": "datasets",
+      "name": "zai-org/AgentInstruct",
+      "url": "https://huggingface.co/datasets/zai-org/AgentInstruct",
+      "firstSeen": "2026-10-27T10:31:28+00:00"
+    },
+    {
       "id": "github:0jre/runne",
       "category": "github",
       "name": "0jre/runne",
@@ -318,6 +352,13 @@
       "firstSeen": "2026-10-26 21:54:58 CET"
     },
     {
+      "id": "github:agentoom/agentoom",
+      "category": "github",
+      "name": "agentoom/agentoom",
+      "url": "https://github.com/agentoom/agentoom",
+      "firstSeen": "2026-10-27T10:31:28+00:00"
+    },
+    {
       "id": "github:akaunting/akaunting",
       "category": "github",
       "name": "akaunting/akaunting",
@@ -367,6 +408,13 @@
       "firstSeen": "2026-10-27T05:00:26+00:00"
     },
     {
+      "id": "github:Ann930-L/ai-automation-portfolio",
+      "category": "github",
+      "name": "Ann930-L/ai-automation-portfolio",
+      "url": "https://github.com/Ann930-L/ai-automation-portfolio",
+      "firstSeen": "2026-10-27T10:31:28+00:00"
+    },
+    {
       "id": "github:Armur-Ai/Pentest-Swarm-AI",
       "category": "github",
       "name": "Armur-Ai/Pentest-Swarm-AI",
@@ -414,6 +462,13 @@
       "name": "bigcapitalhq/bigcapital",
       "url": "https://github.com/bigcapitalhq/bigcapital",
       "firstSeen": "2026-10-26 21:39:26 CET"
+    },
+    {
+      "id": "github:bj-qizhi/trigix",
+      "category": "github",
+      "name": "bj-qizhi/trigix",
+      "url": "https://github.com/bj-qizhi/trigix",
+      "firstSeen": "2026-10-27T10:31:28+00:00"
     },
     {
       "id": "github:bot523h/nexus-ai-agent",
@@ -626,6 +681,13 @@
       "firstSeen": "2026-10-27T08:28:40+00:00"
     },
     {
+      "id": "github:harshvtomar/worksphere-ai",
+      "category": "github",
+      "name": "harshvtomar/worksphere-ai",
+      "url": "https://github.com/harshvtomar/worksphere-ai",
+      "firstSeen": "2026-10-27T10:31:28+00:00"
+    },
+    {
       "id": "github:hcengineering/platform",
       "category": "github",
       "name": "hcengineering/platform",
@@ -829,6 +891,20 @@
       "firstSeen": "2026-10-26 21:54:58 CET"
     },
     {
+      "id": "github:muhanned-biz/n8n-AI-workflows",
+      "category": "github",
+      "name": "muhanned-biz/n8n-AI-workflows",
+      "url": "https://github.com/muhanned-biz/n8n-AI-workflows",
+      "firstSeen": "2026-10-27T10:31:28+00:00"
+    },
+    {
+      "id": "github:muhib90/open-code-review",
+      "category": "github",
+      "name": "muhib90/open-code-review",
+      "url": "https://github.com/muhib90/open-code-review",
+      "firstSeen": "2026-10-27T10:31:28+00:00"
+    },
+    {
       "id": "github:MusadiqUrRahman/whaagent",
       "category": "github",
       "name": "MusadiqUrRahman/whaagent",
@@ -841,6 +917,13 @@
       "name": "n8n-io/n8n",
       "url": "https://github.com/n8n-io/n8n",
       "firstSeen": "2026-10-26 21:24:47 CET"
+    },
+    {
+      "id": "github:n8n-io/n8n-docs",
+      "category": "github",
+      "name": "n8n-io/n8n-docs",
+      "url": "https://github.com/n8n-io/n8n-docs",
+      "firstSeen": "2026-10-27T10:31:28+00:00"
     },
     {
       "id": "github:NareshNandigama/ewap",
@@ -934,6 +1017,13 @@
       "firstSeen": "2026-10-26 21:24:47 CET"
     },
     {
+      "id": "github:priyanshsingh11/Cogniflow",
+      "category": "github",
+      "name": "priyanshsingh11/Cogniflow",
+      "url": "https://github.com/priyanshsingh11/Cogniflow",
+      "firstSeen": "2026-10-27T10:31:28+00:00"
+    },
+    {
       "id": "github:pulseforgeatmns-ops/pulseforge-leadgen",
       "category": "github",
       "name": "pulseforgeatmns-ops/pulseforge-leadgen",
@@ -990,6 +1080,20 @@
       "firstSeen": "2026-10-26T23:15:29+00:00"
     },
     {
+      "id": "github:roedyrustam/kortex-ai",
+      "category": "github",
+      "name": "roedyrustam/kortex-ai",
+      "url": "https://github.com/roedyrustam/kortex-ai",
+      "firstSeen": "2026-10-27T10:31:28+00:00"
+    },
+    {
+      "id": "github:Rohit-1480/DotNet-GenAI-RAG-Agent",
+      "category": "github",
+      "name": "Rohit-1480/DotNet-GenAI-RAG-Agent",
+      "url": "https://github.com/Rohit-1480/DotNet-GenAI-RAG-Agent",
+      "firstSeen": "2026-10-27T10:31:28+00:00"
+    },
+    {
       "id": "github:RunaCapital/awesome-oss-alternatives",
       "category": "github",
       "name": "RunaCapital/awesome-oss-alternatives",
@@ -1016,6 +1120,13 @@
       "name": "saleor/saleor",
       "url": "https://github.com/saleor/saleor",
       "firstSeen": "2026-10-26 21:39:54 CET"
+    },
+    {
+      "id": "github:sangram6n/Agentic-AI-Experiments",
+      "category": "github",
+      "name": "sangram6n/Agentic-AI-Experiments",
+      "url": "https://github.com/sangram6n/Agentic-AI-Experiments",
+      "firstSeen": "2026-10-27T10:31:28+00:00"
     },
     {
       "id": "github:SarthakRoy-1/FireDrill",
@@ -1137,6 +1248,13 @@
       "firstSeen": "2026-10-26T23:15:29+00:00"
     },
     {
+      "id": "github:upranayak/RevPilot",
+      "category": "github",
+      "name": "upranayak/RevPilot",
+      "url": "https://github.com/upranayak/RevPilot",
+      "firstSeen": "2026-10-27T10:31:28+00:00"
+    },
+    {
       "id": "github:UrsushoribilisMusic/agentic-fleet-hub",
       "category": "github",
       "name": "UrsushoribilisMusic/agentic-fleet-hub",
@@ -1219,6 +1337,13 @@
       "name": "you-are-bugs/LLM-Agent",
       "url": "https://github.com/you-are-bugs/LLM-Agent",
       "firstSeen": "2026-10-27T05:00:26+00:00"
+    },
+    {
+      "id": "github:YuukiAS/AI_Skills_Collection",
+      "category": "github",
+      "name": "YuukiAS/AI_Skills_Collection",
+      "url": "https://github.com/YuukiAS/AI_Skills_Collection",
+      "firstSeen": "2026-10-27T10:31:28+00:00"
     },
     {
       "id": "github:zhaoyue722/llm-usage-mcp",
@@ -1473,6 +1598,13 @@
       "firstSeen": "2026-10-26T23:15:29+00:00"
     },
     {
+      "id": "spaces:Autonomous-Scientific-Agents/chemgraph-leaderboard",
+      "category": "spaces",
+      "name": "Autonomous-Scientific-Agents/chemgraph-leaderboard",
+      "url": "https://huggingface.co/spaces/Autonomous-Scientific-Agents/chemgraph-leaderboard",
+      "firstSeen": "2026-10-27T10:31:28+00:00"
+    },
+    {
       "id": "spaces:black-forest-labs/FLUX.1-dev",
       "category": "spaces",
       "name": "black-forest-labs/FLUX.1-dev",
@@ -1548,6 +1680,13 @@
       "name": "illesc/llm-agents-tora-70b-v1.0",
       "url": "https://huggingface.co/spaces/illesc/llm-agents-tora-70b-v1.0",
       "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:indykish/retirement-planning-agent",
+      "category": "spaces",
+      "name": "indykish/retirement-planning-agent",
+      "url": "https://huggingface.co/spaces/indykish/retirement-planning-agent",
+      "firstSeen": "2026-10-27T10:31:28+00:00"
     },
     {
       "id": "spaces:jbilcke-hf/ai-comic-factory",
@@ -1638,9 +1777,9 @@
   "cloud": {
     "agent": "Éclaireur NOVENS CORE",
     "execution": "GitHub Actions",
-    "lastMissionAt": "2026-10-27T08:28:40+00:00",
+    "lastMissionAt": "2026-10-27T10:31:28+00:00",
     "missionStatus": "succès",
-    "newResources": 24,
+    "newResources": 19,
     "errors": 0,
     "nextScheduled": "Chaque heure, sous réserve de disponibilité GitHub Actions",
     "machineIndependence": true
