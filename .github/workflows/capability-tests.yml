@@ -18,7 +18,7 @@ jobs:
       - name: Tester le mécanisme de preuve sans accès réseau
         run: python -m unittest discover -s tests -v
       - name: Vérifier la syntaxe des scripts
-        run: python -m py_compile cloud/scout.py cloud/verify_capabilities.py
+        run: python -m py_compile cloud/scout.py cloud/verify_capabilities.py cloud/qualify_resources.py
       - name: Prouver une compétence sur deux dépôts réels sans publication
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -32,4 +32,25 @@ jobs:
           proof=json.loads(Path("site/evidence/github-repository-audit.json").read_text())
           assert proof["checksPassed"] and len(proof["reports"]) == 2
           print("Audit réel attesté :", [r["repository"] for r in proof["reports"]])
+          PY
+      - name: Tester la qualification de ressources Hugging Face réelles sans publier
+        run: |
+          python -m cloud.qualify_resources
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          s=json.loads(Path("site/state.json").read_text())
+          trials=s.get("capabilityTrials", [])
+          for mission in ("hf-model-task-classification-v1",
+                          "hf-dataset-usage-assessment-v1",
+                          "hf-space-runtime-diagnostics-v1"):
+              match=[x for x in trials if x.get("skillId")==mission]
+              assert match, f"Mission non exécutée: {mission}"
+              print(mission, match[-1]["result"], "réussis", match[-1]["reportsPassed"])
+          proofs=[x for x in s.get("skills", []) if x["id"].startswith("hf-")]
+          assert proofs, "Aucun défi HF n'a été prouvé : vérifier API et critères avant publication"
+          for proof in proofs:
+              evidence=json.loads((Path("site")/proof["proofPath"]).read_text())
+              assert len(evidence["reports"])==2 and evidence["checksPassed"]
+          print("Preuves HF enregistrées :", len(proofs))
           PY
