@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-27T22:07:38+00:00",
+  "lastPracticedAt": "2026-10-27T22:26:36+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -440,6 +440,24 @@
       "declaredLicense": "mit",
       "access": "public",
       "modelFiles": 10
+    },
+    {
+      "id": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+      "source": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+      "observedAt": "2026-10-27T22:26:36+00:00",
+      "task": "text-generation",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 9
+    },
+    {
+      "id": "ZeeshanGeoPk/haitian-speech-to-text",
+      "source": "https://huggingface.co/ZeeshanGeoPk/haitian-speech-to-text",
+      "observedAt": "2026-10-27T22:26:36+00:00",
+      "task": "automatic-speech-recognition",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 13
     }
   ]
 }

@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-27T21:04:47+00:00",
+  "lastPracticedAt": "2026-10-27T22:26:26+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -691,6 +691,34 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-25T13:16:51Z"
+    },
+    {
+      "repository": "apache/ofbiz-framework",
+      "url": "https://github.com/apache/ofbiz-framework",
+      "defaultBranch": "trunk",
+      "primaryLanguage": "Java",
+      "primaryLanguageSharePercent": 68.0,
+      "languageBytes": {
+        "Java": 17364857,
+        "Groovy": 3579319,
+        "FreeMarker": 3555559,
+        "JavaScript": 426573,
+        "CSS": 425829,
+        "Less": 92101,
+        "Shell": 41047,
+        "Makefile": 17830,
+        "PowerShell": 8774,
+        "HTML": 7031,
+        "Dockerfile": 5224,
+        "Batchfile": 4109,
+        "XSLT": 3054,
+        "Ruby": 2533,
+        "Clojure": 1965
+      },
+      "totalLanguageBytes": 25535805,
+      "archived": false,
+      "starsAtTest": 1145,
+      "pushedAt": "2026-10-27T13:10:11Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
