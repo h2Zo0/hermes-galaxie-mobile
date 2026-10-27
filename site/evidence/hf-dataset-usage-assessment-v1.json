@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-27T16:57:39+00:00",
+  "lastPracticedAt": "2026-10-27T17:17:50+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -186,6 +186,28 @@
       "declaredLicense": "apache-2.0",
       "formats": [
         "parquet"
+      ],
+      "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "interstellarninja/tool-use-multiturn-reasoning",
+      "source": "https://huggingface.co/datasets/interstellarninja/tool-use-multiturn-reasoning",
+      "observedAt": "2026-10-27T17:17:50+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "ItsMayur/Vehicle_Complaints_NHSTA",
+      "source": "https://huggingface.co/datasets/ItsMayur/Vehicle_Complaints_NHSTA",
+      "observedAt": "2026-10-27T17:17:50+00:00",
+      "declaredLicense": "mit",
+      "formats": [
+        "csv"
       ],
       "listedFiles": 3,
       "access": "public"

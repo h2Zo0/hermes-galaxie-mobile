@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-27T16:57:42+00:00",
+  "lastPracticedAt": "2026-10-27T17:17:52+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -292,6 +292,39 @@
       "rowCount": 3,
       "sampleSha256": "54f5b2a9f8bbad3260d125d06601f119d117f075c8915e670a9e8fe78188ad4d",
       "observedAt": "2026-10-27T16:57:42+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "Ivan1008/toolace-hallucination-spans",
+      "source": "https://huggingface.co/datasets/Ivan1008/toolace-hallucination-spans",
+      "config": "combined",
+      "split": "train",
+      "columns": [
+        "context",
+        "hallucination_labels",
+        "id",
+        "meta",
+        "output",
+        "query"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "bc9aecc0dd19fcb0c6b68db941ab78106abf28cdef244abb270a0faefc387b26",
+      "observedAt": "2026-10-27T17:17:52+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "jacobwelsh/accounting",
+      "source": "https://huggingface.co/datasets/jacobwelsh/accounting",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "pdf"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "31baed05e1a829669cc7ec2de53b4b8e362c0cc4e61fee1279f36058723d85c2",
+      "observedAt": "2026-10-27T17:17:52+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
