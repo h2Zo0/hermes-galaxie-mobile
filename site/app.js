@@ -107,13 +107,19 @@
       proofLink.title="Consulter le journal des capacités et toutes les preuves";
     }
     $("profitCount").textContent=money(data.netProfitEuro);
+    $("approvedResources").textContent=Number(data.approvedResourceCount || 0).toLocaleString("fr-FR");
     $("countGitHub").textContent=data.categoryCounts.github ?? 0;
     $("countModels").textContent=data.categoryCounts.models ?? 0;
     $("countDatasets").textContent=data.categoryCounts.datasets ?? 0;
     $("countSpaces").textContent=data.categoryCounts.spaces ?? 0;
     if(data.growth24h === null || data.growth24h === undefined) {
-      $("status24h").textContent="Historique insuffisant";
-      $("resourceEvolution").textContent="Comparaison 24 h en construction";
+      const history=Array.isArray(data.history)?data.history:[];
+      const first=history[0]?.resources;
+      const previous=history.length>1?history[history.length-2]?.resources:null;
+      const since=Number.isFinite(first)?Math.max(0,count-Number(first)):0;
+      const recent=Number.isFinite(previous)?Math.max(0,count-Number(previous)):0;
+      $("status24h").textContent="+"+since.toLocaleString("fr-FR")+" depuis le premier relevé";
+      $("resourceEvolution").textContent="+"+recent.toLocaleString("fr-FR")+" découvertes au dernier cycle";
     } else {
       const delta=Number(data.growth24h);
       $("status24h").textContent=delta ? "+"+delta+" point"+(delta>1?"s":"")+" en 24 h" : "Stagnation sur 24 h";
