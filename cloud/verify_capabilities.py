@@ -126,7 +126,11 @@ def run(state, fetch=fetch_github):
         trials = []
     audits, failures = [], []
     attempted = 0
-    for slug in github_candidates(state.get("nodes", [])):
+    slugs = list(github_candidates(state.get("nodes", [])))
+    cursor = state.get("discovery", {}).get("cursor", 0)
+    offset = (max(0, cursor) * 12) % len(slugs) if isinstance(cursor, int) and slugs else 0
+    slugs = slugs[offset:] + slugs[:offset]
+    for slug in slugs:
         if len(audits) >= 2 or attempted >= 12:
             break
         if slug.casefold() in already_tested:

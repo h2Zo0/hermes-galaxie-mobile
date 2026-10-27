@@ -59,6 +59,17 @@ class CapabilityTests(unittest.TestCase):
         self.assertEqual(len(proof["reports"]), 4)
         self.assertEqual(len(set(r["repository"] for r in proof["reports"])), 4)
 
+    def test_rotating_repository_queue_reaches_later_candidates(self):
+        state = {"nodes": [node("demo/fail"+str(i)) for i in range(18)]
+                 + [node("demo/good18"), node("demo/good19")],
+                 "discovery": {"cursor": 1}}
+        def fetch(path):
+            if "/fail" in path:
+                raise ValueError("métadonnées non conformes")
+            return mock_fetch(path)
+        self.assertEqual(verifier.run(state, fetch), "validated")
+        self.assertEqual(state["verifiedSkills"], 1)
+
     def test_one_success_does_not_count(self):
         state = {"nodes": [node("sample/alpha")]}
         self.assertEqual(verifier.run(state, mock_fetch), "failed")

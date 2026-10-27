@@ -69,7 +69,7 @@ def candidates(state, category, limit=None):
         "datasets": "https://huggingface.co/datasets/",
         "spaces": "https://huggingface.co/spaces/",
     }
-    seen = set()
+    seen, slugs = set(), []
     for n in state.get("nodes", []):
         if not isinstance(n, dict) or n.get("category") != category:
             continue
@@ -80,9 +80,14 @@ def candidates(state, category, limit=None):
         if n.get("url") != prefixes[category] + slug or slug.lower() in seen:
             continue
         seen.add(slug.lower())
-        yield slug
-        if limit is not None and len(seen) >= limit:
-            return
+        slugs.append(slug)
+    if not slugs:
+        return
+    cursor = state.get("discovery", {}).get("cursor", 0)
+    step = max(0, cursor) * MAX_CANDIDATES if isinstance(cursor, int) else 0
+    offset = step % len(slugs)
+    ordered = slugs[offset:] + slugs[:offset]
+    yield from ordered[:limit] if limit is not None else ordered
 
 
 def declared_license(meta):
