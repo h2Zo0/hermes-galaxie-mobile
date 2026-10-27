@@ -96,9 +96,9 @@
     const proofLink=$("capabilityProof");
     proofLink.hidden=validSkills.length===0;
     if(validSkills.length) {
-      proofLink.href="./"+validSkills[0].proofPath;
-      proofLink.textContent="✓ Voir la preuve";
-      proofLink.title=validSkills[0].title;
+      proofLink.href="./capacites.html";
+      proofLink.textContent="✓ Voir les preuves ("+validSkills.length+")";
+      proofLink.title="Consulter le journal des capacités et toutes les preuves";
     }
     $("profitCount").textContent=money(data.netProfitEuro);
     $("countGitHub").textContent=data.categoryCounts.github ?? 0;
