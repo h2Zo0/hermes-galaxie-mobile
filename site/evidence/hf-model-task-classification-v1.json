@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-27T16:37:15+00:00",
+  "lastPracticedAt": "2026-10-27T16:57:39+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -134,6 +134,24 @@
       "declaredLicense": "cc-by-nc-4.0",
       "access": "public",
       "modelFiles": 26
+    },
+    {
+      "id": "InternScience/Agents-A1",
+      "source": "https://huggingface.co/InternScience/Agents-A1",
+      "observedAt": "2026-10-27T16:57:39+00:00",
+      "task": "text-generation",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 31
+    },
+    {
+      "id": "jinaai/jina-embeddings-v5-text-nano-classification",
+      "source": "https://huggingface.co/jinaai/jina-embeddings-v5-text-nano-classification",
+      "observedAt": "2026-10-27T16:57:39+00:00",
+      "task": "text-classification",
+      "declaredLicense": "cc-by-nc-4.0",
+      "access": "public",
+      "modelFiles": 35
     }
   ]
 }
