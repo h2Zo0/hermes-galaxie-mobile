@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-27T20:04:05+00:00",
+  "lastPracticedAt": "2026-10-27T20:24:25+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -412,6 +412,28 @@
         "parquet"
       ],
       "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "sanjaydoss/Multi-Agent_Reinforcement_Learning_Trading_System_Data",
+      "source": "https://huggingface.co/datasets/sanjaydoss/Multi-Agent_Reinforcement_Learning_Trading_System_Data",
+      "observedAt": "2026-10-27T20:24:25+00:00",
+      "declaredLicense": "mit",
+      "formats": [
+        "csv"
+      ],
+      "listedFiles": 5,
+      "access": "public"
+    },
+    {
+      "id": "SickBoy/layout_documents",
+      "source": "https://huggingface.co/datasets/SickBoy/layout_documents",
+      "observedAt": "2026-10-27T20:24:25+00:00",
+      "declaredLicense": "openrail",
+      "formats": [
+        "zip"
+      ],
+      "listedFiles": 4,
       "access": "public"
     }
   ]
