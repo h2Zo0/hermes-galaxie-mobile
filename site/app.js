@@ -26,6 +26,7 @@
   let isPaused = false;
   let speed = 4, zoom = 1, turn = 0;
   let t = 0, lastFrame = performance.now();
+  let galaxyIntensity = 1;
   let drag = null;
   let formation = 0;
   let reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -83,7 +84,10 @@
     const validSkills=(Array.isArray(data.skills)?data.skills:[]).filter(item=>
       item && item.status==="validated" && typeof item.id==="string" &&
       typeof item.title==="string" && /^evidence\/[a-z0-9-]+\.json$/.test(item.proofPath || ""));
-    let incoming=data.nodes.concat(validSkills.map(item=>({
+    const sampleStep=Math.max(1,Math.ceil(data.nodes.length/1800));
+    const visibleResources=data.nodes.filter((item,index)=>index%sampleStep===0);
+    galaxyIntensity=1+Math.min(.27,Math.log2(Math.max(1,data.nodes.length/260))*.055);
+    let incoming=visibleResources.concat(validSkills.map(item=>({
       id:"skill:"+item.id,category:"skill",name:item.title,url:"./"+item.proofPath
     })));
     particles=incoming.map((item,index)=>{
@@ -156,7 +160,7 @@
     const c=worldCenter();
     const r=p.radius, start=turn+p.phase*.25;
     let a, xx, yy;
-    const scale=Math.min(w*.53,h*.70)*zoom;
+    const scale=Math.min(w*.53,h*.70)*zoom*galaxyIntensity;
     if(formation===0) {
       // 4 continuously rotating spiral arms.
       a=p.arm*Math.PI/2 + r*3.8 + (p.shiver-.5)*.94 + start + t*(.034/(.65+r));
@@ -320,5 +324,5 @@
   resize();
   requestAnimationFrame(drawFrame);
   refresh();
-  window.setInterval(refresh,15000);
+  window.setInterval(refresh,60000);
 })();
