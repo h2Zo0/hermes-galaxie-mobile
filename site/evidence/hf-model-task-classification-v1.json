@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T12:12:22+00:00",
+  "lastPracticedAt": "2026-10-28T12:32:39+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -1133,6 +1133,24 @@
       "declaredLicense": "mit",
       "access": "public",
       "modelFiles": 18
+    },
+    {
+      "id": "KRAFTON/A.X-K2-Raon-Speech-21B-A3B",
+      "source": "https://huggingface.co/KRAFTON/A.X-K2-Raon-Speech-21B-A3B",
+      "observedAt": "2026-10-28T12:32:39+00:00",
+      "task": "any-to-any",
+      "declaredLicense": "cc-by-nc-4.0",
+      "access": "public",
+      "modelFiles": 36
+    },
+    {
+      "id": "KRAFTON/Raon-Speech-9B",
+      "source": "https://huggingface.co/KRAFTON/Raon-Speech-9B",
+      "observedAt": "2026-10-28T12:32:39+00:00",
+      "task": "any-to-any",
+      "declaredLicense": "cc-by-nc-4.0",
+      "access": "public",
+      "modelFiles": 24
     }
   ]
 }

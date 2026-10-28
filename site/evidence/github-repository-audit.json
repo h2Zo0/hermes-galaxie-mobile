@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T12:12:20+00:00",
+  "lastPracticedAt": "2026-10-28T12:32:37+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -1736,6 +1736,41 @@
       "archived": false,
       "starsAtTest": 6,
       "pushedAt": "2026-10-27T15:13:33Z"
+    },
+    {
+      "repository": "chamodi-kumarage/cinesense-ai-movie-recommendation_Multi-agent-AI",
+      "url": "https://github.com/chamodi-kumarage/cinesense-ai-movie-recommendation_Multi-agent-AI",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 69.77,
+      "languageBytes": {
+        "Python": 305807,
+        "JavaScript": 125849,
+        "Batchfile": 6017,
+        "Shell": 334,
+        "HTML": 302
+      },
+      "totalLanguageBytes": 438309,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-06T11:00:58Z"
+    },
+    {
+      "repository": "chandana-17c/EchoSocial-AI",
+      "url": "https://github.com/chandana-17c/EchoSocial-AI",
+      "defaultBranch": "main",
+      "primaryLanguage": "CSS",
+      "primaryLanguageSharePercent": 52.02,
+      "languageBytes": {
+        "CSS": 108140,
+        "HTML": 54147,
+        "JavaScript": 25768,
+        "Python": 19837
+      },
+      "totalLanguageBytes": 207892,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-08-05T14:35:43Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

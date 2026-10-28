@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T12:12:22+00:00",
+  "lastPracticedAt": "2026-10-28T12:32:39+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1198,6 +1198,17 @@
       ],
       "listedFiles": 55,
       "access": "restreint"
+    },
+    {
+      "id": "renumics/synthetic-vehicle-fleet-telemetry",
+      "source": "https://huggingface.co/datasets/renumics/synthetic-vehicle-fleet-telemetry",
+      "observedAt": "2026-10-28T12:32:39+00:00",
+      "declaredLicense": "cc-by-sa-4.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 1038,
+      "access": "public"
     }
   ]
 }
