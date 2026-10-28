@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-28T09:33:00+00:00",
+  "lastPracticedAt": "2026-10-28T09:53:18+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -2287,6 +2287,47 @@
       "rowCount": 3,
       "sampleSha256": "6594016d876b8ec763b570d552bf8624f9950cb28298a1149d297072c9b78211",
       "observedAt": "2026-10-28T09:33:00+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "Omegaindebt/Kisan_Call_Centre_Transcripts",
+      "source": "https://huggingface.co/datasets/Omegaindebt/Kisan_Call_Centre_Transcripts",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "BlockName",
+        "Category",
+        "CreatedOn",
+        "Crop",
+        "DistrictName",
+        "KccAns",
+        "QueryText",
+        "QueryType",
+        "Season",
+        "Sector",
+        "StateName",
+        "month",
+        "year"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "1a1508335eb5ee5062accac21d3edf8fda75d850445b85006a35f9e00683f481",
+      "observedAt": "2026-10-28T09:53:18+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "Onegafer/vehicle_segmentation",
+      "source": "https://huggingface.co/datasets/Onegafer/vehicle_segmentation",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "label",
+        "pixel_values"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "20be4b079221b5e8e7aa3f0223b7354fc42abd1950de6977b804ccbeacf9b668",
+      "observedAt": "2026-10-28T09:53:18+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

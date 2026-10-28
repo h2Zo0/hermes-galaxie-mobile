@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T09:32:55+00:00",
+  "lastPracticedAt": "2026-10-28T09:53:14+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -1460,6 +1460,34 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-07T15:57:02Z"
+    },
+    {
+      "repository": "botextractai/ai-mcp-server-client-fastmcp",
+      "url": "https://github.com/botextractai/ai-mcp-server-client-fastmcp",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 3087
+      },
+      "totalLanguageBytes": 3087,
+      "archived": false,
+      "starsAtTest": 2,
+      "pushedAt": "2026-10-27T09:56:07Z"
+    },
+    {
+      "repository": "botextractai/ai-multimodal-rag-with-videos",
+      "url": "https://github.com/botextractai/ai-multimodal-rag-with-videos",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 77794
+      },
+      "totalLanguageBytes": 77794,
+      "archived": false,
+      "starsAtTest": 19,
+      "pushedAt": "2026-10-28T00:00:39Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
