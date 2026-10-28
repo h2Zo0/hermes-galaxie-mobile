@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T02:22:42+00:00",
+  "lastPracticedAt": "2026-10-28T02:41:31+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -768,6 +768,28 @@
         "csv"
       ],
       "listedFiles": 4,
+      "access": "public"
+    },
+    {
+      "id": "nvidia/Nemotron-Agentic-v1",
+      "source": "https://huggingface.co/datasets/nvidia/Nemotron-Agentic-v1",
+      "observedAt": "2026-10-28T02:41:31+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "jsonl"
+      ],
+      "listedFiles": 4,
+      "access": "public"
+    },
+    {
+      "id": "nvidia/Nemotron-RL-Agentic-Conversational-Tool-Use-Pivot-v1",
+      "source": "https://huggingface.co/datasets/nvidia/Nemotron-RL-Agentic-Conversational-Tool-Use-Pivot-v1",
+      "observedAt": "2026-10-28T02:41:31+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "jsonl"
+      ],
+      "listedFiles": 3,
       "access": "public"
     }
   ]
