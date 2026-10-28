@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T17:04:17+00:00",
+  "lastPracticedAt": "2026-10-28T17:24:39+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -2242,6 +2242,40 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-26T11:40:53Z"
+    },
+    {
+      "repository": "D4Vinci/Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.74,
+      "languageBytes": {
+        "Python": 1694564,
+        "HTML": 3284,
+        "Dockerfile": 1158
+      },
+      "totalLanguageBytes": 1699006,
+      "archived": false,
+      "starsAtTest": 90179,
+      "pushedAt": "2026-10-28T09:31:16Z"
+    },
+    {
+      "repository": "da3387745-ship-it/DEV-COMPASS",
+      "url": "https://github.com/da3387745-ship-it/DEV-COMPASS",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 47.26,
+      "languageBytes": {
+        "Python": 237707,
+        "CSS": 139920,
+        "JavaScript": 124045,
+        "HTML": 821,
+        "Shell": 434
+      },
+      "totalLanguageBytes": 502927,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-28T14:40:00Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
