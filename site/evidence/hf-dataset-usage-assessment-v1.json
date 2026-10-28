@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T12:53:24+00:00",
+  "lastPracticedAt": "2026-10-28T13:13:50+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1231,6 +1231,28 @@
         "json"
       ],
       "listedFiles": 132,
+      "access": "public"
+    },
+    {
+      "id": "SahmBenchmark/arabic-accounting-mcq_train",
+      "source": "https://huggingface.co/datasets/SahmBenchmark/arabic-accounting-mcq_train",
+      "observedAt": "2026-10-28T13:13:50+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "Salesforce/wikitext",
+      "source": "https://huggingface.co/datasets/Salesforce/wikitext",
+      "observedAt": "2026-10-28T13:13:50+00:00",
+      "declaredLicense": "cc-by-sa-3.0, gfdl",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 16,
       "access": "public"
     }
   ]

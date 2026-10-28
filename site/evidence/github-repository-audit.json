@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T12:53:22+00:00",
+  "lastPracticedAt": "2026-10-28T13:13:48+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -1802,6 +1802,39 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-28T10:08:54Z"
+    },
+    {
+      "repository": "chauvinmatteo/RAG-against-the-machine",
+      "url": "https://github.com/chauvinmatteo/RAG-against-the-machine",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 87.55,
+      "languageBytes": {
+        "Python": 4458,
+        "Makefile": 634
+      },
+      "totalLanguageBytes": 5092,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-27T09:55:38Z"
+    },
+    {
+      "repository": "ChavezAILabs/cailculator-mcp",
+      "url": "https://github.com/ChavezAILabs/cailculator-mcp",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 68.34,
+      "languageBytes": {
+        "Python": 434764,
+        "Lean": 169376,
+        "HTML": 29840,
+        "Shell": 1154,
+        "Batchfile": 1035
+      },
+      "totalLanguageBytes": 636169,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-27T23:37:44Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
