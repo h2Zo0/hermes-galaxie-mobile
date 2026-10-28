@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T15:42:47+00:00",
+  "lastPracticedAt": "2026-10-28T16:03:24+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -2104,6 +2104,44 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-27T19:52:20Z"
+    },
+    {
+      "repository": "ComputerUseAgent/AutoCua",
+      "url": "https://github.com/ComputerUseAgent/AutoCua",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 56.42,
+      "languageBytes": {
+        "Python": 4225684,
+        "Rust": 1316290,
+        "JavaScript": 936317,
+        "HTML": 489328,
+        "CSS": 328836,
+        "TypeScript": 92545,
+        "Shell": 52785,
+        "Batchfile": 23388,
+        "Java": 18807,
+        "PowerShell": 5969
+      },
+      "totalLanguageBytes": 7489949,
+      "archived": false,
+      "starsAtTest": 752,
+      "pushedAt": "2026-10-28T15:11:58Z"
+    },
+    {
+      "repository": "comsa33/agentic-or-pipelined-rag",
+      "url": "https://github.com/comsa33/agentic-or-pipelined-rag",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 98.91,
+      "languageBytes": {
+        "Python": 926222,
+        "Shell": 10162
+      },
+      "totalLanguageBytes": 936384,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-28T01:44:37Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
