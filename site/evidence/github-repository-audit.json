@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T23:01:21+00:00",
+  "lastPracticedAt": "2026-10-28T23:21:42+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -2846,6 +2846,40 @@
       "archived": false,
       "starsAtTest": 2,
       "pushedAt": "2026-10-22T22:26:28Z"
+    },
+    {
+      "repository": "dzianisv/agentprobe",
+      "url": "https://github.com/dzianisv/agentprobe",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 61.5,
+      "languageBytes": {
+        "TypeScript": 209659,
+        "Python": 117976,
+        "Shell": 9872,
+        "Dockerfile": 3403
+      },
+      "totalLanguageBytes": 340910,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-09-29T17:33:20Z"
+    },
+    {
+      "repository": "eaglebaba13/lwill-ai-builder",
+      "url": "https://github.com/eaglebaba13/lwill-ai-builder",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 98.52,
+      "languageBytes": {
+        "TypeScript": 75108,
+        "JavaScript": 559,
+        "CSS": 283,
+        "Dockerfile": 283
+      },
+      "totalLanguageBytes": 76233,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-09-27T16:30:58Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-28T23:01:30+00:00",
+  "lastPracticedAt": "2026-10-28T23:21:47+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -3800,6 +3800,46 @@
       "rowCount": 3,
       "sampleSha256": "3e7c90ff4ce87815b4caf1fe5d45212190b2ab7ecb5ce5cd6f24f62095600c22",
       "observedAt": "2026-10-28T23:01:30+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "lizziepikachu/starwars_vehicles",
+      "source": "https://huggingface.co/datasets/lizziepikachu/starwars_vehicles",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "cargo_capacity",
+        "consumables",
+        "cost_in_credits",
+        "crew",
+        "length",
+        "manufacturer",
+        "max_atmosphering_speed",
+        "model",
+        "name",
+        "passengers",
+        "vehicle_class"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "7c806e60df7c4c97148993e7071c24073b21cc447c0629cfc6306dbdc9345940",
+      "observedAt": "2026-10-28T23:21:47+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "lqfff1984/Risk-Aware-Tool-Risk-Labels",
+      "source": "https://huggingface.co/datasets/lqfff1984/Risk-Aware-Tool-Risk-Labels",
+      "config": "sealtools",
+      "split": "labels",
+      "columns": [
+        "description",
+        "risk_level",
+        "tool_name"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "b206471c6d2633402332c0dce3dbab37a449e3aadd6015d2e841e6609935b686",
+      "observedAt": "2026-10-28T23:21:47+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

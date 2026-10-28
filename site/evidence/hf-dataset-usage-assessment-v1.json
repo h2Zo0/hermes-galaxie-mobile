@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T22:20:35+00:00",
+  "lastPracticedAt": "2026-10-28T23:21:43+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1554,6 +1554,17 @@
       "declaredLicense": "cc-by-sa-4.0",
       "formats": [
         "parquet"
+      ],
+      "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "Bill12138/Task-and-Motion-Re-Planning-for-Multi-Agent-Systems",
+      "source": "https://huggingface.co/datasets/Bill12138/Task-and-Motion-Re-Planning-for-Multi-Agent-Systems",
+      "observedAt": "2026-10-28T23:21:43+00:00",
+      "declaredLicense": "mit",
+      "formats": [
+        "zip"
       ],
       "listedFiles": 3,
       "access": "public"
