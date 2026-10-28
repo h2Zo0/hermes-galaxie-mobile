@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T01:41:48+00:00",
+  "lastPracticedAt": "2026-10-28T02:02:08+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -797,6 +797,45 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-06-10T18:47:19Z"
+    },
+    {
+      "repository": "Aravinthp66/Stripe-Payment-Integration",
+      "url": "https://github.com/Aravinthp66/Stripe-Payment-Integration",
+      "defaultBranch": "main",
+      "primaryLanguage": "Java",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Java": 53224
+      },
+      "totalLanguageBytes": 53224,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2024-02-20T10:06:09Z"
+    },
+    {
+      "repository": "archersado/Yonder",
+      "url": "https://github.com/archersado/Yonder",
+      "defaultBranch": "main",
+      "primaryLanguage": "Rust",
+      "primaryLanguageSharePercent": 33.54,
+      "languageBytes": {
+        "Rust": 682597,
+        "Python": 569093,
+        "HTML": 279618,
+        "Swift": 229440,
+        "JavaScript": 185854,
+        "CSS": 24330,
+        "C": 22522,
+        "PowerShell": 11362,
+        "TypeScript": 9329,
+        "Objective-C": 9105,
+        "Shell": 6988,
+        "C#": 4963
+      },
+      "totalLanguageBytes": 2035201,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-10-21T01:31:17Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

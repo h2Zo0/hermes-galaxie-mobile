@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T01:41:49+00:00",
+  "lastPracticedAt": "2026-10-28T02:02:09+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -638,6 +638,24 @@
       "declaredLicense": "cc-by-nc-4.0",
       "access": "public",
       "modelFiles": 12
+    },
+    {
+      "id": "kanishshandilya/book_recs_reranker",
+      "source": "https://huggingface.co/kanishshandilya/book_recs_reranker",
+      "observedAt": "2026-10-28T02:02:09+00:00",
+      "task": "text-classification",
+      "declaredLicense": "mit",
+      "access": "public",
+      "modelFiles": 8
+    },
+    {
+      "id": "kaushikvira/DeepSeek-V4.1-Flash-1017-GSQ-agentic-strata",
+      "source": "https://huggingface.co/kaushikvira/DeepSeek-V4.1-Flash-1017-GSQ-agentic-strata",
+      "observedAt": "2026-10-28T02:02:09+00:00",
+      "task": "text-generation",
+      "declaredLicense": "mit",
+      "access": "public",
+      "modelFiles": 18
     }
   ]
 }

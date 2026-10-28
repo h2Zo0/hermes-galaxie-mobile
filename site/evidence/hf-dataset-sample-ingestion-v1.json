@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-28T01:41:50+00:00",
+  "lastPracticedAt": "2026-10-28T02:02:11+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -1529,6 +1529,49 @@
       "rowCount": 3,
       "sampleSha256": "fe0c8b508785357f4dfc6aabe4afcd014dd5119513238658d54ede1d4725c66e",
       "observedAt": "2026-10-28T01:41:50+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "Paul/hatecheck-french",
+      "source": "https://huggingface.co/datasets/Paul/hatecheck-french",
+      "config": "default",
+      "split": "test",
+      "columns": [
+        "case_templ",
+        "disagreement_in_case",
+        "disagreement_in_template",
+        "functionality",
+        "gender_female",
+        "gender_male",
+        "label_annotated",
+        "label_annotated_maj",
+        "label_gold",
+        "mhc_case_id",
+        "ref_case_id",
+        "ref_templ_id",
+        "target_ident",
+        "templ_id",
+        "test_case"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "51633db1a0e089d7499c64e618a4b1d429b9ca5c5b599873321fb214ae136e21",
+      "observedAt": "2026-10-28T02:02:11+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "PaulineSanchez/Translation_words_and_sentences_english_french",
+      "source": "https://huggingface.co/datasets/PaulineSanchez/Translation_words_and_sentences_english_french",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "English words/sentences",
+        "French words/sentences"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "0a707247602d6a8d17287dfd0fa6b81a44778b88f10d7ec614d597778b569287",
+      "observedAt": "2026-10-28T02:02:11+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
