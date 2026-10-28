@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T13:54:28+00:00",
+  "lastPracticedAt": "2026-10-28T14:14:43+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -1905,6 +1905,38 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-27T15:30:38Z"
+    },
+    {
+      "repository": "christianclaudio/mcp-server-snowflake",
+      "url": "https://github.com/christianclaudio/mcp-server-snowflake",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 98.92,
+      "languageBytes": {
+        "Python": 660749,
+        "Dockerfile": 4961,
+        "Shell": 2226
+      },
+      "totalLanguageBytes": 667936,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-10-27T14:33:14Z"
+    },
+    {
+      "repository": "christianclaudio/mcp-server-taxcode",
+      "url": "https://github.com/christianclaudio/mcp-server-taxcode",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 98.99,
+      "languageBytes": {
+        "Python": 888276,
+        "Dockerfile": 5510,
+        "Shell": 3552
+      },
+      "totalLanguageBytes": 897338,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-28T11:17:07Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T13:54:30+00:00",
+  "lastPracticedAt": "2026-10-28T14:14:45+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1297,6 +1297,32 @@
         "csv"
       ],
       "listedFiles": 4,
+      "access": "public"
+    },
+    {
+      "id": "XIANGFENGLI/ACCOUNTING_DATABASES",
+      "source": "https://huggingface.co/datasets/XIANGFENGLI/ACCOUNTING_DATABASES",
+      "observedAt": "2026-10-28T14:14:45+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "csv",
+        "jsonl",
+        "txt"
+      ],
+      "listedFiles": 12,
+      "access": "public"
+    },
+    {
+      "id": "xlangai/AgentNet",
+      "source": "https://huggingface.co/datasets/xlangai/AgentNet",
+      "observedAt": "2026-10-28T14:14:45+00:00",
+      "declaredLicense": "mit",
+      "formats": [
+        "jsonl",
+        "txt",
+        "zip"
+      ],
+      "listedFiles": 44,
       "access": "public"
     }
   ]
