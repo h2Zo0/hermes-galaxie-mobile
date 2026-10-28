@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T07:06:46+00:00",
+  "lastPracticedAt": "2026-10-28T07:10:39+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1046,6 +1046,32 @@
         "parquet"
       ],
       "listedFiles": 4,
+      "access": "public"
+    },
+    {
+      "id": "finipher/finipher-us-tax-document-classifier",
+      "source": "https://huggingface.co/datasets/finipher/finipher-us-tax-document-classifier",
+      "observedAt": "2026-10-28T07:10:39+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "csv",
+        "json",
+        "jsonl",
+        "parquet"
+      ],
+      "listedFiles": 67,
+      "access": "public"
+    },
+    {
+      "id": "Francesco/document-parts",
+      "source": "https://huggingface.co/datasets/Francesco/document-parts",
+      "observedAt": "2026-10-28T07:10:39+00:00",
+      "declaredLicense": "cc",
+      "formats": [
+        "json",
+        "parquet"
+      ],
+      "listedFiles": 7,
       "access": "public"
     }
   ]
