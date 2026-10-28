@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T19:40:40+00:00",
+  "lastPracticedAt": "2026-10-28T19:59:43+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -2501,6 +2501,34 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-28T18:11:42Z"
+    },
+    {
+      "repository": "DharamSojitra1/autonomous-ai-software-engineer",
+      "url": "https://github.com/DharamSojitra1/autonomous-ai-software-engineer",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 32022
+      },
+      "totalLanguageBytes": 32022,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-21T11:57:36Z"
+    },
+    {
+      "repository": "dharmpatel28/Legal-AI-Assitant",
+      "url": "https://github.com/dharmpatel28/Legal-AI-Assitant",
+      "defaultBranch": "main",
+      "primaryLanguage": "Jupyter Notebook",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Jupyter Notebook": 4548032
+      },
+      "totalLanguageBytes": 4548032,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-10-23T18:26:34Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
