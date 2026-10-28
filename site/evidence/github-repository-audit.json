@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T16:43:58+00:00",
+  "lastPracticedAt": "2026-10-28T17:04:17+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -2204,6 +2204,44 @@
       "archived": false,
       "starsAtTest": 1,
       "pushedAt": "2026-10-27T18:11:35Z"
+    },
+    {
+      "repository": "cxmlo/miku",
+      "url": "https://github.com/cxmlo/miku",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 44.08,
+      "languageBytes": {
+        "Python": 844113,
+        "JavaScript": 529805,
+        "CSS": 195977,
+        "TypeScript": 142171,
+        "HTML": 103528,
+        "Kotlin": 61475,
+        "Rust": 21005,
+        "C++": 13427,
+        "NSIS": 2303,
+        "Batchfile": 1199
+      },
+      "totalLanguageBytes": 1915003,
+      "archived": false,
+      "starsAtTest": 2,
+      "pushedAt": "2026-10-28T16:42:43Z"
+    },
+    {
+      "repository": "cybexstech/Website",
+      "url": "https://github.com/cybexstech/Website",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 63.24,
+      "languageBytes": {
+        "TypeScript": 2971,
+        "JavaScript": 1727
+      },
+      "totalLanguageBytes": 4698,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-26T11:40:53Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
