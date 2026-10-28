@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T13:34:10+00:00",
+  "lastPracticedAt": "2026-10-28T13:54:30+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1275,6 +1275,28 @@
         "parquet"
       ],
       "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "v2run/invoices-donut-data-v1",
+      "source": "https://huggingface.co/datasets/v2run/invoices-donut-data-v1",
+      "observedAt": "2026-10-28T13:54:30+00:00",
+      "declaredLicense": "mit",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 5,
+      "access": "public"
+    },
+    {
+      "id": "wushan/vehicle_qa",
+      "source": "https://huggingface.co/datasets/wushan/vehicle_qa",
+      "observedAt": "2026-10-28T13:54:30+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "csv"
+      ],
+      "listedFiles": 4,
       "access": "public"
     }
   ]

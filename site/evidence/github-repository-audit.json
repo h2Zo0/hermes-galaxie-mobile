@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T13:34:07+00:00",
+  "lastPracticedAt": "2026-10-28T13:54:28+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -1869,6 +1869,42 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-28T12:45:10Z"
+    },
+    {
+      "repository": "chittyos/chittymcp",
+      "url": "https://github.com/chittyos/chittymcp",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "primaryLanguageSharePercent": 59.5,
+      "languageBytes": {
+        "JavaScript": 438419,
+        "TypeScript": 140471,
+        "Shell": 83154,
+        "Python": 50348,
+        "PLpgSQL": 18439,
+        "Makefile": 3979,
+        "Dockerfile": 1660,
+        "HCL": 381
+      },
+      "totalLanguageBytes": 736851,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-27T20:41:23Z"
+    },
+    {
+      "repository": "choppabharathkumar/End-to-End-Data-AI-Engineering-Platform",
+      "url": "https://github.com/choppabharathkumar/End-to-End-Data-AI-Engineering-Platform",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.59,
+      "languageBytes": {
+        "Python": 123416,
+        "Dockerfile": 509
+      },
+      "totalLanguageBytes": 123925,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-27T15:30:38Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
