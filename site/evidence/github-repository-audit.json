@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T14:20:32+00:00",
+  "lastPracticedAt": "2026-10-28T14:41:17+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -1971,6 +1971,46 @@
       "archived": false,
       "starsAtTest": 2,
       "pushedAt": "2026-02-09T13:27:11Z"
+    },
+    {
+      "repository": "cloud-rebellion/reactor",
+      "url": "https://github.com/cloud-rebellion/reactor",
+      "defaultBranch": "main",
+      "primaryLanguage": "Go",
+      "primaryLanguageSharePercent": 97.13,
+      "languageBytes": {
+        "Go": 7058838,
+        "Go Template": 69646,
+        "JavaScript": 61400,
+        "PLpgSQL": 51216,
+        "Shell": 18009,
+        "Dockerfile": 5512,
+        "Makefile": 2508
+      },
+      "totalLanguageBytes": 7267129,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-05T21:25:21Z"
+    },
+    {
+      "repository": "cloudgentic/cloudgentic-gateway",
+      "url": "https://github.com/cloudgentic/cloudgentic-gateway",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 51.97,
+      "languageBytes": {
+        "Python": 223386,
+        "TypeScript": 201294,
+        "CSS": 2491,
+        "Dockerfile": 1261,
+        "Mako": 634,
+        "Makefile": 619,
+        "JavaScript": 157
+      },
+      "totalLanguageBytes": 429842,
+      "archived": false,
+      "starsAtTest": 2,
+      "pushedAt": "2026-07-13T00:57:15Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
