@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T03:01:43+00:00",
+  "lastPracticedAt": "2026-10-28T03:21:55+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -939,6 +939,41 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-16T04:13:49Z"
+    },
+    {
+      "repository": "Asihat/b2b-marketplace",
+      "url": "https://github.com/Asihat/b2b-marketplace",
+      "defaultBranch": "main",
+      "primaryLanguage": "Go",
+      "primaryLanguageSharePercent": 57.51,
+      "languageBytes": {
+        "Go": 262819,
+        "TypeScript": 189333,
+        "CSS": 3330,
+        "Dockerfile": 1237,
+        "HTML": 308
+      },
+      "totalLanguageBytes": 457027,
+      "archived": false,
+      "starsAtTest": 2,
+      "pushedAt": "2026-10-05T18:13:37Z"
+    },
+    {
+      "repository": "askdba/mysql-mcp-server",
+      "url": "https://github.com/askdba/mysql-mcp-server",
+      "defaultBranch": "main",
+      "primaryLanguage": "Go",
+      "primaryLanguageSharePercent": 93.75,
+      "languageBytes": {
+        "Go": 831131,
+        "Shell": 32879,
+        "Makefile": 18515,
+        "Dockerfile": 3995
+      },
+      "totalLanguageBytes": 886520,
+      "archived": false,
+      "starsAtTest": 44,
+      "pushedAt": "2026-10-27T13:37:36Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

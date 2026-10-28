@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T03:01:45+00:00",
+  "lastPracticedAt": "2026-10-28T03:21:57+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -812,6 +812,28 @@
         "jsonl"
       ],
       "listedFiles": 57,
+      "access": "public"
+    },
+    {
+      "id": "pragnakalp/squad_v2_french_translated",
+      "source": "https://huggingface.co/datasets/pragnakalp/squad_v2_french_translated",
+      "observedAt": "2026-10-28T03:21:57+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "json"
+      ],
+      "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "Prarabdha/Rick_and_Morty_Transcript",
+      "source": "https://huggingface.co/datasets/Prarabdha/Rick_and_Morty_Transcript",
+      "observedAt": "2026-10-28T03:21:57+00:00",
+      "declaredLicense": "mit",
+      "formats": [
+        "csv"
+      ],
+      "listedFiles": 4,
       "access": "public"
     }
   ]

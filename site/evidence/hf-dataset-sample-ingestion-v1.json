@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-28T03:01:49+00:00",
+  "lastPracticedAt": "2026-10-28T03:22:00+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -1713,6 +1713,44 @@
       "rowCount": 3,
       "sampleSha256": "74691e3b1ebc2c677b914902966f84a319cfa6bdec8ba80a1bf5be62b987f20b",
       "observedAt": "2026-10-28T03:01:49+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "Whispering-GPT/whisper-transcripts-the-verge",
+      "source": "https://huggingface.co/datasets/Whispering-GPT/whisper-transcripts-the-verge",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "id",
+        "segments",
+        "text"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "8ea63672a41ee6a06c1718d9225d1ef6d68dde99ffb9ab15a0ea3e46ebc2c58f",
+      "observedAt": "2026-10-28T03:22:00+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "Whispering-GPT/yannic-kilcher-transcript",
+      "source": "https://huggingface.co/datasets/Whispering-GPT/yannic-kilcher-transcript",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "categories",
+        "channel",
+        "channel_id",
+        "description",
+        "id",
+        "segments",
+        "tags",
+        "text",
+        "title"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "d024a9d02becde240b8ea4d360d20a958d67f677dbccd5a700784ff34ec7810e",
+      "observedAt": "2026-10-28T03:22:00+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
