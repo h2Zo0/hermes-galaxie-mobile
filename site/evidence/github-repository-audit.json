@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T06:04:48+00:00",
+  "lastPracticedAt": "2026-10-28T06:25:31+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -1227,6 +1227,38 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-08-18T07:45:48Z"
+    },
+    {
+      "repository": "batra016/SPOTIFY_CLONE",
+      "url": "https://github.com/batra016/SPOTIFY_CLONE",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "primaryLanguageSharePercent": 41.04,
+      "languageBytes": {
+        "JavaScript": 3964,
+        "HTML": 3683,
+        "CSS": 2013
+      },
+      "totalLanguageBytes": 9660,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2023-05-12T08:37:01Z"
+    },
+    {
+      "repository": "batur/ts-baseline-docs",
+      "url": "https://github.com/batur/ts-baseline-docs",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 77.28,
+      "languageBytes": {
+        "TypeScript": 117114,
+        "JavaScript": 25327,
+        "Gherkin": 9096
+      },
+      "totalLanguageBytes": 151537,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-10-06T22:12:07Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
