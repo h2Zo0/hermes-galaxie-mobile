@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T20:59:24+00:00",
+  "lastPracticedAt": "2026-10-28T21:19:44+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -2628,6 +2628,43 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-23T01:43:55Z"
+    },
+    {
+      "repository": "dmitrykarpushkin/foureyes",
+      "url": "https://github.com/dmitrykarpushkin/foureyes",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 98.18,
+      "languageBytes": {
+        "Python": 98456,
+        "HTML": 1034,
+        "JavaScript": 631,
+        "Shell": 158
+      },
+      "totalLanguageBytes": 100279,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-27T09:40:03Z"
+    },
+    {
+      "repository": "dmpl6454/Posting-Automation",
+      "url": "https://github.com/dmpl6454/Posting-Automation",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 98.05,
+      "languageBytes": {
+        "TypeScript": 8434212,
+        "Swift": 70483,
+        "JavaScript": 40127,
+        "Shell": 33303,
+        "CSS": 20772,
+        "Python": 3268,
+        "HTML": 106
+      },
+      "totalLanguageBytes": 8602271,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-28T06:08:20Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
