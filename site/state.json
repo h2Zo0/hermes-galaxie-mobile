@@ -1,17 +1,17 @@
 {
   "name": "NOVENS CORE — GALAXIE VIVANTE",
-  "asOf": "2026-10-27T23:59:45+00:00",
-  "polledAt": "2026-10-27T23:59:45+00:00",
-  "resourceCount": 4844,
+  "asOf": "2026-10-28T00:19:59+00:00",
+  "polledAt": "2026-10-28T00:19:59+00:00",
+  "resourceCount": 4924,
   "categoryCounts": {
-    "github": 3562,
+    "github": 3642,
     "models": 461,
     "datasets": 409,
     "spaces": 412
   },
   "verifiedSkills": 5,
   "netProfitEuro": 0.0,
-  "growth24h": 4674,
+  "growth24h": 4754,
   "history": [
     {
       "date": "2026-10-26T22:30:41+01:00",
@@ -238,6 +238,12 @@
     {
       "date": "2026-10-27T23:59:45+00:00",
       "resources": 4844,
+      "verified": 5,
+      "profit": 0.0
+    },
+    {
+      "date": "2026-10-28T00:19:59+00:00",
+      "resources": 4924,
       "verified": 5,
       "profit": 0.0
     }
@@ -3163,6 +3169,20 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "github:0xyz-exe/openbizflow",
+      "category": "github",
+      "name": "0xyz-exe/openbizflow",
+      "url": "https://github.com/0xyz-exe/openbizflow",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
+      "id": "github:10xGraph/10xGraph",
+      "category": "github",
+      "name": "10xGraph/10xGraph",
+      "url": "https://github.com/10xGraph/10xGraph",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:12luke/thesis01",
       "category": "github",
       "name": "12luke/thesis01",
@@ -3387,6 +3407,13 @@
       "firstSeen": "2026-10-27T16:37:04+00:00"
     },
     {
+      "id": "github:8ehrad/career-agent-portfolio",
+      "category": "github",
+      "name": "8ehrad/career-agent-portfolio",
+      "url": "https://github.com/8ehrad/career-agent-portfolio",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:8gears/n8n-helm-chart",
       "category": "github",
       "name": "8gears/n8n-helm-chart",
@@ -3441,6 +3468,13 @@
       "name": "a51w/An-unsupervised-anomaly-detection",
       "url": "https://github.com/a51w/An-unsupervised-anomaly-detection",
       "firstSeen": "2026-10-27T19:02:57+00:00"
+    },
+    {
+      "id": "github:A7mdMe/mcp-production-kit",
+      "category": "github",
+      "name": "A7mdMe/mcp-production-kit",
+      "url": "https://github.com/A7mdMe/mcp-production-kit",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:AachuAnna/Legal_Chatbot",
@@ -4771,6 +4805,13 @@
       "name": "ali-automation/taskhat",
       "url": "https://github.com/ali-automation/taskhat",
       "firstSeen": "2026-10-27T18:38:31+00:00"
+    },
+    {
+      "id": "github:Ali-EL-AMRIOUI/running-coach",
+      "category": "github",
+      "name": "Ali-EL-AMRIOUI/running-coach",
+      "url": "https://github.com/Ali-EL-AMRIOUI/running-coach",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:ali1soverseas/EDRAK",
@@ -6551,6 +6592,13 @@
       "firstSeen": "2026-10-27T16:37:04+00:00"
     },
     {
+      "id": "github:awslabs/run-model-context-protocol-servers-with-aws-lambda",
+      "category": "github",
+      "name": "awslabs/run-model-context-protocol-servers-with-aws-lambda",
+      "url": "https://github.com/awslabs/run-model-context-protocol-servers-with-aws-lambda",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:awslabs/uaef",
       "category": "github",
       "name": "awslabs/uaef",
@@ -6598,6 +6646,13 @@
       "name": "ayazkhan27/SMA-1",
       "url": "https://github.com/ayazkhan27/SMA-1",
       "firstSeen": "2026-10-27T16:57:26+00:00"
+    },
+    {
+      "id": "github:ayeeff/branch-agent-worker",
+      "category": "github",
+      "name": "ayeeff/branch-agent-worker",
+      "url": "https://github.com/ayeeff/branch-agent-worker",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:AymanAsaad27/multi-tool-autonomous-ai-agent",
@@ -6978,6 +7033,13 @@
       "firstSeen": "2026-10-27T23:59:45+00:00"
     },
     {
+      "id": "github:BbekShr/MCPpedia",
+      "category": "github",
+      "name": "BbekShr/MCPpedia",
+      "url": "https://github.com/BbekShr/MCPpedia",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:bbroxterman/broxworx-n8n",
       "category": "github",
       "name": "bbroxterman/broxworx-n8n",
@@ -7102,6 +7164,13 @@
       "name": "berntpopp/phentrieve",
       "url": "https://github.com/berntpopp/phentrieve",
       "firstSeen": "2026-10-27T16:16:41+00:00"
+    },
+    {
+      "id": "github:berquerant/cache-mcp",
+      "category": "github",
+      "name": "berquerant/cache-mcp",
+      "url": "https://github.com/berquerant/cache-mcp",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:betelgeuse-tools/MediaSync-Optimizer",
@@ -7902,6 +7971,13 @@
       "firstSeen": "2026-10-26T23:15:29+00:00"
     },
     {
+      "id": "github:cchinchilla-dev/agentloom",
+      "category": "github",
+      "name": "cchinchilla-dev/agentloom",
+      "url": "https://github.com/cchinchilla-dev/agentloom",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:ccordine/omnidex",
       "category": "github",
       "name": "ccordine/omnidex",
@@ -8098,6 +8174,13 @@
       "firstSeen": "2026-10-27T22:07:25+00:00"
     },
     {
+      "id": "github:ChavezAILabs/cailculator-mcp",
+      "category": "github",
+      "name": "ChavezAILabs/cailculator-mcp",
+      "url": "https://github.com/ChavezAILabs/cailculator-mcp",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:Chen171111/mcp-portfolio",
       "category": "github",
       "name": "Chen171111/mcp-portfolio",
@@ -8280,6 +8363,13 @@
       "firstSeen": "2026-10-27T20:24:05+00:00"
     },
     {
+      "id": "github:christianbelnavis4-chelnok/jiminy-SDK",
+      "category": "github",
+      "name": "christianbelnavis4-chelnok/jiminy-SDK",
+      "url": "https://github.com/christianbelnavis4-chelnok/jiminy-SDK",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:christianclaudio/mcp-server-espn",
       "category": "github",
       "name": "christianclaudio/mcp-server-espn",
@@ -8343,6 +8433,13 @@
       "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
+      "id": "github:Chunduri-Aditya/agent-shield",
+      "category": "github",
+      "name": "Chunduri-Aditya/agent-shield",
+      "url": "https://github.com/Chunduri-Aditya/agent-shield",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:chuwu-coder/multi-agent-evaluation",
       "category": "github",
       "name": "chuwu-coder/multi-agent-evaluation",
@@ -8397,6 +8494,13 @@
       "name": "cjtsh/ai-color-team-audit-framework",
       "url": "https://github.com/cjtsh/ai-color-team-audit-framework",
       "firstSeen": "2026-10-27T20:24:05+00:00"
+    },
+    {
+      "id": "github:Claire56/ruhusa",
+      "category": "github",
+      "name": "Claire56/ruhusa",
+      "url": "https://github.com/Claire56/ruhusa",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:Clarittyai/agentic-app-seed",
@@ -8504,6 +8608,13 @@
       "firstSeen": "2026-10-27T21:04:38+00:00"
     },
     {
+      "id": "github:codebyangelo/project-mantis",
+      "category": "github",
+      "name": "codebyangelo/project-mantis",
+      "url": "https://github.com/codebyangelo/project-mantis",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:codefromkarl/ContextAtlas",
       "category": "github",
       "name": "codefromkarl/ContextAtlas",
@@ -8516,6 +8627,13 @@
       "name": "Codeminister2137/ai-workbench",
       "url": "https://github.com/Codeminister2137/ai-workbench",
       "firstSeen": "2026-10-27T18:38:31+00:00"
+    },
+    {
+      "id": "github:codercollo/my_agent",
+      "category": "github",
+      "name": "codercollo/my_agent",
+      "url": "https://github.com/codercollo/my_agent",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:CodeRP7/AgenticAI-TaskPilot",
@@ -8705,6 +8823,13 @@
       "name": "coronaa57/NEW-BOOK-MARKETING-BOT",
       "url": "https://github.com/coronaa57/NEW-BOOK-MARKETING-BOT",
       "firstSeen": "2026-10-27T21:44:11+00:00"
+    },
+    {
+      "id": "github:Corral-AI/validated-tool-calls",
+      "category": "github",
+      "name": "Corral-AI/validated-tool-calls",
+      "url": "https://github.com/Corral-AI/validated-tool-calls",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:cosylsine/dci-bench",
@@ -9104,6 +9229,13 @@
       "name": "DavranDev/Langchain_Course",
       "url": "https://github.com/DavranDev/Langchain_Course",
       "firstSeen": "2026-10-27T22:38:23+00:00"
+    },
+    {
+      "id": "github:ddaou-eb/smartsheet-mcp",
+      "category": "github",
+      "name": "ddaou-eb/smartsheet-mcp",
+      "url": "https://github.com/ddaou-eb/smartsheet-mcp",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:de-canter/apogee",
@@ -9512,6 +9644,13 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "github:diblaze/bokio-mcp",
+      "category": "github",
+      "name": "diblaze/bokio-mcp",
+      "url": "https://github.com/diblaze/bokio-mcp",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:Dibyajit-31/Library-Management-Software",
       "category": "github",
       "name": "Dibyajit-31/Library-Management-Software",
@@ -9526,11 +9665,25 @@
       "firstSeen": "2026-10-27T16:57:26+00:00"
     },
     {
+      "id": "github:Dicklesworthstone/fastmcp_rust",
+      "category": "github",
+      "name": "Dicklesworthstone/fastmcp_rust",
+      "url": "https://github.com/Dicklesworthstone/fastmcp_rust",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:diegocp01/computer_use_agent",
       "category": "github",
       "name": "diegocp01/computer_use_agent",
       "url": "https://github.com/diegocp01/computer_use_agent",
       "firstSeen": "2026-10-27T21:44:11+00:00"
+    },
+    {
+      "id": "github:diesmal/telegram-mcp-rs",
+      "category": "github",
+      "name": "diesmal/telegram-mcp-rs",
+      "url": "https://github.com/diesmal/telegram-mcp-rs",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:DietrichGebert/ponytail",
@@ -10198,6 +10351,13 @@
       "firstSeen": "2026-10-27T22:07:25+00:00"
     },
     {
+      "id": "github:elij/macher-agent",
+      "category": "github",
+      "name": "elij/macher-agent",
+      "url": "https://github.com/elij/macher-agent",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:elizsaenzc/EmployeeManagementSystemEM",
       "category": "github",
       "name": "elizsaenzc/EmployeeManagementSystemEM",
@@ -10506,6 +10666,13 @@
       "firstSeen": "2026-10-27T22:26:16+00:00"
     },
     {
+      "id": "github:ezhuk/modbus-mcp",
+      "category": "github",
+      "name": "ezhuk/modbus-mcp",
+      "url": "https://github.com/ezhuk/modbus-mcp",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:Fabio-Menjivar/posBTC-NFC",
       "category": "github",
       "name": "Fabio-Menjivar/posBTC-NFC",
@@ -10546,6 +10713,13 @@
       "name": "fafofafo/agent-memory",
       "url": "https://github.com/fafofafo/agent-memory",
       "firstSeen": "2026-10-27T16:57:26+00:00"
+    },
+    {
+      "id": "github:fagerbergj/quack",
+      "category": "github",
+      "name": "fagerbergj/quack",
+      "url": "https://github.com/fagerbergj/quack",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:fahmiwulidan/business-process-automation-ui",
@@ -11283,6 +11457,20 @@
       "firstSeen": "2026-10-26T23:15:29+00:00"
     },
     {
+      "id": "github:GiacomoSaccaggi/Mithril",
+      "category": "github",
+      "name": "GiacomoSaccaggi/Mithril",
+      "url": "https://github.com/GiacomoSaccaggi/Mithril",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
+      "id": "github:giantswarm/mcp-capi",
+      "category": "github",
+      "name": "giantswarm/mcp-capi",
+      "url": "https://github.com/giantswarm/mcp-capi",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:giantswarm/mcp-kubernetes",
       "category": "github",
       "name": "giantswarm/mcp-kubernetes",
@@ -11407,6 +11595,13 @@
       "name": "goelraghav002/bestelectronics",
       "url": "https://github.com/goelraghav002/bestelectronics",
       "firstSeen": "2026-10-27T18:18:34+00:00"
+    },
+    {
+      "id": "github:goern/forgejo-mcp",
+      "category": "github",
+      "name": "goern/forgejo-mcp",
+      "url": "https://github.com/goern/forgejo-mcp",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:goldenrockadvancements/ai-builder-os-lite",
@@ -11645,6 +11840,13 @@
       "name": "hacrootechnologies/Gydmation-AI",
       "url": "https://github.com/hacrootechnologies/Gydmation-AI",
       "firstSeen": "2026-10-27T16:37:04+00:00"
+    },
+    {
+      "id": "github:hadidwirsty/intervals-icu-mcp",
+      "category": "github",
+      "name": "hadidwirsty/intervals-icu-mcp",
+      "url": "https://github.com/hadidwirsty/intervals-icu-mcp",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:Hafeez1177/business-process-automation",
@@ -12291,6 +12493,13 @@
       "firstSeen": "2026-10-27T23:59:45+00:00"
     },
     {
+      "id": "github:hoidn/agent-orchestration",
+      "category": "github",
+      "name": "hoidn/agent-orchestration",
+      "url": "https://github.com/hoidn/agent-orchestration",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:HolobiomicsLab/Mimosa-AI",
       "category": "github",
       "name": "HolobiomicsLab/Mimosa-AI",
@@ -12515,6 +12724,13 @@
       "firstSeen": "2026-10-27T15:37:05+00:00"
     },
     {
+      "id": "github:ianwesterfield/aj",
+      "category": "github",
+      "name": "ianwesterfield/aj",
+      "url": "https://github.com/ianwesterfield/aj",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:ianwieds/awesome-ai-agents",
       "category": "github",
       "name": "ianwieds/awesome-ai-agents",
@@ -12534,6 +12750,13 @@
       "name": "IBM/ibm-process-mining-BAW-accelerator",
       "url": "https://github.com/IBM/ibm-process-mining-BAW-accelerator",
       "firstSeen": "2026-10-27T22:58:24+00:00"
+    },
+    {
+      "id": "github:IBM/ibm-watsonxdata-mcp-server",
+      "category": "github",
+      "name": "IBM/ibm-watsonxdata-mcp-server",
+      "url": "https://github.com/IBM/ibm-watsonxdata-mcp-server",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:ibrahemassa/swarm",
@@ -13054,6 +13277,13 @@
       "firstSeen": "2026-10-27T21:04:38+00:00"
     },
     {
+      "id": "github:ivanostanin/lucius-mcp",
+      "category": "github",
+      "name": "ivanostanin/lucius-mcp",
+      "url": "https://github.com/ivanostanin/lucius-mcp",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:iwik1329/iwik1329",
       "category": "github",
       "name": "iwik1329/iwik1329",
@@ -13089,6 +13319,13 @@
       "firstSeen": "2026-10-27T18:41:59+00:00"
     },
     {
+      "id": "github:jabraham05/smart-assistant",
+      "category": "github",
+      "name": "jabraham05/smart-assistant",
+      "url": "https://github.com/jabraham05/smart-assistant",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:jabranwaheed01/llm-evaluation",
       "category": "github",
       "name": "jabranwaheed01/llm-evaluation",
@@ -13103,6 +13340,13 @@
       "firstSeen": "2026-10-27T20:24:05+00:00"
     },
     {
+      "id": "github:Jackalope-Dev/all-mcps",
+      "category": "github",
+      "name": "Jackalope-Dev/all-mcps",
+      "url": "https://github.com/Jackalope-Dev/all-mcps",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:jackeydou/Owls",
       "category": "github",
       "name": "jackeydou/Owls",
@@ -13115,6 +13359,13 @@
       "name": "Jacky97s/qstack",
       "url": "https://github.com/Jacky97s/qstack",
       "firstSeen": "2026-10-27T13:28:19+00:00"
+    },
+    {
+      "id": "github:jacob-bd/gemini-notebook-mcp-cli",
+      "category": "github",
+      "name": "jacob-bd/gemini-notebook-mcp-cli",
+      "url": "https://github.com/jacob-bd/gemini-notebook-mcp-cli",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:Jag1603/Requests-using-Python",
@@ -13747,6 +13998,13 @@
       "firstSeen": "2026-10-27T17:17:41+00:00"
     },
     {
+      "id": "github:JoakimCarlsson/ai",
+      "category": "github",
+      "name": "JoakimCarlsson/ai",
+      "url": "https://github.com/JoakimCarlsson/ai",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:JoaoBittencourt1/Genwork",
       "category": "github",
       "name": "JoaoBittencourt1/Genwork",
@@ -13852,6 +14110,13 @@
       "firstSeen": "2026-10-27T13:28:19+00:00"
     },
     {
+      "id": "github:jordanburke/ssh-client-mcp-server",
+      "category": "github",
+      "name": "jordanburke/ssh-client-mcp-server",
+      "url": "https://github.com/jordanburke/ssh-client-mcp-server",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:JordanSerafini/aura-core",
       "category": "github",
       "name": "JordanSerafini/aura-core",
@@ -13948,6 +14213,13 @@
       "name": "jpequegn/computer-use-flight-simulator",
       "url": "https://github.com/jpequegn/computer-use-flight-simulator",
       "firstSeen": "2026-10-27T19:43:30+00:00"
+    },
+    {
+      "id": "github:jrengmusic/carol",
+      "category": "github",
+      "name": "jrengmusic/carol",
+      "url": "https://github.com/jrengmusic/carol",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:js-lee-AI/awesome-llm-agent-papers",
@@ -14244,11 +14516,25 @@
       "firstSeen": "2026-10-27T15:56:21+00:00"
     },
     {
+      "id": "github:kamkejj/Drupal-MCP-Module",
+      "category": "github",
+      "name": "kamkejj/Drupal-MCP-Module",
+      "url": "https://github.com/kamkejj/Drupal-MCP-Module",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:kamranhaq21/AgentProof",
       "category": "github",
       "name": "kamranhaq21/AgentProof",
       "url": "https://github.com/kamranhaq21/AgentProof",
       "firstSeen": "2026-10-27T20:24:05+00:00"
+    },
+    {
+      "id": "github:kanderson-ai-dev/mcp-agent-toolkit",
+      "category": "github",
+      "name": "kanderson-ai-dev/mcp-agent-toolkit",
+      "url": "https://github.com/kanderson-ai-dev/mcp-agent-toolkit",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:Kanxit/Indian-Equity-Screener",
@@ -15371,6 +15657,13 @@
       "firstSeen": "2026-10-27T13:28:19+00:00"
     },
     {
+      "id": "github:launchdarkly/mcp-server",
+      "category": "github",
+      "name": "launchdarkly/mcp-server",
+      "url": "https://github.com/launchdarkly/mcp-server",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:launchstack-dev/loom-ai",
       "category": "github",
       "name": "launchstack-dev/loom-ai",
@@ -15518,6 +15811,13 @@
       "firstSeen": "2026-10-27T15:56:21+00:00"
     },
     {
+      "id": "github:LHMisme420/mcp-authscan",
+      "category": "github",
+      "name": "LHMisme420/mcp-authscan",
+      "url": "https://github.com/LHMisme420/mcp-authscan",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:lhpaul/ai-dev-framework-template",
       "category": "github",
       "name": "lhpaul/ai-dev-framework-template",
@@ -15593,6 +15893,13 @@
       "name": "lilei0311/agent-memory-infra",
       "url": "https://github.com/lilei0311/agent-memory-infra",
       "firstSeen": "2026-10-27T13:28:19+00:00"
+    },
+    {
+      "id": "github:Lingesh-S/multi-agent-blog-generator",
+      "category": "github",
+      "name": "Lingesh-S/multi-agent-blog-generator",
+      "url": "https://github.com/Lingesh-S/multi-agent-blog-generator",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:lingxiaozzz/Overseas-Student-AI-Agent",
@@ -16064,6 +16371,20 @@
       "firstSeen": "2026-10-27T22:38:23+00:00"
     },
     {
+      "id": "github:malinoto/tracepass-mcp-server",
+      "category": "github",
+      "name": "malinoto/tracepass-mcp-server",
+      "url": "https://github.com/malinoto/tracepass-mcp-server",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
+      "id": "github:mamanwhide/Batitong",
+      "category": "github",
+      "name": "mamanwhide/Batitong",
+      "url": "https://github.com/mamanwhide/Batitong",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:Manal-Elagri/PFE-Port-Business-Process-Automation",
       "category": "github",
       "name": "Manal-Elagri/PFE-Port-Business-Process-Automation",
@@ -16295,6 +16616,13 @@
       "firstSeen": "2026-10-27T15:56:21+00:00"
     },
     {
+      "id": "github:master72o/agentbench-works",
+      "category": "github",
+      "name": "master72o/agentbench-works",
+      "url": "https://github.com/master72o/agentbench-works",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:MasterPandaa/Prompt-Engineering-Collection",
       "category": "github",
       "name": "MasterPandaa/Prompt-Engineering-Collection",
@@ -16475,6 +16803,20 @@
       "name": "MCERQUA/OpenVoiceUI",
       "url": "https://github.com/MCERQUA/OpenVoiceUI",
       "firstSeen": "2026-10-27T13:09:33+00:00"
+    },
+    {
+      "id": "github:mcpqt/mcpqt_host",
+      "category": "github",
+      "name": "mcpqt/mcpqt_host",
+      "url": "https://github.com/mcpqt/mcpqt_host",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
+      "id": "github:mdesalvo/Morgana",
+      "category": "github",
+      "name": "mdesalvo/Morgana",
+      "url": "https://github.com/mdesalvo/Morgana",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:MdMushfiqueRahman/UAV-LLM-RAG-Research",
@@ -17058,6 +17400,13 @@
       "firstSeen": "2026-10-27T16:57:26+00:00"
     },
     {
+      "id": "github:moazzamsaeed/ai-trading-assistant",
+      "category": "github",
+      "name": "moazzamsaeed/ai-trading-assistant",
+      "url": "https://github.com/moazzamsaeed/ai-trading-assistant",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:Mochi-Sora/MasonAgent",
       "category": "github",
       "name": "Mochi-Sora/MasonAgent",
@@ -17086,11 +17435,25 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "github:modulewise/composable-tools",
+      "category": "github",
+      "name": "modulewise/composable-tools",
+      "url": "https://github.com/modulewise/composable-tools",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:MohakDas/EVORA-AI",
       "category": "github",
       "name": "MohakDas/EVORA-AI",
       "url": "https://github.com/MohakDas/EVORA-AI",
       "firstSeen": "2026-10-27T21:44:11+00:00"
+    },
+    {
+      "id": "github:Mohamed5332/Agentic-AI-workflows-",
+      "category": "github",
+      "name": "Mohamed5332/Agentic-AI-workflows-",
+      "url": "https://github.com/Mohamed5332/Agentic-AI-workflows-",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:mohameds0liman/AGYRA",
@@ -17301,6 +17664,13 @@
       "name": "mostafa-abd/Durable-Workflow-Automation-Engine",
       "url": "https://github.com/mostafa-abd/Durable-Workflow-Automation-Engine",
       "firstSeen": "2026-10-27T20:24:05+00:00"
+    },
+    {
+      "id": "github:mosvera/mcp",
+      "category": "github",
+      "name": "mosvera/mcp",
+      "url": "https://github.com/mosvera/mcp",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:motalim-ai/project-kickstart",
@@ -18381,6 +18751,13 @@
       "firstSeen": "2026-10-27T21:44:11+00:00"
     },
     {
+      "id": "github:neuron-core/neuron-ai",
+      "category": "github",
+      "name": "neuron-core/neuron-ai",
+      "url": "https://github.com/neuron-core/neuron-ai",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:NeuronCrafter/AgenticAi",
       "category": "github",
       "name": "NeuronCrafter/AgenticAi",
@@ -18794,6 +19171,13 @@
       "firstSeen": "2026-10-27T23:39:16+00:00"
     },
     {
+      "id": "github:NoveraX/courier",
+      "category": "github",
+      "name": "NoveraX/courier",
+      "url": "https://github.com/NoveraX/courier",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:novora-voice/novora-backend",
       "category": "github",
       "name": "novora-voice/novora-backend",
@@ -18946,6 +19330,13 @@
       "name": "oguzhan-canada/otm-agent-site",
       "url": "https://github.com/oguzhan-canada/otm-agent-site",
       "firstSeen": "2026-10-27T13:09:33+00:00"
+    },
+    {
+      "id": "github:ohi-stack/onegodian-llm",
+      "category": "github",
+      "name": "ohi-stack/onegodian-llm",
+      "url": "https://github.com/ohi-stack/onegodian-llm",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:oinsio/gnomish-factory",
@@ -19501,6 +19892,13 @@
       "firstSeen": "2026-10-27T23:59:45+00:00"
     },
     {
+      "id": "github:PatrickFanella/switchyard",
+      "category": "github",
+      "name": "PatrickFanella/switchyard",
+      "url": "https://github.com/PatrickFanella/switchyard",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:patritsia-marinova/ASML-Accounts-Payable-Process-Automation",
       "category": "github",
       "name": "patritsia-marinova/ASML-Accounts-Payable-Process-Automation",
@@ -19646,6 +20044,13 @@
       "name": "pedrohba1/selfhosted",
       "url": "https://github.com/pedrohba1/selfhosted",
       "firstSeen": "2026-10-27T22:26:16+00:00"
+    },
+    {
+      "id": "github:pedronaugusto/parley",
+      "category": "github",
+      "name": "pedronaugusto/parley",
+      "url": "https://github.com/pedronaugusto/parley",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:pelavin/square-web-payments",
@@ -20369,6 +20774,13 @@
       "firstSeen": "2026-10-27T18:38:31+00:00"
     },
     {
+      "id": "github:Pxrikshit/Hexer-MultiAgent-Workflow",
+      "category": "github",
+      "name": "Pxrikshit/Hexer-MultiAgent-Workflow",
+      "url": "https://github.com/Pxrikshit/Hexer-MultiAgent-Workflow",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:pyinsteon/pyinsteon",
       "category": "github",
       "name": "pyinsteon/pyinsteon",
@@ -20719,11 +21131,25 @@
       "firstSeen": "2026-10-27T23:59:45+00:00"
     },
     {
+      "id": "github:RANJITHROSAN17/Vexar-MCP",
+      "category": "github",
+      "name": "RANJITHROSAN17/Vexar-MCP",
+      "url": "https://github.com/RANJITHROSAN17/Vexar-MCP",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:RaoSharifMansoob/HealerPlus-Enhancing-Healthcare-Security",
       "category": "github",
       "name": "RaoSharifMansoob/HealerPlus-Enhancing-Healthcare-Security",
       "url": "https://github.com/RaoSharifMansoob/HealerPlus-Enhancing-Healthcare-Security",
       "firstSeen": "2026-10-27T21:04:38+00:00"
+    },
+    {
+      "id": "github:raresjuretchi/ai-agents-python",
+      "category": "github",
+      "name": "raresjuretchi/ai-agents-python",
+      "url": "https://github.com/raresjuretchi/ai-agents-python",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:rash-aad/Gmail-Analysing-MCP-Agent",
@@ -20901,6 +21327,13 @@
       "firstSeen": "2026-10-27T16:16:41+00:00"
     },
     {
+      "id": "github:RecursiveIntell/agent-graph-mcp",
+      "category": "github",
+      "name": "RecursiveIntell/agent-graph-mcp",
+      "url": "https://github.com/RecursiveIntell/agent-graph-mcp",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:reddy895/EvalForge20",
       "category": "github",
       "name": "reddy895/EvalForge20",
@@ -20950,6 +21383,13 @@
       "firstSeen": "2026-10-27T18:41:59+00:00"
     },
     {
+      "id": "github:ReluPercan/FossilSoloMCP",
+      "category": "github",
+      "name": "ReluPercan/FossilSoloMCP",
+      "url": "https://github.com/ReluPercan/FossilSoloMCP",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:remanthg/Agentic-Workflow-Autonomous-Task-Planner-TaskAgent-iOS-",
       "category": "github",
       "name": "remanthg/Agentic-Workflow-Autonomous-Task-Planner-TaskAgent-iOS-",
@@ -20992,6 +21432,13 @@
       "firstSeen": "2026-10-27T22:38:23+00:00"
     },
     {
+      "id": "github:Research-Center-for-Smart-Learning-RCSL/Smart-MultiAgent-Platform",
+      "category": "github",
+      "name": "Research-Center-for-Smart-Learning-RCSL/Smart-MultiAgent-Platform",
+      "url": "https://github.com/Research-Center-for-Smart-Learning-RCSL/Smart-MultiAgent-Platform",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:Retsumdk/agent-memory-manager",
       "category": "github",
       "name": "Retsumdk/agent-memory-manager",
@@ -21032,6 +21479,20 @@
       "name": "rezadrian01/Kasirku",
       "url": "https://github.com/rezadrian01/Kasirku",
       "firstSeen": "2026-10-27T16:16:41+00:00"
+    },
+    {
+      "id": "github:rhamenator/request-guard-mcp-dotnet",
+      "category": "github",
+      "name": "rhamenator/request-guard-mcp-dotnet",
+      "url": "https://github.com/rhamenator/request-guard-mcp-dotnet",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
+      "id": "github:rhozacc/prudent-mcp",
+      "category": "github",
+      "name": "rhozacc/prudent-mcp",
+      "url": "https://github.com/rhozacc/prudent-mcp",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:Rhythm82/EVORA-AI-FINAL",
@@ -21636,6 +22097,13 @@
       "firstSeen": "2026-10-27T16:57:26+00:00"
     },
     {
+      "id": "github:RuslanStrogov/awesome-max-integrations",
+      "category": "github",
+      "name": "RuslanStrogov/awesome-max-integrations",
+      "url": "https://github.com/RuslanStrogov/awesome-max-integrations",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:rutangpatel/ai-researcher",
       "category": "github",
       "name": "rutangpatel/ai-researcher",
@@ -21648,6 +22116,13 @@
       "name": "Ruthvikvarma26/Sharkguardwallet-detector",
       "url": "https://github.com/Ruthvikvarma26/Sharkguardwallet-detector",
       "firstSeen": "2026-10-27T17:17:41+00:00"
+    },
+    {
+      "id": "github:Rutytoi220/Zelyr",
+      "category": "github",
+      "name": "Rutytoi220/Zelyr",
+      "url": "https://github.com/Rutytoi220/Zelyr",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:Rvpatil-tech/TensorTalezz-RV",
@@ -22292,6 +22767,13 @@
       "name": "santur90/genomics-tool-agent",
       "url": "https://github.com/santur90/genomics-tool-agent",
       "firstSeen": "2026-10-27T20:44:22+00:00"
+    },
+    {
+      "id": "github:SAP/mdk-mcp-server",
+      "category": "github",
+      "name": "SAP/mdk-mcp-server",
+      "url": "https://github.com/SAP/mdk-mcp-server",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:saqibkhan1691/RAG_Portfolio",
@@ -23827,6 +24309,13 @@
       "firstSeen": "2026-10-27T23:59:45+00:00"
     },
     {
+      "id": "github:spacelabdevteam-hub/space-journey-mcp-engine",
+      "category": "github",
+      "name": "spacelabdevteam-hub/space-journey-mcp-engine",
+      "url": "https://github.com/spacelabdevteam-hub/space-journey-mcp-engine",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:spagnolocosimo/Automated-Content-for-LinkedIn",
       "category": "github",
       "name": "spagnolocosimo/Automated-Content-for-LinkedIn",
@@ -24175,6 +24664,13 @@
       "name": "strikersam/autonomous-ai-agency",
       "url": "https://github.com/strikersam/autonomous-ai-agency",
       "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:StriveJ/artificial-intelligence-origin-agent",
+      "category": "github",
+      "name": "StriveJ/artificial-intelligence-origin-agent",
+      "url": "https://github.com/StriveJ/artificial-intelligence-origin-agent",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:Strophic-in/content_corpus",
@@ -24646,11 +25142,25 @@
       "firstSeen": "2026-10-27T20:03:47+00:00"
     },
     {
+      "id": "github:synapse-ai-hub/Forge",
+      "category": "github",
+      "name": "synapse-ai-hub/Forge",
+      "url": "https://github.com/synapse-ai-hub/Forge",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:synapseorch-ai/synapse-ai",
       "category": "github",
       "name": "synapseorch-ai/synapse-ai",
       "url": "https://github.com/synapseorch-ai/synapse-ai",
       "firstSeen": "2026-10-27T22:26:16+00:00"
+    },
+    {
+      "id": "github:syncom-systems/mcp-re",
+      "category": "github",
+      "name": "syncom-systems/mcp-re",
+      "url": "https://github.com/syncom-systems/mcp-re",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:Syngnat/dsh-codex-tools",
@@ -25022,6 +25532,13 @@
       "name": "tejovex-Gdsmedia/ai-audit-tool",
       "url": "https://github.com/tejovex-Gdsmedia/ai-audit-tool",
       "firstSeen": "2026-10-27T21:04:38+00:00"
+    },
+    {
+      "id": "github:tekliner/improvado-agentic-frameworks-and-skills",
+      "category": "github",
+      "name": "tekliner/improvado-agentic-frameworks-and-skills",
+      "url": "https://github.com/tekliner/improvado-agentic-frameworks-and-skills",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:tekvisions/eval-index",
@@ -25407,6 +25924,13 @@
       "name": "tinyfish-io/agentql-integrations",
       "url": "https://github.com/tinyfish-io/agentql-integrations",
       "firstSeen": "2026-10-27T20:24:05+00:00"
+    },
+    {
+      "id": "github:tinyfish-io/tinyfish-web-agent-integrations",
+      "category": "github",
+      "name": "tinyfish-io/tinyfish-web-agent-integrations",
+      "url": "https://github.com/tinyfish-io/tinyfish-web-agent-integrations",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:TirupMehta/trace-guard",
@@ -25962,6 +26486,13 @@
       "firstSeen": "2026-10-27T22:38:23+00:00"
     },
     {
+      "id": "github:Unaware-Kerbin/agent-orchestrator",
+      "category": "github",
+      "name": "Unaware-Kerbin/agent-orchestrator",
+      "url": "https://github.com/Unaware-Kerbin/agent-orchestrator",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:unidentifiedcyberghost/BotsEye-Automation",
       "category": "github",
       "name": "unidentifiedcyberghost/BotsEye-Automation",
@@ -25988,6 +26519,13 @@
       "name": "Unrealxtr/AI_Agents_Scratch",
       "url": "https://github.com/Unrealxtr/AI_Agents_Scratch",
       "firstSeen": "2026-10-27T20:44:22+00:00"
+    },
+    {
+      "id": "github:Upload-Post/upload-post-mcp",
+      "category": "github",
+      "name": "Upload-Post/upload-post-mcp",
+      "url": "https://github.com/Upload-Post/upload-post-mcp",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:upranayak/RevPilot",
@@ -26401,6 +26939,13 @@
       "name": "ViCrack/wtfutil",
       "url": "https://github.com/ViCrack/wtfutil",
       "firstSeen": "2026-10-27T18:18:34+00:00"
+    },
+    {
+      "id": "github:VictoriaMetrics/mcp-vmanomaly",
+      "category": "github",
+      "name": "VictoriaMetrics/mcp-vmanomaly",
+      "url": "https://github.com/VictoriaMetrics/mcp-vmanomaly",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:Victorious93/victorious-framework",
@@ -27096,6 +27641,13 @@
       "firstSeen": "2026-10-27T22:26:16+00:00"
     },
     {
+      "id": "github:woojubb/robota",
+      "category": "github",
+      "name": "woojubb/robota",
+      "url": "https://github.com/woojubb/robota",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
       "id": "github:woolnerd/production-rag-system",
       "category": "github",
       "name": "woolnerd/production-rag-system",
@@ -27402,6 +27954,13 @@
       "name": "Yashkadam04/Campus-Saarthi",
       "url": "https://github.com/Yashkadam04/Campus-Saarthi",
       "firstSeen": "2026-10-27T22:07:25+00:00"
+    },
+    {
+      "id": "github:YashkantG/mcp-triage",
+      "category": "github",
+      "name": "YashkantG/mcp-triage",
+      "url": "https://github.com/YashkantG/mcp-triage",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:YashParmar05/agentic-rag-assistant",
@@ -27857,6 +28416,13 @@
       "name": "zhayujie/CowAgent",
       "url": "https://github.com/zhayujie/CowAgent",
       "firstSeen": "2026-10-27T13:28:19+00:00"
+    },
+    {
+      "id": "github:Zhgong/codesys-mcp-plugin",
+      "category": "github",
+      "name": "Zhgong/codesys-mcp-plugin",
+      "url": "https://github.com/Zhgong/codesys-mcp-plugin",
+      "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
       "id": "github:Zhhasan44/Buck-RAG",
@@ -34156,9 +34722,9 @@
   "cloud": {
     "agent": "Éclaireur NOVENS CORE",
     "execution": "GitHub Actions",
-    "lastMissionAt": "2026-10-27T23:59:45+00:00",
+    "lastMissionAt": "2026-10-28T00:19:59+00:00",
     "missionStatus": "succès",
-    "newResources": 90,
+    "newResources": 80,
     "errors": 0,
     "nextScheduled": "Toutes les 10 minutes si GitHub Actions disponible",
     "machineIndependence": true
@@ -34169,10 +34735,10 @@
       "title": "Classer des modèles IA par tâche et licence déclarée",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-10-27T23:59:58+00:00",
-      "practiceCount": 60,
+      "lastPracticedAt": "2026-10-28T00:20:12+00:00",
+      "practiceCount": 62,
       "proofPath": "evidence/hf-model-task-classification-v1.json",
-      "proofSha256": "d968c04290375652a7d03c7cfde40413e18b2c279789c450d646840dd6098d3a",
+      "proofSha256": "bed5fd3d3fa57c5685af7bb3121da1d6b5f84d9bb70025ac65ad211a107a6f67",
       "resourcesTested": [
         "https://huggingface.co/agentionai/Qwen3.8-27B-AP-GGUF",
         "https://huggingface.co/agentionai/Signal-3.8-27B",
@@ -34233,7 +34799,9 @@
         "https://huggingface.co/bartowski/agentica-org_DeepCoder-14B-Preview-GGUF",
         "https://huggingface.co/calebcsjm/reverse_text_generation_HarryPotter",
         "https://huggingface.co/deadbydawn101/RavenXAiLabs-Chaos-Agent-Qwen3.8-27B-Frontier-Intelligence-Injected-OBLITERATED-GGUF",
-        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+        "https://huggingface.co/douglasfaisal/granularity-legal-reranker-cross-encoder-indobert-base-p2",
+        "https://huggingface.co/dragonkue/bge-reranker-v2-m3-ko"
       ]
     },
     {
@@ -34311,10 +34879,10 @@
       "title": "Diagnostiquer le runtime de démonstrations IA",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-10-27T23:59:58+00:00",
-      "practiceCount": 60,
+      "lastPracticedAt": "2026-10-28T00:20:12+00:00",
+      "practiceCount": 62,
       "proofPath": "evidence/hf-space-runtime-diagnostics-v1.json",
-      "proofSha256": "be1450176758e9aa87e26499e8f71681b117d1a46cd6ce2addefe65454284443",
+      "proofSha256": "684af8036987dc01f88107cb4ce7ec252bb894e19fcfb4e34c4340ac7da6edfc",
       "resourcesTested": [
         "https://huggingface.co/spaces/Aarya003/Financial-Analyst-Agent",
         "https://huggingface.co/spaces/AceVikings/repro-learning-human-robot-collaboration-via-heterogeneous-agent-lyapunov-policy-optimizatio",
@@ -34375,7 +34943,9 @@
         "https://huggingface.co/spaces/dog/fastapi-document-qa",
         "https://huggingface.co/spaces/doyled-it/BUSTA-IFCE-Code-Search",
         "https://huggingface.co/spaces/finebooks/bhl-ocr-leaderboard",
-        "https://huggingface.co/spaces/framajawa/Chichewa-Automatic-Transcription"
+        "https://huggingface.co/spaces/framajawa/Chichewa-Automatic-Transcription",
+        "https://huggingface.co/spaces/harish3110/document-parsing-demo",
+        "https://huggingface.co/spaces/harry85/multi-agent-ai-autogen-coding"
       ]
     },
     {
@@ -34383,10 +34953,10 @@
       "title": "Lire et contrôler des échantillons de datasets publics",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:46+00:00",
-      "lastPracticedAt": "2026-10-28T00:00:01+00:00",
-      "practiceCount": 60,
+      "lastPracticedAt": "2026-10-28T00:20:14+00:00",
+      "practiceCount": 62,
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "c354abb9d52ec6ec1a84dd54347bd3b83dc63b7208b9c932b48a4ec437f72d38",
+      "proofSha256": "737e518086a0fd7062602a1866a86f21aa1ca33674f14776c18f2294c1ec9241",
       "resourcesTested": [
         "https://huggingface.co/datasets/AdityaaXD/Multi-Agent_Reinforcement_Learning_Trading_System_Data",
         "https://huggingface.co/datasets/Agent-Ark/Toucan-1.5M",
@@ -34447,7 +35017,9 @@
         "https://huggingface.co/datasets/jamescalam/lex-transcripts",
         "https://huggingface.co/datasets/jamescalam/youtube-transcriptions",
         "https://huggingface.co/datasets/jason1966/abidhussai512_ai-tools-usage-and-trends-dataset-2026",
-        "https://huggingface.co/datasets/JaydubzJW/documents"
+        "https://huggingface.co/datasets/JaydubzJW/documents",
+        "https://huggingface.co/datasets/joytafty/denoising-dirty-documents-cleaned",
+        "https://huggingface.co/datasets/joytafty/denoising-dirty-documents-test"
       ]
     },
     {
@@ -34503,124 +35075,6 @@
     }
   ],
   "capabilityTrials": [
-    {
-      "date": "2026-10-27T17:58:27+00:00",
-      "skillId": "github-repository-technical-audit-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 24,
-      "failures": [
-        {
-          "repository": "annatran05022000-cpu/best-crm-for-small-business-open-source",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-27T17:58:29+00:00",
-      "skillId": "hf-model-task-classification-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 22,
-      "failures": [
-        {
-          "id": "krishanusinha20/multi-agentic-sql-generator-model",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-27T17:58:29+00:00",
-      "skillId": "hf-dataset-usage-assessment-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 22,
-      "failures": [
-        {
-          "id": "joey234/mmlu-professional_accounting-neg-answer",
-          "reason": "ValueError"
-        },
-        {
-          "id": "joey234/mmlu-professional_accounting-neg-prepend",
-          "reason": "ValueError"
-        },
-        {
-          "id": "joey234/mmlu-professional_accounting-neg-prepend-fix",
-          "reason": "ValueError"
-        },
-        {
-          "id": "joey234/mmlu-professional_accounting-neg-prepend-verbal",
-          "reason": "ValueError"
-        },
-        {
-          "id": "joey234/mmlu-professional_accounting-original-neg",
-          "reason": "ValueError"
-        },
-        {
-          "id": "joey234/mmlu-professional_accounting-original-neg-prepend",
-          "reason": "ValueError"
-        },
-        {
-          "id": "joey234/mmlu-professional_accounting-rule-neg",
-          "reason": "ValueError"
-        },
-        {
-          "id": "joey234/mmlu-professional_accounting-rule-neg-prepend",
-          "reason": "ValueError"
-        },
-        {
-          "id": "joey234/mmlu-professional_accounting-verbal-neg-prepend",
-          "reason": "ValueError"
-        },
-        {
-          "id": "joshuajano/donut-invoices",
-          "reason": "ValueError"
-        },
-        {
-          "id": "joytafty/denoising-dirty-documents-cleaned",
-          "reason": "ValueError"
-        },
-        {
-          "id": "joytafty/denoising-dirty-documents-test",
-          "reason": "ValueError"
-        },
-        {
-          "id": "joytafty/denoising-dirty-documents-train",
-          "reason": "ValueError"
-        },
-        {
-          "id": "joytafty/denoising-dirty-documents-trained_cleaned",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-27T17:58:29+00:00",
-      "skillId": "hf-space-runtime-diagnostics-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 22,
-      "failures": []
-    },
-    {
-      "date": "2026-10-27T17:58:32+00:00",
-      "skillId": "hf-dataset-sample-ingestion-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "failedResources": [
-        {
-          "id": "katsubakirill/toolace-hallucination-span-detection",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        }
-      ],
-      "totalVerifiedExercises": 22
-    },
     {
       "date": "2026-10-27T18:18:43+00:00",
       "skillId": "github-repository-technical-audit-v1",
@@ -36920,25 +37374,197 @@
       "reportsRequired": 1,
       "failedResources": [],
       "totalVerifiedExercises": 60
+    },
+    {
+      "date": "2026-10-28T00:20:06+00:00",
+      "skillId": "github-repository-technical-audit-v1",
+      "result": "no-new-evidence",
+      "reportsPassed": 0,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 39,
+      "failures": [
+        {
+          "repository": "api-evangelist/h-company",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "api-evangelist/identify-software",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "api-evangelist/igent",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "api-evangelist/image-api",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "api-evangelist/istante",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "api-evangelist/judgment-labs",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "api-evangelist/kernel",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "api-evangelist/logicstar",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "api-evangelist/luthersystems-com",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "api-evangelist/mastra",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "api-evangelist/mattermost",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "api-evangelist/nected",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28T00:20:12+00:00",
+      "skillId": "hf-model-task-classification-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 62,
+      "failures": [
+        {
+          "id": "dom31489/text-generation-webui",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28T00:20:12+00:00",
+      "skillId": "hf-dataset-usage-assessment-v1",
+      "result": "no-new-evidence",
+      "reportsPassed": 0,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 58,
+      "failures": [
+        {
+          "id": "hf-internal-testing/example-documents",
+          "reason": "ValueError"
+        },
+        {
+          "id": "hkust-nlp/Toolathlon",
+          "reason": "ValueError"
+        },
+        {
+          "id": "honlzl/invoice",
+          "reason": "ValueError"
+        },
+        {
+          "id": "huggingartists/tool",
+          "reason": "ValueError"
+        },
+        {
+          "id": "huggingface-tools/default-prompts",
+          "reason": "ValueError"
+        },
+        {
+          "id": "HumynLabs/Brazilian_Bills_and_Invoices_Dataset",
+          "reason": "ValueError"
+        },
+        {
+          "id": "hyacinthum/Vehicle_Dataset",
+          "reason": "ValueError"
+        },
+        {
+          "id": "HydraLM/GPTeacher_toolformer_alpaca",
+          "reason": "ValueError"
+        },
+        {
+          "id": "HydraLM/GPTeacher_toolformer_list_dict",
+          "reason": "ValueError"
+        },
+        {
+          "id": "HydraLM/GPTeacher_toolformer_standardized",
+          "reason": "ValueError"
+        },
+        {
+          "id": "ikuldeep1/vehicle-damage-fraud-image",
+          "reason": "ValueError"
+        },
+        {
+          "id": "ikuldeep1/vehicle-damage-fraud-image-balanced",
+          "reason": "ValueError"
+        },
+        {
+          "id": "irds/msmarco-document",
+          "reason": "ValueError"
+        },
+        {
+          "id": "irds/msmarco-document-v2",
+          "reason": "ValueError"
+        },
+        {
+          "id": "irds/msmarco-document-v2_trec-dl-2019",
+          "reason": "ValueError"
+        },
+        {
+          "id": "irds/msmarco-document-v2_trec-dl-2019_judged",
+          "reason": "ValueError"
+        },
+        {
+          "id": "irds/msmarco-document-v2_trec-dl-2020",
+          "reason": "ValueError"
+        },
+        {
+          "id": "irds/msmarco-document-v2_trec-dl-2020_judged",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28T00:20:12+00:00",
+      "skillId": "hf-space-runtime-diagnostics-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 62,
+      "failures": []
+    },
+    {
+      "date": "2026-10-28T00:20:14+00:00",
+      "skillId": "hf-dataset-sample-ingestion-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "failedResources": [],
+      "totalVerifiedExercises": 62
     }
   ],
   "lastCapabilityVerification": {
-    "date": "2026-10-28T00:00:01+00:00",
+    "date": "2026-10-28T00:20:14+00:00",
     "skillId": "hf-dataset-sample-ingestion-v1",
     "result": "reinforced"
   },
   "discovery": {
-    "cursor": 30,
+    "cursor": 31,
     "capacity": 20000,
-    "lastBatch": 90,
+    "lastBatch": 80,
     "newByCategory": {
-      "github": 90,
+      "github": 80,
       "models": 0,
       "datasets": 0,
       "spaces": 0
     },
     "queriesLastRun": 7,
-    "totalSearchCycles": 30,
+    "totalSearchCycles": 31,
     "lastErrors": []
   },
   "approvedResources": [
@@ -37361,7 +37987,21 @@
       "approvedFor": "read-only-dataset-sampling",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
       "testedAt": "2026-10-28T00:00:01+00:00"
+    },
+    {
+      "id": "joytafty/denoising-dirty-documents-cleaned",
+      "source": "https://huggingface.co/datasets/joytafty/denoising-dirty-documents-cleaned",
+      "approvedFor": "read-only-dataset-sampling",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "testedAt": "2026-10-28T00:20:14+00:00"
+    },
+    {
+      "id": "joytafty/denoising-dirty-documents-test",
+      "source": "https://huggingface.co/datasets/joytafty/denoising-dirty-documents-test",
+      "approvedFor": "read-only-dataset-sampling",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "testedAt": "2026-10-28T00:20:14+00:00"
     }
   ],
-  "approvedResourceCount": 60
+  "approvedResourceCount": 62
 }
