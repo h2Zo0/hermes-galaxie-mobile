@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T04:22:57+00:00",
+  "lastPracticedAt": "2026-10-28T04:43:46+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -902,6 +902,28 @@
         "zip"
       ],
       "listedFiles": 101,
+      "access": "public"
+    },
+    {
+      "id": "Vikhrmodels/tool-plannings-v0.2",
+      "source": "https://huggingface.co/datasets/Vikhrmodels/tool-plannings-v0.2",
+      "observedAt": "2026-10-28T04:43:46+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 9,
+      "access": "public"
+    },
+    {
+      "id": "waechor/tuto_foo_french2023",
+      "source": "https://huggingface.co/datasets/waechor/tuto_foo_french2023",
+      "observedAt": "2026-10-28T04:43:46+00:00",
+      "declaredLicense": "cc-by-sa-3.0",
+      "formats": [
+        "csv"
+      ],
+      "listedFiles": 3,
       "access": "public"
     }
   ]
