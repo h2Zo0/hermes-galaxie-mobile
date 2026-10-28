@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T06:25:31+00:00",
+  "lastPracticedAt": "2026-10-28T06:46:03+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -1259,6 +1259,35 @@
       "archived": false,
       "starsAtTest": 1,
       "pushedAt": "2026-10-06T22:12:07Z"
+    },
+    {
+      "repository": "beingdutta/A-Controlled-Four-Dimension-Benchmark-of-Small-Instruction-Tuned-LLMs-on-Mental-Health-MCQA",
+      "url": "https://github.com/beingdutta/A-Controlled-Four-Dimension-Benchmark-of-Small-Instruction-Tuned-LLMs-on-Mental-Health-MCQA",
+      "defaultBranch": "master",
+      "primaryLanguage": "Jupyter Notebook",
+      "primaryLanguageSharePercent": 97.17,
+      "languageBytes": {
+        "Jupyter Notebook": 865591,
+        "TeX": 25242
+      },
+      "totalLanguageBytes": 890833,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-22T00:45:29Z"
+    },
+    {
+      "repository": "BelAnas/mcp-business-tools-server",
+      "url": "https://github.com/BelAnas/mcp-business-tools-server",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 144738
+      },
+      "totalLanguageBytes": 144738,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-27T11:13:33Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

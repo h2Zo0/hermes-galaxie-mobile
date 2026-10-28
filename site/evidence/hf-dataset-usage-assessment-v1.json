@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T06:04:50+00:00",
+  "lastPracticedAt": "2026-10-28T06:46:05+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1000,6 +1000,28 @@
       "declaredLicense": "cc-by-4.0",
       "formats": [
         "parquet"
+      ],
+      "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "DeepNLP/embodied-ai-ai-agent",
+      "source": "https://huggingface.co/datasets/DeepNLP/embodied-ai-ai-agent",
+      "observedAt": "2026-10-28T06:46:05+00:00",
+      "declaredLicense": "mit",
+      "formats": [
+        "json"
+      ],
+      "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "DeepNLP/trip-planning-ai-agent",
+      "source": "https://huggingface.co/datasets/DeepNLP/trip-planning-ai-agent",
+      "observedAt": "2026-10-28T06:46:05+00:00",
+      "declaredLicense": "mit",
+      "formats": [
+        "json"
       ],
       "listedFiles": 3,
       "access": "public"
