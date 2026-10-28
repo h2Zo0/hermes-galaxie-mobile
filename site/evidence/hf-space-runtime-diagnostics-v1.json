@@ -3,7 +3,7 @@
   "title": "Diagnostiquer le runtime de démonstrations IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T22:20:35+00:00",
+  "lastPracticedAt": "2026-10-28T22:40:58+00:00",
   "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
   "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
   "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
@@ -1696,6 +1696,24 @@
       "id": "vincentclaes/DocumentQAComparator",
       "source": "https://huggingface.co/spaces/vincentclaes/DocumentQAComparator",
       "observedAt": "2026-10-28T22:20:35+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNTIME_ERROR",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "zakaria-ch49/Medical-Question-Answering-with-Retrieval-Augmented-Generation_RAG",
+      "source": "https://huggingface.co/spaces/zakaria-ch49/Medical-Question-Answering-with-Retrieval-Augmented-Generation_RAG",
+      "observedAt": "2026-10-28T22:40:58+00:00",
+      "sdk": "docker",
+      "runtimeStage": "RUNNING",
+      "availableNow": true,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "zbellay/job-automation",
+      "source": "https://huggingface.co/spaces/zbellay/job-automation",
+      "observedAt": "2026-10-28T22:40:58+00:00",
       "sdk": "gradio",
       "runtimeStage": "RUNTIME_ERROR",
       "availableNow": false,

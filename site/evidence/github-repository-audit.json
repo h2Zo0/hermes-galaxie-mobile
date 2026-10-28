@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T22:20:34+00:00",
+  "lastPracticedAt": "2026-10-28T22:40:56+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -2772,6 +2772,36 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-21T15:09:23Z"
+    },
+    {
+      "repository": "dynamiq-ai/dynamiq",
+      "url": "https://github.com/dynamiq-ai/dynamiq",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.95,
+      "languageBytes": {
+        "Python": 9280036,
+        "Makefile": 3364,
+        "Dockerfile": 991
+      },
+      "totalLanguageBytes": 9284391,
+      "archived": false,
+      "starsAtTest": 1072,
+      "pushedAt": "2026-10-28T15:37:30Z"
+    },
+    {
+      "repository": "dyno-nexsoft/nexsoft_server_mcp",
+      "url": "https://github.com/dyno-nexsoft/nexsoft_server_mcp",
+      "defaultBranch": "main",
+      "primaryLanguage": "Dart",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Dart": 36602
+      },
+      "totalLanguageBytes": 36602,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-27T14:49:45Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

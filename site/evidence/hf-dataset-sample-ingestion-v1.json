@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-28T22:20:38+00:00",
+  "lastPracticedAt": "2026-10-28T22:41:02+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -3732,6 +3732,34 @@
       "rowCount": 3,
       "sampleSha256": "58d755c3e3e6cb9a627a02a85884023e32e06e7a79bf6c9c03824c06e81b9636",
       "observedAt": "2026-10-28T22:20:38+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "joytafty/denoising-dirty-documents-train",
+      "source": "https://huggingface.co/datasets/joytafty/denoising-dirty-documents-train",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "image"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "f64bbe1d76490a3cc9d58972487f849a55e70f3b7aa91359e133897036dd0481",
+      "observedAt": "2026-10-28T22:41:02+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "joytafty/denoising-dirty-documents-trained_cleaned",
+      "source": "https://huggingface.co/datasets/joytafty/denoising-dirty-documents-trained_cleaned",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "image"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "d58b536bde95140b8ed12b23aa510a9e2c3c3295336f7aaeccac7575f40190b2",
+      "observedAt": "2026-10-28T22:41:02+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
