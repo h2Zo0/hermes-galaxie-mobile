@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T10:51:45+00:00",
+  "lastPracticedAt": "2026-10-28T11:12:06+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -1601,6 +1601,39 @@
       "archived": false,
       "starsAtTest": 1050,
       "pushedAt": "2026-10-28T10:49:57Z"
+    },
+    {
+      "repository": "canoo/agent-nexus",
+      "url": "https://github.com/canoo/agent-nexus",
+      "defaultBranch": "main",
+      "primaryLanguage": "Go",
+      "primaryLanguageSharePercent": 50.34,
+      "languageBytes": {
+        "Go": 156965,
+        "JavaScript": 83358,
+        "Shell": 70608,
+        "Tape": 862
+      },
+      "totalLanguageBytes": 311793,
+      "archived": false,
+      "starsAtTest": 10,
+      "pushedAt": "2026-10-28T05:04:12Z"
+    },
+    {
+      "repository": "canxia-hub/memory-lancedb-pro-v4",
+      "url": "https://github.com/canxia-hub/memory-lancedb-pro-v4",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 56.58,
+      "languageBytes": {
+        "TypeScript": 132510,
+        "JavaScript": 90737,
+        "PowerShell": 10956
+      },
+      "totalLanguageBytes": 234203,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-02T23:02:40Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T10:51:46+00:00",
+  "lastPracticedAt": "2026-10-28T11:12:08+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1129,6 +1129,28 @@
         "parquet"
       ],
       "listedFiles": 5,
+      "access": "public"
+    },
+    {
+      "id": "lqfff1984/Risk-Aware-Tool-Risk-Labels",
+      "source": "https://huggingface.co/datasets/lqfff1984/Risk-Aware-Tool-Risk-Labels",
+      "observedAt": "2026-10-28T11:12:08+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "jsonl"
+      ],
+      "listedFiles": 4,
+      "access": "public"
+    },
+    {
+      "id": "maximoss/rte3-french",
+      "source": "https://huggingface.co/datasets/maximoss/rte3-french",
+      "observedAt": "2026-10-28T11:12:08+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "tsv"
+      ],
+      "listedFiles": 4,
       "access": "public"
     }
   ]
