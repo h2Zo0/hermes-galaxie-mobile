@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-28T00:20:14+00:00",
+  "lastPracticedAt": "2026-10-28T00:40:54+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -1377,6 +1377,35 @@
       "rowCount": 3,
       "sampleSha256": "caa2ed48a0c372dd478875bfc6cce13146d2beec25e5f3b7e9d23771e35dc913",
       "observedAt": "2026-10-28T00:20:14+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "kothasuhas/accounting-textbooks-16",
+      "source": "https://huggingface.co/datasets/kothasuhas/accounting-textbooks-16",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "text",
+        "textbook_name"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "ae9c1743a8d6834b4a7aa66b8a88cc6b442571e0feb19b465683113879e3ec2b",
+      "observedAt": "2026-10-28T00:40:54+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "kothasuhas/accounting-textbooks-6",
+      "source": "https://huggingface.co/datasets/kothasuhas/accounting-textbooks-6",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "text"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "1e7087e1503714b3e59e098419146841df33cfc686d3409350865f36505874bb",
+      "observedAt": "2026-10-28T00:40:54+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

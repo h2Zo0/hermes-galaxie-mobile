@@ -3,7 +3,7 @@
   "title": "Diagnostiquer le runtime de démonstrations IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T00:20:12+00:00",
+  "lastPracticedAt": "2026-10-28T00:40:52+00:00",
   "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
   "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
   "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
@@ -565,6 +565,24 @@
       "sdk": "gradio",
       "runtimeStage": "RUNNING",
       "availableNow": true,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "ibm-granite/granite-vision-document-intelligence",
+      "source": "https://huggingface.co/spaces/ibm-granite/granite-vision-document-intelligence",
+      "observedAt": "2026-10-28T00:40:52+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNNING",
+      "availableNow": true,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "illesc/llm-agents-tora-70b-v1.0",
+      "source": "https://huggingface.co/spaces/illesc/llm-agents-tora-70b-v1.0",
+      "observedAt": "2026-10-28T00:40:52+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNTIME_ERROR",
+      "availableNow": false,
       "note": "La disponibilité est un instantané, pas une promesse de service"
     }
   ]
