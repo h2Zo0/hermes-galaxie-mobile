@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T01:01:22+00:00",
+  "lastPracticedAt": "2026-10-28T01:21:25+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -602,6 +602,24 @@
       "declaredLicense": "apache-2.0",
       "access": "public",
       "modelFiles": 20
+    },
+    {
+      "id": "ibm-granite/granite-speech-5.0-2b",
+      "source": "https://huggingface.co/ibm-granite/granite-speech-5.0-2b",
+      "observedAt": "2026-10-28T01:21:25+00:00",
+      "task": "automatic-speech-recognition",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 23
+    },
+    {
+      "id": "ibm-granite/granite-speech-5.0-470m-turboctc",
+      "source": "https://huggingface.co/ibm-granite/granite-speech-5.0-470m-turboctc",
+      "observedAt": "2026-10-28T01:21:25+00:00",
+      "task": "automatic-speech-recognition",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 14
     }
   ]
 }

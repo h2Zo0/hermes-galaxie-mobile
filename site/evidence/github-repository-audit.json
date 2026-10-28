@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-27T22:26:26+00:00",
+  "lastPracticedAt": "2026-10-28T01:21:21+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -719,6 +719,47 @@
       "archived": false,
       "starsAtTest": 1145,
       "pushedAt": "2026-10-27T13:10:11Z"
+    },
+    {
+      "repository": "apify/apify-sdk-python",
+      "url": "https://github.com/apify/apify-sdk-python",
+      "defaultBranch": "master",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 70.56,
+      "languageBytes": {
+        "Python": 1413676,
+        "MDX": 543680,
+        "JavaScript": 39168,
+        "Dockerfile": 4547,
+        "CSS": 1660,
+        "TypeScript": 594,
+        "Shell": 94
+      },
+      "totalLanguageBytes": 2003419,
+      "archived": false,
+      "starsAtTest": 179,
+      "pushedAt": "2026-10-27T17:34:03Z"
+    },
+    {
+      "repository": "apify/crawlee-python",
+      "url": "https://github.com/apify/crawlee-python",
+      "defaultBranch": "master",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 79.15,
+      "languageBytes": {
+        "Python": 3041631,
+        "MDX": 613360,
+        "JavaScript": 119192,
+        "CSS": 58528,
+        "Dockerfile": 4848,
+        "Lua": 4424,
+        "TypeScript": 594,
+        "Shell": 94
+      },
+      "totalLanguageBytes": 3842671,
+      "archived": false,
+      "starsAtTest": 9630,
+      "pushedAt": "2026-10-28T01:09:33Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-28T01:01:24+00:00",
+  "lastPracticedAt": "2026-10-28T01:21:26+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -1449,6 +1449,49 @@
       "rowCount": 3,
       "sampleSha256": "fbae449b88105f6eac419deeb5c5a181d150dfb8c3dd6da134752c5d370031ce",
       "observedAt": "2026-10-28T01:01:24+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "moganai/turkish-synthetic-documents",
+      "source": "https://huggingface.co/datasets/moganai/turkish-synthetic-documents",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "fields",
+        "gorunum",
+        "id",
+        "image",
+        "okunabilirlik",
+        "qa",
+        "sablon",
+        "text",
+        "tur"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "41cea7c7dba4c6bf2fa044ec08901538f9350679221c237892a77b618195ef10",
+      "observedAt": "2026-10-28T01:21:26+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "monodox/cortex-agent-planning",
+      "source": "https://huggingface.co/datasets/monodox/cortex-agent-planning",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "delegation_target",
+        "execution_type",
+        "outcome",
+        "plan_steps",
+        "replanning_triggered",
+        "task_input",
+        "tool_calls",
+        "tool_selection_rationale"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "46a03e74bd24f1d6b6bd4dca1bf989f42f05dd10c97bffd9475907c85e4199c7",
+      "observedAt": "2026-10-28T01:21:26+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
