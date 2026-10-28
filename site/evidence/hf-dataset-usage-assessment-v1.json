@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T14:14:45+00:00",
+  "lastPracticedAt": "2026-10-28T14:20:34+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1323,6 +1323,28 @@
         "zip"
       ],
       "listedFiles": 44,
+      "access": "public"
+    },
+    {
+      "id": "agentica-org/DeepCoder-Preview-Dataset",
+      "source": "https://huggingface.co/datasets/agentica-org/DeepCoder-Preview-Dataset",
+      "observedAt": "2026-10-28T14:20:34+00:00",
+      "declaredLicense": "mit",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 31,
+      "access": "public"
+    },
+    {
+      "id": "AhmedBou/French_quotes",
+      "source": "https://huggingface.co/datasets/AhmedBou/French_quotes",
+      "observedAt": "2026-10-28T14:20:34+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "csv"
+      ],
+      "listedFiles": 3,
       "access": "public"
     }
   ]

@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T14:14:43+00:00",
+  "lastPracticedAt": "2026-10-28T14:20:32+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -1937,6 +1937,40 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-28T11:17:07Z"
+    },
+    {
+      "repository": "Circe07/ORQ",
+      "url": "https://github.com/Circe07/ORQ",
+      "defaultBranch": "master",
+      "primaryLanguage": "Rust",
+      "primaryLanguageSharePercent": 90.88,
+      "languageBytes": {
+        "Rust": 529705,
+        "Python": 37345,
+        "Shell": 13847,
+        "Ruby": 1996
+      },
+      "totalLanguageBytes": 582893,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-23T18:09:29Z"
+    },
+    {
+      "repository": "cismankit/iCyberNinjitsu",
+      "url": "https://github.com/cismankit/iCyberNinjitsu",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 95.09,
+      "languageBytes": {
+        "TypeScript": 492673,
+        "CSS": 13737,
+        "JavaScript": 9525,
+        "Shell": 2159
+      },
+      "totalLanguageBytes": 518094,
+      "archived": false,
+      "starsAtTest": 2,
+      "pushedAt": "2026-02-09T13:27:11Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
