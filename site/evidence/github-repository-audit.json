@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T22:00:16+00:00",
+  "lastPracticedAt": "2026-10-28T22:20:34+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -2742,6 +2742,36 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-24T17:29:24Z"
+    },
+    {
+      "repository": "Dsdreddy/SharkGuard",
+      "url": "https://github.com/Dsdreddy/SharkGuard",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.51,
+      "languageBytes": {
+        "Python": 61607,
+        "Batchfile": 306
+      },
+      "totalLanguageBytes": 61913,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-03-30T20:18:29Z"
+    },
+    {
+      "repository": "ductaip/vijudgebench",
+      "url": "https://github.com/ductaip/vijudgebench",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.74,
+      "languageBytes": {
+        "Python": 420023,
+        "Shell": 1110
+      },
+      "totalLanguageBytes": 421133,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-21T15:09:23Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
