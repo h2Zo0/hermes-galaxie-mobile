@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T03:21:55+00:00",
+  "lastPracticedAt": "2026-10-28T03:42:19+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -974,6 +974,38 @@
       "archived": false,
       "starsAtTest": 44,
       "pushedAt": "2026-10-27T13:37:36Z"
+    },
+    {
+      "repository": "atandra2000/AutonomousResearcher",
+      "url": "https://github.com/atandra2000/AutonomousResearcher",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.84,
+      "languageBytes": {
+        "Python": 3215018,
+        "Shell": 5069
+      },
+      "totalLanguageBytes": 3220087,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-10-08T16:45:33Z"
+    },
+    {
+      "repository": "atasardacagan/linkedin-ai-automation",
+      "url": "https://github.com/atasardacagan/linkedin-ai-automation",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.17,
+      "languageBytes": {
+        "Python": 202806,
+        "Makefile": 733,
+        "Dockerfile": 625,
+        "Mako": 346
+      },
+      "totalLanguageBytes": 204510,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-26T00:17:43Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

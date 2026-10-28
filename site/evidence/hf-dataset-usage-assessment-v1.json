@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T03:21:57+00:00",
+  "lastPracticedAt": "2026-10-28T03:42:20+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -835,6 +835,28 @@
       ],
       "listedFiles": 4,
       "access": "public"
+    },
+    {
+      "id": "RachidAb02/Finance-Accounting",
+      "source": "https://huggingface.co/datasets/RachidAb02/Finance-Accounting",
+      "observedAt": "2026-10-28T03:42:20+00:00",
+      "declaredLicense": "mit",
+      "formats": [
+        "json"
+      ],
+      "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "ratschlab/HEST_Xenium_virtual_spatial_transcriptomics",
+      "source": "https://huggingface.co/datasets/ratschlab/HEST_Xenium_virtual_spatial_transcriptomics",
+      "observedAt": "2026-10-28T03:42:20+00:00",
+      "declaredLicense": "cc-by-nc-sa-4.0",
+      "formats": [
+        "csv"
+      ],
+      "listedFiles": 62,
+      "access": "restreint"
     }
   ]
 }
