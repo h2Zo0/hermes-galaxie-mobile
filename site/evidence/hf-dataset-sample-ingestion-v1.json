@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-28T12:32:43+00:00",
+  "lastPracticedAt": "2026-10-28T12:53:25+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -2583,6 +2583,36 @@
       "rowCount": 3,
       "sampleSha256": "15b99454455136b1cf409e3928d256d52a4d6ada5bc057362cf989ab6d5f40de",
       "observedAt": "2026-10-28T12:32:43+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "aryadytm/vehicle-classification-512x512",
+      "source": "https://huggingface.co/datasets/aryadytm/vehicle-classification-512x512",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "image",
+        "label"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "cd00239258f0a002429645e1e1529a55de230234934fd2dc9e2a1608f594ee06",
+      "observedAt": "2026-10-28T12:53:25+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "asahi417/multi-domain-document-classification",
+      "source": "https://huggingface.co/datasets/asahi417/multi-domain-document-classification",
+      "config": "default",
+      "split": "test",
+      "columns": [
+        "label",
+        "text"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "07f1cfe0d39544ec58d2a058df72f23e43725c052f4a0406f1f60cf32b715bc6",
+      "observedAt": "2026-10-28T12:53:25+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
