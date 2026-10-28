@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T11:53:32+00:00",
+  "lastPracticedAt": "2026-10-28T12:12:22+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1185,6 +1185,19 @@
       ],
       "listedFiles": 6,
       "access": "public"
+    },
+    {
+      "id": "OpenLLM-France/Claire-Dialogue-French-0.1",
+      "source": "https://huggingface.co/datasets/OpenLLM-France/Claire-Dialogue-French-0.1",
+      "observedAt": "2026-10-28T12:12:22+00:00",
+      "declaredLicense": "cc-by-nc-sa-4.0",
+      "formats": [
+        "csv",
+        "json",
+        "txt"
+      ],
+      "listedFiles": 55,
+      "access": "restreint"
     }
   ]
 }
