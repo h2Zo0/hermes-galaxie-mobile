@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T04:43:46+00:00",
+  "lastPracticedAt": "2026-10-28T05:03:57+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -791,6 +791,24 @@
       "declaredLicense": "apache-2.0",
       "access": "public",
       "modelFiles": 35
+    },
+    {
+      "id": "rafw007/bielik-custom-ocr-vision-GGUF",
+      "source": "https://huggingface.co/rafw007/bielik-custom-ocr-vision-GGUF",
+      "observedAt": "2026-10-28T05:03:57+00:00",
+      "task": "image-text-to-text",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 4
+    },
+    {
+      "id": "rezaFarsh/binary_support_eval_base_198_voices_transcriptions",
+      "source": "https://huggingface.co/rezaFarsh/binary_support_eval_base_198_voices_transcriptions",
+      "observedAt": "2026-10-28T05:03:57+00:00",
+      "task": "text-classification",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 10
     }
   ]
 }

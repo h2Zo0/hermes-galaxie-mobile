@@ -1,17 +1,17 @@
 {
   "name": "NOVENS CORE — GALAXIE VIVANTE",
-  "asOf": "2026-10-28T04:43:34+00:00",
-  "polledAt": "2026-10-28T04:43:34+00:00",
-  "resourceCount": 5141,
+  "asOf": "2026-10-28T05:03:49+00:00",
+  "polledAt": "2026-10-28T05:03:49+00:00",
+  "resourceCount": 5142,
   "categoryCounts": {
     "github": 3855,
     "models": 462,
     "datasets": 409,
-    "spaces": 415
+    "spaces": 416
   },
   "verifiedSkills": 5,
   "netProfitEuro": 0.0,
-  "growth24h": 4971,
+  "growth24h": 4940,
   "history": [
     {
       "date": "2026-10-26T22:30:41+01:00",
@@ -322,6 +322,12 @@
     {
       "date": "2026-10-28T04:43:34+00:00",
       "resources": 5141,
+      "verified": 5,
+      "profit": 0.0
+    },
+    {
+      "date": "2026-10-28T05:03:49+00:00",
+      "resources": 5142,
       "verified": 5,
       "profit": 0.0
     }
@@ -35986,6 +35992,13 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "spaces:SpyC0der77/AI-Video-Stabilization",
+      "category": "spaces",
+      "name": "SpyC0der77/AI-Video-Stabilization",
+      "url": "https://huggingface.co/spaces/SpyC0der77/AI-Video-Stabilization",
+      "firstSeen": "2026-10-28T05:03:49+00:00"
+    },
+    {
       "id": "spaces:Srishti280992/repro-effgen-enabling-small-language-models-as-capable-autonomous-agents",
       "category": "spaces",
       "name": "Srishti280992/repro-effgen-enabling-small-language-models-as-capable-autonomous-agents",
@@ -36319,9 +36332,9 @@
   "cloud": {
     "agent": "Éclaireur NOVENS CORE",
     "execution": "GitHub Actions",
-    "lastMissionAt": "2026-10-28T04:43:34+00:00",
+    "lastMissionAt": "2026-10-28T05:03:49+00:00",
     "missionStatus": "succès",
-    "newResources": 0,
+    "newResources": 1,
     "errors": 0,
     "nextScheduled": "Toutes les 10 minutes si GitHub Actions disponible",
     "machineIndependence": true
@@ -36332,10 +36345,10 @@
       "title": "Classer des modèles IA par tâche et licence déclarée",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-10-28T04:43:46+00:00",
-      "practiceCount": 87,
+      "lastPracticedAt": "2026-10-28T05:03:57+00:00",
+      "practiceCount": 89,
       "proofPath": "evidence/hf-model-task-classification-v1.json",
-      "proofSha256": "a322d7166488a714c1ea34133f371f7f82b9816029b5d017b6cbc57a0c00f3fc",
+      "proofSha256": "3a83a2e7dd03c71e2d2871c338ca1e613933480bf01d96e049c21ec7f5edf7bb",
       "resourcesTested": [
         "https://huggingface.co/agentionai/Qwen3.8-27B-AP-GGUF",
         "https://huggingface.co/agentionai/Signal-3.8-27B",
@@ -36423,7 +36436,9 @@
         "https://huggingface.co/pragmaticcs/Qwen3.8-KAT-AgentWorld-35B-A3B-Coder-GGUF",
         "https://huggingface.co/Quark-Vision/Live-Avatar",
         "https://huggingface.co/qvac/VisionPsy-Nano-460M-GGUFs",
-        "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B"
+        "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+        "https://huggingface.co/rafw007/bielik-custom-ocr-vision-GGUF",
+        "https://huggingface.co/rezaFarsh/binary_support_eval_base_198_voices_transcriptions"
       ]
     },
     {
@@ -36431,10 +36446,10 @@
       "title": "Qualifier licence et format de jeux de données IA",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-10-28T04:43:46+00:00",
-      "practiceCount": 82,
+      "lastPracticedAt": "2026-10-28T05:03:57+00:00",
+      "practiceCount": 84,
       "proofPath": "evidence/hf-dataset-usage-assessment-v1.json",
-      "proofSha256": "82fe139ad972dbcf3a6614f1fd93748475c001bc5d196f026e02ae9b63c08fa0",
+      "proofSha256": "0dda77605dafd43ae76bcc661e5c719e54fa35b80b8c3f514fd3ef95cc99e260",
       "resourcesTested": [
         "https://huggingface.co/datasets/11-47/autonomous-ai-agents-multi-agent-swarms-2026",
         "https://huggingface.co/datasets/AdityaaXD/Multi-Agent_Reinforcement_Learning_Trading_System_Data",
@@ -36517,7 +36532,9 @@
         "https://huggingface.co/datasets/Tiime/fr-qa-accounting-edits",
         "https://huggingface.co/datasets/Toolster/ebook-format-samples",
         "https://huggingface.co/datasets/Vikhrmodels/tool-plannings-v0.2",
-        "https://huggingface.co/datasets/waechor/tuto_foo_french2023"
+        "https://huggingface.co/datasets/waechor/tuto_foo_french2023",
+        "https://huggingface.co/datasets/adiren7/darija_to_french_speech_to_text",
+        "https://huggingface.co/datasets/Agent-Ark/Toucan-1.5M"
       ]
     },
     {
@@ -36525,10 +36542,10 @@
       "title": "Diagnostiquer le runtime de démonstrations IA",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-10-28T04:43:46+00:00",
-      "practiceCount": 88,
+      "lastPracticedAt": "2026-10-28T05:03:57+00:00",
+      "practiceCount": 90,
       "proofPath": "evidence/hf-space-runtime-diagnostics-v1.json",
-      "proofSha256": "200a960f60d216c71fb9f08115ed9457d6b14fadff549ab2381744bf151fe919",
+      "proofSha256": "47c3841a10de9a9eb5d1ac59faf9a27a5fb54530624898a61c618ff91e9b31ba",
       "resourcesTested": [
         "https://huggingface.co/spaces/Aarya003/Financial-Analyst-Agent",
         "https://huggingface.co/spaces/AceVikings/repro-learning-human-robot-collaboration-via-heterogeneous-agent-lyapunov-policy-optimizatio",
@@ -36617,7 +36634,9 @@
         "https://huggingface.co/spaces/Singularity666/VisionGPT-Automation2",
         "https://huggingface.co/spaces/smolagents/computer-agent",
         "https://huggingface.co/spaces/thorwebdev/pglite-semantic-search",
-        "https://huggingface.co/spaces/to-be/invoice_document_headers_extraction_with_donut-OLD"
+        "https://huggingface.co/spaces/to-be/invoice_document_headers_extraction_with_donut-OLD",
+        "https://huggingface.co/spaces/Vanshcc/qa-rag-fastapi",
+        "https://huggingface.co/spaces/VedikaBansal/Travel-Planning-Agent"
       ]
     },
     {
@@ -36625,10 +36644,10 @@
       "title": "Lire et contrôler des échantillons de datasets publics",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:46+00:00",
-      "lastPracticedAt": "2026-10-28T04:43:47+00:00",
-      "practiceCount": 88,
+      "lastPracticedAt": "2026-10-28T05:04:00+00:00",
+      "practiceCount": 90,
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "2cabed110f381d73ffdc5393d7b13678dd51e5cb76c7de2f010e3340528714bc",
+      "proofSha256": "a9c144d8db7f9095dcd17937c2cbef6fee47f476efd544ed18fc017a0f36b38d",
       "resourcesTested": [
         "https://huggingface.co/datasets/AdityaaXD/Multi-Agent_Reinforcement_Learning_Trading_System_Data",
         "https://huggingface.co/datasets/Agent-Ark/Toucan-1.5M",
@@ -36717,7 +36736,9 @@
         "https://huggingface.co/datasets/arvindrajan92/sroie_document_understanding",
         "https://huggingface.co/datasets/aryadytm/vehicle-classification",
         "https://huggingface.co/datasets/BelalElhossany/mgb2_audios_transcriptions",
-        "https://huggingface.co/datasets/BelalElhossany/mgb2_audios_transcriptions_non_overlap"
+        "https://huggingface.co/datasets/BelalElhossany/mgb2_audios_transcriptions_non_overlap",
+        "https://huggingface.co/datasets/dajor85570/invoices-and-receipts_ocr_v1",
+        "https://huggingface.co/datasets/darisdzakwanhoesien/arabic-accounting-mcq_train"
       ]
     },
     {
@@ -36725,10 +36746,10 @@
       "title": "Analyser techniquement un dépôt GitHub public",
       "status": "validated",
       "validatedAt": "2026-10-27T12:30:54+00:00",
-      "lastPracticedAt": "2026-10-28T04:43:44+00:00",
-      "practiceCount": 61,
+      "lastPracticedAt": "2026-10-28T05:03:56+00:00",
+      "practiceCount": 63,
       "proofPath": "evidence/github-repository-audit.json",
-      "proofSha256": "e2c8ee1cd6f48b76383a9526e1c76f953073c4b38130bb7f77dee84196578993",
+      "proofSha256": "20952073e77da6432488ebb462ecfe19665542bc74bc3f6b989d9d9573846999",
       "resourcesTested": [
         "https://github.com/0jre/runne",
         "https://github.com/0xMihirK/hercules-mcp",
@@ -36790,179 +36811,13 @@
         "https://github.com/Avidrei/rei",
         "https://github.com/avikal06/Ethereum-Fraud-Detection",
         "https://github.com/awslabs/uaef",
-        "https://github.com/axitdev/phpunit-ai-evals"
+        "https://github.com/axitdev/phpunit-ai-evals",
+        "https://github.com/aytn06/meta-dare-bench",
+        "https://github.com/Ayuhsman246/IT-access-anomaly-detection"
       ]
     }
   ],
   "capabilityTrials": [
-    {
-      "date": "2026-10-27T22:26:26+00:00",
-      "skillId": "github-repository-technical-audit-v1",
-      "result": "reinforced",
-      "reportsPassed": 1,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 39,
-      "failures": [
-        {
-          "repository": "api-evangelist/activiti",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "api-evangelist/agents-md",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "api-evangelist/anaqua",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "api-evangelist/anon",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "api-evangelist/arga-labs",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "api-evangelist/automation-anywhere",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "api-evangelist/automatisch",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "api-evangelist/camunda",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "api-evangelist/candis",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "api-evangelist/caya",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "api-evangelist/celigo",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-27T22:26:36+00:00",
-      "skillId": "hf-model-task-classification-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 50,
-      "failures": [
-        {
-          "id": "ykliu1892/translation-en-pt-t5-Duolingo-Subtitles",
-          "reason": "ValueError"
-        },
-        {
-          "id": "ykliu1892/translation-en-pt-t5-finetuned-Duolingo",
-          "reason": "ValueError"
-        },
-        {
-          "id": "ykliu1892/translation-en-pt-t5-finetuned-Duolingo-Subtitles",
-          "reason": "ValueError"
-        },
-        {
-          "id": "ykliu1892/translation-en-pt-t5-finetuned-Duolingo-Subtitles-finetuned-Duolingo-Subtitles",
-          "reason": "ValueError"
-        },
-        {
-          "id": "ykliu1892/translation-en-pt-t5-finetuned-en-to-pt",
-          "reason": "ValueError"
-        },
-        {
-          "id": "yogender/demo-translation",
-          "reason": "ValueError"
-        },
-        {
-          "id": "yuoggu/led-base-16384-finetuned-text-classification",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Yvanzhu/Data-to-text-generation-accelerate",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-27T22:26:36+00:00",
-      "skillId": "hf-dataset-usage-assessment-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 50,
-      "failures": [
-        {
-          "id": "arbml/Document_Classification",
-          "reason": "ValueError"
-        },
-        {
-          "id": "arka0821/multi_document_summarization",
-          "reason": "ValueError"
-        },
-        {
-          "id": "aryadytm/vehicle-classification",
-          "reason": "ValueError"
-        },
-        {
-          "id": "aryadytm/vehicle-classification-512x512",
-          "reason": "ValueError"
-        },
-        {
-          "id": "asahi417/multi-domain-document-classification",
-          "reason": "ValueError"
-        },
-        {
-          "id": "ashg59/invoices-images",
-          "reason": "ValueError"
-        },
-        {
-          "id": "ashraq/youtube-transcription",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Asif12109/Global-AI-Tool-Adoption-Across-Industries",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Asseh/Vehicle_Classification",
-          "reason": "ValueError"
-        },
-        {
-          "id": "autoevaluate/autoeval-eval-ccdv__arxiv-summarization-document-47d12e-1465753970",
-          "reason": "ValueError"
-        },
-        {
-          "id": "autoevaluate/autoeval-eval-ccdv__arxiv-summarization-document-dcd037-2375274516",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-27T22:26:36+00:00",
-      "skillId": "hf-space-runtime-diagnostics-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 50,
-      "failures": []
-    },
-    {
-      "date": "2026-10-27T22:26:39+00:00",
-      "skillId": "hf-dataset-sample-ingestion-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "failedResources": [],
-      "totalVerifiedExercises": 50
-    },
     {
       "date": "2026-10-27T22:38:33+00:00",
       "skillId": "github-repository-technical-audit-v1",
@@ -39285,25 +39140,122 @@
       "reportsRequired": 1,
       "failedResources": [],
       "totalVerifiedExercises": 88
+    },
+    {
+      "date": "2026-10-28T05:03:56+00:00",
+      "skillId": "github-repository-technical-audit-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 63,
+      "failures": []
+    },
+    {
+      "date": "2026-10-28T05:03:57+00:00",
+      "skillId": "hf-model-task-classification-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 89,
+      "failures": [
+        {
+          "id": "rayschwartz/new-text-classifications",
+          "reason": "ValueError"
+        },
+        {
+          "id": "rayschwartz/text-classification",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28T05:03:57+00:00",
+      "skillId": "hf-dataset-usage-assessment-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 84,
+      "failures": [
+        {
+          "id": "yzhuang/metatree_BNG_vehicle_",
+          "reason": "ValueError"
+        },
+        {
+          "id": "yzhuang/metatree_vehicle_sensIT",
+          "reason": "ValueError"
+        },
+        {
+          "id": "zachgitt/comedy-transcripts",
+          "reason": "ValueError"
+        },
+        {
+          "id": "zai-org/AgentInstruct",
+          "reason": "ValueError"
+        },
+        {
+          "id": "zhoudemac/pentest_tools_v2",
+          "reason": "ValueError"
+        },
+        {
+          "id": "ZixuanKe/accounting_fineweb_phi3.5_unsup",
+          "reason": "ValueError"
+        },
+        {
+          "id": "ZixuanKe/accounting_rule_phi3.5_unsup",
+          "reason": "ValueError"
+        },
+        {
+          "id": "ZixuanKe/accounting_unsup",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Abirate/french_book_reviews",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28T05:03:57+00:00",
+      "skillId": "hf-space-runtime-diagnostics-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 90,
+      "failures": []
+    },
+    {
+      "date": "2026-10-28T05:04:00+00:00",
+      "skillId": "hf-dataset-sample-ingestion-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "failedResources": [
+        {
+          "id": "danigunawan/invoices-donut-data-v1",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        }
+      ],
+      "totalVerifiedExercises": 90
     }
   ],
   "lastCapabilityVerification": {
-    "date": "2026-10-28T04:43:47+00:00",
+    "date": "2026-10-28T05:04:00+00:00",
     "skillId": "hf-dataset-sample-ingestion-v1",
     "result": "reinforced"
   },
   "discovery": {
-    "cursor": 44,
+    "cursor": 45,
     "capacity": 20000,
-    "lastBatch": 0,
+    "lastBatch": 1,
     "newByCategory": {
       "github": 0,
       "models": 0,
       "datasets": 0,
-      "spaces": 0
+      "spaces": 1
     },
     "queriesLastRun": 7,
-    "totalSearchCycles": 44,
+    "totalSearchCycles": 45,
     "lastErrors": []
   },
   "approvedResources": [
@@ -39922,7 +39874,21 @@
       "approvedFor": "read-only-dataset-sampling",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
       "testedAt": "2026-10-28T04:43:47+00:00"
+    },
+    {
+      "id": "dajor85570/invoices-and-receipts_ocr_v1",
+      "source": "https://huggingface.co/datasets/dajor85570/invoices-and-receipts_ocr_v1",
+      "approvedFor": "read-only-dataset-sampling",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "testedAt": "2026-10-28T05:04:00+00:00"
+    },
+    {
+      "id": "darisdzakwanhoesien/arabic-accounting-mcq_train",
+      "source": "https://huggingface.co/datasets/darisdzakwanhoesien/arabic-accounting-mcq_train",
+      "approvedFor": "read-only-dataset-sampling",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "testedAt": "2026-10-28T05:04:00+00:00"
     }
   ],
-  "approvedResourceCount": 88
+  "approvedResourceCount": 90
 }

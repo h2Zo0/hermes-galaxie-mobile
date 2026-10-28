@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T04:43:46+00:00",
+  "lastPracticedAt": "2026-10-28T05:03:57+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -924,6 +924,28 @@
         "csv"
       ],
       "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "adiren7/darija_to_french_speech_to_text",
+      "source": "https://huggingface.co/datasets/adiren7/darija_to_french_speech_to_text",
+      "observedAt": "2026-10-28T05:03:57+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 4,
+      "access": "public"
+    },
+    {
+      "id": "Agent-Ark/Toucan-1.5M",
+      "source": "https://huggingface.co/datasets/Agent-Ark/Toucan-1.5M",
+      "observedAt": "2026-10-28T05:03:57+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 136,
       "access": "public"
     }
   ]
