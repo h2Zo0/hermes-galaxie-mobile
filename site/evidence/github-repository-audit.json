@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T10:32:31+00:00",
+  "lastPracticedAt": "2026-10-28T10:51:45+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -1551,6 +1551,56 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2025-04-06T03:33:23Z"
+    },
+    {
+      "repository": "bvnakhila-prog/AI-projects",
+      "url": "https://github.com/bvnakhila-prog/AI-projects",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 98.59,
+      "languageBytes": {
+        "Python": 114883774,
+        "C": 585111,
+        "C++": 394963,
+        "Jupyter Notebook": 368700,
+        "Cython": 206740,
+        "Fortran": 41557,
+        "XSLT": 13139,
+        "PowerShell": 8786,
+        "Roff": 7538,
+        "Meson": 6869,
+        "CSS": 4850,
+        "JavaScript": 3677,
+        "Assembly": 3086,
+        "Batchfile": 1545,
+        "Shell": 946
+      },
+      "totalLanguageBytes": 116531281,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-09-24T14:57:42Z"
+    },
+    {
+      "repository": "bytechefhq/bytechef",
+      "url": "https://github.com/bytechefhq/bytechef",
+      "defaultBranch": "master",
+      "primaryLanguage": "Java",
+      "primaryLanguageSharePercent": 70.17,
+      "languageBytes": {
+        "Java": 38308820,
+        "TypeScript": 15810132,
+        "MDX": 214624,
+        "JavaScript": 168720,
+        "CSS": 63851,
+        "HTML": 12523,
+        "Shell": 9046,
+        "Dockerfile": 2463,
+        "Go Template": 1792
+      },
+      "totalLanguageBytes": 54591971,
+      "archived": false,
+      "starsAtTest": 1050,
+      "pushedAt": "2026-10-28T10:49:57Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
