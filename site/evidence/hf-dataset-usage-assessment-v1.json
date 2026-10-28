@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T19:04:56+00:00",
+  "lastPracticedAt": "2026-10-28T19:25:21+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1466,6 +1466,28 @@
         "csv"
       ],
       "listedFiles": 14,
+      "access": "public"
+    },
+    {
+      "id": "moganai/turkish-synthetic-documents",
+      "source": "https://huggingface.co/datasets/moganai/turkish-synthetic-documents",
+      "observedAt": "2026-10-28T19:25:21+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 102,
+      "access": "public"
+    },
+    {
+      "id": "monodox/cortex-agent-planning",
+      "source": "https://huggingface.co/datasets/monodox/cortex-agent-planning",
+      "observedAt": "2026-10-28T19:25:21+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "jsonl"
+      ],
+      "listedFiles": 3,
       "access": "public"
     }
   ]

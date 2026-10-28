@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T19:04:55+00:00",
+  "lastPracticedAt": "2026-10-28T19:25:19+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -2433,6 +2433,34 @@
       "archived": false,
       "starsAtTest": 1,
       "pushedAt": "2026-10-25T09:05:13Z"
+    },
+    {
+      "repository": "devanasolver/awesome-ai-assistants",
+      "url": "https://github.com/devanasolver/awesome-ai-assistants",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 6354
+      },
+      "totalLanguageBytes": 6354,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-17T19:27:53Z"
+    },
+    {
+      "repository": "devanasolver/awesome-social-media-tools",
+      "url": "https://github.com/devanasolver/awesome-social-media-tools",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 6354
+      },
+      "totalLanguageBytes": 6354,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-17T19:27:45Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

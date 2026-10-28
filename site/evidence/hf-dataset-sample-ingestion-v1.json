@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-28T19:04:58+00:00",
+  "lastPracticedAt": "2026-10-28T19:25:24+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -3295,6 +3295,44 @@
       "rowCount": 3,
       "sampleSha256": "7e5f111c3216b3c7a754977da04934c8fe2e7db3ab3d691c0d88e812be52352f",
       "observedAt": "2026-10-28T19:04:58+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "AIwithKiran/Global-AI-Tools-Dataset",
+      "source": "https://huggingface.co/datasets/AIwithKiran/Global-AI-Tools-Dataset",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "Category",
+        "Industry",
+        "Last_Updated",
+        "Launch_Year",
+        "Main_Function",
+        "Popularity_Score",
+        "Pricing_Model",
+        "Tool_ID",
+        "Tool_Name"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "26ab210a9c15aeae2064906cd346c080e1f707ed4001466cfe1060e7ab191a79",
+      "observedAt": "2026-10-28T19:25:24+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "allenai/Dolci-Instruct-SFT-Tool-Use-SA",
+      "source": "https://huggingface.co/datasets/allenai/Dolci-Instruct-SFT-Tool-Use-SA",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "dataset_source",
+        "id",
+        "messages"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "685382de2ce1529d7992d19c4d67cdefc3361eae07615b078a1874c9a09a237f",
+      "observedAt": "2026-10-28T19:25:24+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

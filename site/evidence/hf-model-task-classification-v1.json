@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T19:04:56+00:00",
+  "lastPracticedAt": "2026-10-28T19:25:21+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -1466,6 +1466,24 @@
       "declaredLicense": "apache-2.0",
       "access": "public",
       "modelFiles": 29
+    },
+    {
+      "id": "ErenAta00/Maverick-4B-Unity-XR-Agent-1.1",
+      "source": "https://huggingface.co/ErenAta00/Maverick-4B-Unity-XR-Agent-1.1",
+      "observedAt": "2026-10-28T19:25:21+00:00",
+      "task": "text-generation",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 13
+    },
+    {
+      "id": "EverMind-AI/skillrep-reranker-0.6b",
+      "source": "https://huggingface.co/EverMind-AI/skillrep-reranker-0.6b",
+      "observedAt": "2026-10-28T19:25:21+00:00",
+      "task": "text-ranking",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 12
     }
   ]
 }
