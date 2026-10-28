@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T01:21:25+00:00",
+  "lastPracticedAt": "2026-10-28T01:41:49+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -695,6 +695,29 @@
       "source": "https://huggingface.co/datasets/KadamParth/NCERT_Accounting_12th",
       "observedAt": "2026-10-28T01:21:25+00:00",
       "declaredLicense": "mit",
+      "formats": [
+        "csv"
+      ],
+      "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "katsubakirill/toolace-hallucination-span-detection",
+      "source": "https://huggingface.co/datasets/katsubakirill/toolace-hallucination-span-detection",
+      "observedAt": "2026-10-28T01:41:49+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "csv",
+        "jsonl"
+      ],
+      "listedFiles": 12,
+      "access": "public"
+    },
+    {
+      "id": "Kokusho/vehicles_sales",
+      "source": "https://huggingface.co/datasets/Kokusho/vehicles_sales",
+      "observedAt": "2026-10-28T01:41:49+00:00",
+      "declaredLicense": "openrail",
       "formats": [
         "csv"
       ],
