@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T14:41:17+00:00",
+  "lastPracticedAt": "2026-10-28T15:01:46+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -2011,6 +2011,35 @@
       "archived": false,
       "starsAtTest": 2,
       "pushedAt": "2026-07-13T00:57:15Z"
+    },
+    {
+      "repository": "code-by-nanthu/mcp-qa-expert-engine",
+      "url": "https://github.com/code-by-nanthu/mcp-qa-expert-engine",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "primaryLanguageSharePercent": 82.8,
+      "languageBytes": {
+        "JavaScript": 238374,
+        "HTML": 49508
+      },
+      "totalLanguageBytes": 287882,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-28T12:28:40Z"
+    },
+    {
+      "repository": "codeautomation-ai/connected-digital-workflows",
+      "url": "https://github.com/codeautomation-ai/connected-digital-workflows",
+      "defaultBranch": "main",
+      "primaryLanguage": "HTML",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "HTML": 25807
+      },
+      "totalLanguageBytes": 25807,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-15T10:40:40Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
