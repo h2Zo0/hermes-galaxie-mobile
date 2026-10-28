@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T09:12:19+00:00",
+  "lastPracticedAt": "2026-10-28T09:32:55+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -1422,6 +1422,44 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-05-25T17:10:05Z"
+    },
+    {
+      "repository": "BMC-INC/Iron-mem",
+      "url": "https://github.com/BMC-INC/Iron-mem",
+      "defaultBranch": "main",
+      "primaryLanguage": "Rust",
+      "primaryLanguageSharePercent": 88.97,
+      "languageBytes": {
+        "Rust": 1678959,
+        "Python": 80696,
+        "HTML": 76991,
+        "Shell": 24852,
+        "Lua": 8423,
+        "JavaScript": 8099,
+        "TypeScript": 7934,
+        "Tape": 477,
+        "PowerShell": 392,
+        "Dockerfile": 347
+      },
+      "totalLanguageBytes": 1887170,
+      "archived": false,
+      "starsAtTest": 5,
+      "pushedAt": "2026-10-23T01:15:21Z"
+    },
+    {
+      "repository": "bo-516/computer-use",
+      "url": "https://github.com/bo-516/computer-use",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 98.22,
+      "languageBytes": {
+        "Python": 898403,
+        "HTML": 16290
+      },
+      "totalLanguageBytes": 914693,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-07T15:57:02Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

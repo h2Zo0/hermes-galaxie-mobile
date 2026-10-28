@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T09:12:20+00:00",
+  "lastPracticedAt": "2026-10-28T09:32:57+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -971,6 +971,24 @@
       "declaredLicense": "mit",
       "access": "public",
       "modelFiles": 29
+    },
+    {
+      "id": "BAAI/bge-reranker-base",
+      "source": "https://huggingface.co/BAAI/bge-reranker-base",
+      "observedAt": "2026-10-28T09:32:57+00:00",
+      "task": "text-classification",
+      "declaredLicense": "mit",
+      "access": "public",
+      "modelFiles": 10
+    },
+    {
+      "id": "BAAI/bge-reranker-large",
+      "source": "https://huggingface.co/BAAI/bge-reranker-large",
+      "observedAt": "2026-10-28T09:32:57+00:00",
+      "task": "feature-extraction",
+      "declaredLicense": "mit",
+      "access": "public",
+      "modelFiles": 11
     }
   ]
 }
