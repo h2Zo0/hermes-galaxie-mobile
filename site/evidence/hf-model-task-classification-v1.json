@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T18:45:05+00:00",
+  "lastPracticedAt": "2026-10-28T19:04:56+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -1448,6 +1448,24 @@
       "declaredLicense": "cc",
       "access": "public",
       "modelFiles": 13
+    },
+    {
+      "id": "cross-encoder/ettin-reranker-150m-v1",
+      "source": "https://huggingface.co/cross-encoder/ettin-reranker-150m-v1",
+      "observedAt": "2026-10-28T19:04:56+00:00",
+      "task": "text-ranking",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 29
+    },
+    {
+      "id": "cross-encoder/ettin-reranker-400m-v1",
+      "source": "https://huggingface.co/cross-encoder/ettin-reranker-400m-v1",
+      "observedAt": "2026-10-28T19:04:56+00:00",
+      "task": "text-ranking",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 29
     }
   ]
 }

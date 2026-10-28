@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T18:45:02+00:00",
+  "lastPracticedAt": "2026-10-28T19:04:55+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -2399,6 +2399,40 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-28T10:24:08Z"
+    },
+    {
+      "repository": "delltrak/wamcp",
+      "url": "https://github.com/delltrak/wamcp",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 98.88,
+      "languageBytes": {
+        "TypeScript": 3048196,
+        "JavaScript": 28729,
+        "Shell": 3845,
+        "Dockerfile": 1973
+      },
+      "totalLanguageBytes": 3082743,
+      "archived": false,
+      "starsAtTest": 26,
+      "pushedAt": "2026-10-28T05:19:44Z"
+    },
+    {
+      "repository": "demajh/agon",
+      "url": "https://github.com/demajh/agon",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 85.28,
+      "languageBytes": {
+        "TypeScript": 1531575,
+        "Python": 197832,
+        "JavaScript": 62221,
+        "Dockerfile": 4327
+      },
+      "totalLanguageBytes": 1795955,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-10-25T09:05:13Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

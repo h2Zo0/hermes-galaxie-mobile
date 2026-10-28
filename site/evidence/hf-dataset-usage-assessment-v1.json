@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T16:43:59+00:00",
+  "lastPracticedAt": "2026-10-28T19:04:56+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1444,6 +1444,28 @@
         "json"
       ],
       "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "mindweave/accounting-ledger-uk",
+      "source": "https://huggingface.co/datasets/mindweave/accounting-ledger-uk",
+      "observedAt": "2026-10-28T19:04:56+00:00",
+      "declaredLicense": "cc-by-nc-4.0",
+      "formats": [
+        "csv"
+      ],
+      "listedFiles": 14,
+      "access": "public"
+    },
+    {
+      "id": "mindweave/accounting-ledger-us",
+      "source": "https://huggingface.co/datasets/mindweave/accounting-ledger-us",
+      "observedAt": "2026-10-28T19:04:56+00:00",
+      "declaredLicense": "cc-by-nc-4.0",
+      "formats": [
+        "csv"
+      ],
+      "listedFiles": 14,
       "access": "public"
     }
   ]
