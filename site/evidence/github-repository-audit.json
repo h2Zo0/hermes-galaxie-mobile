@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T21:40:01+00:00",
+  "lastPracticedAt": "2026-10-28T22:00:16+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -2708,6 +2708,40 @@
       "archived": false,
       "starsAtTest": 2,
       "pushedAt": "2026-10-25T14:59:58Z"
+    },
+    {
+      "repository": "DPK516/TripMate-AI-Using-MCP",
+      "url": "https://github.com/DPK516/TripMate-AI-Using-MCP",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 67.22,
+      "languageBytes": {
+        "Python": 36222,
+        "CSS": 8543,
+        "JavaScript": 4620,
+        "HTML": 4075,
+        "Dockerfile": 423
+      },
+      "totalLanguageBytes": 53883,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-08T13:01:16Z"
+    },
+    {
+      "repository": "Dragwyb/dragwyb-ai-agent-workflows",
+      "url": "https://github.com/Dragwyb/dragwyb-ai-agent-workflows",
+      "defaultBranch": "main",
+      "primaryLanguage": "PHP",
+      "primaryLanguageSharePercent": 75.66,
+      "languageBytes": {
+        "PHP": 1293711,
+        "JavaScript": 344042,
+        "CSS": 72252
+      },
+      "totalLanguageBytes": 1710005,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-24T17:29:24Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
