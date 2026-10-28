@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-28T23:33:43+00:00",
+  "lastPracticedAt": "2026-10-28T23:59:20+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -3886,6 +3886,46 @@
       "rowCount": 3,
       "sampleSha256": "b5dea85922eb018fbbaff849b1cb25313964e772e98c3b47728d0ae1dfc2d4bb",
       "observedAt": "2026-10-28T23:33:43+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "nebius/SWE-agent-trajectories",
+      "source": "https://huggingface.co/datasets/nebius/SWE-agent-trajectories",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "eval_logs",
+        "exit_status",
+        "generated_patch",
+        "instance_id",
+        "model_name",
+        "target",
+        "trajectory"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "67e182a3eef08a0a027cb7e91330fd209ccc0b139aa00d9d08fe647bf8c2fdb1",
+      "observedAt": "2026-10-28T23:59:20+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "nepalprabin/youtube-transcriptions",
+      "source": "https://huggingface.co/datasets/nepalprabin/youtube-transcriptions",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "end",
+        "id",
+        "published",
+        "start",
+        "text",
+        "title",
+        "url"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "0bcd84f6d94b20d29a80ace4433a208f191093852ec4903602984a8085dd0659",
+      "observedAt": "2026-10-28T23:59:20+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

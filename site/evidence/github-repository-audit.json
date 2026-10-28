@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T23:33:39+00:00",
+  "lastPracticedAt": "2026-10-28T23:59:14+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -2918,6 +2918,46 @@
       "archived": false,
       "starsAtTest": 6,
       "pushedAt": "2026-10-28T10:10:36Z"
+    },
+    {
+      "repository": "eleboucher/memini",
+      "url": "https://github.com/eleboucher/memini",
+      "defaultBranch": "main",
+      "primaryLanguage": "Go",
+      "primaryLanguageSharePercent": 63.98,
+      "languageBytes": {
+        "Go": 3783134,
+        "TypeScript": 947241,
+        "JavaScript": 907871,
+        "Python": 225566,
+        "CSS": 40125,
+        "Go Template": 3902,
+        "Dockerfile": 2349,
+        "Shell": 1605,
+        "HTML": 1225
+      },
+      "totalLanguageBytes": 5913018,
+      "archived": false,
+      "starsAtTest": 33,
+      "pushedAt": "2026-10-27T17:31:36Z"
+    },
+    {
+      "repository": "ElenaViewSynthesis/GymSIEGE",
+      "url": "https://github.com/ElenaViewSynthesis/GymSIEGE",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 64.19,
+      "languageBytes": {
+        "Python": 1364971,
+        "HTML": 559906,
+        "Shell": 170991,
+        "C": 28012,
+        "PowerShell": 2739
+      },
+      "totalLanguageBytes": 2126619,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-28T22:59:59Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
