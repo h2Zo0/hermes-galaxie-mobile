@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T05:44:34+00:00",
+  "lastPracticedAt": "2026-10-28T06:04:50+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -842,6 +842,24 @@
       "source": "https://huggingface.co/sfurkan/LexBERT-textclassification-turkish-uncased",
       "observedAt": "2026-10-28T05:44:34+00:00",
       "task": "text-classification",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 9
+    },
+    {
+      "id": "Starlinghq/bge-reranker-v2-m3-onnx",
+      "source": "https://huggingface.co/Starlinghq/bge-reranker-v2-m3-onnx",
+      "observedAt": "2026-10-28T06:04:50+00:00",
+      "task": "text-classification",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 12
+    },
+    {
+      "id": "subham92/translation_model_by_subham",
+      "source": "https://huggingface.co/subham92/translation_model_by_subham",
+      "observedAt": "2026-10-28T06:04:50+00:00",
+      "task": "translation",
       "declaredLicense": "apache-2.0",
       "access": "public",
       "modelFiles": 9

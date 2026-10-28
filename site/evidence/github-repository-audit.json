@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T05:44:33+00:00",
+  "lastPracticedAt": "2026-10-28T06:04:48+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -1198,6 +1198,35 @@
       "archived": false,
       "starsAtTest": 28285,
       "pushedAt": "2026-10-28T04:23:55Z"
+    },
+    {
+      "repository": "BapakmuLah/Graph-Analysis-of-Financial-Transactions-Community-Risk-Link-Prediction",
+      "url": "https://github.com/BapakmuLah/Graph-Analysis-of-Financial-Transactions-Community-Risk-Link-Prediction",
+      "defaultBranch": "main",
+      "primaryLanguage": "Jupyter Notebook",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Jupyter Notebook": 2079975
+      },
+      "totalLanguageBytes": 2079975,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2025-12-04T19:25:44Z"
+    },
+    {
+      "repository": "barackdastan-sudo/financial-ai-engine",
+      "url": "https://github.com/barackdastan-sudo/financial-ai-engine",
+      "defaultBranch": "main",
+      "primaryLanguage": "HTML",
+      "primaryLanguageSharePercent": 62.56,
+      "languageBytes": {
+        "HTML": 85939,
+        "Python": 51429
+      },
+      "totalLanguageBytes": 137368,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-08-18T07:45:48Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
