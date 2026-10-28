@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T02:41:31+00:00",
+  "lastPracticedAt": "2026-10-28T03:01:45+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -790,6 +790,28 @@
         "jsonl"
       ],
       "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "open-thoughts/AgentTrove",
+      "source": "https://huggingface.co/datasets/open-thoughts/AgentTrove",
+      "observedAt": "2026-10-28T03:01:45+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 40,
+      "access": "public"
+    },
+    {
+      "id": "openbmb/UltraData-SFT-Agent-2609",
+      "source": "https://huggingface.co/datasets/openbmb/UltraData-SFT-Agent-2609",
+      "observedAt": "2026-10-28T03:01:45+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "jsonl"
+      ],
+      "listedFiles": 57,
       "access": "public"
     }
   ]
