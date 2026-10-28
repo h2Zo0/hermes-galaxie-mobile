@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-28T15:22:31+00:00",
+  "lastPracticedAt": "2026-10-28T15:42:53+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -2880,6 +2880,54 @@
       "rowCount": 3,
       "sampleSha256": "9ebc6ddc700b76217971852422f0374b6a9751206edaaf9808566b9bbb9058ff",
       "observedAt": "2026-10-28T15:22:31+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "K-University-AIED/LearningChat_accounting_ai_questions",
+      "source": "https://huggingface.co/datasets/K-University-AIED/LearningChat_accounting_ai_questions",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "export_batch_ts",
+        "file_ext",
+        "file_name",
+        "file_size_bytes",
+        "filename_pattern_group",
+        "record_id",
+        "section_id",
+        "sha256",
+        "student_image_index",
+        "student_uid"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "9c2c0454ed45f2b188fe88384ba4a0119fe109406050fe1f551281b4fb49002b",
+      "observedAt": "2026-10-28T15:42:53+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "KadamParth/NCERT_Accounting_11th",
+      "source": "https://huggingface.co/datasets/KadamParth/NCERT_Accounting_11th",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "Answer",
+        "Difficulty",
+        "EstimatedTime",
+        "Explanation",
+        "Prerequisites",
+        "Question",
+        "QuestionComplexity",
+        "QuestionType",
+        "StudentLevel",
+        "Topic",
+        "grade",
+        "subject"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "d4899ec2244e6f1c1f19bd87a3688cedf7947939b7056983e8dc323adef5c58f",
+      "observedAt": "2026-10-28T15:42:53+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

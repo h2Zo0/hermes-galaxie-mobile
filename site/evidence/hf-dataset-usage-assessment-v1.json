@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T14:41:19+00:00",
+  "lastPracticedAt": "2026-10-28T15:42:49+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1367,6 +1367,28 @@
         "parquet"
       ],
       "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "DenyTranDFW/BMW_Vehicle_Lease_Trust_2017_1_1694920",
+      "source": "https://huggingface.co/datasets/DenyTranDFW/BMW_Vehicle_Lease_Trust_2017_1_1694920",
+      "observedAt": "2026-10-28T15:42:49+00:00",
+      "declaredLicense": "gpl",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 34,
+      "access": "public"
+    },
+    {
+      "id": "DenyTranDFW/BMW_Vehicle_Lease_Trust_2017_2_1716665",
+      "source": "https://huggingface.co/datasets/DenyTranDFW/BMW_Vehicle_Lease_Trust_2017_2_1716665",
+      "observedAt": "2026-10-28T15:42:49+00:00",
+      "declaredLicense": "gpl",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 33,
       "access": "public"
     }
   ]

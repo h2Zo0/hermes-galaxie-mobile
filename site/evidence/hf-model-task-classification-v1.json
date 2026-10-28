@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T15:22:28+00:00",
+  "lastPracticedAt": "2026-10-28T15:42:49+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -1313,6 +1313,24 @@
       "declaredLicense": "apache-2.0",
       "access": "public",
       "modelFiles": 9
+    },
+    {
+      "id": "sensenova/SenseNova-Vision-7B-MoT",
+      "source": "https://huggingface.co/sensenova/SenseNova-Vision-7B-MoT",
+      "observedAt": "2026-10-28T15:42:49+00:00",
+      "task": "any-to-any",
+      "declaredLicense": "cc-by-nc-4.0",
+      "access": "public",
+      "modelFiles": 18
+    },
+    {
+      "id": "SG161222/Realistic_Vision_V5.1_noVAE",
+      "source": "https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE",
+      "observedAt": "2026-10-28T15:42:49+00:00",
+      "task": "text-to-image",
+      "declaredLicense": "creativeml-openrail-m",
+      "access": "public",
+      "modelFiles": 23
     }
   ]
 }
