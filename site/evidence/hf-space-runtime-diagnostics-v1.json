@@ -3,7 +3,7 @@
   "title": "Diagnostiquer le runtime de démonstrations IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T10:11:59+00:00",
+  "lastPracticedAt": "2026-10-28T10:32:34+00:00",
   "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
   "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
   "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
@@ -1032,6 +1032,24 @@
       "observedAt": "2026-10-28T10:11:59+00:00",
       "sdk": "gradio",
       "runtimeStage": "BUILD_ERROR",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "Lnkontchou/OCRProjet7",
+      "source": "https://huggingface.co/spaces/Lnkontchou/OCRProjet7",
+      "observedAt": "2026-10-28T10:32:34+00:00",
+      "sdk": "streamlit",
+      "runtimeStage": "RUNTIME_ERROR",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "loongwayX/Xiaomi-OCR-0-demo",
+      "source": "https://huggingface.co/spaces/loongwayX/Xiaomi-OCR-0-demo",
+      "observedAt": "2026-10-28T10:32:34+00:00",
+      "sdk": "docker",
+      "runtimeStage": "PAUSED",
       "availableNow": false,
       "note": "La disponibilité est un instantané, pas une promesse de service"
     }

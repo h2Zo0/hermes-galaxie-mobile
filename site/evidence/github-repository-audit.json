@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T10:11:58+00:00",
+  "lastPracticedAt": "2026-10-28T10:32:31+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -1518,6 +1518,39 @@
       "archived": false,
       "starsAtTest": 1,
       "pushedAt": "2026-10-27T06:13:12Z"
+    },
+    {
+      "repository": "Broskigx/Oihk-pentesting",
+      "url": "https://github.com/Broskigx/Oihk-pentesting",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 98.7,
+      "languageBytes": {
+        "Python": 2070058,
+        "Jinja": 12655,
+        "Dockerfile": 9257,
+        "Shell": 3023,
+        "Makefile": 2309
+      },
+      "totalLanguageBytes": 2097302,
+      "archived": false,
+      "starsAtTest": 9,
+      "pushedAt": "2026-10-11T01:26:57Z"
+    },
+    {
+      "repository": "bruteai/Smart-Fleet-Optimization",
+      "url": "https://github.com/bruteai/Smart-Fleet-Optimization",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 89.06,
+      "languageBytes": {
+        "Python": 14082,
+        "HTML": 1729
+      },
+      "totalLanguageBytes": 15811,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2025-04-06T03:33:23Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

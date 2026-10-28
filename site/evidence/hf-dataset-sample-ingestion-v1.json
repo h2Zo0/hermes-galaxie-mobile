@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-28T10:12:01+00:00",
+  "lastPracticedAt": "2026-10-28T10:32:37+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -2360,6 +2360,36 @@
       "rowCount": 3,
       "sampleSha256": "91f2dc1f58a82f14487d56e82344273e7a8b0fee743415ee407df3ca656609d2",
       "observedAt": "2026-10-28T10:12:01+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "procit005/vehicles12",
+      "source": "https://huggingface.co/datasets/procit005/vehicles12",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "eval",
+        "test"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "82590699756f81916731ef4b5762773bad6fcce562ee7a010a754cb086685879",
+      "observedAt": "2026-10-28T10:32:37+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "psetinek/3Blue1Brown_transcripts",
+      "source": "https://huggingface.co/datasets/psetinek/3Blue1Brown_transcripts",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "transcription",
+        "video_title"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "a14a2925241ad116d096d192b96aae94604d1712718040f6f8af66c044dff9fe",
+      "observedAt": "2026-10-28T10:32:37+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
