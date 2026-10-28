@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-28T11:12:10+00:00",
+  "lastPracticedAt": "2026-10-28T11:32:38+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -2459,6 +2459,37 @@
       "rowCount": 3,
       "sampleSha256": "8744fd66c337b1f47cf56188119a5fbc6c0263ae80c6c7235da92c61a09fa2e0",
       "observedAt": "2026-10-28T11:12:10+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "v2run/invoices-donut-data-v1",
+      "source": "https://huggingface.co/datasets/v2run/invoices-donut-data-v1",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "ground_truth",
+        "image"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "9f8b8bd2911fc14373ecbd767be9c8f476f943f74da2ecc976fbca632c898d57",
+      "observedAt": "2026-10-28T11:32:38+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "vekkt/french_CEFR",
+      "source": "https://huggingface.co/datasets/vekkt/french_CEFR",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "difficulty",
+        "label",
+        "sentence"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "201240188cc6006d1d2d2124edc83bb41239f0f67667602c0b4de72201bc7eeb",
+      "observedAt": "2026-10-28T11:32:38+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

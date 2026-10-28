@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T11:12:06+00:00",
+  "lastPracticedAt": "2026-10-28T11:32:34+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -1634,6 +1634,42 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-02T23:02:40Z"
+    },
+    {
+      "repository": "canyonlabz/perfpilot-hub",
+      "url": "https://github.com/canyonlabz/perfpilot-hub",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 93.79,
+      "languageBytes": {
+        "Python": 3669676,
+        "TypeScript": 141573,
+        "Dockerfile": 48427,
+        "PLpgSQL": 26954,
+        "C#": 13214,
+        "Shell": 10259,
+        "CSS": 1592,
+        "JavaScript": 1050
+      },
+      "totalLanguageBytes": 3912745,
+      "archived": false,
+      "starsAtTest": 5,
+      "pushedAt": "2026-10-28T01:49:20Z"
+    },
+    {
+      "repository": "CapitalOne-Research/t1-bench",
+      "url": "https://github.com/CapitalOne-Research/t1-bench",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.34,
+      "languageBytes": {
+        "Python": 1091613,
+        "Shell": 7251
+      },
+      "totalLanguageBytes": 1098864,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-23T18:36:03Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

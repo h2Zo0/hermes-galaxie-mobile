@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T11:12:08+00:00",
+  "lastPracticedAt": "2026-10-28T11:32:36+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1151,6 +1151,28 @@
         "tsv"
       ],
       "listedFiles": 4,
+      "access": "public"
+    },
+    {
+      "id": "microsoft/orca-agentinstruct-1M-v1",
+      "source": "https://huggingface.co/datasets/microsoft/orca-agentinstruct-1M-v1",
+      "observedAt": "2026-10-28T11:32:36+00:00",
+      "declaredLicense": "cdla-permissive-2.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 22,
+      "access": "public"
+    },
+    {
+      "id": "mindweave/accounting-ledger-au",
+      "source": "https://huggingface.co/datasets/mindweave/accounting-ledger-au",
+      "observedAt": "2026-10-28T11:32:36+00:00",
+      "declaredLicense": "cc-by-nc-4.0",
+      "formats": [
+        "csv"
+      ],
+      "listedFiles": 14,
       "access": "public"
     }
   ]
