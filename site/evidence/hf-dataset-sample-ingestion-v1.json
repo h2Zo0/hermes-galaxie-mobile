@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-28T03:42:22+00:00",
+  "lastPracticedAt": "2026-10-28T04:02:41+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -1787,6 +1787,37 @@
       "rowCount": 3,
       "sampleSha256": "9b989a2ae0a9b0543ef96abcbf5e33343b349fac80c169bfeeaef64202d31151",
       "observedAt": "2026-10-28T03:42:22+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "algohype/accounting",
+      "source": "https://huggingface.co/datasets/algohype/accounting",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "Instruction",
+        "input",
+        "output"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "e4d02051e9ccc52c29deb177b7b46c561e482cff52571559c72727fcc6e5ad9b",
+      "observedAt": "2026-10-28T04:02:41+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "Aliissa99/FrenchMedMCQA",
+      "source": "https://huggingface.co/datasets/Aliissa99/FrenchMedMCQA",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "Source",
+        "Target"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "88ae75b0f7d97f09f228b0d1d9c6a51d1458f624edc3652a9b16cf91a1e6f829",
+      "observedAt": "2026-10-28T04:02:41+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

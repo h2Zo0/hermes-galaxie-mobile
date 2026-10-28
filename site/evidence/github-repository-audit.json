@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T03:42:19+00:00",
+  "lastPracticedAt": "2026-10-28T04:02:38+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -1006,6 +1006,37 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-26T00:17:43Z"
+    },
+    {
+      "repository": "atiti/pyaileys",
+      "url": "https://github.com/atiti/pyaileys",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 95.8,
+      "languageBytes": {
+        "Python": 399180,
+        "Shell": 17485
+      },
+      "totalLanguageBytes": 416665,
+      "archived": false,
+      "starsAtTest": 3,
+      "pushedAt": "2026-08-19T11:45:51Z"
+    },
+    {
+      "repository": "Atlas-Authorization/pca-python",
+      "url": "https://github.com/Atlas-Authorization/pca-python",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 97.3,
+      "languageBytes": {
+        "Python": 1425234,
+        "JavaScript": 37117,
+        "Makefile": 2425
+      },
+      "totalLanguageBytes": 1464776,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-28T03:59:49Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
