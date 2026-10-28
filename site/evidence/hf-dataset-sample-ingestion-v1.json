@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-28T22:41:02+00:00",
+  "lastPracticedAt": "2026-10-28T23:01:30+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -3760,6 +3760,46 @@
       "rowCount": 3,
       "sampleSha256": "d58b536bde95140b8ed12b23aa510a9e2c3c3295336f7aaeccac7575f40190b2",
       "observedAt": "2026-10-28T22:41:02+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "kenhktsui/open-toolformer-retrieval-multi-result",
+      "source": "https://huggingface.co/datasets/kenhktsui/open-toolformer-retrieval-multi-result",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "meta",
+        "question",
+        "response"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "c3139f3d4e4611d002660eaa06b8dfd3b1a931e9616eda7c2494620558271eca",
+      "observedAt": "2026-10-28T23:01:30+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "Kokusho/vehicles_sales",
+      "source": "https://huggingface.co/datasets/Kokusho/vehicles_sales",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "Ano",
+        "BID",
+        "COMPRADORES",
+        "Distribuidor",
+        "MARCA",
+        "MARCA C",
+        "Mes",
+        "Modelo",
+        "Segmento",
+        "Unnamed: 0",
+        "VENTAS FORD"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "3e7c90ff4ce87815b4caf1fe5d45212190b2ab7ecb5ce5cd6f24f62095600c22",
+      "observedAt": "2026-10-28T23:01:30+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
