@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T06:46:03+00:00",
+  "lastPracticedAt": "2026-10-28T07:06:44+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -1288,6 +1288,42 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-27T11:13:33Z"
+    },
+    {
+      "repository": "berntpopp/phentrieve",
+      "url": "https://github.com/berntpopp/phentrieve",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 84.07,
+      "languageBytes": {
+        "Python": 3903252,
+        "JavaScript": 383788,
+        "Vue": 266108,
+        "Makefile": 32666,
+        "Shell": 28639,
+        "Dockerfile": 24496,
+        "HTML": 2891,
+        "CSS": 998
+      },
+      "totalLanguageBytes": 4642838,
+      "archived": false,
+      "starsAtTest": 7,
+      "pushedAt": "2026-10-28T06:34:50Z"
+    },
+    {
+      "repository": "berquerant/cache-mcp",
+      "url": "https://github.com/berquerant/cache-mcp",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 98.91,
+      "languageBytes": {
+        "Python": 124455,
+        "Makefile": 1376
+      },
+      "totalLanguageBytes": 125831,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-27T23:35:24Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
