@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T02:02:09+00:00",
+  "lastPracticedAt": "2026-10-28T02:22:42+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -745,6 +745,29 @@
         "zip"
       ],
       "listedFiles": 18915,
+      "access": "public"
+    },
+    {
+      "id": "mercor/apex-agents",
+      "source": "https://huggingface.co/datasets/mercor/apex-agents",
+      "observedAt": "2026-10-28T02:22:42+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "json",
+        "zip"
+      ],
+      "listedFiles": 319,
+      "access": "restreint"
+    },
+    {
+      "id": "michelinelefkopoulos/mp3-to-midi-tool-comparison",
+      "source": "https://huggingface.co/datasets/michelinelefkopoulos/mp3-to-midi-tool-comparison",
+      "observedAt": "2026-10-28T02:22:42+00:00",
+      "declaredLicense": "cc0-1.0",
+      "formats": [
+        "csv"
+      ],
+      "listedFiles": 4,
       "access": "public"
     }
   ]
