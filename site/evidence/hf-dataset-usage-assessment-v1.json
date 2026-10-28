@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T05:24:10+00:00",
+  "lastPracticedAt": "2026-10-28T05:44:34+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -967,6 +967,17 @@
       "declaredLicense": "mit",
       "formats": [
         "parquet"
+      ],
+      "listedFiles": 6,
+      "access": "public"
+    },
+    {
+      "id": "appvizer/product-sheets-in-french",
+      "source": "https://huggingface.co/datasets/appvizer/product-sheets-in-french",
+      "observedAt": "2026-10-28T05:44:34+00:00",
+      "declaredLicense": "mit",
+      "formats": [
+        "csv"
       ],
       "listedFiles": 6,
       "access": "public"
