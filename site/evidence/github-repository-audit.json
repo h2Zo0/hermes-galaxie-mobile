@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T20:19:58+00:00",
+  "lastPracticedAt": "2026-10-28T20:40:34+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -2564,6 +2564,39 @@
       "archived": false,
       "starsAtTest": 39,
       "pushedAt": "2026-10-28T18:50:05Z"
+    },
+    {
+      "repository": "dineshssdn-867/Anomaly-Detection-CVPR2018",
+      "url": "https://github.com/dineshssdn-867/Anomaly-Detection-CVPR2018",
+      "defaultBranch": "master",
+      "primaryLanguage": "Jupyter Notebook",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Jupyter Notebook": 95029
+      },
+      "totalLanguageBytes": 95029,
+      "archived": false,
+      "starsAtTest": 7,
+      "pushedAt": "2022-05-10T01:37:22Z"
+    },
+    {
+      "repository": "Dini-s/J26-SE-327",
+      "url": "https://github.com/Dini-s/J26-SE-327",
+      "defaultBranch": "main",
+      "primaryLanguage": "Rich Text Format",
+      "primaryLanguageSharePercent": 43.39,
+      "languageBytes": {
+        "Rich Text Format": 1190867,
+        "Python": 778999,
+        "JavaScript": 421332,
+        "HTML": 258470,
+        "Jupyter Notebook": 93091,
+        "CSS": 1925
+      },
+      "totalLanguageBytes": 2744684,
+      "archived": false,
+      "starsAtTest": 3,
+      "pushedAt": "2026-10-26T10:00:12Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T19:40:42+00:00",
+  "lastPracticedAt": "2026-10-28T20:40:35+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1497,6 +1497,28 @@
       "declaredLicense": "openmdw-1.1",
       "formats": [
         "jsonl"
+      ],
+      "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "SahmBenchmark/arabic-accounting-mcq_eval",
+      "source": "https://huggingface.co/datasets/SahmBenchmark/arabic-accounting-mcq_eval",
+      "observedAt": "2026-10-28T20:40:35+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 4,
+      "access": "public"
+    },
+    {
+      "id": "sonup/vehicles",
+      "source": "https://huggingface.co/datasets/sonup/vehicles",
+      "observedAt": "2026-10-28T20:40:35+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "parquet"
       ],
       "listedFiles": 3,
       "access": "public"
