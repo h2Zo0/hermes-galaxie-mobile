@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T05:03:57+00:00",
+  "lastPracticedAt": "2026-10-28T05:24:10+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -946,6 +946,29 @@
         "parquet"
       ],
       "listedFiles": 136,
+      "access": "public"
+    },
+    {
+      "id": "agents-last-exam/agents-last-exam-data-archive",
+      "source": "https://huggingface.co/datasets/agents-last-exam/agents-last-exam-data-archive",
+      "observedAt": "2026-10-28T05:24:10+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "json",
+        "jsonl"
+      ],
+      "listedFiles": 5,
+      "access": "restreint"
+    },
+    {
+      "id": "agomberto/FrenchCensus-handwritten-texts",
+      "source": "https://huggingface.co/datasets/agomberto/FrenchCensus-handwritten-texts",
+      "observedAt": "2026-10-28T05:24:10+00:00",
+      "declaredLicense": "mit",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 6,
       "access": "public"
     }
   ]

@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-28T05:04:00+00:00",
+  "lastPracticedAt": "2026-10-28T05:24:12+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -1917,6 +1917,44 @@
       "rowCount": 3,
       "sampleSha256": "0b65423d0448b3a3e0f59641abc89aaa19daed51a78a174a2c48466319bffa30",
       "observedAt": "2026-10-28T05:04:00+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "dmayhem93/toolformer-v0-postprocessed",
+      "source": "https://huggingface.co/datasets/dmayhem93/toolformer-v0-postprocessed",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "text"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "f57e4d8493df3beb648a0265b088b33d08ae9fcf144d6e301437e25ea2031052",
+      "observedAt": "2026-10-28T05:24:12+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "DrBenchmark/FrenchMedMCQA",
+      "source": "https://huggingface.co/datasets/DrBenchmark/FrenchMedMCQA",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "answer_a",
+        "answer_b",
+        "answer_c",
+        "answer_d",
+        "answer_e",
+        "correct_answers",
+        "id",
+        "number_correct_answers",
+        "question",
+        "subject_name",
+        "type"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "d3b83c0d2e572952b6d82107bf68f887fe95baae6b83073243375d49cfafac78",
+      "observedAt": "2026-10-28T05:24:12+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

@@ -3,7 +3,7 @@
   "title": "Diagnostiquer le runtime de démonstrations IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T05:03:57+00:00",
+  "lastPracticedAt": "2026-10-28T05:24:10+00:00",
   "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
   "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
   "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
@@ -816,6 +816,24 @@
       "observedAt": "2026-10-28T05:03:57+00:00",
       "sdk": "gradio",
       "runtimeStage": "RUNTIME_ERROR",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "ZeenatIslam/first_agent",
+      "source": "https://huggingface.co/spaces/ZeenatIslam/first_agent",
+      "observedAt": "2026-10-28T05:24:10+00:00",
+      "sdk": "static",
+      "runtimeStage": "RUNNING",
+      "availableNow": true,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "Zengyf-CVer/ocr_translate",
+      "source": "https://huggingface.co/spaces/Zengyf-CVer/ocr_translate",
+      "observedAt": "2026-10-28T05:24:10+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "BUILD_ERROR",
       "availableNow": false,
       "note": "La disponibilité est un instantané, pas une promesse de service"
     }
