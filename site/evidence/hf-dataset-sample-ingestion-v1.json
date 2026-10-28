@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-28T13:13:51+00:00",
+  "lastPracticedAt": "2026-10-28T13:34:13+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -2650,6 +2650,35 @@
       "rowCount": 3,
       "sampleSha256": "2c0fd170c2e7f448cab92727ed2de74afaedb2c3e6ff1e775af66558671155b6",
       "observedAt": "2026-10-28T13:13:51+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "d4rk3r/invoices",
+      "source": "https://huggingface.co/datasets/d4rk3r/invoices",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "xml"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "7b4c3ba3fe3ed6f675e63d52eb533fb3ab3d3fd6528ca8bb0cc181652b349cee",
+      "observedAt": "2026-10-28T13:34:13+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "daitavan/financial-documents",
+      "source": "https://huggingface.co/datasets/daitavan/financial-documents",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "image",
+        "label"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "e207293b4a6e2159790d4024927e07785c4ffbecdefe89a9bcc96c76af07ed83",
+      "observedAt": "2026-10-28T13:34:13+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T13:13:50+00:00",
+  "lastPracticedAt": "2026-10-28T13:34:10+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1253,6 +1253,28 @@
         "parquet"
       ],
       "listedFiles": 16,
+      "access": "public"
+    },
+    {
+      "id": "SunnyDaycg/VAT_Accounting_Law",
+      "source": "https://huggingface.co/datasets/SunnyDaycg/VAT_Accounting_Law",
+      "observedAt": "2026-10-28T13:34:10+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "json"
+      ],
+      "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "ukisai/Qwen3.8-27B-multi-turn-agent-sft",
+      "source": "https://huggingface.co/datasets/ukisai/Qwen3.8-27B-multi-turn-agent-sft",
+      "observedAt": "2026-10-28T13:34:10+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 3,
       "access": "public"
     }
   ]

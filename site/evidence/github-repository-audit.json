@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T13:13:48+00:00",
+  "lastPracticedAt": "2026-10-28T13:34:07+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -1835,6 +1835,40 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-27T23:37:44Z"
+    },
+    {
+      "repository": "chijunzheng/personal-assistant",
+      "url": "https://github.com/chijunzheng/personal-assistant",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 946248
+      },
+      "totalLanguageBytes": 946248,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-05-14T18:15:21Z"
+    },
+    {
+      "repository": "ChinaBoomBANG/Material-RAG-extraction",
+      "url": "https://github.com/ChinaBoomBANG/Material-RAG-extraction",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 80.4,
+      "languageBytes": {
+        "Python": 409612,
+        "Vue": 84095,
+        "VBScript": 5223,
+        "CSS": 4896,
+        "JavaScript": 4463,
+        "HTML": 810,
+        "Batchfile": 345
+      },
+      "totalLanguageBytes": 509444,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-28T12:45:10Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
