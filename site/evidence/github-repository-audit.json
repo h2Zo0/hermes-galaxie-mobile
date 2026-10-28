@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T23:21:42+00:00",
+  "lastPracticedAt": "2026-10-28T23:33:39+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -2880,6 +2880,44 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-09-27T16:30:58Z"
+    },
+    {
+      "repository": "efekckk/flowgent",
+      "url": "https://github.com/efekckk/flowgent",
+      "defaultBranch": "main",
+      "primaryLanguage": "Go",
+      "primaryLanguageSharePercent": 73.2,
+      "languageBytes": {
+        "Go": 454383,
+        "TypeScript": 152982,
+        "CSS": 5020,
+        "Makefile": 2891,
+        "JavaScript": 2674,
+        "Dockerfile": 1507,
+        "HTML": 714,
+        "PLpgSQL": 598
+      },
+      "totalLanguageBytes": 620769,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-08-25T09:02:37Z"
+    },
+    {
+      "repository": "egarcia74/warp-sql-server-mcp",
+      "url": "https://github.com/egarcia74/warp-sql-server-mcp",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "primaryLanguageSharePercent": 92.64,
+      "languageBytes": {
+        "JavaScript": 1830646,
+        "Shell": 100840,
+        "TSQL": 39711,
+        "Python": 4792
+      },
+      "totalLanguageBytes": 1975989,
+      "archived": false,
+      "starsAtTest": 6,
+      "pushedAt": "2026-10-28T10:10:36Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
