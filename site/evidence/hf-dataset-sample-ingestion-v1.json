@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-28T07:28:17+00:00",
+  "lastPracticedAt": "2026-10-28T09:12:24+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -2210,6 +2210,51 @@
       "rowCount": 3,
       "sampleSha256": "8279040ca33dbd24eaa850cfcd538ed14f83dda61043c09df98a856686626181",
       "observedAt": "2026-10-28T07:28:17+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "mesolitica/google-image-malaysian-vehicle-synthetic-qa",
+      "source": "https://huggingface.co/datasets/mesolitica/google-image-malaysian-vehicle-synthetic-qa",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "alt_text",
+        "answers",
+        "filename",
+        "filename_df",
+        "keyword",
+        "questions"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "17f613549c8e78ebd72f1170eecbb5e4a7c7f7788c53bf58a58adaa3c7e1ab12",
+      "observedAt": "2026-10-28T09:12:24+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "michelinelefkopoulos/mp3-to-midi-tool-comparison",
+      "source": "https://huggingface.co/datasets/michelinelefkopoulos/mp3-to-midi-tool-comparison",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "account_requirement",
+        "accuracy_or_quality",
+        "checked_at",
+        "domain",
+        "google_organic_position",
+        "output_format",
+        "page_title",
+        "page_url",
+        "pricing",
+        "processing_mode",
+        "result_kind",
+        "size_or_duration_limit",
+        "supported_formats"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "6452c67be1ea08eb13f0d17e537faa387f0399711665f7e6d4da12962d107fa1",
+      "observedAt": "2026-10-28T09:12:24+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

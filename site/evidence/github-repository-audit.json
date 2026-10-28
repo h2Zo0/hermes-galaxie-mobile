@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T07:28:11+00:00",
+  "lastPracticedAt": "2026-10-28T09:12:19+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -1391,6 +1391,37 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-24T15:22:09Z"
+    },
+    {
+      "repository": "Biswas-Tinku/Automation",
+      "url": "https://github.com/Biswas-Tinku/Automation",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 53.8,
+      "languageBytes": {
+        "Python": 62271,
+        "Jupyter Notebook": 53475
+      },
+      "totalLanguageBytes": 115746,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-09-25T12:49:37Z"
+    },
+    {
+      "repository": "bit-tech001/SocialAI---AI-powered-Automation",
+      "url": "https://github.com/bit-tech001/SocialAI---AI-powered-Automation",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 95.97,
+      "languageBytes": {
+        "TypeScript": 182765,
+        "CSS": 7117,
+        "JavaScript": 559
+      },
+      "totalLanguageBytes": 190441,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-05-25T17:10:05Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
