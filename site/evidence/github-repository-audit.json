@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T19:59:43+00:00",
+  "lastPracticedAt": "2026-10-28T20:19:58+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -2529,6 +2529,41 @@
       "archived": false,
       "starsAtTest": 1,
       "pushedAt": "2026-10-23T18:26:34Z"
+    },
+    {
+      "repository": "dice-group/Benchmarking-LLM",
+      "url": "https://github.com/dice-group/Benchmarking-LLM",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 91.32,
+      "languageBytes": {
+        "Python": 162741,
+        "Jupyter Notebook": 8352,
+        "TeX": 7107
+      },
+      "totalLanguageBytes": 178200,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-10-26T10:54:02Z"
+    },
+    {
+      "repository": "Dicklesworthstone/fastmcp_rust",
+      "url": "https://github.com/Dicklesworthstone/fastmcp_rust",
+      "defaultBranch": "main",
+      "primaryLanguage": "Rust",
+      "primaryLanguageSharePercent": 98.78,
+      "languageBytes": {
+        "Rust": 43930045,
+        "Python": 352114,
+        "TypeScript": 98426,
+        "Shell": 60705,
+        "Rhai": 25764,
+        "MDX": 4330
+      },
+      "totalLanguageBytes": 44471384,
+      "archived": false,
+      "starsAtTest": 39,
+      "pushedAt": "2026-10-28T18:50:05Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
