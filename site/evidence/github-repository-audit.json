@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T18:24:01+00:00",
+  "lastPracticedAt": "2026-10-28T18:45:02+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -2370,6 +2370,35 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-02-16T21:35:10Z"
+    },
+    {
+      "repository": "deekshavishnoi/AnomalyDetectionLSTM",
+      "url": "https://github.com/deekshavishnoi/AnomalyDetectionLSTM",
+      "defaultBranch": "main",
+      "primaryLanguage": "Jupyter Notebook",
+      "primaryLanguageSharePercent": 99.88,
+      "languageBytes": {
+        "Jupyter Notebook": 2030293,
+        "Python": 2504
+      },
+      "totalLanguageBytes": 2032797,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-09-01T19:30:10Z"
+    },
+    {
+      "repository": "Deepak-vikin/RAG-BASED-RESUME-ANALYZER",
+      "url": "https://github.com/Deepak-vikin/RAG-BASED-RESUME-ANALYZER",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 2348
+      },
+      "totalLanguageBytes": 2348,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-28T10:24:08Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

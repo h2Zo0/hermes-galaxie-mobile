@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-28T18:24:06+00:00",
+  "lastPracticedAt": "2026-10-28T18:45:08+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -3216,6 +3216,47 @@
       "rowCount": 3,
       "sampleSha256": "d6630674151710bbc8cf3071c911dc77d0f0ed5708b55f5d937afc06a7313ab2",
       "observedAt": "2026-10-28T18:24:06+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "Whispering-GPT/whisper-transcripts-linustechtips",
+      "source": "https://huggingface.co/datasets/Whispering-GPT/whisper-transcripts-linustechtips",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "categories",
+        "channel",
+        "channel_id",
+        "description",
+        "id",
+        "segments",
+        "tags",
+        "text",
+        "title"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "d8b69a07f150998f11eee2a3fa0d962c818a9ebfe4bd501036ce6391f4585523",
+      "observedAt": "2026-10-28T18:45:08+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "Whispering-GPT/whisper-transcripts-ml-street-talk",
+      "source": "https://huggingface.co/datasets/Whispering-GPT/whisper-transcripts-ml-street-talk",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "CHANNEL_NAME",
+        "DESCRIPTION",
+        "SEGMENTS",
+        "TITLE",
+        "TRANSCRIPTION",
+        "URL"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "1bfa820e426a9f1da1f5c07ebde5fe8d843bb7d9074accfd694f52fc1f581569",
+      "observedAt": "2026-10-28T18:45:08+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
