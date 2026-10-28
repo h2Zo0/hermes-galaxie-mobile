@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T17:24:39+00:00",
+  "lastPracticedAt": "2026-10-28T17:45:06+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -2276,6 +2276,38 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-28T14:40:00Z"
+    },
+    {
+      "repository": "dangrazh/bromium",
+      "url": "https://github.com/dangrazh/bromium",
+      "defaultBranch": "main",
+      "primaryLanguage": "Rust",
+      "primaryLanguageSharePercent": 82.68,
+      "languageBytes": {
+        "Rust": 652753,
+        "Python": 104623,
+        "PowerShell": 30767,
+        "Batchfile": 1388,
+        "RenderScript": 1
+      },
+      "totalLanguageBytes": 789532,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-09T16:31:01Z"
+    },
+    {
+      "repository": "daniarba/voice-agent-testkit",
+      "url": "https://github.com/daniarba/voice-agent-testkit",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 9368
+      },
+      "totalLanguageBytes": 9368,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-26T18:32:40Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
