@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T11:32:34+00:00",
+  "lastPracticedAt": "2026-10-28T11:53:30+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -1670,6 +1670,42 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-23T18:36:03Z"
+    },
+    {
+      "repository": "caseymanos/browser-agent-advisor",
+      "url": "https://github.com/caseymanos/browser-agent-advisor",
+      "defaultBranch": "main",
+      "primaryLanguage": "HTML",
+      "primaryLanguageSharePercent": 55.47,
+      "languageBytes": {
+        "HTML": 22077,
+        "Python": 17723
+      },
+      "totalLanguageBytes": 39800,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-06T01:31:16Z"
+    },
+    {
+      "repository": "catalystcommunity/magi",
+      "url": "https://github.com/catalystcommunity/magi",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "primaryLanguageSharePercent": 38.97,
+      "languageBytes": {
+        "JavaScript": 1162473,
+        "Go": 897163,
+        "TypeScript": 696960,
+        "Rust": 144850,
+        "Python": 67975,
+        "HTML": 10739,
+        "Dockerfile": 1640,
+        "CSS": 1552
+      },
+      "totalLanguageBytes": 2983352,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-26T01:27:55Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

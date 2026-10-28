@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T11:32:36+00:00",
+  "lastPracticedAt": "2026-10-28T11:53:32+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -1097,6 +1097,24 @@
       "declaredLicense": "apache-2.0",
       "access": "public",
       "modelFiles": 4
+    },
+    {
+      "id": "ibm-research/re2g-reranker-wow",
+      "source": "https://huggingface.co/ibm-research/re2g-reranker-wow",
+      "observedAt": "2026-10-28T11:53:32+00:00",
+      "task": "text-classification",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 8
+    },
+    {
+      "id": "immanuelpeter/Muse-Glimmer-Vision",
+      "source": "https://huggingface.co/immanuelpeter/Muse-Glimmer-Vision",
+      "observedAt": "2026-10-28T11:53:32+00:00",
+      "task": "image-feature-extraction",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 11
     }
   ]
 }

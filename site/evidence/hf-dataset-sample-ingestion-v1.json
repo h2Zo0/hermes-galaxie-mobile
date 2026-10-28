@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-28T11:32:38+00:00",
+  "lastPracticedAt": "2026-10-28T11:53:34+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -2490,6 +2490,36 @@
       "rowCount": 3,
       "sampleSha256": "201240188cc6006d1d2d2124edc83bb41239f0f67667602c0b4de72201bc7eeb",
       "observedAt": "2026-10-28T11:32:38+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "ybelkada/documentation-images",
+      "source": "https://huggingface.co/datasets/ybelkada/documentation-images",
+      "config": "default",
+      "split": "test",
+      "columns": [
+        "image"
+      ],
+      "rowCount": 2,
+      "sampleSha256": "9e786c6df03b9dfc86c4af0cb781111553d4546e14275faed8b04e04d710666f",
+      "observedAt": "2026-10-28T11:53:34+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "yzhuang/metatree_BNG_vehicle_",
+      "source": "https://huggingface.co/datasets/yzhuang/metatree_BNG_vehicle_",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "X",
+        "id",
+        "y"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "7fff2194e32b332b1d492eb33657ef7223bb49ff7601944a82ebafd17e6b8799",
+      "observedAt": "2026-10-28T11:53:34+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
