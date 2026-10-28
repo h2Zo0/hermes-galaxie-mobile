@@ -3,7 +3,7 @@
   "title": "Diagnostiquer le runtime de démonstrations IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T16:03:26+00:00",
+  "lastPracticedAt": "2026-10-28T16:23:42+00:00",
   "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
   "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
   "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
@@ -1356,6 +1356,24 @@
       "observedAt": "2026-10-28T16:03:26+00:00",
       "sdk": "streamlit",
       "runtimeStage": "SLEEPING",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "dalle-mini/dalle-mini",
+      "source": "https://huggingface.co/spaces/dalle-mini/dalle-mini",
+      "observedAt": "2026-10-28T16:23:42+00:00",
+      "sdk": "static",
+      "runtimeStage": "RUNNING",
+      "availableNow": true,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "daniel-kim/daniel-kim-agents-autonomous",
+      "source": "https://huggingface.co/spaces/daniel-kim/daniel-kim-agents-autonomous",
+      "observedAt": "2026-10-28T16:23:42+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNTIME_ERROR",
       "availableNow": false,
       "note": "La disponibilité est un instantané, pas une promesse de service"
     }

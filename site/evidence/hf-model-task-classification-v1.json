@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T16:03:26+00:00",
+  "lastPracticedAt": "2026-10-28T16:23:42+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -1349,6 +1349,24 @@
       "declaredLicense": "apache-2.0",
       "access": "public",
       "modelFiles": 6
+    },
+    {
+      "id": "Tanhim/translation-En2De",
+      "source": "https://huggingface.co/Tanhim/translation-En2De",
+      "observedAt": "2026-10-28T16:23:42+00:00",
+      "task": "translation",
+      "declaredLicense": "gpl",
+      "access": "public",
+      "modelFiles": 15
+    },
+    {
+      "id": "thaitea/laya-vision",
+      "source": "https://huggingface.co/thaitea/laya-vision",
+      "observedAt": "2026-10-28T16:23:42+00:00",
+      "task": "visual-question-answering",
+      "declaredLicense": "cc-by-nc-sa-4.0",
+      "access": "public",
+      "modelFiles": 10
     }
   ]
 }

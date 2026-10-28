@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T16:03:26+00:00",
+  "lastPracticedAt": "2026-10-28T16:23:42+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1411,6 +1411,28 @@
         "parquet"
       ],
       "listedFiles": 30,
+      "access": "public"
+    },
+    {
+      "id": "electricsheepeurope/europe-owid-countries-using-the-system-of-environmental-economic-accounting",
+      "source": "https://huggingface.co/datasets/electricsheepeurope/europe-owid-countries-using-the-system-of-environmental-economic-accounting",
+      "observedAt": "2026-10-28T16:23:42+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 4,
+      "access": "public"
+    },
+    {
+      "id": "EleutherAI/wikitext_document_level",
+      "source": "https://huggingface.co/datasets/EleutherAI/wikitext_document_level",
+      "observedAt": "2026-10-28T16:23:42+00:00",
+      "declaredLicense": "cc-by-sa-3.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 15,
       "access": "public"
     }
   ]
