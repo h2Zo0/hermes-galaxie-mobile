@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T09:53:14+00:00",
+  "lastPracticedAt": "2026-10-28T10:11:58+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -1488,6 +1488,36 @@
       "archived": false,
       "starsAtTest": 19,
       "pushedAt": "2026-10-28T00:00:39Z"
+    },
+    {
+      "repository": "Brandon-Martinez27/curriculum-logs-anomaly-detection",
+      "url": "https://github.com/Brandon-Martinez27/curriculum-logs-anomaly-detection",
+      "defaultBranch": "main",
+      "primaryLanguage": "Jupyter Notebook",
+      "primaryLanguageSharePercent": 97.25,
+      "languageBytes": {
+        "Jupyter Notebook": 86652,
+        "Python": 2448
+      },
+      "totalLanguageBytes": 89100,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2021-02-26T18:21:52Z"
+    },
+    {
+      "repository": "Break-Through-Tech/Anote-1A-building-high-quality-datasets-and-evaluation-frameworks-for-ai-coding-assistants",
+      "url": "https://github.com/Break-Through-Tech/Anote-1A-building-high-quality-datasets-and-evaluation-frameworks-for-ai-coding-assistants",
+      "defaultBranch": "main",
+      "primaryLanguage": "Jupyter Notebook",
+      "primaryLanguageSharePercent": 84.49,
+      "languageBytes": {
+        "Jupyter Notebook": 479521,
+        "Python": 88056
+      },
+      "totalLanguageBytes": 567577,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-10-27T06:13:12Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

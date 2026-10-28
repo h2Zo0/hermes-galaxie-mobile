@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T09:53:15+00:00",
+  "lastPracticedAt": "2026-10-28T10:11:59+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -1007,6 +1007,24 @@
       "declaredLicense": "apache-2.0",
       "access": "public",
       "modelFiles": 11
+    },
+    {
+      "id": "denis-berezutskiy-lad/lad_transcription_bert_ru_punctuator",
+      "source": "https://huggingface.co/denis-berezutskiy-lad/lad_transcription_bert_ru_punctuator",
+      "observedAt": "2026-10-28T10:11:59+00:00",
+      "task": "token-classification",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 3
+    },
+    {
+      "id": "dicksondickson/DSV4-Flash-Vision-Exp-ablit-DS4-GGUF",
+      "source": "https://huggingface.co/dicksondickson/DSV4-Flash-Vision-Exp-ablit-DS4-GGUF",
+      "observedAt": "2026-10-28T10:11:59+00:00",
+      "task": "image-text-to-text",
+      "declaredLicense": "mit",
+      "access": "public",
+      "modelFiles": 5
     }
   ]
 }
