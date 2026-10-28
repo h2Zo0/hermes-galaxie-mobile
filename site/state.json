@@ -1,17 +1,17 @@
 {
   "name": "NOVENS CORE — GALAXIE VIVANTE",
-  "asOf": "2026-10-28T04:02:30+00:00",
-  "polledAt": "2026-10-28T04:02:30+00:00",
-  "resourceCount": 5111,
+  "asOf": "2026-10-28T04:22:47+00:00",
+  "polledAt": "2026-10-28T04:22:47+00:00",
+  "resourceCount": 5141,
   "categoryCounts": {
-    "github": 3825,
+    "github": 3855,
     "models": 462,
     "datasets": 409,
     "spaces": 415
   },
   "verifiedSkills": 5,
   "netProfitEuro": 0.0,
-  "growth24h": 4941,
+  "growth24h": 4971,
   "history": [
     {
       "date": "2026-10-26T22:30:41+01:00",
@@ -310,6 +310,12 @@
     {
       "date": "2026-10-28T04:02:30+00:00",
       "resources": 5111,
+      "verified": 5,
+      "profit": 0.0
+    },
+    {
+      "date": "2026-10-28T04:22:47+00:00",
+      "resources": 5141,
       "verified": 5,
       "profit": 0.0
     }
@@ -3886,6 +3892,13 @@
       "firstSeen": "2026-10-27T16:37:04+00:00"
     },
     {
+      "id": "github:abordage/awesome-mcp",
+      "category": "github",
+      "name": "abordage/awesome-mcp",
+      "url": "https://github.com/abordage/awesome-mcp",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
+    },
+    {
       "id": "github:abpframework/abp",
       "category": "github",
       "name": "abpframework/abp",
@@ -4390,6 +4403,13 @@
       "firstSeen": "2026-10-27T21:04:38+00:00"
     },
     {
+      "id": "github:aflsolutions/shadowgit-mcp",
+      "category": "github",
+      "name": "aflsolutions/shadowgit-mcp",
+      "url": "https://github.com/aflsolutions/shadowgit-mcp",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
+    },
+    {
       "id": "github:AFOEK/Genshin-Wiki-RAG-Ollama",
       "category": "github",
       "name": "AFOEK/Genshin-Wiki-RAG-Ollama",
@@ -4584,6 +4604,13 @@
       "name": "ai-pivot/xbot",
       "url": "https://github.com/ai-pivot/xbot",
       "firstSeen": "2026-10-27T16:37:04+00:00"
+    },
+    {
+      "id": "github:AIAnytime/Awesome-MCP-Servers",
+      "category": "github",
+      "name": "AIAnytime/Awesome-MCP-Servers",
+      "url": "https://github.com/AIAnytime/Awesome-MCP-Servers",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
     },
     {
       "id": "github:aidless/wse-bench-public",
@@ -5655,6 +5682,13 @@
       "name": "antoinebarre/mkforge",
       "url": "https://github.com/antoinebarre/mkforge",
       "firstSeen": "2026-10-27T23:59:45+00:00"
+    },
+    {
+      "id": "github:antoinebou12/uml-mcp",
+      "category": "github",
+      "name": "antoinebou12/uml-mcp",
+      "url": "https://github.com/antoinebou12/uml-mcp",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
     },
     {
       "id": "github:AntoineLeo/retrogaming-ia-benchmark",
@@ -7939,6 +7973,13 @@
       "firstSeen": "2026-10-28T02:41:21+00:00"
     },
     {
+      "id": "github:brechanbech/forgejo-mcp-rs",
+      "category": "github",
+      "name": "brechanbech/forgejo-mcp-rs",
+      "url": "https://github.com/brechanbech/forgejo-mcp-rs",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
+    },
+    {
       "id": "github:BrendanJamesLynskey/LLM_Eval_01_Landscape",
       "category": "github",
       "name": "BrendanJamesLynskey/LLM_Eval_01_Landscape",
@@ -8723,6 +8764,13 @@
       "firstSeen": "2026-10-27T16:37:04+00:00"
     },
     {
+      "id": "github:christianclaudio/mcp-server-taxcode",
+      "category": "github",
+      "name": "christianclaudio/mcp-server-taxcode",
+      "url": "https://github.com/christianclaudio/mcp-server-taxcode",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
+    },
+    {
       "id": "github:ChristianTremblay/BAC0",
       "category": "github",
       "name": "ChristianTremblay/BAC0",
@@ -9157,6 +9205,13 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "github:ConnectKnot/knot-mcp",
+      "category": "github",
+      "name": "ConnectKnot/knot-mcp",
+      "url": "https://github.com/ConnectKnot/knot-mcp",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
+    },
+    {
       "id": "github:ConnorDev1337/binary-capability-eval",
       "category": "github",
       "name": "ConnorDev1337/binary-capability-eval",
@@ -9304,6 +9359,13 @@
       "firstSeen": "2026-10-27T15:56:21+00:00"
     },
     {
+      "id": "github:ctrlpi/mcp-bridge",
+      "category": "github",
+      "name": "ctrlpi/mcp-bridge",
+      "url": "https://github.com/ctrlpi/mcp-bridge",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
+    },
+    {
       "id": "github:cubasnik/ABP",
       "category": "github",
       "name": "cubasnik/ABP",
@@ -9316,6 +9378,13 @@
       "name": "cubrid-lab/cubrid-mcp-server",
       "url": "https://github.com/cubrid-lab/cubrid-mcp-server",
       "firstSeen": "2026-10-27T13:09:33+00:00"
+    },
+    {
+      "id": "github:cuolm/swiss-weather-mcp",
+      "category": "github",
+      "name": "cuolm/swiss-weather-mcp",
+      "url": "https://github.com/cuolm/swiss-weather-mcp",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
     },
     {
       "id": "github:curious-bigcat/cortex-agent-vs-databricks-genie",
@@ -11089,6 +11158,13 @@
       "firstSeen": "2026-10-27T20:24:05+00:00"
     },
     {
+      "id": "github:ExpertVagabond/universal-blockchain-mcp",
+      "category": "github",
+      "name": "ExpertVagabond/universal-blockchain-mcp",
+      "url": "https://github.com/ExpertVagabond/universal-blockchain-mcp",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
+    },
+    {
       "id": "github:extio-de/lm-lib",
       "category": "github",
       "name": "extio-de/lm-lib",
@@ -11430,6 +11506,13 @@
       "name": "firasotoom85-droid/agency-automation",
       "url": "https://github.com/firasotoom85-droid/agency-automation",
       "firstSeen": "2026-10-27T18:38:31+00:00"
+    },
+    {
+      "id": "github:Firdosh323/writ",
+      "category": "github",
+      "name": "Firdosh323/writ",
+      "url": "https://github.com/Firdosh323/writ",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
     },
     {
       "id": "github:firecrawl/firecrawl",
@@ -11817,6 +11900,13 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "github:gbxhq/ilinks-mcp",
+      "category": "github",
+      "name": "gbxhq/ilinks-mcp",
+      "url": "https://github.com/gbxhq/ilinks-mcp",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
+    },
+    {
       "id": "github:gdgcblr/open-source-agents",
       "category": "github",
       "name": "gdgcblr/open-source-agents",
@@ -11901,6 +11991,13 @@
       "firstSeen": "2026-10-27T20:24:05+00:00"
     },
     {
+      "id": "github:getgaldo/getmnemo-mcp",
+      "category": "github",
+      "name": "getgaldo/getmnemo-mcp",
+      "url": "https://github.com/getgaldo/getmnemo-mcp",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
+    },
+    {
       "id": "github:gevalinho/codearchaeologist-ai",
       "category": "github",
       "name": "gevalinho/codearchaeologist-ai",
@@ -11913,6 +12010,13 @@
       "name": "gh4reeb/deskforge",
       "url": "https://github.com/gh4reeb/deskforge",
       "firstSeen": "2026-10-27T21:44:11+00:00"
+    },
+    {
+      "id": "github:GhanaOpenAI/ghana-search",
+      "category": "github",
+      "name": "GhanaOpenAI/ghana-search",
+      "url": "https://github.com/GhanaOpenAI/ghana-search",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
     },
     {
       "id": "github:ghofrane2004/content-creator",
@@ -12193,6 +12297,13 @@
       "name": "gowtham16-bhu/maker-checker-agent",
       "url": "https://github.com/gowtham16-bhu/maker-checker-agent",
       "firstSeen": "2026-10-27T20:24:05+00:00"
+    },
+    {
+      "id": "github:Gowthaman90/mcp-bastion",
+      "category": "github",
+      "name": "Gowthaman90/mcp-bastion",
+      "url": "https://github.com/Gowthaman90/mcp-bastion",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
     },
     {
       "id": "github:gpakoh/agent-ssh-gateway",
@@ -13453,6 +13564,13 @@
       "name": "Igorbunow/keithley-2231a-python",
       "url": "https://github.com/Igorbunow/keithley-2231a-python",
       "firstSeen": "2026-10-27T16:16:41+00:00"
+    },
+    {
+      "id": "github:Igriscodes/dj-mcp",
+      "category": "github",
+      "name": "Igriscodes/dj-mcp",
+      "url": "https://github.com/Igriscodes/dj-mcp",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
     },
     {
       "id": "github:IH-Arik/Mabdel",
@@ -15100,6 +15218,13 @@
       "firstSeen": "2026-10-27T16:37:04+00:00"
     },
     {
+      "id": "github:kagisearch/kagimcp",
+      "category": "github",
+      "name": "kagisearch/kagimcp",
+      "url": "https://github.com/kagisearch/kagimcp",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
+    },
+    {
       "id": "github:kai9987kai/Python-Examples",
       "category": "github",
       "name": "kai9987kai/Python-Examples",
@@ -15413,6 +15538,13 @@
       "name": "KDN-Cloud/b.aklein.me",
       "url": "https://github.com/KDN-Cloud/b.aklein.me",
       "firstSeen": "2026-10-27T18:38:31+00:00"
+    },
+    {
+      "id": "github:keboola/mcp-server",
+      "category": "github",
+      "name": "keboola/mcp-server",
+      "url": "https://github.com/keboola/mcp-server",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
     },
     {
       "id": "github:keerthanacod/SourceWise-AI",
@@ -16759,6 +16891,13 @@
       "firstSeen": "2026-10-27T21:04:38+00:00"
     },
     {
+      "id": "github:Losant/losant-mcp-server",
+      "category": "github",
+      "name": "Losant/losant-mcp-server",
+      "url": "https://github.com/Losant/losant-mcp-server",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
+    },
+    {
       "id": "github:LouisLiuNova/Checkgram",
       "category": "github",
       "name": "LouisLiuNova/Checkgram",
@@ -16834,6 +16973,13 @@
       "name": "lunasam848-wq/kmd-automation-hub",
       "url": "https://github.com/lunasam848-wq/kmd-automation-hub",
       "firstSeen": "2026-10-27T15:56:21+00:00"
+    },
+    {
+      "id": "github:lusky3/play-store-mcp",
+      "category": "github",
+      "name": "lusky3/play-store-mcp",
+      "url": "https://github.com/lusky3/play-store-mcp",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
     },
     {
       "id": "github:Luvishgulati03/henry-digital-personality-of-luvish",
@@ -18614,6 +18760,13 @@
       "firstSeen": "2026-10-27T19:02:57+00:00"
     },
     {
+      "id": "github:MrBrunoWolff/minimal-mcp-server",
+      "category": "github",
+      "name": "MrBrunoWolff/minimal-mcp-server",
+      "url": "https://github.com/MrBrunoWolff/minimal-mcp-server",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
+    },
+    {
       "id": "github:MrDoe/OpenCodeRAG",
       "category": "github",
       "name": "MrDoe/OpenCodeRAG",
@@ -20061,6 +20214,13 @@
       "name": "noor-alishba/n8n-file-automation",
       "url": "https://github.com/noor-alishba/n8n-file-automation",
       "firstSeen": "2026-10-27T18:38:31+00:00"
+    },
+    {
+      "id": "github:noor202401938-netizen/cyber-chef-mcp",
+      "category": "github",
+      "name": "noor202401938-netizen/cyber-chef-mcp",
+      "url": "https://github.com/noor202401938-netizen/cyber-chef-mcp",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
     },
     {
       "id": "github:NoorSiddiquiDubai/sovereign-ai-agent-engine",
@@ -21876,6 +22036,13 @@
       "firstSeen": "2026-10-27T22:26:16+00:00"
     },
     {
+      "id": "github:qodalis-solutions/mcp-cli",
+      "category": "github",
+      "name": "qodalis-solutions/mcp-cli",
+      "url": "https://github.com/qodalis-solutions/mcp-cli",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
+    },
+    {
       "id": "github:QuoteSystemX/go-agent-llm-orchestrator",
       "category": "github",
       "name": "QuoteSystemX/go-agent-llm-orchestrator",
@@ -22975,6 +23142,13 @@
       "firstSeen": "2026-10-27T19:43:30+00:00"
     },
     {
+      "id": "github:romuloigor/roku-mcp",
+      "category": "github",
+      "name": "romuloigor/roku-mcp",
+      "url": "https://github.com/romuloigor/roku-mcp",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
+    },
+    {
       "id": "github:Ronack-Kumar/grid07",
       "category": "github",
       "name": "Ronack-Kumar/grid07",
@@ -23015,6 +23189,13 @@
       "name": "roshanmaind/flowwire",
       "url": "https://github.com/roshanmaind/flowwire",
       "firstSeen": "2026-10-27T21:44:11+00:00"
+    },
+    {
+      "id": "github:roshinsthomas/mcp-hr-assistant",
+      "category": "github",
+      "name": "roshinsthomas/mcp-hr-assistant",
+      "url": "https://github.com/roshinsthomas/mcp-hr-assistant",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
     },
     {
       "id": "github:roxm337/osint-agent",
@@ -25159,6 +25340,13 @@
       "firstSeen": "2026-10-27T18:41:59+00:00"
     },
     {
+      "id": "github:sky-cloak/skycloak-mcp",
+      "category": "github",
+      "name": "sky-cloak/skycloak-mcp",
+      "url": "https://github.com/sky-cloak/skycloak-mcp",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
+    },
+    {
       "id": "github:skynetcmd/m3-memory",
       "category": "github",
       "name": "skynetcmd/m3-memory",
@@ -26664,6 +26852,13 @@
       "firstSeen": "2026-10-27T16:37:04+00:00"
     },
     {
+      "id": "github:tduquetteii/lwc-procore-mcp",
+      "category": "github",
+      "name": "tduquetteii/lwc-procore-mcp",
+      "url": "https://github.com/tduquetteii/lwc-procore-mcp",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
+    },
+    {
       "id": "github:Tea01/Anomaly-Detection-in-a-Recommender-System",
       "category": "github",
       "name": "Tea01/Anomaly-Detection-in-a-Recommender-System",
@@ -26902,6 +27097,13 @@
       "firstSeen": "2026-10-27T20:03:47+00:00"
     },
     {
+      "id": "github:the-basilisk-ai/squad-mcp",
+      "category": "github",
+      "name": "the-basilisk-ai/squad-mcp",
+      "url": "https://github.com/the-basilisk-ai/squad-mcp",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
+    },
+    {
       "id": "github:The-Doxa-Way/doxa-mcp-schema",
       "category": "github",
       "name": "The-Doxa-Way/doxa-mcp-schema",
@@ -27033,6 +27235,13 @@
       "name": "TheZaraAI/guest-management-automation-tool",
       "url": "https://github.com/TheZaraAI/guest-management-automation-tool",
       "firstSeen": "2026-10-27T19:43:30+00:00"
+    },
+    {
+      "id": "github:Thibstars/JHAAPI-MCP",
+      "category": "github",
+      "name": "Thibstars/JHAAPI-MCP",
+      "url": "https://github.com/Thibstars/JHAAPI-MCP",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
     },
     {
       "id": "github:ThinkFlowLab/system1-agents",
@@ -28622,6 +28831,13 @@
       "name": "vladislava-c/process-automation-analyzer",
       "url": "https://github.com/vladislava-c/process-automation-analyzer",
       "firstSeen": "2026-10-27T19:02:57+00:00"
+    },
+    {
+      "id": "github:vnklv/pytch-mcp-server",
+      "category": "github",
+      "name": "vnklv/pytch-mcp-server",
+      "url": "https://github.com/vnklv/pytch-mcp-server",
+      "firstSeen": "2026-10-28T04:22:47+00:00"
     },
     {
       "id": "github:vonninnyhammer/n8n-automation",
@@ -36097,9 +36313,9 @@
   "cloud": {
     "agent": "Éclaireur NOVENS CORE",
     "execution": "GitHub Actions",
-    "lastMissionAt": "2026-10-28T04:02:30+00:00",
+    "lastMissionAt": "2026-10-28T04:22:47+00:00",
     "missionStatus": "succès",
-    "newResources": 35,
+    "newResources": 30,
     "errors": 0,
     "nextScheduled": "Toutes les 10 minutes si GitHub Actions disponible",
     "machineIndependence": true
@@ -36110,10 +36326,10 @@
       "title": "Classer des modèles IA par tâche et licence déclarée",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-10-28T04:02:40+00:00",
-      "practiceCount": 83,
+      "lastPracticedAt": "2026-10-28T04:22:57+00:00",
+      "practiceCount": 85,
       "proofPath": "evidence/hf-model-task-classification-v1.json",
-      "proofSha256": "1e65e8ab471f252a11cb434dc45246bb361f0d614be2a34e3fd26d4a9f77fd26",
+      "proofSha256": "b83b1f083cf85700ea5bd04d5a491dbf2d175c3da4d3043853a4c0942b5b532d",
       "resourcesTested": [
         "https://huggingface.co/agentionai/Qwen3.8-27B-AP-GGUF",
         "https://huggingface.co/agentionai/Signal-3.8-27B",
@@ -36197,7 +36413,9 @@
         "https://huggingface.co/naver/provence-reranker-debertav3-v1",
         "https://huggingface.co/NeuML/pubmedbert-base-embeddings",
         "https://huggingface.co/NYTK/translation-bart-en-hu",
-        "https://huggingface.co/NYTK/translation-bart-hu-en"
+        "https://huggingface.co/NYTK/translation-bart-hu-en",
+        "https://huggingface.co/pragmaticcs/Qwen3.8-KAT-AgentWorld-35B-A3B-Coder-GGUF",
+        "https://huggingface.co/Quark-Vision/Live-Avatar"
       ]
     },
     {
@@ -36205,10 +36423,10 @@
       "title": "Qualifier licence et format de jeux de données IA",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-10-28T04:02:40+00:00",
-      "practiceCount": 78,
+      "lastPracticedAt": "2026-10-28T04:22:57+00:00",
+      "practiceCount": 80,
       "proofPath": "evidence/hf-dataset-usage-assessment-v1.json",
-      "proofSha256": "b9bb4bbe3346f27bb29dff7916099377f10cba66048e844644a88c1df6b56d1d",
+      "proofSha256": "6071f7514522fc8e00884c8ab8a31b5eccf6f84a578e422927cefeaf87f29cfa",
       "resourcesTested": [
         "https://huggingface.co/datasets/11-47/autonomous-ai-agents-multi-agent-swarms-2026",
         "https://huggingface.co/datasets/AdityaaXD/Multi-Agent_Reinforcement_Learning_Trading_System_Data",
@@ -36287,7 +36505,9 @@
         "https://huggingface.co/datasets/RachidAb02/Finance-Accounting",
         "https://huggingface.co/datasets/ratschlab/HEST_Xenium_virtual_spatial_transcriptomics",
         "https://huggingface.co/datasets/Sifal/Kabyle-French",
-        "https://huggingface.co/datasets/Snit/french-conversation"
+        "https://huggingface.co/datasets/Snit/french-conversation",
+        "https://huggingface.co/datasets/Tiime/fr-qa-accounting-edits",
+        "https://huggingface.co/datasets/Toolster/ebook-format-samples"
       ]
     },
     {
@@ -36295,10 +36515,10 @@
       "title": "Diagnostiquer le runtime de démonstrations IA",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-10-28T04:02:40+00:00",
-      "practiceCount": 84,
+      "lastPracticedAt": "2026-10-28T04:22:57+00:00",
+      "practiceCount": 86,
       "proofPath": "evidence/hf-space-runtime-diagnostics-v1.json",
-      "proofSha256": "ff52a34e1236d9cafd0b123ab976530f9eeff6e88cfdaab9525eb2db5b90ebee",
+      "proofSha256": "7c779369de1b976846f8e9e0fa41747fbfcb2d71403df8824cdd124cf0ff813c",
       "resourcesTested": [
         "https://huggingface.co/spaces/Aarya003/Financial-Analyst-Agent",
         "https://huggingface.co/spaces/AceVikings/repro-learning-human-robot-collaboration-via-heterogeneous-agent-lyapunov-policy-optimizatio",
@@ -36383,7 +36603,9 @@
         "https://huggingface.co/spaces/rakso/transcription-whisper",
         "https://huggingface.co/spaces/raphaelmerx/MMS-transcription",
         "https://huggingface.co/spaces/SebLih/SV-Transcription",
-        "https://huggingface.co/spaces/SebLih/Transcription"
+        "https://huggingface.co/spaces/SebLih/Transcription",
+        "https://huggingface.co/spaces/Singularity666/VisionGPT-Automation2",
+        "https://huggingface.co/spaces/smolagents/computer-agent"
       ]
     },
     {
@@ -36391,10 +36613,10 @@
       "title": "Lire et contrôler des échantillons de datasets publics",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:46+00:00",
-      "lastPracticedAt": "2026-10-28T04:02:41+00:00",
-      "practiceCount": 84,
+      "lastPracticedAt": "2026-10-28T04:23:01+00:00",
+      "practiceCount": 86,
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "3ae7cd1d75a5c8897ac2aee74ebbad4aade5267812f1365a29c79d752e9befe6",
+      "proofSha256": "804f6c7925c03ecca32af13aa64051cbfbb1cdb258dcaa9a9b9032209fbd0b6b",
       "resourcesTested": [
         "https://huggingface.co/datasets/AdityaaXD/Multi-Agent_Reinforcement_Learning_Trading_System_Data",
         "https://huggingface.co/datasets/Agent-Ark/Toucan-1.5M",
@@ -36479,7 +36701,9 @@
         "https://huggingface.co/datasets/abross/youtube-transcriptions",
         "https://huggingface.co/datasets/adiren7/darija_to_french_speech_to_text",
         "https://huggingface.co/datasets/algohype/accounting",
-        "https://huggingface.co/datasets/Aliissa99/FrenchMedMCQA"
+        "https://huggingface.co/datasets/Aliissa99/FrenchMedMCQA",
+        "https://huggingface.co/datasets/arvindrajan92/sroie_document_understanding",
+        "https://huggingface.co/datasets/aryadytm/vehicle-classification"
       ]
     },
     {
@@ -36487,10 +36711,10 @@
       "title": "Analyser techniquement un dépôt GitHub public",
       "status": "validated",
       "validatedAt": "2026-10-27T12:30:54+00:00",
-      "lastPracticedAt": "2026-10-28T04:02:38+00:00",
-      "practiceCount": 57,
+      "lastPracticedAt": "2026-10-28T04:22:56+00:00",
+      "practiceCount": 59,
       "proofPath": "evidence/github-repository-audit.json",
-      "proofSha256": "0e07a6a16bb2aea9cefdc10a401d0d4a45dfda005868522b75684efce011d1bd",
+      "proofSha256": "a21a156049851eff6c3824e3641cbbe59628d16a3c7649276d813414a2d43012",
       "resourcesTested": [
         "https://github.com/0jre/runne",
         "https://github.com/0xMihirK/hercules-mcp",
@@ -36548,139 +36772,13 @@
         "https://github.com/atandra2000/AutonomousResearcher",
         "https://github.com/atasardacagan/linkedin-ai-automation",
         "https://github.com/atiti/pyaileys",
-        "https://github.com/Atlas-Authorization/pca-python"
+        "https://github.com/Atlas-Authorization/pca-python",
+        "https://github.com/Avidrei/rei",
+        "https://github.com/avikal06/Ethereum-Fraud-Detection"
       ]
     }
   ],
   "capabilityTrials": [
-    {
-      "date": "2026-10-27T21:44:18+00:00",
-      "skillId": "github-repository-technical-audit-v1",
-      "result": "no-new-evidence",
-      "reportsPassed": 0,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 38,
-      "failures": [
-        {
-          "repository": "api-evangelist/anaqua",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "api-evangelist/anon",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "api-evangelist/arga-labs",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "api-evangelist/automation-anywhere",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "api-evangelist/automatisch",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "api-evangelist/camunda",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "api-evangelist/candis",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "api-evangelist/caya",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "api-evangelist/celigo",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "api-evangelist/celonis",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "api-evangelist/cflow",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "api-evangelist/cloudpipes",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-27T21:44:26+00:00",
-      "skillId": "hf-model-task-classification-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 46,
-      "failures": [
-        {
-          "id": "ThankGod/text-generation",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-27T21:44:26+00:00",
-      "skillId": "hf-dataset-usage-assessment-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 46,
-      "failures": [
-        {
-          "id": "agentlans/multi-character-dialogue",
-          "reason": "ValueError"
-        },
-        {
-          "id": "agents-course/final-certificates",
-          "reason": "ValueError"
-        },
-        {
-          "id": "agents-course/unit3-invitees",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-27T21:44:26+00:00",
-      "skillId": "hf-space-runtime-diagnostics-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 46,
-      "failures": []
-    },
-    {
-      "date": "2026-10-27T21:44:27+00:00",
-      "skillId": "hf-dataset-sample-ingestion-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "failedResources": [
-        {
-          "id": "Autonomous-Scientific-Agents/requests",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "Autonomous-Scientific-Agents/results",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "balabis/invoices",
-          "error": "HTTPError",
-          "detail": "HTTP Error 501: Not Implemented"
-        }
-      ],
-      "totalVerifiedExercises": 46
-    },
     {
       "date": "2026-10-27T22:07:31+00:00",
       "skillId": "github-repository-technical-audit-v1",
@@ -39107,25 +39205,170 @@
       "reportsRequired": 1,
       "failedResources": [],
       "totalVerifiedExercises": 84
+    },
+    {
+      "date": "2026-10-28T04:22:56+00:00",
+      "skillId": "github-repository-technical-audit-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 59,
+      "failures": []
+    },
+    {
+      "date": "2026-10-28T04:22:57+00:00",
+      "skillId": "hf-model-task-classification-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 85,
+      "failures": [
+        {
+          "id": "paultrust/text_generation",
+          "reason": "ValueError"
+        },
+        {
+          "id": "persiannlp/mt5-base-parsinlu-opus-translation_fa_en",
+          "reason": "ValueError"
+        },
+        {
+          "id": "persiannlp/mt5-base-parsinlu-translation_en_fa",
+          "reason": "ValueError"
+        },
+        {
+          "id": "persiannlp/mt5-large-parsinlu-opus-translation_fa_en",
+          "reason": "ValueError"
+        },
+        {
+          "id": "persiannlp/mt5-large-parsinlu-translation_en_fa",
+          "reason": "ValueError"
+        },
+        {
+          "id": "persiannlp/mt5-small-parsinlu-opus-translation_fa_en",
+          "reason": "ValueError"
+        },
+        {
+          "id": "persiannlp/mt5-small-parsinlu-translation_en_fa",
+          "reason": "ValueError"
+        },
+        {
+          "id": "peterjwms/whisper-base-lyric-transcription",
+          "reason": "ValueError"
+        },
+        {
+          "id": "philschmid/custom-pipeline-text-classification",
+          "reason": "ValueError"
+        },
+        {
+          "id": "prathap-reddy/autotrain-climate-text-classification-1437253674",
+          "reason": "ValueError"
+        },
+        {
+          "id": "preethikumar/video-transcription",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Priyash/text_generation",
+          "reason": "ValueError"
+        },
+        {
+          "id": "pyannote/embedding",
+          "reason": "ValueError"
+        },
+        {
+          "id": "pyannote/speech-separation-ami-1.0",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Pyjay/gpt2-medium-dutch-finetuned-text-generation",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28T04:22:57+00:00",
+      "skillId": "hf-dataset-usage-assessment-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 80,
+      "failures": [
+        {
+          "id": "thegr8abdessamad/accounting",
+          "reason": "ValueError"
+        },
+        {
+          "id": "thegr8abdessamad/accounting02",
+          "reason": "ValueError"
+        },
+        {
+          "id": "tmfi/japanese-invoice-dqa",
+          "reason": "ValueError"
+        },
+        {
+          "id": "tomvaillant/osint-tool-database",
+          "reason": "ValueError"
+        },
+        {
+          "id": "tool3/face",
+          "reason": "ValueError"
+        },
+        {
+          "id": "tool3/talface",
+          "reason": "ValueError"
+        },
+        {
+          "id": "toolathon/Annoy-PyEdu-Rs",
+          "reason": "ValueError"
+        },
+        {
+          "id": "toolathon/Annoy-PyEdu-Rs-Raw",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28T04:22:57+00:00",
+      "skillId": "hf-space-runtime-diagnostics-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 86,
+      "failures": []
+    },
+    {
+      "date": "2026-10-28T04:23:01+00:00",
+      "skillId": "hf-dataset-sample-ingestion-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "failedResources": [
+        {
+          "id": "arka0821/multi_document_summarization",
+          "error": "HTTPError",
+          "detail": "HTTP Error 501: Not Implemented"
+        }
+      ],
+      "totalVerifiedExercises": 86
     }
   ],
   "lastCapabilityVerification": {
-    "date": "2026-10-28T04:02:41+00:00",
+    "date": "2026-10-28T04:23:01+00:00",
     "skillId": "hf-dataset-sample-ingestion-v1",
     "result": "reinforced"
   },
   "discovery": {
-    "cursor": 42,
+    "cursor": 43,
     "capacity": 20000,
-    "lastBatch": 35,
+    "lastBatch": 30,
     "newByCategory": {
-      "github": 35,
+      "github": 30,
       "models": 0,
       "datasets": 0,
       "spaces": 0
     },
     "queriesLastRun": 7,
-    "totalSearchCycles": 42,
+    "totalSearchCycles": 43,
     "lastErrors": []
   },
   "approvedResources": [
@@ -39716,7 +39959,21 @@
       "approvedFor": "read-only-dataset-sampling",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
       "testedAt": "2026-10-28T04:02:41+00:00"
+    },
+    {
+      "id": "arvindrajan92/sroie_document_understanding",
+      "source": "https://huggingface.co/datasets/arvindrajan92/sroie_document_understanding",
+      "approvedFor": "read-only-dataset-sampling",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "testedAt": "2026-10-28T04:23:01+00:00"
+    },
+    {
+      "id": "aryadytm/vehicle-classification",
+      "source": "https://huggingface.co/datasets/aryadytm/vehicle-classification",
+      "approvedFor": "read-only-dataset-sampling",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "testedAt": "2026-10-28T04:23:01+00:00"
     }
   ],
-  "approvedResourceCount": 84
+  "approvedResourceCount": 86
 }

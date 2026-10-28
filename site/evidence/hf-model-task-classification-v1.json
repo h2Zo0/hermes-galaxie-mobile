@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T04:02:40+00:00",
+  "lastPracticedAt": "2026-10-28T04:22:57+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -755,6 +755,24 @@
       "declaredLicense": "apache-2.0",
       "access": "public",
       "modelFiles": 9
+    },
+    {
+      "id": "pragmaticcs/Qwen3.8-KAT-AgentWorld-35B-A3B-Coder-GGUF",
+      "source": "https://huggingface.co/pragmaticcs/Qwen3.8-KAT-AgentWorld-35B-A3B-Coder-GGUF",
+      "observedAt": "2026-10-28T04:22:57+00:00",
+      "task": "text-generation",
+      "declaredLicense": "apache-2.0",
+      "access": "restreint",
+      "modelFiles": 7
+    },
+    {
+      "id": "Quark-Vision/Live-Avatar",
+      "source": "https://huggingface.co/Quark-Vision/Live-Avatar",
+      "observedAt": "2026-10-28T04:22:57+00:00",
+      "task": "image-to-video",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 5
     }
   ]
 }

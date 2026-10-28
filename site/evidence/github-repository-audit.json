@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T04:02:38+00:00",
+  "lastPracticedAt": "2026-10-28T04:22:56+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -1037,6 +1037,37 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-28T03:59:49Z"
+    },
+    {
+      "repository": "Avidrei/rei",
+      "url": "https://github.com/Avidrei/rei",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 53.66,
+      "languageBytes": {
+        "Python": 30856,
+        "TypeScript": 25595,
+        "JavaScript": 559,
+        "CSS": 488
+      },
+      "totalLanguageBytes": 57498,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-06-17T03:14:40Z"
+    },
+    {
+      "repository": "avikal06/Ethereum-Fraud-Detection",
+      "url": "https://github.com/avikal06/Ethereum-Fraud-Detection",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 5078
+      },
+      "totalLanguageBytes": 5078,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2024-04-25T10:12:51Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

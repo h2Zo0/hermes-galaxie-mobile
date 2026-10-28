@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T04:02:40+00:00",
+  "lastPracticedAt": "2026-10-28T04:22:57+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -878,6 +878,30 @@
         "txt"
       ],
       "listedFiles": 1051,
+      "access": "public"
+    },
+    {
+      "id": "Tiime/fr-qa-accounting-edits",
+      "source": "https://huggingface.co/datasets/Tiime/fr-qa-accounting-edits",
+      "observedAt": "2026-10-28T04:22:57+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 4,
+      "access": "public"
+    },
+    {
+      "id": "Toolster/ebook-format-samples",
+      "source": "https://huggingface.co/datasets/Toolster/ebook-format-samples",
+      "observedAt": "2026-10-28T04:22:57+00:00",
+      "declaredLicense": "cc0-1.0",
+      "formats": [
+        "csv",
+        "txt",
+        "zip"
+      ],
+      "listedFiles": 101,
       "access": "public"
     }
   ]
