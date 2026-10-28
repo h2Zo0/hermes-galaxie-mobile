@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-27T23:39:32+00:00",
+  "lastPracticedAt": "2026-10-28T01:01:22+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -655,6 +655,28 @@
         "parquet"
       ],
       "listedFiles": 5,
+      "access": "public"
+    },
+    {
+      "id": "JayYz/multi_agent_handoff",
+      "source": "https://huggingface.co/datasets/JayYz/multi_agent_handoff",
+      "observedAt": "2026-10-28T01:01:22+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "jsonl"
+      ],
+      "listedFiles": 13,
+      "access": "public"
+    },
+    {
+      "id": "jdabello/yt_transcriptions",
+      "source": "https://huggingface.co/datasets/jdabello/yt_transcriptions",
+      "observedAt": "2026-10-28T01:01:22+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "jsonl"
+      ],
+      "listedFiles": 3,
       "access": "public"
     }
   ]
