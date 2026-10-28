@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T19:25:19+00:00",
+  "lastPracticedAt": "2026-10-28T19:40:40+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -2461,6 +2461,46 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-17T19:27:45Z"
+    },
+    {
+      "repository": "devops-mv/mv-pay",
+      "url": "https://github.com/devops-mv/mv-pay",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 98.19,
+      "languageBytes": {
+        "TypeScript": 18870,
+        "Shell": 278,
+        "Dockerfile": 70
+      },
+      "totalLanguageBytes": 19218,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2022-02-10T16:39:56Z"
+    },
+    {
+      "repository": "devrochy/agent-core",
+      "url": "https://github.com/devrochy/agent-core",
+      "defaultBranch": "develop",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 97.91,
+      "languageBytes": {
+        "Python": 14066127,
+        "HTML": 244200,
+        "Shell": 22889,
+        "Jinja": 9990,
+        "JavaScript": 8758,
+        "TypeScript": 3691,
+        "Mako": 3024,
+        "Dockerfile": 2927,
+        "PLpgSQL": 2420,
+        "Makefile": 1351,
+        "CSS": 1041
+      },
+      "totalLanguageBytes": 14366418,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-28T18:11:42Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

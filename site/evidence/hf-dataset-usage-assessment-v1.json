@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T19:25:21+00:00",
+  "lastPracticedAt": "2026-10-28T19:40:42+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1484,6 +1484,17 @@
       "source": "https://huggingface.co/datasets/monodox/cortex-agent-planning",
       "observedAt": "2026-10-28T19:25:21+00:00",
       "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "jsonl"
+      ],
+      "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "nvidia/Nemotron-SFT-Agentic-Finance-v1",
+      "source": "https://huggingface.co/datasets/nvidia/Nemotron-SFT-Agentic-Finance-v1",
+      "observedAt": "2026-10-28T19:40:42+00:00",
+      "declaredLicense": "openmdw-1.1",
       "formats": [
         "jsonl"
       ],
