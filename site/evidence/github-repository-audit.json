@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T20:40:34+00:00",
+  "lastPracticedAt": "2026-10-28T20:59:24+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -2597,6 +2597,37 @@
       "archived": false,
       "starsAtTest": 3,
       "pushedAt": "2026-10-26T10:00:12Z"
+    },
+    {
+      "repository": "divyanshsingh7800/AI-Social-Media-Automation-Platform",
+      "url": "https://github.com/divyanshsingh7800/AI-Social-Media-Automation-Platform",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 75683
+      },
+      "totalLanguageBytes": 75683,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-09-07T13:21:15Z"
+    },
+    {
+      "repository": "djolex999/serbeval",
+      "url": "https://github.com/djolex999/serbeval",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 59.07,
+      "languageBytes": {
+        "Python": 526026,
+        "HTML": 342324,
+        "JavaScript": 12406,
+        "Shell": 9710
+      },
+      "totalLanguageBytes": 890466,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-23T01:43:55Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
