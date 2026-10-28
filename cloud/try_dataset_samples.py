@@ -92,6 +92,54 @@ def candidates(state):
     return []
 
 
+def promote_tested_resources(existing, approved_resources, proof_path=None):
+    """À chaque rapport positif : capacité validée et déjà invocable via le moteur Rust.
+
+    On associe chaque ressource à son propre identifiant et à son propre rapport
+    d'exécution, sans prétendre exécuter un modèle distant ou un code tiers.
+    """
+    proof_path = PROOF if proof_path is None else proof_path
+    if not proof_path.is_file():
+        return existing
+    raw = proof_path.read_bytes()
+    evidence = json.loads(raw)
+    if (evidence.get("skillId") != SKILL_ID or evidence.get("status") != "validated"
+            or evidence.get("checksPassed") is not True):
+        return existing
+    reports = evidence.get("reports", [])
+    if not isinstance(reports, list):
+        return existing
+    digest = sha256(raw).hexdigest()
+    approved = {r["id"]: r for r in approved_resources
+                if isinstance(r, dict) and isinstance(r.get("id"), str)}
+    for r in reports:
+        if not isinstance(r, dict):
+            continue
+        slug = r.get("id")
+        if not isinstance(slug, str) or not DATASET.fullmatch(slug):
+            continue
+        matching = approved.get(slug)
+        if not matching or (matching.get("approvedFor") != "read-only-dataset-sampling"
+            or matching.get("source") != r.get("source")
+            or matching.get("testedAt") != r.get("observedAt")
+            or r.get("source") != "https://huggingface.co/datasets/" + slug
+            or not isinstance(r.get("rowCount"), int) or r["rowCount"] < 1
+            or not isinstance(r.get("sampleSha256"), str) or len(r["sampleSha256"]) != 64
+            or not r.get("config") or not r.get("split")):
+            continue
+        key = "dataset:" + slug
+        existing[key] = {
+            "id": key, "title": "Lire le dataset " + slug,
+            "status": "validated", "validatedAt": r["observedAt"],
+            "proofPath": "evidence/" + proof_path.name, "proofSha256": digest,
+            "resourcesTested": [r["source"]], "practiceCount": 1,
+            "handler": "hf-dataset-sample-readonly",
+            "scope": "read-only-dataset-sampling",
+            "call": {"tool": "novens_capabilities_invoke", "capability_id": key}
+        }
+    return existing
+
+
 def run(state, fetch=get_api):
     existing = {s["id"]: s for s in valid_existing_skills(state.get("skills", []))}
     previous = existing.get(SKILL_ID)
@@ -157,6 +205,11 @@ def run(state, fetch=get_api):
             }
     state["approvedResources"] = list(approved.values())
     state["approvedResourceCount"] = len(approved)
+    # Même cycle : une ressource avec preuve positive devient automatiquement
+    # une capacité appelable ; elle ne reste jamais simplement « approuvée ».
+    existing = promote_tested_resources(existing, state["approvedResources"])
+    state["skills"] = list(existing.values())
+    state["verifiedSkills"] = len(existing)
     history = state.get("history")
     if isinstance(history, list) and history and isinstance(history[-1], dict):
         history[-1]["verified"] = len(existing)

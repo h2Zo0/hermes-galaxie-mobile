@@ -104,6 +104,30 @@ def valid_existing_skills(items):
             evidence = json.loads(raw)
             reports = evidence.get("reports")
             identifiers = [r.get("repository") or r.get("id") for r in reports] if isinstance(reports, list) else []
+            # Les ressources ayant réussi un test d'usage reçoivent chacune une capacité
+            # locale opérante via novens_capabilities_invoke(dataset:<id>).
+            # Une seule preuve partagée contient un rapport distinct pour chaque dataset.
+            capid = item.get("id", "")
+            if (isinstance(capid, str) and capid.startswith("dataset:")
+                and proof == "evidence/hf-dataset-sample-ingestion-v1.json"
+                and evidence.get("skillId") == "hf-dataset-sample-ingestion-v1"
+                and evidence.get("status") == "validated"
+                and evidence.get("checksPassed") is True
+                and item.get("handler") == "hf-dataset-sample-readonly"
+                and item.get("scope") == "read-only-dataset-sampling"
+                and isinstance(reports, list)
+                and re.fullmatch(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+", capid.removeprefix("dataset:"))):
+                slug = capid.removeprefix("dataset:")
+                match = next((r for r in reports if r.get("id") == slug and
+                              r.get("source") == "https://huggingface.co/datasets/" + slug
+                              and r.get("approvedFor") == "read-only-dataset-sampling"
+                              and r.get("observedAt") == item.get("validatedAt")
+                              and isinstance(r.get("rowCount"), int) and r["rowCount"] > 0
+                              and isinstance(r.get("sampleSha256"), str) and len(r["sampleSha256"]) == 64
+                              and r.get("config") and r.get("split")), None)
+                if match and not any(v["id"] == capid for v in valid):
+                    valid.append(item)
+                continue
             if (evidence.get("skillId") == item.get("id") and evidence.get("status") == "validated"
                     and evidence.get("checksPassed") is True and len(identifiers) >= 2
                     and all(isinstance(identifier, str) and identifier for identifier in identifiers)

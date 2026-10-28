@@ -9,7 +9,7 @@
     "datasets": 409,
     "spaces": 418
   },
-  "verifiedSkills": 5,
+  "verifiedSkills": 105,
   "netProfitEuro": 0.0,
   "growth24h": 4968,
   "history": [
@@ -37088,6 +37088,1806 @@
         "https://github.com/beingdutta/A-Controlled-Four-Dimension-Benchmark-of-Small-Instruction-Tuned-LLMs-on-Mental-Health-MCQA",
         "https://github.com/BelAnas/mcp-business-tools-server"
       ]
+    },
+    {
+      "id": "dataset:AdityaaXD/Multi-Agent_Reinforcement_Learning_Trading_System_Data",
+      "title": "Lire le dataset AdityaaXD/Multi-Agent_Reinforcement_Learning_Trading_System_Data",
+      "status": "validated",
+      "validatedAt": "2026-10-27T13:09:46+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/AdityaaXD/Multi-Agent_Reinforcement_Learning_Trading_System_Data"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:AdityaaXD/Multi-Agent_Reinforcement_Learning_Trading_System_Data"
+      }
+    },
+    {
+      "id": "dataset:Agent-Ark/Toucan-1.5M",
+      "title": "Lire le dataset Agent-Ark/Toucan-1.5M",
+      "status": "validated",
+      "validatedAt": "2026-10-27T13:09:46+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/Agent-Ark/Toucan-1.5M"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:Agent-Ark/Toucan-1.5M"
+      }
+    },
+    {
+      "id": "dataset:hf-internal-testing/example-documents",
+      "title": "Lire le dataset hf-internal-testing/example-documents",
+      "status": "validated",
+      "validatedAt": "2026-10-27T13:28:32+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/hf-internal-testing/example-documents"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:hf-internal-testing/example-documents"
+      }
+    },
+    {
+      "id": "dataset:hirundo-io/document-injection-answered",
+      "title": "Lire le dataset hirundo-io/document-injection-answered",
+      "status": "validated",
+      "validatedAt": "2026-10-27T13:28:32+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/hirundo-io/document-injection-answered"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:hirundo-io/document-injection-answered"
+      }
+    },
+    {
+      "id": "dataset:GalaktischeGurke/full_dataset_600_lines_invoice_contract_mail",
+      "title": "Lire le dataset GalaktischeGurke/full_dataset_600_lines_invoice_contract_mail",
+      "status": "validated",
+      "validatedAt": "2026-10-27T15:21:47+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/GalaktischeGurke/full_dataset_600_lines_invoice_contract_mail"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:GalaktischeGurke/full_dataset_600_lines_invoice_contract_mail"
+      }
+    },
+    {
+      "id": "dataset:GalaktischeGurke/invoices_instruct_vf",
+      "title": "Lire le dataset GalaktischeGurke/invoices_instruct_vf",
+      "status": "validated",
+      "validatedAt": "2026-10-27T15:21:47+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/GalaktischeGurke/invoices_instruct_vf"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:GalaktischeGurke/invoices_instruct_vf"
+      }
+    },
+    {
+      "id": "dataset:huggingface/documentation-images",
+      "title": "Lire le dataset huggingface/documentation-images",
+      "status": "validated",
+      "validatedAt": "2026-10-27T15:37:14+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/huggingface/documentation-images"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:huggingface/documentation-images"
+      }
+    },
+    {
+      "id": "dataset:HumynLabs/Brazilian_Bills_and_Invoices_Dataset",
+      "title": "Lire le dataset HumynLabs/Brazilian_Bills_and_Invoices_Dataset",
+      "status": "validated",
+      "validatedAt": "2026-10-27T15:37:14+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/HumynLabs/Brazilian_Bills_and_Invoices_Dataset"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:HumynLabs/Brazilian_Bills_and_Invoices_Dataset"
+      }
+    },
+    {
+      "id": "dataset:ikuldeep1/vehicle-damage-fraud-image",
+      "title": "Lire le dataset ikuldeep1/vehicle-damage-fraud-image",
+      "status": "validated",
+      "validatedAt": "2026-10-27T15:56:30+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/ikuldeep1/vehicle-damage-fraud-image"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:ikuldeep1/vehicle-damage-fraud-image"
+      }
+    },
+    {
+      "id": "dataset:ikuldeep1/vehicle-damage-fraud-image-balanced",
+      "title": "Lire le dataset ikuldeep1/vehicle-damage-fraud-image-balanced",
+      "status": "validated",
+      "validatedAt": "2026-10-27T15:56:30+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/ikuldeep1/vehicle-damage-fraud-image-balanced"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:ikuldeep1/vehicle-damage-fraud-image-balanced"
+      }
+    },
+    {
+      "id": "dataset:IljaSamoilov/ERR-transcription-to-subtitles",
+      "title": "Lire le dataset IljaSamoilov/ERR-transcription-to-subtitles",
+      "status": "validated",
+      "validatedAt": "2026-10-27T16:16:55+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/IljaSamoilov/ERR-transcription-to-subtitles"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:IljaSamoilov/ERR-transcription-to-subtitles"
+      }
+    },
+    {
+      "id": "dataset:infinite-dataset-hub/VehicleClassifier",
+      "title": "Lire le dataset infinite-dataset-hub/VehicleClassifier",
+      "status": "validated",
+      "validatedAt": "2026-10-27T16:16:55+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/infinite-dataset-hub/VehicleClassifier"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:infinite-dataset-hub/VehicleClassifier"
+      }
+    },
+    {
+      "id": "dataset:infinite-dataset-hub/VehicleHealthMonitoring",
+      "title": "Lire le dataset infinite-dataset-hub/VehicleHealthMonitoring",
+      "status": "validated",
+      "validatedAt": "2026-10-27T16:37:16+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/infinite-dataset-hub/VehicleHealthMonitoring"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:infinite-dataset-hub/VehicleHealthMonitoring"
+      }
+    },
+    {
+      "id": "dataset:ItsMayur/Vehicle_Complaints_NHSTA",
+      "title": "Lire le dataset ItsMayur/Vehicle_Complaints_NHSTA",
+      "status": "validated",
+      "validatedAt": "2026-10-27T16:37:16+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/ItsMayur/Vehicle_Complaints_NHSTA"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:ItsMayur/Vehicle_Complaints_NHSTA"
+      }
+    },
+    {
+      "id": "dataset:HydraLM/GPTeacher_toolformer_list_dict",
+      "title": "Lire le dataset HydraLM/GPTeacher_toolformer_list_dict",
+      "status": "validated",
+      "validatedAt": "2026-10-27T16:57:42+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/HydraLM/GPTeacher_toolformer_list_dict"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:HydraLM/GPTeacher_toolformer_list_dict"
+      }
+    },
+    {
+      "id": "dataset:HydraLM/GPTeacher_toolformer_standardized",
+      "title": "Lire le dataset HydraLM/GPTeacher_toolformer_standardized",
+      "status": "validated",
+      "validatedAt": "2026-10-27T16:57:42+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/HydraLM/GPTeacher_toolformer_standardized"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:HydraLM/GPTeacher_toolformer_standardized"
+      }
+    },
+    {
+      "id": "dataset:Ivan1008/toolace-hallucination-spans",
+      "title": "Lire le dataset Ivan1008/toolace-hallucination-spans",
+      "status": "validated",
+      "validatedAt": "2026-10-27T17:17:52+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/Ivan1008/toolace-hallucination-spans"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:Ivan1008/toolace-hallucination-spans"
+      }
+    },
+    {
+      "id": "dataset:jacobwelsh/accounting",
+      "title": "Lire le dataset jacobwelsh/accounting",
+      "status": "validated",
+      "validatedAt": "2026-10-27T17:17:52+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/jacobwelsh/accounting"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:jacobwelsh/accounting"
+      }
+    },
+    {
+      "id": "dataset:joey234/mmlu-professional_accounting-neg-prepend-fix",
+      "title": "Lire le dataset joey234/mmlu-professional_accounting-neg-prepend-fix",
+      "status": "validated",
+      "validatedAt": "2026-10-27T17:38:04+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-neg-prepend-fix"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:joey234/mmlu-professional_accounting-neg-prepend-fix"
+      }
+    },
+    {
+      "id": "dataset:joey234/mmlu-professional_accounting-neg-prepend-verbal",
+      "title": "Lire le dataset joey234/mmlu-professional_accounting-neg-prepend-verbal",
+      "status": "validated",
+      "validatedAt": "2026-10-27T17:38:04+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-neg-prepend-verbal"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:joey234/mmlu-professional_accounting-neg-prepend-verbal"
+      }
+    },
+    {
+      "id": "dataset:katanaml-org/invoices-donut-data-v1",
+      "title": "Lire le dataset katanaml-org/invoices-donut-data-v1",
+      "status": "validated",
+      "validatedAt": "2026-10-27T17:58:32+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/katanaml-org/invoices-donut-data-v1"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:katanaml-org/invoices-donut-data-v1"
+      }
+    },
+    {
+      "id": "dataset:kenhktsui/open-toolformer-retrieval",
+      "title": "Lire le dataset kenhktsui/open-toolformer-retrieval",
+      "status": "validated",
+      "validatedAt": "2026-10-27T17:58:32+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/kenhktsui/open-toolformer-retrieval"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:kenhktsui/open-toolformer-retrieval"
+      }
+    },
+    {
+      "id": "dataset:Lots-of-LoRAs/task728_mmmlu_answer_generation_professional_accounting",
+      "title": "Lire le dataset Lots-of-LoRAs/task728_mmmlu_answer_generation_professional_accounting",
+      "status": "validated",
+      "validatedAt": "2026-10-27T18:18:46+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/Lots-of-LoRAs/task728_mmmlu_answer_generation_professional_accounting"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:Lots-of-LoRAs/task728_mmmlu_answer_generation_professional_accounting"
+      }
+    },
+    {
+      "id": "dataset:lowem1/training-invoices",
+      "title": "Lire le dataset lowem1/training-invoices",
+      "status": "validated",
+      "validatedAt": "2026-10-27T18:18:46+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/lowem1/training-invoices"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:lowem1/training-invoices"
+      }
+    },
+    {
+      "id": "dataset:michsethowusu/french-fulah_sentence-pairs",
+      "title": "Lire le dataset michsethowusu/french-fulah_sentence-pairs",
+      "status": "validated",
+      "validatedAt": "2026-10-27T18:38:43+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/michsethowusu/french-fulah_sentence-pairs"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:michsethowusu/french-fulah_sentence-pairs"
+      }
+    },
+    {
+      "id": "dataset:michsethowusu/french-lingala_sentence-pairs",
+      "title": "Lire le dataset michsethowusu/french-lingala_sentence-pairs",
+      "status": "validated",
+      "validatedAt": "2026-10-27T18:38:43+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/michsethowusu/french-lingala_sentence-pairs"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:michsethowusu/french-lingala_sentence-pairs"
+      }
+    },
+    {
+      "id": "dataset:nvidia/Nemotron-RL-Agentic-Conversational-Tool-Use-Pivot-v1",
+      "title": "Lire le dataset nvidia/Nemotron-RL-Agentic-Conversational-Tool-Use-Pivot-v1",
+      "status": "validated",
+      "validatedAt": "2026-10-27T18:42:16+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/nvidia/Nemotron-RL-Agentic-Conversational-Tool-Use-Pivot-v1"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:nvidia/Nemotron-RL-Agentic-Conversational-Tool-Use-Pivot-v1"
+      }
+    },
+    {
+      "id": "dataset:nvidia/Nemotron-SFT-Agentic-Finance-v1",
+      "title": "Lire le dataset nvidia/Nemotron-SFT-Agentic-Finance-v1",
+      "status": "validated",
+      "validatedAt": "2026-10-27T18:42:16+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/nvidia/Nemotron-SFT-Agentic-Finance-v1"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:nvidia/Nemotron-SFT-Agentic-Finance-v1"
+      }
+    },
+    {
+      "id": "dataset:open-source-metrics/document-question-answering-checkpoint-downloads",
+      "title": "Lire le dataset open-source-metrics/document-question-answering-checkpoint-downloads",
+      "status": "validated",
+      "validatedAt": "2026-10-27T19:03:09+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/open-source-metrics/document-question-answering-checkpoint-downloads"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:open-source-metrics/document-question-answering-checkpoint-downloads"
+      }
+    },
+    {
+      "id": "dataset:open-thoughts/AgentTrove",
+      "title": "Lire le dataset open-thoughts/AgentTrove",
+      "status": "validated",
+      "validatedAt": "2026-10-27T19:03:09+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/open-thoughts/AgentTrove"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:open-thoughts/AgentTrove"
+      }
+    },
+    {
+      "id": "dataset:procit005/vehicles1",
+      "title": "Lire le dataset procit005/vehicles1",
+      "status": "validated",
+      "validatedAt": "2026-10-27T19:23:19+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/procit005/vehicles1"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:procit005/vehicles1"
+      }
+    },
+    {
+      "id": "dataset:procit005/vehicles11",
+      "title": "Lire le dataset procit005/vehicles11",
+      "status": "validated",
+      "validatedAt": "2026-10-27T19:23:19+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/procit005/vehicles11"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:procit005/vehicles11"
+      }
+    },
+    {
+      "id": "dataset:Salesforce/wikitext",
+      "title": "Lire le dataset Salesforce/wikitext",
+      "status": "validated",
+      "validatedAt": "2026-10-27T19:43:50+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/Salesforce/wikitext"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:Salesforce/wikitext"
+      }
+    },
+    {
+      "id": "dataset:sanchit-gandhi/whisper-ls-transcriptions",
+      "title": "Lire le dataset sanchit-gandhi/whisper-ls-transcriptions",
+      "status": "validated",
+      "validatedAt": "2026-10-27T19:43:50+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/sanchit-gandhi/whisper-ls-transcriptions"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:sanchit-gandhi/whisper-ls-transcriptions"
+      }
+    },
+    {
+      "id": "dataset:tanishaiwozo/high-quality-invoice-images-for-ocr",
+      "title": "Lire le dataset tanishaiwozo/high-quality-invoice-images-for-ocr",
+      "status": "validated",
+      "validatedAt": "2026-10-27T20:04:07+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/tanishaiwozo/high-quality-invoice-images-for-ocr"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:tanishaiwozo/high-quality-invoice-images-for-ocr"
+      }
+    },
+    {
+      "id": "dataset:tbboukhari/Alpaca-in-french",
+      "title": "Lire le dataset tbboukhari/Alpaca-in-french",
+      "status": "validated",
+      "validatedAt": "2026-10-27T20:04:07+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/tbboukhari/Alpaca-in-french"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:tbboukhari/Alpaca-in-french"
+      }
+    },
+    {
+      "id": "dataset:Vikhrmodels/tool-plannings-v0.2",
+      "title": "Lire le dataset Vikhrmodels/tool-plannings-v0.2",
+      "status": "validated",
+      "validatedAt": "2026-10-27T20:24:27+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/Vikhrmodels/tool-plannings-v0.2"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:Vikhrmodels/tool-plannings-v0.2"
+      }
+    },
+    {
+      "id": "dataset:waechor/tuto_foo_french2023",
+      "title": "Lire le dataset waechor/tuto_foo_french2023",
+      "status": "validated",
+      "validatedAt": "2026-10-27T20:24:27+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/waechor/tuto_foo_french2023"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:waechor/tuto_foo_french2023"
+      }
+    },
+    {
+      "id": "dataset:yzhuang/metatree_vehicle_sensIT",
+      "title": "Lire le dataset yzhuang/metatree_vehicle_sensIT",
+      "status": "validated",
+      "validatedAt": "2026-10-27T20:44:38+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/yzhuang/metatree_vehicle_sensIT"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:yzhuang/metatree_vehicle_sensIT"
+      }
+    },
+    {
+      "id": "dataset:zachgitt/comedy-transcripts",
+      "title": "Lire le dataset zachgitt/comedy-transcripts",
+      "status": "validated",
+      "validatedAt": "2026-10-27T20:44:38+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/zachgitt/comedy-transcripts"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:zachgitt/comedy-transcripts"
+      }
+    },
+    {
+      "id": "dataset:agomberto/FrenchCensus-handwritten-texts",
+      "title": "Lire le dataset agomberto/FrenchCensus-handwritten-texts",
+      "status": "validated",
+      "validatedAt": "2026-10-27T21:04:50+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/agomberto/FrenchCensus-handwritten-texts"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:agomberto/FrenchCensus-handwritten-texts"
+      }
+    },
+    {
+      "id": "dataset:AhmedBou/French_quotes",
+      "title": "Lire le dataset AhmedBou/French_quotes",
+      "status": "validated",
+      "validatedAt": "2026-10-27T21:04:50+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/AhmedBou/French_quotes"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:AhmedBou/French_quotes"
+      }
+    },
+    {
+      "id": "dataset:anonymoussubmissions/earnings21-gold-transcripts-normalized",
+      "title": "Lire le dataset anonymoussubmissions/earnings21-gold-transcripts-normalized",
+      "status": "validated",
+      "validatedAt": "2026-10-27T21:25:31+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/anonymoussubmissions/earnings21-gold-transcripts-normalized"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:anonymoussubmissions/earnings21-gold-transcripts-normalized"
+      }
+    },
+    {
+      "id": "dataset:Aoschu/donut_model_data_for_german_invoice",
+      "title": "Lire le dataset Aoschu/donut_model_data_for_german_invoice",
+      "status": "validated",
+      "validatedAt": "2026-10-27T21:25:31+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/Aoschu/donut_model_data_for_german_invoice"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:Aoschu/donut_model_data_for_german_invoice"
+      }
+    },
+    {
+      "id": "dataset:b000cb34ccdf5cba9115e34c8165c749/classified-government-documents",
+      "title": "Lire le dataset b000cb34ccdf5cba9115e34c8165c749/classified-government-documents",
+      "status": "validated",
+      "validatedAt": "2026-10-27T21:44:27+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/b000cb34ccdf5cba9115e34c8165c749/classified-government-documents"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:b000cb34ccdf5cba9115e34c8165c749/classified-government-documents"
+      }
+    },
+    {
+      "id": "dataset:beatsprom/autonomous-ai-agents-multi-agent-swarms-2026",
+      "title": "Lire le dataset beatsprom/autonomous-ai-agents-multi-agent-swarms-2026",
+      "status": "validated",
+      "validatedAt": "2026-10-27T21:44:27+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/beatsprom/autonomous-ai-agents-multi-agent-swarms-2026"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:beatsprom/autonomous-ai-agents-multi-agent-swarms-2026"
+      }
+    },
+    {
+      "id": "dataset:CATIE-AQ/frenchQA",
+      "title": "Lire le dataset CATIE-AQ/frenchQA",
+      "status": "validated",
+      "validatedAt": "2026-10-27T22:07:41+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/CATIE-AQ/frenchQA"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:CATIE-AQ/frenchQA"
+      }
+    },
+    {
+      "id": "dataset:ClarusC64/ai-tool-use-boundary-coherence-risk-v0.1",
+      "title": "Lire le dataset ClarusC64/ai-tool-use-boundary-coherence-risk-v0.1",
+      "status": "validated",
+      "validatedAt": "2026-10-27T22:07:41+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/ClarusC64/ai-tool-use-boundary-coherence-risk-v0.1"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:ClarusC64/ai-tool-use-boundary-coherence-risk-v0.1"
+      }
+    },
+    {
+      "id": "dataset:DenyTranDFW/BMW_Vehicle_Lease_Trust_2017_2_1716665",
+      "title": "Lire le dataset DenyTranDFW/BMW_Vehicle_Lease_Trust_2017_2_1716665",
+      "status": "validated",
+      "validatedAt": "2026-10-27T22:26:39+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/DenyTranDFW/BMW_Vehicle_Lease_Trust_2017_2_1716665"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:DenyTranDFW/BMW_Vehicle_Lease_Trust_2017_2_1716665"
+      }
+    },
+    {
+      "id": "dataset:DenyTranDFW/BMW_Vehicle_Lease_Trust_2018_1_1753585",
+      "title": "Lire le dataset DenyTranDFW/BMW_Vehicle_Lease_Trust_2018_1_1753585",
+      "status": "validated",
+      "validatedAt": "2026-10-27T22:26:39+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/DenyTranDFW/BMW_Vehicle_Lease_Trust_2018_1_1753585"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:DenyTranDFW/BMW_Vehicle_Lease_Trust_2018_1_1753585"
+      }
+    },
+    {
+      "id": "dataset:erfanvaredi/zephyr-7b-beta-invoices",
+      "title": "Lire le dataset erfanvaredi/zephyr-7b-beta-invoices",
+      "status": "validated",
+      "validatedAt": "2026-10-27T22:38:42+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/erfanvaredi/zephyr-7b-beta-invoices"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:erfanvaredi/zephyr-7b-beta-invoices"
+      }
+    },
+    {
+      "id": "dataset:esoria3/french_simplified",
+      "title": "Lire le dataset esoria3/french_simplified",
+      "status": "validated",
+      "validatedAt": "2026-10-27T22:38:42+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/esoria3/french_simplified"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:esoria3/french_simplified"
+      }
+    },
+    {
+      "id": "dataset:GalaktischeGurke/invoices_instruct_vf_weird",
+      "title": "Lire le dataset GalaktischeGurke/invoices_instruct_vf_weird",
+      "status": "validated",
+      "validatedAt": "2026-10-27T22:58:38+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/GalaktischeGurke/invoices_instruct_vf_weird"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:GalaktischeGurke/invoices_instruct_vf_weird"
+      }
+    },
+    {
+      "id": "dataset:GalaktischeGurke/parameter_extraction_1500_mail_contract_invoice",
+      "title": "Lire le dataset GalaktischeGurke/parameter_extraction_1500_mail_contract_invoice",
+      "status": "validated",
+      "validatedAt": "2026-10-27T22:58:38+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/GalaktischeGurke/parameter_extraction_1500_mail_contract_invoice"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:GalaktischeGurke/parameter_extraction_1500_mail_contract_invoice"
+      }
+    },
+    {
+      "id": "dataset:huggingartists/tool",
+      "title": "Lire le dataset huggingartists/tool",
+      "status": "validated",
+      "validatedAt": "2026-10-27T23:18:59+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/huggingartists/tool"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:huggingartists/tool"
+      }
+    },
+    {
+      "id": "dataset:huggingface-course/documentation-images",
+      "title": "Lire le dataset huggingface-course/documentation-images",
+      "status": "validated",
+      "validatedAt": "2026-10-27T23:18:59+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/huggingface-course/documentation-images"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:huggingface-course/documentation-images"
+      }
+    },
+    {
+      "id": "dataset:jamescalam/lex-transcripts",
+      "title": "Lire le dataset jamescalam/lex-transcripts",
+      "status": "validated",
+      "validatedAt": "2026-10-27T23:39:34+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/jamescalam/lex-transcripts"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:jamescalam/lex-transcripts"
+      }
+    },
+    {
+      "id": "dataset:jamescalam/youtube-transcriptions",
+      "title": "Lire le dataset jamescalam/youtube-transcriptions",
+      "status": "validated",
+      "validatedAt": "2026-10-27T23:39:34+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/jamescalam/youtube-transcriptions"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:jamescalam/youtube-transcriptions"
+      }
+    },
+    {
+      "id": "dataset:jason1966/abidhussai512_ai-tools-usage-and-trends-dataset-2026",
+      "title": "Lire le dataset jason1966/abidhussai512_ai-tools-usage-and-trends-dataset-2026",
+      "status": "validated",
+      "validatedAt": "2026-10-28T00:00:01+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/jason1966/abidhussai512_ai-tools-usage-and-trends-dataset-2026"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:jason1966/abidhussai512_ai-tools-usage-and-trends-dataset-2026"
+      }
+    },
+    {
+      "id": "dataset:JaydubzJW/documents",
+      "title": "Lire le dataset JaydubzJW/documents",
+      "status": "validated",
+      "validatedAt": "2026-10-28T00:00:01+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/JaydubzJW/documents"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:JaydubzJW/documents"
+      }
+    },
+    {
+      "id": "dataset:joytafty/denoising-dirty-documents-cleaned",
+      "title": "Lire le dataset joytafty/denoising-dirty-documents-cleaned",
+      "status": "validated",
+      "validatedAt": "2026-10-28T00:20:14+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/joytafty/denoising-dirty-documents-cleaned"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:joytafty/denoising-dirty-documents-cleaned"
+      }
+    },
+    {
+      "id": "dataset:joytafty/denoising-dirty-documents-test",
+      "title": "Lire le dataset joytafty/denoising-dirty-documents-test",
+      "status": "validated",
+      "validatedAt": "2026-10-28T00:20:14+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/joytafty/denoising-dirty-documents-test"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:joytafty/denoising-dirty-documents-test"
+      }
+    },
+    {
+      "id": "dataset:kothasuhas/accounting-textbooks-16",
+      "title": "Lire le dataset kothasuhas/accounting-textbooks-16",
+      "status": "validated",
+      "validatedAt": "2026-10-28T00:40:54+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/kothasuhas/accounting-textbooks-16"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:kothasuhas/accounting-textbooks-16"
+      }
+    },
+    {
+      "id": "dataset:kothasuhas/accounting-textbooks-6",
+      "title": "Lire le dataset kothasuhas/accounting-textbooks-6",
+      "status": "validated",
+      "validatedAt": "2026-10-28T00:40:54+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/kothasuhas/accounting-textbooks-6"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:kothasuhas/accounting-textbooks-6"
+      }
+    },
+    {
+      "id": "dataset:matallanas/yannic-kilcher-transcript",
+      "title": "Lire le dataset matallanas/yannic-kilcher-transcript",
+      "status": "validated",
+      "validatedAt": "2026-10-28T01:01:24+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/matallanas/yannic-kilcher-transcript"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:matallanas/yannic-kilcher-transcript"
+      }
+    },
+    {
+      "id": "dataset:maximoss/rte3-french",
+      "title": "Lire le dataset maximoss/rte3-french",
+      "status": "validated",
+      "validatedAt": "2026-10-28T01:01:24+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/maximoss/rte3-french"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:maximoss/rte3-french"
+      }
+    },
+    {
+      "id": "dataset:moganai/turkish-synthetic-documents",
+      "title": "Lire le dataset moganai/turkish-synthetic-documents",
+      "status": "validated",
+      "validatedAt": "2026-10-28T01:21:26+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/moganai/turkish-synthetic-documents"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:moganai/turkish-synthetic-documents"
+      }
+    },
+    {
+      "id": "dataset:monodox/cortex-agent-planning",
+      "title": "Lire le dataset monodox/cortex-agent-planning",
+      "status": "validated",
+      "validatedAt": "2026-10-28T01:21:26+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/monodox/cortex-agent-planning"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:monodox/cortex-agent-planning"
+      }
+    },
+    {
+      "id": "dataset:nvidia/ToolScale",
+      "title": "Lire le dataset nvidia/ToolScale",
+      "status": "validated",
+      "validatedAt": "2026-10-28T01:41:50+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/nvidia/ToolScale"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:nvidia/ToolScale"
+      }
+    },
+    {
+      "id": "dataset:odunola/bible-passage-transcription",
+      "title": "Lire le dataset odunola/bible-passage-transcription",
+      "status": "validated",
+      "validatedAt": "2026-10-28T01:41:50+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/odunola/bible-passage-transcription"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:odunola/bible-passage-transcription"
+      }
+    },
+    {
+      "id": "dataset:Paul/hatecheck-french",
+      "title": "Lire le dataset Paul/hatecheck-french",
+      "status": "validated",
+      "validatedAt": "2026-10-28T02:02:11+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/Paul/hatecheck-french"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:Paul/hatecheck-french"
+      }
+    },
+    {
+      "id": "dataset:PaulineSanchez/Translation_words_and_sentences_english_french",
+      "title": "Lire le dataset PaulineSanchez/Translation_words_and_sentences_english_french",
+      "status": "validated",
+      "validatedAt": "2026-10-28T02:02:11+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/PaulineSanchez/Translation_words_and_sentences_english_french"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:PaulineSanchez/Translation_words_and_sentences_english_french"
+      }
+    },
+    {
+      "id": "dataset:rakesh-ai/Medical_Transcription",
+      "title": "Lire le dataset rakesh-ai/Medical_Transcription",
+      "status": "validated",
+      "validatedAt": "2026-10-28T02:22:43+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/rakesh-ai/Medical_Transcription"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:rakesh-ai/Medical_Transcription"
+      }
+    },
+    {
+      "id": "dataset:renumics/synthetic-vehicle-fleet-telemetry",
+      "title": "Lire le dataset renumics/synthetic-vehicle-fleet-telemetry",
+      "status": "validated",
+      "validatedAt": "2026-10-28T02:22:43+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/renumics/synthetic-vehicle-fleet-telemetry"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:renumics/synthetic-vehicle-fleet-telemetry"
+      }
+    },
+    {
+      "id": "dataset:sonup/vehicles",
+      "title": "Lire le dataset sonup/vehicles",
+      "status": "validated",
+      "validatedAt": "2026-10-28T02:41:33+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/sonup/vehicles"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:sonup/vehicles"
+      }
+    },
+    {
+      "id": "dataset:srinivaspadmanabhuni/agentic-ai-test-checklist-110",
+      "title": "Lire le dataset srinivaspadmanabhuni/agentic-ai-test-checklist-110",
+      "status": "validated",
+      "validatedAt": "2026-10-28T02:41:33+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/srinivaspadmanabhuni/agentic-ai-test-checklist-110"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:srinivaspadmanabhuni/agentic-ai-test-checklist-110"
+      }
+    },
+    {
+      "id": "dataset:tool3/face",
+      "title": "Lire le dataset tool3/face",
+      "status": "validated",
+      "validatedAt": "2026-10-28T03:01:49+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/tool3/face"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:tool3/face"
+      }
+    },
+    {
+      "id": "dataset:tool3/talface",
+      "title": "Lire le dataset tool3/talface",
+      "status": "validated",
+      "validatedAt": "2026-10-28T03:01:49+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/tool3/talface"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:tool3/talface"
+      }
+    },
+    {
+      "id": "dataset:Whispering-GPT/whisper-transcripts-the-verge",
+      "title": "Lire le dataset Whispering-GPT/whisper-transcripts-the-verge",
+      "status": "validated",
+      "validatedAt": "2026-10-28T03:22:00+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/Whispering-GPT/whisper-transcripts-the-verge"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:Whispering-GPT/whisper-transcripts-the-verge"
+      }
+    },
+    {
+      "id": "dataset:Whispering-GPT/yannic-kilcher-transcript",
+      "title": "Lire le dataset Whispering-GPT/yannic-kilcher-transcript",
+      "status": "validated",
+      "validatedAt": "2026-10-28T03:22:00+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/Whispering-GPT/yannic-kilcher-transcript"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:Whispering-GPT/yannic-kilcher-transcript"
+      }
+    },
+    {
+      "id": "dataset:abross/youtube-transcriptions",
+      "title": "Lire le dataset abross/youtube-transcriptions",
+      "status": "validated",
+      "validatedAt": "2026-10-28T03:42:22+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/abross/youtube-transcriptions"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:abross/youtube-transcriptions"
+      }
+    },
+    {
+      "id": "dataset:adiren7/darija_to_french_speech_to_text",
+      "title": "Lire le dataset adiren7/darija_to_french_speech_to_text",
+      "status": "validated",
+      "validatedAt": "2026-10-28T03:42:22+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/adiren7/darija_to_french_speech_to_text"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:adiren7/darija_to_french_speech_to_text"
+      }
+    },
+    {
+      "id": "dataset:algohype/accounting",
+      "title": "Lire le dataset algohype/accounting",
+      "status": "validated",
+      "validatedAt": "2026-10-28T04:02:41+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/algohype/accounting"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:algohype/accounting"
+      }
+    },
+    {
+      "id": "dataset:Aliissa99/FrenchMedMCQA",
+      "title": "Lire le dataset Aliissa99/FrenchMedMCQA",
+      "status": "validated",
+      "validatedAt": "2026-10-28T04:02:41+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/Aliissa99/FrenchMedMCQA"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:Aliissa99/FrenchMedMCQA"
+      }
+    },
+    {
+      "id": "dataset:arvindrajan92/sroie_document_understanding",
+      "title": "Lire le dataset arvindrajan92/sroie_document_understanding",
+      "status": "validated",
+      "validatedAt": "2026-10-28T04:23:01+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/arvindrajan92/sroie_document_understanding"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:arvindrajan92/sroie_document_understanding"
+      }
+    },
+    {
+      "id": "dataset:aryadytm/vehicle-classification",
+      "title": "Lire le dataset aryadytm/vehicle-classification",
+      "status": "validated",
+      "validatedAt": "2026-10-28T04:23:01+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/aryadytm/vehicle-classification"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:aryadytm/vehicle-classification"
+      }
+    },
+    {
+      "id": "dataset:BelalElhossany/mgb2_audios_transcriptions",
+      "title": "Lire le dataset BelalElhossany/mgb2_audios_transcriptions",
+      "status": "validated",
+      "validatedAt": "2026-10-28T04:43:47+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/BelalElhossany/mgb2_audios_transcriptions"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:BelalElhossany/mgb2_audios_transcriptions"
+      }
+    },
+    {
+      "id": "dataset:BelalElhossany/mgb2_audios_transcriptions_non_overlap",
+      "title": "Lire le dataset BelalElhossany/mgb2_audios_transcriptions_non_overlap",
+      "status": "validated",
+      "validatedAt": "2026-10-28T04:43:47+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/BelalElhossany/mgb2_audios_transcriptions_non_overlap"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:BelalElhossany/mgb2_audios_transcriptions_non_overlap"
+      }
+    },
+    {
+      "id": "dataset:dajor85570/invoices-and-receipts_ocr_v1",
+      "title": "Lire le dataset dajor85570/invoices-and-receipts_ocr_v1",
+      "status": "validated",
+      "validatedAt": "2026-10-28T05:04:00+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/dajor85570/invoices-and-receipts_ocr_v1"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:dajor85570/invoices-and-receipts_ocr_v1"
+      }
+    },
+    {
+      "id": "dataset:darisdzakwanhoesien/arabic-accounting-mcq_train",
+      "title": "Lire le dataset darisdzakwanhoesien/arabic-accounting-mcq_train",
+      "status": "validated",
+      "validatedAt": "2026-10-28T05:04:00+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/darisdzakwanhoesien/arabic-accounting-mcq_train"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:darisdzakwanhoesien/arabic-accounting-mcq_train"
+      }
+    },
+    {
+      "id": "dataset:dmayhem93/toolformer-v0-postprocessed",
+      "title": "Lire le dataset dmayhem93/toolformer-v0-postprocessed",
+      "status": "validated",
+      "validatedAt": "2026-10-28T05:24:12+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/dmayhem93/toolformer-v0-postprocessed"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:dmayhem93/toolformer-v0-postprocessed"
+      }
+    },
+    {
+      "id": "dataset:DrBenchmark/FrenchMedMCQA",
+      "title": "Lire le dataset DrBenchmark/FrenchMedMCQA",
+      "status": "validated",
+      "validatedAt": "2026-10-28T05:24:12+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/DrBenchmark/FrenchMedMCQA"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:DrBenchmark/FrenchMedMCQA"
+      }
+    },
+    {
+      "id": "dataset:FreedomIntelligence/alpaca-gpt4-french",
+      "title": "Lire le dataset FreedomIntelligence/alpaca-gpt4-french",
+      "status": "validated",
+      "validatedAt": "2026-10-28T05:44:37+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/FreedomIntelligence/alpaca-gpt4-french"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:FreedomIntelligence/alpaca-gpt4-french"
+      }
+    },
+    {
+      "id": "dataset:FreedomIntelligence/evol-instruct-french",
+      "title": "Lire le dataset FreedomIntelligence/evol-instruct-french",
+      "status": "validated",
+      "validatedAt": "2026-10-28T05:44:37+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/FreedomIntelligence/evol-instruct-french"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:FreedomIntelligence/evol-instruct-french"
+      }
+    },
+    {
+      "id": "dataset:gustavecortal/diverse_french_news",
+      "title": "Lire le dataset gustavecortal/diverse_french_news",
+      "status": "validated",
+      "validatedAt": "2026-10-28T06:04:52+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/gustavecortal/diverse_french_news"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:gustavecortal/diverse_french_news"
+      }
+    },
+    {
+      "id": "dataset:haideraltahan/wds_kitti_closest_vehicle_distance",
+      "title": "Lire le dataset haideraltahan/wds_kitti_closest_vehicle_distance",
+      "status": "validated",
+      "validatedAt": "2026-10-28T06:04:52+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/haideraltahan/wds_kitti_closest_vehicle_distance"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:haideraltahan/wds_kitti_closest_vehicle_distance"
+      }
+    },
+    {
+      "id": "dataset:interstellarninja/hermes_reasoning_tool_use",
+      "title": "Lire le dataset interstellarninja/hermes_reasoning_tool_use",
+      "status": "validated",
+      "validatedAt": "2026-10-28T06:25:34+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/interstellarninja/hermes_reasoning_tool_use"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:interstellarninja/hermes_reasoning_tool_use"
+      }
+    },
+    {
+      "id": "dataset:interstellarninja/tool-use-multiturn-reasoning",
+      "title": "Lire le dataset interstellarninja/tool-use-multiturn-reasoning",
+      "status": "validated",
+      "validatedAt": "2026-10-28T06:25:34+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/interstellarninja/tool-use-multiturn-reasoning"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:interstellarninja/tool-use-multiturn-reasoning"
+      }
+    },
+    {
+      "id": "dataset:JayYz/multi_agent_handoff",
+      "title": "Lire le dataset JayYz/multi_agent_handoff",
+      "status": "validated",
+      "validatedAt": "2026-10-28T06:46:06+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/JayYz/multi_agent_handoff"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:JayYz/multi_agent_handoff"
+      }
+    },
+    {
+      "id": "dataset:jdabello/yt_transcriptions",
+      "title": "Lire le dataset jdabello/yt_transcriptions",
+      "status": "validated",
+      "validatedAt": "2026-10-28T06:46:06+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "20530aee204623a8d89bf7c5bc893ee599e4caf31faf514be23ef276adf5f786",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/jdabello/yt_transcriptions"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:jdabello/yt_transcriptions"
+      }
     }
   ],
   "capabilityTrials": [

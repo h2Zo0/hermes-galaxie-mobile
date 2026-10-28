@@ -40,8 +40,10 @@ class DatasetPilotTests(unittest.TestCase):
     def test_actual_rows_consumption_creates_bounded_approval(self):
         state = {"nodes": [node("open/alpha"), node("open/beta")]}
         self.assertEqual(sampler.run(state, api), "validated")
-        self.assertEqual(state["verifiedSkills"], 1)
+        self.assertEqual(state["verifiedSkills"], 3)
         self.assertEqual(state["approvedResourceCount"], 2)
+        self.assertEqual(len([s for s in state["skills"] if s["id"].startswith("dataset:")]), 2)
+        self.assertEqual(len(base.valid_existing_skills(state["skills"])), 3)
         for v in state["approvedResources"]:
             self.assertEqual(v["approvedFor"], "read-only-dataset-sampling")
         proof = json.loads(sampler.PROOF.read_text())
@@ -51,8 +53,9 @@ class DatasetPilotTests(unittest.TestCase):
         self.assertEqual(sampler.run(state, api), "no-new-evidence")
         state["nodes"].append(node("open/gamma"))
         self.assertEqual(sampler.run(state, api), "reinforced")
-        self.assertEqual(state["verifiedSkills"], 1)
+        self.assertEqual(state["verifiedSkills"], 4)
         self.assertEqual(state["approvedResourceCount"], 3)
+        self.assertEqual(len(base.valid_existing_skills(state["skills"])), 4)
 
     def test_no_rows_means_no_approval(self):
         state = {"nodes": [node("open/alpha"), node("open/beta")]}
