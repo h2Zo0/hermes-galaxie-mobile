@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-29T01:59:20+00:00",
+  "lastPracticedAt": "2026-10-29T02:19:30+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -3161,6 +3161,40 @@
       "archived": false,
       "starsAtTest": 16,
       "pushedAt": "2026-10-28T11:04:10Z"
+    },
+    {
+      "repository": "fangjerome07-gif/cn_memory",
+      "url": "https://github.com/fangjerome07-gif/cn_memory",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 104386
+      },
+      "totalLanguageBytes": 104386,
+      "archived": false,
+      "starsAtTest": 2,
+      "pushedAt": "2026-07-13T13:55:55Z"
+    },
+    {
+      "repository": "fangyunok/enterprise-flow-agent",
+      "url": "https://github.com/fangyunok/enterprise-flow-agent",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 85.78,
+      "languageBytes": {
+        "Python": 403512,
+        "JavaScript": 33883,
+        "HTML": 15428,
+        "CSS": 11281,
+        "Shell": 3407,
+        "Dockerfile": 1567,
+        "Makefile": 1343
+      },
+      "totalLanguageBytes": 470421,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-11T13:02:09Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
