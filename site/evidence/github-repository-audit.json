@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-29T01:18:46+00:00",
+  "lastPracticedAt": "2026-10-29T01:39:11+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -3093,6 +3093,39 @@
       "archived": false,
       "starsAtTest": 18,
       "pushedAt": "2026-10-27T18:54:08Z"
+    },
+    {
+      "repository": "ExpertVagabond/universal-blockchain-mcp",
+      "url": "https://github.com/ExpertVagabond/universal-blockchain-mcp",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "primaryLanguageSharePercent": 92.78,
+      "languageBytes": {
+        "JavaScript": 7519829,
+        "HTML": 439625,
+        "TypeScript": 120583,
+        "Rust": 13500,
+        "CSS": 10788,
+        "Dockerfile": 276
+      },
+      "totalLanguageBytes": 8104601,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-27T17:50:43Z"
+    },
+    {
+      "repository": "extio-de/lm-lib",
+      "url": "https://github.com/extio-de/lm-lib",
+      "defaultBranch": "main",
+      "primaryLanguage": "Java",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Java": 660186
+      },
+      "totalLanguageBytes": 660186,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-10-23T09:47:15Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
