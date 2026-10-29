@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-29T04:31:25+00:00",
+  "lastPracticedAt": "2026-10-29T04:51:59+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -3420,6 +3420,38 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-17T07:30:28Z"
+    },
+    {
+      "repository": "garricktolley/computer-use",
+      "url": "https://github.com/garricktolley/computer-use",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "primaryLanguageSharePercent": 60.17,
+      "languageBytes": {
+        "JavaScript": 50788,
+        "HTML": 33613
+      },
+      "totalLanguageBytes": 84401,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-03-27T18:14:12Z"
+    },
+    {
+      "repository": "garvit-07/agentic-research-assistant",
+      "url": "https://github.com/garvit-07/agentic-research-assistant",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 78.38,
+      "languageBytes": {
+        "Python": 34615,
+        "HTML": 8164,
+        "Dockerfile": 958,
+        "Makefile": 426
+      },
+      "totalLanguageBytes": 44163,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-10T10:33:40Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
