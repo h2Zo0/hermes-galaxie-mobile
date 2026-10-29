@@ -3,7 +3,7 @@
   "title": "Diagnostiquer le runtime de démonstrations IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-29T06:13:04+00:00",
+  "lastPracticedAt": "2026-10-29T06:33:29+00:00",
   "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
   "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
   "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
@@ -2129,6 +2129,24 @@
       "source": "https://huggingface.co/spaces/tribe-ai/document-qa-comparator",
       "observedAt": "2026-10-29T06:13:04+00:00",
       "sdk": "gradio",
+      "runtimeStage": "RUNTIME_ERROR",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "vishnun/CRAFT-OCR",
+      "source": "https://huggingface.co/spaces/vishnun/CRAFT-OCR",
+      "observedAt": "2026-10-29T06:33:29+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNTIME_ERROR",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "volen/nft-search",
+      "source": "https://huggingface.co/spaces/volen/nft-search",
+      "observedAt": "2026-10-29T06:33:29+00:00",
+      "sdk": "streamlit",
       "runtimeStage": "RUNTIME_ERROR",
       "availableNow": false,
       "note": "La disponibilité est un instantané, pas une promesse de service"
