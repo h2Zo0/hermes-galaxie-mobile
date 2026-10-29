@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-29T06:53:44+00:00",
+  "lastPracticedAt": "2026-10-29T07:14:07+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -3664,6 +3664,58 @@
       "archived": false,
       "starsAtTest": 1,
       "pushedAt": "2026-10-27T13:16:03Z"
+    },
+    {
+      "repository": "gpr-27/llm-financial-sentiment-unsloth",
+      "url": "https://github.com/gpr-27/llm-financial-sentiment-unsloth",
+      "defaultBranch": "main",
+      "primaryLanguage": "Jupyter Notebook",
+      "primaryLanguageSharePercent": 80.29,
+      "languageBytes": {
+        "Jupyter Notebook": 146292,
+        "Python": 35910
+      },
+      "totalLanguageBytes": 182202,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-24T17:35:54Z"
+    },
+    {
+      "repository": "Grail-Computer/Nickelium",
+      "url": "https://github.com/Grail-Computer/Nickelium",
+      "defaultBranch": "main",
+      "primaryLanguage": "Rust",
+      "primaryLanguageSharePercent": 61.66,
+      "languageBytes": {
+        "Rust": 17929556,
+        "HTML": 9049046,
+        "Python": 1213623,
+        "WebIDL": 645660,
+        "JavaScript": 104230,
+        "CSS": 47471,
+        "Java": 37915,
+        "Shell": 17223,
+        "TypeScript": 9048,
+        "Nix": 8375,
+        "Mako": 4669,
+        "Kotlin": 3878,
+        "Handlebars": 2635,
+        "Dockerfile": 1688,
+        "PowerShell": 1028,
+        "Makefile": 979,
+        "C": 705,
+        "IDL": 356,
+        "CMake": 277,
+        "Batchfile": 254,
+        "Common Lisp": 86,
+        "Ruby": 31,
+        "RenderScript": 29,
+        "PostScript": 11
+      },
+      "totalLanguageBytes": 29078773,
+      "archived": false,
+      "starsAtTest": 2,
+      "pushedAt": "2026-06-10T00:24:23Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
