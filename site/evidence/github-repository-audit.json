@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-29T04:11:04+00:00",
+  "lastPracticedAt": "2026-10-29T04:31:25+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -3386,6 +3386,40 @@
       "archived": false,
       "starsAtTest": 2,
       "pushedAt": "2026-08-31T11:53:49Z"
+    },
+    {
+      "repository": "gabrielmahia/kenya-mcp-hub",
+      "url": "https://github.com/gabrielmahia/kenya-mcp-hub",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 90.62,
+      "languageBytes": {
+        "Python": 1691,
+        "Dockerfile": 175
+      },
+      "totalLanguageBytes": 1866,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-28T13:02:06Z"
+    },
+    {
+      "repository": "gabros20/automation-skill",
+      "url": "https://github.com/gabros20/automation-skill",
+      "defaultBranch": "main",
+      "primaryLanguage": "HTML",
+      "primaryLanguageSharePercent": 60.03,
+      "languageBytes": {
+        "HTML": 87437,
+        "TypeScript": 30335,
+        "Python": 15317,
+        "Shell": 12454,
+        "JavaScript": 79,
+        "CSS": 23
+      },
+      "totalLanguageBytes": 145645,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-17T07:30:28Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
