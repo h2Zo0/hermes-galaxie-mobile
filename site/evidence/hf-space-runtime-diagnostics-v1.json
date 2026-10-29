@@ -3,7 +3,7 @@
   "title": "Diagnostiquer le runtime de démonstrations IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-29T05:32:42+00:00",
+  "lastPracticedAt": "2026-10-29T05:52:55+00:00",
   "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
   "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
   "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
@@ -2095,6 +2095,24 @@
       "sdk": "static",
       "runtimeStage": "RUNNING",
       "availableNow": true,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "SparkExpedition/Ticket_Automation_dolly_7b",
+      "source": "https://huggingface.co/spaces/SparkExpedition/Ticket_Automation_dolly_7b",
+      "observedAt": "2026-10-29T05:52:55+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNTIME_ERROR",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "sparswan/SP-05-GR-NLP-Image2Text-Multilingual-OCR",
+      "source": "https://huggingface.co/spaces/sparswan/SP-05-GR-NLP-Image2Text-Multilingual-OCR",
+      "observedAt": "2026-10-29T05:52:55+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNTIME_ERROR",
+      "availableNow": false,
       "note": "La disponibilité est un instantané, pas une promesse de service"
     }
   ]

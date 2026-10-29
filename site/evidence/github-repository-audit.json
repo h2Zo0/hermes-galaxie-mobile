@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-29T05:32:40+00:00",
+  "lastPracticedAt": "2026-10-29T05:52:52+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -3533,6 +3533,37 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-09-13T23:58:15Z"
+    },
+    {
+      "repository": "giorgiogalassi/agent-squad",
+      "url": "https://github.com/giorgiogalassi/agent-squad",
+      "defaultBranch": "main",
+      "primaryLanguage": "Shell",
+      "primaryLanguageSharePercent": 87.0,
+      "languageBytes": {
+        "Shell": 600221,
+        "Python": 89701
+      },
+      "totalLanguageBytes": 689922,
+      "archived": false,
+      "starsAtTest": 2,
+      "pushedAt": "2026-10-28T22:37:46Z"
+    },
+    {
+      "repository": "girithc/pixi",
+      "url": "https://github.com/girithc/pixi",
+      "defaultBranch": "main",
+      "primaryLanguage": "Swift",
+      "primaryLanguageSharePercent": 93.17,
+      "languageBytes": {
+        "Swift": 627364,
+        "Python": 31138,
+        "HTML": 14865
+      },
+      "totalLanguageBytes": 673367,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-07-27T19:59:55Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
