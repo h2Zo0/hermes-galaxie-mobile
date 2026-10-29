@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-29T15:58:43+00:00",
+  "lastPracticedAt": "2026-10-29T20:57:16+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -3812,6 +3812,36 @@
       "archived": false,
       "starsAtTest": 40,
       "pushedAt": "2026-10-28T17:47:35Z"
+    },
+    {
+      "repository": "Hamna-Munir/Ghost-Data-Auditor",
+      "url": "https://github.com/Hamna-Munir/Ghost-Data-Auditor",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 71994
+      },
+      "totalLanguageBytes": 71994,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-10-27T12:56:23Z"
+    },
+    {
+      "repository": "hamoza33/zap2",
+      "url": "https://github.com/hamoza33/zap2",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 99.3,
+      "languageBytes": {
+        "TypeScript": 224152,
+        "Python": 1266,
+        "Dockerfile": 323
+      },
+      "totalLanguageBytes": 225741,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-06-27T02:16:38Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
