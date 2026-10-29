@@ -3,7 +3,7 @@
   "title": "Diagnostiquer le runtime de démonstrations IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-29T00:19:26+00:00",
+  "lastPracticedAt": "2026-10-29T00:39:47+00:00",
   "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
   "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
   "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
@@ -1807,6 +1807,24 @@
       "sdk": "streamlit",
       "runtimeStage": "BUILD_ERROR",
       "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "davidanthony-ai/transcription_audio_whisper",
+      "source": "https://huggingface.co/spaces/davidanthony-ai/transcription_audio_whisper",
+      "observedAt": "2026-10-29T00:39:47+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNTIME_ERROR",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "depth-anything/Video-Depth-Anything",
+      "source": "https://huggingface.co/spaces/depth-anything/Video-Depth-Anything",
+      "observedAt": "2026-10-29T00:39:47+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNNING",
+      "availableNow": true,
       "note": "La disponibilité est un instantané, pas une promesse de service"
     }
   ]

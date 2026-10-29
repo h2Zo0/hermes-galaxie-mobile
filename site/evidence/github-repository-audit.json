@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-29T00:19:25+00:00",
+  "lastPracticedAt": "2026-10-29T00:39:45+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -3002,6 +3002,36 @@
       "archived": false,
       "starsAtTest": 1,
       "pushedAt": "2026-10-22T18:56:51Z"
+    },
+    {
+      "repository": "Ephyni/mavis-ai",
+      "url": "https://github.com/Ephyni/mavis-ai",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 74.27,
+      "languageBytes": {
+        "Python": 17578,
+        "HTML": 4603,
+        "CSS": 1488
+      },
+      "totalLanguageBytes": 23669,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-10-28T23:35:43Z"
+    },
+    {
+      "repository": "epi13/mncs-automation",
+      "url": "https://github.com/epi13/mncs-automation",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 228780
+      },
+      "totalLanguageBytes": 228780,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-27T19:58:33Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
