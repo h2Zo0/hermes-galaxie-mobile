@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-29T03:50:47+00:00",
+  "lastPracticedAt": "2026-10-29T04:11:04+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -3358,6 +3358,34 @@
       "archived": false,
       "starsAtTest": 1,
       "pushedAt": "2026-10-28T14:17:13Z"
+    },
+    {
+      "repository": "fuhidev/rata-mcp",
+      "url": "https://github.com/fuhidev/rata-mcp",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "TypeScript": 8538
+      },
+      "totalLanguageBytes": 8538,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-27T04:02:37Z"
+    },
+    {
+      "repository": "funsaized/hoardarr",
+      "url": "https://github.com/funsaized/hoardarr",
+      "defaultBranch": "master",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "TypeScript": 540001
+      },
+      "totalLanguageBytes": 540001,
+      "archived": false,
+      "starsAtTest": 2,
+      "pushedAt": "2026-08-31T11:53:49Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
