@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-29T00:39:45+00:00",
+  "lastPracticedAt": "2026-10-29T01:00:01+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -3032,6 +3032,36 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-27T19:58:33Z"
+    },
+    {
+      "repository": "eschnitzler/EmpireCore",
+      "url": "https://github.com/eschnitzler/EmpireCore",
+      "defaultBranch": "master",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.73,
+      "languageBytes": {
+        "Python": 7151080,
+        "Jinja": 19362
+      },
+      "totalLanguageBytes": 7170442,
+      "archived": false,
+      "starsAtTest": 11,
+      "pushedAt": "2026-10-28T13:58:50Z"
+    },
+    {
+      "repository": "esdrasandradecarapia/legal-case-intelligence",
+      "url": "https://github.com/esdrasandradecarapia/legal-case-intelligence",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 78.11,
+      "languageBytes": {
+        "Python": 28820,
+        "Batchfile": 8079
+      },
+      "totalLanguageBytes": 36899,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-27T18:50:38Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
