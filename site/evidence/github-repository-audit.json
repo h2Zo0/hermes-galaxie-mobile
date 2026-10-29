@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-29T02:39:52+00:00",
+  "lastPracticedAt": "2026-10-29T02:50:53+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -3223,6 +3223,45 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-06-23T18:03:15Z"
+    },
+    {
+      "repository": "feizhanbo/agentic-job-application-in-browser",
+      "url": "https://github.com/feizhanbo/agentic-job-application-in-browser",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 75.96,
+      "languageBytes": {
+        "Python": 33913547,
+        "TypeScript": 9554117,
+        "JavaScript": 388863,
+        "Jinja": 383087,
+        "MDX": 289852,
+        "Shell": 44271,
+        "HTML": 32910,
+        "CSS": 27700,
+        "Dockerfile": 5209,
+        "PowerShell": 3876,
+        "Go Template": 1597,
+        "Mako": 635
+      },
+      "totalLanguageBytes": 44645664,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-08-27T13:55:45Z"
+    },
+    {
+      "repository": "felipmartins/easy-asaas-integration",
+      "url": "https://github.com/felipmartins/easy-asaas-integration",
+      "defaultBranch": "main",
+      "primaryLanguage": "Go",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Go": 16337
+      },
+      "totalLanguageBytes": 16337,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-09T00:46:18Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
