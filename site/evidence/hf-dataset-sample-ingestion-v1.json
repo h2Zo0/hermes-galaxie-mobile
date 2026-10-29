@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-29T06:33:33+00:00",
+  "lastPracticedAt": "2026-10-29T06:53:51+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -4742,6 +4742,44 @@
       "rowCount": 3,
       "sampleSha256": "ae9c1743a8d6834b4a7aa66b8a88cc6b442571e0feb19b465683113879e3ec2b",
       "observedAt": "2026-10-29T06:33:33+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "katospiegel/ordfts-hackathon-pneuma-vehicles-segmentation",
+      "source": "https://huggingface.co/datasets/katospiegel/ordfts-hackathon-pneuma-vehicles-segmentation",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "Angle_img [rad]",
+        "Frame",
+        "Image",
+        "Mask",
+        "Time [s]",
+        "Type",
+        "id",
+        "x_img [px]",
+        "y_img [px]"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "59b7d6d9256006ad7f46307d11d40c1fd7019fd4972e17fc9b34f50e8777b5e0",
+      "observedAt": "2026-10-29T06:53:51+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "kseth919/snli-french",
+      "source": "https://huggingface.co/datasets/kseth919/snli-french",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "hypothesis",
+        "label",
+        "premise"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "e06bbbf14f211698b99241362fc50c085ee7ded183c7edaca23326a3b10c6f24",
+      "observedAt": "2026-10-29T06:53:51+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-29T06:33:27+00:00",
+  "lastPracticedAt": "2026-10-29T06:53:44+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -3633,6 +3633,37 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-07-17T00:45:45Z"
+    },
+    {
+      "repository": "griptape-ai/griptape",
+      "url": "https://github.com/griptape-ai/griptape",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.45,
+      "languageBytes": {
+        "Python": 2096003,
+        "Jinja": 8692,
+        "Makefile": 2815,
+        "Dockerfile": 141
+      },
+      "totalLanguageBytes": 2107651,
+      "archived": false,
+      "starsAtTest": 2583,
+      "pushedAt": "2026-10-26T17:47:43Z"
+    },
+    {
+      "repository": "groupe-sii/guimauve",
+      "url": "https://github.com/groupe-sii/guimauve",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 1256504
+      },
+      "totalLanguageBytes": 1256504,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-10-27T13:16:03Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
