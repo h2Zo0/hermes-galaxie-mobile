@@ -1,17 +1,17 @@
 {
   "name": "NOVENS CORE — GALAXIE VIVANTE",
-  "asOf": "2026-10-29T07:34:10+00:00",
-  "polledAt": "2026-10-29T07:34:10+00:00",
-  "resourceCount": 5625,
+  "asOf": "2026-10-29T08:59:11+00:00",
+  "polledAt": "2026-10-29T08:59:11+00:00",
+  "resourceCount": 5628,
   "categoryCounts": {
     "github": 4267,
-    "models": 492,
+    "models": 493,
     "datasets": 433,
-    "spaces": 433
+    "spaces": 435
   },
   "verifiedSkills": 247,
   "netProfitEuro": 0.0,
-  "growth24h": 453,
+  "growth24h": 456,
   "history": [
     {
       "date": "2026-10-26T22:30:41+01:00",
@@ -790,6 +790,12 @@
     {
       "date": "2026-10-29T07:34:10+00:00",
       "resources": 5625,
+      "verified": 247,
+      "profit": 0.0
+    },
+    {
+      "date": "2026-10-29T08:59:11+00:00",
+      "resources": 5628,
       "verified": 247,
       "profit": 0.0
     }
@@ -33962,6 +33968,13 @@
       "firstSeen": "2026-10-27T16:37:04+00:00"
     },
     {
+      "id": "models:AlmawaveLabs/Velvet2-3B-Speech",
+      "category": "models",
+      "name": "AlmawaveLabs/Velvet2-3B-Speech",
+      "url": "https://huggingface.co/AlmawaveLabs/Velvet2-3B-Speech",
+      "firstSeen": "2026-10-29T08:59:11+00:00"
+    },
+    {
       "id": "models:Amitesh007/text_generation-finetuned-gpt2",
       "category": "models",
       "name": "Amitesh007/text_generation-finetuned-gpt2",
@@ -39058,6 +39071,13 @@
       "firstSeen": "2026-10-26 21:23:13 CET"
     },
     {
+      "id": "spaces:openbmb/MiniCPM-OCR",
+      "category": "spaces",
+      "name": "openbmb/MiniCPM-OCR",
+      "url": "https://huggingface.co/spaces/openbmb/MiniCPM-OCR",
+      "firstSeen": "2026-10-29T08:59:11+00:00"
+    },
+    {
       "id": "spaces:OpenKing/wan2-video-generation",
       "category": "spaces",
       "name": "OpenKing/wan2-video-generation",
@@ -39203,6 +39223,13 @@
       "name": "pszemraj/document-summarization",
       "url": "https://huggingface.co/spaces/pszemraj/document-summarization",
       "firstSeen": "2026-10-27T16:57:26+00:00"
+    },
+    {
+      "id": "spaces:pzc163/MiniCPM-OCR-vs-OXR",
+      "category": "spaces",
+      "name": "pzc163/MiniCPM-OCR-vs-OXR",
+      "url": "https://huggingface.co/spaces/pzc163/MiniCPM-OCR-vs-OXR",
+      "firstSeen": "2026-10-29T08:59:11+00:00"
     },
     {
       "id": "spaces:r3gm/SoniTranslate_translate_audio_of_a_video_content",
@@ -40175,9 +40202,9 @@
   "cloud": {
     "agent": "Éclaireur NOVENS CORE",
     "execution": "GitHub Actions",
-    "lastMissionAt": "2026-10-29T07:34:10+00:00",
+    "lastMissionAt": "2026-10-29T08:59:11+00:00",
     "missionStatus": "succès",
-    "newResources": 6,
+    "newResources": 3,
     "errors": 0,
     "nextScheduled": "Toutes les 10 minutes si GitHub Actions disponible",
     "machineIndependence": true
@@ -40188,10 +40215,10 @@
       "title": "Classer des modèles IA par tâche et licence déclarée",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-10-29T07:34:20+00:00",
-      "practiceCount": 222,
+      "lastPracticedAt": "2026-10-29T08:59:21+00:00",
+      "practiceCount": 224,
       "proofPath": "evidence/hf-model-task-classification-v1.json",
-      "proofSha256": "308539c6cacd6d270f0b4b7d9d8ee1092732428c4542f26e41f567665c2cc4d3",
+      "proofSha256": "cad240b5ea2269cd3e083ebe9baa09a1fc79e5b89059b440ba0b21373d240fd4",
       "resourcesTested": [
         "https://huggingface.co/agentionai/Qwen3.8-27B-AP-GGUF",
         "https://huggingface.co/agentionai/Signal-3.8-27B",
@@ -40414,7 +40441,9 @@
         "https://huggingface.co/llm-agents/tora-code-7b-v1.0",
         "https://huggingface.co/LLM-OS-Models/Fabliq-8B-Agent-Reasoning",
         "https://huggingface.co/llmfan46/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-uncensored-heretic-GGUF",
-        "https://huggingface.co/m3hrdadfi/wav2vec2-xlsr-persian-speech-emotion-recognition"
+        "https://huggingface.co/m3hrdadfi/wav2vec2-xlsr-persian-speech-emotion-recognition",
+        "https://huggingface.co/microsoft/Phi-3-vision-128k-instruct",
+        "https://huggingface.co/microsoft/Phi-3-vision-128k-instruct-onnx-cpu"
       ]
     },
     {
@@ -40579,10 +40608,10 @@
       "title": "Diagnostiquer le runtime de démonstrations IA",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-10-29T07:34:20+00:00",
-      "practiceCount": 244,
+      "lastPracticedAt": "2026-10-29T08:59:21+00:00",
+      "practiceCount": 246,
       "proofPath": "evidence/hf-space-runtime-diagnostics-v1.json",
-      "proofSha256": "514bc8488802b305b05af55585aa26bc6f6f8609491119b0c678701f6ed3126b",
+      "proofSha256": "eea9a7a32d3b9aca4f96e2ebdda3bbe73c8a0b5867320422567636e78e7f9745",
       "resourcesTested": [
         "https://huggingface.co/spaces/Aarya003/Financial-Analyst-Agent",
         "https://huggingface.co/spaces/AceVikings/repro-learning-human-robot-collaboration-via-heterogeneous-agent-lyapunov-policy-optimizatio",
@@ -40827,7 +40856,9 @@
         "https://huggingface.co/spaces/agents-course/First_agent_template",
         "https://huggingface.co/spaces/agents-course/text-to-image",
         "https://huggingface.co/spaces/alexiserodriguez/whisper-transcription-app",
-        "https://huggingface.co/spaces/algomuffin/neural-search-engine"
+        "https://huggingface.co/spaces/algomuffin/neural-search-engine",
+        "https://huggingface.co/spaces/amkkk/multi-agent-imitation-learning-linear-markov-games-repro",
+        "https://huggingface.co/spaces/Amrin/Exploratory_Automation"
       ]
     },
     {
@@ -45405,14 +45436,50 @@
       }
     },
     {
+      "id": "dataset:mindweave/accounting-ledger-us",
+      "title": "Lire le dataset mindweave/accounting-ledger-us",
+      "status": "validated",
+      "validatedAt": "2026-10-29T07:34:24+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "c03d602502468c90c0fb5b332c52a75104d295ebb3a3935bbffba5f6b21c561c",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/mindweave/accounting-ledger-us"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:mindweave/accounting-ledger-us"
+      }
+    },
+    {
+      "id": "dataset:mlx-community/hermes-reasoning-tool-use",
+      "title": "Lire le dataset mlx-community/hermes-reasoning-tool-use",
+      "status": "validated",
+      "validatedAt": "2026-10-29T07:34:24+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "c03d602502468c90c0fb5b332c52a75104d295ebb3a3935bbffba5f6b21c561c",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/mlx-community/hermes-reasoning-tool-use"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:mlx-community/hermes-reasoning-tool-use"
+      }
+    },
+    {
       "id": "github-repository-technical-audit-v1",
       "title": "Analyser techniquement un dépôt GitHub public",
       "status": "validated",
       "validatedAt": "2026-10-27T12:30:54+00:00",
-      "lastPracticedAt": "2026-10-29T07:34:18+00:00",
-      "practiceCount": 217,
+      "lastPracticedAt": "2026-10-29T08:59:19+00:00",
+      "practiceCount": 219,
       "proofPath": "evidence/github-repository-audit.json",
-      "proofSha256": "96acb9ce0967ca344ccf32adc6c54e8e0bbe5aab7cc7e38f19e33e0a01075050",
+      "proofSha256": "9edb3e91c26692cce648ce896d8b5872c3f228d387910d6b6639df5bfdef11c1",
       "resourcesTested": [
         "https://github.com/0jre/runne",
         "https://github.com/0xMihirK/hercules-mcp",
@@ -45630,233 +45697,13 @@
         "https://github.com/gpr-27/llm-financial-sentiment-unsloth",
         "https://github.com/Grail-Computer/Nickelium",
         "https://github.com/Guarddog-top/mcp-server-guarddog",
-        "https://github.com/Gui-Fernandes21/agent-platform-public"
+        "https://github.com/Gui-Fernandes21/agent-platform-public",
+        "https://github.com/gxoj/meme-finder-agent",
+        "https://github.com/GxrenZzz/noBoutFile"
       ]
-    },
-    {
-      "id": "dataset:mindweave/accounting-ledger-us",
-      "title": "Lire le dataset mindweave/accounting-ledger-us",
-      "status": "validated",
-      "validatedAt": "2026-10-29T07:34:24+00:00",
-      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "c03d602502468c90c0fb5b332c52a75104d295ebb3a3935bbffba5f6b21c561c",
-      "resourcesTested": [
-        "https://huggingface.co/datasets/mindweave/accounting-ledger-us"
-      ],
-      "practiceCount": 1,
-      "handler": "hf-dataset-sample-readonly",
-      "scope": "read-only-dataset-sampling",
-      "call": {
-        "tool": "novens_capabilities_invoke",
-        "capability_id": "dataset:mindweave/accounting-ledger-us"
-      }
-    },
-    {
-      "id": "dataset:mlx-community/hermes-reasoning-tool-use",
-      "title": "Lire le dataset mlx-community/hermes-reasoning-tool-use",
-      "status": "validated",
-      "validatedAt": "2026-10-29T07:34:24+00:00",
-      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "c03d602502468c90c0fb5b332c52a75104d295ebb3a3935bbffba5f6b21c561c",
-      "resourcesTested": [
-        "https://huggingface.co/datasets/mlx-community/hermes-reasoning-tool-use"
-      ],
-      "practiceCount": 1,
-      "handler": "hf-dataset-sample-readonly",
-      "scope": "read-only-dataset-sampling",
-      "call": {
-        "tool": "novens_capabilities_invoke",
-        "capability_id": "dataset:mlx-community/hermes-reasoning-tool-use"
-      }
     }
   ],
   "capabilityTrials": [
-    {
-      "date": "2026-10-29T01:18:46+00:00",
-      "skillId": "github-repository-technical-audit-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 179,
-      "failures": []
-    },
-    {
-      "date": "2026-10-29T01:18:47+00:00",
-      "skillId": "hf-model-task-classification-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 196,
-      "failures": [
-        {
-          "id": "serbog/xlm-roberta-job-skill-reranker",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Seungjun/textGeneration_01",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Seungjun/textGeneration_02",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Seungjun/textGeneration_03",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Seungjun/textGeneration_04",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Seungjun/textGeneration_05",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Seungjun/textGeneration_06",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Seungjun/textGeneration_07",
-          "reason": "ValueError"
-        },
-        {
-          "id": "shahidhossein/transcription",
-          "reason": "ValueError"
-        },
-        {
-          "id": "shahidul034/text_generation_bangla_model",
-          "reason": "ValueError"
-        },
-        {
-          "id": "shahidul034/text_generation_tokenizer",
-          "reason": "ValueError"
-        },
-        {
-          "id": "shahidul034/text_generation_tokenizer2",
-          "reason": "ValueError"
-        },
-        {
-          "id": "shleee/output_transcription",
-          "reason": "ValueError"
-        },
-        {
-          "id": "skonan/PaperScorer-7B-Vision-OpenReview-ICLR",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-29T01:18:47+00:00",
-      "skillId": "hf-dataset-usage-assessment-v1",
-      "result": "no-new-evidence",
-      "reportsPassed": 0,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 142,
-      "failures": [
-        {
-          "id": "hkust-nlp/Toolathlon",
-          "reason": "ValueError"
-        },
-        {
-          "id": "honlzl/invoice",
-          "reason": "ValueError"
-        },
-        {
-          "id": "huggingartists/tool",
-          "reason": "ValueError"
-        },
-        {
-          "id": "huggingface-tools/default-prompts",
-          "reason": "ValueError"
-        },
-        {
-          "id": "HumynLabs/Brazilian_Bills_and_Invoices_Dataset",
-          "reason": "ValueError"
-        },
-        {
-          "id": "hyacinthum/Vehicle_Dataset",
-          "reason": "ValueError"
-        },
-        {
-          "id": "HydraLM/GPTeacher_toolformer_alpaca",
-          "reason": "ValueError"
-        },
-        {
-          "id": "HydraLM/GPTeacher_toolformer_list_dict",
-          "reason": "ValueError"
-        },
-        {
-          "id": "HydraLM/GPTeacher_toolformer_standardized",
-          "reason": "ValueError"
-        },
-        {
-          "id": "ikuldeep1/vehicle-damage-fraud-image",
-          "reason": "ValueError"
-        },
-        {
-          "id": "ikuldeep1/vehicle-damage-fraud-image-balanced",
-          "reason": "ValueError"
-        },
-        {
-          "id": "irds/msmarco-document",
-          "reason": "ValueError"
-        },
-        {
-          "id": "irds/msmarco-document-v2",
-          "reason": "ValueError"
-        },
-        {
-          "id": "irds/msmarco-document-v2_trec-dl-2019",
-          "reason": "ValueError"
-        },
-        {
-          "id": "irds/msmarco-document-v2_trec-dl-2019_judged",
-          "reason": "ValueError"
-        },
-        {
-          "id": "irds/msmarco-document-v2_trec-dl-2020",
-          "reason": "ValueError"
-        },
-        {
-          "id": "irds/msmarco-document-v2_trec-dl-2020_judged",
-          "reason": "ValueError"
-        },
-        {
-          "id": "irds/msmarco-document_trec-dl-hard",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-29T01:18:47+00:00",
-      "skillId": "hf-space-runtime-diagnostics-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 206,
-      "failures": []
-    },
-    {
-      "date": "2026-10-29T01:18:51+00:00",
-      "skillId": "hf-dataset-sample-ingestion-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "failedResources": [
-        {
-          "id": "sonup/indian_vehicle",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "StanBienaives/french-open-fiscal-texts",
-          "error": "HTTPError",
-          "detail": "HTTP Error 501: Not Implemented"
-        }
-      ],
-      "totalVerifiedExercises": 205
-    },
     {
       "date": "2026-10-29T01:39:11+00:00",
       "skillId": "github-repository-technical-audit-v1",
@@ -49450,25 +49297,269 @@
         }
       ],
       "totalVerifiedExercises": 242
+    },
+    {
+      "date": "2026-10-29T08:59:19+00:00",
+      "skillId": "github-repository-technical-audit-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 219,
+      "failures": []
+    },
+    {
+      "date": "2026-10-29T08:59:21+00:00",
+      "skillId": "hf-model-task-classification-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 224,
+      "failures": [
+        {
+          "id": "mattraj/curacel-transcription-1",
+          "reason": "ValueError"
+        },
+        {
+          "id": "medkit/simsamu-transcription",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Mickzaa/Translation_TH-EN-v3",
+          "reason": "ValueError"
+        },
+        {
+          "id": "microsoft/bitnet-embedding-0.6b",
+          "reason": "ValueError"
+        },
+        {
+          "id": "microsoft/bitnet-embedding-270m",
+          "reason": "ValueError"
+        },
+        {
+          "id": "microsoft/Phi-3-vision-128k-instruct-onnx",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-29T08:59:21+00:00",
+      "skillId": "hf-dataset-usage-assessment-v1",
+      "result": "no-new-evidence",
+      "reportsPassed": 0,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 145,
+      "failures": [
+        {
+          "id": "ashraq/youtube-transcription",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Asif12109/Global-AI-Tool-Adoption-Across-Industries",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Asseh/Vehicle_Classification",
+          "reason": "ValueError"
+        },
+        {
+          "id": "autoevaluate/autoeval-eval-ccdv__arxiv-summarization-document-47d12e-1465753970",
+          "reason": "ValueError"
+        },
+        {
+          "id": "autoevaluate/autoeval-eval-ccdv__arxiv-summarization-document-dcd037-2375274516",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Autonomous-Scientific-Agents/logs",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Autonomous-Scientific-Agents/results",
+          "reason": "ValueError"
+        },
+        {
+          "id": "b000cb34ccdf5cba9115e34c8165c749/classified-government-documents",
+          "reason": "ValueError"
+        },
+        {
+          "id": "balabis/invoices",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Beifengdo/Official-Document-Writing",
+          "reason": "ValueError"
+        },
+        {
+          "id": "bejaeger/biggest_ideas_transcriptions",
+          "reason": "ValueError"
+        },
+        {
+          "id": "bejaeger/filled_stacks_transcriptions",
+          "reason": "ValueError"
+        },
+        {
+          "id": "BelalElhossany/mgb2_audios_transcriptions",
+          "reason": "ValueError"
+        },
+        {
+          "id": "BelalElhossany/mgb2_audios_transcriptions_non_overlap",
+          "reason": "ValueError"
+        },
+        {
+          "id": "BelalElhossany/mgb2_audios_transcriptions_prepared",
+          "reason": "ValueError"
+        },
+        {
+          "id": "BelalElhossany/mgb2_audios_transcriptions_preprocessed",
+          "reason": "ValueError"
+        },
+        {
+          "id": "bettapixel/tools",
+          "reason": "ValueError"
+        },
+        {
+          "id": "bigscience-historical-texts/Open_Medieval_French",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-29T08:59:21+00:00",
+      "skillId": "hf-space-runtime-diagnostics-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 246,
+      "failures": []
+    },
+    {
+      "date": "2026-10-29T08:59:24+00:00",
+      "skillId": "hf-dataset-sample-ingestion-v1",
+      "result": "no-new-evidence",
+      "reportsPassed": 0,
+      "reportsRequired": 1,
+      "failedResources": [
+        {
+          "id": "nbalepur/expository_documents_wiki",
+          "error": "HTTPError",
+          "detail": "HTTP Error 502: Bad Gateway"
+        },
+        {
+          "id": "nicolas-devatine/qa-accounting-edits",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "nitesh-sawadia/invoice_layoutlmv3",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "NitishKarra/invoice-bills",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "NLPC-UOM/document_alignment_dataset-Sinhala-Tamil-English",
+          "error": "HTTPError",
+          "detail": "HTTP Error 501: Not Implemented"
+        },
+        {
+          "id": "nvidia/Nemotron-Agentic-v1",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "nvidia/Nemotron-SFT-Agentic-v2",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "nvidia/Nemotron-SFT-Agentic-v4",
+          "error": "HTTPError",
+          "detail": "HTTP Error 501: Not Implemented"
+        },
+        {
+          "id": "nvidia/Nemotron-SFT-Finance-Document-Grounded-Reasoning-v1",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "nvidia/PhysicalAI-Autonomous-Vehicles",
+          "error": "HTTPError",
+          "detail": "HTTP Error 401: Unauthorized"
+        },
+        {
+          "id": "nvidia/PhysicalAI-Autonomous-Vehicles-Foundation4D",
+          "error": "HTTPError",
+          "detail": "HTTP Error 401: Unauthorized"
+        },
+        {
+          "id": "nvidia/PhysicalAI-Autonomous-Vehicles-NCore",
+          "error": "HTTPError",
+          "detail": "HTTP Error 401: Unauthorized"
+        },
+        {
+          "id": "nvidia/PhysicalAI-Autonomous-Vehicles-NuRec",
+          "error": "HTTPError",
+          "detail": "HTTP Error 401: Unauthorized"
+        },
+        {
+          "id": "open-llm-leaderboard-old/details_llm-agents__tora-70b-v1.0",
+          "error": "HTTPError",
+          "detail": "HTTP Error 501: Not Implemented"
+        },
+        {
+          "id": "open-llm-leaderboard-old/details_llm-agents__tora-7b-v1.0",
+          "error": "HTTPError",
+          "detail": "HTTP Error 501: Not Implemented"
+        },
+        {
+          "id": "open-llm-leaderboard-old/details_llm-agents__tora-code-13b-v1.0",
+          "error": "HTTPError",
+          "detail": "HTTP Error 501: Not Implemented"
+        },
+        {
+          "id": "open-llm-leaderboard-old/details_llm-agents__tora-code-34b-v1.0",
+          "error": "HTTPError",
+          "detail": "HTTP Error 501: Not Implemented"
+        },
+        {
+          "id": "open-llm-leaderboard-old/details_llm-agents__tora-code-7b-v1.0",
+          "error": "HTTPError",
+          "detail": "HTTP Error 501: Not Implemented"
+        },
+        {
+          "id": "OpenLLM-France/Claire-Dialogue-French-0.1",
+          "error": "HTTPError",
+          "detail": "HTTP Error 401: Unauthorized"
+        },
+        {
+          "id": "pnadel/npi_transcripts_index",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        }
+      ],
+      "totalVerifiedExercises": 242
     }
   ],
   "lastCapabilityVerification": {
-    "date": "2026-10-29T07:34:24+00:00",
+    "date": "2026-10-29T08:59:24+00:00",
     "skillId": "hf-dataset-sample-ingestion-v1",
-    "result": "reinforced"
+    "result": "no-new-evidence"
   },
   "discovery": {
-    "cursor": 122,
+    "cursor": 123,
     "capacity": 20000,
-    "lastBatch": 6,
+    "lastBatch": 3,
     "newByCategory": {
-      "github": 6,
-      "models": 0,
+      "github": 0,
+      "models": 1,
       "datasets": 0,
-      "spaces": 0
+      "spaces": 2
     },
     "queriesLastRun": 7,
-    "totalSearchCycles": 122,
+    "totalSearchCycles": 123,
     "lastErrors": []
   },
   "approvedResources": [
