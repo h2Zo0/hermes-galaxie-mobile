@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-29T07:34:24+00:00",
+  "lastPracticedAt": "2026-10-29T15:58:48+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -4857,6 +4857,39 @@
       "rowCount": 3,
       "sampleSha256": "f8e53c31d2b16146dd2966d774168ec6a82e0c398fc89e41ebe2c0ed30ff8e80",
       "observedAt": "2026-10-29T07:34:24+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "pvisnrt/french-snli",
+      "source": "https://huggingface.co/datasets/pvisnrt/french-snli",
+      "config": "default",
+      "split": "test",
+      "columns": [
+        "hypothesis",
+        "label",
+        "premise",
+        "translated_hypothesis",
+        "translated_premise"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "373064a91a0cca2b1ffa5997ed5e163de618ffd1534e43b78458df0e0d3b9ef5",
+      "observedAt": "2026-10-29T15:58:48+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "quccili/invoice",
+      "source": "https://huggingface.co/datasets/quccili/invoice",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "ground_truth",
+        "image"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "2e760ff7bf27739998fb6ef30bc5d35b32a7fa7cca4ce2735220983a044bc846",
+      "observedAt": "2026-10-29T15:58:48+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-29T08:59:19+00:00",
+  "lastPracticedAt": "2026-10-29T15:58:43+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -3777,6 +3777,41 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-28T18:19:17Z"
+    },
+    {
+      "repository": "haibingzhao/easyai",
+      "url": "https://github.com/haibingzhao/easyai",
+      "defaultBranch": "main",
+      "primaryLanguage": "Kotlin",
+      "primaryLanguageSharePercent": 68.28,
+      "languageBytes": {
+        "Kotlin": 7198836,
+        "TypeScript": 3297095,
+        "CSS": 17911,
+        "HTML": 16976,
+        "JavaScript": 5967,
+        "Shell": 4551,
+        "Jinja": 1984
+      },
+      "totalLanguageBytes": 10543320,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-10-29T09:00:30Z"
+    },
+    {
+      "repository": "hajdu-patrik/trirouter",
+      "url": "https://github.com/hajdu-patrik/trirouter",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.93,
+      "languageBytes": {
+        "Python": 791844,
+        "Shell": 591
+      },
+      "totalLanguageBytes": 792435,
+      "archived": false,
+      "starsAtTest": 40,
+      "pushedAt": "2026-10-28T17:47:35Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
