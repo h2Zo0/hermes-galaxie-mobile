@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-29T02:19:36+00:00",
+  "lastPracticedAt": "2026-10-29T02:40:00+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -4159,6 +4159,48 @@
       "rowCount": 3,
       "sampleSha256": "e5313b7216bba826e8cc325e83eb7ec410f261ce2decf2ae141fd38e0bb68576",
       "observedAt": "2026-10-29T02:19:36+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "allenai/Dolci-Think-SFT-Olmo-Hybrid-Tool-Use-SA",
+      "source": "https://huggingface.co/datasets/allenai/Dolci-Think-SFT-Olmo-Hybrid-Tool-Use-SA",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "exec_type",
+        "id",
+        "is_refusal",
+        "messages",
+        "n_step",
+        "n_turn",
+        "source"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "17d29c5894aa1b5a97e1e0854ae4c1d88f67f84cc8bd71afbcf0c204ad65d360",
+      "observedAt": "2026-10-29T02:40:00+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "almanach/hc3_french_ood",
+      "source": "https://huggingface.co/datasets/almanach/hc3_french_ood",
+      "config": "faq_fr_gouv",
+      "split": "test",
+      "columns": [
+        "answer",
+        "answer_id",
+        "bucket",
+        "domain",
+        "id",
+        "label",
+        "page_id",
+        "question",
+        "question_id"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "5f275183a93e13dea38c15d834cf4890e27f3cceda2a7f77a243846df9b5f1ef",
+      "observedAt": "2026-10-29T02:40:00+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
