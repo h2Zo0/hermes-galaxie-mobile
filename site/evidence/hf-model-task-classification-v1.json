@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-29T01:39:13+00:00",
+  "lastPracticedAt": "2026-10-29T01:59:21+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -1790,6 +1790,24 @@
       "declaredLicense": "apache-2.0",
       "access": "public",
       "modelFiles": 11
+    },
+    {
+      "id": "tensorblock/llm-agents_tora-code-7b-v1.0-GGUF",
+      "source": "https://huggingface.co/tensorblock/llm-agents_tora-code-7b-v1.0-GGUF",
+      "observedAt": "2026-10-29T01:59:21+00:00",
+      "task": "text-generation",
+      "declaredLicense": "llama2",
+      "access": "public",
+      "modelFiles": 3
+    },
+    {
+      "id": "umans-ai/DeepSeek-V4-Flash-0731-Vision",
+      "source": "https://huggingface.co/umans-ai/DeepSeek-V4-Flash-0731-Vision",
+      "observedAt": "2026-10-29T01:59:21+00:00",
+      "task": "image-text-to-text",
+      "declaredLicense": "mit",
+      "access": "public",
+      "modelFiles": 55
     }
   ]
 }
