@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-29T01:00:06+00:00",
+  "lastPracticedAt": "2026-10-29T01:18:51+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -4028,6 +4028,34 @@
       "rowCount": 3,
       "sampleSha256": "83c67a43ac4cbd2504f97cd50084bbce1f60fc1a03853623197fae3bc94eb320",
       "observedAt": "2026-10-29T01:00:06+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "Snit/french-conversation",
+      "source": "https://huggingface.co/datasets/Snit/french-conversation",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "text"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "bfdab4452681b849d6daa0d8bf3201d1ff9c0357e5c2e2969bae6984ef335403",
+      "observedAt": "2026-10-29T01:18:51+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "startlingadama/bambara-french",
+      "source": "https://huggingface.co/datasets/startlingadama/bambara-french",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "text"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "b885c8fabcef56ee5b98c4676949a11f89729a1a96c2b28610f4cfa9378c356e",
+      "observedAt": "2026-10-29T01:18:51+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

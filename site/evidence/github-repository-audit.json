@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-29T01:00:01+00:00",
+  "lastPracticedAt": "2026-10-29T01:18:46+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -3062,6 +3062,37 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-27T18:50:38Z"
+    },
+    {
+      "repository": "ethanroubal/MCPiranha",
+      "url": "https://github.com/ethanroubal/MCPiranha",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.36,
+      "languageBytes": {
+        "Python": 1105889,
+        "JavaScript": 3802,
+        "C": 1986,
+        "TypeScript": 1358
+      },
+      "totalLanguageBytes": 1113035,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-10-27T13:55:17Z"
+    },
+    {
+      "repository": "etherwindy/Bangumi-MCP",
+      "url": "https://github.com/etherwindy/Bangumi-MCP",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 122823
+      },
+      "totalLanguageBytes": 122823,
+      "archived": false,
+      "starsAtTest": 18,
+      "pushedAt": "2026-10-27T18:54:08Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
