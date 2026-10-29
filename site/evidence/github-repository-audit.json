@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-29T02:50:53+00:00",
+  "lastPracticedAt": "2026-10-29T03:10:21+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -3262,6 +3262,42 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-09T00:46:18Z"
+    },
+    {
+      "repository": "firasotoom85-droid/agency-automation",
+      "url": "https://github.com/firasotoom85-droid/agency-automation",
+      "defaultBranch": "master",
+      "primaryLanguage": "JavaScript",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "JavaScript": 57452
+      },
+      "totalLanguageBytes": 57452,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-09-25T18:46:42Z"
+    },
+    {
+      "repository": "Firdosh323/writ",
+      "url": "https://github.com/Firdosh323/writ",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 55.45,
+      "languageBytes": {
+        "Python": 4833137,
+        "TypeScript": 3708577,
+        "JavaScript": 85565,
+        "Shell": 51695,
+        "CSS": 25885,
+        "PowerShell": 5908,
+        "HTML": 4459,
+        "Mako": 635,
+        "Dockerfile": 472
+      },
+      "totalLanguageBytes": 8716333,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-09-21T23:56:50Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

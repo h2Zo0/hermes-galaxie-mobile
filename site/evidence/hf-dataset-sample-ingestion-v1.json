@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-29T02:50:57+00:00",
+  "lastPracticedAt": "2026-10-29T03:10:29+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -4233,6 +4233,43 @@
       "rowCount": 3,
       "sampleSha256": "ca92ba85acb9cca9c1ae7ebdcdef9193d2a5a2958aef033f3a25712a3a3d64e8",
       "observedAt": "2026-10-29T02:50:57+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "Asif12109/Global-AI-Tool-Adoption-Across-Industries",
+      "source": "https://huggingface.co/datasets/Asif12109/Global-AI-Tool-Adoption-Across-Industries",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "adoption_rate",
+        "age_group",
+        "ai_tool",
+        "company_size",
+        "country",
+        "daily_active_users",
+        "industry",
+        "user_feedback",
+        "year"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "291e847ee7d81f636d5e28ee43475fa68aa6a405c2e68a548f14bc6df0068233",
+      "observedAt": "2026-10-29T03:10:29+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "Asseh/Vehicle_Classification",
+      "source": "https://huggingface.co/datasets/Asseh/Vehicle_Classification",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "image",
+        "label"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "392fba4e9d1c28a2dd1777262571ddfa7f94d148701e5d1122244cdbe67f6cfd",
+      "observedAt": "2026-10-29T03:10:29+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
