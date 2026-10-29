@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-29T07:14:15+00:00",
+  "lastPracticedAt": "2026-10-29T07:34:24+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -4820,6 +4820,43 @@
       "rowCount": 3,
       "sampleSha256": "ac6f3e12360d81a2aeb4063f2cf16446fffc83bf3247dc79b4e1cb4f1e4c9866",
       "observedAt": "2026-10-29T07:14:15+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "mindweave/accounting-ledger-us",
+      "source": "https://huggingface.co/datasets/mindweave/accounting-ledger-us",
+      "config": "chart_of_accounts",
+      "split": "train",
+      "columns": [
+        "account_type",
+        "code",
+        "company_id",
+        "description",
+        "id",
+        "is_active",
+        "is_system",
+        "name",
+        "sub_type",
+        "tax_code"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "144c5a5d3f55155ddd42770390a7ffdd6ab24ebc716cb5c30094a337ebd4241a",
+      "observedAt": "2026-10-29T07:34:24+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "mlx-community/hermes-reasoning-tool-use",
+      "source": "https://huggingface.co/datasets/mlx-community/hermes-reasoning-tool-use",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "messages"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "f8e53c31d2b16146dd2966d774168ec6a82e0c398fc89e41ebe2c0ed30ff8e80",
+      "observedAt": "2026-10-29T07:34:24+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

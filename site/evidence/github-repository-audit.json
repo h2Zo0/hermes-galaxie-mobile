@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-29T07:14:07+00:00",
+  "lastPracticedAt": "2026-10-29T07:34:18+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -3716,6 +3716,39 @@
       "archived": false,
       "starsAtTest": 2,
       "pushedAt": "2026-06-10T00:24:23Z"
+    },
+    {
+      "repository": "Guarddog-top/mcp-server-guarddog",
+      "url": "https://github.com/Guarddog-top/mcp-server-guarddog",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 94.35,
+      "languageBytes": {
+        "Python": 62174,
+        "JavaScript": 2968,
+        "Dockerfile": 757
+      },
+      "totalLanguageBytes": 65899,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-27T07:19:31Z"
+    },
+    {
+      "repository": "Gui-Fernandes21/agent-platform-public",
+      "url": "https://github.com/Gui-Fernandes21/agent-platform-public",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 77.63,
+      "languageBytes": {
+        "Python": 8382,
+        "JavaScript": 1286,
+        "Dockerfile": 972,
+        "Makefile": 157
+      },
+      "totalLanguageBytes": 10797,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-02T02:01:52Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
