@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-29T03:30:34+00:00",
+  "lastPracticedAt": "2026-10-29T03:50:47+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -3328,6 +3328,36 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-29T02:42:25Z"
+    },
+    {
+      "repository": "frank123452/agent-memory",
+      "url": "https://github.com/frank123452/agent-memory",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 67.88,
+      "languageBytes": {
+        "TypeScript": 51205,
+        "JavaScript": 24228
+      },
+      "totalLanguageBytes": 75433,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-09-18T14:16:12Z"
+    },
+    {
+      "repository": "FranklinMburu/mini-agentic-ai",
+      "url": "https://github.com/FranklinMburu/mini-agentic-ai",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 77.57,
+      "languageBytes": {
+        "Python": 144251,
+        "HTML": 41722
+      },
+      "totalLanguageBytes": 185973,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-10-28T14:17:13Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

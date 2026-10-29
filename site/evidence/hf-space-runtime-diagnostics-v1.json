@@ -3,7 +3,7 @@
   "title": "Diagnostiquer le runtime de démonstrations IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-29T03:30:35+00:00",
+  "lastPracticedAt": "2026-10-29T03:50:49+00:00",
   "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
   "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
   "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
@@ -1985,6 +1985,24 @@
       "source": "https://huggingface.co/spaces/nickmuchi/semantic-search-with-retrieve-and-rerank",
       "observedAt": "2026-10-29T03:30:35+00:00",
       "sdk": "streamlit",
+      "runtimeStage": "RUNTIME_ERROR",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "orderlymirror/Text-to-Video",
+      "source": "https://huggingface.co/spaces/orderlymirror/Text-to-Video",
+      "observedAt": "2026-10-29T03:50:49+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNTIME_ERROR",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "osamaredakotb/impira-layoutlm-document-qa",
+      "source": "https://huggingface.co/spaces/osamaredakotb/impira-layoutlm-document-qa",
+      "observedAt": "2026-10-29T03:50:49+00:00",
+      "sdk": "gradio",
       "runtimeStage": "RUNTIME_ERROR",
       "availableNow": false,
       "note": "La disponibilité est un instantané, pas une promesse de service"

@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-29T03:30:38+00:00",
+  "lastPracticedAt": "2026-10-29T03:50:53+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -4305,6 +4305,50 @@
       "rowCount": 3,
       "sampleSha256": "bf8d5aa1459a0eda291a2646f78d931df460054e1d11c87c754062e87136082a",
       "observedAt": "2026-10-29T03:30:38+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "DeepNLP/embodied-ai-ai-agent",
+      "source": "https://huggingface.co/datasets/DeepNLP/embodied-ai-ai-agent",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "content",
+        "content_name",
+        "description",
+        "field",
+        "month",
+        "publisher_id",
+        "statistic",
+        "subfield",
+        "website"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "6384db0a398ef22396599fd44c5e99edf55563b27f20c8bb6a7bf7ae9725cac5",
+      "observedAt": "2026-10-29T03:50:53+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "DeepNLP/trip-planning-ai-agent",
+      "source": "https://huggingface.co/datasets/DeepNLP/trip-planning-ai-agent",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "content",
+        "content_name",
+        "description",
+        "field",
+        "month",
+        "publisher_id",
+        "statistic",
+        "subfield",
+        "website"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "850542ee6e112f23a1266b4db6234476cf5b30493e1f432fb8e35cf58d8b2996",
+      "observedAt": "2026-10-29T03:50:53+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

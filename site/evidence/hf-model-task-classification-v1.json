@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-29T03:10:24+00:00",
+  "lastPracticedAt": "2026-10-29T03:50:49+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -1826,6 +1826,15 @@
       "declaredLicense": "apache-2.0",
       "access": "public",
       "modelFiles": 13
+    },
+    {
+      "id": "Baghdad99/saad-speech-recognition-hausa-audio-to-text",
+      "source": "https://huggingface.co/Baghdad99/saad-speech-recognition-hausa-audio-to-text",
+      "observedAt": "2026-10-29T03:50:49+00:00",
+      "task": "automatic-speech-recognition",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 14
     }
   ]
 }
