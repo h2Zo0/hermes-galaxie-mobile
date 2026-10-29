@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-29T05:12:18+00:00",
+  "lastPracticedAt": "2026-10-29T05:32:40+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -3500,6 +3500,39 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-13T00:12:38Z"
+    },
+    {
+      "repository": "ghosharyaman03/SocialFlow-AI-AI-Powered-Social-Media-Management-Platform",
+      "url": "https://github.com/ghosharyaman03/SocialFlow-AI-AI-Powered-Social-Media-Management-Platform",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 53.05,
+      "languageBytes": {
+        "Python": 61408,
+        "TypeScript": 53322,
+        "CSS": 516,
+        "Makefile": 311,
+        "JavaScript": 200
+      },
+      "totalLanguageBytes": 115757,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-08-18T15:59:17Z"
+    },
+    {
+      "repository": "ghoshe/local_ai_agent",
+      "url": "https://github.com/ghoshe/local_ai_agent",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "primaryLanguageSharePercent": 77.53,
+      "languageBytes": {
+        "JavaScript": 18224,
+        "HTML": 5281
+      },
+      "totalLanguageBytes": 23505,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-09-13T23:58:15Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

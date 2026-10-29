@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-29T05:12:23+00:00",
+  "lastPracticedAt": "2026-10-29T05:32:46+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -4622,6 +4622,21 @@
       "rowCount": 3,
       "sampleSha256": "7f07b870872db66d64db22ce455cfc15df2fa52a98d05bfa299ed03ee7fba954",
       "observedAt": "2026-10-29T05:12:23+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "joshuajano/donut-invoices",
+      "source": "https://huggingface.co/datasets/joshuajano/donut-invoices",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "ground_truth",
+        "image"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "332d51870cd718123b6e6e6968d4c216a04ceb9de5626fc042b14ea157bda789",
+      "observedAt": "2026-10-29T05:32:46+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
