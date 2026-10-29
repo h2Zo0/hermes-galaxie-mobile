@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T23:59:15+00:00",
+  "lastPracticedAt": "2026-10-29T00:19:26+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1589,6 +1589,18 @@
         "csv"
       ],
       "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "Francesco/vehicles-q0x2v",
+      "source": "https://huggingface.co/datasets/Francesco/vehicles-q0x2v",
+      "observedAt": "2026-10-29T00:19:26+00:00",
+      "declaredLicense": "cc",
+      "formats": [
+        "json",
+        "parquet"
+      ],
+      "listedFiles": 7,
       "access": "public"
     }
   ]

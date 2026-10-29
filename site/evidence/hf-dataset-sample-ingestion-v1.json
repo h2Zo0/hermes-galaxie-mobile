@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-28T23:59:20+00:00",
+  "lastPracticedAt": "2026-10-29T00:19:30+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -3926,6 +3926,41 @@
       "rowCount": 3,
       "sampleSha256": "0bcd84f6d94b20d29a80ace4433a208f191093852ec4903602984a8085dd0659",
       "observedAt": "2026-10-28T23:59:20+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "parsee-ai/invoices-example",
+      "source": "https://huggingface.co/datasets/parsee-ai/invoices-example",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "FEATURE_full_prompt",
+        "TRUTH_answer",
+        "element_identifier",
+        "source_identifier",
+        "template_id"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "318dc6e9862329ee3a0d206d5c99b7d3a7d55e9f70f17857a1b757ed9d09ec04",
+      "observedAt": "2026-10-29T00:19:30+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "Poulpidot/FrenchHateSpeechSuperset",
+      "source": "https://huggingface.co/datasets/Poulpidot/FrenchHateSpeechSuperset",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "Unnamed: 0",
+        "label",
+        "language",
+        "text"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "e255f76b7adec84b011450962f2de97c1de2c52662bef71ac3ca3fbeb0e9ed9c",
+      "observedAt": "2026-10-29T00:19:30+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-28T23:59:15+00:00",
+  "lastPracticedAt": "2026-10-29T00:19:26+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -1727,6 +1727,24 @@
       "declaredLicense": "apache-2.0",
       "access": "public",
       "modelFiles": 19
+    },
+    {
+      "id": "Qwen/Qwen3-VL-Reranker-2B",
+      "source": "https://huggingface.co/Qwen/Qwen3-VL-Reranker-2B",
+      "observedAt": "2026-10-29T00:19:26+00:00",
+      "task": "text-ranking",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 20
+    },
+    {
+      "id": "Qwen/Qwen3-VL-Reranker-8B",
+      "source": "https://huggingface.co/Qwen/Qwen3-VL-Reranker-8B",
+      "observedAt": "2026-10-29T00:19:26+00:00",
+      "task": "text-ranking",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 24
     }
   ]
 }

@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-28T23:59:14+00:00",
+  "lastPracticedAt": "2026-10-29T00:19:25+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -2958,6 +2958,50 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-28T22:59:59Z"
+    },
+    {
+      "repository": "Emanuelmsjv/ledgerlens",
+      "url": "https://github.com/Emanuelmsjv/ledgerlens",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "JavaScript": 82564
+      },
+      "totalLanguageBytes": 82564,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-16T16:30:54Z"
+    },
+    {
+      "repository": "emeraldcoastsystemsgroup/oshal",
+      "url": "https://github.com/emeraldcoastsystemsgroup/oshal",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 69.91,
+      "languageBytes": {
+        "TypeScript": 41124116,
+        "JavaScript": 9339096,
+        "HTML": 4784018,
+        "Shell": 999647,
+        "CSS": 787559,
+        "PowerShell": 540152,
+        "PLpgSQL": 500633,
+        "Python": 457019,
+        "Swift": 71332,
+        "Rust": 57754,
+        "HCL": 46573,
+        "Batchfile": 26470,
+        "Kotlin": 25967,
+        "Dockerfile": 21078,
+        "Brightscript": 18613,
+        "VBScript": 13200,
+        "Go Template": 7098
+      },
+      "totalLanguageBytes": 58820325,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-10-22T18:56:51Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
