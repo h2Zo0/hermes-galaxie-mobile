@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-29T04:51:59+00:00",
+  "lastPracticedAt": "2026-10-29T05:12:18+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -3452,6 +3452,54 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-10T10:33:40Z"
+    },
+    {
+      "repository": "generalbots/generalbots",
+      "url": "https://github.com/generalbots/generalbots",
+      "defaultBranch": "main",
+      "primaryLanguage": "Rust",
+      "primaryLanguageSharePercent": 59.62,
+      "languageBytes": {
+        "Rust": 20140898,
+        "JavaScript": 3793962,
+        "Python": 2988528,
+        "HTML": 2524685,
+        "CSS": 2075810,
+        "Fluent": 1543296,
+        "PLpgSQL": 544565,
+        "Shell": 122587,
+        "PowerShell": 22784,
+        "QuickBASIC": 9878,
+        "TypeScript": 5483,
+        "Batchfile": 4579,
+        "Makefile": 3049,
+        "B4X": 455,
+        "RenderScript": 30
+      },
+      "totalLanguageBytes": 33780589,
+      "archived": false,
+      "starsAtTest": 96,
+      "pushedAt": "2026-10-28T18:01:09Z"
+    },
+    {
+      "repository": "Genghix-Tech/Sentinel-Graph-Fraud-Detection-Engine",
+      "url": "https://github.com/Genghix-Tech/Sentinel-Graph-Fraud-Detection-Engine",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 62.56,
+      "languageBytes": {
+        "Python": 115461,
+        "TypeScript": 52362,
+        "CSS": 11674,
+        "JavaScript": 3853,
+        "Dockerfile": 595,
+        "HTML": 365,
+        "Shell": 256
+      },
+      "totalLanguageBytes": 184566,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-13T00:12:38Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

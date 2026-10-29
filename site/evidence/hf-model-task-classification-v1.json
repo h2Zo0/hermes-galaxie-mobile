@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-29T04:52:00+00:00",
+  "lastPracticedAt": "2026-10-29T05:12:20+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -1871,6 +1871,24 @@
       "declaredLicense": "apache-2.0",
       "access": "public",
       "modelFiles": 11
+    },
+    {
+      "id": "ewin-reg/MiniCPM-V-4.7-1B-Agentic-FwS",
+      "source": "https://huggingface.co/ewin-reg/MiniCPM-V-4.7-1B-Agentic-FwS",
+      "observedAt": "2026-10-29T05:12:20+00:00",
+      "task": "image-text-to-text",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 10
+    },
+    {
+      "id": "FluidVoice-Labs/fluid-speech-mini-gguf",
+      "source": "https://huggingface.co/FluidVoice-Labs/fluid-speech-mini-gguf",
+      "observedAt": "2026-10-29T05:12:20+00:00",
+      "task": "automatic-speech-recognition",
+      "declaredLicense": "cc-by-4.0",
+      "access": "public",
+      "modelFiles": 7
     }
   ]
 }

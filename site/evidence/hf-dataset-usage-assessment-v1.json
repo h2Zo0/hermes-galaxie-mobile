@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-29T02:50:54+00:00",
+  "lastPracticedAt": "2026-10-29T05:12:20+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1610,6 +1610,17 @@
       "declaredLicense": "apache-2.0",
       "formats": [
         "parquet"
+      ],
+      "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "successor/qrl-yt-transcriptions",
+      "source": "https://huggingface.co/datasets/successor/qrl-yt-transcriptions",
+      "observedAt": "2026-10-29T05:12:20+00:00",
+      "declaredLicense": "mit",
+      "formats": [
+        "jsonl"
       ],
       "listedFiles": 3,
       "access": "public"
