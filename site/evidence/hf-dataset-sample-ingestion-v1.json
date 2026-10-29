@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-10-29T05:53:00+00:00",
+  "lastPracticedAt": "2026-10-29T06:13:07+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -4678,6 +4678,41 @@
       "rowCount": 3,
       "sampleSha256": "ca651f1db8138eefecad6c1ddc3f20a8da53212c947d818ec065d80904cbed92",
       "observedAt": "2026-10-29T05:53:00+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "KanoonGPT/indian-legal-documents",
+      "source": "https://huggingface.co/datasets/KanoonGPT/indian-legal-documents",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "doc_id",
+        "document_jurisdiction",
+        "document_title",
+        "document_type",
+        "issue_date",
+        "issuing_authority",
+        "short_description",
+        "text"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "10cc67c697e4812d2bf69609b1bd749d065545ba4bbf51e186cbd26c5f6a92c3",
+      "observedAt": "2026-10-29T06:13:07+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "Kant1/French_Wikipedia_articles",
+      "source": "https://huggingface.co/datasets/Kant1/French_Wikipedia_articles",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "text"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "40383f22d0c37abcbe60d322d59528ead137326ab130e451c93adfe64ae94fca",
+      "observedAt": "2026-10-29T06:13:07+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
