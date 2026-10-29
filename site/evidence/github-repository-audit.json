@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-29T03:10:21+00:00",
+  "lastPracticedAt": "2026-10-29T03:30:34+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -3298,6 +3298,36 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-09-21T23:56:50Z"
+    },
+    {
+      "repository": "FlagQuantum/mcp-servers",
+      "url": "https://github.com/FlagQuantum/mcp-servers",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 540460
+      },
+      "totalLanguageBytes": 540460,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-27T10:03:43Z"
+    },
+    {
+      "repository": "flashmind-labs/flashmind",
+      "url": "https://github.com/flashmind-labs/flashmind",
+      "defaultBranch": "main",
+      "primaryLanguage": "Rust",
+      "primaryLanguageSharePercent": 99.56,
+      "languageBytes": {
+        "Rust": 3944147,
+        "Python": 16599,
+        "Shell": 955
+      },
+      "totalLanguageBytes": 3961701,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-29T02:42:25Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
