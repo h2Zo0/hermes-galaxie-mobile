@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-29T20:57:16+00:00",
+  "lastPracticedAt": "2026-10-30T00:41:03+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -3842,6 +3842,43 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-06-27T02:16:38Z"
+    },
+    {
+      "repository": "hamzaali520717-oss/Ali_Hamza_UniPortal_RAG_AI",
+      "url": "https://github.com/hamzaali520717-oss/Ali_Hamza_UniPortal_RAG_AI",
+      "defaultBranch": "master",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 84.88,
+      "languageBytes": {
+        "Python": 440066,
+        "HTML": 63651,
+        "JavaScript": 9198,
+        "CSS": 4126,
+        "Dockerfile": 1386
+      },
+      "totalLanguageBytes": 518427,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-27T07:54:11Z"
+    },
+    {
+      "repository": "hamzaj17/TrustTech-Automation",
+      "url": "https://github.com/hamzaj17/TrustTech-Automation",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 50.21,
+      "languageBytes": {
+        "Python": 107007,
+        "TypeScript": 100085,
+        "JavaScript": 3983,
+        "CSS": 1024,
+        "Mako": 580,
+        "HTML": 440
+      },
+      "totalLanguageBytes": 213119,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-09-25T14:42:53Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
