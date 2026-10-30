@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-30T13:23:45+00:00",
+  "lastPracticedAt": "2026-10-30T18:47:21+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -3939,6 +3939,38 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-09-18T11:29:23Z"
+    },
+    {
+      "repository": "harehare/mq-mcp",
+      "url": "https://github.com/harehare/mq-mcp",
+      "defaultBranch": "main",
+      "primaryLanguage": "Rust",
+      "primaryLanguageSharePercent": 91.62,
+      "languageBytes": {
+        "Rust": 135608,
+        "Shell": 12402
+      },
+      "totalLanguageBytes": 148010,
+      "archived": false,
+      "starsAtTest": 8,
+      "pushedAt": "2026-10-30T14:28:30Z"
+    },
+    {
+      "repository": "harhity291/PaperTrail",
+      "url": "https://github.com/harhity291/PaperTrail",
+      "defaultBranch": "main",
+      "primaryLanguage": "CSS",
+      "primaryLanguageSharePercent": 30.4,
+      "languageBytes": {
+        "CSS": 17349,
+        "Python": 14970,
+        "HTML": 14093,
+        "JavaScript": 10662
+      },
+      "totalLanguageBytes": 57074,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-29T23:14:46Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
