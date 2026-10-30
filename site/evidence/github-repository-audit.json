@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-30T00:41:03+00:00",
+  "lastPracticedAt": "2026-10-30T06:28:35+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -3879,6 +3879,35 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-09-25T14:42:53Z"
+    },
+    {
+      "repository": "hajirabegumbegum907-max/pyth-mcp",
+      "url": "https://github.com/hajirabegumbegum907-max/pyth-mcp",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "primaryLanguageSharePercent": 99.85,
+      "languageBytes": {
+        "JavaScript": 118900,
+        "Dockerfile": 180
+      },
+      "totalLanguageBytes": 119080,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-29T23:49:01Z"
+    },
+    {
+      "repository": "HalalaiMircea/RigAiGame",
+      "url": "https://github.com/HalalaiMircea/RigAiGame",
+      "defaultBranch": "master",
+      "primaryLanguage": "C#",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "C#": 6696
+      },
+      "totalLanguageBytes": 6696,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-28T12:01:10Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
