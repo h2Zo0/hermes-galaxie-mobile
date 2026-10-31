@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-31T18:01:20+00:00",
+  "lastPracticedAt": "2026-10-31T21:23:39+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -4140,6 +4140,35 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-06T04:10:38Z"
+    },
+    {
+      "repository": "helderberto/agent-skills",
+      "url": "https://github.com/helderberto/agent-skills",
+      "defaultBranch": "main",
+      "primaryLanguage": "Shell",
+      "primaryLanguageSharePercent": 78.36,
+      "languageBytes": {
+        "Shell": 24516,
+        "HTML": 6770
+      },
+      "totalLanguageBytes": 31286,
+      "archived": false,
+      "starsAtTest": 19,
+      "pushedAt": "2026-10-26T11:55:52Z"
+    },
+    {
+      "repository": "Hello24x7/Bank-Transaction-Dataset-for-Fraud-Detection",
+      "url": "https://github.com/Hello24x7/Bank-Transaction-Dataset-for-Fraud-Detection",
+      "defaultBranch": "main",
+      "primaryLanguage": "Jupyter Notebook",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Jupyter Notebook": 1498007
+      },
+      "totalLanguageBytes": 1498007,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-07-20T15:44:47Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
