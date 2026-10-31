@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-31T01:49:32+00:00",
+  "lastPracticedAt": "2026-10-31T07:34:57+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -4036,6 +4036,41 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-05-17T16:57:24Z"
+    },
+    {
+      "repository": "Hashmat02/Pak-3H",
+      "url": "https://github.com/Hashmat02/Pak-3H",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 123854
+      },
+      "totalLanguageBytes": 123854,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-24T21:46:33Z"
+    },
+    {
+      "repository": "Haslab-dev/KendaliAI",
+      "url": "https://github.com/Haslab-dev/KendaliAI",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 50.43,
+      "languageBytes": {
+        "TypeScript": 1981763,
+        "Go": 1786291,
+        "JavaScript": 52054,
+        "CSS": 40282,
+        "HTML": 32067,
+        "Shell": 27777,
+        "Swift": 5666,
+        "Makefile": 3476
+      },
+      "totalLanguageBytes": 3929376,
+      "archived": false,
+      "starsAtTest": 5,
+      "pushedAt": "2026-10-25T13:12:45Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
