@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-31T07:34:57+00:00",
+  "lastPracticedAt": "2026-10-31T13:53:03+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -4071,6 +4071,36 @@
       "archived": false,
       "starsAtTest": 5,
       "pushedAt": "2026-10-25T13:12:45Z"
+    },
+    {
+      "repository": "harshitap1305/GNN-EADD-GPU-Accelerated-E-Commerce-Fraud-Detection-via-Heterogeneous-Graphs",
+      "url": "https://github.com/harshitap1305/GNN-EADD-GPU-Accelerated-E-Commerce-Fraud-Detection-via-Heterogeneous-Graphs",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 94.18,
+      "languageBytes": {
+        "Python": 149831,
+        "Cuda": 9254
+      },
+      "totalLanguageBytes": 159085,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-06-24T06:21:35Z"
+    },
+    {
+      "repository": "HarshKumarShrimal/engineering-knowledge-rag-assistant",
+      "url": "https://github.com/HarshKumarShrimal/engineering-knowledge-rag-assistant",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 98.97,
+      "languageBytes": {
+        "Python": 46267,
+        "Dockerfile": 480
+      },
+      "totalLanguageBytes": 46747,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-27T16:52:05Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
