@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-31T13:53:03+00:00",
+  "lastPracticedAt": "2026-10-31T18:01:20+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -4101,6 +4101,45 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-27T16:52:05Z"
+    },
+    {
+      "repository": "hawk-digital-environments/HAWKI-RAG",
+      "url": "https://github.com/hawk-digital-environments/HAWKI-RAG",
+      "defaultBranch": "development",
+      "primaryLanguage": "PHP",
+      "primaryLanguageSharePercent": 47.95,
+      "languageBytes": {
+        "PHP": 1865218,
+        "Python": 1567223,
+        "Svelte": 159916,
+        "JavaScript": 157845,
+        "CSS": 86835,
+        "Makefile": 25161,
+        "Dockerfile": 20001,
+        "Shell": 4287,
+        "HTML": 1406,
+        "TypeScript": 1251,
+        "Blade": 1181
+      },
+      "totalLanguageBytes": 3890324,
+      "archived": false,
+      "starsAtTest": 2,
+      "pushedAt": "2026-10-28T12:56:34Z"
+    },
+    {
+      "repository": "hazeliscoding/axiomarium",
+      "url": "https://github.com/hazeliscoding/axiomarium",
+      "defaultBranch": "main",
+      "primaryLanguage": "C#",
+      "primaryLanguageSharePercent": 99.92,
+      "languageBytes": {
+        "C#": 1237183,
+        "TypeScript": 1029
+      },
+      "totalLanguageBytes": 1238212,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-06T04:10:38Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
