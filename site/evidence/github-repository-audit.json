@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-30T22:40:58+00:00",
+  "lastPracticedAt": "2026-10-31T01:49:32+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -4003,6 +4003,39 @@
       "archived": false,
       "starsAtTest": 1,
       "pushedAt": "2026-09-19T11:36:33Z"
+    },
+    {
+      "repository": "harysri/Go-PDF",
+      "url": "https://github.com/harysri/Go-PDF",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "primaryLanguageSharePercent": 99.13,
+      "languageBytes": {
+        "JavaScript": 452286,
+        "CSS": 3113,
+        "HTML": 870
+      },
+      "totalLanguageBytes": 456269,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-30T05:39:06Z"
+    },
+    {
+      "repository": "hasancse06/Digital-RFID-Wallet-for-Shop-Owner-Using-Ionic-Angular",
+      "url": "https://github.com/hasancse06/Digital-RFID-Wallet-for-Shop-Owner-Using-Ionic-Angular",
+      "defaultBranch": "master",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 59.38,
+      "languageBytes": {
+        "TypeScript": 54004,
+        "SCSS": 18953,
+        "HTML": 16264,
+        "JavaScript": 1730
+      },
+      "totalLanguageBytes": 90951,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-05-17T16:57:24Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
