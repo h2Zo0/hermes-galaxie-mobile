@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-10-31T21:23:39+00:00",
+  "lastPracticedAt": "2026-11-01T00:19:47+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -4169,6 +4169,40 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-07-20T15:44:47Z"
+    },
+    {
+      "repository": "hermes-labs-ai/fidelis",
+      "url": "https://github.com/hermes-labs-ai/fidelis",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.21,
+      "languageBytes": {
+        "Python": 2588093,
+        "JavaScript": 7202,
+        "TypeScript": 6494,
+        "Shell": 2951,
+        "Dockerfile": 2500,
+        "Ruby": 1486
+      },
+      "totalLanguageBytes": 2608726,
+      "archived": false,
+      "starsAtTest": 25,
+      "pushedAt": "2026-10-19T19:08:25Z"
+    },
+    {
+      "repository": "hermes-labs-ai/zer0dex",
+      "url": "https://github.com/hermes-labs-ai/zer0dex",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 97.84,
+      "languageBytes": {
+        "Python": 89619,
+        "TypeScript": 1976
+      },
+      "totalLanguageBytes": 91595,
+      "archived": false,
+      "starsAtTest": 64,
+      "pushedAt": "2026-10-19T18:51:11Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
