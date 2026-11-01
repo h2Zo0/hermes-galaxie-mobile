@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-01T13:42:55+00:00",
+  "lastPracticedAt": "2026-11-01T18:36:30+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -4273,6 +4273,35 @@
       "archived": false,
       "starsAtTest": 828,
       "pushedAt": "2026-10-24T00:22:31Z"
+    },
+    {
+      "repository": "henryzawadzki6542/cloudflare-turnstile-bypass",
+      "url": "https://github.com/henryzawadzki6542/cloudflare-turnstile-bypass",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 10689
+      },
+      "totalLanguageBytes": 10689,
+      "archived": false,
+      "starsAtTest": 356,
+      "pushedAt": "2026-10-12T21:03:14Z"
+    },
+    {
+      "repository": "henu-wang/practical-ai-workbench",
+      "url": "https://github.com/henu-wang/practical-ai-workbench",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 91.66,
+      "languageBytes": {
+        "Python": 56637,
+        "JavaScript": 5152
+      },
+      "totalLanguageBytes": 61789,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-26T04:45:26Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

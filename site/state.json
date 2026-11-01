@@ -1,17 +1,17 @@
 {
   "name": "NOVENS CORE — GALAXIE VIVANTE",
-  "asOf": "2026-11-01T13:42:49+00:00",
-  "polledAt": "2026-11-01T13:42:49+00:00",
-  "resourceCount": 5962,
+  "asOf": "2026-11-01T18:36:21+00:00",
+  "polledAt": "2026-11-01T18:36:21+00:00",
+  "resourceCount": 6000,
   "categoryCounts": {
-    "github": 4446,
-    "models": 563,
+    "github": 4481,
+    "models": 564,
     "datasets": 486,
-    "spaces": 467
+    "spaces": 469
   },
   "verifiedSkills": 267,
   "netProfitEuro": 0.0,
-  "growth24h": 147,
+  "growth24h": 139,
   "history": [
     {
       "date": "2026-10-26T22:30:41+01:00",
@@ -886,6 +886,12 @@
     {
       "date": "2026-11-01T13:42:49+00:00",
       "resources": 5962,
+      "verified": 267,
+      "profit": 0.0
+    },
+    {
+      "date": "2026-11-01T18:36:21+00:00",
+      "resources": 6000,
       "verified": 267,
       "profit": 0.0
     }
@@ -4385,6 +4391,13 @@
       "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
+      "id": "github:10ml-com/perfume-finder-mcp",
+      "category": "github",
+      "name": "10ml-com/perfume-finder-mcp",
+      "url": "https://github.com/10ml-com/perfume-finder-mcp",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
+    },
+    {
       "id": "github:10xGraph/10xGraph",
       "category": "github",
       "name": "10xGraph/10xGraph",
@@ -5708,6 +5721,13 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "github:AetherWave-Studio/aetherwave-mcp",
+      "category": "github",
+      "name": "AetherWave-Studio/aetherwave-mcp",
+      "url": "https://github.com/AetherWave-Studio/aetherwave-mcp",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
+    },
+    {
       "id": "github:AetherX-Technologies/memory_agentic_RAG",
       "category": "github",
       "name": "AetherX-Technologies/memory_agentic_RAG",
@@ -6730,6 +6750,13 @@
       "firstSeen": "2026-10-28T02:22:32+00:00"
     },
     {
+      "id": "github:alxspiker/mcp-server-ftp",
+      "category": "github",
+      "name": "alxspiker/mcp-server-ftp",
+      "url": "https://github.com/alxspiker/mcp-server-ftp",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
+    },
+    {
       "id": "github:Amaan-Mujawar/chassisync",
       "category": "github",
       "name": "Amaan-Mujawar/chassisync",
@@ -7071,6 +7098,13 @@
       "name": "AndiTaTaEe/invoice_processing",
       "url": "https://github.com/AndiTaTaEe/invoice_processing",
       "firstSeen": "2026-10-27T15:21:32+00:00"
+    },
+    {
+      "id": "github:AndreBaltazar8/abla-mcp",
+      "category": "github",
+      "name": "AndreBaltazar8/abla-mcp",
+      "url": "https://github.com/AndreBaltazar8/abla-mcp",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
     },
     {
       "id": "github:AndreKfm/Knotarium",
@@ -7822,11 +7856,32 @@
       "firstSeen": "2026-10-27T18:38:31+00:00"
     },
     {
+      "id": "github:api-evangelist/sideko",
+      "category": "github",
+      "name": "api-evangelist/sideko",
+      "url": "https://github.com/api-evangelist/sideko",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
+    },
+    {
+      "id": "github:api-evangelist/smithery",
+      "category": "github",
+      "name": "api-evangelist/smithery",
+      "url": "https://github.com/api-evangelist/smithery",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
+    },
+    {
       "id": "github:api-evangelist/sofy",
       "category": "github",
       "name": "api-evangelist/sofy",
       "url": "https://github.com/api-evangelist/sofy",
       "firstSeen": "2026-10-27T13:28:19+00:00"
+    },
+    {
+      "id": "github:api-evangelist/songt50-us",
+      "category": "github",
+      "name": "api-evangelist/songt50-us",
+      "url": "https://github.com/api-evangelist/songt50-us",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
     },
     {
       "id": "github:api-evangelist/star-analytics",
@@ -7939,6 +7994,13 @@
       "name": "Appnova-EU-OU/awesome-remote-mcp-servers",
       "url": "https://github.com/Appnova-EU-OU/awesome-remote-mcp-servers",
       "firstSeen": "2026-10-27T22:26:16+00:00"
+    },
+    {
+      "id": "github:apravint/fastmcp-linux-desktop",
+      "category": "github",
+      "name": "apravint/fastmcp-linux-desktop",
+      "url": "https://github.com/apravint/fastmcp-linux-desktop",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
     },
     {
       "id": "github:aqkprogrammer/ai-software-factory",
@@ -9481,6 +9543,13 @@
       "firstSeen": "2026-10-27T18:41:59+00:00"
     },
     {
+      "id": "github:bhavyshekhaliya/awesome-public-mcp-servers",
+      "category": "github",
+      "name": "bhavyshekhaliya/awesome-public-mcp-servers",
+      "url": "https://github.com/bhavyshekhaliya/awesome-public-mcp-servers",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
+    },
+    {
       "id": "github:BhaweshSinha/SAP-Smart-Supply-GenAI-Automation",
       "category": "github",
       "name": "BhaweshSinha/SAP-Smart-Supply-GenAI-Automation",
@@ -9493,6 +9562,13 @@
       "name": "BhoomiBliss/Smrithi-ai",
       "url": "https://github.com/BhoomiBliss/Smrithi-ai",
       "firstSeen": "2026-10-27T23:59:45+00:00"
+    },
+    {
+      "id": "github:bhubbard/ffmpeg-skill-rs",
+      "category": "github",
+      "name": "bhubbard/ffmpeg-skill-rs",
+      "url": "https://github.com/bhubbard/ffmpeg-skill-rs",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
     },
     {
       "id": "github:bhuvaneshchinthala/Rag-agent",
@@ -9815,6 +9891,13 @@
       "name": "bolivian-peru/bolivian-peru-ai-skills",
       "url": "https://github.com/bolivian-peru/bolivian-peru-ai-skills",
       "firstSeen": "2026-10-27T16:57:26+00:00"
+    },
+    {
+      "id": "github:Booyaka101/mcp-vet",
+      "category": "github",
+      "name": "Booyaka101/mcp-vet",
+      "url": "https://github.com/Booyaka101/mcp-vet",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
     },
     {
       "id": "github:boris-pokorny/scene-rag",
@@ -10300,6 +10383,13 @@
       "firstSeen": "2026-10-27T16:37:04+00:00"
     },
     {
+      "id": "github:carolyn-beep/keystone-mcp",
+      "category": "github",
+      "name": "carolyn-beep/keystone-mcp",
+      "url": "https://github.com/carolyn-beep/keystone-mcp",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
+    },
+    {
       "id": "github:caseymanos/browser-agent-advisor",
       "category": "github",
       "name": "caseymanos/browser-agent-advisor",
@@ -10340,6 +10430,13 @@
       "name": "CatOlin-Zhang/YouMi_Agent",
       "url": "https://github.com/CatOlin-Zhang/YouMi_Agent",
       "firstSeen": "2026-10-27T16:57:26+00:00"
+    },
+    {
+      "id": "github:causalpathlab/legume-mcp",
+      "category": "github",
+      "name": "causalpathlab/legume-mcp",
+      "url": "https://github.com/causalpathlab/legume-mcp",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
     },
     {
       "id": "github:CBAnother/python-keon",
@@ -10389,6 +10486,13 @@
       "name": "ccordine/omnidex",
       "url": "https://github.com/ccordine/omnidex",
       "firstSeen": "2026-10-27T18:38:31+00:00"
+    },
+    {
+      "id": "github:ccsimplyspolit/mcp-ssrf-auditor",
+      "category": "github",
+      "name": "ccsimplyspolit/mcp-ssrf-auditor",
+      "url": "https://github.com/ccsimplyspolit/mcp-ssrf-auditor",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
     },
     {
       "id": "github:ccvsyou/WorkFlow-Codex",
@@ -10991,6 +11095,13 @@
       "name": "cjtsh/ai-color-team-audit-framework",
       "url": "https://github.com/cjtsh/ai-color-team-audit-framework",
       "firstSeen": "2026-10-27T20:24:05+00:00"
+    },
+    {
+      "id": "github:ck3mp3r/nu-mcp",
+      "category": "github",
+      "name": "ck3mp3r/nu-mcp",
+      "url": "https://github.com/ck3mp3r/nu-mcp",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
     },
     {
       "id": "github:Claire56/ruhusa",
@@ -11875,6 +11986,13 @@
       "firstSeen": "2026-10-28T06:25:22+00:00"
     },
     {
+      "id": "github:datallmhub/agentflow4j",
+      "category": "github",
+      "name": "datallmhub/agentflow4j",
+      "url": "https://github.com/datallmhub/agentflow4j",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
+    },
+    {
       "id": "github:datarobot-community/af-component-datarobot-mcp",
       "category": "github",
       "name": "datarobot-community/af-component-datarobot-mcp",
@@ -12643,6 +12761,13 @@
       "name": "dipjyotisikder/PocketWallet",
       "url": "https://github.com/dipjyotisikder/PocketWallet",
       "firstSeen": "2026-10-27T18:18:34+00:00"
+    },
+    {
+      "id": "github:diptapradipta21/mcp-telegram-topics",
+      "category": "github",
+      "name": "diptapradipta21/mcp-telegram-topics",
+      "url": "https://github.com/diptapradipta21/mcp-telegram-topics",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
     },
     {
       "id": "github:dipteshkumar28/medical-ai-assistant",
@@ -14402,6 +14527,13 @@
       "firstSeen": "2026-10-27T20:44:22+00:00"
     },
     {
+      "id": "github:fuseone-io/fusescope-mcp-server",
+      "category": "github",
+      "name": "fuseone-io/fusescope-mcp-server",
+      "url": "https://github.com/fuseone-io/fusescope-mcp-server",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
+    },
+    {
       "id": "github:FusionpactTech/fusionpact-vectordb",
       "category": "github",
       "name": "FusionpactTech/fusionpact-vectordb",
@@ -15065,6 +15197,13 @@
       "name": "GowdaJeevithKariyappa/FinSleuth-AI-Powered-Financial-Crime-Network-Detection-Using-Graph-Analytics",
       "url": "https://github.com/GowdaJeevithKariyappa/FinSleuth-AI-Powered-Financial-Crime-Network-Detection-Using-Graph-Analytics",
       "firstSeen": "2026-10-27T17:17:41+00:00"
+    },
+    {
+      "id": "github:Gowtham-beep/blueprint-mcp",
+      "category": "github",
+      "name": "Gowtham-beep/blueprint-mcp",
+      "url": "https://github.com/Gowtham-beep/blueprint-mcp",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
     },
     {
       "id": "github:gowtham16-bhu/maker-checker-agent",
@@ -16145,6 +16284,13 @@
       "firstSeen": "2026-10-27T19:43:30+00:00"
     },
     {
+      "id": "github:hritick1/apple-notes-codemode",
+      "category": "github",
+      "name": "hritick1/apple-notes-codemode",
+      "url": "https://github.com/hritick1/apple-notes-codemode",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
+    },
+    {
       "id": "github:hsbrah98-max/psych-atypicality-eval",
       "category": "github",
       "name": "hsbrah98-max/psych-atypicality-eval",
@@ -16801,6 +16947,13 @@
       "name": "inganadaraia-dev/GL-Risk-Analytics-Framework",
       "url": "https://github.com/inganadaraia-dev/GL-Risk-Analytics-Framework",
       "firstSeen": "2026-10-27T19:02:57+00:00"
+    },
+    {
+      "id": "github:inkdropapp/mcp-server",
+      "category": "github",
+      "name": "inkdropapp/mcp-server",
+      "url": "https://github.com/inkdropapp/mcp-server",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
     },
     {
       "id": "github:Inkithai/BookWise",
@@ -17482,6 +17635,13 @@
       "firstSeen": "2026-10-27T20:03:47+00:00"
     },
     {
+      "id": "github:jdgiles26/mcp-siem-hunter",
+      "category": "github",
+      "name": "jdgiles26/mcp-siem-hunter",
+      "url": "https://github.com/jdgiles26/mcp-siem-hunter",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
+    },
+    {
       "id": "github:jdot274/agentic-computer-browser-template",
       "category": "github",
       "name": "jdot274/agentic-computer-browser-template",
@@ -17900,6 +18060,13 @@
       "name": "joaocaraujo/sampo",
       "url": "https://github.com/joaocaraujo/sampo",
       "firstSeen": "2026-10-27T20:24:05+00:00"
+    },
+    {
+      "id": "github:joe-watkins/aria-mcp",
+      "category": "github",
+      "name": "joe-watkins/aria-mcp",
+      "url": "https://github.com/joe-watkins/aria-mcp",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
     },
     {
       "id": "github:joeabur/Security-Testing-Platform",
@@ -19132,6 +19299,13 @@
       "name": "KigenIsaac/advanced-ai-agent",
       "url": "https://github.com/KigenIsaac/advanced-ai-agent",
       "firstSeen": "2026-10-27T22:38:23+00:00"
+    },
+    {
+      "id": "github:kilwizac/jobboss2-mcp",
+      "category": "github",
+      "name": "kilwizac/jobboss2-mcp",
+      "url": "https://github.com/kilwizac/jobboss2-mcp",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
     },
     {
       "id": "github:kimai/kimai",
@@ -21430,6 +21604,13 @@
       "firstSeen": "2026-10-27T16:16:41+00:00"
     },
     {
+      "id": "github:megamaced/nc_passwords-mcp",
+      "category": "github",
+      "name": "megamaced/nc_passwords-mcp",
+      "url": "https://github.com/megamaced/nc_passwords-mcp",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
+    },
+    {
       "id": "github:Meghana-k00/ai-incident-copilot",
       "category": "github",
       "name": "Meghana-k00/ai-incident-copilot",
@@ -21449,6 +21630,13 @@
       "name": "Mehak200493/Mini_Project_06_A-AI-Agentic-Workflow-Automation",
       "url": "https://github.com/Mehak200493/Mini_Project_06_A-AI-Agentic-Workflow-Automation",
       "firstSeen": "2026-10-27T22:38:23+00:00"
+    },
+    {
+      "id": "github:mehmeterenozturkk-max/mcp-video-studio",
+      "category": "github",
+      "name": "mehmeterenozturkk-max/mcp-video-studio",
+      "url": "https://github.com/mehmeterenozturkk-max/mcp-video-studio",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
     },
     {
       "id": "github:Mehul-Mehra/Finora",
@@ -23908,6 +24096,13 @@
       "firstSeen": "2026-10-27T23:59:45+00:00"
     },
     {
+      "id": "github:NinZine/mcp2cli-go",
+      "category": "github",
+      "name": "NinZine/mcp2cli-go",
+      "url": "https://github.com/NinZine/mcp2cli-go",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
+    },
+    {
       "id": "github:NipunaRanasinghe/awesome-ai-agents",
       "category": "github",
       "name": "NipunaRanasinghe/awesome-ai-agents",
@@ -25159,6 +25354,13 @@
       "name": "Pawan-Kumar1614/Financial-Risk-Analysis-with-Python",
       "url": "https://github.com/Pawan-Kumar1614/Financial-Risk-Analysis-with-Python",
       "firstSeen": "2026-10-27T15:21:32+00:00"
+    },
+    {
+      "id": "github:Pawangunjkar/linux-ssh-mcp",
+      "category": "github",
+      "name": "Pawangunjkar/linux-ssh-mcp",
+      "url": "https://github.com/Pawangunjkar/linux-ssh-mcp",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
     },
     {
       "id": "github:pawelrusak/fullstack-e-commerce",
@@ -30208,6 +30410,13 @@
       "firstSeen": "2026-10-27T23:59:45+00:00"
     },
     {
+      "id": "github:SolidStateNetwork/Synapse",
+      "category": "github",
+      "name": "SolidStateNetwork/Synapse",
+      "url": "https://github.com/SolidStateNetwork/Synapse",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
+    },
+    {
       "id": "github:soliplex/soliplex",
       "category": "github",
       "name": "soliplex/soliplex",
@@ -30759,6 +30968,13 @@
       "name": "stkeerthana-tech/CarbonIQ-AI",
       "url": "https://github.com/stkeerthana-tech/CarbonIQ-AI",
       "firstSeen": "2026-10-27T15:21:32+00:00"
+    },
+    {
+      "id": "github:StockTipsArena/stocktipsarena-mcp",
+      "category": "github",
+      "name": "StockTipsArena/stocktipsarena-mcp",
+      "url": "https://github.com/StockTipsArena/stocktipsarena-mcp",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
     },
     {
       "id": "github:stormieperformance/stormie-app",
@@ -31508,6 +31724,13 @@
       "name": "TAMASALA/Codepilot-Autonomous-Software-Engineer",
       "url": "https://github.com/TAMASALA/Codepilot-Autonomous-Software-Engineer",
       "firstSeen": "2026-10-27T20:44:22+00:00"
+    },
+    {
+      "id": "github:tamilts124/mcp-common-server",
+      "category": "github",
+      "name": "tamilts124/mcp-common-server",
+      "url": "https://github.com/tamilts124/mcp-common-server",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
     },
     {
       "id": "github:TanimowoObaloluwaDavid/socialpilot-ai",
@@ -32623,6 +32846,13 @@
       "firstSeen": "2026-10-27T15:56:21+00:00"
     },
     {
+      "id": "github:tufantunc/ssh-mcp",
+      "category": "github",
+      "name": "tufantunc/ssh-mcp",
+      "url": "https://github.com/tufantunc/ssh-mcp",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
+    },
+    {
       "id": "github:tufeiliu/RAGLab",
       "category": "github",
       "name": "tufeiliu/RAGLab",
@@ -33293,6 +33523,13 @@
       "name": "VectorInstitute/retrieval-augmented-generation",
       "url": "https://github.com/VectorInstitute/retrieval-augmented-generation",
       "firstSeen": "2026-10-27T23:59:45+00:00"
+    },
+    {
+      "id": "github:VectorInstitute/usa-npn-mcp-server",
+      "category": "github",
+      "name": "VectorInstitute/usa-npn-mcp-server",
+      "url": "https://github.com/VectorInstitute/usa-npn-mcp-server",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
     },
     {
       "id": "github:vedanshchamoli5/n8n",
@@ -34063,6 +34300,13 @@
       "name": "wangyx98/llm-container-runtime",
       "url": "https://github.com/wangyx98/llm-container-runtime",
       "firstSeen": "2026-10-27T16:57:26+00:00"
+    },
+    {
+      "id": "github:wanhaoli376-lab/AgentForge",
+      "category": "github",
+      "name": "wanhaoli376-lab/AgentForge",
+      "url": "https://github.com/wanhaoli376-lab/AgentForge",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
     },
     {
       "id": "github:WanMusa/resume_builderV3",
@@ -34966,6 +35210,13 @@
       "name": "YuqiGuo105/portfolio-ai-platform",
       "url": "https://github.com/YuqiGuo105/portfolio-ai-platform",
       "firstSeen": "2026-10-27T13:09:33+00:00"
+    },
+    {
+      "id": "github:yurirocha15/mcp-cpp-sdk",
+      "category": "github",
+      "name": "yurirocha15/mcp-cpp-sdk",
+      "url": "https://github.com/yurirocha15/mcp-cpp-sdk",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
     },
     {
       "id": "github:YuukiAS/AI_Skills_Collection",
@@ -36702,6 +36953,13 @@
       "name": "HukukcuApp/tr-legal-embedding-gemma-2",
       "url": "https://huggingface.co/HukukcuApp/tr-legal-embedding-gemma-2",
       "firstSeen": "2026-10-30T13:23:36+00:00"
+    },
+    {
+      "id": "models:IAmFlyingMonkey/roberta-base-model-korean-text-tag-classification",
+      "category": "models",
+      "name": "IAmFlyingMonkey/roberta-base-model-korean-text-tag-classification",
+      "url": "https://huggingface.co/IAmFlyingMonkey/roberta-base-model-korean-text-tag-classification",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
     },
     {
       "id": "models:ibm-granite/granite-4.0-3b-vision",
@@ -42192,6 +42450,13 @@
       "firstSeen": "2026-10-27T13:28:19+00:00"
     },
     {
+      "id": "spaces:skaur20/SR-05-GR-NLP-Image2Text-Multilingual-OCR",
+      "category": "spaces",
+      "name": "skaur20/SR-05-GR-NLP-Image2Text-Multilingual-OCR",
+      "url": "https://huggingface.co/spaces/skaur20/SR-05-GR-NLP-Image2Text-Multilingual-OCR",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
+    },
+    {
       "id": "spaces:smolagents/computer-agent",
       "category": "spaces",
       "name": "smolagents/computer-agent",
@@ -42549,6 +42814,13 @@
       "firstSeen": "2026-10-27T15:56:21+00:00"
     },
     {
+      "id": "spaces:xiaomi-research/Xiaomi-OCR-0",
+      "category": "spaces",
+      "name": "xiaomi-research/Xiaomi-OCR-0",
+      "url": "https://huggingface.co/spaces/xiaomi-research/Xiaomi-OCR-0",
+      "firstSeen": "2026-11-01T18:36:21+00:00"
+    },
+    {
       "id": "spaces:XPMaster/data_automation",
       "category": "spaces",
       "name": "XPMaster/data_automation",
@@ -42630,9 +42902,9 @@
   "cloud": {
     "agent": "Éclaireur NOVENS CORE",
     "execution": "GitHub Actions",
-    "lastMissionAt": "2026-11-01T13:42:49+00:00",
+    "lastMissionAt": "2026-11-01T18:36:21+00:00",
     "missionStatus": "succès",
-    "newResources": 45,
+    "newResources": 38,
     "errors": 0,
     "nextScheduled": "Toutes les 10 minutes si GitHub Actions disponible",
     "machineIndependence": true
@@ -42887,10 +43159,10 @@
       "title": "Qualifier licence et format de jeux de données IA",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-11-01T06:26:55+00:00",
-      "practiceCount": 151,
+      "lastPracticedAt": "2026-11-01T18:36:32+00:00",
+      "practiceCount": 152,
       "proofPath": "evidence/hf-dataset-usage-assessment-v1.json",
-      "proofSha256": "9ca2add13efe08a9d2085f6f67ec038486e8dd40272e9aac874895beeec8c61c",
+      "proofSha256": "19afc655d29359757cc5043e4e2d3b8c529d3b95054357ac682cb5e94b417a00",
       "resourcesTested": [
         "https://huggingface.co/datasets/11-47/autonomous-ai-agents-multi-agent-swarms-2026",
         "https://huggingface.co/datasets/AdityaaXD/Multi-Agent_Reinforcement_Learning_Trading_System_Data",
@@ -43042,7 +43314,8 @@
         "https://huggingface.co/datasets/ethanning/deepresearchgym-agentic-search-logs",
         "https://huggingface.co/datasets/FreedomIntelligence/MMLU_French",
         "https://huggingface.co/datasets/amyrmahdy/decima-agent-decisions",
-        "https://huggingface.co/datasets/artefactory/Argimi-Legal-French-Jurisprudence"
+        "https://huggingface.co/datasets/artefactory/Argimi-Legal-French-Jurisprudence",
+        "https://huggingface.co/datasets/canbingol/turkish-conversational-tool-call"
       ]
     },
     {
@@ -43050,10 +43323,10 @@
       "title": "Diagnostiquer le runtime de démonstrations IA",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-11-01T13:42:57+00:00",
-      "practiceCount": 276,
+      "lastPracticedAt": "2026-11-01T18:36:32+00:00",
+      "practiceCount": 278,
       "proofPath": "evidence/hf-space-runtime-diagnostics-v1.json",
-      "proofSha256": "1c7d6c163bee358da009e54ff08d2ef08c954ce4df864f50ccf72ef48f988f2b",
+      "proofSha256": "b7e2a557b13b13e818a37069b8e4ad4f18dc6b8d73f07362f31fbf1c36eb8607",
       "resourcesTested": [
         "https://huggingface.co/spaces/Aarya003/Financial-Analyst-Agent",
         "https://huggingface.co/spaces/AceVikings/repro-learning-human-robot-collaboration-via-heterogeneous-agent-lyapunov-policy-optimizatio",
@@ -43330,7 +43603,9 @@
         "https://huggingface.co/spaces/fabiochiu/semantic-search-medium",
         "https://huggingface.co/spaces/facebook/omniasr-transcriptions",
         "https://huggingface.co/spaces/Gradio-Blocks/document-qa",
-        "https://huggingface.co/spaces/Gradio-Blocks/Story_and_Video_Generation"
+        "https://huggingface.co/spaces/Gradio-Blocks/Story_and_Video_Generation",
+        "https://huggingface.co/spaces/gregojoh/layoutlmv3_document",
+        "https://huggingface.co/spaces/gryan-galario/manga-ocr-demo"
       ]
     },
     {
@@ -48328,10 +48603,10 @@
       "title": "Analyser techniquement un dépôt GitHub public",
       "status": "validated",
       "validatedAt": "2026-10-27T12:30:54+00:00",
-      "lastPracticedAt": "2026-11-01T13:42:55+00:00",
-      "practiceCount": 249,
+      "lastPracticedAt": "2026-11-01T18:36:30+00:00",
+      "practiceCount": 251,
       "proofPath": "evidence/github-repository-audit.json",
-      "proofSha256": "71c1e379640a3c45e7424586024f162ee47f65f269e5b1d07f6606111a22a7d0",
+      "proofSha256": "295924011606e61b34b64d1e6a8a4c882d3f87fa31b0bf6f09288008b7ac9baf",
       "resourcesTested": [
         "https://github.com/0jre/runne",
         "https://github.com/0xMihirK/hercules-mcp",
@@ -48581,224 +48856,13 @@
         "https://github.com/hibuka-labs/phi-tools",
         "https://github.com/highnet/highnet-safe-llm-tools",
         "https://github.com/HetharthSachdeva/Cook_GPT",
-        "https://github.com/heurist-network/heurist-agent-framework"
+        "https://github.com/heurist-network/heurist-agent-framework",
+        "https://github.com/henryzawadzki6542/cloudflare-turnstile-bypass",
+        "https://github.com/henu-wang/practical-ai-workbench"
       ]
     }
   ],
   "capabilityTrials": [
-    {
-      "date": "2026-10-29T06:33:27+00:00",
-      "skillId": "github-repository-technical-audit-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 211,
-      "failures": []
-    },
-    {
-      "date": "2026-10-29T06:33:29+00:00",
-      "skillId": "hf-model-task-classification-v1",
-      "result": "reinforced",
-      "reportsPassed": 1,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 216,
-      "failures": [
-        {
-          "id": "infinex/translation_model",
-          "reason": "ValueError"
-        },
-        {
-          "id": "itsrocktime9696/Vision-Guided_Robotic_Manipulation_using_DeepRL",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Jainam/tinybert-reranker",
-          "reason": "ValueError"
-        },
-        {
-          "id": "jinaai/jina-embeddings-v3",
-          "reason": "JSONDecodeError"
-        },
-        {
-          "id": "Jour/Translation-Test",
-          "reason": "ValueError"
-        },
-        {
-          "id": "jungjongho/wav2vec2-xlsr-korean-speech-emotion-recognition3",
-          "reason": "ValueError"
-        },
-        {
-          "id": "kakaocorp/kanana-2-1.3b-embedding",
-          "reason": "ValueError"
-        },
-        {
-          "id": "kakaocorp/kanana-2-3b-embedding",
-          "reason": "ValueError"
-        },
-        {
-          "id": "kakaocorp/kanana-2-vision-encoder-medium",
-          "reason": "ValueError"
-        },
-        {
-          "id": "kakaocorp/kanana-2-vision-encoder-tiny",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Kang2326/Transcription1",
-          "reason": "ValueError"
-        },
-        {
-          "id": "keras-io/multi_label_text_classification",
-          "reason": "ValueError"
-        },
-        {
-          "id": "keras-io/text-classification-with-transformer",
-          "reason": "ValueError"
-        },
-        {
-          "id": "kirangowda3101/vision-language-model",
-          "reason": "ValueError"
-        },
-        {
-          "id": "KRAFTON/Raon-VisionEncoder",
-          "reason": "ValueError"
-        },
-        {
-          "id": "krishanusinha20/multi-agentic-sql-generator-model",
-          "reason": "ValueError"
-        },
-        {
-          "id": "lewtun/dummy-translation",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-29T06:33:29+00:00",
-      "skillId": "hf-dataset-usage-assessment-v1",
-      "result": "no-new-evidence",
-      "reportsPassed": 0,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 145,
-      "failures": [
-        {
-          "id": "Whispering-GPT/linustechtips-transcript-audio",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Whispering-GPT/whisper-transcripts-linustechtips",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Whispering-GPT/whisper-transcripts-ml-street-talk",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Whispering-GPT/whisper-transcripts-the-ai-epiphany",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Whispering-GPT/whisper-transcripts-the-verge",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Whispering-GPT/yannic-kilcher-transcript",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Whispering-GPT/yannick-kilcher-transcript-audio",
-          "reason": "ValueError"
-        },
-        {
-          "id": "WindowsWhistler/the-vehicle-set",
-          "reason": "ValueError"
-        },
-        {
-          "id": "xx103/NYC_Motor_Vehicle_Collisions_and_Weather_Dataset",
-          "reason": "ValueError"
-        },
-        {
-          "id": "ybelkada/documentation-images",
-          "reason": "ValueError"
-        },
-        {
-          "id": "yzhuang/metatree_BNG_vehicle_",
-          "reason": "ValueError"
-        },
-        {
-          "id": "yzhuang/metatree_vehicle_sensIT",
-          "reason": "ValueError"
-        },
-        {
-          "id": "zachgitt/comedy-transcripts",
-          "reason": "ValueError"
-        },
-        {
-          "id": "zai-org/AgentInstruct",
-          "reason": "ValueError"
-        },
-        {
-          "id": "zhoudemac/pentest_tools_v2",
-          "reason": "ValueError"
-        },
-        {
-          "id": "ZixuanKe/accounting_fineweb_phi3.5_unsup",
-          "reason": "ValueError"
-        },
-        {
-          "id": "ZixuanKe/accounting_rule_phi3.5_unsup",
-          "reason": "ValueError"
-        },
-        {
-          "id": "ZixuanKe/accounting_unsup",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-29T06:33:29+00:00",
-      "skillId": "hf-space-runtime-diagnostics-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 238,
-      "failures": []
-    },
-    {
-      "date": "2026-10-29T06:33:33+00:00",
-      "skillId": "hf-dataset-sample-ingestion-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "failedResources": [
-        {
-          "id": "jupyter-agent/jupyter-agent-dataset",
-          "error": "HTTPError",
-          "detail": "HTTP Error 502: Bad Gateway"
-        },
-        {
-          "id": "kaniam/invoice",
-          "error": "HTTPError",
-          "detail": "HTTP Error 501: Not Implemented"
-        },
-        {
-          "id": "katospiegel/ordfts-hackathon-pneuma-vehicles-segmentation",
-          "error": "HTTPError",
-          "detail": "HTTP Error 502: Bad Gateway"
-        },
-        {
-          "id": "katsubakirill/toolace-hallucination-span-detection",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "KETI-NLP/aihub_document_summarization",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        }
-      ],
-      "totalVerifiedExercises": 236
-    },
     {
       "date": "2026-10-29T06:53:44+00:00",
       "skillId": "github-repository-technical-audit-v1",
@@ -53065,25 +53129,318 @@
         }
       ],
       "totalVerifiedExercises": 262
+    },
+    {
+      "date": "2026-11-01T18:36:30+00:00",
+      "skillId": "github-repository-technical-audit-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 251,
+      "failures": [
+        {
+          "repository": "Henning-blip/business-process-automation",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-01T18:36:32+00:00",
+      "skillId": "hf-model-task-classification-v1",
+      "result": "no-new-evidence",
+      "reportsPassed": 0,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 232,
+      "failures": [
+        {
+          "id": "keras-io/multi_label_text_classification",
+          "reason": "ValueError"
+        },
+        {
+          "id": "keras-io/text-classification-with-transformer",
+          "reason": "ValueError"
+        },
+        {
+          "id": "kirangowda3101/vision-language-model",
+          "reason": "ValueError"
+        },
+        {
+          "id": "KRAFTON/Raon-VisionEncoder",
+          "reason": "ValueError"
+        },
+        {
+          "id": "krishanusinha20/multi-agentic-sql-generator-model",
+          "reason": "ValueError"
+        },
+        {
+          "id": "lewtun/dummy-translation",
+          "reason": "ValueError"
+        },
+        {
+          "id": "litert-community/embeddinggemma-2-740m-litert-lm",
+          "reason": "ValueError"
+        },
+        {
+          "id": "litert-community/embeddinggemma-2-text-270m-litert-lm",
+          "reason": "ValueError"
+        },
+        {
+          "id": "LLM-Agents-Imperial/webshop-adapters",
+          "reason": "ValueError"
+        },
+        {
+          "id": "LLM-OS-Models/KoHRM-Text-1.4B-lora-comp-agent-reasoning-25m-v1",
+          "reason": "ValueError"
+        },
+        {
+          "id": "luom2645/agent-workspace",
+          "reason": "ValueError"
+        },
+        {
+          "id": "mageec/w2v-transcription-mls",
+          "reason": "ValueError"
+        },
+        {
+          "id": "mageec/wav2vec2-transcription-capstone",
+          "reason": "ValueError"
+        },
+        {
+          "id": "mattraj/curacel-transcription-1",
+          "reason": "ValueError"
+        },
+        {
+          "id": "medkit/simsamu-transcription",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Mickzaa/Translation_TH-EN-v3",
+          "reason": "ValueError"
+        },
+        {
+          "id": "microsoft/bitnet-embedding-0.6b",
+          "reason": "ValueError"
+        },
+        {
+          "id": "microsoft/bitnet-embedding-270m",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-01T18:36:32+00:00",
+      "skillId": "hf-dataset-usage-assessment-v1",
+      "result": "reinforced",
+      "reportsPassed": 1,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 152,
+      "failures": [
+        {
+          "id": "Autonomous-Scientific-Agents/results",
+          "reason": "ValueError"
+        },
+        {
+          "id": "b000cb34ccdf5cba9115e34c8165c749/classified-government-documents",
+          "reason": "ValueError"
+        },
+        {
+          "id": "balabis/invoices",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Beifengdo/Official-Document-Writing",
+          "reason": "ValueError"
+        },
+        {
+          "id": "bejaeger/biggest_ideas_transcriptions",
+          "reason": "ValueError"
+        },
+        {
+          "id": "bejaeger/filled_stacks_transcriptions",
+          "reason": "ValueError"
+        },
+        {
+          "id": "BelalElhossany/mgb2_audios_transcriptions",
+          "reason": "ValueError"
+        },
+        {
+          "id": "BelalElhossany/mgb2_audios_transcriptions_non_overlap",
+          "reason": "ValueError"
+        },
+        {
+          "id": "BelalElhossany/mgb2_audios_transcriptions_prepared",
+          "reason": "ValueError"
+        },
+        {
+          "id": "BelalElhossany/mgb2_audios_transcriptions_preprocessed",
+          "reason": "ValueError"
+        },
+        {
+          "id": "bettapixel/tools",
+          "reason": "ValueError"
+        },
+        {
+          "id": "bigscience-historical-texts/Open_Medieval_French",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Brendan/nlp244_french_snli",
+          "reason": "ValueError"
+        },
+        {
+          "id": "brucewlee1/mmlu-professional-accounting",
+          "reason": "ValueError"
+        },
+        {
+          "id": "bryantpwhite/Medieval_Sermons_in_French",
+          "reason": "ValueError"
+        },
+        {
+          "id": "bx6d/n1m19-test1018-memory-tool-sweep",
+          "reason": "ValueError"
+        },
+        {
+          "id": "CATIE-AQ/french_books",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-01T18:36:32+00:00",
+      "skillId": "hf-space-runtime-diagnostics-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 278,
+      "failures": []
+    },
+    {
+      "date": "2026-11-01T18:36:37+00:00",
+      "skillId": "hf-dataset-sample-ingestion-v1",
+      "result": "no-new-evidence",
+      "reportsPassed": 0,
+      "reportsRequired": 1,
+      "failedResources": [
+        {
+          "id": "nvidia/PhysicalAI-Autonomous-Vehicles-NCore",
+          "error": "HTTPError",
+          "detail": "HTTP Error 401: Unauthorized"
+        },
+        {
+          "id": "nvidia/PhysicalAI-Autonomous-Vehicles-NuRec",
+          "error": "HTTPError",
+          "detail": "HTTP Error 401: Unauthorized"
+        },
+        {
+          "id": "open-llm-leaderboard-old/details_llm-agents__tora-13b-v1.0",
+          "error": "HTTPError",
+          "detail": "HTTP Error 501: Not Implemented"
+        },
+        {
+          "id": "open-llm-leaderboard-old/details_llm-agents__tora-70b-v1.0",
+          "error": "HTTPError",
+          "detail": "HTTP Error 501: Not Implemented"
+        },
+        {
+          "id": "open-llm-leaderboard-old/details_llm-agents__tora-7b-v1.0",
+          "error": "HTTPError",
+          "detail": "HTTP Error 501: Not Implemented"
+        },
+        {
+          "id": "open-llm-leaderboard-old/details_llm-agents__tora-code-13b-v1.0",
+          "error": "HTTPError",
+          "detail": "HTTP Error 501: Not Implemented"
+        },
+        {
+          "id": "open-llm-leaderboard-old/details_llm-agents__tora-code-34b-v1.0",
+          "error": "HTTPError",
+          "detail": "HTTP Error 501: Not Implemented"
+        },
+        {
+          "id": "open-llm-leaderboard-old/details_llm-agents__tora-code-7b-v1.0",
+          "error": "HTTPError",
+          "detail": "HTTP Error 501: Not Implemented"
+        },
+        {
+          "id": "open-llm-leaderboard-old/details_ToolBench__ToolLLaMA-7b-LoRA",
+          "error": "HTTPError",
+          "detail": "HTTP Error 501: Not Implemented"
+        },
+        {
+          "id": "open-world-agents/vpt-owamcap",
+          "error": "ValueError",
+          "detail": "Aucune partition accessible"
+        },
+        {
+          "id": "OpenLLM-France/Claire-Dialogue-French-0.1",
+          "error": "HTTPError",
+          "detail": "HTTP Error 401: Unauthorized"
+        },
+        {
+          "id": "PleIAs/French-PD-Newspapers",
+          "error": "ValueError",
+          "detail": "Réponse trop volumineuse"
+        },
+        {
+          "id": "pnadel/npi_transcripts_index",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "ponzimaxi/transcriptions",
+          "error": "HTTPError",
+          "detail": "HTTP Error 401: Unauthorized"
+        },
+        {
+          "id": "pragnakalp/squad_v2_french_translated",
+          "error": "ValueError",
+          "detail": "Réponse trop volumineuse"
+        },
+        {
+          "id": "PranjayK/AI-in-Accounting",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "qanastek/frenchmedmcqa",
+          "error": "HTTPError",
+          "detail": "HTTP Error 501: Not Implemented"
+        },
+        {
+          "id": "ratschlab/HEST_Xenium_virtual_spatial_transcriptomics",
+          "error": "HTTPError",
+          "detail": "HTTP Error 401: Unauthorized"
+        },
+        {
+          "id": "ratschlab/TCGA_virtual_spatial_transcriptomics_atlas",
+          "error": "HTTPError",
+          "detail": "HTTP Error 401: Unauthorized"
+        },
+        {
+          "id": "rogue-security/mcp-tool-use-quality-benchmark",
+          "error": "HTTPError",
+          "detail": "HTTP Error 401: Unauthorized"
+        }
+      ],
+      "totalVerifiedExercises": 262
     }
   ],
   "lastCapabilityVerification": {
-    "date": "2026-11-01T13:43:02+00:00",
+    "date": "2026-11-01T18:36:37+00:00",
     "skillId": "hf-dataset-sample-ingestion-v1",
     "result": "no-new-evidence"
   },
   "discovery": {
-    "cursor": 138,
+    "cursor": 139,
     "capacity": 20000,
-    "lastBatch": 45,
+    "lastBatch": 38,
     "newByCategory": {
-      "github": 36,
-      "models": 8,
-      "datasets": 1,
-      "spaces": 0
+      "github": 35,
+      "models": 1,
+      "datasets": 0,
+      "spaces": 2
     },
     "queriesLastRun": 7,
-    "totalSearchCycles": 138,
+    "totalSearchCycles": 139,
     "lastErrors": []
   },
   "approvedResources": [

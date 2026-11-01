@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-01T06:26:55+00:00",
+  "lastPracticedAt": "2026-11-01T18:36:32+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1703,6 +1703,17 @@
       ],
       "listedFiles": 44,
       "access": "public"
+    },
+    {
+      "id": "canbingol/turkish-conversational-tool-call",
+      "source": "https://huggingface.co/datasets/canbingol/turkish-conversational-tool-call",
+      "observedAt": "2026-11-01T18:36:32+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "jsonl"
+      ],
+      "listedFiles": 5,
+      "access": "restreint"
     }
   ]
 }
