@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-10-31T18:01:22+00:00",
+  "lastPracticedAt": "2026-11-01T06:26:55+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1680,6 +1680,28 @@
         "csv"
       ],
       "listedFiles": 116,
+      "access": "public"
+    },
+    {
+      "id": "amyrmahdy/decima-agent-decisions",
+      "source": "https://huggingface.co/datasets/amyrmahdy/decima-agent-decisions",
+      "observedAt": "2026-11-01T06:26:55+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 22,
+      "access": "public"
+    },
+    {
+      "id": "artefactory/Argimi-Legal-French-Jurisprudence",
+      "source": "https://huggingface.co/datasets/artefactory/Argimi-Legal-French-Jurisprudence",
+      "observedAt": "2026-11-01T06:26:55+00:00",
+      "declaredLicense": "cc-by-sa-4.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 44,
       "access": "public"
     }
   ]

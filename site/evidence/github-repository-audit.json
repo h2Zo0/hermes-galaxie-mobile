@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-01T00:19:47+00:00",
+  "lastPracticedAt": "2026-11-01T06:26:54+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -4203,6 +4203,41 @@
       "archived": false,
       "starsAtTest": 64,
       "pushedAt": "2026-10-19T18:51:11Z"
+    },
+    {
+      "repository": "hibuka-labs/phi-tools",
+      "url": "https://github.com/hibuka-labs/phi-tools",
+      "defaultBranch": "main",
+      "primaryLanguage": "Rust",
+      "primaryLanguageSharePercent": 84.16,
+      "languageBytes": {
+        "Rust": 135966,
+        "JavaScript": 25596
+      },
+      "totalLanguageBytes": 161562,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-31T21:30:20Z"
+    },
+    {
+      "repository": "highnet/highnet-safe-llm-tools",
+      "url": "https://github.com/highnet/highnet-safe-llm-tools",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 42.02,
+      "languageBytes": {
+        "TypeScript": 801438,
+        "JavaScript": 591615,
+        "Python": 477352,
+        "Shell": 17270,
+        "Batchfile": 11095,
+        "CSS": 6885,
+        "Dockerfile": 1403
+      },
+      "totalLanguageBytes": 1907058,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-10-30T04:54:03Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
