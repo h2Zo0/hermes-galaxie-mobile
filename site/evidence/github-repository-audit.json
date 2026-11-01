@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-01T06:26:54+00:00",
+  "lastPracticedAt": "2026-11-01T13:42:55+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -4238,6 +4238,41 @@
       "archived": false,
       "starsAtTest": 1,
       "pushedAt": "2026-10-30T04:54:03Z"
+    },
+    {
+      "repository": "HetharthSachdeva/Cook_GPT",
+      "url": "https://github.com/HetharthSachdeva/Cook_GPT",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "primaryLanguageSharePercent": 63.94,
+      "languageBytes": {
+        "JavaScript": 59062,
+        "Python": 30383,
+        "Java": 1297,
+        "CSS": 1269,
+        "HTML": 356
+      },
+      "totalLanguageBytes": 92367,
+      "archived": false,
+      "starsAtTest": 3,
+      "pushedAt": "2026-10-26T20:41:53Z"
+    },
+    {
+      "repository": "heurist-network/heurist-agent-framework",
+      "url": "https://github.com/heurist-network/heurist-agent-framework",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.8,
+      "languageBytes": {
+        "Python": 2116742,
+        "JavaScript": 1591,
+        "Dockerfile": 1371,
+        "Shell": 1207
+      },
+      "totalLanguageBytes": 2120911,
+      "archived": false,
+      "starsAtTest": 828,
+      "pushedAt": "2026-10-24T00:22:31Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
