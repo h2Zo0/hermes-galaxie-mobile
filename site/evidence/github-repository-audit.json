@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-01T18:36:30+00:00",
+  "lastPracticedAt": "2026-11-01T22:25:42+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -4302,6 +4302,34 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-26T04:45:26Z"
+    },
+    {
+      "repository": "heyrajesh-101/jpmorgan-financial-risk-analysis-python",
+      "url": "https://github.com/heyrajesh-101/jpmorgan-financial-risk-analysis-python",
+      "defaultBranch": "main",
+      "primaryLanguage": "Jupyter Notebook",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Jupyter Notebook": 904804
+      },
+      "totalLanguageBytes": 904804,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-07-29T15:58:05Z"
+    },
+    {
+      "repository": "heysumiit/Python-Programming",
+      "url": "https://github.com/heysumiit/Python-Programming",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 2944
+      },
+      "totalLanguageBytes": 2944,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-10-01T13:39:06Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
