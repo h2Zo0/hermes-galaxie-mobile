@@ -3,7 +3,7 @@
   "title": "Diagnostiquer le runtime de démonstrations IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-01T22:25:44+00:00",
+  "lastPracticedAt": "2026-11-02T01:43:16+00:00",
   "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
   "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
   "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
@@ -2525,6 +2525,24 @@
       "source": "https://huggingface.co/spaces/hugging-apps/qwen-video-edit",
       "observedAt": "2026-11-01T22:25:44+00:00",
       "sdk": "gradio",
+      "runtimeStage": "RUNNING",
+      "availableNow": true,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "gtx4010661/impira-layoutlm-document-qa",
+      "source": "https://huggingface.co/spaces/gtx4010661/impira-layoutlm-document-qa",
+      "observedAt": "2026-11-02T01:43:16+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNTIME_ERROR",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "guilindev/document-verification-lab",
+      "source": "https://huggingface.co/spaces/guilindev/document-verification-lab",
+      "observedAt": "2026-11-02T01:43:16+00:00",
+      "sdk": "static",
       "runtimeStage": "RUNNING",
       "availableNow": true,
       "note": "La disponibilité est un instantané, pas une promesse de service"
