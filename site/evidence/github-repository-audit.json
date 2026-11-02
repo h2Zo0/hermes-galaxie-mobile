@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-02T01:43:13+00:00",
+  "lastPracticedAt": "2026-11-02T08:20:37+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -4360,6 +4360,38 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-19T02:18:45Z"
+    },
+    {
+      "repository": "hoidn/agent-orchestration",
+      "url": "https://github.com/hoidn/agent-orchestration",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 98.75,
+      "languageBytes": {
+        "Python": 31211577,
+        "Common Lisp": 338080,
+        "Shell": 49092,
+        "C": 7551
+      },
+      "totalLanguageBytes": 31606300,
+      "archived": false,
+      "starsAtTest": 3,
+      "pushedAt": "2026-10-27T21:38:27Z"
+    },
+    {
+      "repository": "HolobiomicsLab/Mimosa-AI",
+      "url": "https://github.com/HolobiomicsLab/Mimosa-AI",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.91,
+      "languageBytes": {
+        "Python": 874060,
+        "Shell": 777
+      },
+      "totalLanguageBytes": 874837,
+      "archived": false,
+      "starsAtTest": 31,
+      "pushedAt": "2026-10-26T08:58:51Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
