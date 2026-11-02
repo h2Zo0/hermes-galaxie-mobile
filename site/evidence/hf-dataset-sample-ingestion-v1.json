@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-02T08:20:42+00:00",
+  "lastPracticedAt": "2026-11-02T18:33:34+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -5355,6 +5355,37 @@
       "rowCount": 3,
       "sampleSha256": "263e56b7d72941cf2dd39b319fe582e253060023ee34665b28736e07172f2d10",
       "observedAt": "2026-11-02T08:20:42+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "WiroAI/dolphin-r1-french",
+      "source": "https://huggingface.co/datasets/WiroAI/dolphin-r1-french",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "messages",
+        "system"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "1dd1012776b210305e02e5c38825e2690bdaf5df1fffd0d4fff2f9a3707928d1",
+      "observedAt": "2026-11-02T18:33:34+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "XIANGFENGLI/ACCOUNTING_DATABASES",
+      "source": "https://huggingface.co/datasets/XIANGFENGLI/ACCOUNTING_DATABASES",
+      "config": "zh",
+      "split": "train",
+      "columns": [
+        "Complex_Cot",
+        "Question",
+        "Response"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "1e610477a33e86d98131451a2664e751d41d83cee905fd55d55006caea5ac924",
+      "observedAt": "2026-11-02T18:33:34+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
