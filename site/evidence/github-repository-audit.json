@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-02T18:33:25+00:00",
+  "lastPracticedAt": "2026-11-03T01:11:24+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -4424,6 +4424,34 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-27T19:03:12Z"
+    },
+    {
+      "repository": "hsbrah98-max/psych-atypicality-eval",
+      "url": "https://github.com/hsbrah98-max/psych-atypicality-eval",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 9702
+      },
+      "totalLanguageBytes": 9702,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-19T04:29:17Z"
+    },
+    {
+      "repository": "hubwisetech/hubwise-py-core",
+      "url": "https://github.com/hubwisetech/hubwise-py-core",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 149313
+      },
+      "totalLanguageBytes": 149313,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-07-20T20:21:46Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

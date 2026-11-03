@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-02T18:33:34+00:00",
+  "lastPracticedAt": "2026-11-03T01:11:31+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -5386,6 +5386,43 @@
       "rowCount": 3,
       "sampleSha256": "1e610477a33e86d98131451a2664e751d41d83cee905fd55d55006caea5ac924",
       "observedAt": "2026-11-02T18:33:34+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "xlangai/AgentNetBench",
+      "source": "https://huggingface.co/datasets/xlangai/AgentNetBench",
+      "config": "default",
+      "split": "test",
+      "columns": [
+        "image"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "cc0b550b9a7746676e25a3b498f0ed0a815821a7ffa0009d4dee1e1d2bd0d647",
+      "observedAt": "2026-11-03T01:11:31+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "Yannkomenan/mmlu-professional_accounting-neg-prepend",
+      "source": "https://huggingface.co/datasets/Yannkomenan/mmlu-professional_accounting-neg-prepend",
+      "config": "default",
+      "split": "dev",
+      "columns": [
+        "answer",
+        "choices",
+        "fewshot_context",
+        "fewshot_context_neg",
+        "fewshot_context_ori",
+        "neg_prompt",
+        "neg_question",
+        "negate_openai_prompt",
+        "ori_prompt",
+        "question"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "904fcc9d5bb2111cb82be830ba2ba7c16154ccbaf73792a8930501a394ee1317",
+      "observedAt": "2026-11-03T01:11:31+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
