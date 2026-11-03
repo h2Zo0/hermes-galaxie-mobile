@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-03T15:58:13+00:00",
+  "lastPracticedAt": "2026-11-03T21:36:28+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -4513,6 +4513,38 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-16T15:48:14Z"
+    },
+    {
+      "repository": "Hypedexer/hypedexer-mcp",
+      "url": "https://github.com/Hypedexer/hypedexer-mcp",
+      "defaultBranch": "master",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 97.86,
+      "languageBytes": {
+        "TypeScript": 481027,
+        "JavaScript": 9257,
+        "Shell": 1267
+      },
+      "totalLanguageBytes": 491551,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-02T13:03:24Z"
+    },
+    {
+      "repository": "hzhangse-ai-agent/Fusion-Mem0",
+      "url": "https://github.com/hzhangse-ai-agent/Fusion-Mem0",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 87.94,
+      "languageBytes": {
+        "Python": 103012,
+        "Shell": 13066,
+        "Dockerfile": 1062
+      },
+      "totalLanguageBytes": 117140,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-03-07T15:47:50Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

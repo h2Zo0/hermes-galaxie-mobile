@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-03T07:55:04+00:00",
+  "lastPracticedAt": "2026-11-03T21:36:33+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -5444,6 +5444,42 @@
       "rowCount": 3,
       "sampleSha256": "98e7284057c4fa741d62e85fee521163f9f1f26170ef67c5ecae17058ffa95c5",
       "observedAt": "2026-11-03T07:55:04+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "yatin-superintelligence/Edge-Agent-Reasoning-WebSearch-260K",
+      "source": "https://huggingface.co/datasets/yatin-superintelligence/Edge-Agent-Reasoning-WebSearch-260K",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "agent_reasoning",
+        "batch_index_id",
+        "industry",
+        "os",
+        "role",
+        "user_prompt"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "4447fde750d5629b3d77384850f224a06e91c7aa24b72e1e5ac008bb853f6c72",
+      "observedAt": "2026-11-03T21:36:33+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "yatin-superintelligence/White-Hat-Security-Agent-Prompts-600K",
+      "source": "https://huggingface.co/datasets/yatin-superintelligence/White-Hat-Security-Agent-Prompts-600K",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "batch_index",
+        "impact_level",
+        "threat",
+        "user_prompt"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "26a87157b7bdc5143fb1c0cedf3250aa46e717de1c2ec75ac22522a889be561a",
+      "observedAt": "2026-11-03T21:36:33+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
