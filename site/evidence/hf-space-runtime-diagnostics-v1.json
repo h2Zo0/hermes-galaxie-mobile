@@ -3,7 +3,7 @@
   "title": "Diagnostiquer le runtime de démonstrations IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-03T07:55:00+00:00",
+  "lastPracticedAt": "2026-11-03T15:58:15+00:00",
   "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
   "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
   "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
@@ -2616,6 +2616,24 @@
       "observedAt": "2026-11-03T07:55:00+00:00",
       "sdk": "docker",
       "runtimeStage": "RUNTIME_ERROR",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "jeevster/carnatic-raga-classifier",
+      "source": "https://huggingface.co/spaces/jeevster/carnatic-raga-classifier",
+      "observedAt": "2026-11-03T15:58:15+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNNING",
+      "availableNow": true,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "Jinay1771/Video_Game_Sales_Prediction",
+      "source": "https://huggingface.co/spaces/Jinay1771/Video_Game_Sales_Prediction",
+      "observedAt": "2026-11-03T15:58:15+00:00",
+      "sdk": "docker",
+      "runtimeStage": "SLEEPING",
       "availableNow": false,
       "note": "La disponibilité est un instantané, pas une promesse de service"
     }

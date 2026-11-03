@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-03T07:55:00+00:00",
+  "lastPracticedAt": "2026-11-03T15:58:15+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -2141,6 +2141,24 @@
       "declaredLicense": "apache-2.0",
       "access": "public",
       "modelFiles": 12
+    },
+    {
+      "id": "ibm-research/re2g-reranker-triviaqa",
+      "source": "https://huggingface.co/ibm-research/re2g-reranker-triviaqa",
+      "observedAt": "2026-11-03T15:58:15+00:00",
+      "task": "text-classification",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 8
+    },
+    {
+      "id": "IMSyPP/hate_speech_en",
+      "source": "https://huggingface.co/IMSyPP/hate_speech_en",
+      "observedAt": "2026-11-03T15:58:15+00:00",
+      "task": "text-classification",
+      "declaredLicense": "mit",
+      "access": "public",
+      "modelFiles": 7
     }
   ]
 }
