@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-03T01:11:24+00:00",
+  "lastPracticedAt": "2026-11-03T07:54:58+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -4452,6 +4452,39 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-07-20T20:21:46Z"
+    },
+    {
+      "repository": "hritick1/apple-notes-codemode",
+      "url": "https://github.com/hritick1/apple-notes-codemode",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 96.3,
+      "languageBytes": {
+        "Python": 55746,
+        "Shell": 2140
+      },
+      "totalLanguageBytes": 57886,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-01T02:00:32Z"
+    },
+    {
+      "repository": "HuChundong/aeon-memory",
+      "url": "https://github.com/HuChundong/aeon-memory",
+      "defaultBranch": "main",
+      "primaryLanguage": "Rust",
+      "primaryLanguageSharePercent": 81.65,
+      "languageBytes": {
+        "Rust": 1075860,
+        "TypeScript": 150365,
+        "JavaScript": 39742,
+        "Python": 34559,
+        "Shell": 17191
+      },
+      "totalLanguageBytes": 1317717,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-01T01:59:34Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

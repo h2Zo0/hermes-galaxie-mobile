@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-01T18:36:32+00:00",
+  "lastPracticedAt": "2026-11-03T07:55:00+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1714,6 +1714,17 @@
       ],
       "listedFiles": 5,
       "access": "restreint"
+    },
+    {
+      "id": "emgena/agent_infinite_planning_loop_terminator_teaser",
+      "source": "https://huggingface.co/datasets/emgena/agent_infinite_planning_loop_terminator_teaser",
+      "observedAt": "2026-11-03T07:55:00+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 8,
+      "access": "public"
     }
   ]
 }
