@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-04T16:23:14+00:00",
+  "lastPracticedAt": "2026-11-04T21:51:32+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -5617,6 +5617,46 @@
       "rowCount": 3,
       "sampleSha256": "fc4b66d35663e79945fc2bd9b418003c98a14c0279c081efefb96d31ff0199e0",
       "observedAt": "2026-11-04T16:23:14+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "agentica-org/DeepScaleR-Preview-Dataset",
+      "source": "https://huggingface.co/datasets/agentica-org/DeepScaleR-Preview-Dataset",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "answer",
+        "problem",
+        "solution"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "ea0d297cc94bc7be8289e315e24689c8c74ca4be59377f3a9defa106f85cad5a",
+      "observedAt": "2026-11-04T21:51:32+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "agentlans/prompt-quality",
+      "source": "https://huggingface.co/datasets/agentlans/prompt-quality",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "allenai-olmo-3-7b-instruct",
+        "google-gemma-3-12b-it",
+        "ibm-granite-granite-4-0-h-tiny",
+        "meta-llama-llama-3-1-8b-instruct",
+        "microsoft-phi-4",
+        "nvidia-nvidia-nemotron-nano-9b-v2",
+        "prompt",
+        "quality",
+        "qwen-qwen3-8b",
+        "tiiuae-falcon-h1-7b-instruct",
+        "transformed_quality"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "2cec689b303b55e37fb8de67f0f93cc8357b6b80862f18735a617b02ddaf7d6a",
+      "observedAt": "2026-11-04T21:51:32+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
