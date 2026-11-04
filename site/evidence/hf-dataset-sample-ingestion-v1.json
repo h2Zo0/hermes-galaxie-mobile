@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-04T01:39:16+00:00",
+  "lastPracticedAt": "2026-11-04T08:00:22+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -5554,6 +5554,36 @@
       "rowCount": 3,
       "sampleSha256": "dede601e7c1ea792ca15fa8a4cab38908be0a4fab9c89f1afaec38f7f6b20881",
       "observedAt": "2026-11-04T01:39:16+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "7h3-R3v3n4n7/pentest-agent-dataset-alpaca",
+      "source": "https://huggingface.co/datasets/7h3-R3v3n4n7/pentest-agent-dataset-alpaca",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "input",
+        "instruction",
+        "output"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "ac2edf0461cea3c11a9f7ce9cc13139e2998d82717cc1741c28d8f34d87a906f",
+      "observedAt": "2026-11-04T08:00:22+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "7h3-R3v3n4n7/pentest-agent-dataset-chatml",
+      "source": "https://huggingface.co/datasets/7h3-R3v3n4n7/pentest-agent-dataset-chatml",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "messages"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "bb4a59ae4f8e9eec1333900269083d439e67a5c6063d059381bddad520573d9e",
+      "observedAt": "2026-11-04T08:00:22+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

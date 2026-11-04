@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-04T01:39:08+00:00",
+  "lastPracticedAt": "2026-11-04T08:00:17+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -4581,6 +4581,37 @@
       "archived": false,
       "starsAtTest": 163,
       "pushedAt": "2026-11-03T21:37:58Z"
+    },
+    {
+      "repository": "icodedigita/EmailScreenshotAPI",
+      "url": "https://github.com/icodedigita/EmailScreenshotAPI",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "primaryLanguageSharePercent": 87.8,
+      "languageBytes": {
+        "JavaScript": 1338,
+        "Dockerfile": 186
+      },
+      "totalLanguageBytes": 1524,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-09-29T21:00:31Z"
+    },
+    {
+      "repository": "ideksec/bellwether",
+      "url": "https://github.com/ideksec/bellwether",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.72,
+      "languageBytes": {
+        "Python": 3683902,
+        "Dockerfile": 7408,
+        "Shell": 2752
+      },
+      "totalLanguageBytes": 3694062,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-29T10:28:57Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
