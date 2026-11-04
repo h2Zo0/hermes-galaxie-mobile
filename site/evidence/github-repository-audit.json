@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-04T08:00:17+00:00",
+  "lastPracticedAt": "2026-11-04T16:23:05+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -4612,6 +4612,44 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-29T10:28:57Z"
+    },
+    {
+      "repository": "icefairy/mizar",
+      "url": "https://github.com/icefairy/mizar",
+      "defaultBranch": "main",
+      "primaryLanguage": "Go",
+      "primaryLanguageSharePercent": 88.67,
+      "languageBytes": {
+        "Go": 1346882,
+        "TypeScript": 52377,
+        "Python": 40940,
+        "JavaScript": 33559,
+        "HTML": 25759,
+        "CSS": 16720,
+        "Makefile": 2816
+      },
+      "totalLanguageBytes": 1519053,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-30T03:50:18Z"
+    },
+    {
+      "repository": "icn1Vad/Aituge-framework",
+      "url": "https://github.com/icn1Vad/Aituge-framework",
+      "defaultBranch": "icn",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 89.43,
+      "languageBytes": {
+        "Python": 1718552,
+        "HTML": 189787,
+        "Shell": 6717,
+        "Dockerfile": 4045,
+        "PLpgSQL": 2655
+      },
+      "totalLanguageBytes": 1921756,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-28T08:06:58Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

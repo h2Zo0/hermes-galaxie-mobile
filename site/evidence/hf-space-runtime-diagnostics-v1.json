@@ -3,7 +3,7 @@
   "title": "Diagnostiquer le runtime de démonstrations IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-04T08:00:19+00:00",
+  "lastPracticedAt": "2026-11-04T16:23:07+00:00",
   "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
   "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
   "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
@@ -2686,6 +2686,24 @@
       "id": "dino14/modelscope-text-to-video-synthesis-test-3",
       "source": "https://huggingface.co/spaces/dino14/modelscope-text-to-video-synthesis-test-3",
       "observedAt": "2026-11-04T08:00:19+00:00",
+      "sdk": "docker",
+      "runtimeStage": "RUNNING",
+      "availableNow": true,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "domain-expansion2/medical-search",
+      "source": "https://huggingface.co/spaces/domain-expansion2/medical-search",
+      "observedAt": "2026-11-04T16:23:07+00:00",
+      "sdk": "streamlit",
+      "runtimeStage": "RUNTIME_ERROR",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "dragonxd1/hermes-agent-telethon",
+      "source": "https://huggingface.co/spaces/dragonxd1/hermes-agent-telethon",
+      "observedAt": "2026-11-04T16:23:07+00:00",
       "sdk": "docker",
       "runtimeStage": "RUNNING",
       "availableNow": true,
