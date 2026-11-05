@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-05T16:50:30+00:00",
+  "lastPracticedAt": "2026-11-05T22:25:25+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1739,6 +1739,29 @@
         "txt"
       ],
       "listedFiles": 12261,
+      "access": "public"
+    },
+    {
+      "id": "BibbyResearch/Bibby-AI-Latex-Tool-Overleaf-Alternative",
+      "source": "https://huggingface.co/datasets/BibbyResearch/Bibby-AI-Latex-Tool-Overleaf-Alternative",
+      "observedAt": "2026-11-05T22:25:25+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 3,
+      "access": "restreint"
+    },
+    {
+      "id": "bilalabic/turkish-tool-calling",
+      "source": "https://huggingface.co/datasets/bilalabic/turkish-tool-calling",
+      "observedAt": "2026-11-05T22:25:25+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "json",
+        "jsonl"
+      ],
+      "listedFiles": 12,
       "access": "public"
     }
   ]

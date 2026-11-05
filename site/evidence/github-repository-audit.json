@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-05T16:50:27+00:00",
+  "lastPracticedAt": "2026-11-05T22:25:23+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -4771,6 +4771,44 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-11-04T04:06:33Z"
+    },
+    {
+      "repository": "hyeonsangjeon/gdpval-realworks",
+      "url": "https://github.com/hyeonsangjeon/gdpval-realworks",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 91.01,
+      "languageBytes": {
+        "Python": 23638726,
+        "JavaScript": 987640,
+        "TypeScript": 765379,
+        "HTML": 503530,
+        "Shell": 44804,
+        "Dockerfile": 15548,
+        "Bicep": 13591,
+        "CSS": 4210
+      },
+      "totalLanguageBytes": 25973428,
+      "archived": false,
+      "starsAtTest": 29,
+      "pushedAt": "2026-11-05T22:16:42Z"
+    },
+    {
+      "repository": "hyonbokan/audit-grpo-runtime",
+      "url": "https://github.com/hyonbokan/audit-grpo-runtime",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 94.39,
+      "languageBytes": {
+        "Python": 1051811,
+        "Shell": 58535,
+        "Dockerfile": 3531,
+        "C": 493
+      },
+      "totalLanguageBytes": 1114370,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-02T06:24:06Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
