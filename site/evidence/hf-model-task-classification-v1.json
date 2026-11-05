@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-05T01:52:15+00:00",
+  "lastPracticedAt": "2026-11-05T08:37:03+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -2258,6 +2258,24 @@
       "declaredLicense": "cc-by-4.0",
       "access": "public",
       "modelFiles": 6
+    },
+    {
+      "id": "cstr/nomic-embed-vision-v1.5-GGUF",
+      "source": "https://huggingface.co/cstr/nomic-embed-vision-v1.5-GGUF",
+      "observedAt": "2026-11-05T08:37:03+00:00",
+      "task": "image-feature-extraction",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 4
+    },
+    {
+      "id": "deepmind/vision-perceiver-conv",
+      "source": "https://huggingface.co/deepmind/vision-perceiver-conv",
+      "observedAt": "2026-11-05T08:37:03+00:00",
+      "task": "image-classification",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 5
     }
   ]
 }
