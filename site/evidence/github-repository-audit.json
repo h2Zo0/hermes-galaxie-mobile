@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-05T08:37:02+00:00",
+  "lastPracticedAt": "2026-11-05T16:50:27+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -4740,6 +4740,37 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-05T10:41:44Z"
+    },
+    {
+      "repository": "hy4real/groundwork",
+      "url": "https://github.com/hy4real/groundwork",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.92,
+      "languageBytes": {
+        "Python": 568436,
+        "Dockerfile": 476
+      },
+      "totalLanguageBytes": 568912,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-18T07:37:54Z"
+    },
+    {
+      "repository": "hydrangeas20/sandbox-agent",
+      "url": "https://github.com/hydrangeas20/sandbox-agent",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.24,
+      "languageBytes": {
+        "Python": 377652,
+        "Makefile": 1463,
+        "Dockerfile": 1436
+      },
+      "totalLanguageBytes": 380551,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-04T04:06:33Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
