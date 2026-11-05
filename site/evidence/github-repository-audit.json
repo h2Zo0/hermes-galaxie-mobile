@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-04T21:51:26+00:00",
+  "lastPracticedAt": "2026-11-05T01:52:14+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -4682,6 +4682,34 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-26T19:34:08Z"
+    },
+    {
+      "repository": "husain34/TRACE",
+      "url": "https://github.com/husain34/TRACE",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 116521
+      },
+      "totalLanguageBytes": 116521,
+      "archived": false,
+      "starsAtTest": 12,
+      "pushedAt": "2026-07-13T14:30:44Z"
+    },
+    {
+      "repository": "huzaifasabeeh/AI-Document-Knowledge-Assistant-Q-A-App",
+      "url": "https://github.com/huzaifasabeeh/AI-Document-Knowledge-Assistant-Q-A-App",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 181231
+      },
+      "totalLanguageBytes": 181231,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-04T23:49:05Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
