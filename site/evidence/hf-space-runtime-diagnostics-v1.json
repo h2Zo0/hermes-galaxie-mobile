@@ -3,7 +3,7 @@
   "title": "Diagnostiquer le runtime de démonstrations IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-06T17:15:34+00:00",
+  "lastPracticedAt": "2026-11-06T22:10:35+00:00",
   "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
   "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
   "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
@@ -2848,6 +2848,24 @@
       "id": "Automation109/test",
       "source": "https://huggingface.co/spaces/Automation109/test",
       "observedAt": "2026-11-06T17:15:34+00:00",
+      "sdk": "streamlit",
+      "runtimeStage": "SLEEPING",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "awacke1/AI-Wikipedia-Search",
+      "source": "https://huggingface.co/spaces/awacke1/AI-Wikipedia-Search",
+      "observedAt": "2026-11-06T22:10:35+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNTIME_ERROR",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "awacke1/Automation-Requests",
+      "source": "https://huggingface.co/spaces/awacke1/Automation-Requests",
+      "observedAt": "2026-11-06T22:10:35+00:00",
       "sdk": "streamlit",
       "runtimeStage": "SLEEPING",
       "availableNow": false,

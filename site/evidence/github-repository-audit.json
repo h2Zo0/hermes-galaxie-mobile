@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-06T17:15:32+00:00",
+  "lastPracticedAt": "2026-11-06T22:10:33+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -4894,6 +4894,34 @@
       "archived": false,
       "starsAtTest": 1,
       "pushedAt": "2026-11-05T13:09:45Z"
+    },
+    {
+      "repository": "hul0/hermyx",
+      "url": "https://github.com/hul0/hermyx",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 119262
+      },
+      "totalLanguageBytes": 119262,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-08-14T15:29:30Z"
+    },
+    {
+      "repository": "humle93/mcp-index",
+      "url": "https://github.com/humle93/mcp-index",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "JavaScript": 44709
+      },
+      "totalLanguageBytes": 44709,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-06T21:28:56Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
