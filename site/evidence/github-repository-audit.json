@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-06T02:44:25+00:00",
+  "lastPracticedAt": "2026-11-06T09:56:43+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -4838,6 +4838,34 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-26T11:25:58Z"
+    },
+    {
+      "repository": "HPK017/docmind-rag",
+      "url": "https://github.com/HPK017/docmind-rag",
+      "defaultBranch": "main",
+      "primaryLanguage": "Java",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Java": 8183
+      },
+      "totalLanguageBytes": 8183,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-31T05:14:50Z"
+    },
+    {
+      "repository": "hqhq1025/awesome-computer-use-ecosystem",
+      "url": "https://github.com/hqhq1025/awesome-computer-use-ecosystem",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "JavaScript": 9688
+      },
+      "totalLanguageBytes": 9688,
+      "archived": false,
+      "starsAtTest": 2,
+      "pushedAt": "2026-09-07T07:45:17Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

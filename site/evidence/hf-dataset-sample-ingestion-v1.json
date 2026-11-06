@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-06T02:44:31+00:00",
+  "lastPracticedAt": "2026-11-06T09:56:49+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -5805,6 +5805,51 @@
       "rowCount": 3,
       "sampleSha256": "14c1029f23bc1ffc707ce14a0d3ad535262f84809aefce452e69e643bef81cfb",
       "observedAt": "2026-11-06T02:44:31+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "secmlr/agentic-midtrain-data",
+      "source": "https://huggingface.co/datasets/secmlr/agentic-midtrain-data",
+      "config": "no_cyber",
+      "split": "train",
+      "columns": [
+        "agent_name",
+        "benchmark",
+        "category",
+        "messages",
+        "metadata_json",
+        "model_name",
+        "outcome",
+        "parent_trajectory_id",
+        "root_trajectory_id",
+        "schema_version",
+        "source_dataset",
+        "source_path",
+        "source_record_id",
+        "source_revision",
+        "task_id",
+        "tools_json",
+        "trajectory_id"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "a77451f67bad18e359c99470204deeafa9befdffebd1350937545edc301e5544",
+      "observedAt": "2026-11-06T09:56:49+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "sterlixlol/kazi-agentic-traces-19k",
+      "source": "https://huggingface.co/datasets/sterlixlol/kazi-agentic-traces-19k",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "messages",
+        "tools"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "89a1c7d7ef50ecfe044e86dc3e6dd8e5c022c1cf5f5e443935d0a90771985782",
+      "observedAt": "2026-11-06T09:56:49+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
