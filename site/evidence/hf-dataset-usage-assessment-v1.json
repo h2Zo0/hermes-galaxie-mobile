@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-06T02:44:26+00:00",
+  "lastPracticedAt": "2026-11-06T17:15:34+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1773,6 +1773,17 @@
         "jsonl"
       ],
       "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "FineEnvs/data-agent",
+      "source": "https://huggingface.co/datasets/FineEnvs/data-agent",
+      "observedAt": "2026-11-06T17:15:34+00:00",
+      "declaredLicense": "mit",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 6,
       "access": "public"
     }
   ]

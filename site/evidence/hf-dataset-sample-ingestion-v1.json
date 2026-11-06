@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-06T09:56:49+00:00",
+  "lastPracticedAt": "2026-11-06T17:15:39+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -5850,6 +5850,30 @@
       "rowCount": 3,
       "sampleSha256": "89a1c7d7ef50ecfe044e86dc3e6dd8e5c022c1cf5f5e443935d0a90771985782",
       "observedAt": "2026-11-06T09:56:49+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "TeichAI/DeepSeek-v4-Pro-Agent",
+      "source": "https://huggingface.co/datasets/TeichAI/DeepSeek-v4-Pro-Agent",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "file_path",
+        "harness",
+        "messages",
+        "metadata",
+        "num_tool_calls",
+        "num_user_messages",
+        "prompt",
+        "sent_at",
+        "session_id",
+        "tools",
+        "trace"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "35232b3ce6f03a2ee4927e9d638c2bfe60a215c3f3357c33f0ddaa32653d6b0e",
+      "observedAt": "2026-11-06T17:15:39+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

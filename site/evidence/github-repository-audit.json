@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-06T09:56:43+00:00",
+  "lastPracticedAt": "2026-11-06T17:15:32+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -4866,6 +4866,34 @@
       "archived": false,
       "starsAtTest": 2,
       "pushedAt": "2026-09-07T07:45:17Z"
+    },
+    {
+      "repository": "hopquangdo/PaySpring",
+      "url": "https://github.com/hopquangdo/PaySpring",
+      "defaultBranch": "main",
+      "primaryLanguage": "Java",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Java": 33737
+      },
+      "totalLanguageBytes": 33737,
+      "archived": false,
+      "starsAtTest": 2,
+      "pushedAt": "2025-04-30T16:34:35Z"
+    },
+    {
+      "repository": "HosseinHeydari2004/TeamDocs-AI",
+      "url": "https://github.com/HosseinHeydari2004/TeamDocs-AI",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 82272
+      },
+      "totalLanguageBytes": 82272,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-11-05T13:09:45Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
