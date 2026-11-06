@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-05T22:25:23+00:00",
+  "lastPracticedAt": "2026-11-06T02:44:25+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -4809,6 +4809,35 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-11-02T06:24:06Z"
+    },
+    {
+      "repository": "hunnygupta800/Enterprise-Multimodal-RAG",
+      "url": "https://github.com/hunnygupta800/Enterprise-Multimodal-RAG",
+      "defaultBranch": "main",
+      "primaryLanguage": "Jupyter Notebook",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Jupyter Notebook": 56358968
+      },
+      "totalLanguageBytes": 56358968,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-28T14:10:33Z"
+    },
+    {
+      "repository": "huRashidy/Repeats_Benchmark",
+      "url": "https://github.com/huRashidy/Repeats_Benchmark",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 93.76,
+      "languageBytes": {
+        "Python": 21822,
+        "Shell": 1452
+      },
+      "totalLanguageBytes": 23274,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-26T11:25:58Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
