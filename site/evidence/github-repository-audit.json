@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-06T22:10:33+00:00",
+  "lastPracticedAt": "2026-11-07T01:54:34+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -4922,6 +4922,38 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-11-06T21:28:56Z"
+    },
+    {
+      "repository": "huzaifavkhan/AI_Based_Cost_Management_System",
+      "url": "https://github.com/huzaifavkhan/AI_Based_Cost_Management_System",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 91.56,
+      "languageBytes": {
+        "Python": 509622,
+        "HTML": 46962
+      },
+      "totalLanguageBytes": 556584,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-06-05T12:57:43Z"
+    },
+    {
+      "repository": "huzjie/taskforge",
+      "url": "https://github.com/huzjie/taskforge",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.17,
+      "languageBytes": {
+        "Python": 83771,
+        "Dockerfile": 332,
+        "Makefile": 241,
+        "Go Template": 124
+      },
+      "totalLanguageBytes": 84468,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-20T05:30:26Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

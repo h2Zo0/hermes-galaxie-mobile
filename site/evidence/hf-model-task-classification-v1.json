@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-06T22:10:35+00:00",
+  "lastPracticedAt": "2026-11-07T01:54:35+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -2384,6 +2384,24 @@
       "declaredLicense": "apache-2.0",
       "access": "public",
       "modelFiles": 12
+    },
+    {
+      "id": "AtomicChat/embeddinggemma-2-GGUF",
+      "source": "https://huggingface.co/AtomicChat/embeddinggemma-2-GGUF",
+      "observedAt": "2026-11-07T01:54:35+00:00",
+      "task": "feature-extraction",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 12
+    },
+    {
+      "id": "BAAI/bge-reranker-v2-minicpm-layerwise",
+      "source": "https://huggingface.co/BAAI/bge-reranker-v2-minicpm-layerwise",
+      "observedAt": "2026-11-07T01:54:35+00:00",
+      "task": "text-classification",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 19
     }
   ]
 }
