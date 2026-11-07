@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-07T19:23:41+00:00",
+  "lastPracticedAt": "2026-11-07T22:54:48+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -5056,6 +5056,43 @@
       "archived": false,
       "starsAtTest": 6,
       "pushedAt": "2026-05-07T03:51:13Z"
+    },
+    {
+      "repository": "iamqasimali/MCP-Servers-for-Full-Stack-Development",
+      "url": "https://github.com/iamqasimali/MCP-Servers-for-Full-Stack-Development",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "primaryLanguageSharePercent": 94.17,
+      "languageBytes": {
+        "JavaScript": 50158,
+        "Shell": 3104
+      },
+      "totalLanguageBytes": 53262,
+      "archived": false,
+      "starsAtTest": 6,
+      "pushedAt": "2026-10-27T13:56:36Z"
+    },
+    {
+      "repository": "Ian-Tharp/CORE",
+      "url": "https://github.com/Ian-Tharp/CORE",
+      "defaultBranch": "develop",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 69.56,
+      "languageBytes": {
+        "Python": 4062192,
+        "TypeScript": 890814,
+        "SCSS": 540495,
+        "HTML": 309009,
+        "PLpgSQL": 22868,
+        "Dockerfile": 5017,
+        "Shell": 4086,
+        "JavaScript": 4040,
+        "PowerShell": 937
+      },
+      "totalLanguageBytes": 5839458,
+      "archived": false,
+      "starsAtTest": 16,
+      "pushedAt": "2026-11-04T20:29:48Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

@@ -1,17 +1,17 @@
 {
   "name": "NOVENS CORE — GALAXIE VIVANTE",
-  "asOf": "2026-11-07T19:23:33+00:00",
-  "polledAt": "2026-11-07T19:23:33+00:00",
-  "resourceCount": 6908,
+  "asOf": "2026-11-07T22:54:39+00:00",
+  "polledAt": "2026-11-07T22:54:39+00:00",
+  "resourceCount": 6939,
   "categoryCounts": {
-    "github": 5057,
-    "models": 724,
+    "github": 5078,
+    "models": 732,
     "datasets": 557,
-    "spaces": 570
+    "spaces": 572
   },
   "verifiedSkills": 299,
   "netProfitEuro": 0.0,
-  "growth24h": 162,
+  "growth24h": 163,
   "history": [
     {
       "date": "2026-10-26T22:30:41+01:00",
@@ -1036,6 +1036,12 @@
     {
       "date": "2026-11-07T19:23:33+00:00",
       "resources": 6908,
+      "verified": 299,
+      "profit": 0.0
+    },
+    {
+      "date": "2026-11-07T22:54:39+00:00",
+      "resources": 6939,
       "verified": 299,
       "profit": 0.0
     }
@@ -6733,6 +6739,13 @@
       "firstSeen": "2026-10-27T16:57:26+00:00"
     },
     {
+      "id": "github:AGT-Displays/lvgl_ui_project",
+      "category": "github",
+      "name": "AGT-Displays/lvgl_ui_project",
+      "url": "https://github.com/AGT-Displays/lvgl_ui_project",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
+    },
+    {
       "id": "github:AGWAM001/stream-bounty-flow",
       "category": "github",
       "name": "AGWAM001/stream-bounty-flow",
@@ -7438,6 +7451,13 @@
       "name": "alidanishsolangi88-maker/EDITS-WITH-ANMOL",
       "url": "https://github.com/alidanishsolangi88-maker/EDITS-WITH-ANMOL",
       "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "github:aliduabubakari/servicecraft",
+      "category": "github",
+      "name": "aliduabubakari/servicecraft",
+      "url": "https://github.com/aliduabubakari/servicecraft",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
     },
     {
       "id": "github:aliihtsham-debug/agent-org",
@@ -9580,6 +9600,13 @@
       "name": "asishmohantychandan/multi-source-rag-assistant",
       "url": "https://github.com/asishmohantychandan/multi-source-rag-assistant",
       "firstSeen": "2026-11-03T01:11:18+00:00"
+    },
+    {
+      "id": "github:askbuildai/ASKBUILDAI",
+      "category": "github",
+      "name": "askbuildai/ASKBUILDAI",
+      "url": "https://github.com/askbuildai/ASKBUILDAI",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
     },
     {
       "id": "github:askdba/mysql-mcp-server",
@@ -11857,6 +11884,13 @@
       "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
+      "id": "github:cck0517/I-PTC",
+      "category": "github",
+      "name": "cck0517/I-PTC",
+      "url": "https://github.com/cck0517/I-PTC",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
+    },
+    {
       "id": "github:ccordine/omnidex",
       "category": "github",
       "name": "ccordine/omnidex",
@@ -13915,6 +13949,13 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "github:denis-prilepskiy/governed-agentic-itsm-blueprint",
+      "category": "github",
+      "name": "denis-prilepskiy/governed-agentic-itsm-blueprint",
+      "url": "https://github.com/denis-prilepskiy/governed-agentic-itsm-blueprint",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
+    },
+    {
       "id": "github:Denita06/AI-Agents-Design-Project",
       "category": "github",
       "name": "Denita06/AI-Agents-Design-Project",
@@ -13948,6 +13989,13 @@
       "name": "designcomputer/mysql_mcp_server",
       "url": "https://github.com/designcomputer/mysql_mcp_server",
       "firstSeen": "2026-10-28T21:19:35+00:00"
+    },
+    {
+      "id": "github:Desire-in-tech/Desire-in-Tech",
+      "category": "github",
+      "name": "Desire-in-tech/Desire-in-Tech",
+      "url": "https://github.com/Desire-in-tech/Desire-in-Tech",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
     },
     {
       "id": "github:deslicer/mcp-for-splunk",
@@ -19326,6 +19374,13 @@
       "firstSeen": "2026-10-27T16:37:04+00:00"
     },
     {
+      "id": "github:Irsathautomation/AI-Test-Studio",
+      "category": "github",
+      "name": "Irsathautomation/AI-Test-Studio",
+      "url": "https://github.com/Irsathautomation/AI-Test-Studio",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
+    },
+    {
       "id": "github:isaactoh/virtual-docent-rag",
       "category": "github",
       "name": "isaactoh/virtual-docent-rag",
@@ -19590,6 +19645,13 @@
       "name": "jacob-bd/gemini-notebook-mcp-cli",
       "url": "https://github.com/jacob-bd/gemini-notebook-mcp-cli",
       "firstSeen": "2026-10-28T00:19:59+00:00"
+    },
+    {
+      "id": "github:jacobastorga/agentic-tool-call-evaluator",
+      "category": "github",
+      "name": "jacobastorga/agentic-tool-call-evaluator",
+      "url": "https://github.com/jacobastorga/agentic-tool-call-evaluator",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
     },
     {
       "id": "github:jafarSalim/ai-agent-from-scratch-python",
@@ -23092,6 +23154,13 @@
       "firstSeen": "2026-11-07T15:03:31+00:00"
     },
     {
+      "id": "github:LLM4Robot/LLM4Robot-Bench",
+      "category": "github",
+      "name": "LLM4Robot/LLM4Robot-Bench",
+      "url": "https://github.com/LLM4Robot/LLM4Robot-Bench",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
+    },
+    {
       "id": "github:logic-star-ai/swt-bench",
       "category": "github",
       "name": "logic-star-ai/swt-bench",
@@ -23748,6 +23817,13 @@
       "name": "mandangisruthimehatha-design/Marketing-schedule-",
       "url": "https://github.com/mandangisruthimehatha-design/Marketing-schedule-",
       "firstSeen": "2026-10-27T23:39:16+00:00"
+    },
+    {
+      "id": "github:mandarc64/spatial-reasoning-benchmark",
+      "category": "github",
+      "name": "mandarc64/spatial-reasoning-benchmark",
+      "url": "https://github.com/mandarc64/spatial-reasoning-benchmark",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
     },
     {
       "id": "github:manishkumar0105/Restaurant-social-automation",
@@ -27719,6 +27795,13 @@
       "firstSeen": "2026-10-27T20:24:05+00:00"
     },
     {
+      "id": "github:odanchem/NMRArena",
+      "category": "github",
+      "name": "odanchem/NMRArena",
+      "url": "https://github.com/odanchem/NMRArena",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
+    },
+    {
       "id": "github:OfficeXApp/flockposter-cli",
       "category": "github",
       "name": "OfficeXApp/flockposter-cli",
@@ -28438,6 +28521,13 @@
       "name": "pandeynikhilone/linkedin-ai-automation",
       "url": "https://github.com/pandeynikhilone/linkedin-ai-automation",
       "firstSeen": "2026-10-27T05:00:26+00:00"
+    },
+    {
+      "id": "github:pandoscope/pandoscope",
+      "category": "github",
+      "name": "pandoscope/pandoscope",
+      "url": "https://github.com/pandoscope/pandoscope",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
     },
     {
       "id": "github:PanimalarVadivel/smartdesk-ai-single-agent",
@@ -31261,6 +31351,13 @@
       "firstSeen": "2026-10-27T21:04:38+00:00"
     },
     {
+      "id": "github:Rohit-Seera/Emotion-Aware-VoiceAssistant",
+      "category": "github",
+      "name": "Rohit-Seera/Emotion-Aware-VoiceAssistant",
+      "url": "https://github.com/Rohit-Seera/Emotion-Aware-VoiceAssistant",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
+    },
+    {
       "id": "github:Rohit2618/AgentMemory-A-Long-Term-Memory-Layer-for-Conversational-AI-Agents",
       "category": "github",
       "name": "Rohit2618/AgentMemory-A-Long-Term-Memory-Layer-for-Conversational-AI-Agents",
@@ -32521,6 +32618,13 @@
       "firstSeen": "2026-10-28T00:19:59+00:00"
     },
     {
+      "id": "github:saqi-saqi/SQA_Agent",
+      "category": "github",
+      "name": "saqi-saqi/SQA_Agent",
+      "url": "https://github.com/saqi-saqi/SQA_Agent",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
+    },
+    {
       "id": "github:saqibkhan1691/RAG_Portfolio",
       "category": "github",
       "name": "saqibkhan1691/RAG_Portfolio",
@@ -32533,6 +32637,13 @@
       "name": "sarahazeri/AI_Engineering",
       "url": "https://github.com/sarahazeri/AI_Engineering",
       "firstSeen": "2026-10-27T20:44:22+00:00"
+    },
+    {
+      "id": "github:Saranzz2002/AgentOS-autonomous-delivery-control-plane",
+      "category": "github",
+      "name": "Saranzz2002/AgentOS-autonomous-delivery-control-plane",
+      "url": "https://github.com/Saranzz2002/AgentOS-autonomous-delivery-control-plane",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
     },
     {
       "id": "github:SarasiNishala/SRMSS-Smart-Route-Management-and-Scheduling-System",
@@ -33837,6 +33948,13 @@
       "firstSeen": "2026-10-27T18:41:59+00:00"
     },
     {
+      "id": "github:SiddhuBlaze3050/Evaluating-Harmful_Instructions-Compliance-On-Modern-LLMs",
+      "category": "github",
+      "name": "SiddhuBlaze3050/Evaluating-Harmful_Instructions-Compliance-On-Modern-LLMs",
+      "url": "https://github.com/SiddhuBlaze3050/Evaluating-Harmful_Instructions-Compliance-On-Modern-LLMs",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
+    },
+    {
       "id": "github:Siddiquiashrafhussain/VisionFlow",
       "category": "github",
       "name": "Siddiquiashrafhussain/VisionFlow",
@@ -35062,6 +35180,13 @@
       "firstSeen": "2026-10-27T13:28:19+00:00"
     },
     {
+      "id": "github:Subiswas36218/llm-evaluation-lab",
+      "category": "github",
+      "name": "Subiswas36218/llm-evaluation-lab",
+      "url": "https://github.com/Subiswas36218/llm-evaluation-lab",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
+    },
+    {
       "id": "github:suchitne99/alignment-harness",
       "category": "github",
       "name": "suchitne99/alignment-harness",
@@ -36285,6 +36410,13 @@
       "name": "thales-garcia/amazon-bedrock-rag-agents-generative-ai",
       "url": "https://github.com/thales-garcia/amazon-bedrock-rag-agents-generative-ai",
       "firstSeen": "2026-10-28T02:01:59+00:00"
+    },
+    {
+      "id": "github:Thameera-01/LLM-Output-Benchmarking-And-Evaluation-Suite",
+      "category": "github",
+      "name": "Thameera-01/LLM-Output-Benchmarking-And-Evaluation-Suite",
+      "url": "https://github.com/Thameera-01/LLM-Output-Benchmarking-And-Evaluation-Suite",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
     },
     {
       "id": "github:Thamindu16/enterprise-ai-assistant",
@@ -37897,6 +38029,13 @@
       "firstSeen": "2026-11-06T17:15:21+00:00"
     },
     {
+      "id": "github:Vedhasri0703/AI-Agent-for-Generating-Tests-from-Requirements",
+      "category": "github",
+      "name": "Vedhasri0703/AI-Agent-for-Generating-Tests-from-Requirements",
+      "url": "https://github.com/Vedhasri0703/AI-Agent-for-Generating-Tests-from-Requirements",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
+    },
+    {
       "id": "github:vedprasad03/autonomous-engineer",
       "category": "github",
       "name": "vedprasad03/autonomous-engineer",
@@ -38210,6 +38349,13 @@
       "name": "vincentsch/rungrad",
       "url": "https://github.com/vincentsch/rungrad",
       "firstSeen": "2026-10-27T20:24:05+00:00"
+    },
+    {
+      "id": "github:vineeeeeth/ModelArena-Blind-LLM-Evaluation-Real-Time-Elo-Leaderboard",
+      "category": "github",
+      "name": "vineeeeeth/ModelArena-Blind-LLM-Evaluation-Real-Time-Elo-Leaderboard",
+      "url": "https://github.com/vineeeeeth/ModelArena-Blind-LLM-Evaluation-Real-Time-Elo-Leaderboard",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
     },
     {
       "id": "github:vineetbhardwaj001/orca-ai",
@@ -38868,6 +39014,13 @@
       "name": "webspenser/sales-partner",
       "url": "https://github.com/webspenser/sales-partner",
       "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "github:weijun-l/anti-bad-llm-benchmark",
+      "category": "github",
+      "name": "weijun-l/anti-bad-llm-benchmark",
+      "url": "https://github.com/weijun-l/anti-bad-llm-benchmark",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
     },
     {
       "id": "github:Wellux/awesome-mcp-connectors",
@@ -41019,6 +41172,20 @@
       "firstSeen": "2026-10-27T15:56:21+00:00"
     },
     {
+      "id": "models:BidirLM/BidirLM-270M-Embedding",
+      "category": "models",
+      "name": "BidirLM/BidirLM-270M-Embedding",
+      "url": "https://huggingface.co/BidirLM/BidirLM-270M-Embedding",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
+    },
+    {
+      "id": "models:BidirLM/BidirLM-Omni-2.5B-Embedding",
+      "category": "models",
+      "name": "BidirLM/BidirLM-Omni-2.5B-Embedding",
+      "url": "https://huggingface.co/BidirLM/BidirLM-Omni-2.5B-Embedding",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
+    },
+    {
       "id": "models:birgermoell/transcription",
       "category": "models",
       "name": "birgermoell/transcription",
@@ -41201,6 +41368,13 @@
       "firstSeen": "2026-11-04T08:00:11+00:00"
     },
     {
+      "id": "models:dangvantuan/vietnamese-document-embedding",
+      "category": "models",
+      "name": "dangvantuan/vietnamese-document-embedding",
+      "url": "https://huggingface.co/dangvantuan/vietnamese-document-embedding",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
+    },
+    {
       "id": "models:danielferreira/emotion-text-classification",
       "category": "models",
       "name": "danielferreira/emotion-text-classification",
@@ -41213,6 +41387,13 @@
       "name": "DanielMarius/sigclip_vision_patch14_384.safetensors",
       "url": "https://huggingface.co/DanielMarius/sigclip_vision_patch14_384.safetensors",
       "firstSeen": "2026-10-30T00:40:53+00:00"
+    },
+    {
+      "id": "models:DataScience-UIBK/uibk-embedding-v1",
+      "category": "models",
+      "name": "DataScience-UIBK/uibk-embedding-v1",
+      "url": "https://huggingface.co/DataScience-UIBK/uibk-embedding-v1",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
     },
     {
       "id": "models:Davidsv/CourtSide-Computer-Vision-v1",
@@ -41710,6 +41891,13 @@
       "name": "gatilin/Qwen3.8-0.8B-Agentic-distill",
       "url": "https://huggingface.co/gatilin/Qwen3.8-0.8B-Agentic-distill",
       "firstSeen": "2026-10-27T13:09:33+00:00"
+    },
+    {
+      "id": "models:geevec-ai/geevec-embeddings-1.0-lite",
+      "category": "models",
+      "name": "geevec-ai/geevec-embeddings-1.0-lite",
+      "url": "https://huggingface.co/geevec-ai/geevec-embeddings-1.0-lite",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
     },
     {
       "id": "models:geevec-ai/geevec-embeddings-mm-1.0",
@@ -42809,6 +42997,13 @@
       "name": "litert-community/granite-speech-5.0-2b",
       "url": "https://huggingface.co/litert-community/granite-speech-5.0-2b",
       "firstSeen": "2026-11-06T22:10:26+00:00"
+    },
+    {
+      "id": "models:litert-community/Qwen3-Embedding-0.6B-LiteRT",
+      "category": "models",
+      "name": "litert-community/Qwen3-Embedding-0.6B-LiteRT",
+      "url": "https://huggingface.co/litert-community/Qwen3-Embedding-0.6B-LiteRT",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
     },
     {
       "id": "models:litert-community/Qwen3-Reranker-0.6B-LiteRT",
@@ -45072,6 +45267,13 @@
       "firstSeen": "2026-10-27T16:16:41+00:00"
     },
     {
+      "id": "models:univec/convert-snowflake_arctic_embed_l_v2.0-to-openai_text_embedding_ada_002",
+      "category": "models",
+      "name": "univec/convert-snowflake_arctic_embed_l_v2.0-to-openai_text_embedding_ada_002",
+      "url": "https://huggingface.co/univec/convert-snowflake_arctic_embed_l_v2.0-to-openai_text_embedding_ada_002",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
+    },
+    {
       "id": "models:unsloth/DeepSeek-V4-Flash-Vision-Exp",
       "category": "models",
       "name": "unsloth/DeepSeek-V4-Flash-Vision-Exp",
@@ -45294,6 +45496,13 @@
       "name": "xtools-at/LFM3-1.7B-AgentOrange-Claude-Code-2xMerge",
       "url": "https://huggingface.co/xtools-at/LFM3-1.7B-AgentOrange-Claude-Code-2xMerge",
       "firstSeen": "2026-11-05T16:50:20+00:00"
+    },
+    {
+      "id": "models:Yaldat/Yalda-Embedding",
+      "category": "models",
+      "name": "Yaldat/Yalda-Embedding",
+      "url": "https://huggingface.co/Yaldat/Yalda-Embedding",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
     },
     {
       "id": "models:YAM57/Speech_synthesis",
@@ -46773,6 +46982,13 @@
       "firstSeen": "2026-11-04T08:00:11+00:00"
     },
     {
+      "id": "spaces:hackHackXanum/audio-transcription",
+      "category": "spaces",
+      "name": "hackHackXanum/audio-transcription",
+      "url": "https://huggingface.co/spaces/hackHackXanum/audio-transcription",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
+    },
+    {
       "id": "spaces:Hamzah-ALQadasi/Video_Authenticity.Anamoly_Detection.Temporal_Modeling",
       "category": "spaces",
       "name": "Hamzah-ALQadasi/Video_Authenticity.Anamoly_Detection.Temporal_Modeling",
@@ -47289,6 +47505,13 @@
       "name": "kneelesh48/Tesseract-OCR",
       "url": "https://huggingface.co/spaces/kneelesh48/Tesseract-OCR",
       "firstSeen": "2026-10-27T15:21:32+00:00"
+    },
+    {
+      "id": "spaces:KoelLabs/IPA-Transcription-EN",
+      "category": "spaces",
+      "name": "KoelLabs/IPA-Transcription-EN",
+      "url": "https://huggingface.co/spaces/KoelLabs/IPA-Transcription-EN",
+      "firstSeen": "2026-11-07T22:54:39+00:00"
     },
     {
       "id": "spaces:kramp/video-upscaler",
@@ -49402,9 +49625,9 @@
   "cloud": {
     "agent": "Éclaireur NOVENS CORE",
     "execution": "GitHub Actions",
-    "lastMissionAt": "2026-11-07T19:23:33+00:00",
+    "lastMissionAt": "2026-11-07T22:54:39+00:00",
     "missionStatus": "succès",
-    "newResources": 64,
+    "newResources": 31,
     "errors": 0,
     "nextScheduled": "Toutes les 10 minutes si GitHub Actions disponible",
     "machineIndependence": true
@@ -49865,10 +50088,10 @@
       "title": "Diagnostiquer le runtime de démonstrations IA",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-11-07T19:23:43+00:00",
-      "practiceCount": 326,
+      "lastPracticedAt": "2026-11-07T22:54:49+00:00",
+      "practiceCount": 328,
       "proofPath": "evidence/hf-space-runtime-diagnostics-v1.json",
-      "proofSha256": "0525a21409d89e14a7efd82745b5574f5565eba8eaf3d3837f7681c7118e4b6d",
+      "proofSha256": "73daac8d95dbbb4010a28bdc37d71260caba7f190594b8aa790a70f6590ae3db",
       "resourcesTested": [
         "https://huggingface.co/spaces/Aarya003/Financial-Analyst-Agent",
         "https://huggingface.co/spaces/AceVikings/repro-learning-human-robot-collaboration-via-heterogeneous-agent-lyapunov-policy-optimizatio",
@@ -50195,7 +50418,9 @@
         "https://huggingface.co/spaces/baudm/PARSeq-OCR",
         "https://huggingface.co/spaces/Bin-Amer/hieroglyph-ocr-demo",
         "https://huggingface.co/spaces/bokesyo/MiniCPMV-RAG-PDFQA",
-        "https://huggingface.co/spaces/breiby/agents"
+        "https://huggingface.co/spaces/breiby/agents",
+        "https://huggingface.co/spaces/Bruhletme/user-search-api",
+        "https://huggingface.co/spaces/bstraehle/multi-agent-ai-autogen-coding"
       ]
     },
     {
@@ -55801,10 +56026,10 @@
       "title": "Analyser techniquement un dépôt GitHub public",
       "status": "validated",
       "validatedAt": "2026-10-27T12:30:54+00:00",
-      "lastPracticedAt": "2026-11-07T19:23:41+00:00",
-      "practiceCount": 299,
+      "lastPracticedAt": "2026-11-07T22:54:48+00:00",
+      "practiceCount": 301,
       "proofPath": "evidence/github-repository-audit.json",
-      "proofSha256": "0732a62962c74aee20be7c5725cc6ca6ab870eeebf5e4635c6e2716f145e6d4d",
+      "proofSha256": "662c8f6c2575cb1f7fce3682b3a4872502dffa0858d2823fa4633a24ed7da84a",
       "resourcesTested": [
         "https://github.com/0jre/runne",
         "https://github.com/0xMihirK/hercules-mcp",
@@ -56104,278 +56329,13 @@
         "https://github.com/iamemirozturk/aws-vpc-flowlogs-anomaly-detection",
         "https://github.com/iamindrajitdan/Cloudwise",
         "https://github.com/HYP3R00T/homelab",
-        "https://github.com/IamMichael23/Llama_Graph_Agent"
+        "https://github.com/IamMichael23/Llama_Graph_Agent",
+        "https://github.com/iamqasimali/MCP-Servers-for-Full-Stack-Development",
+        "https://github.com/Ian-Tharp/CORE"
       ]
     }
   ],
   "capabilityTrials": [
-    {
-      "date": "2026-11-03T01:11:24+00:00",
-      "skillId": "github-repository-technical-audit-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 261,
-      "failures": []
-    },
-    {
-      "date": "2026-11-03T01:11:26+00:00",
-      "skillId": "hf-model-task-classification-v1",
-      "result": "no-new-evidence",
-      "reportsPassed": 0,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 235,
-      "failures": [
-        {
-          "id": "Kang2326/Transcription1",
-          "reason": "ValueError"
-        },
-        {
-          "id": "keras-io/multi_label_text_classification",
-          "reason": "ValueError"
-        },
-        {
-          "id": "keras-io/neural_machine_translation_with_transformer",
-          "reason": "ValueError"
-        },
-        {
-          "id": "keras-io/text-classification-with-transformer",
-          "reason": "ValueError"
-        },
-        {
-          "id": "kirangowda3101/vision-language-model",
-          "reason": "ValueError"
-        },
-        {
-          "id": "KRAFTON/Raon-VisionEncoder",
-          "reason": "ValueError"
-        },
-        {
-          "id": "krishanusinha20/multi-agentic-sql-generator-model",
-          "reason": "ValueError"
-        },
-        {
-          "id": "lewtun/dummy-translation",
-          "reason": "ValueError"
-        },
-        {
-          "id": "litert-community/embeddinggemma-2-740m-litert-lm",
-          "reason": "ValueError"
-        },
-        {
-          "id": "litert-community/embeddinggemma-2-text-270m-litert-lm",
-          "reason": "ValueError"
-        },
-        {
-          "id": "LLM-Agents-Imperial/webshop-adapters",
-          "reason": "ValueError"
-        },
-        {
-          "id": "LLM-OS-Models/KoHRM-Text-1.4B-lora-comp-agent-reasoning-25m-v1",
-          "reason": "ValueError"
-        },
-        {
-          "id": "luom2645/agent-workspace",
-          "reason": "ValueError"
-        },
-        {
-          "id": "mageec/w2v-transcription-mls",
-          "reason": "ValueError"
-        },
-        {
-          "id": "mageec/wav2vec2-transcription-capstone",
-          "reason": "ValueError"
-        },
-        {
-          "id": "mattraj/curacel-transcription-1",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Mayukh/vision",
-          "reason": "ValueError"
-        },
-        {
-          "id": "medkit/simsamu-transcription",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-03T01:11:26+00:00",
-      "skillId": "hf-dataset-usage-assessment-v1",
-      "result": "no-new-evidence",
-      "reportsPassed": 0,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 152,
-      "failures": [
-        {
-          "id": "FrancophonIA/French_Legal_Glossary",
-          "reason": "ValueError"
-        },
-        {
-          "id": "FreedomIntelligence/evol-instruct-french",
-          "reason": "ValueError"
-        },
-        {
-          "id": "french-open-data/affichage-legal-de-la-ville-et-de-l-eurometropole-de-strasbourg",
-          "reason": "ValueError"
-        },
-        {
-          "id": "french-open-data/comptes-des-associations-fichier-reformate",
-          "reason": "ValueError"
-        },
-        {
-          "id": "french-open-data/denombrement-annuel-des-usagers-des-urssaf-par-organisme-de-gestion",
-          "reason": "ValueError"
-        },
-        {
-          "id": "french-open-data/denombrement-annuel-des-usagers-des-urssaf-par-region",
-          "reason": "ValueError"
-        },
-        {
-          "id": "french-open-data/nombre-annuel-de-delais-de-paiement-octroyes-par-les-urssaf",
-          "reason": "ValueError"
-        },
-        {
-          "id": "french-open-data/resultats-de-l-activite-du-controle-et-de-prevention-par-les-urssaf",
-          "reason": "ValueError"
-        },
-        {
-          "id": "french-open-data/resultats-de-la-lutte-contre-le-travail-dissimule-par-les-urssaf",
-          "reason": "ValueError"
-        },
-        {
-          "id": "GalaktischeGurke/full_dataset_1509_lines_invoice_contract_mail_GPT3.5_test",
-          "reason": "ValueError"
-        },
-        {
-          "id": "GalaktischeGurke/full_dataset_1509_lines_invoice_contract_mail_GPT3.5_train",
-          "reason": "ValueError"
-        },
-        {
-          "id": "GalaktischeGurke/full_dataset_1510_lines_invoice_contract_mail_GPT3.5_test",
-          "reason": "ValueError"
-        },
-        {
-          "id": "GalaktischeGurke/full_dataset_1510_lines_invoice_contract_mail_GPT3.5_train",
-          "reason": "ValueError"
-        },
-        {
-          "id": "GalaktischeGurke/full_dataset_1550_lines_invoice_contract_mail_GPT3.5_train",
-          "reason": "ValueError"
-        },
-        {
-          "id": "GalaktischeGurke/full_dataset_521_lines_invoice_contract_mail_GPT3.5_train",
-          "reason": "ValueError"
-        },
-        {
-          "id": "GalaktischeGurke/full_dataset_600_lines_invoice_contract_mail",
-          "reason": "ValueError"
-        },
-        {
-          "id": "GalaktischeGurke/invoices_instruct_vf",
-          "reason": "ValueError"
-        },
-        {
-          "id": "GalaktischeGurke/invoices_instruct_vf_weird",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-03T01:11:26+00:00",
-      "skillId": "hf-space-runtime-diagnostics-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 288,
-      "failures": []
-    },
-    {
-      "date": "2026-11-03T01:11:31+00:00",
-      "skillId": "hf-dataset-sample-ingestion-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "failedResources": [
-        {
-          "id": "thegr8abdessamad/accounting",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "toolathon/Annoy-PyEdu-Rs",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "toolathon/Annoy-PyEdu-Rs-Raw",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "transferable-samplers/many-peptides-md",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "uv-scripts/transcription",
-          "error": "HTTPError",
-          "detail": "HTTP Error 501: Not Implemented"
-        },
-        {
-          "id": "vbokaeian/Vehicles",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "viephunguyenvan/vietnam_vehicles",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "Voxel51/high-quality-invoice-images-for-ocr",
-          "error": "TimeoutError",
-          "detail": "The read operation timed out"
-        },
-        {
-          "id": "wegrthj/e94fjt-qi9l-raw",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "Whispering-GPT/lex-fridman-podcast-transcript-audio",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "Whispering-GPT/linustechtips-transcript-audio",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "Whispering-GPT/yannick-kilcher-transcript-audio",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "WindowsWhistler/the-vehicle-set",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "xlangai/AgentNet",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "xx103/NYC_Motor_Vehicle_Collisions_and_Weather_Dataset",
-          "error": "HTTPError",
-          "detail": "HTTP Error 501: Not Implemented"
-        }
-      ],
-      "totalVerifiedExercises": 270
-    },
     {
       "date": "2026-11-03T07:54:58+00:00",
       "skillId": "github-repository-technical-audit-v1",
@@ -60559,25 +60519,317 @@
         }
       ],
       "totalVerifiedExercises": 294
+    },
+    {
+      "date": "2026-11-07T22:54:48+00:00",
+      "skillId": "github-repository-technical-audit-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 301,
+      "failures": []
+    },
+    {
+      "date": "2026-11-07T22:54:49+00:00",
+      "skillId": "hf-model-task-classification-v1",
+      "result": "no-new-evidence",
+      "reportsPassed": 0,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 268,
+      "failures": [
+        {
+          "id": "agentlans/SmolLM2-135M-multilingual-base",
+          "reason": "ValueError"
+        },
+        {
+          "id": "agents-course/notebooks",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Agentware/d3-mini-calibrated-gguf",
+          "reason": "ValueError"
+        },
+        {
+          "id": "ahmad123/distilbert-base-uncased-finetuned-text_classification",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Ahmade/text_to_textgenerationv1",
+          "reason": "ValueError"
+        },
+        {
+          "id": "AhmedOkasha/ChestVision-Fine-Tuned-Vision-Language-Model",
+          "reason": "ValueError"
+        },
+        {
+          "id": "airun-ai/GlanceRAG-MiMo-9B-Reranker",
+          "reason": "ValueError"
+        },
+        {
+          "id": "akanksha-b14/songs-transcription-2",
+          "reason": "ValueError"
+        },
+        {
+          "id": "akanksha-b14/songs_transcription_wav2vec_base2",
+          "reason": "ValueError"
+        },
+        {
+          "id": "akdeniz27/bert-turkish-text-classification",
+          "reason": "ValueError"
+        },
+        {
+          "id": "akilesh96/autonlp-mrcooper_text_classification-529614927",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Algon-33/The_Wandering_Inn_Text_Generation",
+          "reason": "ValueError"
+        },
+        {
+          "id": "alibidaran/medical_transcription_generator",
+          "reason": "ValueError"
+        },
+        {
+          "id": "anantjoshicz/bert-text-classification-news",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Anirbanbhk/Hate-speech-Pretrained-movies",
+          "reason": "ValueError"
+        },
+        {
+          "id": "AnnaWegmann/Style-Embedding",
+          "reason": "ValueError"
+        },
+        {
+          "id": "AnujThalod/Multi-Agent-RAG-Assistant",
+          "reason": "ValueError"
+        },
+        {
+          "id": "aomar85/finetuned-arabert-textclassificationv01",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-07T22:54:49+00:00",
+      "skillId": "hf-dataset-usage-assessment-v1",
+      "result": "no-new-evidence",
+      "reportsPassed": 0,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 158,
+      "failures": [
+        {
+          "id": "flarexio/accounting-distill",
+          "reason": "ValueError"
+        },
+        {
+          "id": "fox7005/tool",
+          "reason": "ValueError"
+        },
+        {
+          "id": "FrancophonIA/French_Legal_Glossary",
+          "reason": "ValueError"
+        },
+        {
+          "id": "FreedomIntelligence/evol-instruct-french",
+          "reason": "ValueError"
+        },
+        {
+          "id": "french-open-data/affichage-legal-de-la-ville-et-de-l-eurometropole-de-strasbourg",
+          "reason": "ValueError"
+        },
+        {
+          "id": "french-open-data/comptes-des-associations-fichier-reformate",
+          "reason": "ValueError"
+        },
+        {
+          "id": "french-open-data/denombrement-annuel-des-usagers-des-urssaf-par-organisme-de-gestion",
+          "reason": "ValueError"
+        },
+        {
+          "id": "french-open-data/denombrement-annuel-des-usagers-des-urssaf-par-region",
+          "reason": "ValueError"
+        },
+        {
+          "id": "french-open-data/nombre-annuel-de-delais-de-paiement-octroyes-par-les-urssaf",
+          "reason": "ValueError"
+        },
+        {
+          "id": "french-open-data/resultats-de-l-activite-du-controle-et-de-prevention-par-les-urssaf",
+          "reason": "ValueError"
+        },
+        {
+          "id": "french-open-data/resultats-de-la-lutte-contre-le-travail-dissimule-par-les-urssaf",
+          "reason": "ValueError"
+        },
+        {
+          "id": "GalaktischeGurke/full_dataset_1509_lines_invoice_contract_mail_GPT3.5_test",
+          "reason": "ValueError"
+        },
+        {
+          "id": "GalaktischeGurke/full_dataset_1509_lines_invoice_contract_mail_GPT3.5_train",
+          "reason": "ValueError"
+        },
+        {
+          "id": "GalaktischeGurke/full_dataset_1510_lines_invoice_contract_mail_GPT3.5_test",
+          "reason": "ValueError"
+        },
+        {
+          "id": "GalaktischeGurke/full_dataset_1510_lines_invoice_contract_mail_GPT3.5_train",
+          "reason": "ValueError"
+        },
+        {
+          "id": "GalaktischeGurke/full_dataset_1550_lines_invoice_contract_mail_GPT3.5_train",
+          "reason": "ValueError"
+        },
+        {
+          "id": "GalaktischeGurke/full_dataset_521_lines_invoice_contract_mail_GPT3.5_train",
+          "reason": "ValueError"
+        },
+        {
+          "id": "GalaktischeGurke/full_dataset_600_lines_invoice_contract_mail",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-07T22:54:49+00:00",
+      "skillId": "hf-space-runtime-diagnostics-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 328,
+      "failures": []
+    },
+    {
+      "date": "2026-11-07T22:54:54+00:00",
+      "skillId": "hf-dataset-sample-ingestion-v1",
+      "result": "no-new-evidence",
+      "reportsPassed": 0,
+      "reportsRequired": 1,
+      "failedResources": [
+        {
+          "id": "thegr8abdessamad/accounting",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "toolathon/Annoy-PyEdu-Rs",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "toolathon/Annoy-PyEdu-Rs-Raw",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "trace-commons/agent-traces",
+          "error": "ValueError",
+          "detail": "Réponse trop volumineuse"
+        },
+        {
+          "id": "transferable-samplers/many-peptides-md",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "uv-scripts/transcription",
+          "error": "HTTPError",
+          "detail": "HTTP Error 501: Not Implemented"
+        },
+        {
+          "id": "vbokaeian/Vehicles",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "vessel888/sp500_earnings_transcripts",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "viephunguyenvan/vietnam_vehicles",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "Voxel51/high-quality-invoice-images-for-ocr",
+          "error": "TimeoutError",
+          "detail": "The read operation timed out"
+        },
+        {
+          "id": "wegrthj/e94fjt-qi9l-raw",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "Whispering-GPT/lex-fridman-podcast-transcript-audio",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "Whispering-GPT/linustechtips-transcript-audio",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "Whispering-GPT/yannick-kilcher-transcript-audio",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "WindowsWhistler/the-vehicle-set",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "xlangai/AgentNet",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "xx103/NYC_Motor_Vehicle_Collisions_and_Weather_Dataset",
+          "error": "HTTPError",
+          "detail": "HTTP Error 501: Not Implemented"
+        },
+        {
+          "id": "yzhuang/Agentic-Long-Context-Understanding-QA",
+          "error": "ValueError",
+          "detail": "Réponse trop volumineuse"
+        },
+        {
+          "id": "ZixuanKe/accounting_unsup",
+          "error": "HTTPError",
+          "detail": "HTTP Error 401: Unauthorized"
+        },
+        {
+          "id": "Adorg/ToolBench",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        }
+      ],
+      "totalVerifiedExercises": 294
     }
   ],
   "lastCapabilityVerification": {
-    "date": "2026-11-07T19:23:48+00:00",
+    "date": "2026-11-07T22:54:54+00:00",
     "skillId": "hf-dataset-sample-ingestion-v1",
     "result": "no-new-evidence"
   },
   "discovery": {
-    "cursor": 163,
+    "cursor": 164,
     "capacity": 20000,
-    "lastBatch": 64,
+    "lastBatch": 31,
     "newByCategory": {
-      "github": 51,
+      "github": 21,
       "models": 8,
-      "datasets": 3,
+      "datasets": 0,
       "spaces": 2
     },
     "queriesLastRun": 7,
-    "totalSearchCycles": 163,
+    "totalSearchCycles": 164,
     "lastErrors": []
   },
   "approvedResources": [
