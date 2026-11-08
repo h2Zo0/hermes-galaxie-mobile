@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-07T22:54:48+00:00",
+  "lastPracticedAt": "2026-11-08T02:07:18+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -5093,6 +5093,40 @@
       "archived": false,
       "starsAtTest": 16,
       "pushedAt": "2026-11-04T20:29:48Z"
+    },
+    {
+      "repository": "Ian-Tharp/Skills-Orchestrator-MCP",
+      "url": "https://github.com/Ian-Tharp/Skills-Orchestrator-MCP",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.73,
+      "languageBytes": {
+        "Python": 463243,
+        "Shell": 1258
+      },
+      "totalLanguageBytes": 464501,
+      "archived": false,
+      "starsAtTest": 2,
+      "pushedAt": "2026-11-04T19:18:03Z"
+    },
+    {
+      "repository": "ianwesterfield/aj",
+      "url": "https://github.com/ianwesterfield/aj",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 49.29,
+      "languageBytes": {
+        "Python": 591859,
+        "C#": 469921,
+        "PowerShell": 90735,
+        "Shell": 41841,
+        "Dockerfile": 4362,
+        "Mermaid": 2055
+      },
+      "totalLanguageBytes": 1200773,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-03T05:07:48Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
