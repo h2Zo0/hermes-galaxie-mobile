@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-08T08:56:02+00:00",
+  "lastPracticedAt": "2026-11-08T15:51:54+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -5158,6 +5158,40 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-04-28T13:10:47Z"
+    },
+    {
+      "repository": "ifnodoraemon/agent-bench",
+      "url": "https://github.com/ifnodoraemon/agent-bench",
+      "defaultBranch": "main",
+      "primaryLanguage": "Rust",
+      "primaryLanguageSharePercent": 68.18,
+      "languageBytes": {
+        "Rust": 678926,
+        "Vue": 258098,
+        "Python": 28442,
+        "JavaScript": 22098,
+        "CSS": 7330,
+        "HTML": 826
+      },
+      "totalLanguageBytes": 995720,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-10-22T01:39:27Z"
+    },
+    {
+      "repository": "Igorbunow/keithley-2231a-python",
+      "url": "https://github.com/Igorbunow/keithley-2231a-python",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.8,
+      "languageBytes": {
+        "Python": 2455742,
+        "Shell": 5043
+      },
+      "totalLanguageBytes": 2460785,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-31T12:45:56Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

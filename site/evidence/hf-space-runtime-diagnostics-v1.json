@@ -3,7 +3,7 @@
   "title": "Diagnostiquer le runtime de démonstrations IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-08T08:56:04+00:00",
+  "lastPracticedAt": "2026-11-08T15:51:56+00:00",
   "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
   "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
   "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
@@ -2995,6 +2995,24 @@
       "sdk": "gradio",
       "runtimeStage": "RUNTIME_ERROR",
       "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "comodoro/Coqui-STT-transcription",
+      "source": "https://huggingface.co/spaces/comodoro/Coqui-STT-transcription",
+      "observedAt": "2026-11-08T15:51:56+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNTIME_ERROR",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "cupcakes323/free-ai-nsfw-video-generator-from-image",
+      "source": "https://huggingface.co/spaces/cupcakes323/free-ai-nsfw-video-generator-from-image",
+      "observedAt": "2026-11-08T15:51:56+00:00",
+      "sdk": "docker",
+      "runtimeStage": "RUNNING",
+      "availableNow": true,
       "note": "La disponibilité est un instantané, pas une promesse de service"
     }
   ]
