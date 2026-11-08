@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-08T15:51:54+00:00",
+  "lastPracticedAt": "2026-11-08T20:00:02+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -5192,6 +5192,35 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-31T12:45:56Z"
+    },
+    {
+      "repository": "iejoys/AMEP",
+      "url": "https://github.com/iejoys/AMEP",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 98.9,
+      "languageBytes": {
+        "TypeScript": 228933,
+        "Python": 2542
+      },
+      "totalLanguageBytes": 231475,
+      "archived": false,
+      "starsAtTest": 5,
+      "pushedAt": "2026-04-06T09:38:45Z"
+    },
+    {
+      "repository": "iflow-mcp/justvugg-easymemory",
+      "url": "https://github.com/iflow-mcp/justvugg-easymemory",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 214242
+      },
+      "totalLanguageBytes": 214242,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-02-07T00:59:21Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
