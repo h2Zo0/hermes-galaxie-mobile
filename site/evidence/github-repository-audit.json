@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-09T11:04:30+00:00",
+  "lastPracticedAt": "2026-11-09T21:25:12+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -5318,6 +5318,37 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-19T14:58:44Z"
+    },
+    {
+      "repository": "impactclaim-cyber/social-media-automation",
+      "url": "https://github.com/impactclaim-cyber/social-media-automation",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 10750
+      },
+      "totalLanguageBytes": 10750,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-09-30T17:33:43Z"
+    },
+    {
+      "repository": "imranbru99/ai-workflow-automation-builder",
+      "url": "https://github.com/imranbru99/ai-workflow-automation-builder",
+      "defaultBranch": "main",
+      "primaryLanguage": "Blade",
+      "primaryLanguageSharePercent": 56.18,
+      "languageBytes": {
+        "Blade": 72302,
+        "PHP": 55417,
+        "JavaScript": 635,
+        "CSS": 339
+      },
+      "totalLanguageBytes": 128693,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-29T09:58:41Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
