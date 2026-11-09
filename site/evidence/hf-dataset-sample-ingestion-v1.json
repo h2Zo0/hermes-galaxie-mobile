@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-09T02:58:15+00:00",
+  "lastPracticedAt": "2026-11-09T11:04:39+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -6132,6 +6132,45 @@
       "rowCount": 3,
       "sampleSha256": "da33753bb56849a500995439ad0e282a696b39be0b68cf7a03b18439a684cd2b",
       "observedAt": "2026-11-09T02:58:15+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "allenai/Dolci-Instruct-SFT-Tool-Use",
+      "source": "https://huggingface.co/datasets/allenai/Dolci-Instruct-SFT-Tool-Use",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "dataset_source",
+        "id",
+        "messages"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "d60681f62b94a2da1254fea521e693fc69d70187692a6f67206986bc6da1628a",
+      "observedAt": "2026-11-09T11:04:39+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "almogtavor/agent-traces",
+      "source": "https://huggingface.co/datasets/almogtavor/agent-traces",
+      "config": "swarm_llm_calls",
+      "split": "gemma_4_31b_it",
+      "columns": [
+        "completion_tokens",
+        "cost",
+        "model",
+        "prompt_tokens",
+        "request",
+        "response",
+        "status",
+        "timestamp",
+        "total_tokens",
+        "trace_id"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "083d5b4084e7da9a59a3ad429faf92f1237d7a6efa915187c9d558fc855497be",
+      "observedAt": "2026-11-09T11:04:39+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
