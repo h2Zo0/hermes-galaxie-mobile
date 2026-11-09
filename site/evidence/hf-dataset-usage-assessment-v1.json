@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-08T15:51:56+00:00",
+  "lastPracticedAt": "2026-11-09T02:58:12+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1795,6 +1795,18 @@
         "jsonl"
       ],
       "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "israellaguan/codex-tool-use-trajectories",
+      "source": "https://huggingface.co/datasets/israellaguan/codex-tool-use-trajectories",
+      "observedAt": "2026-11-09T02:58:12+00:00",
+      "declaredLicense": "mit",
+      "formats": [
+        "json",
+        "jsonl"
+      ],
+      "listedFiles": 456,
       "access": "public"
     }
   ]
