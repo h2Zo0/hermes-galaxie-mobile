@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-10T18:55:47+00:00",
+  "lastPracticedAt": "2026-11-10T23:56:29+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -5454,6 +5454,36 @@
       "archived": false,
       "starsAtTest": 1,
       "pushedAt": "2026-10-24T17:58:36Z"
+    },
+    {
+      "repository": "imsayanpaul/job-hunter-automation",
+      "url": "https://github.com/imsayanpaul/job-hunter-automation",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "primaryLanguageSharePercent": 67.57,
+      "languageBytes": {
+        "JavaScript": 32457,
+        "HTML": 15308,
+        "Batchfile": 268
+      },
+      "totalLanguageBytes": 48033,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-01T19:45:16Z"
+    },
+    {
+      "repository": "imshivang03/AgenticAI-Web-Automation-On-Autopilot-Building-An-AI-Browser-Agent-Using-GeminiPro",
+      "url": "https://github.com/imshivang03/AgenticAI-Web-Automation-On-Autopilot-Building-An-AI-Browser-Agent-Using-GeminiPro",
+      "defaultBranch": "main",
+      "primaryLanguage": "Jupyter Notebook",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Jupyter Notebook": 20456
+      },
+      "totalLanguageBytes": 20456,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2025-10-09T09:07:48Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

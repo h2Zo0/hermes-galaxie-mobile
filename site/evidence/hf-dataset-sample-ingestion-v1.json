@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-10T18:55:53+00:00",
+  "lastPracticedAt": "2026-11-10T23:56:36+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -6306,6 +6306,44 @@
       "rowCount": 3,
       "sampleSha256": "6a00aea6590cefb671e0d0e744de1d18171de5b88cdd8ecd0b5d23ac310e4e86",
       "observedAt": "2026-11-10T18:55:53+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "bigscience-historical-texts/Open_Medieval_French",
+      "source": "https://huggingface.co/datasets/bigscience-historical-texts/Open_Medieval_French",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "text",
+        "text_dat_arl",
+        "text_data_adj",
+        "text_data_max",
+        "text_data_min",
+        "text_deaf",
+        "text_licence",
+        "text_title",
+        "text_uri"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "d453a29a71a273b9a3ee62b7e17701a5e71cbb7f94b1f654cde846f8b3aad293",
+      "observedAt": "2026-11-10T23:56:36+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "bilalabic/turkish-tool-calling",
+      "source": "https://huggingface.co/datasets/bilalabic/turkish-tool-calling",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "id",
+        "messages",
+        "tools"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "0f64416aa9047a33d7d8462b6004ce0246fc45b7d68d7bdbae1689a296fb2061",
+      "observedAt": "2026-11-10T23:56:36+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
