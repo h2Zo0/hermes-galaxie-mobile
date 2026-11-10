@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-10T03:44:51+00:00",
+  "lastPracticedAt": "2026-11-10T11:51:53+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -6205,6 +6205,47 @@
       "rowCount": 3,
       "sampleSha256": "3c1049f3d0f6cf07a9117d54d825b88d0701e02a35cadf01bf0480b642c29b44",
       "observedAt": "2026-11-10T03:44:51+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "Aoschu/German_invoices_dataset_for_donut",
+      "source": "https://huggingface.co/datasets/Aoschu/German_invoices_dataset_for_donut",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "ground_truth",
+        "image"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "662d676c358b56222f7da9e86e07e576c2079797a9f56a73d899f9582218e650",
+      "observedAt": "2026-11-10T11:51:53+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "artefactory/Argimi-Legal-French-Jurisprudence",
+      "source": "https://huggingface.co/datasets/artefactory/Argimi-Legal-French-Jurisprudence",
+      "config": "cetat",
+      "split": "train",
+      "columns": [
+        "applied_laws",
+        "content",
+        "decision_date",
+        "ecli",
+        "formation",
+        "id",
+        "jurisdiction",
+        "keywords",
+        "nature",
+        "solution",
+        "summary",
+        "title",
+        "url"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "ee31b0ea747b96f9cd4b109f22f9f9c571a01a6f7395c5173ef52e3adcf97d3e",
+      "observedAt": "2026-11-10T11:51:53+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
