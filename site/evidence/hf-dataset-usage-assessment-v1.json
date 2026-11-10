@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-10T03:44:45+00:00",
+  "lastPracticedAt": "2026-11-10T18:55:49+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1840,6 +1840,17 @@
         "parquet"
       ],
       "listedFiles": 8,
+      "access": "public"
+    },
+    {
+      "id": "kuladeepmantri/4-Security-Tools-Pentesting",
+      "source": "https://huggingface.co/datasets/kuladeepmantri/4-Security-Tools-Pentesting",
+      "observedAt": "2026-11-10T18:55:49+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "txt"
+      ],
+      "listedFiles": 3,
       "access": "public"
     }
   ]

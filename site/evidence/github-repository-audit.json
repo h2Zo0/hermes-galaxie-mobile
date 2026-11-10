@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-10T11:51:45+00:00",
+  "lastPracticedAt": "2026-11-10T18:55:47+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -5423,6 +5423,37 @@
       "archived": false,
       "starsAtTest": 469,
       "pushedAt": "2026-10-29T14:26:07Z"
+    },
+    {
+      "repository": "Ilyushin/EconomicIntelligence",
+      "url": "https://github.com/Ilyushin/EconomicIntelligence",
+      "defaultBranch": "master",
+      "primaryLanguage": "JavaScript",
+      "primaryLanguageSharePercent": 68.6,
+      "languageBytes": {
+        "JavaScript": 1098534,
+        "CSS": 446785,
+        "HTML": 55999
+      },
+      "totalLanguageBytes": 1601318,
+      "archived": false,
+      "starsAtTest": 31,
+      "pushedAt": "2015-06-27T07:21:54Z"
+    },
+    {
+      "repository": "im-ignite/ignite-agent",
+      "url": "https://github.com/im-ignite/ignite-agent",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.1,
+      "languageBytes": {
+        "Python": 196814,
+        "JavaScript": 1778
+      },
+      "totalLanguageBytes": 198592,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-10-24T17:58:36Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
