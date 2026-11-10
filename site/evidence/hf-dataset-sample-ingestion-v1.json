@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-09T11:04:39+00:00",
+  "lastPracticedAt": "2026-11-10T03:44:51+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -6171,6 +6171,40 @@
       "rowCount": 3,
       "sampleSha256": "083d5b4084e7da9a59a3ad429faf92f1237d7a6efa915187c9d558fc855497be",
       "observedAt": "2026-11-09T11:04:39+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "angeluriot/french_instruct",
+      "source": "https://huggingface.co/datasets/angeluriot/french_instruct",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "author",
+        "code",
+        "context",
+        "conversation",
+        "source",
+        "style"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "41718a66f76603c5c2a438c0f791d00bedde08baf2425501fd8556f4c1b4f922",
+      "observedAt": "2026-11-10T03:44:51+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "ankush13r/ToolACE",
+      "source": "https://huggingface.co/datasets/ankush13r/ToolACE",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "conversations",
+        "system"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "3c1049f3d0f6cf07a9117d54d825b88d0701e02a35cadf01bf0480b642c29b44",
+      "observedAt": "2026-11-10T03:44:51+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

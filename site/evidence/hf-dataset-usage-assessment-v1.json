@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-09T11:04:32+00:00",
+  "lastPracticedAt": "2026-11-10T03:44:45+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1829,6 +1829,17 @@
         "jsonl"
       ],
       "listedFiles": 9,
+      "access": "public"
+    },
+    {
+      "id": "JohnTan38/sparrow-invoice-v1",
+      "source": "https://huggingface.co/datasets/JohnTan38/sparrow-invoice-v1",
+      "observedAt": "2026-11-10T03:44:45+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 8,
       "access": "public"
     }
   ]

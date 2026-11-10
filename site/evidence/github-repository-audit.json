@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-09T21:25:12+00:00",
+  "lastPracticedAt": "2026-11-10T03:44:43+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -5349,6 +5349,50 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-29T09:58:41Z"
+    },
+    {
+      "repository": "Indicaza/archivist",
+      "url": "https://github.com/Indicaza/archivist",
+      "defaultBranch": "main",
+      "primaryLanguage": "C++",
+      "primaryLanguageSharePercent": 48.69,
+      "languageBytes": {
+        "C++": 3786811,
+        "QML": 1752508,
+        "JavaScript": 1201970,
+        "TypeScript": 896700,
+        "Shell": 48605,
+        "CSS": 39204,
+        "CMake": 38585,
+        "GLSL": 5189,
+        "HTML": 3453,
+        "C": 1291,
+        "Objective-C++": 1023,
+        "Python": 497,
+        "Go": 362,
+        "Rust": 356,
+        "SCSS": 92
+      },
+      "totalLanguageBytes": 7776646,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-05T02:05:19Z"
+    },
+    {
+      "repository": "INDIPS/smtpsocialflow",
+      "url": "https://github.com/INDIPS/smtpsocialflow",
+      "defaultBranch": "main",
+      "primaryLanguage": "HTML",
+      "primaryLanguageSharePercent": 90.36,
+      "languageBytes": {
+        "HTML": 57409,
+        "Python": 6104,
+        "Procfile": 22
+      },
+      "totalLanguageBytes": 63535,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-05-09T02:16:59Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
