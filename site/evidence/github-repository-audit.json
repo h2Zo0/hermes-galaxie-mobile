@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-11T12:49:34+00:00",
+  "lastPracticedAt": "2026-11-11T19:53:47+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -5546,6 +5546,36 @@
       "archived": false,
       "starsAtTest": 57,
       "pushedAt": "2026-11-09T06:27:20Z"
+    },
+    {
+      "repository": "irenethebest/accounting_analytics",
+      "url": "https://github.com/irenethebest/accounting_analytics",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 80.03,
+      "languageBytes": {
+        "Python": 63184,
+        "HTML": 15770
+      },
+      "totalLanguageBytes": 78954,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-08-26T23:24:48Z"
+    },
+    {
+      "repository": "Irfan-Firosh/DoomLab",
+      "url": "https://github.com/Irfan-Firosh/DoomLab",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 96.66,
+      "languageBytes": {
+        "Python": 352120,
+        "HTML": 12167
+      },
+      "totalLanguageBytes": 364287,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-28T06:04:55Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

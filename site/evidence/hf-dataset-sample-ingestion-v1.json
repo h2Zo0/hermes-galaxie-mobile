@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-11T05:19:45+00:00",
+  "lastPracticedAt": "2026-11-11T19:53:56+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -6387,6 +6387,39 @@
       "rowCount": 3,
       "sampleSha256": "597db99c5ad606d12f961a2281523a791cddd6d30745876a668f8c80aec7334b",
       "observedAt": "2026-11-11T05:19:45+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "Aswin-M/7000_invoice_image_and_json_1",
+      "source": "https://huggingface.co/datasets/Aswin-M/7000_invoice_image_and_json_1",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "image"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "24b0ab92c980186c2ebd4c3e3e3654b1621aa2f576827670cc451a027d366e59",
+      "observedAt": "2026-11-11T19:53:56+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "Aulvem/japanese-invoice-receipt-extraction-eval",
+      "source": "https://huggingface.co/datasets/Aulvem/japanese-invoice-receipt-extraction-eval",
+      "config": "invoice",
+      "split": "sample",
+      "columns": [
+        "difficulty",
+        "document_text",
+        "document_type",
+        "expected_output",
+        "features",
+        "id"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "e94698599d284608b4691997a823562cb41bc6236b9b4220380ba742c443e9ba",
+      "observedAt": "2026-11-11T19:53:56+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
