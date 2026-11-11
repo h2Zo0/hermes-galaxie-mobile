@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-11T05:19:40+00:00",
+  "lastPracticedAt": "2026-11-11T12:49:34+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -5518,6 +5518,34 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-07-17T05:30:26Z"
+    },
+    {
+      "repository": "ingjuanmbl-jmbl/CardioDocs-RAG-CUN",
+      "url": "https://github.com/ingjuanmbl-jmbl/CardioDocs-RAG-CUN",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 38151
+      },
+      "totalLanguageBytes": 38151,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-09T17:48:23Z"
+    },
+    {
+      "repository": "inkdropapp/mcp-server",
+      "url": "https://github.com/inkdropapp/mcp-server",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "TypeScript": 34586
+      },
+      "totalLanguageBytes": 34586,
+      "archived": false,
+      "starsAtTest": 57,
+      "pushedAt": "2026-11-09T06:27:20Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

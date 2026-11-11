@@ -1,17 +1,17 @@
 {
   "name": "NOVENS CORE — GALAXIE VIVANTE",
-  "asOf": "2026-11-11T05:19:34+00:00",
-  "polledAt": "2026-11-11T05:19:34+00:00",
-  "resourceCount": 7268,
+  "asOf": "2026-11-11T12:49:31+00:00",
+  "polledAt": "2026-11-11T12:49:31+00:00",
+  "resourceCount": 7270,
   "categoryCounts": {
     "github": 5295,
-    "models": 779,
-    "datasets": 581,
+    "models": 780,
+    "datasets": 582,
     "spaces": 613
   },
   "verifiedSkills": 320,
   "netProfitEuro": 0.0,
-  "growth24h": 160,
+  "growth24h": 108,
   "history": [
     {
       "date": "2026-10-26T22:30:41+01:00",
@@ -1122,6 +1122,12 @@
       "resources": 7268,
       "verified": 320,
       "profit": 0.0
+    },
+    {
+      "date": "2026-11-11T12:49:31+00:00",
+      "resources": 7270,
+      "verified": 320,
+      "profit": 0.0
     }
   ],
   "nodes": [
@@ -2013,6 +2019,13 @@
       "name": "Cooperative-AI-Foundation/inter-agent-influence-eval",
       "url": "https://huggingface.co/datasets/Cooperative-AI-Foundation/inter-agent-influence-eval",
       "firstSeen": "2026-11-08T23:36:52+00:00"
+    },
+    {
+      "id": "datasets:csdc-atl/query-document-retrieval-full",
+      "category": "datasets",
+      "name": "csdc-atl/query-document-retrieval-full",
+      "url": "https://huggingface.co/datasets/csdc-atl/query-document-retrieval-full",
+      "firstSeen": "2026-11-11T12:49:31+00:00"
     },
     {
       "id": "datasets:cx-cmu/agent_trajectories",
@@ -43224,6 +43237,13 @@
       "firstSeen": "2026-11-07T22:54:39+00:00"
     },
     {
+      "id": "models:Datasmartly/smartly-ai-darija-transcription-1000-V2",
+      "category": "models",
+      "name": "Datasmartly/smartly-ai-darija-transcription-1000-V2",
+      "url": "https://huggingface.co/Datasmartly/smartly-ai-darija-transcription-1000-V2",
+      "firstSeen": "2026-11-11T12:49:31+00:00"
+    },
+    {
       "id": "models:Davidsv/CourtSide-Computer-Vision-v1",
       "category": "models",
       "name": "Davidsv/CourtSide-Computer-Vision-v1",
@@ -52006,9 +52026,9 @@
   "cloud": {
     "agent": "Éclaireur NOVENS CORE",
     "execution": "GitHub Actions",
-    "lastMissionAt": "2026-11-11T05:19:34+00:00",
+    "lastMissionAt": "2026-11-11T12:49:31+00:00",
     "missionStatus": "succès",
-    "newResources": 23,
+    "newResources": 2,
     "errors": 0,
     "nextScheduled": "Toutes les 10 minutes si GitHub Actions disponible",
     "machineIndependence": true
@@ -52019,10 +52039,10 @@
       "title": "Classer des modèles IA par tâche et licence déclarée",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-11-11T05:19:42+00:00",
-      "practiceCount": 274,
+      "lastPracticedAt": "2026-11-11T12:49:37+00:00",
+      "practiceCount": 276,
       "proofPath": "evidence/hf-model-task-classification-v1.json",
-      "proofSha256": "c7ae37e58be59ce07d68fc2ce8163879cd602f14ad06640d4195bbb36867d749",
+      "proofSha256": "26c25328528f2d775bc2ebf20212d1db880024a591137a269641a7a6bee6de94",
       "resourcesTested": [
         "https://huggingface.co/agentionai/Qwen3.8-27B-AP-GGUF",
         "https://huggingface.co/agentionai/Signal-3.8-27B",
@@ -52297,7 +52317,9 @@
         "https://huggingface.co/BidirLM/BidirLM-Omni-2.5B-Embedding",
         "https://huggingface.co/blackshell69/Qwen3.5-9B-distilled-coding-agentic",
         "https://huggingface.co/baseten/GLM-5.2-Vision-FP8",
-        "https://huggingface.co/bmabir17/embeddinggemma-300m"
+        "https://huggingface.co/bmabir17/embeddinggemma-300m",
+        "https://huggingface.co/BrunoHays/embeddinggemma-2-nullspace-audio",
+        "https://huggingface.co/ByronLeeee/EmbeddingGemma-300M-LawVault"
       ]
     },
     {
@@ -52484,10 +52506,10 @@
       "title": "Diagnostiquer le runtime de démonstrations IA",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-11-11T05:19:42+00:00",
-      "practiceCount": 354,
+      "lastPracticedAt": "2026-11-11T12:49:37+00:00",
+      "practiceCount": 356,
       "proofPath": "evidence/hf-space-runtime-diagnostics-v1.json",
-      "proofSha256": "fe8c25d20d345d529b4245b9b1d4cdf244946e16b4789a2239a6b558220f12f2",
+      "proofSha256": "42205fc24641ee43714e2bb619eed101a082bcbbfaf57ad4e7a88c85d4977a34",
       "resourcesTested": [
         "https://huggingface.co/spaces/Aarya003/Financial-Analyst-Agent",
         "https://huggingface.co/spaces/AceVikings/repro-learning-human-robot-collaboration-via-heterogeneous-agent-lyapunov-policy-optimizatio",
@@ -52842,7 +52864,9 @@
         "https://huggingface.co/spaces/hackHackXanum/audio-transcription",
         "https://huggingface.co/spaces/Heartsync/NSFW-Uncensored-video",
         "https://huggingface.co/spaces/cfahlgren1/pixel-search",
-        "https://huggingface.co/spaces/Chennzi/agentic-forecasting"
+        "https://huggingface.co/spaces/Chennzi/agentic-forecasting",
+        "https://huggingface.co/spaces/Heartsync/NSFW-Uncensored-video2",
+        "https://huggingface.co/spaces/hf-Asdqqq/Uncensored-video2"
       ]
     },
     {
@@ -58807,14 +58831,50 @@
       }
     },
     {
+      "id": "dataset:amyrmahdy/decima-agent-decisions",
+      "title": "Lire le dataset amyrmahdy/decima-agent-decisions",
+      "status": "validated",
+      "validatedAt": "2026-11-11T05:19:45+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/amyrmahdy/decima-agent-decisions"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:amyrmahdy/decima-agent-decisions"
+      }
+    },
+    {
+      "id": "dataset:anonymoussubmissions/earnings21-gold-transcripts-non-normalized",
+      "title": "Lire le dataset anonymoussubmissions/earnings21-gold-transcripts-non-normalized",
+      "status": "validated",
+      "validatedAt": "2026-11-11T05:19:45+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/anonymoussubmissions/earnings21-gold-transcripts-non-normalized"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:anonymoussubmissions/earnings21-gold-transcripts-non-normalized"
+      }
+    },
+    {
       "id": "github-repository-technical-audit-v1",
       "title": "Analyser techniquement un dépôt GitHub public",
       "status": "validated",
       "validatedAt": "2026-10-27T12:30:54+00:00",
-      "lastPracticedAt": "2026-11-11T05:19:40+00:00",
-      "practiceCount": 327,
+      "lastPracticedAt": "2026-11-11T12:49:34+00:00",
+      "practiceCount": 329,
       "proofPath": "evidence/github-repository-audit.json",
-      "proofSha256": "305b9969dd3a4fdd30fdb66c53b05d0b950c5e3b0ed62a8201d0d7e20e14f70b",
+      "proofSha256": "2d335a2a086582876d01434175957c1f4cbbbdcd8a503ea73d53c96403d8c489",
       "resourcesTested": [
         "https://github.com/0jre/runne",
         "https://github.com/0xMihirK/hercules-mcp",
@@ -59142,290 +59202,13 @@
         "https://github.com/imsayanpaul/job-hunter-automation",
         "https://github.com/imshivang03/AgenticAI-Web-Automation-On-Autopilot-Building-An-AI-Browser-Agent-Using-GeminiPro",
         "https://github.com/IndividualGather/xiv-mcp",
-        "https://github.com/Indrajit-Saha/medusa-admin-backoffice-poc"
+        "https://github.com/Indrajit-Saha/medusa-admin-backoffice-poc",
+        "https://github.com/ingjuanmbl-jmbl/CardioDocs-RAG-CUN",
+        "https://github.com/inkdropapp/mcp-server"
       ]
-    },
-    {
-      "id": "dataset:amyrmahdy/decima-agent-decisions",
-      "title": "Lire le dataset amyrmahdy/decima-agent-decisions",
-      "status": "validated",
-      "validatedAt": "2026-11-11T05:19:45+00:00",
-      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
-      "resourcesTested": [
-        "https://huggingface.co/datasets/amyrmahdy/decima-agent-decisions"
-      ],
-      "practiceCount": 1,
-      "handler": "hf-dataset-sample-readonly",
-      "scope": "read-only-dataset-sampling",
-      "call": {
-        "tool": "novens_capabilities_invoke",
-        "capability_id": "dataset:amyrmahdy/decima-agent-decisions"
-      }
-    },
-    {
-      "id": "dataset:anonymoussubmissions/earnings21-gold-transcripts-non-normalized",
-      "title": "Lire le dataset anonymoussubmissions/earnings21-gold-transcripts-non-normalized",
-      "status": "validated",
-      "validatedAt": "2026-11-11T05:19:45+00:00",
-      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
-      "resourcesTested": [
-        "https://huggingface.co/datasets/anonymoussubmissions/earnings21-gold-transcripts-non-normalized"
-      ],
-      "practiceCount": 1,
-      "handler": "hf-dataset-sample-readonly",
-      "scope": "read-only-dataset-sampling",
-      "call": {
-        "tool": "novens_capabilities_invoke",
-        "capability_id": "dataset:anonymoussubmissions/earnings21-gold-transcripts-non-normalized"
-      }
     }
   ],
   "capabilityTrials": [
-    {
-      "date": "2026-11-06T17:15:32+00:00",
-      "skillId": "github-repository-technical-audit-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 289,
-      "failures": []
-    },
-    {
-      "date": "2026-11-06T17:15:34+00:00",
-      "skillId": "hf-model-task-classification-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 262,
-      "failures": [
-        {
-          "id": "aomar85/finetuned-arabert-textclassificationv01",
-          "reason": "ValueError"
-        },
-        {
-          "id": "archita091234/fine-tuned-translation",
-          "reason": "ValueError"
-        },
-        {
-          "id": "arev/translationtest",
-          "reason": "ValueError"
-        },
-        {
-          "id": "arryuann/medical-transcription-corrector",
-          "reason": "ValueError"
-        },
-        {
-          "id": "ArtemisAI/ai-agents-course-multi-tool-agent",
-          "reason": "ValueError"
-        },
-        {
-          "id": "asdc/bert-base-spanish-wwm-cased-finetuned-text_classification",
-          "reason": "ValueError"
-        },
-        {
-          "id": "asdc/roberta-base-biomedical-clinical-es-finetuned-text_classification",
-          "reason": "ValueError"
-        },
-        {
-          "id": "asdc/roberta-base-finetuned-text_classification",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-06T17:15:34+00:00",
-      "skillId": "hf-dataset-usage-assessment-v1",
-      "result": "reinforced",
-      "reportsPassed": 1,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 158,
-      "failures": [
-        {
-          "id": "devjirawat8/Air_Vehicle",
-          "reason": "ValueError"
-        },
-        {
-          "id": "dgural/PhysicalAI-Autonomous-Vehicles-Sample",
-          "reason": "ValueError"
-        },
-        {
-          "id": "dhananjay1210/SNLI_French",
-          "reason": "ValueError"
-        },
-        {
-          "id": "diffusers-tools/test_failures",
-          "reason": "ValueError"
-        },
-        {
-          "id": "distil-whisper/whisper_transcriptions_greedy",
-          "reason": "ValueError"
-        },
-        {
-          "id": "djghosh/wds_vtab-kitti_closest_vehicle_distance_test",
-          "reason": "ValueError"
-        },
-        {
-          "id": "dmayhem93/toolformer-v0-postprocessed",
-          "reason": "ValueError"
-        },
-        {
-          "id": "dmayhem93/toolformer_raw_v0",
-          "reason": "ValueError"
-        },
-        {
-          "id": "DrBenchmark/FrenchMedMCQA",
-          "reason": "ValueError"
-        },
-        {
-          "id": "echo4eva/vehicles",
-          "reason": "ValueError"
-        },
-        {
-          "id": "erdem-erdem/Turkish-Law-Documents-700k-clustered",
-          "reason": "ValueError"
-        },
-        {
-          "id": "esoria3/french_simplified",
-          "reason": "ValueError"
-        },
-        {
-          "id": "eugenetanjc/speech_accent_1000_french",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Exgentic/agent-llm-traces-v2",
-          "reason": "ValueError"
-        },
-        {
-          "id": "FelipeBandeiraPoatek/invoices-donut-data-v1",
-          "reason": "ValueError"
-        },
-        {
-          "id": "FelipeBandeiraPoatek/invoices-donut-data-v2",
-          "reason": "ValueError"
-        },
-        {
-          "id": "flarexio/accounting-distill",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-06T17:15:34+00:00",
-      "skillId": "hf-space-runtime-diagnostics-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 316,
-      "failures": []
-    },
-    {
-      "date": "2026-11-06T17:15:39+00:00",
-      "skillId": "hf-dataset-sample-ingestion-v1",
-      "result": "reinforced",
-      "reportsPassed": 1,
-      "reportsRequired": 1,
-      "failedResources": [
-        {
-          "id": "rogue-security/mcp-tool-use-quality-benchmark",
-          "error": "HTTPError",
-          "detail": "HTTP Error 401: Unauthorized"
-        },
-        {
-          "id": "s4um1l/accounting_grounding_v1",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "sankettgorey/donut_model_invoice",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "satwik9903/Meeting_transcripts",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "scvi-tools/DATASET-FOR-UNIT-TESTING-1",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "secondstate/finance-agents-benchmark-traces",
-          "error": "HTTPError",
-          "detail": "HTTP Error 401: Unauthorized"
-        },
-        {
-          "id": "Self-Improving-Coding-Agents/SI2CA-Training-Trajectories",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "sonup/indian_vehicle",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "spade-rl/SPADE-Environments-ToolUse",
-          "error": "HTTPError",
-          "detail": "HTTP Error 501: Not Implemented"
-        },
-        {
-          "id": "StanBienaives/french-open-fiscal-texts",
-          "error": "HTTPError",
-          "detail": "HTTP Error 501: Not Implemented"
-        },
-        {
-          "id": "SwiftLiu/accounting",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "thegr8abdessamad/accounting",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "toolathon/Annoy-PyEdu-Rs",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "toolathon/Annoy-PyEdu-Rs-Raw",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "trace-commons/agent-traces",
-          "error": "ValueError",
-          "detail": "Réponse trop volumineuse"
-        },
-        {
-          "id": "transferable-samplers/many-peptides-md",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "uv-scripts/transcription",
-          "error": "HTTPError",
-          "detail": "HTTP Error 501: Not Implemented"
-        },
-        {
-          "id": "vbokaeian/Vehicles",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "vessel888/sp500_earnings_transcripts",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        }
-      ],
-      "totalVerifiedExercises": 292
-    },
     {
       "date": "2026-11-06T22:10:33+00:00",
       "skillId": "github-repository-technical-audit-v1",
@@ -64131,25 +63914,277 @@
         }
       ],
       "totalVerifiedExercises": 315
+    },
+    {
+      "date": "2026-11-11T12:49:34+00:00",
+      "skillId": "github-repository-technical-audit-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 329,
+      "failures": []
+    },
+    {
+      "date": "2026-11-11T12:49:37+00:00",
+      "skillId": "hf-model-task-classification-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 276,
+      "failures": [
+        {
+          "id": "BabuSheelaj/email-image-generation-from-text-to-image",
+          "reason": "ValueError"
+        },
+        {
+          "id": "badalsahani/text-classification-multi",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Bagus/wav2vec2-xlsr-japanese-speech-emotion-recognition",
+          "reason": "ValueError"
+        },
+        {
+          "id": "BahamutRU/DeepSeek-V4-Flash-Vision-Exp-Q8_0-MXFP4-Q3_K-Q2_K-mixed-GGUF",
+          "reason": "ValueError"
+        },
+        {
+          "id": "basso4/model_machine_translation_en_to_vi_ver2",
+          "reason": "ValueError"
+        },
+        {
+          "id": "birgermoell/transcription",
+          "reason": "ValueError"
+        },
+        {
+          "id": "brainnxdomain/Hemmingway-1-Heretic-MTP-V3-VISION-Final-GGUF",
+          "reason": "ValueError"
+        },
+        {
+          "id": "BraveOni/2ch-text-classification",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11T12:49:37+00:00",
+      "skillId": "hf-dataset-usage-assessment-v1",
+      "result": "no-new-evidence",
+      "reportsPassed": 0,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 167,
+      "failures": [
+        {
+          "id": "joytafty/denoising-dirty-documents-train",
+          "reason": "ValueError"
+        },
+        {
+          "id": "joytafty/denoising-dirty-documents-trained_cleaned",
+          "reason": "ValueError"
+        },
+        {
+          "id": "kaahila/sugarcrm_130_documentation",
+          "reason": "ValueError"
+        },
+        {
+          "id": "KaLM-Embedding/KaLM-embedding-finetuning-data-french",
+          "reason": "ValueError"
+        },
+        {
+          "id": "kaniam/invoice",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Kant1/French_Wikipedia_articles",
+          "reason": "ValueError"
+        },
+        {
+          "id": "kapturecx/call-transcript-intent-data-v2",
+          "reason": "ValueError"
+        },
+        {
+          "id": "kenhktsui/open-toolformer-retrieval",
+          "reason": "ValueError"
+        },
+        {
+          "id": "kenhktsui/open-toolformer-retrieval-multi-neg-result",
+          "reason": "ValueError"
+        },
+        {
+          "id": "kenhktsui/open-toolformer-retrieval-multi-neg-result-new-kw",
+          "reason": "ValueError"
+        },
+        {
+          "id": "kenhktsui/open-toolformer-retrieval-multi-result",
+          "reason": "ValueError"
+        },
+        {
+          "id": "kenil-samyak/invoices-donut-data-v1",
+          "reason": "ValueError"
+        },
+        {
+          "id": "KETI-NLP/aihub_document_summarization",
+          "reason": "ValueError"
+        },
+        {
+          "id": "kimcomehome/system-prompts-autonomous-agents",
+          "reason": "ValueError"
+        },
+        {
+          "id": "kothasuhas/accounting-kieso",
+          "reason": "ValueError"
+        },
+        {
+          "id": "kothasuhas/accounting-textbooks-15",
+          "reason": "ValueError"
+        },
+        {
+          "id": "kothasuhas/accounting-textbooks-16",
+          "reason": "ValueError"
+        },
+        {
+          "id": "kothasuhas/accounting-textbooks-6",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11T12:49:37+00:00",
+      "skillId": "hf-space-runtime-diagnostics-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 356,
+      "failures": []
+    },
+    {
+      "date": "2026-11-11T12:49:42+00:00",
+      "skillId": "hf-dataset-sample-ingestion-v1",
+      "result": "no-new-evidence",
+      "reportsPassed": 0,
+      "reportsRequired": 1,
+      "failedResources": [
+        {
+          "id": "appvizer/product-sheets-in-french",
+          "error": "HTTPError",
+          "detail": "HTTP Error 501: Not Implemented"
+        },
+        {
+          "id": "arbml/Document_Classification",
+          "error": "HTTPError",
+          "detail": "HTTP Error 503: Service Temporarily Unavailable"
+        },
+        {
+          "id": "arka0821/multi_document_summarization",
+          "error": "HTTPError",
+          "detail": "HTTP Error 501: Not Implemented"
+        },
+        {
+          "id": "ashg59/invoices-images",
+          "error": "HTTPError",
+          "detail": "HTTP Error 503: Service Temporarily Unavailable"
+        },
+        {
+          "id": "ashraq/youtube-transcription",
+          "error": "HTTPError",
+          "detail": "HTTP Error 503: Service Temporarily Unavailable"
+        },
+        {
+          "id": "Aswin-M/7000_invoice_image_and_json_1",
+          "error": "HTTPError",
+          "detail": "HTTP Error 503: Service Temporarily Unavailable"
+        },
+        {
+          "id": "Aulvem/japanese-invoice-receipt-extraction-eval",
+          "error": "HTTPError",
+          "detail": "HTTP Error 503: Service Temporarily Unavailable"
+        },
+        {
+          "id": "autoevaluate/autoeval-eval-ccdv__arxiv-summarization-document-47d12e-1465753970",
+          "error": "HTTPError",
+          "detail": "HTTP Error 503: Service Temporarily Unavailable"
+        },
+        {
+          "id": "autoevaluate/autoeval-eval-ccdv__arxiv-summarization-document-dcd037-2375274516",
+          "error": "HTTPError",
+          "detail": "HTTP Error 503: Service Temporarily Unavailable"
+        },
+        {
+          "id": "Autonomous-Scientific-Agents/logs",
+          "error": "HTTPError",
+          "detail": "HTTP Error 503: Service Temporarily Unavailable"
+        },
+        {
+          "id": "Autonomous-Scientific-Agents/requests",
+          "error": "HTTPError",
+          "detail": "HTTP Error 503: Service Temporarily Unavailable"
+        },
+        {
+          "id": "Autonomous-Scientific-Agents/results",
+          "error": "HTTPError",
+          "detail": "HTTP Error 503: Service Temporarily Unavailable"
+        },
+        {
+          "id": "BAAI/ToolPrivBench",
+          "error": "HTTPError",
+          "detail": "HTTP Error 503: Service Temporarily Unavailable"
+        },
+        {
+          "id": "balabis/invoices",
+          "error": "HTTPError",
+          "detail": "HTTP Error 501: Not Implemented"
+        },
+        {
+          "id": "BelalElhossany/mgb2_audios_transcriptions_prepared",
+          "error": "HTTPError",
+          "detail": "HTTP Error 503: Service Temporarily Unavailable"
+        },
+        {
+          "id": "bettapixel/tools",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "BibbyResearch/Bibby-AI-Latex-Tool-Overleaf-Alternative",
+          "error": "HTTPError",
+          "detail": "HTTP Error 401: Unauthorized"
+        },
+        {
+          "id": "Bill12138/Task-and-Motion-Re-Planning-for-Multi-Agent-Systems",
+          "error": "HTTPError",
+          "detail": "HTTP Error 501: Not Implemented"
+        },
+        {
+          "id": "botnick/Netra-Thai-Accounting-Synth",
+          "error": "HTTPError",
+          "detail": "HTTP Error 503: Service Temporarily Unavailable"
+        },
+        {
+          "id": "brucewlee1/mmlu-professional-accounting",
+          "error": "HTTPError",
+          "detail": "HTTP Error 503: Service Temporarily Unavailable"
+        }
+      ],
+      "totalVerifiedExercises": 315
     }
   ],
   "lastCapabilityVerification": {
-    "date": "2026-11-11T05:19:45+00:00",
+    "date": "2026-11-11T12:49:42+00:00",
     "skillId": "hf-dataset-sample-ingestion-v1",
-    "result": "reinforced"
+    "result": "no-new-evidence"
   },
   "discovery": {
-    "cursor": 177,
+    "cursor": 178,
     "capacity": 20000,
-    "lastBatch": 23,
+    "lastBatch": 2,
     "newByCategory": {
-      "github": 1,
-      "models": 3,
-      "datasets": 9,
-      "spaces": 10
+      "github": 0,
+      "models": 1,
+      "datasets": 1,
+      "spaces": 0
     },
     "queriesLastRun": 7,
-    "totalSearchCycles": 177,
+    "totalSearchCycles": 178,
     "lastErrors": []
   },
   "approvedResources": [

@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-11T05:19:42+00:00",
+  "lastPracticedAt": "2026-11-11T12:49:37+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -2474,6 +2474,24 @@
       "declaredLicense": "gemma",
       "access": "public",
       "modelFiles": 5
+    },
+    {
+      "id": "BrunoHays/embeddinggemma-2-nullspace-audio",
+      "source": "https://huggingface.co/BrunoHays/embeddinggemma-2-nullspace-audio",
+      "observedAt": "2026-11-11T12:49:37+00:00",
+      "task": "feature-extraction",
+      "declaredLicense": "gemma",
+      "access": "public",
+      "modelFiles": 4
+    },
+    {
+      "id": "ByronLeeee/EmbeddingGemma-300M-LawVault",
+      "source": "https://huggingface.co/ByronLeeee/EmbeddingGemma-300M-LawVault",
+      "observedAt": "2026-11-11T12:49:37+00:00",
+      "task": "sentence-similarity",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 15
     }
   ]
 }
