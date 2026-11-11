@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-10T23:56:29+00:00",
+  "lastPracticedAt": "2026-11-11T05:19:40+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -5484,6 +5484,40 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2025-10-09T09:07:48Z"
+    },
+    {
+      "repository": "IndividualGather/xiv-mcp",
+      "url": "https://github.com/IndividualGather/xiv-mcp",
+      "defaultBranch": "master",
+      "primaryLanguage": "C#",
+      "primaryLanguageSharePercent": 89.7,
+      "languageBytes": {
+        "C#": 2666443,
+        "MDX": 233217,
+        "TypeScript": 26087,
+        "JavaScript": 25128,
+        "PowerShell": 19091,
+        "CSS": 2768
+      },
+      "totalLanguageBytes": 2972734,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-11-11T02:16:22Z"
+    },
+    {
+      "repository": "Indrajit-Saha/medusa-admin-backoffice-poc",
+      "url": "https://github.com/Indrajit-Saha/medusa-admin-backoffice-poc",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 97.59,
+      "languageBytes": {
+        "TypeScript": 34121,
+        "JavaScript": 842
+      },
+      "totalLanguageBytes": 34963,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-07-17T05:30:26Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

@@ -1,17 +1,17 @@
 {
   "name": "NOVENS CORE — GALAXIE VIVANTE",
-  "asOf": "2026-11-10T23:56:18+00:00",
-  "polledAt": "2026-11-10T23:56:18+00:00",
-  "resourceCount": 7245,
+  "asOf": "2026-11-11T05:19:34+00:00",
+  "polledAt": "2026-11-11T05:19:34+00:00",
+  "resourceCount": 7268,
   "categoryCounts": {
-    "github": 5294,
-    "models": 776,
-    "datasets": 572,
-    "spaces": 603
+    "github": 5295,
+    "models": 779,
+    "datasets": 581,
+    "spaces": 613
   },
-  "verifiedSkills": 318,
+  "verifiedSkills": 320,
   "netProfitEuro": 0.0,
-  "growth24h": 153,
+  "growth24h": 160,
   "history": [
     {
       "date": "2026-10-26T22:30:41+01:00",
@@ -1116,6 +1116,12 @@
       "resources": 7245,
       "verified": 318,
       "profit": 0.0
+    },
+    {
+      "date": "2026-11-11T05:19:34+00:00",
+      "resources": 7268,
+      "verified": 320,
+      "profit": 0.0
     }
   ],
   "nodes": [
@@ -1272,6 +1278,13 @@
       "name": "agentlans/dijkstra",
       "url": "https://huggingface.co/datasets/agentlans/dijkstra",
       "firstSeen": "2026-11-07T08:30:29+00:00"
+    },
+    {
+      "id": "datasets:agentlans/high-quality-english-sentences",
+      "category": "datasets",
+      "name": "agentlans/high-quality-english-sentences",
+      "url": "https://huggingface.co/datasets/agentlans/high-quality-english-sentences",
+      "firstSeen": "2026-11-11T05:19:34+00:00"
     },
     {
       "id": "datasets:agentlans/literary-reasoning",
@@ -2562,6 +2575,20 @@
       "firstSeen": "2026-10-27T16:16:41+00:00"
     },
     {
+      "id": "datasets:google/asimov_agentic",
+      "category": "datasets",
+      "name": "google/asimov_agentic",
+      "url": "https://huggingface.co/datasets/google/asimov_agentic",
+      "firstSeen": "2026-11-11T05:19:34+00:00"
+    },
+    {
+      "id": "datasets:google/multimodal-knowledge-agent",
+      "category": "datasets",
+      "name": "google/multimodal-knowledge-agent",
+      "url": "https://huggingface.co/datasets/google/multimodal-knowledge-agent",
+      "firstSeen": "2026-11-11T05:19:34+00:00"
+    },
+    {
       "id": "datasets:GraystokeNick/jess-transcripts",
       "category": "datasets",
       "name": "GraystokeNick/jess-transcripts",
@@ -3164,6 +3191,13 @@
       "firstSeen": "2026-10-27T13:28:19+00:00"
     },
     {
+      "id": "datasets:jumplander/JL-Agentic-Behavior-10K",
+      "category": "datasets",
+      "name": "jumplander/JL-Agentic-Behavior-10K",
+      "url": "https://huggingface.co/datasets/jumplander/JL-Agentic-Behavior-10K",
+      "firstSeen": "2026-11-11T05:19:34+00:00"
+    },
+    {
       "id": "datasets:jupyter-agent/jupyter-agent-dataset",
       "category": "datasets",
       "name": "jupyter-agent/jupyter-agent-dataset",
@@ -3696,6 +3730,13 @@
       "firstSeen": "2026-11-03T07:54:48+00:00"
     },
     {
+      "id": "datasets:mikuhhn1239/novel-agent-sft-dataset",
+      "category": "datasets",
+      "name": "mikuhhn1239/novel-agent-sft-dataset",
+      "url": "https://huggingface.co/datasets/mikuhhn1239/novel-agent-sft-dataset",
+      "firstSeen": "2026-11-11T05:19:34+00:00"
+    },
+    {
       "id": "datasets:Minbyul/AgentMercury-corpus",
       "category": "datasets",
       "name": "Minbyul/AgentMercury-corpus",
@@ -3941,6 +3982,13 @@
       "firstSeen": "2026-11-03T07:54:48+00:00"
     },
     {
+      "id": "datasets:nvidia/Nemotron-RL-agent-workplace_assistant",
+      "category": "datasets",
+      "name": "nvidia/Nemotron-RL-agent-workplace_assistant",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-RL-agent-workplace_assistant",
+      "firstSeen": "2026-11-11T05:19:34+00:00"
+    },
+    {
       "id": "datasets:nvidia/Nemotron-RL-Agentic-Conversational-Tool-Use-Pivot-v1",
       "category": "datasets",
       "name": "nvidia/Nemotron-RL-Agentic-Conversational-Tool-Use-Pivot-v1",
@@ -3955,11 +4003,25 @@
       "firstSeen": "2026-11-07T08:30:29+00:00"
     },
     {
+      "id": "datasets:nvidia/Nemotron-RL-Agentic-Function-Calling-Pivot-v1",
+      "category": "datasets",
+      "name": "nvidia/Nemotron-RL-Agentic-Function-Calling-Pivot-v1",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-RL-Agentic-Function-Calling-Pivot-v1",
+      "firstSeen": "2026-11-11T05:19:34+00:00"
+    },
+    {
       "id": "datasets:nvidia/Nemotron-RL-Agentic-Indirect-Prompt-Injection-v1",
       "category": "datasets",
       "name": "nvidia/Nemotron-RL-Agentic-Indirect-Prompt-Injection-v1",
       "url": "https://huggingface.co/datasets/nvidia/Nemotron-RL-Agentic-Indirect-Prompt-Injection-v1",
       "firstSeen": "2026-10-30T18:47:13+00:00"
+    },
+    {
+      "id": "datasets:nvidia/Nemotron-RL-Agentic-SWE-Pivot-v1",
+      "category": "datasets",
+      "name": "nvidia/Nemotron-RL-Agentic-SWE-Pivot-v1",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-RL-Agentic-SWE-Pivot-v1",
+      "firstSeen": "2026-11-11T05:19:34+00:00"
     },
     {
       "id": "datasets:nvidia/Nemotron-RL-Agentic-Terminal-Pivot-v1",
@@ -4716,6 +4778,13 @@
       "name": "TeichAI/DeepSeek-v4-Pro-Agent",
       "url": "https://huggingface.co/datasets/TeichAI/DeepSeek-v4-Pro-Agent",
       "firstSeen": "2026-11-05T08:36:54+00:00"
+    },
+    {
+      "id": "datasets:Tevatron/AgentIR-data",
+      "category": "datasets",
+      "name": "Tevatron/AgentIR-data",
+      "url": "https://huggingface.co/datasets/Tevatron/AgentIR-data",
+      "firstSeen": "2026-11-11T05:19:34+00:00"
     },
     {
       "id": "datasets:th1nhng0/vietnamese-legal-documents",
@@ -21677,6 +21746,13 @@
       "name": "Joydeep4871/kbc-game",
       "url": "https://github.com/Joydeep4871/kbc-game",
       "firstSeen": "2026-10-27T23:59:45+00:00"
+    },
+    {
+      "id": "github:jpad5/ppcc26-apps-automations-agents",
+      "category": "github",
+      "name": "jpad5/ppcc26-apps-automations-agents",
+      "url": "https://github.com/jpad5/ppcc26-apps-automations-agents",
+      "firstSeen": "2026-11-11T05:19:34+00:00"
     },
     {
       "id": "github:jpark290/FleetZero_PredictiveMaintenance",
@@ -43029,6 +43105,13 @@
       "firstSeen": "2026-10-28T19:59:36+00:00"
     },
     {
+      "id": "models:coder543/nemotron-speech-streaming-en-0.6b-glade",
+      "category": "models",
+      "name": "coder543/nemotron-speech-streaming-en-0.6b-glade",
+      "url": "https://huggingface.co/coder543/nemotron-speech-streaming-en-0.6b-glade",
+      "firstSeen": "2026-11-11T05:19:34+00:00"
+    },
+    {
       "id": "models:CohereLabs/North-Micro-Vision-Instruct",
       "category": "models",
       "name": "CohereLabs/North-Micro-Vision-Instruct",
@@ -45045,6 +45128,13 @@
       "firstSeen": "2026-10-27T20:03:47+00:00"
     },
     {
+      "id": "models:marcoyang/spear-xlarge-speech-audio-v2",
+      "category": "models",
+      "name": "marcoyang/spear-xlarge-speech-audio-v2",
+      "url": "https://huggingface.co/marcoyang/spear-xlarge-speech-audio-v2",
+      "firstSeen": "2026-11-11T05:19:34+00:00"
+    },
+    {
       "id": "models:masterofaudio2077/nemo-speech-cpp-cuda-t4",
       "category": "models",
       "name": "masterofaudio2077/nemo-speech-cpp-cuda-t4",
@@ -46900,6 +46990,13 @@
       "firstSeen": "2026-10-27T16:16:41+00:00"
     },
     {
+      "id": "models:SpeechTek/MEUSLI_projector_v2",
+      "category": "models",
+      "name": "SpeechTek/MEUSLI_projector_v2",
+      "url": "https://huggingface.co/SpeechTek/MEUSLI_projector_v2",
+      "firstSeen": "2026-11-11T05:19:34+00:00"
+    },
+    {
       "id": "models:SPK1337/Huihui-Qwen3.8-27B-Uncensored-GSQ-RCO-IQ3S-Vision-DFlash2-MTP-NInfer",
       "category": "models",
       "name": "SPK1337/Huihui-Qwen3.8-27B-Uncensored-GSQ-RCO-IQ3S-Vision-DFlash2-MTP-NInfer",
@@ -47824,6 +47921,13 @@
       "firstSeen": "2026-10-26T23:15:29+00:00"
     },
     {
+      "id": "spaces:Agents-MCP-Hackathon/MMORPG_AI_NPC_MCP_CLIENT_SERVER",
+      "category": "spaces",
+      "name": "Agents-MCP-Hackathon/MMORPG_AI_NPC_MCP_CLIENT_SERVER",
+      "url": "https://huggingface.co/spaces/Agents-MCP-Hackathon/MMORPG_AI_NPC_MCP_CLIENT_SERVER",
+      "firstSeen": "2026-11-11T05:19:34+00:00"
+    },
+    {
       "id": "spaces:Agents-MCP-Hackathon/multi-agent-chat",
       "category": "spaces",
       "name": "Agents-MCP-Hackathon/multi-agent-chat",
@@ -47836,6 +47940,13 @@
       "name": "Agents-MCP-Hackathon/multi-agent_deep-research",
       "url": "https://huggingface.co/spaces/Agents-MCP-Hackathon/multi-agent_deep-research",
       "firstSeen": "2026-10-27T13:09:33+00:00"
+    },
+    {
+      "id": "spaces:Agents-MCP-Hackathon/TinyCodeAgent",
+      "category": "spaces",
+      "name": "Agents-MCP-Hackathon/TinyCodeAgent",
+      "url": "https://huggingface.co/spaces/Agents-MCP-Hackathon/TinyCodeAgent",
+      "firstSeen": "2026-11-11T05:19:34+00:00"
     },
     {
       "id": "spaces:agentscope-ai/Cowork-Gym",
@@ -48116,6 +48227,13 @@
       "name": "ArtificialAnalysis/Video-Generation-Arena-Leaderboard",
       "url": "https://huggingface.co/spaces/ArtificialAnalysis/Video-Generation-Arena-Leaderboard",
       "firstSeen": "2026-10-27T15:56:21+00:00"
+    },
+    {
+      "id": "spaces:Artur-Melnyk/Medical-Insight-Explorer-Agent",
+      "category": "spaces",
+      "name": "Artur-Melnyk/Medical-Insight-Explorer-Agent",
+      "url": "https://huggingface.co/spaces/Artur-Melnyk/Medical-Insight-Explorer-Agent",
+      "firstSeen": "2026-11-11T05:19:34+00:00"
     },
     {
       "id": "spaces:arunks/RAG-Retrieval.Augmented.Generation",
@@ -48468,6 +48586,13 @@
       "firstSeen": "2026-10-27T15:21:32+00:00"
     },
     {
+      "id": "spaces:Chennzi/agentic-forecasting",
+      "category": "spaces",
+      "name": "Chennzi/agentic-forecasting",
+      "url": "https://huggingface.co/spaces/Chennzi/agentic-forecasting",
+      "firstSeen": "2026-11-11T05:19:34+00:00"
+    },
+    {
       "id": "spaces:ChetanSaifsAi/text-to-video-generator-template",
       "category": "spaces",
       "name": "ChetanSaifsAi/text-to-video-generator-template",
@@ -48487,6 +48612,13 @@
       "name": "comodoro/Coqui-STT-transcription",
       "url": "https://huggingface.co/spaces/comodoro/Coqui-STT-transcription",
       "firstSeen": "2026-10-27T15:37:05+00:00"
+    },
+    {
+      "id": "spaces:conalep-agente/sofia-ai",
+      "category": "spaces",
+      "name": "conalep-agente/sofia-ai",
+      "url": "https://huggingface.co/spaces/conalep-agente/sofia-ai",
+      "firstSeen": "2026-11-11T05:19:34+00:00"
     },
     {
       "id": "spaces:CumaSystem/Omni-videos-custom",
@@ -49280,6 +49412,13 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "spaces:inderpsingh/GAIA_Unit4_Agent",
+      "category": "spaces",
+      "name": "inderpsingh/GAIA_Unit4_Agent",
+      "url": "https://huggingface.co/spaces/inderpsingh/GAIA_Unit4_Agent",
+      "firstSeen": "2026-11-11T05:19:34+00:00"
+    },
+    {
       "id": "spaces:indykish/retirement-planning-agent",
       "category": "spaces",
       "name": "indykish/retirement-planning-agent",
@@ -49439,6 +49578,13 @@
       "name": "kadirnar/Video-Diffusion-WebUI",
       "url": "https://huggingface.co/spaces/kadirnar/Video-Diffusion-WebUI",
       "firstSeen": "2026-10-27T15:56:21+00:00"
+    },
+    {
+      "id": "spaces:kailashhh/Hermes-Agent",
+      "category": "spaces",
+      "name": "kailashhh/Hermes-Agent",
+      "url": "https://huggingface.co/spaces/kailashhh/Hermes-Agent",
+      "firstSeen": "2026-11-11T05:19:34+00:00"
     },
     {
       "id": "spaces:kalikho/repro-effgen-enabling-small-language-models-as-capable-autonomous-agents",
@@ -49677,6 +49823,13 @@
       "name": "lvwerra/agent-manager-template",
       "url": "https://huggingface.co/spaces/lvwerra/agent-manager-template",
       "firstSeen": "2026-10-26T23:15:29+00:00"
+    },
+    {
+      "id": "spaces:lvwerra/jupyter-agent-2",
+      "category": "spaces",
+      "name": "lvwerra/jupyter-agent-2",
+      "url": "https://huggingface.co/spaces/lvwerra/jupyter-agent-2",
+      "firstSeen": "2026-11-11T05:19:34+00:00"
     },
     {
       "id": "spaces:maastrichtlawtech/belgian-legislation-search",
@@ -50398,6 +50551,13 @@
       "name": "pramodvenkatesh/Sim-Search",
       "url": "https://huggingface.co/spaces/pramodvenkatesh/Sim-Search",
       "firstSeen": "2026-10-27T16:16:41+00:00"
+    },
+    {
+      "id": "spaces:pranamhan/flyhash-agent-memory-demo",
+      "category": "spaces",
+      "name": "pranamhan/flyhash-agent-memory-demo",
+      "url": "https://huggingface.co/spaces/pranamhan/flyhash-agent-memory-demo",
+      "firstSeen": "2026-11-11T05:19:34+00:00"
     },
     {
       "id": "spaces:Pranavdubey1725/ai-video-surveillance",
@@ -51478,6 +51638,13 @@
       "firstSeen": "2026-10-27T13:09:33+00:00"
     },
     {
+      "id": "spaces:townbox/character-animation-for-agents",
+      "category": "spaces",
+      "name": "townbox/character-animation-for-agents",
+      "url": "https://huggingface.co/spaces/townbox/character-animation-for-agents",
+      "firstSeen": "2026-11-11T05:19:34+00:00"
+    },
+    {
       "id": "spaces:townbox/skintokens-for-agents",
       "category": "spaces",
       "name": "townbox/skintokens-for-agents",
@@ -51839,9 +52006,9 @@
   "cloud": {
     "agent": "Éclaireur NOVENS CORE",
     "execution": "GitHub Actions",
-    "lastMissionAt": "2026-11-10T23:56:18+00:00",
+    "lastMissionAt": "2026-11-11T05:19:34+00:00",
     "missionStatus": "succès",
-    "newResources": 20,
+    "newResources": 23,
     "errors": 0,
     "nextScheduled": "Toutes les 10 minutes si GitHub Actions disponible",
     "machineIndependence": true
@@ -51852,10 +52019,10 @@
       "title": "Classer des modèles IA par tâche et licence déclarée",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-11-09T11:04:32+00:00",
-      "practiceCount": 273,
+      "lastPracticedAt": "2026-11-11T05:19:42+00:00",
+      "practiceCount": 274,
       "proofPath": "evidence/hf-model-task-classification-v1.json",
-      "proofSha256": "80223c66cf9dbf3948e4af70f49011f9688ec52343b004115388df7a660ed0f3",
+      "proofSha256": "c7ae37e58be59ce07d68fc2ce8163879cd602f14ad06640d4195bbb36867d749",
       "resourcesTested": [
         "https://huggingface.co/agentionai/Qwen3.8-27B-AP-GGUF",
         "https://huggingface.co/agentionai/Signal-3.8-27B",
@@ -52129,7 +52296,8 @@
         "https://huggingface.co/BidirLM/BidirLM-270M-Embedding",
         "https://huggingface.co/BidirLM/BidirLM-Omni-2.5B-Embedding",
         "https://huggingface.co/blackshell69/Qwen3.5-9B-distilled-coding-agentic",
-        "https://huggingface.co/baseten/GLM-5.2-Vision-FP8"
+        "https://huggingface.co/baseten/GLM-5.2-Vision-FP8",
+        "https://huggingface.co/bmabir17/embeddinggemma-300m"
       ]
     },
     {
@@ -52137,10 +52305,10 @@
       "title": "Qualifier licence et format de jeux de données IA",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-11-10T23:56:31+00:00",
-      "practiceCount": 166,
+      "lastPracticedAt": "2026-11-11T05:19:42+00:00",
+      "practiceCount": 167,
       "proofPath": "evidence/hf-dataset-usage-assessment-v1.json",
-      "proofSha256": "b0fbd4a0da2b2a8c9cfdd8218c6ba93fad74b4cba94aae7829c5625fb87f5a14",
+      "proofSha256": "2501d8c4d3b754172bcb7e47fc9212ebafca21a4df9fdf03ec0ef846d36d9cc5",
       "resourcesTested": [
         "https://huggingface.co/datasets/11-47/autonomous-ai-agents-multi-agent-swarms-2026",
         "https://huggingface.co/datasets/AdityaaXD/Multi-Agent_Reinforcement_Learning_Trading_System_Data",
@@ -52307,7 +52475,8 @@
         "https://huggingface.co/datasets/JohnTan38/sparrow-invoice-v1",
         "https://huggingface.co/datasets/kuladeepmantri/4-Security-Tools-Pentesting",
         "https://huggingface.co/datasets/llamafactory/glaive_toolcall_en",
-        "https://huggingface.co/datasets/llamafactory/reason-tool-use-demo-1500"
+        "https://huggingface.co/datasets/llamafactory/reason-tool-use-demo-1500",
+        "https://huggingface.co/datasets/jumplander/JL-Agentic-Behavior-10K"
       ]
     },
     {
@@ -52315,10 +52484,10 @@
       "title": "Diagnostiquer le runtime de démonstrations IA",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-11-10T23:56:31+00:00",
-      "practiceCount": 352,
+      "lastPracticedAt": "2026-11-11T05:19:42+00:00",
+      "practiceCount": 354,
       "proofPath": "evidence/hf-space-runtime-diagnostics-v1.json",
-      "proofSha256": "ffbdfe89ef6bb7ce5adae7ddbe88ec9798cb04cccf35f195434cbbd79ca8dc36",
+      "proofSha256": "fe8c25d20d345d529b4245b9b1d4cdf244946e16b4789a2239a6b558220f12f2",
       "resourcesTested": [
         "https://huggingface.co/spaces/Aarya003/Financial-Analyst-Agent",
         "https://huggingface.co/spaces/AceVikings/repro-learning-human-robot-collaboration-via-heterogeneous-agent-lyapunov-policy-optimizatio",
@@ -52671,7 +52840,9 @@
         "https://huggingface.co/spaces/gurgenblbulyan/video-based-text-generation",
         "https://huggingface.co/spaces/hacacimi/video-swap-studio",
         "https://huggingface.co/spaces/hackHackXanum/audio-transcription",
-        "https://huggingface.co/spaces/Heartsync/NSFW-Uncensored-video"
+        "https://huggingface.co/spaces/Heartsync/NSFW-Uncensored-video",
+        "https://huggingface.co/spaces/cfahlgren1/pixel-search",
+        "https://huggingface.co/spaces/Chennzi/agentic-forecasting"
       ]
     },
     {
@@ -52679,10 +52850,10 @@
       "title": "Lire et contrôler des échantillons de datasets publics",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:46+00:00",
-      "lastPracticedAt": "2026-11-10T23:56:36+00:00",
-      "practiceCount": 313,
+      "lastPracticedAt": "2026-11-11T05:19:45+00:00",
+      "practiceCount": 315,
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/AdityaaXD/Multi-Agent_Reinforcement_Learning_Trading_System_Data",
         "https://huggingface.co/datasets/Agent-Ark/Toucan-1.5M",
@@ -52996,7 +53167,9 @@
         "https://huggingface.co/datasets/Autonomous-Scientific-Agents/groundtruth",
         "https://huggingface.co/datasets/Battam/agentic-env-index",
         "https://huggingface.co/datasets/bigscience-historical-texts/Open_Medieval_French",
-        "https://huggingface.co/datasets/bilalabic/turkish-tool-calling"
+        "https://huggingface.co/datasets/bilalabic/turkish-tool-calling",
+        "https://huggingface.co/datasets/amyrmahdy/decima-agent-decisions",
+        "https://huggingface.co/datasets/anonymoussubmissions/earnings21-gold-transcripts-non-normalized"
       ]
     },
     {
@@ -53005,7 +53178,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:46+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/AdityaaXD/Multi-Agent_Reinforcement_Learning_Trading_System_Data"
       ],
@@ -53023,7 +53196,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:46+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Agent-Ark/Toucan-1.5M"
       ],
@@ -53041,7 +53214,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T13:28:32+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/hf-internal-testing/example-documents"
       ],
@@ -53059,7 +53232,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T13:28:32+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/hirundo-io/document-injection-answered"
       ],
@@ -53077,7 +53250,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T15:21:47+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/GalaktischeGurke/full_dataset_600_lines_invoice_contract_mail"
       ],
@@ -53095,7 +53268,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T15:21:47+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/GalaktischeGurke/invoices_instruct_vf"
       ],
@@ -53113,7 +53286,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T15:37:14+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/huggingface/documentation-images"
       ],
@@ -53131,7 +53304,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T15:37:14+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/HumynLabs/Brazilian_Bills_and_Invoices_Dataset"
       ],
@@ -53149,7 +53322,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T15:56:30+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/ikuldeep1/vehicle-damage-fraud-image"
       ],
@@ -53167,7 +53340,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T15:56:30+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/ikuldeep1/vehicle-damage-fraud-image-balanced"
       ],
@@ -53185,7 +53358,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T16:16:55+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/IljaSamoilov/ERR-transcription-to-subtitles"
       ],
@@ -53203,7 +53376,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T16:16:55+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/infinite-dataset-hub/VehicleClassifier"
       ],
@@ -53221,7 +53394,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T16:37:16+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/infinite-dataset-hub/VehicleHealthMonitoring"
       ],
@@ -53239,7 +53412,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T16:37:16+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/ItsMayur/Vehicle_Complaints_NHSTA"
       ],
@@ -53257,7 +53430,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T16:57:42+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/HydraLM/GPTeacher_toolformer_list_dict"
       ],
@@ -53275,7 +53448,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T16:57:42+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/HydraLM/GPTeacher_toolformer_standardized"
       ],
@@ -53293,7 +53466,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T17:17:52+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Ivan1008/toolace-hallucination-spans"
       ],
@@ -53311,7 +53484,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T17:17:52+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/jacobwelsh/accounting"
       ],
@@ -53329,7 +53502,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T17:38:04+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-neg-prepend-fix"
       ],
@@ -53347,7 +53520,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T17:38:04+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-neg-prepend-verbal"
       ],
@@ -53365,7 +53538,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T17:58:32+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/katanaml-org/invoices-donut-data-v1"
       ],
@@ -53383,7 +53556,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T17:58:32+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/kenhktsui/open-toolformer-retrieval"
       ],
@@ -53401,7 +53574,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T18:18:46+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Lots-of-LoRAs/task728_mmmlu_answer_generation_professional_accounting"
       ],
@@ -53419,7 +53592,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T18:18:46+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/lowem1/training-invoices"
       ],
@@ -53437,7 +53610,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T18:38:43+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/michsethowusu/french-fulah_sentence-pairs"
       ],
@@ -53455,7 +53628,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T18:38:43+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/michsethowusu/french-lingala_sentence-pairs"
       ],
@@ -53473,7 +53646,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T18:42:16+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/nvidia/Nemotron-RL-Agentic-Conversational-Tool-Use-Pivot-v1"
       ],
@@ -53491,7 +53664,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T18:42:16+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/nvidia/Nemotron-SFT-Agentic-Finance-v1"
       ],
@@ -53509,7 +53682,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T19:03:09+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/open-source-metrics/document-question-answering-checkpoint-downloads"
       ],
@@ -53527,7 +53700,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T19:03:09+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/open-thoughts/AgentTrove"
       ],
@@ -53545,7 +53718,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T19:23:19+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/procit005/vehicles1"
       ],
@@ -53563,7 +53736,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T19:23:19+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/procit005/vehicles11"
       ],
@@ -53581,7 +53754,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T19:43:50+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Salesforce/wikitext"
       ],
@@ -53599,7 +53772,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T19:43:50+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/sanchit-gandhi/whisper-ls-transcriptions"
       ],
@@ -53617,7 +53790,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T20:04:07+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/tanishaiwozo/high-quality-invoice-images-for-ocr"
       ],
@@ -53635,7 +53808,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T20:04:07+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/tbboukhari/Alpaca-in-french"
       ],
@@ -53653,7 +53826,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T20:24:27+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Vikhrmodels/tool-plannings-v0.2"
       ],
@@ -53671,7 +53844,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T20:24:27+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/waechor/tuto_foo_french2023"
       ],
@@ -53689,7 +53862,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T20:44:38+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/yzhuang/metatree_vehicle_sensIT"
       ],
@@ -53707,7 +53880,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T20:44:38+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/zachgitt/comedy-transcripts"
       ],
@@ -53725,7 +53898,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T21:04:50+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/agomberto/FrenchCensus-handwritten-texts"
       ],
@@ -53743,7 +53916,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T21:04:50+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/AhmedBou/French_quotes"
       ],
@@ -53761,7 +53934,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T21:25:31+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/anonymoussubmissions/earnings21-gold-transcripts-normalized"
       ],
@@ -53779,7 +53952,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T21:25:31+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Aoschu/donut_model_data_for_german_invoice"
       ],
@@ -53797,7 +53970,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T21:44:27+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/b000cb34ccdf5cba9115e34c8165c749/classified-government-documents"
       ],
@@ -53815,7 +53988,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T21:44:27+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/beatsprom/autonomous-ai-agents-multi-agent-swarms-2026"
       ],
@@ -53833,7 +54006,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T22:07:41+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/CATIE-AQ/frenchQA"
       ],
@@ -53851,7 +54024,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T22:07:41+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/ClarusC64/ai-tool-use-boundary-coherence-risk-v0.1"
       ],
@@ -53869,7 +54042,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T22:26:39+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/DenyTranDFW/BMW_Vehicle_Lease_Trust_2017_2_1716665"
       ],
@@ -53887,7 +54060,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T22:26:39+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/DenyTranDFW/BMW_Vehicle_Lease_Trust_2018_1_1753585"
       ],
@@ -53905,7 +54078,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T22:38:42+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/erfanvaredi/zephyr-7b-beta-invoices"
       ],
@@ -53923,7 +54096,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T22:38:42+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/esoria3/french_simplified"
       ],
@@ -53941,7 +54114,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T22:58:38+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/GalaktischeGurke/invoices_instruct_vf_weird"
       ],
@@ -53959,7 +54132,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T22:58:38+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/GalaktischeGurke/parameter_extraction_1500_mail_contract_invoice"
       ],
@@ -53977,7 +54150,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T23:18:59+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/huggingartists/tool"
       ],
@@ -53995,7 +54168,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T23:18:59+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/huggingface-course/documentation-images"
       ],
@@ -54013,7 +54186,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T23:39:34+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/jamescalam/lex-transcripts"
       ],
@@ -54031,7 +54204,7 @@
       "status": "validated",
       "validatedAt": "2026-10-27T23:39:34+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/jamescalam/youtube-transcriptions"
       ],
@@ -54049,7 +54222,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T00:00:01+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/jason1966/abidhussai512_ai-tools-usage-and-trends-dataset-2026"
       ],
@@ -54067,7 +54240,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T00:00:01+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/JaydubzJW/documents"
       ],
@@ -54085,7 +54258,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T00:20:14+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/joytafty/denoising-dirty-documents-cleaned"
       ],
@@ -54103,7 +54276,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T00:20:14+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/joytafty/denoising-dirty-documents-test"
       ],
@@ -54121,7 +54294,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T00:40:54+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/kothasuhas/accounting-textbooks-16"
       ],
@@ -54139,7 +54312,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T00:40:54+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/kothasuhas/accounting-textbooks-6"
       ],
@@ -54157,7 +54330,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T01:01:24+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/matallanas/yannic-kilcher-transcript"
       ],
@@ -54175,7 +54348,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T01:01:24+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/maximoss/rte3-french"
       ],
@@ -54193,7 +54366,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T01:21:26+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/moganai/turkish-synthetic-documents"
       ],
@@ -54211,7 +54384,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T01:21:26+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/monodox/cortex-agent-planning"
       ],
@@ -54229,7 +54402,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T01:41:50+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/nvidia/ToolScale"
       ],
@@ -54247,7 +54420,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T01:41:50+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/odunola/bible-passage-transcription"
       ],
@@ -54265,7 +54438,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T02:02:11+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Paul/hatecheck-french"
       ],
@@ -54283,7 +54456,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T02:02:11+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/PaulineSanchez/Translation_words_and_sentences_english_french"
       ],
@@ -54301,7 +54474,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T02:22:43+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/rakesh-ai/Medical_Transcription"
       ],
@@ -54319,7 +54492,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T02:22:43+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/renumics/synthetic-vehicle-fleet-telemetry"
       ],
@@ -54337,7 +54510,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T02:41:33+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/sonup/vehicles"
       ],
@@ -54355,7 +54528,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T02:41:33+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/srinivaspadmanabhuni/agentic-ai-test-checklist-110"
       ],
@@ -54373,7 +54546,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T03:01:49+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/tool3/face"
       ],
@@ -54391,7 +54564,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T03:01:49+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/tool3/talface"
       ],
@@ -54409,7 +54582,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T03:22:00+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Whispering-GPT/whisper-transcripts-the-verge"
       ],
@@ -54427,7 +54600,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T03:22:00+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Whispering-GPT/yannic-kilcher-transcript"
       ],
@@ -54445,7 +54618,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T03:42:22+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/abross/youtube-transcriptions"
       ],
@@ -54463,7 +54636,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T03:42:22+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/adiren7/darija_to_french_speech_to_text"
       ],
@@ -54481,7 +54654,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T04:02:41+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/algohype/accounting"
       ],
@@ -54499,7 +54672,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T04:02:41+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Aliissa99/FrenchMedMCQA"
       ],
@@ -54517,7 +54690,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T04:23:01+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/arvindrajan92/sroie_document_understanding"
       ],
@@ -54535,7 +54708,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T04:23:01+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/aryadytm/vehicle-classification"
       ],
@@ -54553,7 +54726,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T04:43:47+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/BelalElhossany/mgb2_audios_transcriptions"
       ],
@@ -54571,7 +54744,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T04:43:47+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/BelalElhossany/mgb2_audios_transcriptions_non_overlap"
       ],
@@ -54589,7 +54762,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T05:04:00+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/dajor85570/invoices-and-receipts_ocr_v1"
       ],
@@ -54607,7 +54780,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T05:04:00+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/darisdzakwanhoesien/arabic-accounting-mcq_train"
       ],
@@ -54625,7 +54798,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T05:24:12+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/dmayhem93/toolformer-v0-postprocessed"
       ],
@@ -54643,7 +54816,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T05:24:12+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/DrBenchmark/FrenchMedMCQA"
       ],
@@ -54661,7 +54834,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T05:44:37+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/FreedomIntelligence/alpaca-gpt4-french"
       ],
@@ -54679,7 +54852,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T05:44:37+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/FreedomIntelligence/evol-instruct-french"
       ],
@@ -54697,7 +54870,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T06:04:52+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/gustavecortal/diverse_french_news"
       ],
@@ -54715,7 +54888,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T06:04:52+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/haideraltahan/wds_kitti_closest_vehicle_distance"
       ],
@@ -54733,7 +54906,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T06:25:34+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/interstellarninja/hermes_reasoning_tool_use"
       ],
@@ -54751,7 +54924,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T06:25:34+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/interstellarninja/tool-use-multiturn-reasoning"
       ],
@@ -54769,7 +54942,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T06:46:06+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/JayYz/multi_agent_handoff"
       ],
@@ -54787,7 +54960,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T06:46:06+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/jdabello/yt_transcriptions"
       ],
@@ -54805,7 +54978,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T07:06:48+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-neg-prepend"
       ],
@@ -54823,7 +54996,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T07:06:48+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-original-neg"
       ],
@@ -54841,7 +55014,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T07:10:40+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/kapturecx/call-transcript-intent-data-v2"
       ],
@@ -54859,7 +55032,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T07:10:40+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/kenil-samyak/invoices-donut-data-v1"
       ],
@@ -54877,7 +55050,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T07:28:17+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/leibnitz-lab/military_vehicles"
       ],
@@ -54895,7 +55068,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T07:28:17+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/lilvjosephtang/Toolflation"
       ],
@@ -54913,7 +55086,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T09:12:24+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/mesolitica/google-image-malaysian-vehicle-synthetic-qa"
       ],
@@ -54931,7 +55104,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T09:12:24+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/michelinelefkopoulos/mp3-to-midi-tool-comparison"
       ],
@@ -54949,7 +55122,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T09:33:00+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/mychen76/invoices-and-receipts_ocr_v2"
       ],
@@ -54967,7 +55140,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T09:33:00+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Nanbeige/ToolMind"
       ],
@@ -54985,7 +55158,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T09:53:18+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Omegaindebt/Kisan_Call_Centre_Transcripts"
       ],
@@ -55003,7 +55176,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T09:53:18+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Onegafer/vehicle_segmentation"
       ],
@@ -55021,7 +55194,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T10:12:01+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/openbmb/UltraData-SFT-Agent-2609"
       ],
@@ -55039,7 +55212,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T10:12:01+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/optimum/documentation-images"
       ],
@@ -55057,7 +55230,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T10:32:37+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/procit005/vehicles12"
       ],
@@ -55075,7 +55248,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T10:32:37+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/psetinek/3Blue1Brown_transcripts"
       ],
@@ -55093,7 +55266,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T10:51:47+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/sanjaydoss/Multi-Agent_Reinforcement_Learning_Trading_System_Data"
       ],
@@ -55111,7 +55284,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T10:51:47+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/shawhin/tool-use-finetuning"
       ],
@@ -55129,7 +55302,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T11:12:10+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/taesiri/GMTK-Transcripts"
       ],
@@ -55147,7 +55320,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T11:12:10+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/tbboukhari/Alpaca_french_instruct"
       ],
@@ -55165,7 +55338,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T11:32:38+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/v2run/invoices-donut-data-v1"
       ],
@@ -55183,7 +55356,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T11:32:38+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/vekkt/french_CEFR"
       ],
@@ -55201,7 +55374,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T11:53:34+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/ybelkada/documentation-images"
       ],
@@ -55219,7 +55392,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T11:53:34+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/yzhuang/metatree_BNG_vehicle_"
       ],
@@ -55237,7 +55410,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T12:12:24+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/agents-course/final-certificates"
       ],
@@ -55255,7 +55428,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T12:12:24+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/agents-course/unit3-invitees"
       ],
@@ -55273,7 +55446,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T12:32:43+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Am0MuK/md_invoices"
       ],
@@ -55291,7 +55464,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T12:32:43+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/amir-kazemi/aidovecl-vehicle-detection-classification-localization"
       ],
@@ -55309,7 +55482,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T12:53:25+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/aryadytm/vehicle-classification-512x512"
       ],
@@ -55327,7 +55500,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T12:53:25+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/asahi417/multi-domain-document-classification"
       ],
@@ -55345,7 +55518,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T13:13:51+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/bejaeger/filled_stacks_transcriptions"
       ],
@@ -55363,7 +55536,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T13:13:51+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/BelalElhossany/mgb2_audios_transcriptions_preprocessed"
       ],
@@ -55381,7 +55554,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T13:34:13+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/d4rk3r/invoices"
       ],
@@ -55399,7 +55572,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T13:34:13+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/daitavan/financial-documents"
       ],
@@ -55417,7 +55590,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T13:54:35+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/distil-whisper/whisper_transcriptions_greedy"
       ],
@@ -55435,7 +55608,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T13:54:35+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/djghosh/wds_vtab-kitti_closest_vehicle_distance_test"
       ],
@@ -55453,7 +55626,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T14:14:46+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Francesco/document-parts"
       ],
@@ -55471,7 +55644,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T14:14:46+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Francesco/vehicles-q0x2v"
       ],
@@ -55489,7 +55662,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T14:20:36+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/gigant/tib_transcripts"
       ],
@@ -55507,7 +55680,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T14:20:36+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/GraystokeNick/jess-transcripts"
       ],
@@ -55525,7 +55698,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T14:41:22+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/HydraLM/GPTeacher_toolformer_alpaca"
       ],
@@ -55543,7 +55716,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T14:41:22+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/joelniklaus/legal_case_document_summarization"
       ],
@@ -55561,7 +55734,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T15:01:49+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/joey234/mmlu-professional_accounting"
       ],
@@ -55579,7 +55752,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T15:01:49+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-dev"
       ],
@@ -55597,7 +55770,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T15:22:31+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-neg"
       ],
@@ -55615,7 +55788,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T15:22:31+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-neg-answer"
       ],
@@ -55633,7 +55806,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T15:42:53+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/K-University-AIED/LearningChat_accounting_ai_questions"
       ],
@@ -55651,7 +55824,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T15:42:53+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/KadamParth/NCERT_Accounting_11th"
       ],
@@ -55669,7 +55842,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T16:03:27+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Lakshan2003/customer_service_client_agent_conversations_40k_multi_task"
       ],
@@ -55687,7 +55860,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T16:03:27+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/lambda/hermes-agent-reasoning-traces"
       ],
@@ -55705,7 +55878,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T16:23:44+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/mdahba/noor_professional_accounting"
       ],
@@ -55723,7 +55896,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T16:23:44+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/microsoft/orca-agentinstruct-1M-v1"
       ],
@@ -55741,7 +55914,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T16:44:03+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/mychen76/invoices-and-receipts_ocr_v1"
       ],
@@ -55759,7 +55932,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T16:44:03+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/nateraw/documentation-images"
       ],
@@ -55777,7 +55950,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T17:04:23+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/open-athena/science-tool-use-conversations"
       ],
@@ -55795,7 +55968,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T17:04:23+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/pacovaldez/pandas-documentation"
       ],
@@ -55813,7 +55986,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T17:24:45+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/pinecone/yt-transcriptions"
       ],
@@ -55831,7 +56004,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T17:24:45+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/pnadel/npi_all_transcripts"
       ],
@@ -55849,7 +56022,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T17:45:13+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/rizzshi/Global-AI-Tool-Adoption-Across-Industries"
       ],
@@ -55867,7 +56040,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T17:45:13+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/RKB109/multimodal-document-retrieval-20261021-dataset"
       ],
@@ -55885,7 +56058,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T18:05:24+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/SickBoy/layout_documents"
       ],
@@ -55903,7 +56076,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T18:05:24+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Sifal/Kabyle-French"
       ],
@@ -55921,7 +56094,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T18:24:06+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/thegr8abdessamad/accounting02"
       ],
@@ -55939,7 +56112,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T18:24:06+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Tiime/fr-qa-accounting-edits"
       ],
@@ -55957,7 +56130,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T18:45:08+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Whispering-GPT/whisper-transcripts-linustechtips"
       ],
@@ -55975,7 +56148,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T18:45:08+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Whispering-GPT/whisper-transcripts-ml-street-talk"
       ],
@@ -55993,7 +56166,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T19:04:58+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/zhoudemac/pentest_tools_v2"
       ],
@@ -56011,7 +56184,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T19:04:58+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/ZixuanKe/accounting_fineweb_phi3.5_unsup"
       ],
@@ -56029,7 +56202,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T19:25:24+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/AIwithKiran/Global-AI-Tools-Dataset"
       ],
@@ -56047,7 +56220,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T19:25:24+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/allenai/Dolci-Instruct-SFT-Tool-Use-SA"
       ],
@@ -56065,7 +56238,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T19:40:46+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Aoschu/donut_model_data_for_german_invoice_2"
       ],
@@ -56083,7 +56256,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T19:40:46+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Aoschu/German_invoices_dataset"
       ],
@@ -56101,7 +56274,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T19:59:46+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Beifengdo/Official-Document-Writing"
       ],
@@ -56119,7 +56292,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T19:59:46+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/bejaeger/biggest_ideas_transcriptions"
       ],
@@ -56137,7 +56310,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T20:20:04+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/CATIE-AQ/french_books"
       ],
@@ -56155,7 +56328,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T20:20:04+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/daviddudas/invoices_v2"
       ],
@@ -56173,7 +56346,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T20:40:37+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/DenyTranDFW/BMW_Vehicle_Lease_Trust_2019_1_1769328"
       ],
@@ -56191,7 +56364,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T20:40:37+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/DenyTranDFW/BMW_Vehicle_Owner_Trust_2018_A_1725617"
       ],
@@ -56209,7 +56382,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T20:59:27+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/evoeval/EvoEval_tool_use"
       ],
@@ -56227,7 +56400,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T20:59:27+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/felipebandeira/invoiceupload1"
       ],
@@ -56245,7 +56418,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T21:19:50+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/galileo-ai/medical_transcription_40"
       ],
@@ -56263,7 +56436,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T21:19:50+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/guanaco/Tool_use"
       ],
@@ -56281,7 +56454,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T21:40:07+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/huggingface-tools/default-prompts"
       ],
@@ -56299,7 +56472,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T22:00:20+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-original-neg-prepend"
       ],
@@ -56317,7 +56490,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T22:00:20+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-rule-neg"
       ],
@@ -56335,7 +56508,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T22:20:38+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-rule-neg-prepend"
       ],
@@ -56353,7 +56526,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T22:20:38+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/joey234/mmlu-professional_accounting-verbal-neg-prepend"
       ],
@@ -56371,7 +56544,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T22:41:02+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/joytafty/denoising-dirty-documents-train"
       ],
@@ -56389,7 +56562,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T22:41:02+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/joytafty/denoising-dirty-documents-trained_cleaned"
       ],
@@ -56407,7 +56580,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T23:01:30+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/kenhktsui/open-toolformer-retrieval-multi-result"
       ],
@@ -56425,7 +56598,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T23:01:30+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Kokusho/vehicles_sales"
       ],
@@ -56443,7 +56616,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T23:21:47+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/lizziepikachu/starwars_vehicles"
       ],
@@ -56461,7 +56634,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T23:21:47+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/lqfff1984/Risk-Aware-Tool-Risk-Labels"
       ],
@@ -56479,7 +56652,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T23:33:43+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/mindweave/accounting-ledger-au"
       ],
@@ -56497,7 +56670,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T23:33:43+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/mindweave/accounting-ledger-uk"
       ],
@@ -56515,7 +56688,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T23:59:20+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/nebius/SWE-agent-trajectories"
       ],
@@ -56533,7 +56706,7 @@
       "status": "validated",
       "validatedAt": "2026-10-28T23:59:20+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/nepalprabin/youtube-transcriptions"
       ],
@@ -56551,7 +56724,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T00:19:30+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/parsee-ai/invoices-example"
       ],
@@ -56569,7 +56742,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T00:19:30+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Poulpidot/FrenchHateSpeechSuperset"
       ],
@@ -56587,7 +56760,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T00:39:52+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/pranjali97/french_translated_snli"
       ],
@@ -56605,7 +56778,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T00:39:52+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Prarabdha/Rick_and_Morty_Transcript"
       ],
@@ -56623,7 +56796,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T01:00:06+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/rntc/quaero-frenchmed-ner-emea-sen"
       ],
@@ -56641,7 +56814,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T01:00:06+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/rntc/quaero-frenchmed-ner-medline"
       ],
@@ -56659,7 +56832,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T01:18:51+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Snit/french-conversation"
       ],
@@ -56677,7 +56850,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T01:18:51+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/startlingadama/bambara-french"
       ],
@@ -56695,7 +56868,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T01:39:17+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Team-ACE/ToolACE"
       ],
@@ -56713,7 +56886,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T01:39:17+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/tmfi/japanese-invoice-dqa"
       ],
@@ -56731,7 +56904,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T01:59:27+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Whispering-GPT/whisper-transcripts-the-ai-epiphany"
       ],
@@ -56749,7 +56922,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T01:59:27+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/wushan/vehicle_qa"
       ],
@@ -56767,7 +56940,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T02:19:36+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/zai-org/AgentInstruct"
       ],
@@ -56785,7 +56958,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T02:19:36+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/ZixuanKe/accounting_rule_phi3.5_unsup"
       ],
@@ -56803,7 +56976,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T02:40:00+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/allenai/Dolci-Think-SFT-Olmo-Hybrid-Tool-Use-SA"
       ],
@@ -56821,7 +56994,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T02:40:00+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/almanach/hc3_french_ood"
       ],
@@ -56839,7 +57012,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T02:50:57+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/anderloh/Vehicle_dataset"
       ],
@@ -56857,7 +57030,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T02:50:57+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/anderslee2020/us-vehicle-sales-tax-registration-fees"
       ],
@@ -56875,7 +57048,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T03:10:29+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Asif12109/Global-AI-Tool-Adoption-Across-Industries"
       ],
@@ -56893,7 +57066,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T03:10:29+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Asseh/Vehicle_Classification"
       ],
@@ -56911,7 +57084,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T03:30:38+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/BothBosu/multi-agent-scam-conversation"
       ],
@@ -56929,7 +57102,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T03:30:38+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Brendan/nlp244_french_snli"
       ],
@@ -56947,7 +57120,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T03:50:53+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/DeepNLP/embodied-ai-ai-agent"
       ],
@@ -56965,7 +57138,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T03:50:53+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/DeepNLP/trip-planning-ai-agent"
       ],
@@ -56983,7 +57156,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T04:11:11+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/DenyTranDFW/BMW_Vehicle_Owner_Trust_2019_A_1784326"
       ],
@@ -57001,7 +57174,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T04:11:11+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/DenyTranDFW/BMW_Vehicle_Owner_Trust_2020_A_1812807"
       ],
@@ -57019,7 +57192,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T04:31:33+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/FelipeBandeiraPoatek/invoices-donut-data-v1"
       ],
@@ -57037,7 +57210,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T04:31:33+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/FelipeBandeiraPoatek/invoices-donut-data-v2"
       ],
@@ -57055,7 +57228,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T04:52:04+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/GalaktischeGurke/full_dataset_1509_lines_invoice_contract_mail_GPT3.5_test"
       ],
@@ -57073,7 +57246,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T04:52:04+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/GalaktischeGurke/full_dataset_1509_lines_invoice_contract_mail_GPT3.5_train"
       ],
@@ -57091,7 +57264,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T05:12:23+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/geodesic-research/hawthorne-tooluse"
       ],
@@ -57109,7 +57282,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T05:12:23+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/HardcoreAI/ToolUse.1"
       ],
@@ -57127,7 +57300,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T05:32:46+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/joshuajano/donut-invoices"
       ],
@@ -57145,7 +57318,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T05:53:00+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/kaahila/sugarcrm_130_documentation"
       ],
@@ -57163,7 +57336,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T05:53:00+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/KadamParth/NCERT_Accounting_12th"
       ],
@@ -57181,7 +57354,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T06:13:07+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/KanoonGPT/indian-legal-documents"
       ],
@@ -57199,7 +57372,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T06:13:07+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Kant1/French_Wikipedia_articles"
       ],
@@ -57217,7 +57390,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T06:33:33+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/kothasuhas/accounting-kieso"
       ],
@@ -57235,7 +57408,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T06:33:33+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/kothasuhas/accounting-textbooks-15"
       ],
@@ -57253,7 +57426,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T06:53:51+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/katospiegel/ordfts-hackathon-pneuma-vehicles-segmentation"
       ],
@@ -57271,7 +57444,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T06:53:51+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/kseth919/snli-french"
       ],
@@ -57289,7 +57462,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T07:14:15+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/lukesjordan/worldbank-project-documents"
       ],
@@ -57307,7 +57480,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T07:14:15+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/m-a-p/FineFineWeb"
       ],
@@ -57325,7 +57498,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T07:34:24+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/mindweave/accounting-ledger-us"
       ],
@@ -57343,7 +57516,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T07:34:24+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/mlx-community/hermes-reasoning-tool-use"
       ],
@@ -57361,7 +57534,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T15:58:48+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/pvisnrt/french-snli"
       ],
@@ -57379,7 +57552,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T15:58:48+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/quccili/invoice"
       ],
@@ -57397,7 +57570,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T20:57:24+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/quotientai/limbic-eval-tool-use-mcp"
       ],
@@ -57415,7 +57588,7 @@
       "status": "validated",
       "validatedAt": "2026-10-29T20:57:24+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/RachidAb02/Finance-Accounting"
       ],
@@ -57433,7 +57606,7 @@
       "status": "validated",
       "validatedAt": "2026-10-30T00:41:08+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/qingy2024/TED-Transcripts"
       ],
@@ -57451,7 +57624,7 @@
       "status": "validated",
       "validatedAt": "2026-10-30T00:41:08+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/SahmBenchmark/arabic-accounting-mcq_eval"
       ],
@@ -57469,7 +57642,7 @@
       "status": "validated",
       "validatedAt": "2026-10-30T06:28:43+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/SahmBenchmark/arabic-accounting-mcq_train"
       ],
@@ -57487,7 +57660,7 @@
       "status": "validated",
       "validatedAt": "2026-10-30T06:28:43+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/SII-Enigma/Davinci-ToolData"
       ],
@@ -57505,7 +57678,7 @@
       "status": "validated",
       "validatedAt": "2026-10-30T13:23:53+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/stindardlogic/agent-planning-sft-50k"
       ],
@@ -57523,7 +57696,7 @@
       "status": "validated",
       "validatedAt": "2026-10-30T13:23:53+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/successor/qrl-yt-transcriptions"
       ],
@@ -57541,7 +57714,7 @@
       "status": "validated",
       "validatedAt": "2026-10-31T07:35:03+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Specific-Labs/Scaffold-Agent"
       ],
@@ -57559,7 +57732,7 @@
       "status": "validated",
       "validatedAt": "2026-10-31T07:35:03+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/sugam11/french-snli"
       ],
@@ -57577,7 +57750,7 @@
       "status": "validated",
       "validatedAt": "2026-10-31T13:53:12+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/SunnyDaycg/VAT_Accounting_Law"
       ],
@@ -57595,7 +57768,7 @@
       "status": "validated",
       "validatedAt": "2026-10-31T13:53:12+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/th1nhng0/vietnamese-legal-documents"
       ],
@@ -57613,7 +57786,7 @@
       "status": "validated",
       "validatedAt": "2026-10-31T18:01:27+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/tomvaillant/osint-tool-database"
       ],
@@ -57631,7 +57804,7 @@
       "status": "validated",
       "validatedAt": "2026-10-31T18:01:27+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Toolster/ebook-format-samples"
       ],
@@ -57649,7 +57822,7 @@
       "status": "validated",
       "validatedAt": "2026-10-31T21:23:46+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/trannhiem/TranNhiem-Vietnamese-DocumentImage-Reasoning"
       ],
@@ -57667,7 +57840,7 @@
       "status": "validated",
       "validatedAt": "2026-11-01T00:19:55+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/nvidia/Nemotron-RL-Agentic-Indirect-Prompt-Injection-v1"
       ],
@@ -57685,7 +57858,7 @@
       "status": "validated",
       "validatedAt": "2026-11-01T06:26:58+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Mme-Box/vehicles"
       ],
@@ -57703,7 +57876,7 @@
       "status": "validated",
       "validatedAt": "2026-11-01T06:26:58+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/mtyrrell/NDC_documents_master"
       ],
@@ -57721,7 +57894,7 @@
       "status": "validated",
       "validatedAt": "2026-11-02T01:43:20+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/ukisai/Qwen3.8-27B-multi-turn-agent-sft"
       ],
@@ -57739,7 +57912,7 @@
       "status": "validated",
       "validatedAt": "2026-11-02T01:43:20+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/verbarium/french-word-frequency-scrabble-validity"
       ],
@@ -57757,7 +57930,7 @@
       "status": "validated",
       "validatedAt": "2026-11-02T08:20:42+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/w8ay/security-tools-datasets"
       ],
@@ -57775,7 +57948,7 @@
       "status": "validated",
       "validatedAt": "2026-11-02T08:20:42+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Webopen2026/French_Legal_Translation_Compliance_Dataset"
       ],
@@ -57793,7 +57966,7 @@
       "status": "validated",
       "validatedAt": "2026-11-02T18:33:34+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/WiroAI/dolphin-r1-french"
       ],
@@ -57811,7 +57984,7 @@
       "status": "validated",
       "validatedAt": "2026-11-02T18:33:34+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/XIANGFENGLI/ACCOUNTING_DATABASES"
       ],
@@ -57829,7 +58002,7 @@
       "status": "validated",
       "validatedAt": "2026-11-03T01:11:31+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/xlangai/AgentNetBench"
       ],
@@ -57847,7 +58020,7 @@
       "status": "validated",
       "validatedAt": "2026-11-03T01:11:31+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Yannkomenan/mmlu-professional_accounting-neg-prepend"
       ],
@@ -57865,7 +58038,7 @@
       "status": "validated",
       "validatedAt": "2026-11-03T07:55:04+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/smolagents/toolcalling"
       ],
@@ -57883,7 +58056,7 @@
       "status": "validated",
       "validatedAt": "2026-11-03T21:36:33+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/yatin-superintelligence/Edge-Agent-Reasoning-WebSearch-260K"
       ],
@@ -57901,7 +58074,7 @@
       "status": "validated",
       "validatedAt": "2026-11-03T21:36:33+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/yatin-superintelligence/White-Hat-Security-Agent-Prompts-600K"
       ],
@@ -57919,7 +58092,7 @@
       "status": "validated",
       "validatedAt": "2026-11-04T01:39:16+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/zjunlp/KnowLM-Tool"
       ],
@@ -57937,7 +58110,7 @@
       "status": "validated",
       "validatedAt": "2026-11-04T01:39:16+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/11-47/autonomous-ai-agents-multi-agent-swarms-2026"
       ],
@@ -57955,7 +58128,7 @@
       "status": "validated",
       "validatedAt": "2026-11-04T08:00:22+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/7h3-R3v3n4n7/pentest-agent-dataset-alpaca"
       ],
@@ -57973,7 +58146,7 @@
       "status": "validated",
       "validatedAt": "2026-11-04T08:00:22+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/7h3-R3v3n4n7/pentest-agent-dataset-chatml"
       ],
@@ -57991,7 +58164,7 @@
       "status": "validated",
       "validatedAt": "2026-11-04T16:23:14+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Abirate/french_book_reviews"
       ],
@@ -58009,7 +58182,7 @@
       "status": "validated",
       "validatedAt": "2026-11-04T16:23:14+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/agentica-org/DeepCoder-Preview-Dataset"
       ],
@@ -58027,7 +58200,7 @@
       "status": "validated",
       "validatedAt": "2026-11-04T21:51:32+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/agentica-org/DeepScaleR-Preview-Dataset"
       ],
@@ -58045,7 +58218,7 @@
       "status": "validated",
       "validatedAt": "2026-11-04T21:51:32+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/agentlans/prompt-quality"
       ],
@@ -58063,7 +58236,7 @@
       "status": "validated",
       "validatedAt": "2026-11-05T08:37:07+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Mustafaege/qwen3.5-toolcalling-v2"
       ],
@@ -58081,7 +58254,7 @@
       "status": "validated",
       "validatedAt": "2026-11-05T08:37:07+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/necrasov-ilya/ru-invoice-extraction-benchmark"
       ],
@@ -58099,7 +58272,7 @@
       "status": "validated",
       "validatedAt": "2026-11-05T16:50:35+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/nvidia/Nemotron-RL-agent-calendar_scheduling"
       ],
@@ -58117,7 +58290,7 @@
       "status": "validated",
       "validatedAt": "2026-11-05T16:50:35+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/nvidia/Nemotron-RL-Agentic-Terminal-Pivot-v1"
       ],
@@ -58135,7 +58308,7 @@
       "status": "validated",
       "validatedAt": "2026-11-05T22:25:30+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/open-paws/tool-use-llama-format"
       ],
@@ -58153,7 +58326,7 @@
       "status": "validated",
       "validatedAt": "2026-11-05T22:25:30+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/plonemraz/Plones_documents"
       ],
@@ -58171,7 +58344,7 @@
       "status": "validated",
       "validatedAt": "2026-11-06T02:44:31+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/rmems/browser-tool-use-trajectories"
       ],
@@ -58189,7 +58362,7 @@
       "status": "validated",
       "validatedAt": "2026-11-06T02:44:31+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/rmems/multi-agent-coordination-transcripts"
       ],
@@ -58207,7 +58380,7 @@
       "status": "validated",
       "validatedAt": "2026-11-06T09:56:49+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/secmlr/agentic-midtrain-data"
       ],
@@ -58225,7 +58398,7 @@
       "status": "validated",
       "validatedAt": "2026-11-06T09:56:49+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/sterlixlol/kazi-agentic-traces-19k"
       ],
@@ -58243,7 +58416,7 @@
       "status": "validated",
       "validatedAt": "2026-11-06T17:15:39+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/TeichAI/DeepSeek-v4-Pro-Agent"
       ],
@@ -58261,7 +58434,7 @@
       "status": "validated",
       "validatedAt": "2026-11-07T08:30:41+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/RegalFire/windway-verified-agent-trajectories"
       ],
@@ -58279,7 +58452,7 @@
       "status": "validated",
       "validatedAt": "2026-11-07T08:30:41+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/shiphex/genshin_agent_RAG"
       ],
@@ -58297,7 +58470,7 @@
       "status": "validated",
       "validatedAt": "2026-11-08T02:07:25+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/agentapprove/coding-agent-tool-call-safety"
       ],
@@ -58315,7 +58488,7 @@
       "status": "validated",
       "validatedAt": "2026-11-08T08:56:10+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/agentlans/claude-reasoning"
       ],
@@ -58333,7 +58506,7 @@
       "status": "validated",
       "validatedAt": "2026-11-08T08:56:10+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/agentlans/Conversational-Reasoning-Topical-Chat"
       ],
@@ -58351,7 +58524,7 @@
       "status": "validated",
       "validatedAt": "2026-11-08T15:52:00+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/agentlans/dijkstra"
       ],
@@ -58369,7 +58542,7 @@
       "status": "validated",
       "validatedAt": "2026-11-08T15:52:00+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/agents-course/course-certificates-of-excellence"
       ],
@@ -58387,7 +58560,7 @@
       "status": "validated",
       "validatedAt": "2026-11-08T20:00:07+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/agents-course/certificates"
       ],
@@ -58405,7 +58578,7 @@
       "status": "validated",
       "validatedAt": "2026-11-08T20:00:07+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/agents-last-exam/agents-last-exam"
       ],
@@ -58423,7 +58596,7 @@
       "status": "validated",
       "validatedAt": "2026-11-09T02:58:15+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/agentlans/literary-reasoning"
       ],
@@ -58441,7 +58614,7 @@
       "status": "validated",
       "validatedAt": "2026-11-09T02:58:15+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/AlignmentLab-AI/agentcode"
       ],
@@ -58459,7 +58632,7 @@
       "status": "validated",
       "validatedAt": "2026-11-09T11:04:39+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/allenai/Dolci-Instruct-SFT-Tool-Use"
       ],
@@ -58477,7 +58650,7 @@
       "status": "validated",
       "validatedAt": "2026-11-09T11:04:39+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/almogtavor/agent-traces"
       ],
@@ -58495,7 +58668,7 @@
       "status": "validated",
       "validatedAt": "2026-11-10T03:44:51+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/angeluriot/french_instruct"
       ],
@@ -58513,7 +58686,7 @@
       "status": "validated",
       "validatedAt": "2026-11-10T03:44:51+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/ankush13r/ToolACE"
       ],
@@ -58531,7 +58704,7 @@
       "status": "validated",
       "validatedAt": "2026-11-10T11:51:53+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Aoschu/German_invoices_dataset_for_donut"
       ],
@@ -58549,7 +58722,7 @@
       "status": "validated",
       "validatedAt": "2026-11-10T11:51:53+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/artefactory/Argimi-Legal-French-Jurisprudence"
       ],
@@ -58567,7 +58740,7 @@
       "status": "validated",
       "validatedAt": "2026-11-10T18:55:53+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Autonomous-Scientific-Agents/groundtruth"
       ],
@@ -58585,7 +58758,7 @@
       "status": "validated",
       "validatedAt": "2026-11-10T18:55:53+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
         "https://huggingface.co/datasets/Battam/agentic-env-index"
       ],
@@ -58598,14 +58771,50 @@
       }
     },
     {
+      "id": "dataset:bigscience-historical-texts/Open_Medieval_French",
+      "title": "Lire le dataset bigscience-historical-texts/Open_Medieval_French",
+      "status": "validated",
+      "validatedAt": "2026-11-10T23:56:36+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/bigscience-historical-texts/Open_Medieval_French"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:bigscience-historical-texts/Open_Medieval_French"
+      }
+    },
+    {
+      "id": "dataset:bilalabic/turkish-tool-calling",
+      "title": "Lire le dataset bilalabic/turkish-tool-calling",
+      "status": "validated",
+      "validatedAt": "2026-11-10T23:56:36+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/bilalabic/turkish-tool-calling"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:bilalabic/turkish-tool-calling"
+      }
+    },
+    {
       "id": "github-repository-technical-audit-v1",
       "title": "Analyser techniquement un dépôt GitHub public",
       "status": "validated",
       "validatedAt": "2026-10-27T12:30:54+00:00",
-      "lastPracticedAt": "2026-11-10T23:56:29+00:00",
-      "practiceCount": 325,
+      "lastPracticedAt": "2026-11-11T05:19:40+00:00",
+      "practiceCount": 327,
       "proofPath": "evidence/github-repository-audit.json",
-      "proofSha256": "e84d69b215cf89c93dd20980c3f11ed9c90e5b15b8b577cd6d2c256dc3a9892e",
+      "proofSha256": "305b9969dd3a4fdd30fdb66c53b05d0b950c5e3b0ed62a8201d0d7e20e14f70b",
       "resourcesTested": [
         "https://github.com/0jre/runne",
         "https://github.com/0xMihirK/hercules-mcp",
@@ -58931,236 +59140,49 @@
         "https://github.com/Ilyushin/EconomicIntelligence",
         "https://github.com/im-ignite/ignite-agent",
         "https://github.com/imsayanpaul/job-hunter-automation",
-        "https://github.com/imshivang03/AgenticAI-Web-Automation-On-Autopilot-Building-An-AI-Browser-Agent-Using-GeminiPro"
+        "https://github.com/imshivang03/AgenticAI-Web-Automation-On-Autopilot-Building-An-AI-Browser-Agent-Using-GeminiPro",
+        "https://github.com/IndividualGather/xiv-mcp",
+        "https://github.com/Indrajit-Saha/medusa-admin-backoffice-poc"
       ]
     },
     {
-      "id": "dataset:bigscience-historical-texts/Open_Medieval_French",
-      "title": "Lire le dataset bigscience-historical-texts/Open_Medieval_French",
+      "id": "dataset:amyrmahdy/decima-agent-decisions",
+      "title": "Lire le dataset amyrmahdy/decima-agent-decisions",
       "status": "validated",
-      "validatedAt": "2026-11-10T23:56:36+00:00",
+      "validatedAt": "2026-11-11T05:19:45+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
-        "https://huggingface.co/datasets/bigscience-historical-texts/Open_Medieval_French"
+        "https://huggingface.co/datasets/amyrmahdy/decima-agent-decisions"
       ],
       "practiceCount": 1,
       "handler": "hf-dataset-sample-readonly",
       "scope": "read-only-dataset-sampling",
       "call": {
         "tool": "novens_capabilities_invoke",
-        "capability_id": "dataset:bigscience-historical-texts/Open_Medieval_French"
+        "capability_id": "dataset:amyrmahdy/decima-agent-decisions"
       }
     },
     {
-      "id": "dataset:bilalabic/turkish-tool-calling",
-      "title": "Lire le dataset bilalabic/turkish-tool-calling",
+      "id": "dataset:anonymoussubmissions/earnings21-gold-transcripts-non-normalized",
+      "title": "Lire le dataset anonymoussubmissions/earnings21-gold-transcripts-non-normalized",
       "status": "validated",
-      "validatedAt": "2026-11-10T23:56:36+00:00",
+      "validatedAt": "2026-11-11T05:19:45+00:00",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "24ad3499436f40141006b7b8fd8bd26c712353937861ce9ced7bcc6ceddf5bdc",
+      "proofSha256": "42dadf129285ae06440108fffa4e4259da441ff991d622251de0f5611e5de40e",
       "resourcesTested": [
-        "https://huggingface.co/datasets/bilalabic/turkish-tool-calling"
+        "https://huggingface.co/datasets/anonymoussubmissions/earnings21-gold-transcripts-non-normalized"
       ],
       "practiceCount": 1,
       "handler": "hf-dataset-sample-readonly",
       "scope": "read-only-dataset-sampling",
       "call": {
         "tool": "novens_capabilities_invoke",
-        "capability_id": "dataset:bilalabic/turkish-tool-calling"
+        "capability_id": "dataset:anonymoussubmissions/earnings21-gold-transcripts-non-normalized"
       }
     }
   ],
   "capabilityTrials": [
-    {
-      "date": "2026-11-06T09:56:43+00:00",
-      "skillId": "github-repository-technical-audit-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 287,
-      "failures": [
-        {
-          "repository": "Houda-png/n8n-business-operations-automation",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-06T09:56:45+00:00",
-      "skillId": "hf-model-task-classification-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 260,
-      "failures": [
-        {
-          "id": "alibidaran/medical_transcription_generator",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-06T09:56:45+00:00",
-      "skillId": "hf-dataset-usage-assessment-v1",
-      "result": "no-new-evidence",
-      "reportsPassed": 0,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 157,
-      "failures": [
-        {
-          "id": "daviddudas/invoices_v2",
-          "reason": "ValueError"
-        },
-        {
-          "id": "deansmile123/Agentic_SLAM",
-          "reason": "JSONDecodeError"
-        },
-        {
-          "id": "DeepNLP/Multi-Agents-Parallel-Orchestration-Dataset",
-          "reason": "ValueError"
-        },
-        {
-          "id": "deeptools-ai/test-document-invoice",
-          "reason": "ValueError"
-        },
-        {
-          "id": "devjirawat8/Air_Vehicle",
-          "reason": "ValueError"
-        },
-        {
-          "id": "dgural/PhysicalAI-Autonomous-Vehicles-Sample",
-          "reason": "ValueError"
-        },
-        {
-          "id": "dhananjay1210/SNLI_French",
-          "reason": "ValueError"
-        },
-        {
-          "id": "diffusers-tools/test_failures",
-          "reason": "ValueError"
-        },
-        {
-          "id": "distil-whisper/whisper_transcriptions_greedy",
-          "reason": "ValueError"
-        },
-        {
-          "id": "djghosh/wds_vtab-kitti_closest_vehicle_distance_test",
-          "reason": "ValueError"
-        },
-        {
-          "id": "dmayhem93/toolformer-v0-postprocessed",
-          "reason": "ValueError"
-        },
-        {
-          "id": "dmayhem93/toolformer_raw_v0",
-          "reason": "ValueError"
-        },
-        {
-          "id": "DrBenchmark/FrenchMedMCQA",
-          "reason": "ValueError"
-        },
-        {
-          "id": "echo4eva/vehicles",
-          "reason": "ValueError"
-        },
-        {
-          "id": "erdem-erdem/Turkish-Law-Documents-700k-clustered",
-          "reason": "ValueError"
-        },
-        {
-          "id": "esoria3/french_simplified",
-          "reason": "ValueError"
-        },
-        {
-          "id": "eugenetanjc/speech_accent_1000_french",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Exgentic/agent-llm-traces-v2",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-06T09:56:45+00:00",
-      "skillId": "hf-space-runtime-diagnostics-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 314,
-      "failures": []
-    },
-    {
-      "date": "2026-11-06T09:56:49+00:00",
-      "skillId": "hf-dataset-sample-ingestion-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "failedResources": [
-        {
-          "id": "ratschlab/HEST_Xenium_virtual_spatial_transcriptomics",
-          "error": "HTTPError",
-          "detail": "HTTP Error 401: Unauthorized"
-        },
-        {
-          "id": "ratschlab/TCGA_virtual_spatial_transcriptomics_atlas",
-          "error": "HTTPError",
-          "detail": "HTTP Error 401: Unauthorized"
-        },
-        {
-          "id": "rogue-security/mcp-tool-use-quality-benchmark",
-          "error": "HTTPError",
-          "detail": "HTTP Error 401: Unauthorized"
-        },
-        {
-          "id": "s4um1l/accounting_grounding_v1",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "sankettgorey/donut_model_invoice",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "satwik9903/Meeting_transcripts",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "scvi-tools/DATASET-FOR-UNIT-TESTING-1",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "secondstate/finance-agents-benchmark-traces",
-          "error": "HTTPError",
-          "detail": "HTTP Error 401: Unauthorized"
-        },
-        {
-          "id": "Self-Improving-Coding-Agents/SI2CA-Training-Trajectories",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "sonup/indian_vehicle",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "spade-rl/SPADE-Environments-ToolUse",
-          "error": "HTTPError",
-          "detail": "HTTP Error 501: Not Implemented"
-        },
-        {
-          "id": "StanBienaives/french-open-fiscal-texts",
-          "error": "HTTPError",
-          "detail": "HTTP Error 501: Not Implemented"
-        }
-      ],
-      "totalVerifiedExercises": 291
-    },
     {
       "date": "2026-11-06T17:15:32+00:00",
       "skillId": "github-repository-technical-audit-v1",
@@ -63905,25 +63927,229 @@
         }
       ],
       "totalVerifiedExercises": 313
+    },
+    {
+      "date": "2026-11-11T05:19:40+00:00",
+      "skillId": "github-repository-technical-audit-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 327,
+      "failures": []
+    },
+    {
+      "date": "2026-11-11T05:19:42+00:00",
+      "skillId": "hf-model-task-classification-v1",
+      "result": "reinforced",
+      "reportsPassed": 1,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 274,
+      "failures": [
+        {
+          "id": "arryuann/medical-transcription-corrector",
+          "reason": "ValueError"
+        },
+        {
+          "id": "ArtemisAI/ai-agents-course-multi-tool-agent",
+          "reason": "ValueError"
+        },
+        {
+          "id": "asdc/bert-base-spanish-wwm-cased-finetuned-text_classification",
+          "reason": "ValueError"
+        },
+        {
+          "id": "asdc/roberta-base-biomedical-clinical-es-finetuned-text_classification",
+          "reason": "ValueError"
+        },
+        {
+          "id": "asdc/roberta-base-finetuned-text_classification",
+          "reason": "ValueError"
+        },
+        {
+          "id": "asigalov61/bytedance_piano_transcription",
+          "reason": "ValueError"
+        },
+        {
+          "id": "assayw119/koelectra-wellnesee-text-classification.pth",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Ayachi7/CallVerse-Qwen3VL-2B-Vision-QLoRA",
+          "reason": "ValueError"
+        },
+        {
+          "id": "aybdee/Igbo-SpeechSynthesis",
+          "reason": "ValueError"
+        },
+        {
+          "id": "aykgeh/Ekegusii-LLM-Translation",
+          "reason": "ValueError"
+        },
+        {
+          "id": "BabuSheelaj/email-image-generation-from-text-to-image",
+          "reason": "ValueError"
+        },
+        {
+          "id": "badalsahani/text-classification-multi",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Bagus/wav2vec2-xlsr-japanese-speech-emotion-recognition",
+          "reason": "ValueError"
+        },
+        {
+          "id": "BahamutRU/DeepSeek-V4-Flash-Vision-Exp-Q8_0-MXFP4-Q3_K-Q2_K-mixed-GGUF",
+          "reason": "ValueError"
+        },
+        {
+          "id": "basso4/model_machine_translation_en_to_vi_ver2",
+          "reason": "ValueError"
+        },
+        {
+          "id": "birgermoell/transcription",
+          "reason": "ValueError"
+        },
+        {
+          "id": "brainnxdomain/Hemmingway-1-Heretic-MTP-V3-VISION-Final-GGUF",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11T05:19:42+00:00",
+      "skillId": "hf-dataset-usage-assessment-v1",
+      "result": "reinforced",
+      "reportsPassed": 1,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 167,
+      "failures": [
+        {
+          "id": "joey234/mmlu-professional_accounting-neg-prepend",
+          "reason": "ValueError"
+        },
+        {
+          "id": "joey234/mmlu-professional_accounting-neg-prepend-fix",
+          "reason": "ValueError"
+        },
+        {
+          "id": "joey234/mmlu-professional_accounting-neg-prepend-verbal",
+          "reason": "ValueError"
+        },
+        {
+          "id": "joey234/mmlu-professional_accounting-original-neg",
+          "reason": "ValueError"
+        },
+        {
+          "id": "joey234/mmlu-professional_accounting-original-neg-prepend",
+          "reason": "ValueError"
+        },
+        {
+          "id": "joey234/mmlu-professional_accounting-rule-neg",
+          "reason": "ValueError"
+        },
+        {
+          "id": "joey234/mmlu-professional_accounting-rule-neg-prepend",
+          "reason": "ValueError"
+        },
+        {
+          "id": "joey234/mmlu-professional_accounting-verbal-neg-prepend",
+          "reason": "ValueError"
+        },
+        {
+          "id": "joshuajano/donut-invoices",
+          "reason": "ValueError"
+        },
+        {
+          "id": "joytafty/denoising-dirty-documents-cleaned",
+          "reason": "ValueError"
+        },
+        {
+          "id": "joytafty/denoising-dirty-documents-test",
+          "reason": "ValueError"
+        },
+        {
+          "id": "joytafty/denoising-dirty-documents-train",
+          "reason": "ValueError"
+        },
+        {
+          "id": "joytafty/denoising-dirty-documents-trained_cleaned",
+          "reason": "ValueError"
+        },
+        {
+          "id": "kaahila/sugarcrm_130_documentation",
+          "reason": "ValueError"
+        },
+        {
+          "id": "KaLM-Embedding/KaLM-embedding-finetuning-data-french",
+          "reason": "ValueError"
+        },
+        {
+          "id": "kaniam/invoice",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Kant1/French_Wikipedia_articles",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11T05:19:42+00:00",
+      "skillId": "hf-space-runtime-diagnostics-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 354,
+      "failures": []
+    },
+    {
+      "date": "2026-11-11T05:19:45+00:00",
+      "skillId": "hf-dataset-sample-ingestion-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "failedResources": [
+        {
+          "id": "AmazonScience/document-haystack",
+          "error": "HTTPError",
+          "detail": "HTTP Error 501: Not Implemented"
+        },
+        {
+          "id": "AmineTibari/InvoiceJSON",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "ankur-bohra/automatic-reimbursement-tool-demo",
+          "error": "ValueError",
+          "detail": "Aucune partition accessible"
+        },
+        {
+          "id": "ankur-bohra/automatic-reimbursement-tool-demo-incorrect",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        }
+      ],
+      "totalVerifiedExercises": 315
     }
   ],
   "lastCapabilityVerification": {
-    "date": "2026-11-10T23:56:36+00:00",
+    "date": "2026-11-11T05:19:45+00:00",
     "skillId": "hf-dataset-sample-ingestion-v1",
     "result": "reinforced"
   },
   "discovery": {
-    "cursor": 176,
+    "cursor": 177,
     "capacity": 20000,
-    "lastBatch": 20,
+    "lastBatch": 23,
     "newByCategory": {
-      "github": 15,
+      "github": 1,
       "models": 3,
-      "datasets": 2,
-      "spaces": 0
+      "datasets": 9,
+      "spaces": 10
     },
     "queriesLastRun": 7,
-    "totalSearchCycles": 176,
+    "totalSearchCycles": 177,
     "lastErrors": []
   },
   "approvedResources": [
@@ -66117,7 +66343,21 @@
       "approvedFor": "read-only-dataset-sampling",
       "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
       "testedAt": "2026-11-10T23:56:36+00:00"
+    },
+    {
+      "id": "amyrmahdy/decima-agent-decisions",
+      "source": "https://huggingface.co/datasets/amyrmahdy/decima-agent-decisions",
+      "approvedFor": "read-only-dataset-sampling",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "testedAt": "2026-11-11T05:19:45+00:00"
+    },
+    {
+      "id": "anonymoussubmissions/earnings21-gold-transcripts-non-normalized",
+      "source": "https://huggingface.co/datasets/anonymoussubmissions/earnings21-gold-transcripts-non-normalized",
+      "approvedFor": "read-only-dataset-sampling",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "testedAt": "2026-11-11T05:19:45+00:00"
     }
   ],
-  "approvedResourceCount": 313
+  "approvedResourceCount": 315
 }
