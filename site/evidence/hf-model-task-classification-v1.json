@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-12T08:53:04+00:00",
+  "lastPracticedAt": "2026-11-12T17:12:44+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -2546,6 +2546,24 @@
       "declaredLicense": "apache-2.0",
       "access": "public",
       "modelFiles": 12
+    },
+    {
+      "id": "adventists-ai/DuplexJev-32B-Vision",
+      "source": "https://huggingface.co/adventists-ai/DuplexJev-32B-Vision",
+      "observedAt": "2026-11-12T17:12:44+00:00",
+      "task": "any-to-any",
+      "declaredLicense": "cc-by-nc-4.0",
+      "access": "public",
+      "modelFiles": 32
+    },
+    {
+      "id": "agentic-in/elephant-embeddings-v1-multimodal-large",
+      "source": "https://huggingface.co/agentic-in/elephant-embeddings-v1-multimodal-large",
+      "observedAt": "2026-11-12T17:12:44+00:00",
+      "task": "sentence-similarity",
+      "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 11
     }
   ]
 }

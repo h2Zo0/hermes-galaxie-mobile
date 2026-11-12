@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-12T08:53:02+00:00",
+  "lastPracticedAt": "2026-11-12T17:12:41+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -5645,6 +5645,42 @@
       "archived": false,
       "starsAtTest": 1,
       "pushedAt": "2026-04-14T06:58:38Z"
+    },
+    {
+      "repository": "imleorathu/systemize",
+      "url": "https://github.com/imleorathu/systemize",
+      "defaultBranch": "main",
+      "primaryLanguage": "HTML",
+      "primaryLanguageSharePercent": 61.68,
+      "languageBytes": {
+        "HTML": 2633989,
+        "JavaScript": 1428528,
+        "CSS": 188692,
+        "PLpgSQL": 17993,
+        "Shell": 548,
+        "PowerShell": 431,
+        "Dockerfile": 337
+      },
+      "totalLanguageBytes": 4270518,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-03T19:05:09Z"
+    },
+    {
+      "repository": "IMNMV/ClaudeR",
+      "url": "https://github.com/IMNMV/ClaudeR",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 62.45,
+      "languageBytes": {
+        "Python": 448352,
+        "R": 269529,
+        "Dockerfile": 70
+      },
+      "totalLanguageBytes": 717951,
+      "archived": false,
+      "starsAtTest": 372,
+      "pushedAt": "2026-11-11T16:11:05Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

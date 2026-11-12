@@ -3,7 +3,7 @@
   "title": "Diagnostiquer le runtime de démonstrations IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-12T08:53:04+00:00",
+  "lastPracticedAt": "2026-11-12T17:12:44+00:00",
   "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
   "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
   "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
@@ -3262,6 +3262,24 @@
       "id": "freealise/video_frame_interpolation",
       "source": "https://huggingface.co/spaces/freealise/video_frame_interpolation",
       "observedAt": "2026-11-12T08:53:04+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNNING",
+      "availableNow": true,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "deepset/search-all-the-docs",
+      "source": "https://huggingface.co/spaces/deepset/search-all-the-docs",
+      "observedAt": "2026-11-12T17:12:44+00:00",
+      "sdk": "streamlit",
+      "runtimeStage": "RUNNING",
+      "availableNow": true,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "iabdullahm/rafid-unlimited-ocr",
+      "source": "https://huggingface.co/spaces/iabdullahm/rafid-unlimited-ocr",
+      "observedAt": "2026-11-12T17:12:44+00:00",
       "sdk": "gradio",
       "runtimeStage": "RUNNING",
       "availableNow": true,

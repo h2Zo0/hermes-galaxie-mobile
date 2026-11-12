@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-12T08:53:09+00:00",
+  "lastPracticedAt": "2026-11-12T17:12:51+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -6516,6 +6516,35 @@
       "rowCount": 3,
       "sampleSha256": "b0f765229085afe210b3b0c13b1903922321d12a35a63973bd23d21f06dc3b9f",
       "observedAt": "2026-11-12T08:53:09+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "deeptools-ai/test-document-invoice",
+      "source": "https://huggingface.co/datasets/deeptools-ai/test-document-invoice",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "image",
+        "label"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "67c1dd5582a65905887524b546bb2f749b4c229e749713a6881bd6495a03696e",
+      "observedAt": "2026-11-12T17:12:51+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "dgural/PhysicalAI-Autonomous-Vehicles-Sample",
+      "source": "https://huggingface.co/datasets/dgural/PhysicalAI-Autonomous-Vehicles-Sample",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "video"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "f84d8950ec2e09363dcaf9e52d6e6d6538a7b41c40780536e48c725b3c15ccc9",
+      "observedAt": "2026-11-12T17:12:51+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
