@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-12T17:12:51+00:00",
+  "lastPracticedAt": "2026-11-12T22:44:10+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -6545,6 +6545,36 @@
       "rowCount": 3,
       "sampleSha256": "f84d8950ec2e09363dcaf9e52d6e6d6538a7b41c40780536e48c725b3c15ccc9",
       "observedAt": "2026-11-12T17:12:51+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "dhananjay1210/SNLI_French",
+      "source": "https://huggingface.co/datasets/dhananjay1210/SNLI_French",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "hypothesis",
+        "label",
+        "premise"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "3c475480bac48854e0e3be059255df09b2238b68778aab428bdc30c8652b9df3",
+      "observedAt": "2026-11-12T22:44:10+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "diffusers-tools/test_failures",
+      "source": "https://huggingface.co/datasets/diffusers-tools/test_failures",
+      "config": "default",
+      "split": "test",
+      "columns": [
+        "text"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "c16d47d7d0a2dc4d842f54e3cedd3e3b34b85fe62953a9d4dc0f6fe12411fc16",
+      "observedAt": "2026-11-12T22:44:10+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

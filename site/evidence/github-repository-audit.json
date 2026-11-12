@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-12T17:12:41+00:00",
+  "lastPracticedAt": "2026-11-12T22:44:03+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -5681,6 +5681,34 @@
       "archived": false,
       "starsAtTest": 372,
       "pushedAt": "2026-11-11T16:11:05Z"
+    },
+    {
+      "repository": "imshoaib21/FraudShield-Financial-Fraud-Detection-Analytics",
+      "url": "https://github.com/imshoaib21/FraudShield-Financial-Fraud-Detection-Analytics",
+      "defaultBranch": "main",
+      "primaryLanguage": "HTML",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "HTML": 6273
+      },
+      "totalLanguageBytes": 6273,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-22T12:20:43Z"
+    },
+    {
+      "repository": "imskm11/AI-Knowledge-Assistant-RAG-Vector-Database",
+      "url": "https://github.com/imskm11/AI-Knowledge-Assistant-RAG-Vector-Database",
+      "defaultBranch": "main",
+      "primaryLanguage": "Jupyter Notebook",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Jupyter Notebook": 85334
+      },
+      "totalLanguageBytes": 85334,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-27T05:01:08Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
