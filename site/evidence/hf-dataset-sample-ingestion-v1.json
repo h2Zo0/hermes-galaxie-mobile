@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-13T10:43:09+00:00",
+  "lastPracticedAt": "2026-11-13T18:06:18+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -6639,6 +6639,20 @@
       "rowCount": 3,
       "sampleSha256": "cf65a837e0beb0423ed403c59be93cec12ed4cac73b0219c80df19dd9c923628",
       "observedAt": "2026-11-13T10:43:09+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "agentlans/high-quality-english-sentences",
+      "source": "https://huggingface.co/datasets/agentlans/high-quality-english-sentences",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "text"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "fb0d2269246864d47945312fff0ea39690a36bd3830eed072528e05c4baaa754",
+      "observedAt": "2026-11-13T18:06:18+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-13T10:43:01+00:00",
+  "lastPracticedAt": "2026-11-13T18:06:12+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -5797,6 +5797,35 @@
       "archived": false,
       "starsAtTest": 94115,
       "pushedAt": "2026-11-13T10:05:54Z"
+    },
+    {
+      "repository": "imaqib101/agentic-tool-orchestrator",
+      "url": "https://github.com/imaqib101/agentic-tool-orchestrator",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "TypeScript": 102506
+      },
+      "totalLanguageBytes": 102506,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-12T20:32:47Z"
+    },
+    {
+      "repository": "ImenAlSamarai/decision-level-evaluation",
+      "url": "https://github.com/ImenAlSamarai/decision-level-evaluation",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 67.97,
+      "languageBytes": {
+        "Python": 143742,
+        "TeX": 67722
+      },
+      "totalLanguageBytes": 211464,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-19T09:35:15Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
