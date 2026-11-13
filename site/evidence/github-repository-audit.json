@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-13T02:58:38+00:00",
+  "lastPracticedAt": "2026-11-13T10:43:01+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -5755,6 +5755,48 @@
       "archived": false,
       "starsAtTest": 28,
       "pushedAt": "2026-08-06T00:07:57Z"
+    },
+    {
+      "repository": "InfiArtt/nvda-mcp",
+      "url": "https://github.com/InfiArtt/nvda-mcp",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 794527
+      },
+      "totalLanguageBytes": 794527,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-12T17:37:23Z"
+    },
+    {
+      "repository": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "defaultBranch": "main",
+      "primaryLanguage": "Go",
+      "primaryLanguageSharePercent": 71.99,
+      "languageBytes": {
+        "Go": 34474272,
+        "TypeScript": 9997439,
+        "C++": 1659494,
+        "Python": 1255271,
+        "Shell": 167727,
+        "C": 167429,
+        "Less": 58255,
+        "JavaScript": 31253,
+        "CSS": 30772,
+        "Dockerfile": 16033,
+        "Go Template": 9583,
+        "HTML": 7044,
+        "PowerShell": 6756,
+        "CMake": 6283,
+        "Makefile": 2734
+      },
+      "totalLanguageBytes": 47890345,
+      "archived": false,
+      "starsAtTest": 94115,
+      "pushedAt": "2026-11-13T10:05:54Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
