@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-12T22:44:03+00:00",
+  "lastPracticedAt": "2026-11-13T02:58:38+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -5709,6 +5709,52 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-27T05:01:08Z"
+    },
+    {
+      "repository": "Inceptium-ai/genesis-framework",
+      "url": "https://github.com/Inceptium-ai/genesis-framework",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 465677
+      },
+      "totalLanguageBytes": 465677,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-12T16:29:13Z"
+    },
+    {
+      "repository": "inclusionAI/PIBench",
+      "url": "https://github.com/inclusionAI/PIBench",
+      "defaultBranch": "main",
+      "primaryLanguage": "Java",
+      "primaryLanguageSharePercent": 32.09,
+      "languageBytes": {
+        "Java": 7924805,
+        "TypeScript": 7384793,
+        "PHP": 2979992,
+        "Python": 1677021,
+        "JavaScript": 1596645,
+        "Dart": 1050156,
+        "Vue": 1002114,
+        "CSS": 427601,
+        "Shell": 316512,
+        "Blade": 251584,
+        "SCSS": 34178,
+        "Dockerfile": 25078,
+        "HTML": 11298,
+        "PowerShell": 8501,
+        "Ruby": 2710,
+        "Swift": 808,
+        "Kotlin": 754,
+        "Objective-C": 76,
+        "Procfile": 46
+      },
+      "totalLanguageBytes": 24694672,
+      "archived": false,
+      "starsAtTest": 28,
+      "pushedAt": "2026-08-06T00:07:57Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
