@@ -3,7 +3,7 @@
   "title": "Diagnostiquer le runtime de démonstrations IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-13T23:29:47+00:00",
+  "lastPracticedAt": "2026-11-14T03:29:28+00:00",
   "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
   "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
   "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
@@ -3370,6 +3370,24 @@
       "id": "JiunYi/esg-rag-platform",
       "source": "https://huggingface.co/spaces/JiunYi/esg-rag-platform",
       "observedAt": "2026-11-13T23:29:47+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNTIME_ERROR",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "JohanDL/Depth-Anything-Video",
+      "source": "https://huggingface.co/spaces/JohanDL/Depth-Anything-Video",
+      "observedAt": "2026-11-14T03:29:28+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNNING",
+      "availableNow": true,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "k8tems/LangChain_AgentGPTBot",
+      "source": "https://huggingface.co/spaces/k8tems/LangChain_AgentGPTBot",
+      "observedAt": "2026-11-14T03:29:28+00:00",
       "sdk": "gradio",
       "runtimeStage": "RUNTIME_ERROR",
       "availableNow": false,

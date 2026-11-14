@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-13T23:29:46+00:00",
+  "lastPracticedAt": "2026-11-14T03:29:26+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -5854,6 +5854,38 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-27T23:41:32Z"
+    },
+    {
+      "repository": "IHardik-Gawde/MiniOpsBench-agent-evaluation-framework",
+      "url": "https://github.com/IHardik-Gawde/MiniOpsBench-agent-evaluation-framework",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 97.72,
+      "languageBytes": {
+        "Python": 282415,
+        "PowerShell": 5213,
+        "Shell": 862,
+        "Dockerfile": 521
+      },
+      "totalLanguageBytes": 289011,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-03T04:59:57Z"
+    },
+    {
+      "repository": "IkhlasulHanif/IndoBias",
+      "url": "https://github.com/IkhlasulHanif/IndoBias",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 98.55,
+      "languageBytes": {
+        "Python": 289688,
+        "Shell": 4275
+      },
+      "totalLanguageBytes": 293963,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-11-10T12:23:22Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
