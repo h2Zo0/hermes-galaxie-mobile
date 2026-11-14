@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-14T03:29:26+00:00",
+  "lastPracticedAt": "2026-11-14T10:49:20+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -5886,6 +5886,47 @@
       "archived": false,
       "starsAtTest": 1,
       "pushedAt": "2026-11-10T12:23:22Z"
+    },
+    {
+      "repository": "ilielucianno/n8n-security-automation-lab",
+      "url": "https://github.com/ilielucianno/n8n-security-automation-lab",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 91.66,
+      "languageBytes": {
+        "Python": 1451,
+        "Shell": 132
+      },
+      "totalLanguageBytes": 1583,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-27T12:08:54Z"
+    },
+    {
+      "repository": "imtarget05/Enterprise-Document-Intelligence-Corrective-RAG-Platform",
+      "url": "https://github.com/imtarget05/Enterprise-Document-Intelligence-Corrective-RAG-Platform",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 36.39,
+      "languageBytes": {
+        "Python": 1345104,
+        "Jupyter Notebook": 947845,
+        "Java": 847558,
+        "TypeScript": 499114,
+        "Shell": 14043,
+        "HCL": 13752,
+        "Makefile": 8183,
+        "Bicep": 6135,
+        "JavaScript": 4865,
+        "CSS": 4286,
+        "Dockerfile": 3271,
+        "PLpgSQL": 1653,
+        "HTML": 551
+      },
+      "totalLanguageBytes": 3696360,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-13T17:31:55Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
