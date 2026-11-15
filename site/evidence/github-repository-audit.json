@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-15T14:58:27+00:00",
+  "lastPracticedAt": "2026-11-15T20:14:05+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -6095,6 +6095,39 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-01-27T03:26:15Z"
+    },
+    {
+      "repository": "iradulovic/software-factory",
+      "url": "https://github.com/iradulovic/software-factory",
+      "defaultBranch": "main",
+      "primaryLanguage": "C#",
+      "primaryLanguageSharePercent": 74.54,
+      "languageBytes": {
+        "C#": 1765630,
+        "TypeScript": 483257,
+        "PowerShell": 81292,
+        "JavaScript": 29314,
+        "CSS": 7418,
+        "Dockerfile": 1781
+      },
+      "totalLanguageBytes": 2368692,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-05T17:35:55Z"
+    },
+    {
+      "repository": "IRHayfield/constitution-rag",
+      "url": "https://github.com/IRHayfield/constitution-rag",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 17024
+      },
+      "totalLanguageBytes": 17024,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-14T17:39:24Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
