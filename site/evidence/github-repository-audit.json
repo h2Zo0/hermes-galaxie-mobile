@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-15T07:39:26+00:00",
+  "lastPracticedAt": "2026-11-15T14:58:27+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -6057,6 +6057,44 @@
       "archived": false,
       "starsAtTest": 1,
       "pushedAt": "2026-11-15T07:03:38Z"
+    },
+    {
+      "repository": "Inupedia/spotlight",
+      "url": "https://github.com/Inupedia/spotlight",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 87.87,
+      "languageBytes": {
+        "TypeScript": 1279546,
+        "Vue": 117949,
+        "CSS": 39911,
+        "JavaScript": 13490,
+        "Shell": 3845,
+        "Dockerfile": 1361
+      },
+      "totalLanguageBytes": 1456102,
+      "archived": false,
+      "starsAtTest": 2,
+      "pushedAt": "2026-10-30T04:38:04Z"
+    },
+    {
+      "repository": "iprabjot/bookkeeper",
+      "url": "https://github.com/iprabjot/bookkeeper",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 55.81,
+      "languageBytes": {
+        "Python": 405721,
+        "HTML": 237053,
+        "JavaScript": 76143,
+        "CSS": 5979,
+        "Dockerfile": 1368,
+        "Mako": 704
+      },
+      "totalLanguageBytes": 726968,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-01-27T03:26:15Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
