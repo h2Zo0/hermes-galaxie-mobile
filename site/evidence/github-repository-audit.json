@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-14T20:58:46+00:00",
+  "lastPracticedAt": "2026-11-15T00:53:50+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -5992,6 +5992,42 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-18T11:08:43Z"
+    },
+    {
+      "repository": "INo-xious/stockbit-mcp",
+      "url": "https://github.com/INo-xious/stockbit-mcp",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 97.91,
+      "languageBytes": {
+        "TypeScript": 3946533,
+        "JavaScript": 81650,
+        "Shell": 1346,
+        "Batchfile": 693,
+        "VBScript": 668
+      },
+      "totalLanguageBytes": 4030890,
+      "archived": false,
+      "starsAtTest": 58,
+      "pushedAt": "2026-11-12T09:36:11Z"
+    },
+    {
+      "repository": "internet-dot/supermem",
+      "url": "https://github.com/internet-dot/supermem",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 96.67,
+      "languageBytes": {
+        "Python": 574693,
+        "Makefile": 10294,
+        "HTML": 7749,
+        "Dockerfile": 1605,
+        "Shell": 162
+      },
+      "totalLanguageBytes": 594503,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-04-07T03:17:30Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
