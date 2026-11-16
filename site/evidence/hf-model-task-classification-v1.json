@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-15T14:58:30+00:00",
+  "lastPracticedAt": "2026-11-16T00:00:34+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -2625,6 +2625,24 @@
       "observedAt": "2026-11-15T14:58:30+00:00",
       "task": "image-text-to-text",
       "declaredLicense": "apache-2.0",
+      "access": "public",
+      "modelFiles": 14
+    },
+    {
+      "id": "Caplin43/multimodal-vision-language-mini",
+      "source": "https://huggingface.co/Caplin43/multimodal-vision-language-mini",
+      "observedAt": "2026-11-16T00:00:34+00:00",
+      "task": "image-to-text",
+      "declaredLicense": "mit",
+      "access": "public",
+      "modelFiles": 4
+    },
+    {
+      "id": "castorini/gaggle-reranker-0.9b-20261108",
+      "source": "https://huggingface.co/castorini/gaggle-reranker-0.9b-20261108",
+      "observedAt": "2026-11-16T00:00:34+00:00",
+      "task": "text-ranking",
+      "declaredLicense": "mit",
       "access": "public",
       "modelFiles": 14
     }

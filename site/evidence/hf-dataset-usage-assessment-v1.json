@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-15T00:53:53+00:00",
+  "lastPracticedAt": "2026-11-16T00:00:34+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -1943,6 +1943,29 @@
         "parquet"
       ],
       "listedFiles": 9,
+      "access": "public"
+    },
+    {
+      "id": "Minbyul/AgentMercury-corpus",
+      "source": "https://huggingface.co/datasets/Minbyul/AgentMercury-corpus",
+      "observedAt": "2026-11-16T00:00:34+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "jsonl"
+      ],
+      "listedFiles": 4,
+      "access": "public"
+    },
+    {
+      "id": "Minbyul/AgentMercury-SWE-construction",
+      "source": "https://huggingface.co/datasets/Minbyul/AgentMercury-SWE-construction",
+      "observedAt": "2026-11-16T00:00:34+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "json",
+        "jsonl"
+      ],
+      "listedFiles": 16,
       "access": "public"
     }
   ]
