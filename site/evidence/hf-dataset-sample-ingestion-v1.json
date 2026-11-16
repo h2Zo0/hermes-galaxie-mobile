@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-16T06:08:07+00:00",
+  "lastPracticedAt": "2026-11-16T15:36:39+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -7078,6 +7078,54 @@
       "rowCount": 3,
       "sampleSha256": "12db394475b1e9c561c8df097c69fa4a7e7334cf0311a4eafcc11407c5546210",
       "observedAt": "2026-11-16T06:08:07+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "emgena/agent_infinite_planning_loop_terminator_teaser",
+      "source": "https://huggingface.co/datasets/emgena/agent_infinite_planning_loop_terminator_teaser",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "ast_verified",
+        "category",
+        "dataset_id",
+        "difficulty",
+        "id",
+        "instruction",
+        "messages",
+        "quality_score",
+        "scenario_type",
+        "self_healing",
+        "system_prompt",
+        "turns"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "4792b8a18b691a7e075c77595a402bbbb0428185d4cc7a590906152066563604",
+      "observedAt": "2026-11-16T15:36:39+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "erdem-erdem/Turkish-Law-Documents-700k-clustered",
+      "source": "https://huggingface.co/datasets/erdem-erdem/Turkish-Law-Documents-700k-clustered",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "esasNo",
+        "id",
+        "kararNo",
+        "kararTarihi",
+        "orig-e5_hdbscan_cluster_id",
+        "orig-e5_knn_cluster_id",
+        "source",
+        "text",
+        "tr-e5_hdbscan_cluster_id",
+        "tr-e5_knn_cluster_id"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "77828ad161d8028610396e0eba638fe106818fb4aae4763de21e624414c6c1c4",
+      "observedAt": "2026-11-16T15:36:39+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

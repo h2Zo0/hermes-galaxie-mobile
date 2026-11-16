@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-16T06:08:01+00:00",
+  "lastPracticedAt": "2026-11-16T15:36:31+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -6202,6 +6202,40 @@
       "archived": false,
       "starsAtTest": 1,
       "pushedAt": "2026-08-28T13:25:04Z"
+    },
+    {
+      "repository": "IshaanKalra2103/device-use",
+      "url": "https://github.com/IshaanKalra2103/device-use",
+      "defaultBranch": "main",
+      "primaryLanguage": "Swift",
+      "primaryLanguageSharePercent": 63.89,
+      "languageBytes": {
+        "Swift": 132326,
+        "Python": 73739,
+        "Shell": 1039
+      },
+      "totalLanguageBytes": 207104,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-04T02:43:32Z"
+    },
+    {
+      "repository": "Ishank2301/Job-Agent",
+      "url": "https://github.com/Ishank2301/Job-Agent",
+      "defaultBranch": "main",
+      "primaryLanguage": "Jupyter Notebook",
+      "primaryLanguageSharePercent": 80.65,
+      "languageBytes": {
+        "Jupyter Notebook": 1627367,
+        "TypeScript": 264538,
+        "Python": 112304,
+        "CSS": 12668,
+        "JavaScript": 950
+      },
+      "totalLanguageBytes": 2017827,
+      "archived": false,
+      "starsAtTest": 2,
+      "pushedAt": "2026-10-28T04:29:26Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
