@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-16T00:00:32+00:00",
+  "lastPracticedAt": "2026-11-16T06:08:01+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -6158,6 +6158,50 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-11-04T14:55:53Z"
+    },
+    {
+      "repository": "isaccanedo/bedrock-agentcore-sdk-python",
+      "url": "https://github.com/isaccanedo/bedrock-agentcore-sdk-python",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.59,
+      "languageBytes": {
+        "Python": 4165101,
+        "Jupyter Notebook": 14455,
+        "Jinja": 2858
+      },
+      "totalLanguageBytes": 4182414,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-10-22T23:03:39Z"
+    },
+    {
+      "repository": "isaccanedo/ofbiz-framework",
+      "url": "https://github.com/isaccanedo/ofbiz-framework",
+      "defaultBranch": "main",
+      "primaryLanguage": "Java",
+      "primaryLanguageSharePercent": 68.18,
+      "languageBytes": {
+        "Java": 17290824,
+        "FreeMarker": 3571400,
+        "Groovy": 3471457,
+        "CSS": 425829,
+        "JavaScript": 425193,
+        "Less": 92101,
+        "Shell": 38272,
+        "Makefile": 17830,
+        "HTML": 6276,
+        "Dockerfile": 5224,
+        "PowerShell": 4722,
+        "Batchfile": 4109,
+        "XSLT": 3054,
+        "Ruby": 2533,
+        "Clojure": 1965
+      },
+      "totalLanguageBytes": 25360789,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-08-28T13:25:04Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

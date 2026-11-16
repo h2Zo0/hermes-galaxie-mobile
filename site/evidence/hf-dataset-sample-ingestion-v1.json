@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-16T00:00:37+00:00",
+  "lastPracticedAt": "2026-11-16T06:08:07+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -7035,6 +7035,49 @@
       "rowCount": 3,
       "sampleSha256": "a71e7d2cff9fc2f3ede21fed5eb379d07cc605561a9a2661aeb373e1d7f7068a",
       "observedAt": "2026-11-16T00:00:37+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "earakely-scale/CuaDriverBench-AgentEnv",
+      "source": "https://huggingface.co/datasets/earakely-scale/CuaDriverBench-AgentEnv",
+      "config": "board",
+      "split": "eval",
+      "columns": [
+        "condition",
+        "cost_usd",
+        "driver",
+        "driver_version",
+        "gui_only",
+        "model",
+        "model_calls",
+        "os",
+        "passed",
+        "replay",
+        "run",
+        "seconds",
+        "task",
+        "task_done",
+        "title",
+        "user_undisturbed"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "1c514f8ee1f6a7f8286138cb16a53800734ef5af98451aa774609b4fa74ffffc",
+      "observedAt": "2026-11-16T06:08:07+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "EleutherAI/wikitext_document_level",
+      "source": "https://huggingface.co/datasets/EleutherAI/wikitext_document_level",
+      "config": "wikitext-103-raw-v1",
+      "split": "train",
+      "columns": [
+        "page"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "12db394475b1e9c561c8df097c69fa4a7e7334cf0311a4eafcc11407c5546210",
+      "observedAt": "2026-11-16T06:08:07+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
