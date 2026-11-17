@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-16T23:50:33+00:00",
+  "lastPracticedAt": "2026-11-17T05:17:07+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -7176,6 +7176,48 @@
       "rowCount": 3,
       "sampleSha256": "f00da57a323f1c0f881104f7c5f58082bfa84a4217abf83c8f725372b4eec95e",
       "observedAt": "2026-11-16T23:50:33+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "ethanning/deepresearchgym-agentic-search-logs",
+      "source": "https://huggingface.co/datasets/ethanning/deepresearchgym-agentic-search-logs",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "query",
+        "query_id",
+        "retrieval_depth",
+        "session_id",
+        "session_len",
+        "time_offset"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "dcfdb724ec72d9dd62c7551f40f8319292c209c7753c89755ee832b99359fcf2",
+      "observedAt": "2026-11-17T05:17:07+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "finipher/finipher-us-tax-document-classifier",
+      "source": "https://huggingface.co/datasets/finipher/finipher-us-tax-document-classifier",
+      "config": "document_family",
+      "split": "train",
+      "columns": [
+        "document_status",
+        "group_id",
+        "label",
+        "label_id",
+        "label_name",
+        "origin",
+        "record_id",
+        "source_record_id",
+        "tax_year",
+        "text"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "f3b5a89c7082cf63308e856fd110291cf7b186287739a306cf6de50ccc076565",
+      "observedAt": "2026-11-17T05:17:07+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

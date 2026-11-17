@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-16T23:50:24+00:00",
+  "lastPracticedAt": "2026-11-17T05:17:01+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -6269,6 +6269,36 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-26T20:52:28Z"
+    },
+    {
+      "repository": "ismaelsoilet/synapsejs",
+      "url": "https://github.com/ismaelsoilet/synapsejs",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 99.24,
+      "languageBytes": {
+        "TypeScript": 1326056,
+        "Shell": 5593,
+        "Dockerfile": 4624
+      },
+      "totalLanguageBytes": 1336273,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-03T03:58:36Z"
+    },
+    {
+      "repository": "ismailcankaratas/opus-orchestrator",
+      "url": "https://github.com/ismailcankaratas/opus-orchestrator",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 20831
+      },
+      "totalLanguageBytes": 20831,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-14T18:26:15Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
