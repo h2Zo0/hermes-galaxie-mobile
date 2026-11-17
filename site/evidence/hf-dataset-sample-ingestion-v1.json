@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-17T05:17:07+00:00",
+  "lastPracticedAt": "2026-11-17T14:39:20+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -7218,6 +7218,42 @@
       "rowCount": 3,
       "sampleSha256": "f3b5a89c7082cf63308e856fd110291cf7b186287739a306cf6de50ccc076565",
       "observedAt": "2026-11-17T05:17:07+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "flarexio/accounting-distill",
+      "source": "https://huggingface.co/datasets/flarexio/accounting-distill",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "entry_ids",
+        "intent",
+        "provenance",
+        "recorded_at",
+        "request",
+        "schema_version",
+        "system_prompt",
+        "trajectory",
+        "turns"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "e0226ac6db26b22210d0a1f497c735c0fe2c89307f5bfae4526dbedce8c57dcf",
+      "observedAt": "2026-11-17T14:39:20+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "FrancophonIA/French_Legal_Glossary",
+      "source": "https://huggingface.co/datasets/FrancophonIA/French_Legal_Glossary",
+      "config": "categories",
+      "split": "train",
+      "columns": [
+        "category"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "e344fb2f2ac616d7be5115786de68500ea290dec4db307147453f5a2d3402f22",
+      "observedAt": "2026-11-17T14:39:20+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
