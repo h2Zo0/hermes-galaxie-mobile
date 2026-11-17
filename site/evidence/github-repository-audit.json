@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-17T14:39:14+00:00",
+  "lastPracticedAt": "2026-11-17T22:38:49+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -6330,6 +6330,36 @@
       "archived": false,
       "starsAtTest": 1,
       "pushedAt": "2026-10-02T19:08:21Z"
+    },
+    {
+      "repository": "ItzPhantomm/VibeCord",
+      "url": "https://github.com/ItzPhantomm/VibeCord",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 99.63,
+      "languageBytes": {
+        "TypeScript": 230886,
+        "JavaScript": 852
+      },
+      "totalLanguageBytes": 231738,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-02T14:31:29Z"
+    },
+    {
+      "repository": "itzskoala/talking-books",
+      "url": "https://github.com/itzskoala/talking-books",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 87.7,
+      "languageBytes": {
+        "Python": 48566,
+        "Jupyter Notebook": 6812
+      },
+      "totalLanguageBytes": 55378,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-28T17:18:37Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

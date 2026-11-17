@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-17T14:39:20+00:00",
+  "lastPracticedAt": "2026-11-17T22:38:58+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -7254,6 +7254,34 @@
       "rowCount": 3,
       "sampleSha256": "e344fb2f2ac616d7be5115786de68500ea290dec4db307147453f5a2d3402f22",
       "observedAt": "2026-11-17T14:39:20+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "GalaktischeGurke/full_dataset_1510_lines_invoice_contract_mail_GPT3.5_test",
+      "source": "https://huggingface.co/datasets/GalaktischeGurke/full_dataset_1510_lines_invoice_contract_mail_GPT3.5_test",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "text"
+      ],
+      "rowCount": 2,
+      "sampleSha256": "660aeba5f1dada132b2960aec119c2a9b3935505a2ec2e51982792a07809b2f6",
+      "observedAt": "2026-11-17T22:38:58+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "GalaktischeGurke/full_dataset_1550_lines_invoice_contract_mail_GPT3.5_train",
+      "source": "https://huggingface.co/datasets/GalaktischeGurke/full_dataset_1550_lines_invoice_contract_mail_GPT3.5_train",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "text"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "5548704ecb0f6c4d26e72813971de184f0b7db7868fe3195d0390cf3c80e05c9",
+      "observedAt": "2026-11-17T22:38:58+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
