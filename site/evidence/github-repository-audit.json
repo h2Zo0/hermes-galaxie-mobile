@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-18T03:51:17+00:00",
+  "lastPracticedAt": "2026-11-18T12:20:48+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -6399,6 +6399,40 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-11-17T20:28:55Z"
+    },
+    {
+      "repository": "jaccen/Awesome-Agent-Engineering",
+      "url": "https://github.com/jaccen/Awesome-Agent-Engineering",
+      "defaultBranch": "main",
+      "primaryLanguage": "TeX",
+      "primaryLanguageSharePercent": 83.67,
+      "languageBytes": {
+        "TeX": 1589927,
+        "BibTeX Style": 176387,
+        "Python": 133871
+      },
+      "totalLanguageBytes": 1900185,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-11-18T03:11:23Z"
+    },
+    {
+      "repository": "Jackalope-Dev/all-mcps",
+      "url": "https://github.com/Jackalope-Dev/all-mcps",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 87.97,
+      "languageBytes": {
+        "TypeScript": 5363829,
+        "CSS": 527251,
+        "JavaScript": 203093,
+        "Shell": 2040,
+        "Dockerfile": 1090
+      },
+      "totalLanguageBytes": 6097303,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-11-17T15:10:03Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

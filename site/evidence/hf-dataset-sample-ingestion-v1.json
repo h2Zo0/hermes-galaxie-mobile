@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-18T03:51:24+00:00",
+  "lastPracticedAt": "2026-11-18T12:20:53+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -7312,6 +7312,36 @@
       "rowCount": 3,
       "sampleSha256": "118793deedd536d72bbd3a6cb52b5ba96f482304216bd7b437a762635e30f194",
       "observedAt": "2026-11-18T03:51:24+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "google/multimodal-knowledge-agent",
+      "source": "https://huggingface.co/datasets/google/multimodal-knowledge-agent",
+      "config": "default",
+      "split": "validation",
+      "columns": [
+        "image"
+      ],
+      "rowCount": 1,
+      "sampleSha256": "c2fc755a58e87f33c543e03d4dfb8a9bcfbb4397d41a3c7368dd773bcd144898",
+      "observedAt": "2026-11-18T12:20:53+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "Harsit/xnli2.0_french",
+      "source": "https://huggingface.co/datasets/Harsit/xnli2.0_french",
+      "config": "default",
+      "split": "test",
+      "columns": [
+        "hypothesis",
+        "label",
+        "premise"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "80a3a828877e3f9d3234ff0a71b47041e95afb91e526407b84f238746fe25137",
+      "observedAt": "2026-11-18T12:20:53+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
