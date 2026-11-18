@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-18T12:20:51+00:00",
+  "lastPracticedAt": "2026-11-18T20:44:24+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -2133,6 +2133,17 @@
         "jsonl"
       ],
       "listedFiles": 3,
+      "access": "public"
+    },
+    {
+      "id": "open-paws/tool-use-llama-format",
+      "source": "https://huggingface.co/datasets/open-paws/tool-use-llama-format",
+      "observedAt": "2026-11-18T20:44:24+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 57,
       "access": "public"
     }
   ]

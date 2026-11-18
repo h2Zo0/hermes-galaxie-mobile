@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-18T12:20:48+00:00",
+  "lastPracticedAt": "2026-11-18T20:44:20+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -6433,6 +6433,38 @@
       "archived": false,
       "starsAtTest": 1,
       "pushedAt": "2026-11-17T15:10:03Z"
+    },
+    {
+      "repository": "ivanostanin/lucius-mcp",
+      "url": "https://github.com/ivanostanin/lucius-mcp",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.38,
+      "languageBytes": {
+        "Python": 8599395,
+        "Shell": 40348,
+        "PowerShell": 8040,
+        "Batchfile": 4069,
+        "Dockerfile": 1522
+      },
+      "totalLanguageBytes": 8653374,
+      "archived": false,
+      "starsAtTest": 8,
+      "pushedAt": "2026-11-16T17:39:12Z"
+    },
+    {
+      "repository": "iyulab/ironhive",
+      "url": "https://github.com/iyulab/ironhive",
+      "defaultBranch": "main",
+      "primaryLanguage": "C#",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "C#": 2740310
+      },
+      "totalLanguageBytes": 2740310,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-11-16T10:36:15Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
