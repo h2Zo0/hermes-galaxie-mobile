@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-17T22:38:49+00:00",
+  "lastPracticedAt": "2026-11-18T03:51:17+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -6360,6 +6360,45 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-28T17:18:37Z"
+    },
+    {
+      "repository": "jaadu123bot/Tripmate-AI",
+      "url": "https://github.com/jaadu123bot/Tripmate-AI",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 56.46,
+      "languageBytes": {
+        "Python": 22895,
+        "CSS": 8543,
+        "JavaScript": 4620,
+        "HTML": 4069,
+        "Dockerfile": 423
+      },
+      "totalLanguageBytes": 40550,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-04T11:57:20Z"
+    },
+    {
+      "repository": "jabraham05/smart-assistant",
+      "url": "https://github.com/jabraham05/smart-assistant",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 57.33,
+      "languageBytes": {
+        "TypeScript": 1043617,
+        "Python": 464336,
+        "Swift": 214729,
+        "JavaScript": 71055,
+        "Dockerfile": 13655,
+        "Shell": 9266,
+        "PowerShell": 2178,
+        "CSS": 1618
+      },
+      "totalLanguageBytes": 1820454,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-17T20:28:55Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
