@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-19T02:04:12+00:00",
+  "lastPracticedAt": "2026-11-19T10:14:22+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -6494,6 +6494,36 @@
       "archived": false,
       "starsAtTest": 6538,
       "pushedAt": "2026-11-17T12:46:18Z"
+    },
+    {
+      "repository": "JainUtkarsh18/Do-Vision-LLMs-Actually-Understand-Images-",
+      "url": "https://github.com/JainUtkarsh18/Do-Vision-LLMs-Actually-Understand-Images-",
+      "defaultBranch": "main",
+      "primaryLanguage": "Jupyter Notebook",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Jupyter Notebook": 773286
+      },
+      "totalLanguageBytes": 773286,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-28T18:43:04Z"
+    },
+    {
+      "repository": "jakkayy/GrowthLoop-AI",
+      "url": "https://github.com/jakkayy/GrowthLoop-AI",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 99.34,
+      "languageBytes": {
+        "TypeScript": 302394,
+        "JavaScript": 1623,
+        "CSS": 392
+      },
+      "totalLanguageBytes": 304409,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-09-23T19:14:22Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
