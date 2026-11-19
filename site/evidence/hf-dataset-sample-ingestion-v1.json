@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-19T10:14:29+00:00",
+  "lastPracticedAt": "2026-11-19T19:03:14+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -7450,6 +7450,50 @@
       "rowCount": 3,
       "sampleSha256": "0017b936e1f13eb309068d768cdcde269dd00988f4d1db15bd0f758589900769",
       "observedAt": "2026-11-19T10:14:29+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "helloelwin/norm-enforcement-transcripts",
+      "source": "https://huggingface.co/datasets/helloelwin/norm-enforcement-transcripts",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "agents_banned",
+        "agents_flagged",
+        "compliant_banned",
+        "env",
+        "file",
+        "flagged_banned",
+        "mechanism",
+        "mechanism_name",
+        "num_agents",
+        "population",
+        "reports",
+        "rounds",
+        "run",
+        "seed",
+        "shard",
+        "top_k",
+        "users"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "51258171d754a745a3474232671f50e5e92c56396f4142563cfc45121f4be990",
+      "observedAt": "2026-11-19T19:03:14+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "HumynLabs/Spanish_Documents_Dataset_PDF",
+      "source": "https://huggingface.co/datasets/HumynLabs/Spanish_Documents_Dataset_PDF",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "pdf"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "5955c0dec13ab054fb72058c21a58a214222a1ef9292a4aaea2d34a466906c92",
+      "observedAt": "2026-11-19T19:03:14+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
