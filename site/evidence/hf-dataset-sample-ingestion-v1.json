@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-18T20:44:30+00:00",
+  "lastPracticedAt": "2026-11-19T02:04:20+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -7373,6 +7373,54 @@
       "rowCount": 3,
       "sampleSha256": "4e03a2f76d957a4a8ae0b07245ab89dc074e2ad92102eef4e6b0f4de10842561",
       "observedAt": "2026-11-18T20:44:30+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "harvardMadsys/freeinference_agentic_trace",
+      "source": "https://huggingface.co/datasets/harvardMadsys/freeinference_agentic_trace",
+      "config": "traces",
+      "split": "week_2026_05_17",
+      "columns": [
+        "day",
+        "end_ms",
+        "harness",
+        "requests",
+        "session_id",
+        "start_ms",
+        "user_id",
+        "week"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "730e3d3da5ede9c9ea10a57f0571cad0edc7a459a9cf1ef5c31336c1d2c50eca",
+      "observedAt": "2026-11-19T02:04:20+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "hbmartin/podcast-transcript-archive",
+      "source": "https://huggingface.co/datasets/hbmartin/podcast-transcript-archive",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "episode",
+        "episode_url",
+        "extraction_error",
+        "extraction_method",
+        "extraction_status",
+        "feed_url",
+        "format",
+        "id",
+        "podcast",
+        "published_at",
+        "raw_path",
+        "sha256",
+        "source_url",
+        "text"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "c45d35d1291036b3f99113c759be586d7c8ef9b2a55589e0e6308dfa826a58a5",
+      "observedAt": "2026-11-19T02:04:20+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

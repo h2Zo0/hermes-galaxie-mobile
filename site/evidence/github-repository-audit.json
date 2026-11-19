@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-18T20:44:20+00:00",
+  "lastPracticedAt": "2026-11-19T02:04:12+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -6465,6 +6465,35 @@
       "archived": false,
       "starsAtTest": 1,
       "pushedAt": "2026-11-16T10:36:15Z"
+    },
+    {
+      "repository": "Jacky97s/qstack",
+      "url": "https://github.com/Jacky97s/qstack",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.34,
+      "languageBytes": {
+        "Python": 57978,
+        "Shell": 386
+      },
+      "totalLanguageBytes": 58364,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-10-28T04:48:07Z"
+    },
+    {
+      "repository": "jacob-bd/gemini-notebook-mcp-cli",
+      "url": "https://github.com/jacob-bd/gemini-notebook-mcp-cli",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 3399801
+      },
+      "totalLanguageBytes": 3399801,
+      "archived": false,
+      "starsAtTest": 6538,
+      "pushedAt": "2026-11-17T12:46:18Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

@@ -3,7 +3,7 @@
   "title": "Diagnostiquer le runtime de démonstrations IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-18T20:44:24+00:00",
+  "lastPracticedAt": "2026-11-19T02:04:14+00:00",
   "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
   "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
   "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
@@ -3697,6 +3697,24 @@
       "sdk": "docker",
       "runtimeStage": "RUNNING",
       "availableNow": true,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "LensoAI/lenso.ai-reverse-image-search",
+      "source": "https://huggingface.co/spaces/LensoAI/lenso.ai-reverse-image-search",
+      "observedAt": "2026-11-19T02:04:14+00:00",
+      "sdk": "static",
+      "runtimeStage": "RUNNING",
+      "availableNow": true,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "mcmchammer/llm_agents_basic_principles_weather_agent",
+      "source": "https://huggingface.co/spaces/mcmchammer/llm_agents_basic_principles_weather_agent",
+      "observedAt": "2026-11-19T02:04:14+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "SLEEPING",
+      "availableNow": false,
       "note": "La disponibilité est un instantané, pas une promesse de service"
     }
   ]
