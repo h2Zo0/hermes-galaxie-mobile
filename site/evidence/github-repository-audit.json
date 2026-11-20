@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-20T17:15:56+00:00",
+  "lastPracticedAt": "2026-11-20T23:11:26+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -6652,6 +6652,39 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-11-20T16:08:26Z"
+    },
+    {
+      "repository": "Ivan-Ovidiu/AccountBud",
+      "url": "https://github.com/Ivan-Ovidiu/AccountBud",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "primaryLanguageSharePercent": 65.84,
+      "languageBytes": {
+        "JavaScript": 664802,
+        "Java": 337214,
+        "TSQL": 7354,
+        "HTML": 359
+      },
+      "totalLanguageBytes": 1009729,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-09-12T16:56:29Z"
+    },
+    {
+      "repository": "ivannikolovbg/repull-mcp",
+      "url": "https://github.com/ivannikolovbg/repull-mcp",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 89.3,
+      "languageBytes": {
+        "TypeScript": 143324,
+        "Python": 15759,
+        "Shell": 1420
+      },
+      "totalLanguageBytes": 160503,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-20T01:15:30Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
