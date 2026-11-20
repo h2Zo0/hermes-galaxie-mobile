@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-20T01:12:25+00:00",
+  "lastPracticedAt": "2026-11-20T08:33:39+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -2178,6 +2178,17 @@
         "txt"
       ],
       "listedFiles": 3009,
+      "access": "public"
+    },
+    {
+      "id": "Motif-Technologies/agenttracer-tooluse",
+      "source": "https://huggingface.co/datasets/Motif-Technologies/agenttracer-tooluse",
+      "observedAt": "2026-11-20T08:33:39+00:00",
+      "declaredLicense": "apache-2.0, cc-by-sa-4.0, mit",
+      "formats": [
+        "jsonl"
+      ],
+      "listedFiles": 3,
       "access": "public"
     }
   ]

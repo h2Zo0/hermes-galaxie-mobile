@@ -3,7 +3,7 @@
   "title": "Classer des modèles IA par tâche et licence déclarée",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-20T01:12:25+00:00",
+  "lastPracticedAt": "2026-11-20T08:33:39+00:00",
   "challenge": "Classer 2 modèles différents à partir de leur fiche API, avec tâche et licence déclarée vérifiées.",
   "method": "API Hugging Face models, pipeline_tag et cardData/tags; aucun chargement de poids ni inférence",
   "scope": "Qualification des métadonnées de modèles, pas exécution ni comparaison de performances.",
@@ -2708,6 +2708,24 @@
       "declaredLicense": "apache-2.0",
       "access": "public",
       "modelFiles": 29
+    },
+    {
+      "id": "agentvue/GLM-5.2-Int4-Int8Mix-FP8KV",
+      "source": "https://huggingface.co/agentvue/GLM-5.2-Int4-Int8Mix-FP8KV",
+      "observedAt": "2026-11-20T08:33:39+00:00",
+      "task": "text-generation",
+      "declaredLicense": "mit",
+      "access": "public",
+      "modelFiles": 140
+    },
+    {
+      "id": "ai-babai/giga-embeddings-0826-480m-gguf",
+      "source": "https://huggingface.co/ai-babai/giga-embeddings-0826-480m-gguf",
+      "observedAt": "2026-11-20T08:33:39+00:00",
+      "task": "sentence-similarity",
+      "declaredLicense": "mit",
+      "access": "public",
+      "modelFiles": 11
     }
   ]
 }

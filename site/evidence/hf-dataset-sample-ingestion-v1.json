@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-20T01:12:30+00:00",
+  "lastPracticedAt": "2026-11-20T08:33:43+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -7561,6 +7561,52 @@
       "rowCount": 3,
       "sampleSha256": "d2a2ceba449d550e5475620dc330ab22dee0b02bbcfc1d083195effa31f527f7",
       "observedAt": "2026-11-20T01:12:30+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "dwojcik/harmony-tools",
+      "source": "https://huggingface.co/datasets/dwojcik/harmony-tools",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "category",
+        "completion",
+        "id",
+        "prompt",
+        "stage",
+        "tool_name"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "f2e128278cef337af69c09290e67a3b848eda3ccad4d98e5cc48e79caa94e60a",
+      "observedAt": "2026-11-20T08:33:43+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "Exody-AI/macos-ai-coding-agents-benchmark-2026",
+      "source": "https://huggingface.co/datasets/Exody-AI/macos-ai-coding-agents-benchmark-2026",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "blind_code_total",
+        "blind_code_wins",
+        "blind_design_total",
+        "blind_design_wins",
+        "byok_zero_markup",
+        "category",
+        "design_studio",
+        "git_worktree_isolation",
+        "independent_diff_review",
+        "ios_simulator_and_iphone_wda",
+        "multi_model_router",
+        "tool",
+        "url",
+        "wikidata_id"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "0988d2e33ea32aafe46898ed5f861b342ef2311c27dbd3c2cf21d44be5abe5a8",
+      "observedAt": "2026-11-20T08:33:43+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
