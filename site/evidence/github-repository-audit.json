@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-19T19:03:07+00:00",
+  "lastPracticedAt": "2026-11-20T01:12:23+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -6552,6 +6552,40 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-12T15:21:59Z"
+    },
+    {
+      "repository": "Jany-M/agent-spaghetti",
+      "url": "https://github.com/Jany-M/agent-spaghetti",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 98.35,
+      "languageBytes": {
+        "TypeScript": 837486,
+        "Python": 8644,
+        "JavaScript": 5023,
+        "HTML": 349
+      },
+      "totalLanguageBytes": 851502,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-18T12:16:42Z"
+    },
+    {
+      "repository": "jaredtambua/rag-app",
+      "url": "https://github.com/jaredtambua/rag-app",
+      "defaultBranch": "master",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 59.43,
+      "languageBytes": {
+        "Python": 186745,
+        "JavaScript": 90653,
+        "CSS": 34838,
+        "HTML": 2009
+      },
+      "totalLanguageBytes": 314245,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-15T08:40:14Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
