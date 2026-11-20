@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-20T08:33:43+00:00",
+  "lastPracticedAt": "2026-11-20T17:16:01+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -7607,6 +7607,22 @@
       "rowCount": 3,
       "sampleSha256": "0988d2e33ea32aafe46898ed5f861b342ef2311c27dbd3c2cf21d44be5abe5a8",
       "observedAt": "2026-11-20T08:33:43+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "galsenai/french-wolof-translation",
+      "source": "https://huggingface.co/datasets/galsenai/french-wolof-translation",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "french",
+        "sources",
+        "wolof"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "c278073c41e9bf3afc81719b5e2b48a32b7ba597172562d5fe7d1d8e2d11b03d",
+      "observedAt": "2026-11-20T17:16:01+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

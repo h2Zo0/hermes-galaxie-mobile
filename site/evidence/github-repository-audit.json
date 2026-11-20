@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-20T08:33:36+00:00",
+  "lastPracticedAt": "2026-11-20T17:15:56+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -6615,6 +6615,43 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-11-18T08:08:48Z"
+    },
+    {
+      "repository": "jackeydou/Owls",
+      "url": "https://github.com/jackeydou/Owls",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 61.4,
+      "languageBytes": {
+        "TypeScript": 2156434,
+        "JavaScript": 751420,
+        "CSS": 343186,
+        "Swift": 248441,
+        "C": 4854,
+        "Shell": 4683,
+        "Rust": 2104,
+        "HTML": 770
+      },
+      "totalLanguageBytes": 3511892,
+      "archived": false,
+      "starsAtTest": 6,
+      "pushedAt": "2026-11-20T16:40:36Z"
+    },
+    {
+      "repository": "JacksonHolmes01/Training-Module-Secure-MCP-Server",
+      "url": "https://github.com/JacksonHolmes01/Training-Module-Secure-MCP-Server",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 79.68,
+      "languageBytes": {
+        "Python": 17865,
+        "Shell": 4301,
+        "Dockerfile": 254
+      },
+      "totalLanguageBytes": 22420,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-20T16:08:26Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
