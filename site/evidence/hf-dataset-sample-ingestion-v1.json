@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-21T19:28:56+00:00",
+  "lastPracticedAt": "2026-11-21T23:53:24+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -7681,6 +7681,50 @@
       "rowCount": 3,
       "sampleSha256": "9950c856f628ef77f956c573f1683b4f88e0a5c3d66868f88fc88955eec0c355",
       "observedAt": "2026-11-21T19:28:56+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "hyperbots-inc/synthetic-invoice-extraction",
+      "source": "https://huggingface.co/datasets/hyperbots-inc/synthetic-invoice-extraction",
+      "config": "default",
+      "split": "test",
+      "columns": [
+        "country",
+        "date_format",
+        "html",
+        "id",
+        "labels",
+        "layout",
+        "num_line_items",
+        "ocr_text"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "cb0e296f6e0eea9795600963a9f567d35eee02619503085eda7d11aa1dbc8348",
+      "observedAt": "2026-11-21T23:53:24+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "hyperbots-inc/synthetic-stamped-documents",
+      "source": "https://huggingface.co/datasets/hyperbots-inc/synthetic-stamped-documents",
+      "config": "default",
+      "split": "test",
+      "columns": [
+        "category",
+        "doc_type",
+        "fields",
+        "id",
+        "image",
+        "labels",
+        "ocr_text",
+        "stamps",
+        "taxonomy_id",
+        "taxonomy_name"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "9cc52adb0898eb36678a6670d4d43ee31843ca4ba4270c539cedcf63a81edd0d",
+      "observedAt": "2026-11-21T23:53:24+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-21T19:28:45+00:00",
+  "lastPracticedAt": "2026-11-21T23:53:16+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -6775,6 +6775,39 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-11-19T07:09:57Z"
+    },
+    {
+      "repository": "jadeharsha/documind-ai",
+      "url": "https://github.com/jadeharsha/documind-ai",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 58.43,
+      "languageBytes": {
+        "Python": 249591,
+        "TypeScript": 174500,
+        "Dockerfile": 1139,
+        "HTML": 849,
+        "JavaScript": 574,
+        "CSS": 494
+      },
+      "totalLanguageBytes": 427147,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-11-21T20:34:48Z"
+    },
+    {
+      "repository": "Jag1603/Requests-using-Python",
+      "url": "https://github.com/Jag1603/Requests-using-Python",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 28748
+      },
+      "totalLanguageBytes": 28748,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-02T11:57:46Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
