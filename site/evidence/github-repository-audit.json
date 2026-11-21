@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-20T23:11:26+00:00",
+  "lastPracticedAt": "2026-11-21T03:58:09+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -6685,6 +6685,37 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-11-20T01:15:30Z"
+    },
+    {
+      "repository": "itsshreyasbhardwaj-design/promptbench-ai",
+      "url": "https://github.com/itsshreyasbhardwaj-design/promptbench-ai",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 98.09,
+      "languageBytes": {
+        "TypeScript": 649762,
+        "CSS": 10903,
+        "JavaScript": 1752
+      },
+      "totalLanguageBytes": 662417,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-11-17T05:36:22Z"
+    },
+    {
+      "repository": "izaanebrahim/finpilot-ai",
+      "url": "https://github.com/izaanebrahim/finpilot-ai",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 98.39,
+      "languageBytes": {
+        "TypeScript": 74406,
+        "JavaScript": 1214
+      },
+      "totalLanguageBytes": 75620,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-25T21:55:05Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
