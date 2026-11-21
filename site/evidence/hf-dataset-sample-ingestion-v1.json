@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-21T12:16:47+00:00",
+  "lastPracticedAt": "2026-11-21T19:28:56+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -7638,6 +7638,49 @@
       "rowCount": 3,
       "sampleSha256": "fbc0e69f12986ebde3f63058eed7cc2dc513d631433cd955b78dc3872024cd7d",
       "observedAt": "2026-11-21T12:16:47+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "hungdang/dataset2-document",
+      "source": "https://huggingface.co/datasets/hungdang/dataset2-document",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "image",
+        "label"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "ee0e3e83b457099b491921801230e8366d56e83b215a1962a23138f4d0a1b324",
+      "observedAt": "2026-11-21T19:28:56+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "hyperbots-inc/synthetic-dense-documents",
+      "source": "https://huggingface.co/datasets/hyperbots-inc/synthetic-dense-documents",
+      "config": "default",
+      "split": "test",
+      "columns": [
+        "aged_scan",
+        "blocks",
+        "degradation",
+        "height",
+        "id",
+        "image",
+        "kind",
+        "markdown",
+        "num_blocks",
+        "num_table_rows",
+        "ocr_text",
+        "tables",
+        "title",
+        "truncated",
+        "width"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "9950c856f628ef77f956c573f1683b4f88e0a5c3d66868f88fc88955eec0c355",
+      "observedAt": "2026-11-21T19:28:56+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
