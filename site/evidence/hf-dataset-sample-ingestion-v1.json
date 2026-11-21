@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-20T17:16:01+00:00",
+  "lastPracticedAt": "2026-11-21T12:16:47+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -7623,6 +7623,21 @@
       "rowCount": 3,
       "sampleSha256": "c278073c41e9bf3afc81719b5e2b48a32b7ba597172562d5fe7d1d8e2d11b03d",
       "observedAt": "2026-11-20T17:16:01+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "hmnshudhmn24/noisy-medical-document-images-ocr",
+      "source": "https://huggingface.co/datasets/hmnshudhmn24/noisy-medical-document-images-ocr",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "image",
+        "label"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "fbc0e69f12986ebde3f63058eed7cc2dc513d631433cd955b78dc3872024cd7d",
+      "observedAt": "2026-11-21T12:16:47+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
