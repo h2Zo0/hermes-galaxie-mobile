@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-22T03:56:25+00:00",
+  "lastPracticedAt": "2026-11-22T12:21:50+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -6841,6 +6841,38 @@
       "archived": false,
       "starsAtTest": 1,
       "pushedAt": "2026-10-13T20:52:34Z"
+    },
+    {
+      "repository": "itguruhaseeb/mcp-probe",
+      "url": "https://github.com/itguruhaseeb/mcp-probe",
+      "defaultBranch": "master",
+      "primaryLanguage": "JavaScript",
+      "primaryLanguageSharePercent": 76.48,
+      "languageBytes": {
+        "JavaScript": 224618,
+        "TeX": 39406,
+        "Python": 22159,
+        "Shell": 7504
+      },
+      "totalLanguageBytes": 293687,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-21T20:16:38Z"
+    },
+    {
+      "repository": "itmarkerz/calcbloc-mcp",
+      "url": "https://github.com/itmarkerz/calcbloc-mcp",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 95.37,
+      "languageBytes": {
+        "TypeScript": 190604,
+        "JavaScript": 9246
+      },
+      "totalLanguageBytes": 199850,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-21T15:06:25Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
