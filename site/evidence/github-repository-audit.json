@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-21T23:53:16+00:00",
+  "lastPracticedAt": "2026-11-22T03:56:25+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -6808,6 +6808,39 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-02T11:57:46Z"
+    },
+    {
+      "repository": "IsmeetPandey/mcp-toolkit-ts",
+      "url": "https://github.com/IsmeetPandey/mcp-toolkit-ts",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 85.57,
+      "languageBytes": {
+        "TypeScript": 3185,
+        "JavaScript": 537
+      },
+      "totalLanguageBytes": 3722,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-12T05:28:43Z"
+    },
+    {
+      "repository": "iTELade/service-desk",
+      "url": "https://github.com/iTELade/service-desk",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "primaryLanguageSharePercent": 95.57,
+      "languageBytes": {
+        "JavaScript": 1471962,
+        "CSS": 56885,
+        "Shell": 8611,
+        "HTML": 1622,
+        "Dockerfile": 1190
+      },
+      "totalLanguageBytes": 1540270,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-10-13T20:52:34Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
