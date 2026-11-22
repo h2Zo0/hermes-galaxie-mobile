@@ -1,17 +1,17 @@
 {
   "name": "NOVENS CORE — GALAXIE VIVANTE",
-  "asOf": "2026-11-22T12:21:42+00:00",
-  "polledAt": "2026-11-22T12:21:42+00:00",
-  "resourceCount": 8801,
+  "asOf": "2026-11-22T19:52:12+00:00",
+  "polledAt": "2026-11-22T19:52:12+00:00",
+  "resourceCount": 8831,
   "categoryCounts": {
-    "github": 6417,
-    "models": 975,
-    "datasets": 696,
-    "spaces": 713
+    "github": 6441,
+    "models": 979,
+    "datasets": 697,
+    "spaces": 714
   },
   "verifiedSkills": 387,
   "netProfitEuro": 0.0,
-  "growth24h": 232,
+  "growth24h": 234,
   "history": [
     {
       "date": "2026-10-26T22:30:41+01:00",
@@ -1366,6 +1366,12 @@
     {
       "date": "2026-11-22T12:21:42+00:00",
       "resources": 8801,
+      "verified": 387,
+      "profit": 0.0
+    },
+    {
+      "date": "2026-11-22T19:52:12+00:00",
+      "resources": 8831,
       "verified": 387,
       "profit": 0.0
     }
@@ -5411,6 +5417,13 @@
       "firstSeen": "2026-10-27T15:56:21+00:00"
     },
     {
+      "id": "datasets:Reza2kn/persian-invoice-tables-synthetic-scanned-20261017",
+      "category": "datasets",
+      "name": "Reza2kn/persian-invoice-tables-synthetic-scanned-20261017",
+      "url": "https://huggingface.co/datasets/Reza2kn/persian-invoice-tables-synthetic-scanned-20261017",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
+    },
+    {
       "id": "datasets:rishabbahal/quebecois_canadian_french_dataset",
       "category": "datasets",
       "name": "rishabbahal/quebecois_canadian_french_dataset",
@@ -9177,6 +9190,13 @@
       "firstSeen": "2026-11-22T03:56:17+00:00"
     },
     {
+      "id": "github:alekhyanalam11-ui/excel-vba-business-process-automation",
+      "category": "github",
+      "name": "alekhyanalam11-ui/excel-vba-business-process-automation",
+      "url": "https://github.com/alekhyanalam11-ui/excel-vba-business-process-automation",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
+    },
+    {
       "id": "github:aleksei-khvostov/llm-safety-evaluation-lab",
       "category": "github",
       "name": "aleksei-khvostov/llm-safety-evaluation-lab",
@@ -9217,6 +9237,13 @@
       "name": "Aleph-Alpha-Research/eval-framework",
       "url": "https://github.com/Aleph-Alpha-Research/eval-framework",
       "firstSeen": "2026-10-28T00:40:39+00:00"
+    },
+    {
+      "id": "github:alex-reul/portfolio-industrial-ai",
+      "category": "github",
+      "name": "alex-reul/portfolio-industrial-ai",
+      "url": "https://github.com/alex-reul/portfolio-industrial-ai",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
     },
     {
       "id": "github:Alex8266/kick-the-tires",
@@ -13776,6 +13803,13 @@
       "firstSeen": "2026-10-27T23:59:45+00:00"
     },
     {
+      "id": "github:bhowiebkr/PyFlowGraph",
+      "category": "github",
+      "name": "bhowiebkr/PyFlowGraph",
+      "url": "https://github.com/bhowiebkr/PyFlowGraph",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
+    },
+    {
       "id": "github:bhubbard/ffmpeg-skill-rs",
       "category": "github",
       "name": "bhubbard/ffmpeg-skill-rs",
@@ -14077,11 +14111,25 @@
       "firstSeen": "2026-10-27T22:38:23+00:00"
     },
     {
+      "id": "github:blackcustard/python-business-automation-portfolio",
+      "category": "github",
+      "name": "blackcustard/python-business-automation-portfolio",
+      "url": "https://github.com/blackcustard/python-business-automation-portfolio",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
+    },
+    {
       "id": "github:blackforge-so/mcp",
       "category": "github",
       "name": "blackforge-so/mcp",
       "url": "https://github.com/blackforge-so/mcp",
       "firstSeen": "2026-10-28T11:32:26+00:00"
+    },
+    {
+      "id": "github:BleonSlh/business-process-test-automation",
+      "category": "github",
+      "name": "BleonSlh/business-process-test-automation",
+      "url": "https://github.com/BleonSlh/business-process-test-automation",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
     },
     {
       "id": "github:Blerina7/RAG_APP",
@@ -14180,6 +14228,13 @@
       "name": "bndynet/ichat",
       "url": "https://github.com/bndynet/ichat",
       "firstSeen": "2026-11-12T08:52:53+00:00"
+    },
+    {
+      "id": "github:bnhindiaconsulting/bnhindiaconsulting",
+      "category": "github",
+      "name": "bnhindiaconsulting/bnhindiaconsulting",
+      "url": "https://github.com/bnhindiaconsulting/bnhindiaconsulting",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
     },
     {
       "id": "github:bo-516/computer-use",
@@ -17101,6 +17156,13 @@
       "firstSeen": "2026-11-20T08:33:30+00:00"
     },
     {
+      "id": "github:DaPelaez89/data_driven_solutions",
+      "category": "github",
+      "name": "DaPelaez89/data_driven_solutions",
+      "url": "https://github.com/DaPelaez89/data_driven_solutions",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
+    },
+    {
       "id": "github:dapr/dapr-agents",
       "category": "github",
       "name": "dapr/dapr-agents",
@@ -19635,6 +19697,13 @@
       "firstSeen": "2026-11-06T09:56:34+00:00"
     },
     {
+      "id": "github:EspiSebas/sales-report-generator",
+      "category": "github",
+      "name": "EspiSebas/sales-report-generator",
+      "url": "https://github.com/EspiSebas/sales-report-generator",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
+    },
+    {
       "id": "github:EstebanGZam/swarm-llm-orchestrator",
       "category": "github",
       "name": "EstebanGZam/swarm-llm-orchestrator",
@@ -20272,6 +20341,13 @@
       "firstSeen": "2026-11-08T19:59:56+00:00"
     },
     {
+      "id": "github:FerdinandLauren/Business-Process-Automation-System",
+      "category": "github",
+      "name": "FerdinandLauren/Business-Process-Automation-System",
+      "url": "https://github.com/FerdinandLauren/Business-Process-Automation-System",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
+    },
+    {
       "id": "github:ferese/agentic-rag-multi-source",
       "category": "github",
       "name": "ferese/agentic-rag-multi-source",
@@ -20739,6 +20815,20 @@
       "name": "frhandev/social-media-automation",
       "url": "https://github.com/frhandev/social-media-automation",
       "firstSeen": "2026-11-21T19:28:38+00:00"
+    },
+    {
+      "id": "github:fritzmanigat-sf/fritzmanigat-sf",
+      "category": "github",
+      "name": "fritzmanigat-sf/fritzmanigat-sf",
+      "url": "https://github.com/fritzmanigat-sf/fritzmanigat-sf",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
+    },
+    {
+      "id": "github:fritzmanigat-sf/HHCA-Salesforce-CRM",
+      "category": "github",
+      "name": "fritzmanigat-sf/HHCA-Salesforce-CRM",
+      "url": "https://github.com/fritzmanigat-sf/HHCA-Salesforce-CRM",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
     },
     {
       "id": "github:frontal-labs/mcp-server",
@@ -22713,6 +22803,20 @@
       "name": "Hashmat02/Pak-3H",
       "url": "https://github.com/Hashmat02/Pak-3H",
       "firstSeen": "2026-10-27T16:57:26+00:00"
+    },
+    {
+      "id": "github:Hasisa/orderflow",
+      "category": "github",
+      "name": "Hasisa/orderflow",
+      "url": "https://github.com/Hasisa/orderflow",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
+    },
+    {
+      "id": "github:Hasisa/orderflow1",
+      "category": "github",
+      "name": "Hasisa/orderflow1",
+      "url": "https://github.com/Hasisa/orderflow1",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
     },
     {
       "id": "github:Haslab-dev/KendaliAI",
@@ -25578,6 +25682,13 @@
       "firstSeen": "2026-10-28T11:32:26+00:00"
     },
     {
+      "id": "github:jessiebdevdss/n8n-workflows",
+      "category": "github",
+      "name": "jessiebdevdss/n8n-workflows",
+      "url": "https://github.com/jessiebdevdss/n8n-workflows",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
+    },
+    {
       "id": "github:Jethva-Parthiv/MediRAG_AI",
       "category": "github",
       "name": "Jethva-Parthiv/MediRAG_AI",
@@ -26570,6 +26681,13 @@
       "name": "Jyosthna24/hcs-lab-agent",
       "url": "https://github.com/Jyosthna24/hcs-lab-agent",
       "firstSeen": "2026-10-27T13:28:19+00:00"
+    },
+    {
+      "id": "github:Jyothi162/FlowForge-AI",
+      "category": "github",
+      "name": "Jyothi162/FlowForge-AI",
+      "url": "https://github.com/Jyothi162/FlowForge-AI",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
     },
     {
       "id": "github:jyothish-sl/ai-workflow-framework",
@@ -28502,6 +28620,13 @@
       "name": "Lam-Arc/LamTools",
       "url": "https://github.com/Lam-Arc/LamTools",
       "firstSeen": "2026-11-08T23:36:52+00:00"
+    },
+    {
+      "id": "github:LambdaJedi/OpsPilot",
+      "category": "github",
+      "name": "LambdaJedi/OpsPilot",
+      "url": "https://github.com/LambdaJedi/OpsPilot",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
     },
     {
       "id": "github:lamenting-hawthorn/supermem",
@@ -31122,6 +31247,13 @@
       "firstSeen": "2026-10-27T08:28:40+00:00"
     },
     {
+      "id": "github:menistral/.github",
+      "category": "github",
+      "name": "menistral/.github",
+      "url": "https://github.com/menistral/.github",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
+    },
+    {
       "id": "github:mennabahaa53/api-automation-framework",
       "category": "github",
       "name": "mennabahaa53/api-automation-framework",
@@ -32352,6 +32484,13 @@
       "name": "Mostafa-khaled11/invoiceflow-ai",
       "url": "https://github.com/Mostafa-khaled11/invoiceflow-ai",
       "firstSeen": "2026-11-14T10:49:12+00:00"
+    },
+    {
+      "id": "github:mosttech80-dev/most-technologies",
+      "category": "github",
+      "name": "mosttech80-dev/most-technologies",
+      "url": "https://github.com/mosttech80-dev/most-technologies",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
     },
     {
       "id": "github:mosvera/mcp",
@@ -35355,6 +35494,13 @@
       "name": "omattsson/terragrunt-mcp-server",
       "url": "https://github.com/omattsson/terragrunt-mcp-server",
       "firstSeen": "2026-10-28T02:22:32+00:00"
+    },
+    {
+      "id": "github:OmBhandwaldar/ZapFlow",
+      "category": "github",
+      "name": "OmBhandwaldar/ZapFlow",
+      "url": "https://github.com/OmBhandwaldar/ZapFlow",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
     },
     {
       "id": "github:OMD-123/agent-loop-guard",
@@ -39956,6 +40102,13 @@
       "firstSeen": "2026-11-03T01:11:18+00:00"
     },
     {
+      "id": "github:Ruchiogele/n8n-automation-projects",
+      "category": "github",
+      "name": "Ruchiogele/n8n-automation-projects",
+      "url": "https://github.com/Ruchiogele/n8n-automation-projects",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
+    },
+    {
       "id": "github:RUCHITHA-M-DEV/Graph-Based-Fraud-Intelligence",
       "category": "github",
       "name": "RUCHITHA-M-DEV/Graph-Based-Fraud-Intelligence",
@@ -40780,6 +40933,13 @@
       "name": "samarthshukla11/EvalRAG",
       "url": "https://github.com/samarthshukla11/EvalRAG",
       "firstSeen": "2026-11-13T18:06:01+00:00"
+    },
+    {
+      "id": "github:samarthsingh-design/ai-automation-portfolio",
+      "category": "github",
+      "name": "samarthsingh-design/ai-automation-portfolio",
+      "url": "https://github.com/samarthsingh-design/ai-automation-portfolio",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
     },
     {
       "id": "github:samaviaabid737-cloud/ghl-revenue-operations-system",
@@ -46704,6 +46864,13 @@
       "firstSeen": "2026-10-29T02:50:47+00:00"
     },
     {
+      "id": "github:tiwarisourabh9123/Ai-automation-portfolio",
+      "category": "github",
+      "name": "tiwarisourabh9123/Ai-automation-portfolio",
+      "url": "https://github.com/tiwarisourabh9123/Ai-automation-portfolio",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
+    },
+    {
       "id": "github:tjsuk/Layer_6_Agentic_AI",
       "category": "github",
       "name": "tjsuk/Layer_6_Agentic_AI",
@@ -47416,6 +47583,13 @@
       "name": "tzervas/boto3-r53-automations",
       "url": "https://github.com/tzervas/boto3-r53-automations",
       "firstSeen": "2026-10-27T23:59:45+00:00"
+    },
+    {
+      "id": "github:u8312564616-blip/software-automation-portfolio",
+      "category": "github",
+      "name": "u8312564616-blip/software-automation-portfolio",
+      "url": "https://github.com/u8312564616-blip/software-automation-portfolio",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
     },
     {
       "id": "github:ubayd-hattas/AfriGuard",
@@ -49005,6 +49179,13 @@
       "name": "VSaliy/lights-out-factory",
       "url": "https://github.com/VSaliy/lights-out-factory",
       "firstSeen": "2026-11-05T01:52:06+00:00"
+    },
+    {
+      "id": "github:vsasp/enterprise-sales-intelligence",
+      "category": "github",
+      "name": "vsasp/enterprise-sales-intelligence",
+      "url": "https://github.com/vsasp/enterprise-sales-intelligence",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
     },
     {
       "id": "github:vstaln/gray-mcp",
@@ -52554,6 +52735,13 @@
       "name": "denis-berezutskiy-lad/lad_transcription_bert_ru_punctuator",
       "url": "https://huggingface.co/denis-berezutskiy-lad/lad_transcription_bert_ru_punctuator",
       "firstSeen": "2026-10-27T16:37:04+00:00"
+    },
+    {
+      "id": "models:DevQuasar/Qwen.Qwen3-Reranker-0.6B-GGUF",
+      "category": "models",
+      "name": "DevQuasar/Qwen.Qwen3-Reranker-0.6B-GGUF",
+      "url": "https://huggingface.co/DevQuasar/Qwen.Qwen3-Reranker-0.6B-GGUF",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
     },
     {
       "id": "models:dg96/whisper-finetuning-phoneme-transcription-g2p-example",
@@ -57244,6 +57432,27 @@
       "name": "syntriq/lupe-german-reranker-small",
       "url": "https://huggingface.co/syntriq/lupe-german-reranker-small",
       "firstSeen": "2026-11-20T08:33:30+00:00"
+    },
+    {
+      "id": "models:syntriq/lupe-multilingual-reranker-base",
+      "category": "models",
+      "name": "syntriq/lupe-multilingual-reranker-base",
+      "url": "https://huggingface.co/syntriq/lupe-multilingual-reranker-base",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
+    },
+    {
+      "id": "models:syntriq/lupe-multilingual-reranker-large",
+      "category": "models",
+      "name": "syntriq/lupe-multilingual-reranker-large",
+      "url": "https://huggingface.co/syntriq/lupe-multilingual-reranker-large",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
+    },
+    {
+      "id": "models:syntriq/lupe-multilingual-reranker-small",
+      "category": "models",
+      "name": "syntriq/lupe-multilingual-reranker-small",
+      "url": "https://huggingface.co/syntriq/lupe-multilingual-reranker-small",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
     },
     {
       "id": "models:sysrobson/Qwen-4B-Bugio-Vision-Thinking-GGUF",
@@ -62370,6 +62579,13 @@
       "firstSeen": "2026-10-27T15:56:21+00:00"
     },
     {
+      "id": "spaces:tardellirs/Escriba-OCR-Demo",
+      "category": "spaces",
+      "name": "tardellirs/Escriba-OCR-Demo",
+      "url": "https://huggingface.co/spaces/tardellirs/Escriba-OCR-Demo",
+      "firstSeen": "2026-11-22T19:52:12+00:00"
+    },
+    {
       "id": "spaces:temandata/ecommurz-talent-search-engine",
       "category": "spaces",
       "name": "temandata/ecommurz-talent-search-engine",
@@ -62983,9 +63199,9 @@
   "cloud": {
     "agent": "Éclaireur NOVENS CORE",
     "execution": "GitHub Actions",
-    "lastMissionAt": "2026-11-22T12:21:42+00:00",
+    "lastMissionAt": "2026-11-22T19:52:12+00:00",
     "missionStatus": "succès",
-    "newResources": 35,
+    "newResources": 30,
     "errors": 0,
     "nextScheduled": "Toutes les 10 minutes si GitHub Actions disponible",
     "machineIndependence": true
@@ -63527,10 +63743,10 @@
       "title": "Diagnostiquer le runtime de démonstrations IA",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-11-22T12:21:53+00:00",
-      "practiceCount": 436,
+      "lastPracticedAt": "2026-11-22T19:52:23+00:00",
+      "practiceCount": 438,
       "proofPath": "evidence/hf-space-runtime-diagnostics-v1.json",
-      "proofSha256": "fb530146fddc9d9ebae300bcf545c8a70be2ef190767a879368537f40f9acd5c",
+      "proofSha256": "e562170e3cbbebb484fd917a3d1ecc2f1e7466c7a0a5defde2b3f821057b068a",
       "resourcesTested": [
         "https://huggingface.co/spaces/Aarya003/Financial-Analyst-Agent",
         "https://huggingface.co/spaces/AceVikings/repro-learning-human-robot-collaboration-via-heterogeneous-agent-lyapunov-policy-optimizatio",
@@ -63967,7 +64183,9 @@
         "https://huggingface.co/spaces/lemontea222/vietnamese-ocr-demo",
         "https://huggingface.co/spaces/LLMhacker/MiniMax-H3-video-generator",
         "https://huggingface.co/spaces/majiii/AgentGAIA",
-        "https://huggingface.co/spaces/mutumahenri/henry-ai-video-worker"
+        "https://huggingface.co/spaces/mutumahenri/henry-ai-video-worker",
+        "https://huggingface.co/spaces/muyleanging/Chakkhu-OCR-Demo",
+        "https://huggingface.co/spaces/Muzzammil55/cg-legal-rag"
       ]
     },
     {
@@ -71245,10 +71463,10 @@
       "title": "Analyser techniquement un dépôt GitHub public",
       "status": "validated",
       "validatedAt": "2026-10-27T12:30:54+00:00",
-      "lastPracticedAt": "2026-11-22T12:21:50+00:00",
-      "practiceCount": 409,
+      "lastPracticedAt": "2026-11-22T19:52:19+00:00",
+      "practiceCount": 411,
       "proofPath": "evidence/github-repository-audit.json",
-      "proofSha256": "127d1bbcf54c087b289291c4f06ff12907ad8702ac4aa250e1a0694ddde08d14",
+      "proofSha256": "d1505bcfef82d894e2439e67e0d01a0b3439f6c4b933a69ca0eabdfce1482bcc",
       "resourcesTested": [
         "https://github.com/0jre/runne",
         "https://github.com/0xMihirK/hercules-mcp",
@@ -71658,191 +71876,13 @@
         "https://github.com/IsmeetPandey/mcp-toolkit-ts",
         "https://github.com/iTELade/service-desk",
         "https://github.com/itguruhaseeb/mcp-probe",
-        "https://github.com/itmarkerz/calcbloc-mcp"
+        "https://github.com/itmarkerz/calcbloc-mcp",
+        "https://github.com/itohnobue/single-session-opencode",
+        "https://github.com/its-qusai-nasr/jira-admin-mcp"
       ]
     }
   ],
   "capabilityTrials": [
-    {
-      "date": "2026-11-16T23:50:24+00:00",
-      "skillId": "github-repository-technical-audit-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 371,
-      "failures": [
-        {
-          "repository": "Irsathautomation/AI-Test-Studio",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "ishandutta2007/Awesome-Business-Process-Automation-BPA",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "ishandutta2007/Awesome-Marketing-Business-Process-Automation",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "ishandutta2007/Awesome-Workflow-Automation-Business-Process-Management",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-16T23:50:28+00:00",
-      "skillId": "hf-model-task-classification-v1",
-      "result": "no-new-evidence",
-      "reportsPassed": 0,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 295,
-      "failures": [
-        {
-          "id": "anantjoshicz/bert-text-classification-news",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Anirbanbhk/Hate-speech-Pretrained-movies",
-          "reason": "ValueError"
-        },
-        {
-          "id": "AnnaWegmann/Style-Embedding",
-          "reason": "ValueError"
-        },
-        {
-          "id": "AnujThalod/Multi-Agent-RAG-Assistant",
-          "reason": "ValueError"
-        },
-        {
-          "id": "aomar85/finetuned-arabert-textclassificationv01",
-          "reason": "ValueError"
-        },
-        {
-          "id": "archita091234/fine-tuned-translation",
-          "reason": "ValueError"
-        },
-        {
-          "id": "arev/translationtest",
-          "reason": "ValueError"
-        },
-        {
-          "id": "arryuann/medical-transcription-corrector",
-          "reason": "ValueError"
-        },
-        {
-          "id": "ArtemisAI/ai-agents-course-multi-tool-agent",
-          "reason": "ValueError"
-        },
-        {
-          "id": "asdc/bert-base-spanish-wwm-cased-finetuned-text_classification",
-          "reason": "ValueError"
-        },
-        {
-          "id": "asdc/roberta-base-biomedical-clinical-es-finetuned-text_classification",
-          "reason": "ValueError"
-        },
-        {
-          "id": "asdc/roberta-base-finetuned-text_classification",
-          "reason": "ValueError"
-        },
-        {
-          "id": "asigalov61/bytedance_piano_transcription",
-          "reason": "ValueError"
-        },
-        {
-          "id": "assayw119/koelectra-wellnesee-text-classification.pth",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Ayachi7/CallVerse-Qwen3VL-2B-Vision-QLoRA",
-          "reason": "ValueError"
-        },
-        {
-          "id": "aybdee/Igbo-SpeechSynthesis",
-          "reason": "ValueError"
-        },
-        {
-          "id": "aykgeh/Ekegusii-LLM-Translation",
-          "reason": "ValueError"
-        },
-        {
-          "id": "BabuSheelaj/email-image-generation-from-text-to-image",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-16T23:50:28+00:00",
-      "skillId": "hf-dataset-usage-assessment-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 180,
-      "failures": [
-        {
-          "id": "mychen76/invoices-and-receipts_ocr_v1",
-          "reason": "ValueError"
-        },
-        {
-          "id": "mychen76/invoices-and-receipts_ocr_v2",
-          "reason": "ValueError"
-        },
-        {
-          "id": "n1ghtf4l1/Agentic-Diagnostic-Reasoning-with-Multimodal-SLMs-via-Reinforcement-Learning",
-          "reason": "ValueError"
-        },
-        {
-          "id": "nateraw/documentation-images",
-          "reason": "ValueError"
-        },
-        {
-          "id": "nbalepur/expository_documents_wiki",
-          "reason": "ValueError"
-        },
-        {
-          "id": "nepalprabin/youtube-transcriptions",
-          "reason": "ValueError"
-        },
-        {
-          "id": "neulab/agent-data-collection",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-16T23:50:28+00:00",
-      "skillId": "hf-space-runtime-diagnostics-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 398,
-      "failures": [
-        {
-          "id": "karthik006/breaking-autonomous-agents",
-          "reason": "HTTPError"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-16T23:50:33+00:00",
-      "skillId": "hf-dataset-sample-ingestion-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "failedResources": [
-        {
-          "id": "Exgentic/agent-llm-traces",
-          "error": "ValueError",
-          "detail": "Réponse trop volumineuse"
-        },
-        {
-          "id": "Exgentic/agent-llm-traces-v2",
-          "error": "ValueError",
-          "detail": "Réponse trop volumineuse"
-        }
-      ],
-      "totalVerifiedExercises": 352
-    },
     {
       "date": "2026-11-17T05:17:01+00:00",
       "skillId": "github-repository-technical-audit-v1",
@@ -76554,25 +76594,335 @@
         }
       ],
       "totalVerifiedExercises": 382
+    },
+    {
+      "date": "2026-11-22T19:52:19+00:00",
+      "skillId": "github-repository-technical-audit-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 411,
+      "failures": [
+        {
+          "repository": "ismailibraheem093-hub/InstaFlow",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "ITGuyFromIA2/MultiAgent-Engineering-StartingBlock",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "itnovaedit/Boostify",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-22T19:52:23+00:00",
+      "skillId": "hf-model-task-classification-v1",
+      "result": "no-new-evidence",
+      "reportsPassed": 0,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 305,
+      "failures": [
+        {
+          "id": "agentionai/Qwen3.8-Flash-Next-Gyro-Coder-GGUF",
+          "reason": "ValueError"
+        },
+        {
+          "id": "agentionai/Qwen3.8-Flash-Next-Gyro-GGUF",
+          "reason": "ValueError"
+        },
+        {
+          "id": "agentionai/Qwen3.8-Flash-Next-MTP-Q8_0-GGUF",
+          "reason": "ValueError"
+        },
+        {
+          "id": "agentionai/Signal-2-Flash-Next-Gyro-GGUF",
+          "reason": "ValueError"
+        },
+        {
+          "id": "agentionai/Signal-3.8-Flash-Next-GGUF",
+          "reason": "ValueError"
+        },
+        {
+          "id": "agentlans/ai-human-alignment",
+          "reason": "ValueError"
+        },
+        {
+          "id": "agentlans/SmolLM2-135M-multilingual-base",
+          "reason": "ValueError"
+        },
+        {
+          "id": "agents-course/notebooks",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Agentware/d3-mini-calibrated-gguf",
+          "reason": "ValueError"
+        },
+        {
+          "id": "ahmad123/distilbert-base-uncased-finetuned-text_classification",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Ahmade/text_to_textgenerationv1",
+          "reason": "ValueError"
+        },
+        {
+          "id": "AhmedOkasha/ChestVision-Fine-Tuned-Vision-Language-Model",
+          "reason": "ValueError"
+        },
+        {
+          "id": "airun-ai/GlanceRAG-MiMo-9B-Reranker",
+          "reason": "ValueError"
+        },
+        {
+          "id": "akanksha-b14/songs-transcription-2",
+          "reason": "ValueError"
+        },
+        {
+          "id": "akanksha-b14/songs_transcription_wav2vec_base2",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Akash212/multicorpus-hate-speech-ensemble",
+          "reason": "ValueError"
+        },
+        {
+          "id": "akdeniz27/bert-turkish-text-classification",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Akhror/autotrain-text-classification-kunuz-1630257501",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-22T19:52:23+00:00",
+      "skillId": "hf-dataset-usage-assessment-v1",
+      "result": "no-new-evidence",
+      "reportsPassed": 0,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 202,
+      "failures": [
+        {
+          "id": "mlx-community/hermes-reasoning-tool-use",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Mme-Box/vehicles",
+          "reason": "ValueError"
+        },
+        {
+          "id": "molmohsen/awesome-ai-agent-papers",
+          "reason": "ValueError"
+        },
+        {
+          "id": "moumeneb1/French_arpa_lm",
+          "reason": "ValueError"
+        },
+        {
+          "id": "mtyrrell/NDC_documents_master",
+          "reason": "ValueError"
+        },
+        {
+          "id": "mychen76/invoices-and-receipts_ocr_v1",
+          "reason": "ValueError"
+        },
+        {
+          "id": "mychen76/invoices-and-receipts_ocr_v2",
+          "reason": "ValueError"
+        },
+        {
+          "id": "n1ghtf4l1/Agentic-Diagnostic-Reasoning-with-Multimodal-SLMs-via-Reinforcement-Learning",
+          "reason": "ValueError"
+        },
+        {
+          "id": "nateraw/documentation-images",
+          "reason": "ValueError"
+        },
+        {
+          "id": "nbalepur/expository_documents_wiki",
+          "reason": "ValueError"
+        },
+        {
+          "id": "nepalprabin/youtube-transcriptions",
+          "reason": "ValueError"
+        },
+        {
+          "id": "neulab/agent-data-collection",
+          "reason": "ValueError"
+        },
+        {
+          "id": "nicolas-devatine/qa-accounting-edits",
+          "reason": "ValueError"
+        },
+        {
+          "id": "nitesh-sawadia/invoice_layoutlmv3",
+          "reason": "ValueError"
+        },
+        {
+          "id": "NitishKarra/invoice-bills",
+          "reason": "ValueError"
+        },
+        {
+          "id": "NLPC-UOM/document_alignment_dataset-Sinhala-Tamil-English",
+          "reason": "ValueError"
+        },
+        {
+          "id": "numpy25/invoice_images",
+          "reason": "ValueError"
+        },
+        {
+          "id": "nvidia/PhysicalAI-Autonomous-Vehicles",
+          "reason": "JSONDecodeError"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-22T19:52:23+00:00",
+      "skillId": "hf-space-runtime-diagnostics-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 438,
+      "failures": [
+        {
+          "id": "muddasser/Memory_Augmented_RAG",
+          "reason": "HTTPError"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-22T19:52:28+00:00",
+      "skillId": "hf-dataset-sample-ingestion-v1",
+      "result": "no-new-evidence",
+      "reportsPassed": 0,
+      "reportsRequired": 1,
+      "failedResources": [
+        {
+          "id": "dmayhem93/toolformer_raw_v0",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "earakely-scale/AirOpsEnv-AgentEnv",
+          "error": "ValueError",
+          "detail": "Réponse trop volumineuse"
+        },
+        {
+          "id": "echo4eva/vehicles",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "electricsheepasia/asia-owid-countries-using-the-system-of-environmental-economic-accounting",
+          "error": "ValueError",
+          "detail": "Schéma de colonnes invalide"
+        },
+        {
+          "id": "electricsheepeurope/europe-owid-countries-using-the-system-of-environmental-economic-accounting",
+          "error": "ValueError",
+          "detail": "Schéma de colonnes invalide"
+        },
+        {
+          "id": "eugenetanjc/speech_accent_1000_french",
+          "error": "ValueError",
+          "detail": "Réponse trop volumineuse"
+        },
+        {
+          "id": "Exgentic/agent-llm-traces",
+          "error": "ValueError",
+          "detail": "Réponse trop volumineuse"
+        },
+        {
+          "id": "Exgentic/agent-llm-traces-v2",
+          "error": "ValueError",
+          "detail": "Réponse trop volumineuse"
+        },
+        {
+          "id": "FineEnvs/data-agent-harbor-train",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "fox7005/tool",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "FreedomIntelligence/MMLU_French",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "french-open-data/affichage-legal-de-la-ville-et-de-l-eurometropole-de-strasbourg",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "french-open-data/comptes-des-associations-fichier-reformate",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "french-open-data/denombrement-annuel-des-usagers-des-urssaf-par-organisme-de-gestion",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "french-open-data/denombrement-annuel-des-usagers-des-urssaf-par-region",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "french-open-data/nombre-annuel-de-delais-de-paiement-octroyes-par-les-urssaf",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "french-open-data/resultats-de-l-activite-du-controle-et-de-prevention-par-les-urssaf",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "french-open-data/resultats-de-la-lutte-contre-le-travail-dissimule-par-les-urssaf",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "Gene829/gene-llm-agents-corpus",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "Gene829/gene-llm-agents-instruct",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        }
+      ],
+      "totalVerifiedExercises": 382
     }
   ],
   "lastCapabilityVerification": {
-    "date": "2026-11-22T12:21:59+00:00",
+    "date": "2026-11-22T19:52:28+00:00",
     "skillId": "hf-dataset-sample-ingestion-v1",
     "result": "no-new-evidence"
   },
   "discovery": {
-    "cursor": 218,
+    "cursor": 219,
     "capacity": 20000,
-    "lastBatch": 35,
+    "lastBatch": 30,
     "newByCategory": {
-      "github": 26,
-      "models": 7,
-      "datasets": 2,
-      "spaces": 0
+      "github": 24,
+      "models": 4,
+      "datasets": 1,
+      "spaces": 1
     },
     "queriesLastRun": 7,
-    "totalSearchCycles": 218,
+    "totalSearchCycles": 219,
     "lastErrors": []
   },
   "approvedResources": [
