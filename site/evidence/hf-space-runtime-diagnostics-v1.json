@@ -3,7 +3,7 @@
   "title": "Diagnostiquer le runtime de démonstrations IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-23T00:30:41+00:00",
+  "lastPracticedAt": "2026-11-23T08:05:27+00:00",
   "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
   "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
   "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
@@ -3967,6 +3967,24 @@
       "sdk": "gradio",
       "runtimeStage": "RUNTIME_ERROR",
       "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "neuralworm/voice_note_transcription",
+      "source": "https://huggingface.co/spaces/neuralworm/voice_note_transcription",
+      "observedAt": "2026-11-23T08:05:27+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNTIME_ERROR",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "nielsr/MiniCPM-OCR-vs-Unlimited-OCR-2",
+      "source": "https://huggingface.co/spaces/nielsr/MiniCPM-OCR-vs-Unlimited-OCR-2",
+      "observedAt": "2026-11-23T08:05:27+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNNING",
+      "availableNow": true,
       "note": "La disponibilité est un instantané, pas une promesse de service"
     }
   ]

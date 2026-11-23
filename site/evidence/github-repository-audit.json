@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-23T00:30:39+00:00",
+  "lastPracticedAt": "2026-11-23T08:05:23+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -6940,6 +6940,38 @@
       "archived": false,
       "starsAtTest": 8,
       "pushedAt": "2026-11-08T02:54:29Z"
+    },
+    {
+      "repository": "jagadeeshshetty/qa-auto-webui-py",
+      "url": "https://github.com/jagadeeshshetty/qa-auto-webui-py",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 94.96,
+      "languageBytes": {
+        "Python": 4750,
+        "Shell": 127,
+        "Batchfile": 125
+      },
+      "totalLanguageBytes": 5002,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-11-22T20:01:04Z"
+    },
+    {
+      "repository": "jagadishk112002-boop/KANAK-jewellery",
+      "url": "https://github.com/jagadishk112002-boop/KANAK-jewellery",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "primaryLanguageSharePercent": 55.43,
+      "languageBytes": {
+        "JavaScript": 24941,
+        "CSS": 19560,
+        "HTML": 496
+      },
+      "totalLanguageBytes": 44997,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-07-16T08:06:41Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
