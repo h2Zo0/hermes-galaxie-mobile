@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-23T08:05:23+00:00",
+  "lastPracticedAt": "2026-11-23T20:07:21+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -6972,6 +6972,46 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-07-16T08:06:41Z"
+    },
+    {
+      "repository": "jagannadharao8/Fake-news-detection-using-GENAI-ML-DL-XAI",
+      "url": "https://github.com/jagannadharao8/Fake-news-detection-using-GENAI-ML-DL-XAI",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 85.54,
+      "languageBytes": {
+        "Python": 183349,
+        "JavaScript": 12135,
+        "HTML": 10343,
+        "CSS": 7570,
+        "Dockerfile": 957
+      },
+      "totalLanguageBytes": 214354,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-23T15:44:37Z"
+    },
+    {
+      "repository": "jaguarkyng/heym",
+      "url": "https://github.com/jaguarkyng/heym",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 50.63,
+      "languageBytes": {
+        "Python": 2975455,
+        "Vue": 2324234,
+        "TypeScript": 513217,
+        "CSS": 23076,
+        "Shell": 17604,
+        "JavaScript": 16400,
+        "Dockerfile": 5485,
+        "HTML": 798,
+        "Mako": 594
+      },
+      "totalLanguageBytes": 5876863,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-09-06T16:03:26Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

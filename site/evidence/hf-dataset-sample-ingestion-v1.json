@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-22T03:56:34+00:00",
+  "lastPracticedAt": "2026-11-23T20:07:29+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -7784,6 +7784,46 @@
       "rowCount": 3,
       "sampleSha256": "f1ad249b52504489ffe0416e8a52db7c871c4c4fb57c9bbd21a2688492f54327",
       "observedAt": "2026-11-22T03:56:34+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "huiminz3/How_Do_AI_Agents_Waste_Your_Money",
+      "source": "https://huggingface.co/datasets/huiminz3/How_Do_AI_Agents_Waste_Your_Money",
+      "config": "default",
+      "split": "test",
+      "columns": [
+        "benchmark",
+        "domain",
+        "harness",
+        "model",
+        "solved",
+        "task_id",
+        "trace_id",
+        "turns"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "fac45dfc7cc3fc3bedf5ebcf94f553040186cb097012ad27731b23598a8128eb",
+      "observedAt": "2026-11-23T20:07:29+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "iamtheajitsingh/agentrisk-data-2027",
+      "source": "https://huggingface.co/datasets/iamtheajitsingh/agentrisk-data-2027",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "example_id",
+        "formatted_interaction",
+        "proposed_action",
+        "risk_domains",
+        "risk_drivers",
+        "risk_severity"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "409eddc17c9eaebaaa061755efb002ac4a9b88a7fb68c65c917067142b4ed0ea",
+      "observedAt": "2026-11-23T20:07:29+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
