@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-23T20:07:21+00:00",
+  "lastPracticedAt": "2026-11-24T04:44:45+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -7012,6 +7012,35 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-09-06T16:03:26Z"
+    },
+    {
+      "repository": "itsmestefanjay/camunda-ai-agent-stackit-example",
+      "url": "https://github.com/itsmestefanjay/camunda-ai-agent-stackit-example",
+      "defaultBranch": "main",
+      "primaryLanguage": "Java",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Java": 14170
+      },
+      "totalLanguageBytes": 14170,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-11-12T11:08:01Z"
+    },
+    {
+      "repository": "itsprayagi-debug/fleet-Hub",
+      "url": "https://github.com/itsprayagi-debug/fleet-Hub",
+      "defaultBranch": "main",
+      "primaryLanguage": "Kotlin",
+      "primaryLanguageSharePercent": 96.28,
+      "languageBytes": {
+        "Kotlin": 476293,
+        "JavaScript": 18405
+      },
+      "totalLanguageBytes": 494698,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-16T09:46:29Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-23T20:07:29+00:00",
+  "lastPracticedAt": "2026-11-24T04:44:51+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -7824,6 +7824,52 @@
       "rowCount": 3,
       "sampleSha256": "409eddc17c9eaebaaa061755efb002ac4a9b88a7fb68c65c917067142b4ed0ea",
       "observedAt": "2026-11-23T20:07:29+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "intentanchor/zh-tool-call-safety",
+      "source": "https://huggingface.co/datasets/intentanchor/zh-tool-call-safety",
+      "config": "default",
+      "split": "test",
+      "columns": [
+        "attack_family",
+        "audited",
+        "category",
+        "domain",
+        "id",
+        "input",
+        "label",
+        "label_source",
+        "lang",
+        "meta",
+        "reason",
+        "risk_source",
+        "source",
+        "split",
+        "suite"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "0de02a2479523e1c571b6755d4708cab9826be71851ac576ed5e3dbdecddb2af",
+      "observedAt": "2026-11-24T04:44:51+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "interstellarninja/toolace_hermes_tool_use",
+      "source": "https://huggingface.co/datasets/interstellarninja/toolace_hermes_tool_use",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "category",
+        "conversations",
+        "source",
+        "task",
+        "tools"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "d2a795eb95f85e77ff413926dfd71734e6aeaf5ac53e4b26e18d998b4f6e02ea",
+      "observedAt": "2026-11-24T04:44:51+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

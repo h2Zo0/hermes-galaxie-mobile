@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-22T12:21:53+00:00",
+  "lastPracticedAt": "2026-11-24T04:44:48+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -2281,6 +2281,28 @@
       "declaredLicense": "gpl",
       "formats": [
         "parquet"
+      ],
+      "listedFiles": 6,
+      "access": "public"
+    },
+    {
+      "id": "open-thoughts/OpenThoughts-Agent-SFT-100K",
+      "source": "https://huggingface.co/datasets/open-thoughts/OpenThoughts-Agent-SFT-100K",
+      "observedAt": "2026-11-24T04:44:48+00:00",
+      "declaredLicense": "apache-2.0",
+      "formats": [
+        "parquet"
+      ],
+      "listedFiles": 12,
+      "access": "public"
+    },
+    {
+      "id": "OpenUncensored/uncensored-agent-eval",
+      "source": "https://huggingface.co/datasets/OpenUncensored/uncensored-agent-eval",
+      "observedAt": "2026-11-24T04:44:48+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "jsonl"
       ],
       "listedFiles": 6,
       "access": "public"
