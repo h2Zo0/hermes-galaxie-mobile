@@ -3,7 +3,7 @@
   "title": "Qualifier licence et format de jeux de données IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-24T04:44:48+00:00",
+  "lastPracticedAt": "2026-11-24T15:21:31+00:00",
   "challenge": "Qualifier 2 jeux de données distincts, leur licence déclarée et au moins un format de fichier réellement inventorié.",
   "method": "API Hugging Face datasets, cardData/tags et siblings; aucune donnée confidentielle téléchargée",
   "scope": "Inventaire de formats et droits déclarés, pas audit juridique ni contrôle du contenu.",
@@ -2305,6 +2305,19 @@
         "jsonl"
       ],
       "listedFiles": 6,
+      "access": "public"
+    },
+    {
+      "id": "oro-agents/smb-bench",
+      "source": "https://huggingface.co/datasets/oro-agents/smb-bench",
+      "observedAt": "2026-11-24T15:21:31+00:00",
+      "declaredLicense": "cc-by-4.0",
+      "formats": [
+        "json",
+        "parquet",
+        "txt"
+      ],
+      "listedFiles": 9792,
       "access": "public"
     }
   ]
