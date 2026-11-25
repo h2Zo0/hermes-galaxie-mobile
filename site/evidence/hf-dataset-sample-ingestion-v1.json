@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-24T23:58:22+00:00",
+  "lastPracticedAt": "2026-11-25T07:39:24+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -7908,6 +7908,50 @@
       "rowCount": 3,
       "sampleSha256": "a76347e9e0241ec30f9f4eb156c7564e6c3894c879965ac70132c873899f6d16",
       "observedAt": "2026-11-24T23:58:22+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "cx-cmu/deepresearchgym-agentic-search-logs",
+      "source": "https://huggingface.co/datasets/cx-cmu/deepresearchgym-agentic-search-logs",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "query",
+        "query_id",
+        "retrieval_depth",
+        "session_id",
+        "session_len",
+        "time_offset"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "dcfdb724ec72d9dd62c7551f40f8319292c209c7753c89755ee832b99359fcf2",
+      "observedAt": "2026-11-25T07:39:24+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "darioooooo0o/tiny-agent-qwen3.8-trajectories",
+      "source": "https://huggingface.co/datasets/darioooooo0o/tiny-agent-qwen3.8-trajectories",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "answer",
+        "calls",
+        "completion_tokens",
+        "correct",
+        "grounded",
+        "kind",
+        "messages",
+        "prompt_format",
+        "reject_reason",
+        "seed",
+        "submitted",
+        "usable"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "12dd761a4b60262ca0006c0f53725b040cce487078300ab099d9cc95b2bd1acf",
+      "observedAt": "2026-11-25T07:39:24+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }

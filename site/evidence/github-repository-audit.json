@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-24T23:58:07+00:00",
+  "lastPracticedAt": "2026-11-25T07:39:12+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -7107,6 +7107,37 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-10-29T06:37:48Z"
+    },
+    {
+      "repository": "James-barrell/gtm-tools",
+      "url": "https://github.com/James-barrell/gtm-tools",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 98.05,
+      "languageBytes": {
+        "TypeScript": 36711,
+        "Shell": 729
+      },
+      "totalLanguageBytes": 37440,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-06-15T18:39:16Z"
+    },
+    {
+      "repository": "james-merithew/openemr-red-team",
+      "url": "https://github.com/james-merithew/openemr-red-team",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 86.07,
+      "languageBytes": {
+        "Python": 175280,
+        "HTML": 27997,
+        "Dockerfile": 375
+      },
+      "totalLanguageBytes": 203652,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-14T01:55:35Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
