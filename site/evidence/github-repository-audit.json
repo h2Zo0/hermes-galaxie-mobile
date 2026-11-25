@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-25T07:39:12+00:00",
+  "lastPracticedAt": "2026-11-25T18:11:20+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -7138,6 +7138,36 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-11-14T01:55:35Z"
+    },
+    {
+      "repository": "JamesEBall/BarterBench",
+      "url": "https://github.com/JamesEBall/BarterBench",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 99.35,
+      "languageBytes": {
+        "Python": 287158,
+        "Shell": 1882
+      },
+      "totalLanguageBytes": 289040,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-26T22:58:05Z"
+    },
+    {
+      "repository": "jamesepictetushuynh-cell/aegis-os-sandbox",
+      "url": "https://github.com/jamesepictetushuynh-cell/aegis-os-sandbox",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 97.59,
+      "languageBytes": {
+        "Python": 4977,
+        "Dockerfile": 123
+      },
+      "totalLanguageBytes": 5100,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-06-03T03:54:48Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

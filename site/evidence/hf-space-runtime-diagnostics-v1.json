@@ -3,7 +3,7 @@
   "title": "Diagnostiquer le runtime de démonstrations IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-25T07:39:18+00:00",
+  "lastPracticedAt": "2026-11-25T18:11:25+00:00",
   "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
   "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
   "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
@@ -4075,6 +4075,24 @@
       "sdk": "gradio",
       "runtimeStage": "RUNTIME_ERROR",
       "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "omkamath/automation",
+      "source": "https://huggingface.co/spaces/omkamath/automation",
+      "observedAt": "2026-11-25T18:11:25+00:00",
+      "sdk": "static",
+      "runtimeStage": "RUNNING",
+      "availableNow": true,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "omoured/YOLOv10-Document-Layout-Analysis",
+      "source": "https://huggingface.co/spaces/omoured/YOLOv10-Document-Layout-Analysis",
+      "observedAt": "2026-11-25T18:11:25+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNNING",
+      "availableNow": true,
       "note": "La disponibilité est un instantané, pas une promesse de service"
     }
   ]
