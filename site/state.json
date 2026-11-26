@@ -1,17 +1,17 @@
 {
   "name": "NOVENS CORE — GALAXIE VIVANTE",
-  "asOf": "2026-11-26T10:04:49+00:00",
-  "polledAt": "2026-11-26T10:04:49+00:00",
-  "resourceCount": 9161,
+  "asOf": "2026-11-26T19:35:28+00:00",
+  "polledAt": "2026-11-26T19:35:28+00:00",
+  "resourceCount": 9181,
   "categoryCounts": {
-    "github": 6660,
-    "models": 1023,
-    "datasets": 730,
+    "github": 6676,
+    "models": 1024,
+    "datasets": 733,
     "spaces": 748
   },
   "verifiedSkills": 399,
   "netProfitEuro": 0.0,
-  "growth24h": 115,
+  "growth24h": 125,
   "history": [
     {
       "date": "2026-10-26T22:30:41+01:00",
@@ -1432,6 +1432,12 @@
     {
       "date": "2026-11-26T10:04:49+00:00",
       "resources": 9161,
+      "verified": 399,
+      "profit": 0.0
+    },
+    {
+      "date": "2026-11-26T19:35:28+00:00",
+      "resources": 9181,
       "verified": 399,
       "profit": 0.0
     }
@@ -5582,6 +5588,20 @@
       "firstSeen": "2026-10-27T16:16:41+00:00"
     },
     {
+      "id": "datasets:ratschlab/KPMP_virtual_spatial_transcriptomics_atlas",
+      "category": "datasets",
+      "name": "ratschlab/KPMP_virtual_spatial_transcriptomics_atlas",
+      "url": "https://huggingface.co/datasets/ratschlab/KPMP_virtual_spatial_transcriptomics_atlas",
+      "firstSeen": "2026-11-26T19:35:28+00:00"
+    },
+    {
+      "id": "datasets:ratschlab/KPMP_Xenium_virtual_spatial_transcriptomics",
+      "category": "datasets",
+      "name": "ratschlab/KPMP_Xenium_virtual_spatial_transcriptomics",
+      "url": "https://huggingface.co/datasets/ratschlab/KPMP_Xenium_virtual_spatial_transcriptomics",
+      "firstSeen": "2026-11-26T19:35:28+00:00"
+    },
+    {
       "id": "datasets:ratschlab/TCGA_virtual_spatial_transcriptomics_atlas",
       "category": "datasets",
       "name": "ratschlab/TCGA_virtual_spatial_transcriptomics_atlas",
@@ -5713,6 +5733,13 @@
       "name": "saeedzou/youtube-sl-25-french-german",
       "url": "https://huggingface.co/datasets/saeedzou/youtube-sl-25-french-german",
       "firstSeen": "2026-11-21T19:28:38+00:00"
+    },
+    {
+      "id": "datasets:sahar-millis-runi/old-games-transcript",
+      "category": "datasets",
+      "name": "sahar-millis-runi/old-games-transcript",
+      "url": "https://huggingface.co/datasets/sahar-millis-runi/old-games-transcript",
+      "firstSeen": "2026-11-26T19:35:28+00:00"
     },
     {
       "id": "datasets:SahmBenchmark/arabic-accounting-mcq_eval",
@@ -14087,6 +14114,13 @@
       "firstSeen": "2026-10-27T23:39:16+00:00"
     },
     {
+      "id": "github:benchmark-label-audit/llm-record-synthesis",
+      "category": "github",
+      "name": "benchmark-label-audit/llm-record-synthesis",
+      "url": "https://github.com/benchmark-label-audit/llm-record-synthesis",
+      "firstSeen": "2026-11-26T19:35:28+00:00"
+    },
+    {
       "id": "github:Benjamin-Wegener/llm-test-benchmark-100",
       "category": "github",
       "name": "Benjamin-Wegener/llm-test-benchmark-100",
@@ -18378,6 +18412,13 @@
       "firstSeen": "2026-10-27T18:41:59+00:00"
     },
     {
+      "id": "github:deryakcgl/myteamofAI",
+      "category": "github",
+      "name": "deryakcgl/myteamofAI",
+      "url": "https://github.com/deryakcgl/myteamofAI",
+      "firstSeen": "2026-11-26T19:35:28+00:00"
+    },
+    {
       "id": "github:designcomputer/mysql_mcp_server",
       "category": "github",
       "name": "designcomputer/mysql_mcp_server",
@@ -20212,6 +20253,13 @@
       "firstSeen": "2026-10-27T20:44:22+00:00"
     },
     {
+      "id": "github:EnikepalliGeethaSree/multi-agent-ai-software-engineering",
+      "category": "github",
+      "name": "EnikepalliGeethaSree/multi-agent-ai-software-engineering",
+      "url": "https://github.com/EnikepalliGeethaSree/multi-agent-ai-software-engineering",
+      "firstSeen": "2026-11-26T19:35:28+00:00"
+    },
+    {
       "id": "github:enisk33/automation-socialmedia",
       "category": "github",
       "name": "enisk33/automation-socialmedia",
@@ -21171,6 +21219,13 @@
       "firstSeen": "2026-11-21T03:58:02+00:00"
     },
     {
+      "id": "github:FinLexPurple/finlexpurple",
+      "category": "github",
+      "name": "FinLexPurple/finlexpurple",
+      "url": "https://github.com/FinLexPurple/finlexpurple",
+      "firstSeen": "2026-11-26T19:35:28+00:00"
+    },
+    {
       "id": "github:finogeeks/agent-safety-arena",
       "category": "github",
       "name": "finogeeks/agent-safety-arena",
@@ -21932,6 +21987,13 @@
       "name": "Gaurav09072003/RAGFlow-ME",
       "url": "https://github.com/Gaurav09072003/RAGFlow-ME",
       "firstSeen": "2026-11-03T01:11:18+00:00"
+    },
+    {
+      "id": "github:GauravPatil2515/twil-8b-eval",
+      "category": "github",
+      "name": "GauravPatil2515/twil-8b-eval",
+      "url": "https://github.com/GauravPatil2515/twil-8b-eval",
+      "firstSeen": "2026-11-26T19:35:28+00:00"
     },
     {
       "id": "github:GauravPatil777/Aura-Ai_Agentic-Rag-Chatbot",
@@ -27506,6 +27568,13 @@
       "firstSeen": "2026-10-28T21:19:35+00:00"
     },
     {
+      "id": "github:junaaaak/gemini-model-showdown",
+      "category": "github",
+      "name": "junaaaak/gemini-model-showdown",
+      "url": "https://github.com/junaaaak/gemini-model-showdown",
+      "firstSeen": "2026-11-26T19:35:28+00:00"
+    },
+    {
       "id": "github:junaidshah78/social-media-automation",
       "category": "github",
       "name": "junaidshah78/social-media-automation",
@@ -27742,6 +27811,13 @@
       "name": "kadesnikov/ai-quick-scan",
       "url": "https://github.com/kadesnikov/ai-quick-scan",
       "firstSeen": "2026-11-21T03:58:02+00:00"
+    },
+    {
+      "id": "github:Kadi2207/wmdp-cyber",
+      "category": "github",
+      "name": "Kadi2207/wmdp-cyber",
+      "url": "https://github.com/Kadi2207/wmdp-cyber",
+      "firstSeen": "2026-11-26T19:35:28+00:00"
     },
     {
       "id": "github:KadiriSwetha/Retrieval-Augmented-Generation-RAG-",
@@ -28176,6 +28252,13 @@
       "name": "Kavana1410/offline-multi-mode-ai-assistant",
       "url": "https://github.com/Kavana1410/offline-multi-mode-ai-assistant",
       "firstSeen": "2026-11-18T12:20:41+00:00"
+    },
+    {
+      "id": "github:KAVentures/audience-calibrated-medical-llm-safety",
+      "category": "github",
+      "name": "KAVentures/audience-calibrated-medical-llm-safety",
+      "url": "https://github.com/KAVentures/audience-calibrated-medical-llm-safety",
+      "firstSeen": "2026-11-26T19:35:28+00:00"
     },
     {
       "id": "github:kavin120/DocuMind",
@@ -28799,6 +28882,13 @@
       "name": "kingmuja12/treadle",
       "url": "https://github.com/kingmuja12/treadle",
       "firstSeen": "2026-11-12T08:52:53+00:00"
+    },
+    {
+      "id": "github:kings-crown/s2n-bignum-bench",
+      "category": "github",
+      "name": "kings-crown/s2n-bignum-bench",
+      "url": "https://github.com/kings-crown/s2n-bignum-bench",
+      "firstSeen": "2026-11-26T19:35:28+00:00"
     },
     {
       "id": "github:Kiran-Kambale/pgvector-lab",
@@ -32553,6 +32643,13 @@
       "firstSeen": "2026-10-27T16:16:41+00:00"
     },
     {
+      "id": "github:michael-borck/assessment-bench",
+      "category": "github",
+      "name": "michael-borck/assessment-bench",
+      "url": "https://github.com/michael-borck/assessment-bench",
+      "firstSeen": "2026-11-26T19:35:28+00:00"
+    },
+    {
       "id": "github:Michael-Hagmans/nasa-mission-rag-chat",
       "category": "github",
       "name": "Michael-Hagmans/nasa-mission-rag-chat",
@@ -35050,6 +35147,13 @@
       "name": "nayansahu2004/Retail-RAG-Agent",
       "url": "https://github.com/nayansahu2004/Retail-RAG-Agent",
       "firstSeen": "2026-11-05T01:52:06+00:00"
+    },
+    {
+      "id": "github:Nayeem974/Nayeem-AI-Developer-Toolkit",
+      "category": "github",
+      "name": "Nayeem974/Nayeem-AI-Developer-Toolkit",
+      "url": "https://github.com/Nayeem974/Nayeem-AI-Developer-Toolkit",
+      "firstSeen": "2026-11-26T19:35:28+00:00"
     },
     {
       "id": "github:naylaikhan/Python_Projects",
@@ -38027,6 +38131,13 @@
       "firstSeen": "2026-11-03T01:11:18+00:00"
     },
     {
+      "id": "github:phani-x507/-Offline-LLMs-for-Low-Spec-Devices--A-Study-on-Efficiency-and-Usability-",
+      "category": "github",
+      "name": "phani-x507/-Offline-LLMs-for-Low-Spec-Devices--A-Study-on-Efficiency-and-Usability-",
+      "url": "https://github.com/phani-x507/-Offline-LLMs-for-Low-Spec-Devices--A-Study-on-Efficiency-and-Usability-",
+      "firstSeen": "2026-11-26T19:35:28+00:00"
+    },
+    {
       "id": "github:Phantomduke375846-alt/clinic_rag_rpocket_bot",
       "category": "github",
       "name": "Phantomduke375846-alt/clinic_rag_rpocket_bot",
@@ -39007,6 +39118,13 @@
       "firstSeen": "2026-11-13T23:29:37+00:00"
     },
     {
+      "id": "github:princeskyadav067-Titan/study-guru",
+      "category": "github",
+      "name": "princeskyadav067-Titan/study-guru",
+      "url": "https://github.com/princeskyadav067-Titan/study-guru",
+      "firstSeen": "2026-11-26T19:35:28+00:00"
+    },
+    {
       "id": "github:Princewill106/AI-SOCIAL-MEDIA-CONTENT-CREATOR-AUTO-PUBLISHER",
       "category": "github",
       "name": "Princewill106/AI-SOCIAL-MEDIA-CONTENT-CREATOR-AUTO-PUBLISHER",
@@ -39525,6 +39643,13 @@
       "firstSeen": "2026-10-27T18:41:59+00:00"
     },
     {
+      "id": "github:RaashiSingh/PromptGate",
+      "category": "github",
+      "name": "RaashiSingh/PromptGate",
+      "url": "https://github.com/RaashiSingh/PromptGate",
+      "firstSeen": "2026-11-26T19:35:28+00:00"
+    },
+    {
       "id": "github:Raccoon-Office/Box-Agent",
       "category": "github",
       "name": "Raccoon-Office/Box-Agent",
@@ -39978,6 +40103,13 @@
       "name": "ramyagorantla-dev/CloudPilot",
       "url": "https://github.com/ramyagorantla-dev/CloudPilot",
       "firstSeen": "2026-10-27T23:59:45+00:00"
+    },
+    {
+      "id": "github:rananisarsb51214/Claude.md",
+      "category": "github",
+      "name": "rananisarsb51214/Claude.md",
+      "url": "https://github.com/rananisarsb51214/Claude.md",
+      "firstSeen": "2026-11-26T19:35:28+00:00"
     },
     {
       "id": "github:rananisarsb51214/NISAR-CLOUD-AI-COMMANDER",
@@ -50305,6 +50437,13 @@
       "firstSeen": "2026-11-24T04:44:37+00:00"
     },
     {
+      "id": "github:vidanov/de-bench",
+      "category": "github",
+      "name": "vidanov/de-bench",
+      "url": "https://github.com/vidanov/de-bench",
+      "firstSeen": "2026-11-26T19:35:28+00:00"
+    },
+    {
       "id": "github:Vidhi-mavani/RAG_BOT",
       "category": "github",
       "name": "Vidhi-mavani/RAG_BOT",
@@ -56995,6 +57134,13 @@
       "name": "mattraj/curacel-transcription-1",
       "url": "https://huggingface.co/mattraj/curacel-transcription-1",
       "firstSeen": "2026-10-27T16:37:04+00:00"
+    },
+    {
+      "id": "models:mavietduc/ViTay-translation",
+      "category": "models",
+      "name": "mavietduc/ViTay-translation",
+      "url": "https://huggingface.co/mavietduc/ViTay-translation",
+      "firstSeen": "2026-11-26T19:35:28+00:00"
     },
     {
       "id": "models:Maxime-Bakunzi/twigane-en-kin-translation",
@@ -65569,9 +65715,9 @@
   "cloud": {
     "agent": "Éclaireur NOVENS CORE",
     "execution": "GitHub Actions",
-    "lastMissionAt": "2026-11-26T10:04:49+00:00",
+    "lastMissionAt": "2026-11-26T19:35:28+00:00",
     "missionStatus": "succès",
-    "newResources": 66,
+    "newResources": 20,
     "errors": 0,
     "nextScheduled": "Toutes les 10 minutes si GitHub Actions disponible",
     "machineIndependence": true
@@ -66123,10 +66269,10 @@
       "title": "Diagnostiquer le runtime de démonstrations IA",
       "status": "validated",
       "validatedAt": "2026-10-27T13:09:45+00:00",
-      "lastPracticedAt": "2026-11-26T10:05:08+00:00",
-      "practiceCount": 458,
+      "lastPracticedAt": "2026-11-26T19:35:47+00:00",
+      "practiceCount": 460,
       "proofPath": "evidence/hf-space-runtime-diagnostics-v1.json",
-      "proofSha256": "17c942a2f4b0f090c7026781bf7cc1624565322eb6ebca49e2ce99a3fc3e2eeb",
+      "proofSha256": "f4f782f96436c73e1f4b258dcaef3e364ea9da4e99db3181bdab6835d4eb1666",
       "resourcesTested": [
         "https://huggingface.co/spaces/Aarya003/Financial-Analyst-Agent",
         "https://huggingface.co/spaces/AceVikings/repro-learning-human-robot-collaboration-via-heterogeneous-agent-lyapunov-policy-optimizatio",
@@ -66585,7 +66731,9 @@
         "https://huggingface.co/spaces/Omthakur1394/rag-api",
         "https://huggingface.co/spaces/open-agent-leaderboard/leaderboard",
         "https://huggingface.co/spaces/m-ric/agent-data-analyst",
-        "https://huggingface.co/spaces/Oliver577/qwen-video-edit"
+        "https://huggingface.co/spaces/Oliver577/qwen-video-edit",
+        "https://huggingface.co/spaces/openbmb/MiniCPM-OCR",
+        "https://huggingface.co/spaces/opencompass/openvlm_video_leaderboard"
       ]
     },
     {
@@ -74069,14 +74217,32 @@
       }
     },
     {
+      "id": "dataset:DrBimmer/vehicle-classification",
+      "title": "Lire le dataset DrBimmer/vehicle-classification",
+      "status": "validated",
+      "validatedAt": "2026-11-26T10:05:14+00:00",
+      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
+      "proofSha256": "5fa5a2bc95d8495bb4dad7b69c0e47beb73413dc8de70bd9daf24288d0104f8e",
+      "resourcesTested": [
+        "https://huggingface.co/datasets/DrBimmer/vehicle-classification"
+      ],
+      "practiceCount": 1,
+      "handler": "hf-dataset-sample-readonly",
+      "scope": "read-only-dataset-sampling",
+      "call": {
+        "tool": "novens_capabilities_invoke",
+        "capability_id": "dataset:DrBimmer/vehicle-classification"
+      }
+    },
+    {
       "id": "github-repository-technical-audit-v1",
       "title": "Analyser techniquement un dépôt GitHub public",
       "status": "validated",
       "validatedAt": "2026-10-27T12:30:54+00:00",
-      "lastPracticedAt": "2026-11-26T10:04:59+00:00",
-      "practiceCount": 431,
+      "lastPracticedAt": "2026-11-26T19:35:39+00:00",
+      "practiceCount": 433,
       "proofPath": "evidence/github-repository-audit.json",
-      "proofSha256": "fbf599a2c5dda2c7d3165f598c6d65f5d39d13de4a53981bdd80bc7b284c87d8",
+      "proofSha256": "24a41d6ac65c57e3518b6af55fd466ef7f0214898ca4f4b6b5dcb416397aef66",
       "resourcesTested": [
         "https://github.com/0jre/runne",
         "https://github.com/0xMihirK/hercules-mcp",
@@ -74508,261 +74674,13 @@
         "https://github.com/jainimans/advanced-nlp-with-python-for-machine-learning",
         "https://github.com/janaagabr-ctrl/rag-architect-challenge",
         "https://github.com/janacibron/agentskills-modelcontextprotocol",
-        "https://github.com/Jangilishravan/ai-powered-testing-agent"
+        "https://github.com/Jangilishravan/ai-powered-testing-agent",
+        "https://github.com/janisrael/cortex-chatbot-",
+        "https://github.com/janos-gyorgy/exocortex"
       ]
-    },
-    {
-      "id": "dataset:DrBimmer/vehicle-classification",
-      "title": "Lire le dataset DrBimmer/vehicle-classification",
-      "status": "validated",
-      "validatedAt": "2026-11-26T10:05:14+00:00",
-      "proofPath": "evidence/hf-dataset-sample-ingestion-v1.json",
-      "proofSha256": "5fa5a2bc95d8495bb4dad7b69c0e47beb73413dc8de70bd9daf24288d0104f8e",
-      "resourcesTested": [
-        "https://huggingface.co/datasets/DrBimmer/vehicle-classification"
-      ],
-      "practiceCount": 1,
-      "handler": "hf-dataset-sample-readonly",
-      "scope": "read-only-dataset-sampling",
-      "call": {
-        "tool": "novens_capabilities_invoke",
-        "capability_id": "dataset:DrBimmer/vehicle-classification"
-      }
     }
   ],
   "capabilityTrials": [
-    {
-      "date": "2026-11-20T08:33:36+00:00",
-      "skillId": "github-repository-technical-audit-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 393,
-      "failures": [
-        {
-          "repository": "janessa2297/make-automation-projects",
-          "reason": "ValueError"
-        },
-        {
-          "repository": "janessa2297/zapier-automation-projects",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-20T08:33:39+00:00",
-      "skillId": "hf-model-task-classification-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 302,
-      "failures": [
-        {
-          "id": "agentionai/Signal-3.8-Flash-Next-GGUF",
-          "reason": "ValueError"
-        },
-        {
-          "id": "agentlans/ai-human-alignment",
-          "reason": "ValueError"
-        },
-        {
-          "id": "agentlans/SmolLM2-135M-multilingual-base",
-          "reason": "ValueError"
-        },
-        {
-          "id": "agents-course/notebooks",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Agentware/d3-mini-calibrated-gguf",
-          "reason": "ValueError"
-        },
-        {
-          "id": "ahmad123/distilbert-base-uncased-finetuned-text_classification",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Ahmade/text_to_textgenerationv1",
-          "reason": "ValueError"
-        },
-        {
-          "id": "AhmedOkasha/ChestVision-Fine-Tuned-Vision-Language-Model",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-20T08:33:39+00:00",
-      "skillId": "hf-dataset-usage-assessment-v1",
-      "result": "reinforced",
-      "reportsPassed": 1,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 194,
-      "failures": [
-        {
-          "id": "Maurus/ToolBench",
-          "reason": "ValueError"
-        },
-        {
-          "id": "MaxDevv/real-pi-coding-agent-traces-sessions",
-          "reason": "ValueError"
-        },
-        {
-          "id": "MaziyarPanahi/Jev-Agent-Tool-Decisions-180K",
-          "reason": "ValueError"
-        },
-        {
-          "id": "MaziyarPanahi/Jev-Agent-Trace-Audit-100K",
-          "reason": "ValueError"
-        },
-        {
-          "id": "McGill-NLP/agent-reward-bench",
-          "reason": "JSONDecodeError"
-        },
-        {
-          "id": "mdahba/noor_professional_accounting",
-          "reason": "ValueError"
-        },
-        {
-          "id": "mesolitica/google-image-malaysian-vehicle-dedup",
-          "reason": "ValueError"
-        },
-        {
-          "id": "mesolitica/google-image-malaysian-vehicle-synthetic-qa",
-          "reason": "ValueError"
-        },
-        {
-          "id": "michsethowusu/bambara-french_sentence-pairs",
-          "reason": "ValueError"
-        },
-        {
-          "id": "michsethowusu/french-fulah_sentence-pairs",
-          "reason": "ValueError"
-        },
-        {
-          "id": "michsethowusu/french-lingala_sentence-pairs",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Mikivis/AgentPlanningbBenchmark",
-          "reason": "ValueError"
-        },
-        {
-          "id": "mikuhhn1239/novel-agent-sft-dataset",
-          "reason": "JSONDecodeError"
-        },
-        {
-          "id": "Minbyul/AgentMercury-corpus-all",
-          "reason": "ValueError"
-        },
-        {
-          "id": "mlx-community/hermes-reasoning-tool-use",
-          "reason": "ValueError"
-        },
-        {
-          "id": "Mme-Box/vehicles",
-          "reason": "ValueError"
-        },
-        {
-          "id": "molmohsen/awesome-ai-agent-papers",
-          "reason": "ValueError"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-20T08:33:39+00:00",
-      "skillId": "hf-space-runtime-diagnostics-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "totalVerifiedExercises": 420,
-      "failures": []
-    },
-    {
-      "date": "2026-11-20T08:33:43+00:00",
-      "skillId": "hf-dataset-sample-ingestion-v1",
-      "result": "reinforced",
-      "reportsPassed": 2,
-      "reportsRequired": 1,
-      "failedResources": [
-        {
-          "id": "danigunawan/invoices-donut-data-v1",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "DataStudio/OCR_documents_bluir_part_01",
-          "error": "HTTPError",
-          "detail": "HTTP Error 401: Unauthorized"
-        },
-        {
-          "id": "DatoricAI/computer-use-agent-traces-250k",
-          "error": "HTTPError",
-          "detail": "HTTP Error 401: Unauthorized"
-        },
-        {
-          "id": "deansmile123/Agentic_SLAM",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "DeepNLP/Multi-Agents-Parallel-Orchestration-Dataset",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "DeepNLP/software-testing-ai-agent",
-          "error": "TimeoutError",
-          "detail": "The read operation timed out"
-        },
-        {
-          "id": "devjirawat8/Air_Vehicle",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "dmayhem93/toolformer_raw_v0",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "earakely-scale/AirOpsEnv-AgentEnv",
-          "error": "ValueError",
-          "detail": "Réponse trop volumineuse"
-        },
-        {
-          "id": "echo4eva/vehicles",
-          "error": "HTTPError",
-          "detail": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "id": "electricsheepasia/asia-owid-countries-using-the-system-of-environmental-economic-accounting",
-          "error": "ValueError",
-          "detail": "Schéma de colonnes invalide"
-        },
-        {
-          "id": "electricsheepeurope/europe-owid-countries-using-the-system-of-environmental-economic-accounting",
-          "error": "ValueError",
-          "detail": "Schéma de colonnes invalide"
-        },
-        {
-          "id": "eugenetanjc/speech_accent_1000_french",
-          "error": "TimeoutError",
-          "detail": "The read operation timed out"
-        },
-        {
-          "id": "Exgentic/agent-llm-traces",
-          "error": "ValueError",
-          "detail": "Réponse trop volumineuse"
-        },
-        {
-          "id": "Exgentic/agent-llm-traces-v2",
-          "error": "ValueError",
-          "detail": "Réponse trop volumineuse"
-        }
-      ],
-      "totalVerifiedExercises": 374
-    },
     {
       "date": "2026-11-20T17:15:56+00:00",
       "skillId": "github-repository-technical-audit-v1",
@@ -80075,25 +79993,367 @@
         }
       ],
       "totalVerifiedExercises": 394
+    },
+    {
+      "date": "2026-11-26T19:35:39+00:00",
+      "skillId": "github-repository-technical-audit-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 433,
+      "failures": [
+        {
+          "repository": "jagadishk112002-boop/suvarna-store",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "jahnavi-sh/Database_Design_Car_Rental_Business",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "JaimeenMakavana/prompts-registry",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "jaindik/mcpfolio",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "Jakpot23/Pay-As-You-Go",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "jamesh716/dropship-automation-tool",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "janessa2297/make-automation-projects",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "janessa2297/zapier-automation-projects",
+          "reason": "ValueError"
+        },
+        {
+          "repository": "janinelurenana/banking-fraud-detection-analytics",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26T19:35:47+00:00",
+      "skillId": "hf-model-task-classification-v1",
+      "result": "no-new-evidence",
+      "reportsPassed": 0,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 310,
+      "failures": [
+        {
+          "id": "Agentware/d3-mini-calibrated-gguf",
+          "reason": "ValueError"
+        },
+        {
+          "id": "ahmad123/distilbert-base-uncased-finetuned-text_classification",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Ahmade/text_to_textgenerationv1",
+          "reason": "ValueError"
+        },
+        {
+          "id": "AhmedOkasha/ChestVision-Fine-Tuned-Vision-Language-Model",
+          "reason": "ValueError"
+        },
+        {
+          "id": "airun-ai/GlanceRAG-MiMo-9B-Reranker",
+          "reason": "ValueError"
+        },
+        {
+          "id": "akanksha-b14/songs-transcription-2",
+          "reason": "ValueError"
+        },
+        {
+          "id": "akanksha-b14/songs_transcription_wav2vec_base2",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Akash212/multicorpus-hate-speech-ensemble",
+          "reason": "ValueError"
+        },
+        {
+          "id": "akdeniz27/bert-turkish-text-classification",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Akhror/autotrain-text-classification-kunuz-1630257501",
+          "reason": "ValueError"
+        },
+        {
+          "id": "akilesh96/autonlp-mrcooper_text_classification-529614927",
+          "reason": "ValueError"
+        },
+        {
+          "id": "aleemssg/Qwen3-1.7B-Tool-Agent",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Algon-33/The_Wandering_Inn_Text_Generation",
+          "reason": "ValueError"
+        },
+        {
+          "id": "alibaba-pai/AgenticQwen-30B-A3B",
+          "reason": "ValueError"
+        },
+        {
+          "id": "alibaba-pai/AgenticQwen-8B",
+          "reason": "ValueError"
+        },
+        {
+          "id": "alibidaran/medical_transcription_generator",
+          "reason": "ValueError"
+        },
+        {
+          "id": "alina1997/de_en_translation",
+          "reason": "ValueError"
+        },
+        {
+          "id": "alina1997/en_de_translation",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26T19:35:47+00:00",
+      "skillId": "hf-dataset-usage-assessment-v1",
+      "result": "no-new-evidence",
+      "reportsPassed": 0,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 207,
+      "failures": [
+        {
+          "id": "mlx-community/hermes-reasoning-tool-use",
+          "reason": "ValueError"
+        },
+        {
+          "id": "Mme-Box/vehicles",
+          "reason": "ValueError"
+        },
+        {
+          "id": "molmohsen/awesome-ai-agent-papers",
+          "reason": "ValueError"
+        },
+        {
+          "id": "morzel85/synthetic-medical-document-recognition-benchmark",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "id": "moumeneb1/French_arpa_lm",
+          "reason": "ValueError"
+        },
+        {
+          "id": "mtyrrell/NDC_documents_master",
+          "reason": "ValueError"
+        },
+        {
+          "id": "mychen76/invoices-and-receipts_ocr_v1",
+          "reason": "ValueError"
+        },
+        {
+          "id": "mychen76/invoices-and-receipts_ocr_v2",
+          "reason": "ValueError"
+        },
+        {
+          "id": "n1ghtf4l1/Agentic-Diagnostic-Reasoning-with-Multimodal-SLMs-via-Reinforcement-Learning",
+          "reason": "ValueError"
+        },
+        {
+          "id": "nateraw/documentation-images",
+          "reason": "ValueError"
+        },
+        {
+          "id": "nbalepur/expository_documents_wiki",
+          "reason": "ValueError"
+        },
+        {
+          "id": "nepalprabin/youtube-transcriptions",
+          "reason": "ValueError"
+        },
+        {
+          "id": "neulab/agent-data-collection",
+          "reason": "ValueError"
+        },
+        {
+          "id": "nicolas-devatine/qa-accounting-edits",
+          "reason": "ValueError"
+        },
+        {
+          "id": "nitesh-sawadia/invoice_layoutlmv3",
+          "reason": "ValueError"
+        },
+        {
+          "id": "NitishKarra/invoice-bills",
+          "reason": "ValueError"
+        },
+        {
+          "id": "NLPC-UOM/document_alignment_dataset-Sinhala-Tamil-English",
+          "reason": "ValueError"
+        },
+        {
+          "id": "numpy25/invoice_images",
+          "reason": "ValueError"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26T19:35:47+00:00",
+      "skillId": "hf-space-runtime-diagnostics-v1",
+      "result": "reinforced",
+      "reportsPassed": 2,
+      "reportsRequired": 1,
+      "totalVerifiedExercises": 460,
+      "failures": [
+        {
+          "id": "muddasser/Memory_Augmented_RAG",
+          "reason": "HTTPError"
+        },
+        {
+          "id": "nezuhub/ai-agent",
+          "reason": "HTTPError"
+        },
+        {
+          "id": "NITISHRG15102007/rag-context-optimizer",
+          "reason": "JSONDecodeError"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26T19:35:53+00:00",
+      "skillId": "hf-dataset-sample-ingestion-v1",
+      "result": "no-new-evidence",
+      "reportsPassed": 0,
+      "reportsRequired": 1,
+      "failedResources": [
+        {
+          "id": "devadilbashir/vehicle-classification",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "devjirawat8/Air_Vehicle",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "dmayhem93/toolformer_raw_v0",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "earakely-scale/AirOpsEnv-AgentEnv",
+          "error": "ValueError",
+          "detail": "Réponse trop volumineuse"
+        },
+        {
+          "id": "echo4eva/vehicles",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "electricsheepasia/asia-owid-countries-using-the-system-of-environmental-economic-accounting",
+          "error": "ValueError",
+          "detail": "Schéma de colonnes invalide"
+        },
+        {
+          "id": "electricsheepeurope/europe-owid-countries-using-the-system-of-environmental-economic-accounting",
+          "error": "ValueError",
+          "detail": "Schéma de colonnes invalide"
+        },
+        {
+          "id": "eugenetanjc/speech_accent_1000_french",
+          "error": "ValueError",
+          "detail": "Réponse trop volumineuse"
+        },
+        {
+          "id": "Exgentic/agent-llm-traces",
+          "error": "ValueError",
+          "detail": "Réponse trop volumineuse"
+        },
+        {
+          "id": "Exgentic/agent-llm-traces-v2",
+          "error": "ValueError",
+          "detail": "Réponse trop volumineuse"
+        },
+        {
+          "id": "FineEnvs/data-agent-harbor-train",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "fox7005/tool",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "FreedomIntelligence/MMLU_French",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "french-open-data/affichage-legal-de-la-ville-et-de-l-eurometropole-de-strasbourg",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "french-open-data/comptes-des-associations-fichier-reformate",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "french-open-data/denombrement-annuel-des-usagers-des-urssaf-par-organisme-de-gestion",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "french-open-data/denombrement-annuel-des-usagers-des-urssaf-par-region",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "french-open-data/nombre-annuel-de-delais-de-paiement-octroyes-par-les-urssaf",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "french-open-data/resultats-de-l-activite-du-controle-et-de-prevention-par-les-urssaf",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "id": "french-open-data/resultats-de-la-lutte-contre-le-travail-dissimule-par-les-urssaf",
+          "error": "HTTPError",
+          "detail": "HTTP Error 500: Internal Server Error"
+        }
+      ],
+      "totalVerifiedExercises": 394
     }
   ],
   "lastCapabilityVerification": {
-    "date": "2026-11-26T10:05:14+00:00",
+    "date": "2026-11-26T19:35:53+00:00",
     "skillId": "hf-dataset-sample-ingestion-v1",
-    "result": "reinforced"
+    "result": "no-new-evidence"
   },
   "discovery": {
-    "cursor": 229,
+    "cursor": 230,
     "capacity": 20000,
-    "lastBatch": 66,
+    "lastBatch": 20,
     "newByCategory": {
-      "github": 50,
-      "models": 0,
-      "datasets": 4,
-      "spaces": 12
+      "github": 16,
+      "models": 1,
+      "datasets": 3,
+      "spaces": 0
     },
     "queriesLastRun": 7,
-    "totalSearchCycles": 229,
+    "totalSearchCycles": 230,
     "lastErrors": []
   },
   "approvedResources": [
