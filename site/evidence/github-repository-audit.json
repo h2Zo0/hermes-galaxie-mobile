@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-26T01:46:17+00:00",
+  "lastPracticedAt": "2026-11-26T10:04:59+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -7199,6 +7199,36 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-11-17T15:47:08Z"
+    },
+    {
+      "repository": "janacibron/agentskills-modelcontextprotocol",
+      "url": "https://github.com/janacibron/agentskills-modelcontextprotocol",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 92.55,
+      "languageBytes": {
+        "Python": 59199,
+        "Mermaid": 4762
+      },
+      "totalLanguageBytes": 63961,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-10-28T07:16:06Z"
+    },
+    {
+      "repository": "Jangilishravan/ai-powered-testing-agent",
+      "url": "https://github.com/Jangilishravan/ai-powered-testing-agent",
+      "defaultBranch": "main",
+      "primaryLanguage": "HTML",
+      "primaryLanguageSharePercent": 56.01,
+      "languageBytes": {
+        "HTML": 146048,
+        "Python": 114689
+      },
+      "totalLanguageBytes": 260737,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-10T08:44:50Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
