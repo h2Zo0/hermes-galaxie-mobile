@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-25T18:11:20+00:00",
+  "lastPracticedAt": "2026-11-26T01:46:17+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -7168,6 +7168,37 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-06-03T03:54:48Z"
+    },
+    {
+      "repository": "jainimans/advanced-nlp-with-python-for-machine-learning",
+      "url": "https://github.com/jainimans/advanced-nlp-with-python-for-machine-learning",
+      "defaultBranch": "main",
+      "primaryLanguage": "Jupyter Notebook",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Jupyter Notebook": 4040383
+      },
+      "totalLanguageBytes": 4040383,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-11-25T15:13:20Z"
+    },
+    {
+      "repository": "janaagabr-ctrl/rag-architect-challenge",
+      "url": "https://github.com/janaagabr-ctrl/rag-architect-challenge",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageSharePercent": 70.49,
+      "languageBytes": {
+        "TypeScript": 34204,
+        "CSS": 12474,
+        "JavaScript": 969,
+        "HTML": 879
+      },
+      "totalLanguageBytes": 48526,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-11-17T15:47:08Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."
