@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-27T02:23:59+00:00",
+  "lastPracticedAt": "2026-11-27T11:15:13+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -7296,6 +7296,39 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-11-25T19:07:18Z"
+    },
+    {
+      "repository": "jashankish/local-legal-ai",
+      "url": "https://github.com/jashankish/local-legal-ai",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 76.14,
+      "languageBytes": {
+        "Python": 595757,
+        "JavaScript": 133185,
+        "Shell": 27806,
+        "CSS": 16052,
+        "HTML": 8154,
+        "Dockerfile": 1452
+      },
+      "totalLanguageBytes": 782406,
+      "archived": false,
+      "starsAtTest": 7,
+      "pushedAt": "2026-10-27T04:20:57Z"
+    },
+    {
+      "repository": "JashanpreetSingh07/Fraudguard-ai",
+      "url": "https://github.com/JashanpreetSingh07/Fraudguard-ai",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 222892
+      },
+      "totalLanguageBytes": 222892,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-09-27T05:01:41Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

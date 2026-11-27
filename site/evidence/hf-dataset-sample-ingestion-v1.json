@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-26T10:05:14+00:00",
+  "lastPracticedAt": "2026-11-27T11:15:25+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -8021,6 +8021,52 @@
       "rowCount": 3,
       "sampleSha256": "5ebbceb9d5af5a2047070d164eea486ce3ade5dc8576ce612bb061a15a7dc203",
       "observedAt": "2026-11-26T10:05:14+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "davinci-prover/agentic-prover-SFT",
+      "source": "https://huggingface.co/datasets/davinci-prover/agentic-prover-SFT",
+      "config": "messages",
+      "split": "train",
+      "columns": [
+        "id",
+        "lean_version",
+        "mathlib_commit",
+        "messages",
+        "metadata",
+        "num_assistant_turns",
+        "num_tool_calls",
+        "problem_id",
+        "source_files",
+        "task_id",
+        "teacher_model",
+        "theorem_statement",
+        "tools"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "6eff981073bc0f5825047f5c5c71d85eb1d2a9ee593512fb6a267f0fde377523",
+      "observedAt": "2026-11-27T11:15:25+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "DeepNLP/Coding-Agent-Github-2025-Feb",
+      "source": "https://huggingface.co/datasets/DeepNLP/Coding-Agent-Github-2025-Feb",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "description",
+        "repo_name",
+        "repo_star",
+        "repo_type",
+        "update",
+        "url",
+        "user_name"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "9b3d1fb446fb74e071760a7c7093186f8d2df6b216aea604cf8d0f934df98728",
+      "observedAt": "2026-11-27T11:15:25+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
