@@ -3,7 +3,7 @@
   "title": "Diagnostiquer le runtime de démonstrations IA",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:45+00:00",
-  "lastPracticedAt": "2026-11-26T19:35:47+00:00",
+  "lastPracticedAt": "2026-11-27T02:24:06+00:00",
   "challenge": "Diagnostiquer 2 Spaces distincts, leur SDK déclaré et leur stade d'exécution fourni par l'API.",
   "method": "API Hugging Face spaces, sdk/cardData et runtime.stage; état observé à un instant donné",
   "scope": "Diagnostic déclaratif du runtime, pas test d'interaction avec le produit ni garantie de disponibilité future.",
@@ -4144,6 +4144,24 @@
       "id": "opencompass/openvlm_video_leaderboard",
       "source": "https://huggingface.co/spaces/opencompass/openvlm_video_leaderboard",
       "observedAt": "2026-11-26T19:35:47+00:00",
+      "sdk": "gradio",
+      "runtimeStage": "RUNNING",
+      "availableNow": true,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "openfree/PDF-RAG",
+      "source": "https://huggingface.co/spaces/openfree/PDF-RAG",
+      "observedAt": "2026-11-27T02:24:06+00:00",
+      "sdk": "docker",
+      "runtimeStage": "BUILD_ERROR",
+      "availableNow": false,
+      "note": "La disponibilité est un instantané, pas une promesse de service"
+    },
+    {
+      "id": "OpenKing/wan2-video-generation",
+      "source": "https://huggingface.co/spaces/OpenKing/wan2-video-generation",
+      "observedAt": "2026-11-27T02:24:06+00:00",
       "sdk": "gradio",
       "runtimeStage": "RUNNING",
       "availableNow": true,
