@@ -3,7 +3,7 @@
   "title": "Analyser techniquement un dépôt GitHub public",
   "status": "validated",
   "testedAt": "2026-10-27T12:30:54+00:00",
-  "lastPracticedAt": "2026-11-27T11:15:13+00:00",
+  "lastPracticedAt": "2026-11-27T20:03:26+00:00",
   "challenge": "Auditer plusieurs dépôts publics découverts, identifier leur langage dominant et calculer sa part réelle.",
   "method": "GET /repos/{owner}/{repo} et /languages via api.github.com; calcul local vérifié",
   "checksPassed": true,
@@ -7329,6 +7329,35 @@
       "archived": false,
       "starsAtTest": 0,
       "pushedAt": "2026-09-27T05:01:41Z"
+    },
+    {
+      "repository": "JashSolanki1503/Fake_Account_Detection_and_Risk_Analysis_System",
+      "url": "https://github.com/JashSolanki1503/Fake_Account_Detection_and_Risk_Analysis_System",
+      "defaultBranch": "main",
+      "primaryLanguage": "Jupyter Notebook",
+      "primaryLanguageSharePercent": 99.48,
+      "languageBytes": {
+        "Jupyter Notebook": 3157225,
+        "Python": 16581
+      },
+      "totalLanguageBytes": 3173806,
+      "archived": false,
+      "starsAtTest": 1,
+      "pushedAt": "2026-03-31T09:15:49Z"
+    },
+    {
+      "repository": "jashwanthega0719-creator/Audio-E-book-reader",
+      "url": "https://github.com/jashwanthega0719-creator/Audio-E-book-reader",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "primaryLanguageSharePercent": 100.0,
+      "languageBytes": {
+        "Python": 1468
+      },
+      "totalLanguageBytes": 1468,
+      "archived": false,
+      "starsAtTest": 0,
+      "pushedAt": "2026-07-18T11:54:12Z"
     }
   ],
   "scope": "Lecture et analyse de métadonnées GitHub, sans exécuter de code tiers."

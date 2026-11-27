@@ -3,7 +3,7 @@
   "title": "Lire et contrôler des échantillons de datasets publics",
   "status": "validated",
   "testedAt": "2026-10-27T13:09:46+00:00",
-  "lastPracticedAt": "2026-11-27T11:15:25+00:00",
+  "lastPracticedAt": "2026-11-27T20:03:32+00:00",
   "method": "Datasets Server splits + rows; exercice réel de normalisation JSON",
   "challenge": "Lire effectivement 2 datasets, contrôler leurs schémas, calculer une empreinte sans conserver leurs données",
   "checksPassed": true,
@@ -8067,6 +8067,48 @@
       "rowCount": 3,
       "sampleSha256": "9b3d1fb446fb74e071760a7c7093186f8d2df6b216aea604cf8d0f934df98728",
       "observedAt": "2026-11-27T11:15:25+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "christianengel/toolrank-api-holdout",
+      "source": "https://huggingface.co/datasets/christianengel/toolrank-api-holdout",
+      "config": "corpus",
+      "split": "test",
+      "columns": [
+        "_id",
+        "input_schema_json",
+        "provider",
+        "text",
+        "title"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "faed98918453699e2006734a5ea1aea2878cd3e193bfda0626e93a718e64b59c",
+      "observedAt": "2026-11-27T20:03:32+00:00",
+      "approvedFor": "read-only-dataset-sampling",
+      "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
+    },
+    {
+      "id": "coderlonely/agent-trajectory-sentinel",
+      "source": "https://huggingface.co/datasets/coderlonely/agent-trajectory-sentinel",
+      "config": "default",
+      "split": "train",
+      "columns": [
+        "T",
+        "corpus",
+        "episode_id",
+        "failure_class",
+        "has_logprobs",
+        "metadata",
+        "model",
+        "n_steps",
+        "steps",
+        "tau",
+        "uid"
+      ],
+      "rowCount": 3,
+      "sampleSha256": "13a77bf242cd9795bfdad5c027506e00ad8db7895be035b804d874c1630ba670",
+      "observedAt": "2026-11-27T20:03:32+00:00",
       "approvedFor": "read-only-dataset-sampling",
       "limitations": "Lecture API d'échantillons, contrôles de schéma en environnement isolé; ni entraînement de modèle ni réutilisation commerciale garantie"
     }
